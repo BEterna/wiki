@@ -3,11 +3,7 @@
 ## Features
 
 ## Roadmap
-
- Feature | Planned
- -|-
- f1 | 2019 Fall
-
+View [Roadmap](Roadmap.md)
 
 -------------
 [Adacta Group](https://www.adacta-group.com/solutions/erp)
