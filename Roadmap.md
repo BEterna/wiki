@@ -2,4 +2,4 @@
 
  Feature | Planned
  -|-
- f1 | 2019 Fall
+ f1 | 2019 Fall.
