@@ -16,8 +16,10 @@ Feature list is available on following link. Features are grouped into Core, Ext
 3. **_Suite_** features: 
     * Independent Adacta add-ons. 
 
-## Roadmap
-View [Roadmap](Roadmap.md)
+## **Roadmap**
+
+[Roadmap](Roadmap.md) is being prepared and will be available soon.
+
 
 -------------
 [Adacta Group](https://www.adacta-group.com/solutions/erp) 
