@@ -1,5 +1,3 @@
-VAT reporting for Adriatic region needs to be done according to VAT date and not Transaction date (as standard). This is why several enhancements were added as part of Core localization pack. 
-
 ## **Additional dates for VAT reporting purposes** ##
 -----
  
