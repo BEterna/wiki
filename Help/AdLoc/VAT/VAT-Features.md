@@ -1,7 +1,7 @@
 ## **Additional dates for VAT reporting purposes** ##
 -----
 
-For VAT reporting purposes following dates are added to several documents:
+For VAT reporting purposes following dates are added to several documents (listed below). 
 
 * VAT date
 * VAT Payable date
@@ -40,9 +40,10 @@ Localization functionality allows posting Sales credit memos without VAT date in
 [Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_HR_Postponed%20VAT%20on%20Sales%20credit%20memo.docx?Web=1)
 
 
+## **Informative VAT calculation** ##
+-----
 
-
-
+An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value need to be calculated and later added to invoice printout or other documents.
 
 
 
