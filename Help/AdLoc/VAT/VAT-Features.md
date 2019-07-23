@@ -23,4 +23,7 @@ VAT date is also added to Tax transactions and is generated automatically when p
 
 Additional setup is available for VAT date and VAT Payable date calculation. VAT date validation is also added. If VAT date is missing, posting of such document will result in error.
 
-An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value need to be calculated and later added to invoice printout or other documents.
+
+
+
+
