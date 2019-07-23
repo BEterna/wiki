@@ -1,5 +1,7 @@
 This topic provides country/region-specific information about how to set up and create the sales tax declaration for legal entities in Slovenia only. In order to comply with the Slovenian legislation, adequate reports regarding the sales tax need are for Slovenia in terms of this localization feature and are further described below.
 
+Sales tax reporting codes for Slovenia are added as par of Slovenian report Layout and used for reports listed below.
+
 ## **DDV-O (Obračun DDV)** ##
 -----
 
