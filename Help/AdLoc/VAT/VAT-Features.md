@@ -53,4 +53,4 @@ Localization functionality allows posting Sales credit memos without VAT date in
 
 An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value need to be calculated and later added to invoice printout or other documents.
 
-
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_VAT%20features.docx?Web=1)
