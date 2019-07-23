@@ -1,3 +1,9 @@
+This topic provides country/region-specific information about the localized VAT features, developed with a purpose to comply with the local legislation and tax authorities of Slovenia, Croatia, Serbia and Northern Macedonia. According to the adequate local legislation (e.g. ZDDV-1 in case of Slovenia), a taxable event occurs when goods/services are received/delivered or when goods are imported in case of goods from other EU countries, while multiple exceptions exist. 
+
+As part of standard D365FO tax transactions are posted and reported according to transaction posting date, which is not aligned with the local legal requirements, by which VAT reporting date can be different from Transaction date. Therefore, additional VAT features were added.
+
+
+
 ## **Additional dates for VAT reporting purposes** ##
 -----
 
