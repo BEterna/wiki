@@ -1,13 +1,17 @@
 This topic provides country/region-specific information about how to set up and create the sales tax declaration for legal entities in Slovenia only. In order to comply with the Slovenian legislation, adequate reports regarding the sales tax need are for Slovenia in terms of this localization feature and are further described below.
 
-**DDV-O (Obračun DDV)** 
----
+## **DDV-O (Obračun DDV)** ##
+-----
+
 
 is a Slovenian sales tax return report. Every taxable person identified for VAT purposes in Slovenia is obliged to submit a VAT return to the Slovenian tax authority. DDV-O should include all the required VAT return settings, with the information needed to calculate the sales tax  and applicable deduction to be made including the total value of transactions relating to such tax and deductions. Additionally, the value of any exempt transactions should be included. Taxable entities have to submit the tax return to the tax authority by the last business day of the month, which follows  the expiry of the tax period, while Slovenian laws also allows multiple exceptions. VAT tax return (DDV-O) needs to be submitted electronically via the eDavki portal of the Slovenian tax authority (FURS).
 
 DDV-O is prepared based on Tax transactions and according to VAT date. DDV-O can also be previewed (html) and exported to XML file
 
-**List of incoming (PR) and outgoing (IR) invoices**
+
+
+## **List of incoming (PR) and outgoing (IR) invoices** ##
+-----
 
 A taxable person filing a VAT return (DDV-O) for the first time must attach a list of the incoming (PR) and outgoing (IR) invoices that served as the basis for preparing the VAT return. These two lists must also be available to be sent to the Slovenian tax authority if required directly by the authority and therefore need to be available to be extracted from the ERP.
 
