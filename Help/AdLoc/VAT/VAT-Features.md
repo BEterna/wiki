@@ -47,6 +47,11 @@ Localization functionality allows posting Sales credit memos without VAT date in
 
 [Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_HR_Postponed%20VAT%20on%20Sales%20credit%20memo.docx?Web=1)
 
+## **Reporting Tab on Tax transaction** ##
+-----
+As part of localization, additional “Reporting” tab is added to Tax transactions. It displays information, such as Customer/Vendor, Address, Tax exempt number, Document, Document date and Document receipt date. This information is used on VAT reports. 
+
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_VAT%20features.docx?Web=1)
 
 ## **Informative VAT calculation** ##
 -----
