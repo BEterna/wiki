@@ -1,12 +1,4 @@
-## **Change VAT date on Tax Transaction** ##
-------
 
-VAT date on posted sales tax transaction can be changed manually in General ledger/Tax/Inquiries and reports/Sales tax inquiries/Posted sales tax. This can be done by using function Change VAT date. 
+Localization functionality allows posting Sales credit memos without VAT date in order be compliant with Croatian and Serbian legislation. If the feature is enabled, VAT date on tax transaction is left empty, and these documents are not included in any VAT reports. Later, when Credit note is confirmed by Customer, VAT date can be added manually, directly to Tax transaction, using VAT date change feature. 
 
-New form opens where new VAT date can be entered. If period is closed for posting, error is returned.  VAT date is then changed on Tax transaction and Invoice journal.
-
-![image Info](https://ad365o.visualstudio.com/AdLoc/_git/AboutAdLoc.workdoc?path=%2FHelp%2FAdLoc&version=GBmaster&_a=contents/VAT1.png "Image Description")
-
-![TaxTrans List](VAT1.png)
-
-![TaxTrans List2](VAT2.png)
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_HR_Postponed%20VAT%20on%20Sales%20credit%20memo.docx?Web=1)
