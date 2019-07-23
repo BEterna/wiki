@@ -54,7 +54,8 @@ Localization functionality allows posting Sales credit memos without VAT date in
 An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value need to be calculated and later added to invoice printout or other documents.
 
 
+## **Taxable persons list** ##
+-----
 
-
-
+A taxable persons list is added in scope of Slovenian and Croatian localization. Slovenian lists stores information, such as: tax registration number, company registration number, taxable person type, name, address and special handling (e.g. 76.a ZDDV-1) checkmark, while Croatian lists stores the following information: OIB, identification number, type and name.
 
