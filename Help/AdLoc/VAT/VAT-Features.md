@@ -1,14 +1,16 @@
 ## **Additional dates for VAT reporting purposes** ##
 -----
 
-For VAT reporting purposes following dates are added to several documents (listed below). 
+All VAT reporting for Slovenia, Croatia and Serbia needs to be performed according to VAT date and not Transaction date (which is how standard functionality for Tax reporting works). For VAT reporting purposes following dates are added to several documents: 
 
 * VAT date
 * VAT Payable date
-* Document Receipt date
+* Document Receipt date (used for defaulting VAT date)
 <br/><br/>
 
-VAT date is also added to Tax transactions and is generated automatically when posting following documents with sales tax:
+VAT date and VAT Payable date (when populated) are transferred to VAT date field (additional localized field) on Tax transaction as result of document posting. 
+
+List of documents where additional VAT date fields are enabled:
 
 1.	_Pending Vendor Invoice_:  VAT date, VAT Payable date, Document Receipt date
 2.	_Invoice Journal_:   VAT date, VAT Payable date, Document Receipt date
