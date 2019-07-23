@@ -1,6 +1,13 @@
 ## **Additional dates for VAT reporting purposes** ##
 -----
 
-VAT date, VAT Payable date and Document receipt date are added to Tax transactions when posting transactions in  D365O. These fields are also added to sales and purchase documents (see full list of documents and corresponding VAT dates by following the link below). Additional setup is available for VAT date and VAT Payable date calculation. VAT date validation is also added. If VAT date is missing, posting of such document is disabled.
+For VAT reporting purposes following dates are added to several documents:
+
+* VAT date
+* VAT Payable date
+* Document Receipt date
+<br/><br/>
+
+ Additional setup is available for VAT date and VAT Payable date calculation. VAT date validation is also added. If VAT date is missing, posting of such document is disabled.
 
 An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value need to be calculated and later added to invoice printout or other documents.
