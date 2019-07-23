@@ -24,6 +24,14 @@ VAT date is also added to Tax transactions and is generated automatically when p
 Additional setup is available for VAT date and VAT Payable date calculation. VAT date validation is also added. If VAT date is missing, posting of such document will result in error.
 
 
+## **VAT Date change** ##
+-----
+
+VAT date can be manually changed on posted Sales tax transaction by using function “Change VAT date”. VAT date is then changed on both - Tax transaction and Invoice journal. VAT date change for the period that is closed for posting is not possible and will result in an error.
+DETAILS: http://axweb/D365O%20Localization%20Documents/D365O%20LOC_VAT%20features.docx?Web=1
+
+
+
 
 
 
