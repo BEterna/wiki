@@ -14,7 +14,7 @@ All VAT reporting for Slovenia, Croatia and Serbia needs to be performed accordi
 * Document Receipt date (used for defaulting VAT date)
 <br/><br/>
 
-VAT date and VAT Payable date (when populated) are transferred to VAT date field (additional localized field) on Tax transaction as result of document posting. 
+VAT date and VAT Payable date (when populated) are transferred to VAT date field (additional localized field) on Tax transaction as result of document posting. This date is then used for VAT calculation and reporting.
 
 List of documents where additional VAT date fields are enabled:
 
