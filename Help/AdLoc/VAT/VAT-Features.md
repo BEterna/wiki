@@ -41,8 +41,6 @@ Localization functionality allows posting Sales credit memos without VAT date in
 
 
 
-If this feature is enabled, documents can be posted without VAT date.
-
 
 
 
