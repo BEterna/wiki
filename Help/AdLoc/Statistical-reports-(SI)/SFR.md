@@ -1,0 +1,5 @@
+SFR  (Statistics of financial accounts) is used for quarterly reporting of statistical financial accounts to Bank of Slovenia. Legal entities, obliged to reporting, are defined based on multiple criterion, defined in the Decision on reporting of data for the purpose of statistics on financial accounts, Official Gazette of the Republic of Slovenia, no. 106/2013. Report must include information about the balance of assets and liabilities on the financial accounts and information about the transactions and changes in the valuation of the financial assets and liabilities.
+This localization feature enables selecting the main accounts from which transactions will be included into SFR report, the setup selection of financial instruments, and sector codes. Report can be generated, reviewed and exported in an adequate XML format, accepted by the Bank of Slovenia.
+
+
+[Detailed documentation](http://axweb/_layouts/15/WopiFrame2.aspx?sourcedoc=/D365O%20Localization%20Documents/D365O%20LOC_SI%20Statistical%20reports.docx&action=default)
