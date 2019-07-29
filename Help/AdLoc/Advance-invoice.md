@@ -1,4 +1,5 @@
 This topic provides specific information regarding sales and purchase prepayment invoices in D365O, required to comply with the local legislation for countries in the Adriatic region.
+-----
 
 Local tax authorities require VAT eligible companies that receive/give prepayments and will not deliver/receive products or services within the same tax period to report VAT from the received/given prepayment transactions in the same period as the prepayment has been given/received. In order to comply with local legislation, purpose of this functionality is to enable posting the VAT from the received/given prepayments as soon as payments are posted.
 
