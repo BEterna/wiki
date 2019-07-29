@@ -1,0 +1,5 @@
+This topic provides country/region-specific information about additional Tax depreciation report, added with a purpose to comply with the Serbian legislation. Fixed assets that are subject to depreciation are classified according to groups and depreciation rates determined in Article 10, paragraph 3 of the Corporate Income Tax Law ("Official Gazette of RS", No. 25/01, 80/02, 80/02 - Law, 43/03, 84/04 and 18/10). Annual depreciation report of fixed assets, which consists of immovable and movable parts, should therefore be carried out by categorization of the assets into adequate depreciation groups.
+
+ To comply with Serbian legislation, this localization feature enables the preparation of an annual fixed asset depreciation report, based on the fixed asset depreciation groups, which can be specified in accordance with the legislation. Report can be exported to various formats.
+
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_RS%20Tax%20depreciation%20calculation%20report.docx?Web=1)
