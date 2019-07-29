@@ -2,4 +2,4 @@ This topic provides country/region-specific information about personal tax repor
 
 Serbian localization enables PPP-PD reporting in terms of personal income, tax, and contributions that Serbian legal entities are paying to employees and non-employees. In scope of this localized feature, personal tax for Cash and Non-cash incomes can be calculated and reported with PPP-PD report.
 
-Detailed documentation: N/A
+[Detailed documentation: N/A]()
