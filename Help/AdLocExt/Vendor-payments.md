@@ -44,3 +44,10 @@ This extended localization feature allows field “Payment purpose” on payment
 -----
 
 #Payment reference generation
+
+This topic provides country/region-specific information about the locally used Reference numbers, which are often mandatory information when making payments. Reference numbers need to be generated according to locally accepted formats. In order to simplify and automate Payment reference generation in an adequate form, this extended localization feature has been developed.
+
+This extended localization feature enables the automatic generation of payment references for vendor payments through vendor payment journal. Payment reference number is generated upon XML creation and captured in “Payment reference” field of each of the payment journal lines. Payment reference form depends on the XML export format.
+
+[Detailed localization](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Vendor%20Payments.docx?Web=1) (chapter 2.3)
+
