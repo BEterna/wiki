@@ -5,6 +5,6 @@ Feature enables users to perform fixed asset counting. Fixed asset counting list
 Upon the import, information about the counting user, time, location, fixed asset name and bar code are transferred to each fixed asset from the counting list. Additionally, surpluses and assets checked for write-off are automatically marked, while missing assets have to be marked manually. Lines can also be added manually, while imported lines can also still be edited, while in adequate status. When counting status is completed, locations from the scanned locations of each fixed asset are updated on D365O fixed asset register for each fixed asset. Additionally when in status “Completed”, write-off journal can be created automatically from fixed asset counting list. Assets marked either as “Missing” or “Write off” will be automatically added to the write off journal.
 
 
-Feature is part of a custom development in scope of the AdactaSuiteTravelAndExpenses AdSuite D365O extension packet.
+Feature is part of a custom development in scope of the AdactaSuiteFixedAssetManagement AdSuite D365O extension packet.
 
 [Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365_AdSuite_Fixed%20asset%20counting.docx?Web=1)
