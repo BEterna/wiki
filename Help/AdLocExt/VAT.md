@@ -19,3 +19,13 @@ This additional setup for defaulting VAT dates exists in the parameters of the f
 -----
 
 #Import of Slovenian taxable persons (SI)
+
+This extended localization feature enables the import of Slovenian taxpayers from Financial Administration of the Republic of Slovenia (FURS). Information like tax registration number, ID number (i.e. company registration number), taxable person type, name, and address of taxpayer, and the information whether partner is liable for Slovenian VAT or whether it has special handling based on 76.a article of ZDDV-1 can be recorded in the list.
+
+For import of taxpayers, it is necessary to insert the URLs of the documents on FURS web page. Links to the adequate documents are available in the document, linked below. After confirming, taxpayers are imported to Slovenian taxable persons. Upon using the feature, users can also choose, whether they want already imported information to be overwritten or only new taxable persons information should be imported. Additionally, this feature also allows for Tax exempt numbers table to be populated with the VAT IDs of the taxable persons, imported with the full taxable persons list from the Slovenian tax authority. 
+
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_Tax%20identification%20number.docx?Web=1) (chapter 1.7)
+
+-----
+
+#Update customer information based on Tax exempt number (SI)
