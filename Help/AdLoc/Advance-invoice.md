@@ -1,0 +1,1 @@
+This topic provides specific information regarding sales and purchase prepayment invoices in D365O, required to comply with the local legislation for countries in the Adriatic region.
