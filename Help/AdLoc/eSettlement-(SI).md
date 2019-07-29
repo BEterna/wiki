@@ -1,0 +1,8 @@
+This topic provides country/region-specific information about how to set up, create and process multilateral set-offs in scope of the Slovenian localisation.
+
+-----
+In Slovenia it is legally required (IV. Chapter of the ZPreZP-1) from debtors to report their overdue liabilities to vendors, with a goal to settle multilateral sett-offs. Reporting of the liabilities is done electronically via ePobot application of AJPES (Agency of the Republic of Slovenia for Public Legal Records and Related Services). Slovenian eSettlement offers a fast, safe, efficient and affordable way of settling the mutual liabilities between the legal entities, business entities registered in the Business Register of Slovenia (PRS). This system allows for monthly multilateral set-offs of reported mutual liabilities between legal entities, which can then be settled in the process.
+
+This localisation feature (SI) allows users to set up, process and export the generated eSettlement (ePobot) files. Transactions to be included in eSettlement are prepared through vendor payment journal from where they can be exported in an adequate XML file, supported by the ePobot application. When results of the e-settlement are known the non-compensated transactions from vendor payment journal should be deleted, while customer entries with which vendors’’ transactions have been settled with should be entered before posting the journal.
+
+[Detailed documentation](http://axweb/_layouts/15/WopiFrame2.aspx?sourcedoc=/D365O%20Localization%20Documents/D365O%20LOC_SI%20eSettlement.docx&action=default)
