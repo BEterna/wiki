@@ -1,1 +1,1 @@
-Core localization are features, which cover regulatory requirements for Slovenia, Croatia and Serbia. In this folder, core localization features are divided into several sections, based on the business context.
+**Core localization** is a combination of custom developed features, which enhance/change the functionality of standard D365O functionalities in order to cover the mandatory legislative business requirements for Slovenia, Croatia and Serbia. In this section, core localization features are divided into several sub-sections, based on the business context.
