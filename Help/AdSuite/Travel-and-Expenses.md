@@ -34,3 +34,12 @@ This feature enables cash advances to be mapped to travel requisitions. Travel r
 -----
 
 #Mass delegation
+
+Standard D365O functionality for delegating is extended with option to delegate a person for multiple Employees in one step. Mass delegation is enabled for Travel requisitions and Expense reports entry. As addition to standard delegation option, (person by person) this feature enables user to enter multiple delegates that belong to one department or Team. User, listed under Delegate, will be authorized to create Expense reports and Travel requisitions for all Employees that belong to Team/Department defined in field Team/Department.
+
+
+[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 7)
+
+-----
+
+#Per Diem enhancements
