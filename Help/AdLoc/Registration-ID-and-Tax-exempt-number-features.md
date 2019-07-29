@@ -7,3 +7,7 @@ In order to comply with locally used registration IDs (e.g. tax and identificati
 Standard functionality of Registration IDs is used for VAT ID, tax identification numbers, Company registration numbers and National identification numbers for Slovenia, Croatia and Serbia. Users can set up the registration IDs with the localized registration categories for customers, vendors, workers, and legal entities. Localization features are the additionally added registration categories, upon which also locally specific validation of format and structure is enabled.
 
 [Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_Tax%20identification%20number.docx?Web=1)
+
+-----
+
+#Tax exempt number validation (SI, HR)
