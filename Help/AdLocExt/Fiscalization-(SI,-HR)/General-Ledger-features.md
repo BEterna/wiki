@@ -1,6 +1,8 @@
-#Journalize tax as parent line
+This section, summarizes additional General Ledger features, which are part of the LOC_LEDGER extended localization package.
 
 -----
+
+#Journalize tax as parent line
 
 This extended localization functionality enables posting tax to the same offset account as the line from which the tax is derived. Journalizing tax as parent line is available only if posting definitions are enabled. If “Journalize tax as parent line” option is enabled, tax is always posted with the same offset account as the original line from which the tax is derived.
 
@@ -14,3 +16,5 @@ Functionality enables balancing Main account balance with Ledger account balance
 This extended localization feature enables a proposition for balancing General Ledger transactions from General journal. As result, journal lines with settlement proposals are generated. After journal is posted, balance on both, Ledger account and Main account, is zero.
 
 [Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Opening%20transactions.docx?Web=1)
+
+-----
