@@ -11,7 +11,7 @@ ELECTRONIC REPORTING FORMATS Localization provides adequate Intrastat report fil
 -----
 **INTRASTAT JOURNAL LINE STATUS**
 
-Another localization feature is line status of transactions included to the Intrastat journal. With the localization added status allows lines in Intrastat journal to be available for editing until line status remains “Open”. Additionally, transactions can be filtered based on this status.
+Another localized feature is line status of transactions included to the Intrastat journal. With the localization added status allows lines in Intrastat journal to be available for editing until line status remains “Open”. Additionally, transactions can be filtered based on this status.
 
 -----
 **REPORTING HISTORY**
