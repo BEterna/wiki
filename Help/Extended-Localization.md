@@ -1,0 +1,3 @@
+**Extended Localization** is a combination of custom developed features, meant to cover the Slovenian, Croatian and Serbian local specifics that are not regulatory required, but are helpful. In this section, Extended Localization features are summarized through several sub-sections, based on the business context.
+
+NOTE: a prerequisite for using Extended Localization features  is installed Core Localization package.
