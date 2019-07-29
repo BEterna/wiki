@@ -36,3 +36,11 @@ This extended localization feature allows the validation of payment ID for vendo
 -----
 
 #Payment purpose
+
+This extended localization feature allows field “Payment purpose” on payment order to be populated with value from field “Note” on vendor payment journal line. This way, users do not need to populate the payment purpose field manually, when generating vendor payments.
+
+[Detailed localization](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Vendor%20Payments.docx?Web=1) (chapter 2.2)
+
+-----
+
+#Payment reference generation
