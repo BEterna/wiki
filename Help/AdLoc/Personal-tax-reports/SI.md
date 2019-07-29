@@ -1,4 +1,5 @@
 # REK-1
+-----
 
 REK-1 is a Slovenian personal tax report, which legal entities or natural persons who perform business activities are obliged to report to Slovenian tax authority (FURS) if they pay incomes from employment. Report layout and the required conditions are based on the paragraph 8, Article 58 of the Tax Procedure Act - ZDavP-2.
 
@@ -7,6 +8,7 @@ Since salaries are standardly not calculated in D365, Slovenian REK-1 reporting 
 [Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_SI%20REK-1.docx?Web=1)
 
 # REK-2
+-----
 
 REK-2 is a Slovenian personal tax report, which taxpayers are legally (ZDoh-2) obliged to report to Slovenian tax authority (FURS) if they pay income, other than income from the employment. A taxpayer may also authorize another person to calculate and pay tax on his behalf. The data shall be reported to the tax authority (FURS) by all taxpayers when the payment of other income according to ZDoh-2 (excluding income from employment), from which the tax, the withholding tax and social security contributions are paid:
 -	income from another contractual relationship,
