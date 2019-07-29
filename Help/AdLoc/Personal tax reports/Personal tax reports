@@ -1,0 +1,1 @@
+This topic provides country/region-specific information about personal tax reporting in accordance with local legislation for countries from the Adriatic region.
