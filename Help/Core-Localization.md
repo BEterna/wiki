@@ -1,0 +1,1 @@
+Core localization are features, which cover regulatory requirements for Slovenia, Croatia and Serbia. In this folder, core localization features are divided into several sections, based on the business context.
