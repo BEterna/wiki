@@ -8,4 +8,21 @@ The four-digit code for the purpose of payment replaces the textual purpose of t
 
 This extended localization feature enables the transfer of Central bank purpose code from vendor to pending vendor invoice header and then to vendor transaction. If there is no Central bank purpose code on vendor when vendor invoice is created, the value is transferred from Accounts payable parameters. Value in field “Central bank purpose code” on vendor payment journal line can be edited before generating export file for bank. If purpose code is missing on vendor transaction upon transfer to payment journal, it is populated with Central bank purpose code value from Vendor, if it is defined there. If not, it is transferred from Accounts payable parameters.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Vendor%20Payments.docx?Web=1)
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Vendor%20Payments.docx?Web=1) (chapter 2.1)
+
+-----
+
+#Export format configuration
+
+This section includes information about the electronic vendor payments export formats, used as part of the Adriatic localization. Export formats, which are used by the majority of the local (Slovenian, Croatian, Serbian and North Macedonian) electronic banking system are included in scope of this extended localization feature.
+
+This extended localization feature enables the setup (Methods of payments), adequate transformations and export of the locally used electronic vendor payment formats. Transformations for the following bank formats are part of this extended localization feature:
+-	Slovenia – ISO 20022 (SEPA, VP70)
+-	Croatia – FINA, ISO 20022
+-	Serbia – Halcom, Halcom Foreign - GWS
+
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Vendor%20Payments.docx?Web=1) (chapter 1)
+
+-----
+
+#Payment ID validation for vendor invoice and payment journal (SI, HR)
