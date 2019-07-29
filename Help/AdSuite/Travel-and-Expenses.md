@@ -6,6 +6,14 @@ Specific custom developed features in scope of the AdactaSuiteTravelAndExpenses 
 
 #Travel requisition enhancements
 
+This feature enhances standard D365O travel requisition functionality by adding the following functionalities:
+-	Additional fields are added to travel requisition header: “From date and time”, “To date and time”, “By order of”, “Transport type” (Company owned vehicle, Personal vehicle) and “Registration number”. “By order of” and “Registration number” are free text fields.
+-	Estimated expense date of each travel requisition line must be within period, entered on the travel requisition header (set with “From” and “To date and time” fields).
+Using this feature, travel requisitions without lines can also be submitted to workflow and mapped to expense report (if approved) if a setting “Enable submit to WF w/o lines” is enabled in Expense management parameters.
+-	Two new travel requisition printouts are added with this feature - Localized print (including details from each expense line) and Localized print without lines (less detailed). Localized printouts become available only if “Use localized reports” option is checked in Expense management parameters.
+
+[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 3)
+
 -----
 
 #Expense report enhancements
