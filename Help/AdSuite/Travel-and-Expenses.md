@@ -50,3 +50,7 @@ Additional features regarding per diems are added:
 -	Per diem transaction date on Expense reports can be defaulted from the last per diem day if option is enabled in Expense management parameters.
 
 [Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 1)
+
+-----
+
+#Set up posting dates for group Expense report transactions posting
