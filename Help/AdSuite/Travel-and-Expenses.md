@@ -22,3 +22,7 @@ This feature enhances standard D365O Expense report functionality by adding the 
 -	If mapping Travel requisition with applied cash advance (in status “Paid), upon transferring information from Travel requisition to mapped Expense report, additional expense line with expense type “Cash advance return” will be automatically created on Expense report. Transaction amount and date for this newly generated line are transferred from cash advance (mapped to Travel requisition).
 
 [Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 4)
+
+-----
+
+#Map cash advances to travel requisition
