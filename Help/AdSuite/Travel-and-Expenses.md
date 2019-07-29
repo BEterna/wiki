@@ -4,4 +4,4 @@ Specific custom developed features in scope of the AdactaSuiteTravelAndExpenses 
 
 -----
 
-#3Delegates for Cash advances
+#Delegates for Cash advances
