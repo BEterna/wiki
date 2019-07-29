@@ -39,3 +39,9 @@ If Slovenian taxpayers have been imported from the database provided by the Slov
 -----
 
 #Validate Tax exempt numbers (VIES database)
+
+VIES is an electronic mean of validating VAT-identification numbers of economic operators registered in the European Union for cross border transactions on goods or services. When you need to verify the VAT number of your customer in another Member State through VIES on the web, this request will be sent, through a secure connection, to the relevant national database to check if the given number is recorded there. If yes, the "Valid" status will be displayed. If not, "Invalid" status will be displayed.
+
+This extended localization feature makes it possible to validate values entered in “Tax exempt number” field on customer and vendor accounts and through the Tax-exempt numbers form with an online VIES database.
+
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_Tax%20identification%20number.docx?Web=1) (chapter 1.9)
