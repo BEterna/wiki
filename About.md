@@ -7,13 +7,13 @@ Adacta Adriatic localization pack is an add-on for Microsoft Dynamics 365 for Fi
 
 Feature list is available on following link. Features are grouped into Core, Extended and Suite.
 
-1. **_Core_** features: 
+1. **_Core_** localization features: 
     * Features that cover Regulatory requierments for countries listed above. 
 
-2. **_Extended_** features: 
+2. **_Extended_** localization features: 
     * Features that cover local specifics that are not regulatory required, but are helpful. Prerequisite is installed Core package.
 
-3. **_Suite_** features: 
+3. **_Independent (Suite)_** features: 
     * Independent Adacta add-ons. 
 
 ## **Roadmap**
