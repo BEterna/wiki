@@ -43,3 +43,10 @@ Standard D365O functionality for delegating is extended with option to delegate 
 -----
 
 #Per Diem enhancements
+
+Additional features regarding per diems are added:
+
+-	In terms of standard D365O functionality meal reduction for each meal in connection with per diem need to be entered as percentage of the full per diem. This feature, however enables that if field "Include percent" is marked, meal deductions will be calculated according to value entered in field Meal percent. Otherwise deduction has to be entered as percentage of full per-diem (e.g.  15% breakfast reduction for half per diem is calculated from the amount representing 75% of the full per diem).
+-	Per diem transaction date on Expense reports can be defaulted from the last per diem day if option is enabled in Expense management parameters.
+
+[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 1)
