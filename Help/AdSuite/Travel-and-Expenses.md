@@ -54,3 +54,13 @@ Additional features regarding per diems are added:
 -----
 
 #Set up posting dates for group Expense report transactions posting
+
+This feature allows defining date for posting expenses in case of transaction grouping. Posting date setup is applicable only when standard grouping of transactions based on offset account (specified on payment method) is enabled. Using this functionality, expenses can be posted based on: (1) The earliest transaction date within the group; (2) The latest transaction date within the group; (3) Last date in a month of the transaction line with the latest date.
+
+[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 5)
+
+-----
+
+#Signatories on localized report printouts
+
+
