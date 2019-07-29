@@ -1,0 +1,5 @@
+Topic provides a country/region-specific information about personal tax reporting in accordance with the Croatian legislative requirements. JOPPD (Izvješće o primicima, porezu na dohodak i prirezu te doprinosima za obvezna osiguranja) is a unique form for reporting personal taxes and contributions required by the Croatian tax authority. JOPPD form must be submitted by the payers of or salaries and/or by the taxpayers alone for the following types of incomes: Employment income, Income from property and property right, Income from capital, Income from insurance, other income.
+
+This localization feature enables Croatian legal entities to generate JOPPD reports only for the employee travel expenses. Reporting for other income (e.g. salaries, bonuses) is not enabled, since it is not standardly handled in D365. Report can generated be exported to various formats, including XML required by the local authorities.
+
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_HR%20JOPPD.docx?Web=1)
