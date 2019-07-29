@@ -26,3 +26,11 @@ This feature enhances standard D365O Expense report functionality by adding the 
 -----
 
 #Map cash advances to travel requisition
+
+This feature enables cash advances to be mapped to travel requisitions. Travel requisition can be chosen from the drop down menu (field “Map to travel requisition”). “Amount” displays total travel requisition amount from the mapped requisition. Only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to cash advance.
+
+[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 3)
+
+-----
+
+#Mass delegation
