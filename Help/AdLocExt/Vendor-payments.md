@@ -26,3 +26,13 @@ This extended localization feature enables the setup (Methods of payments), adeq
 -----
 
 #Payment ID validation for vendor invoice and payment journal (SI, HR)
+
+This topic provides country/region-specific information about the locally used Payment IDs, which are often mandatory information when making payments in Slovenia in Croatia. Payment IDs need to be generated according to local formats. In order to validate the payment ID form to comply with the local requirements, this extended localization feature enables the adequate validation.
+
+This extended localization feature allows the validation of payment ID for vendor invoice and payment journal is executed upon saving. Control for Payment ID on vendor invoice is additionally triggered upon document saving when vendor bank account has country code for which validation is implemented (standard validation!). Payment ID is entered manually in purchase documents or on vendor payment journal line before posting. As part of extended localization controls are added for models SI00, SI01, SI02, SI03, SI04, SI05, SI06, SI07, SI08, SI09, SI10, SI11, SI12, SI18, SI19, SI28, SI38, SI40, SI41, SI48, SI49, SI51, SI55, SI58, and SI99. If the entered value is wrong, system will generate warning. For other (foreign) models standard validations are used. Validation can be enabled or disabled by the authorized users.
+
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Vendor%20Payments.docx?Web=1) (chapter 2.4)
+
+-----
+
+#Payment purpose
