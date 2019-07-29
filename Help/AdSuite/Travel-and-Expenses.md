@@ -4,11 +4,7 @@ Specific custom developed features in scope of the AdactaSuiteTravelAndExpenses 
 
 -----
 
-#Delegates for Cash advances
-
-With Expense management enhancement package users can additionally generate Cash advances for other Employees if they are delegated for them (standard function “Delegates”). New function “Open other users cash advances” is added to Cash advances page, which opens list of delegated Employees. User must select the employee for whom he wants to create new Cash advance. After that the cash advance generation procedure is standard.
-
-[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 8)
+#Travel requisition enhancements
 
 -----
 
@@ -25,23 +21,6 @@ This feature enhances standard D365O Expense report functionality by adding the 
 
 -----
 
-#Map cash advances to travel requisition
-
-This feature enables cash advances to be mapped to travel requisitions. Travel requisition can be chosen from the drop down menu (field “Map to travel requisition”). “Amount” displays total travel requisition amount from the mapped requisition. Only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to cash advance.
-
-[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 3)
-
------
-
-#Mass delegation
-
-Standard D365O functionality for delegating is extended with option to delegate a person for multiple Employees in one step. Mass delegation is enabled for Travel requisitions and Expense reports entry. As addition to standard delegation option, (person by person) this feature enables user to enter multiple delegates that belong to one department or Team. User, listed under Delegate, will be authorized to create Expense reports and Travel requisitions for all Employees that belong to Team/Department defined in field Team/Department.
-
-
-[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 7)
-
------
-
 #Per Diem enhancements
 
 Additional features regarding per diems are added:
@@ -50,6 +29,14 @@ Additional features regarding per diems are added:
 -	Per diem transaction date on Expense reports can be defaulted from the last per diem day if option is enabled in Expense management parameters.
 
 [Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 1)
+
+-----
+
+#Map cash advances to travel requisition
+
+This feature enables cash advances to be mapped to travel requisitions. Travel requisition can be chosen from the drop down menu (field “Map to travel requisition”). “Amount” displays total travel requisition amount from the mapped requisition. Only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to cash advance.
+
+[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 3)
 
 -----
 
@@ -63,4 +50,26 @@ This feature allows defining date for posting expenses in case of transaction gr
 
 #Signatories on localized report printouts
 
+This feature enables signatories to be set in Expense management parameters. Chosen Signatories are displayed on both localized travel requisition and expense reports and are enabled only for the localized printouts. It is possible to set whether Left, Middle, or Right signatory will be displayed on printouts. It is also possible to enter the text in adequate field for each of the enabled signatories, which will be displayed under the signature line (e.g. CEO).
+
+[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 6)
+
+-----
+
+#Mass delegation
+
+Standard D365O functionality for delegating is extended with option to delegate a person for multiple Employees in one step. Mass delegation is enabled for Travel requisitions and Expense reports entry. As addition to standard delegation option, (person by person) this feature enables user to enter multiple delegates that belong to one department or Team. User, listed under Delegate, will be authorized to create Expense reports and Travel requisitions for all Employees that belong to Team/Department defined in field Team/Department.
+
+
+[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 7)
+
+-----
+
+#Delegates for Cash advances
+
+With Expense management enhancement package users can additionally generate Cash advances for other Employees if they are delegated for them (standard function “Delegates”). New function “Open other users cash advances” is added to Cash advances page, which opens list of delegated Employees. User must select the employee for whom he wants to create new Cash advance. After that the cash advance generation procedure is standard.
+
+[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O%20AdSuite_Expense%20management.docx?Web=1) (chapter 8)
+
+-----
 
