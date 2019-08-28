@@ -4,7 +4,7 @@
 List of features, included in Localization package: 
 
 
-| Feature | SI |CRO  | RS | Description |
+| **Feature** | **SI** |**CRO**  | **RS** | **Description** |
 |--|--|--|--|--|
 | D365_VAT reporting | • |•  |•  |  - Purchase VAT Date and Document receipt Date are added on Purchase Documents. Additional dates  allow to separate the VAT date fo sales tax payable and sales tax receivable.<br>  - VAT date added on sales documents to record VAT date on sales tax receivable.<br> - VAT calculation according to VAT date, which is added to tax transactions.<br>  - Informative VAT calculation<br>  - It is possible to change VAT date after the sales tax transaction has been posted.<br>  - Additional report layouts for Sales tax reporting codes for SI, HR, RS <br> - VAT reporting for SI (DDV-O, IR, PR, PDO, VIES). <br> - VAT reporting for HR (PDV report, IRA, URA, PPO, VIES). <br> - VAT reporting for RS (PP PDV, POPDV, Analytical reports). <br>  - Export VAT books to XML/CSV |
 | D365_Tax exempt code validation |•  | • | • | Standard validation of Tax exempt code was extended with validation for SI, RS and HR  |
