@@ -11,12 +11,12 @@ NOTE: a prerequisite for using Extended Localization features  is installed Core
 |D365_Settlement period closing |  |  |  |It is possible to close Settlement periods for posting  |  |  |
 |D365_Defaulting VAT date and VAT payable date  |  |  |  |It is possible to default VAT payable and receivable dates according to setup.  |  |  |
 |D365_Vendor Payments export  |  |  |  | - Additional export formats: ISO20022 SI (Domestic, VP70), ISO20022 HR, Pexim, Halcom, Halcom foreign.<br> - Payment reference is generated when generating export formats<br> -  Central bank purpose code setup is added to AP parameters and can be used when generating vendor payments.<br> - Payment purpose<br> - Payment ID validation  |  |  |
-|D365_Exchange rates import providers  |  |  |  |  |  |  |
-|D365_Payment ID in Accounts receivable  |  |  |  |  |  |  |
-|D365_Bank Groups  |  |  |  |  |  |  |
-|D365_Company Bank Account  |  |  |  |  |  |  |
-|D365_Cash Management  |  |  |  |  |  |  |
-|D365_Fiscalization  |  |  |  |  |  |  |
-|D365_KEP report  |  |  |  |  |  |  |
-|D365_Journalize tax as parent line  |  |  |  |  |  |  |
-|D365_Year-end procedure enhancements  |  |  |  |  |  |  |
+|D365_Exchange rates import providers  |  |  |  |Following exchange rates providers are available as part of loc features: Bank of Slovenia,  Croatian national banka and National bank of Serbia  |  |  |
+|D365_Payment ID in Accounts receivable  |  |  |  |Payment ID can be generated for outgoing documents. Rules for structure can be defined.  |  |  |
+|D365_Bank Groups  |  |  |  |Defaulting of Bank group and data from Bank group  upon entering IBAN  |  |  |
+|D365_Company Bank Account  |  |  |  |Company bank account for payments can be defaulted  on Customer and Vendor side.<br> Customer: Bank account for received payments can be defaulted on customer. Information can be used for generating Invoice printouts<br>Vendor: bank account for vendor payments can be defaulted on Vendor Bank Accounts. Each Vendor Bank Account can have defaulted Bank Account from which payment will be performed.  |  |  |
+|D365_Cash Management  |  |  |  |Cash register is opened as a Cash account. For Cash account is possible to setup cash posting profile and posting slip journal for cash inflows and outflows. There is possible to setup the responsible person > the main cashier, which can be printed on cash reports (Cash receipts and Cash disbursements).  |  |  |
+|D365_Fiscalization  |  |  |  |Generating number sequence on sales documents (Sales Order, Free text invoice, Project Invoice, Prepayment invoice) according to the Fiscal law.   |  |  |
+|D365_KEP report  |  |  |  |Legally required report for retail. It includes KEP report, nivelations and retail calculation.   |  |  |
+|D365_Journalize tax as parent line  |  |  |  |Functionality enables posting tax to the same offset account as the line from which the tax is derived.  |  |  |
+|D365_Year-end procedure enhancements  |  |  |  |Functionality enables balancing Main account balance with Ledger account balance in order to avoid opening transactions in cases where Ledger account balance equals zero and Main account balance does not.   |  |  |
