@@ -1,0 +1,5 @@
+This topic provides country/region-specific information about the statement of the legally required information that need to be available for each of the main accounts, to comply with the Croatian legislative requirements. Main account statement provides information, which legal entities in Croatia have to be able to provide if required so by local authorities. It includes the information about the main account in accordance with the Croatian Accounting law (Official gazette 78/15, 134/15,120/16: Article 12., Section 9.), which specifies the minimum information, legally required to be included on main account statement.
+
+This localization feature enables Croatian legal entities to prepare account statement for each Main account with all the legally required information. After the generation, main account statement can be exported to various data formats.
+
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_HR%20Main%20account%20statement.docx?Web=1)

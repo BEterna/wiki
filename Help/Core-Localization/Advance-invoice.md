@@ -1,0 +1,9 @@
+This topic provides specific information regarding sales and purchase prepayment invoices in D365O, required to comply with the local legislation for countries in the Adriatic region.
+
+-----
+
+Local tax authorities require VAT eligible companies that receive/give prepayments and will not deliver/receive products or services within the same tax period to report VAT from the received/given prepayment transactions in the same period as the prepayment has been given/received. In order to comply with local legislation, purpose of this functionality is to enable posting the VAT from the received/given prepayments as soon as payments are posted.
+
+This localised functionality allows for the sales or purchase advance invoice generation, processing and posting based on the posted received/given prepayments. Posting advance invoice post only the calculated VAT amount from the prepayment transactions to both - general ledger and VAT entry. When final (original) invoice is posted, VAT from with the invoice settled advance invoice is automatically reversed and VAT of the final (original) invoice is posted. If only partial amount of prepayment is applied, a proportional share of Advance invoice will be reversed. Advance invoices can be either settled with sales or purchase documents or manually. VAT reversal occurs with the settlement.
+
+[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_Advance%20invoice.docx?Web=1)

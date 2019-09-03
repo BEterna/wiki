@@ -1,0 +1,26 @@
+**Core Localization** is a combination of custom developed features, which enhance/change the functionality of standard D365O functionalities in order to cover the mandatory legislative business requirements for Slovenia, Croatia and Serbia. In this section, Core Localization features are summarized through several sub-sections, based on the business context.
+
+
+List of features, included in Localization package: 
+
+
+| **Feature** | **SI** |**CRO**  | **RS** | **Description** |
+|--|--|--|--|--|
+| D365_VAT reporting | • |•  |•  |  - Purchase VAT Date and Document receipt Date are added on Purchase Documents. Additional dates  allow to separate the VAT date fo sales tax payable and sales tax receivable.<br>  - VAT date added on sales documents to record VAT date on sales tax receivable.<br> - VAT calculation according to VAT date, which is added to tax transactions.<br>  - Informative VAT calculation<br>  - It is possible to change VAT date after the sales tax transaction has been posted.<br>  - Additional report layouts for Sales tax reporting codes for SI, HR, RS <br> - VAT reporting for SI (DDV-O, IR, PR, PDO, VIES). <br> - VAT reporting for HR (PDV report, IRA, URA, PPO, VIES). <br> - VAT reporting for RS (PP PDV, POPDV, Analytical reports). <br>  - Export VAT books to XML/CSV |
+| D365_Tax exempt code validation |•  | • | • | Standard validation of Tax exempt code was extended with validation for SI, RS and HR  |
+| D365_Post or correct postponed VAT on Sales Credit Memo |  | •  |  • | Localization functionality allows to post the Sales credit memo without the VAT date. While the date is empty the record would not be included in VAT reports (VAT statement calculation nor VAT book). After the customer confirms the sales credit note, VAT date can be entered on Posted Sales credit note.  |
+| D365_REK-1 reporting | • |  |  | REK-1 reporting for Employee travel expenses is enabled for SI. Transactions for reporting are generated automatically from expense reports and invoices for travel expenses. XML for reporting purposes is generated. |
+|D365_REK-2 reporting  | • |  |  | REK-2 reporting for non-employee special contracts is enabled for SI. Contract amounts are calculated using vendor invoices and tax codes with separate Settlement period type. Reports can be generated after transactions are added to payment yournal. Report can be exported to XML. |
+|D365_JOPPD reporting  |  | • |  | JOPPD reporting for Employee travel expenses is enabled for HR |
+|D365_PPP-PD reporting  |  |  | • |PPP-PD reporting for Employee and non-employee is enabled. Personal tax for Cash and Non-cash incomes can be calculated and later reported with PPP-PD report.|
+| D365_Statistical reports for SI |• |  |  |  - KRD report: SKV part of the report on short-term receivables and liabilities from doing business with non-residents <br> - BST report: Report on transactions by residents with non-residents for services and part of trade, and given or received capital transfers<br> - SFR report: Statistics of financial invoices |
+| D365_Main account statement |  | • |  | Legally required report about transactions of selected main account.  |
+| D365_Export general ledger to file | • |  |  | GL transactions can be exported to CSV file. |
+| D365_Sales (and Purchase) Advance Invoice |•  |•  |•  | Localization added functionality for Advance invoices posting, based on posted prepayments. Posting advance invoice will post the calculated VAT amount to the general ledger and VAT entry. When final invoice is posted, VAT from advance invoice is automatically reversed. posting the Sales Order will be automatically reversed.  If only partial amount of Prepayment is applied, proportional share of Advance invoice will be reversed. |
+| D365_eInvoice |•  | • |  |e-Invoice can be generated for customers (SI, HR).  |
+| D365_OPZ-STAT-1 report |  | • |  | Statistical report about overdue unpaid receivables from customers, based on invoices. Report can be exported to XML. |
+| D365_eSettlement | • |  |  | eSettlement functionalitiy  and export format (mandatory set-off) |
+| D365_Interest calculation type | • | • | • | Additional interest calculation type was added (Day - actual year) that calculates the interest amount in the following way: Amount * Annual interest rate / Number of days in calendar year * Number of overdue days. The calculation takes into consideration leap years. |
+| D365_Additional depreciation convention - Next month | • | • | • | Additional depreciation convention is added that enables automatic setup of depreciation run date at the first date of the month after the asset has been acquired. |
+| D365_Tax depreciation report  |  |  |•  |Legally requred report for fixed assets (RS).   |
+| D365_Intrastat enhancements  | • | • |  | Intrastat statistics based on the trade in goods between the Member  States of the European Union is customized for the Croatian and Slovenian legislation. Intrastat xml scheme can be exported. |

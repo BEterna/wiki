@@ -1,0 +1,1 @@
+This section summarizes the additionally developed bank features, in scope of the LOC_BANK extended localization package.
