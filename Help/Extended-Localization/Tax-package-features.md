@@ -4,9 +4,7 @@ This section summarizes TAX package features, developed in scope of the LOC_TAX 
 
 #Defaulting VAT date and VAT payable date
 
-According to the local legislation, a taxable event occurs when goods/services are received/delivered or when goods are imported in case of goods from other EU countries, while multiple exceptions exist. Hence, the obligation to report the calculated VAT occurs with the taxable event. By standard D365O posts tax transactions on the transaction posting date, which is not in line with the local legal requirements. Therefore, to post, settle and report VAT according to the local legal requirements, additional VAT date (VAT date, VAT Payable date and Document receipt date) fields were added to sales and purchase documents from where they are transferred to tax transactions.
-
-In scope of this extended localization functionality, in order to facilitate the posting, there is a possibility to set up VAT date and VAT payable date defaulting. Options for defaulting are:
+As part of localization package VAT date is added to some documents (for more details check Localization features) and can be entered manually. With tax package user is able to setup defaulting rules for VAT date calculations. It is possible to set up VAT date and VAT payable date defaulting. Options for defaulting are:
 -	None: VAT date has to be entered manually
 -	Posting date: VAT date defaults from posting date (field “Date” in journals and FTI, “Invoice date” on Sales invoice)
 -	Document date: field “Invoice date” on vendor invoice
