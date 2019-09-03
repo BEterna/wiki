@@ -1,4 +1,4 @@
-This section summarizes VAT features, developed in scope of the LOC_TAX extended localization packet.
+This section summarizes TAX package features, developed in scope of the LOC_TAX extended localization packet.
 
 -----
 
