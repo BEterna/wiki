@@ -1,8 +1,7 @@
-Fixed assets management package offers users a set of functionalities which simplify processes for users in the case of a large number of fixed assets.
-
-
-
-
+Fixed assets management package offers users a set of functionalities which simplify processes for users in case of a large number of fixed assets. Following functionalities are available as part of this package: 
+- Fixed assets counting
+- Mass asset lending transfer
+- Partial asset Write-off
 
 -----
 
