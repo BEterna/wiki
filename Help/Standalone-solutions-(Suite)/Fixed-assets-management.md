@@ -8,7 +8,7 @@ Fixed assets management package offers users a set of functionalities which simp
 
 #Fixed assets counting
 
-Purpose of Fixed assets counting functionality is automation of Fixed assets counting process. With standard functionality this process is performed manually, while with this features it is possible to generate filtered counting lists, export them (to use with readers), later import the results and automatically perform needed actions (write off, reallocation).
+Purpose of Fixed assets counting functionality is automation of Fixed assets counting process. With standard functionality this process is performed manually, while with this features it is possible to generate filtered counting lists, export them (to use with readers), later import the results and later perform needed actions (write off, reallocation).
 
 Feature enables users to perform fixed asset counting. Fixed asset counting list (a list of assets from D365 to be counted), a list of counting locations (from D365 fixed asset locations register) and list of counting users (list of responsible person for all fixed assets from D365 register) can be exported from D365O as a TXT file. After scanning procedure is done, a list of scanned fixed assets can be imported from the reader back to D365 and adequately processed.
 
