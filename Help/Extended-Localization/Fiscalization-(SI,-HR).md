@@ -4,4 +4,4 @@ Feature allows the generation of number sequence on sales documents (Sales Order
 
 Feature is part of the LOC_FISCALIZATION extended localization package.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Fiscalization.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Fiscalization.docx?d=wae690415ee784c6caee16a4a491ec95f&csf=1&e=mZe1gX)
