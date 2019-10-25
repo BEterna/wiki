@@ -5,8 +5,7 @@ REK-1 is a Slovenian personal tax report, which legal entities or natural person
 
 Since salaries are standardly not calculated in D365, Slovenian REK-1 reporting feature enables only the generation of the legally required reporting in terms of employee travel expenses. Transactions for REK-1 reporting are generated automatically from expense reports and invoices for travel expenses, but they can also be manually added. Export (XML) in the format, required by the Slovenian tax authorities and a preview (html) of REK-1 report are also part of this localized feature.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_SI%20REK-1.docx?Web=1)
-
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20REK-1.docx?d=w03f44baa02f34a5aa5de364e26dcd17c&csf=1&e=UYOfAy)
 # REK-2
 -----
 
@@ -22,4 +21,4 @@ In terms of this localization feature, REK-2 report generation is enabled for Sl
 
 Additionally, this localization feature enables Slovenian legal entities to create Notices of payment for paid and not yet paid contractual work and Summary statements of income. Summary statement of income for each customer (contractor) can be generated after income payments have been posted. Thus, both documents are used to inform the payees (contractors) about the income, taxes and payment of contributions. Additionally, both – Notice of payment and Summary statement of income can be exported to various formats (e.g. Word or PDF).
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_SI_REK-2.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI_REK-2.docx?d=w75c789afbd7e4969b65593037f9c87ed&csf=1&e=eyTSZs)
