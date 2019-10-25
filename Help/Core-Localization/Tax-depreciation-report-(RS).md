@@ -2,4 +2,4 @@ This topic provides country/region-specific information about additional Tax dep
 
  To comply with Serbian legislation, this localization feature enables the preparation of an annual fixed asset depreciation report, based on the fixed asset depreciation groups, which can be specified in accordance with the legislation. Report can be exported to various formats.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_RS%20Tax%20depreciation%20calculation%20report.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_RS%20Tax%20depreciation%20calculation%20report.docx?d=w90a7f939ec05496ab3e85b5d9fd31278&csf=1&e=7hNk6a)
