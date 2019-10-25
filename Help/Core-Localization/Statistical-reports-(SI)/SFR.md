@@ -2,4 +2,4 @@ SFR  (Statistics of financial accounts) is used for quarterly reporting of stati
 This localization feature enables selecting the main accounts from which transactions will be included into SFR report, the setup selection of financial instruments, and sector codes. Report can be generated, reviewed and exported in an adequate XML format, accepted by the Bank of Slovenia.
 
 
-[Detailed documentation](http://axweb/_layouts/15/WopiFrame2.aspx?sourcedoc=/D365O%20Localization%20Documents/D365O%20LOC_SI%20Statistical%20reports.docx&action=default)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20Statistical%20reports.docx?d=w4c0af9b9e8dd42e7ac762e1d199fe4b3&csf=1&e=dyzs1o)
