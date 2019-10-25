@@ -4,4 +4,4 @@ This localization feature enables an additional interest calculation type “Day
 
 interest rate = amount * (annual interest rate / number of days in a calendar year) * number of overdue days
 
-[Detailed document](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_Interest%20calculation%20type.docx?Web=1)
+[Detailed document](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_Interest%20calculation%20type.docx?d=wbb4e0de15d7342a1893ba4965ad08755&csf=1&e=cRhs7E)
