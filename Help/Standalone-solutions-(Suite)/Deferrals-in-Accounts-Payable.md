@@ -4,4 +4,4 @@ In contrast to standard D365O functionality, this feature enables deferrals to b
 
 This custom feature is part of the AdactaSuiteDeferrals AdSuite D365O extension packet.
 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Suite%20documentation/D365_AdSuite_Fixed%20asset%20counting.docx?d=w6ca968eef9b94595b2c5fa979754adcf&csf=1&e=ItvlZI)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Suite%20documentation/D365O_Deferrals.docx?d=w25e7a1961595483e93b48415748f8f13&csf=1&e=FnTkbz)
