@@ -5,7 +5,7 @@ In order to comply with locally used registration IDs (e.g. tax and identificati
 
 Standard functionality of Registration IDs is used for VAT ID, tax identification numbers, Company registration numbers and National identification numbers for Slovenia, Croatia and Serbia. Users can set up the registration IDs with the localized registration categories for customers, vendors, workers, and legal entities. Localization features are the additionally added registration categories, upon which also locally specific validation of format and structure is enabled.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_Tax%20identification%20number.docx?Web=1) (chapters 1.1 – 1.4.1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_Tax%20identification%20number.docx?d=wa2bf0a8b9616456eade04fa02e33d080&csf=1&e=KSv0XB) (chapters 1.1 – 1.4.1)
 
 -----
 #Tax exempt number validation (SI, HR)
@@ -14,7 +14,7 @@ Standard D365 features allow for the validation of Tax exempt numbers formats. H
 
 Localization feature offers a validation of Tax exempt number also for Slovenia and Croatia (8 digits for Slovenia and 11 for Croatia). Validation for each of these countries can be enabled or disabled by the authorized users. If validation is enabled, upon entering a tax exempt number with inadequate format, a warning is displayed.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_Tax%20identification%20number.docx?Web=1) (chapter: 1.5.2)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_Tax%20identification%20number.docx?d=wa2bf0a8b9616456eade04fa02e33d080&csf=1&e=KSv0XB) (chapter: 1.5.2)
 
 -----
 #OIB validation (HR)
@@ -23,4 +23,4 @@ This topic provides country/region-specific information about the Croatian tax n
 
 Localization feature enables OIB number entry in Croatian taxable persons (localized) form and automatically validation in terms of the official OIB format and structure (11 digits). If entered OIB number does not pass the validation, a warning is displayed.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_Tax%20identification%20number.docx?Web=1) (chapter: 1.5.1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_Tax%20identification%20number.docx?d=wa2bf0a8b9616456eade04fa02e33d080&csf=1&e=KSv0XB) (chapter: 1.5.1)
