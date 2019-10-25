@@ -2,4 +2,4 @@ Solution enables enhanced advanced bank reconciliation. Based on the transaction
 
 This solution is part of the AdactaSuiteBankStatements AdSuite D365O package.
 
-[Detailed documentation]( http://axweb/D365O%20INIT%20Documents/D365_Bank%20Statements.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Suite%20documentation/D365_Bank%20Statements.docx?d=w2ffa8f7afc8b4b0a9fc78f9ac8612324&csf=1&e=z6dYAx)
