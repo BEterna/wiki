@@ -2,4 +2,4 @@ Topic provides a country/region-specific information about personal tax reportin
 
 This localization feature enables Croatian legal entities to generate JOPPD reports only for the employee travel expenses. Reporting for other income (e.g. salaries, bonuses) is not enabled, since it is not standardly handled in D365. Report can generated be exported to various formats, including XML required by the local authorities.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_HR%20JOPPD.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_HR%20JOPPD.docx?d=wcbeb786ca7e8442fa1205f4c2e0163cc&csf=1&e=xnEiEr)
