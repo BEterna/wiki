@@ -3,4 +3,4 @@ Creation of compensation proposal is enabled, where it is possible to select cus
 
 This custom developed feature is part of the AdactaSuiteCompensations AdSuite D365O extension packet.
 
-[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O_Compensations.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Suite%20documentation/D365_Public%20holidays.docx?d=w918fa1ed8cf0449d9b9d2ec862d863fd&csf=1&e=Ove3zu)
