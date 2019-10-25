@@ -5,4 +5,4 @@ In Slovenia it is legally required (IV. Chapter of the ZPreZP-1) from debtors to
 
 This localisation feature (SI) allows users to set up, process and export the generated eSettlement (ePobot) files. Transactions to be included in eSettlement are prepared through vendor payment journal from where they can be exported in an adequate XML file, supported by the ePobot application. When results of the e-settlement are known the non-compensated transactions from vendor payment journal should be deleted, while customer entries with which vendors’’ transactions have been settled with should be entered before posting the journal.
 
-[Detailed documentation](http://axweb/_layouts/15/WopiFrame2.aspx?sourcedoc=/D365O%20Localization%20Documents/D365O%20LOC_SI%20eSettlement.docx&action=default)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20eSettlement.docx?d=we4907e87c1c54aabbb7145753452f2ef&csf=1&e=AhwGHU)
