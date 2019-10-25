@@ -2,4 +2,4 @@ In order to comply with the Croatian legislation (Pravilnik o obvezujućim mišl
 
 This localization feature allows the preparation generation of the OPZ STAT 1 report. Report includes outgoing invoices from goods and services, but not also advances and credit notes. Report can be exported only as an XML file format, required by the Croatian tax authorities.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_HR%20OPZ-STAT-1.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_HR%20OPZ-STAT-1.docx?d=w55238c13599444b4b4578771551a6a42&csf=1&e=7l0OR9)
