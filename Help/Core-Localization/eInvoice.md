@@ -5,6 +5,6 @@ An electronic invoice (eInvoice) is sent electronically over the internet, rathe
 
 This localized feature enables to set up, generate, process, review, sign (SI) and export customer eInvoices, in accordance with the supported local eInvoice formats (e.g. eSlog in case of Slovenia), which local (Slovenian or Croatian) budget users currently use. Using this localization feature, eInvoices can be created automatically when posting customer, vendor or project invoices and exported to the required XML formats.
 
-[Detailed documentation (SI)](http://axweb/_layouts/15/WopiFrame2.aspx?sourcedoc=/D365O%20Localization%20Documents/D365O%20LOC_SI%20eInvoices.docx&action=default)
+[Detailed documentation (SI)](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20eInvoices.docx?d=w21cdaa2d7cd149fd931e7006e3832570&csf=1&e=jnUU6k)
 
-[Detailed documentation (HR)](http://axweb/_layouts/15/WopiFrame2.aspx?sourcedoc=/D365O%20Localization%20Documents/D365O%20LOC_HR%20eInvoices.docx&action=default)
+[Detailed documentation (HR)](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20eInvoices.docx?d=w21cdaa2d7cd149fd931e7006e3832570&csf=1&e=jnUU6k)
