@@ -4,4 +4,4 @@ In terms of inflows (customers), feature is added so that information about the 
 
 In terms of outflows - each vendor bank account can be mapped to a specific company bank account from which payment should later be proposed. Preferred bank account from which outflows for each specific vendor should be paid can be set on each of the vendor’s bank accounts. Information about the specified bank account can be used during payment proposal preparation in a presence of an adequate setup.
 
-[Detailed document](http://axweb/D365O%20Localization%20Documents/D365O%20ext%20LOC%20Company%20bank%20account%20(customers%20and%20vendors).docx?Web=1)
+[Detailed document](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20ext%20LOC%20Company%20bank%20account%20(customers%20and%20vendors).docx?d=wb79c4fe1e75a4472a8219c19584621e2&csf=1&e=woygzq)
