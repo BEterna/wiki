@@ -16,6 +16,14 @@ This additional setup for defaulting VAT dates exists in the parameters of the f
 
 -----
 
+#Closing of Settlement period
+
+VAT settlement period can be closed using extended localization feature.  
+
+Field “Closed” is added to Period intervals. If field is marked, period is closed for VAT posting. This means that sales tax transactions can’t be posted into that period. Field can be un-marked whenever wanted.  
+
+-----
+
 #Import of Slovenian taxable persons (SI)
 
 This extended localization feature enables the import of Slovenian taxpayers from Financial Administration of the Republic of Slovenia (FURS). Information like tax registration number, ID number (i.e. company registration number), taxable person type, name, and address of taxpayer, and the information whether partner is liable for Slovenian VAT or whether it has special handling based on 76.a article of ZDDV-1 can be recorded in the list.
