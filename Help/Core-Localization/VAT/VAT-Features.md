@@ -31,25 +31,24 @@ List of documents where additional VAT date fields are enabled:
 
 Additional setup is available for VAT date and VAT Payable date calculation. VAT date validation is also added. If VAT date is missing, posting of such document will result in error.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_VAT%20features.docx?Web=1)
-
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20VAT%20Reports%20SI%20docx.docx?d=wb9549c42a47d410a9d9723a851a6df44&csf=1&e=bFzEGW)
 ## **VAT Date change** ##
 -----
 
 VAT date can be manually changed on posted Sales tax transaction by using function “Change VAT date”. VAT date is then changed on both - Tax transaction and Invoice journal. VAT date change for the period that is closed for posting is not possible and will result in an error.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_VAT%20features.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20VAT%20Reports%20SI%20docx.docx?d=wb9549c42a47d410a9d9723a851a6df44&csf=1&e=bFzEGW)
 
 
 ## **Reporting Tab on Tax transaction** ##
 -----
 As part of localization, additional “Reporting” tab is added to Tax transactions. It displays information, such as Customer/Vendor, Address, Tax exempt number, Document, Document date and Document receipt date. This information is used on VAT reports. 
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_VAT%20features.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20VAT%20Reports%20SI%20docx.docx?d=wb9549c42a47d410a9d9723a851a6df44&csf=1&e=bFzEGW)
 
 ## **Informative VAT calculation** ##
 -----
 
 An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value need to be calculated and later added to invoice printout or other documents.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_VAT%20features.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20VAT%20Reports%20SI%20docx.docx?d=wb9549c42a47d410a9d9723a851a6df44&csf=1&e=bFzEGW)

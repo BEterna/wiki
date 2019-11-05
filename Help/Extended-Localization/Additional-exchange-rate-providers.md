@@ -4,4 +4,4 @@ The following additional exchange rates providers are available as part of this 
 
 Feature is part of the LOC_EXCHANGE RATES extended localization package.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Exchange%20rates%20import%20providers.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Exchange%20rates%20import%20providers.docx?d=w92bb8cdeaf2c421393bcc42a7f053593&csf=1&e=fMeLph)

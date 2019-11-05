@@ -24,3 +24,4 @@ List of features, included in Localization package:
 | D365_Additional depreciation convention - Next month | • | • | • | Additional depreciation convention is added that enables automatic setup of depreciation run date at the first date of the month after the asset has been acquired. |
 | D365_Tax depreciation report  |  |  |•  |Legally requred report for fixed assets (RS).   |
 | D365_Intrastat enhancements  | • | • |  | Intrastat statistics based on the trade in goods between the Member  States of the European Union is customized for the Croatian and Slovenian legislation. Intrastat xml scheme can be exported. |
+

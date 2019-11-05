@@ -2,4 +2,4 @@ This topic provides country/region-specific information about the statement of t
 
 This localization feature enables Croatian legal entities to prepare account statement for each Main account with all the legally required information. After the generation, main account statement can be exported to various data formats.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_HR%20Main%20account%20statement.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_HR%20Main%20account%20statement.docx?d=w752c1ecfdb8741659850627127464fbc&csf=1&e=6w1AXC)

@@ -2,4 +2,4 @@ This topic provides country/region-specific information about exporting the Gene
 
 Localised feature enables Slovenian legal entities to export General ledger transactions within the specified period to a CSV file.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_SI%20Export%20GL%20to%20file.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20Export%20GL%20to%20file.docx?d=we7dce8ba8b6943bab9fb097bd17d4002&csf=1&e=x6jjLF)

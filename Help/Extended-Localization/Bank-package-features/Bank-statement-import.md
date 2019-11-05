@@ -8,4 +8,4 @@ Bank statement import process is part of standard Dynamics 365 for Operations so
 
 After import, bank statements can be processed using standard D365 features.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Bank%20Statement%20Import.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Bank%20Statement%20Import.docx?d=w85dc8c93d1ee4bef85b868ed853a3eee&csf=1&e=QYHl62)

@@ -5,4 +5,4 @@ A taxable persons list is added in scope of Slovenian and Croatian localization.
 
 _*List of Taxable persons can also be imported. Import is enabled as part of separate Tax package._
 
-[Detailed documentation](http://axweb/_layouts/15/WopiFrame2.aspx?sourcedoc=/D365O%20Localization%20Documents/D365O%20LOC_Tax%20identification%20number.docx&action=default)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20VAT%20Reports%20SI%20docx.docx?d=wb9549c42a47d410a9d9723a851a6df44&csf=1&e=bFzEGW)

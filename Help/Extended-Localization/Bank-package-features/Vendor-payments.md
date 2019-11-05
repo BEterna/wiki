@@ -8,7 +8,7 @@ The four-digit code for the purpose of payment replaces the textual purpose of t
 
 This extended localization feature enables the transfer of Central bank purpose code from vendor to pending vendor invoice header and then to vendor transaction. If there is no Central bank purpose code on vendor when vendor invoice is created, the value is transferred from Accounts payable parameters. Value in field “Central bank purpose code” on vendor payment journal line can be edited before generating export file for bank. If purpose code is missing on vendor transaction upon transfer to payment journal, it is populated with Central bank purpose code value from Vendor, if it is defined there. If not, it is transferred from Accounts payable parameters.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Vendor%20Payments.docx?Web=1) (chapter 2.1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Vendor%20Payments.docx?d=w3e80214c755e4910a3b5720334715941&csf=1&e=H7dfEj) (chapter 2.1)
 
 -----
 
@@ -21,7 +21,7 @@ This extended localization feature enables the setup (Methods of payments), adeq
 -	Croatia – FINA, ISO 20022
 -	Serbia – Halcom, Halcom Foreign - GWS
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Vendor%20Payments.docx?Web=1) (chapter 1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Vendor%20Payments.docx?d=w3e80214c755e4910a3b5720334715941&csf=1&e=H7dfEj) (chapter 1)
 
 -----
 
@@ -31,7 +31,7 @@ This topic provides country/region-specific information about the locally used P
 
 This extended localization feature allows the validation of payment ID for vendor invoice and payment journal is executed upon saving. Control for Payment ID on vendor invoice is additionally triggered upon document saving when vendor bank account has country code for which validation is implemented (standard validation!). Payment ID is entered manually in purchase documents or on vendor payment journal line before posting. As part of extended localization controls are added for models SI00, SI01, SI02, SI03, SI04, SI05, SI06, SI07, SI08, SI09, SI10, SI11, SI12, SI18, SI19, SI28, SI38, SI40, SI41, SI48, SI49, SI51, SI55, SI58, and SI99. If the entered value is wrong, system will generate warning. For other (foreign) models standard validations are used. Validation can be enabled or disabled by the authorized users.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Vendor%20Payments.docx?Web=1) (chapter 2.4)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Vendor%20Payments.docx?d=w3e80214c755e4910a3b5720334715941&csf=1&e=H7dfEj) (chapter 2.4)
 
 -----
 
@@ -39,7 +39,7 @@ This extended localization feature allows the validation of payment ID for vendo
 
 This extended localization feature allows field “Payment purpose” on payment order to be populated with value from field “Note” on vendor payment journal line. This way, users do not need to populate the payment purpose field manually, when generating vendor payments.
 
-[Detailed localization](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Vendor%20Payments.docx?Web=1) (chapter 2.2)
+[Detailed localization](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Vendor%20Payments.docx?d=w3e80214c755e4910a3b5720334715941&csf=1&e=H7dfEj) (chapter 2.2)
 
 -----
 
@@ -49,5 +49,5 @@ This topic provides country/region-specific information about the locally used R
 
 This extended localization feature enables the automatic generation of payment references for vendor payments through vendor payment journal. Payment reference number is generated upon XML creation and captured in “Payment reference” field of each of the payment journal lines. Payment reference form depends on the XML export format.
 
-[Detailed localization](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_Vendor%20Payments.docx?Web=1) (chapter 2.3)
+[Detailed localization](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Vendor%20Payments.docx?d=w3e80214c755e4910a3b5720334715941&csf=1&e=H7dfEj) (chapter 2.3)
 

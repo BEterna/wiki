@@ -25,4 +25,4 @@ Enables users to review transactions, which have been compressed by parameters (
 
 -----
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_Intrastat.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_Intrastat.docx?d=wb7b63f1a3bcd485c8a01c52e387035b0&csf=1&e=18yZed)

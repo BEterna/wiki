@@ -24,5 +24,5 @@ PDV-S and ZP (Zbirna Prijava) report is a recapitulative report in which taxable
 
 PDV-S and ZP (Zbirna Prijava) report processes the intra-community transactions based on the delivery address of the documents (Sales invoices, Free text invoices, Project invoices, Vendor invoices) if country code from that address is specified for the EU trade. Selected transactions are transferred to EU sales list journal, if they meet the predetermined criterion. Additional localized information are available to be added to these transactions (e.g. Customs procedure 42 or 63). In contrary to the standard, localized feature allows reporting transactions based on the VAT (and not transaction) date. Two separate reports – PDV-S and ZP report can then be generated. Both reports can be printed or exported to an adequate XML file format, required by the Croatian tax authority. All transactions can be also manually marked as included, reported or closed.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_HR%20VAT%20books.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20Statistical%20reports.docx?d=w4c0af9b9e8dd42e7ac762e1d199fe4b3&csf=1&e=dyzs1o)
 

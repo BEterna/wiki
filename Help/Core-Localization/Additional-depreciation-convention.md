@@ -2,4 +2,4 @@ This topic provides country/region-specific information about additional depreci
 
 Localisation feature offers an additional depreciation convention “Next month”, which enables automatic setup of depreciation calculation run date at the first date of the month after fixed asset has been acquired (acquisition posting date is considered) or placed in service (placed in service date is considered). For example, if an asset has been acquired (or put in use) on the 10th of July, using this localised feature, depreciation run date will be set on the first day of the following month (August 1st).
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_Depreciation%20convention.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_Depreciation%20convention.docx?d=w8d914b252e6543b4aaa951819a8e98e8&csf=1&e=XwViCb)

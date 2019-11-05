@@ -4,4 +4,4 @@ This extended localization feature enables the generation and export of the Serb
 
 Feature is part of the LOC_KEP extended localization packet.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365%20ext%20LOC_RS%20Retail%20KEP%20book-draft.docx?Web=1) (draft)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_RS%20Retail%20KEP%20book-draft.docx?d=we2f0f35bd3714fc0af006181701f7036&csf=1&e=Tiy2gX) (draft)

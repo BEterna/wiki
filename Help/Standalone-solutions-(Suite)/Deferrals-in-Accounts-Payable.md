@@ -4,4 +4,4 @@ In contrast to standard D365O functionality, this feature enables deferrals to b
 
 This custom feature is part of the AdactaSuiteDeferrals AdSuite D365O extension packet.
 
-[Detailed documentation](http://axweb/D365O%20INIT%20Documents/D365O_Compensations.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Suite%20documentation/D365O_Deferrals.docx?d=w25e7a1961595483e93b48415748f8f13&csf=1&e=FnTkbz)

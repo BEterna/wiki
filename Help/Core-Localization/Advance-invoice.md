@@ -6,4 +6,4 @@ Local tax authorities require VAT eligible companies that receive/give prepaymen
 
 This localised functionality allows for the sales or purchase advance invoice generation, processing and posting based on the posted received/given prepayments. Posting advance invoice post only the calculated VAT amount from the prepayment transactions to both - general ledger and VAT entry. When final (original) invoice is posted, VAT from with the invoice settled advance invoice is automatically reversed and VAT of the final (original) invoice is posted. If only partial amount of prepayment is applied, a proportional share of Advance invoice will be reversed. Advance invoices can be either settled with sales or purchase documents or manually. VAT reversal occurs with the settlement.
 
-[Detailed documentation](http://axweb/D365O%20Localization%20Documents/D365O%20LOC_Advance%20invoice.docx?Web=1)
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_Advance%20invoice.docx?d=w1691289c600445ac9a2fb0a1d546fe12&csf=1&e=nChCJj)
