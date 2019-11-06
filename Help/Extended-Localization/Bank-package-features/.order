@@ -4,3 +4,4 @@ IBAN-control-numbers
 Defaulting-bank-account-data-based-on-IBAN
 Default-bank-account
 Bank-statement-import
+Additional-exchange-rate-providers
