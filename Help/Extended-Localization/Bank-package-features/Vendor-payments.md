@@ -12,6 +12,14 @@ This extended localization feature enables the transfer of Central bank purpose 
 
 -----
 
+#Payment purpose description
+
+This extended localization feature allows field “Payment purpose” on payment order to be populated with value from field “Note” on vendor payment journal line. This way, users do not need to populate the payment purpose field manually, when generating vendor payments.
+
+[Detailed localization](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Vendor%20Payments.docx?d=w3e80214c755e4910a3b5720334715941&csf=1&e=H7dfEj) (chapter 2.2)
+
+-----
+
 #Export format configuration
 
 This section includes information about the electronic vendor payments export formats, used as part of the Adriatic localization. Export formats, which are used by the majority of the local (Slovenian, Croatian, Serbian and North Macedonian) electronic banking system are included in scope of this extended localization feature.
@@ -33,13 +41,6 @@ This extended localization feature allows the validation of payment ID for vendo
 
 [Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Vendor%20Payments.docx?d=w3e80214c755e4910a3b5720334715941&csf=1&e=H7dfEj) (chapter 2.4)
 
------
-
-#Payment purpose
-
-This extended localization feature allows field “Payment purpose” on payment order to be populated with value from field “Note” on vendor payment journal line. This way, users do not need to populate the payment purpose field manually, when generating vendor payments.
-
-[Detailed localization](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Vendor%20Payments.docx?d=w3e80214c755e4910a3b5720334715941&csf=1&e=H7dfEj) (chapter 2.2)
 
 -----
 
