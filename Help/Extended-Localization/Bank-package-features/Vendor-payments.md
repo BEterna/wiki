@@ -1,12 +1,13 @@
-This section summarizes VAT features, developed in scope of the LOC_BANK extended localization packet in connection with vendor payments.
+This section summarizes the Vendor payments features, developed in scope of the Bank payment extended localization package.
 
 -----
 
 #Central bank purpose code on vendor payments
 
-The four-digit code for the purpose of payment replaces the textual purpose of the payment purpose. Its use recommends payment service users to the SEPA scheme rule, along with a structured reference that allows automatic closing of claims. The use of codes is particularly important in the payment of salaries, pensions, holiday allowances, travel expenses, social transfers, etc., as these transfers to accounts of natural persons, if the execution of execution (asset diversion) takes place on the account is different, depending on the legislation.
+The four-digit code for the purpose of payment replaces the textual description of the payment purpose. Its use is recommended for payments that follow the principles of the SEPA scheme, which allows, along with a structured reference, automatic closing of claims. 
 
-This extended localization feature enables the transfer of Central bank purpose code from vendor to pending vendor invoice header and then to vendor transaction. If there is no Central bank purpose code on vendor when vendor invoice is created, the value is transferred from Accounts payable parameters. Value in field “Central bank purpose code” on vendor payment journal line can be edited before generating export file for bank. If purpose code is missing on vendor transaction upon transfer to payment journal, it is populated with Central bank purpose code value from Vendor, if it is defined there. If not, it is transferred from Accounts payable parameters.
+This extended localization feature enables the transfer of Central bank purpose code from vendor to pending vendor invoice header and then to vendor transaction. If there is no Central bank purpose code on vendor when vendor invoice is created, the value is transferred from Accounts payable parameters. Value in field “Central bank purpose code” on vendor payment journal line can be edited before generating export file for bank. If purpose code is missing on vendor transaction upon transfer to payment journal, it is populated with Central bank purpose code value from Vendor, if it is defined there. If not, it is transferred from Accounts payable parameters. This code is then used when generating Vendor payment file. 
+
 
 [Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Vendor%20Payments.docx?d=w3e80214c755e4910a3b5720334715941&csf=1&e=H7dfEj) (chapter 2.1)
 
