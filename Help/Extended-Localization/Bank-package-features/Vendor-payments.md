@@ -1,4 +1,4 @@
-This section summarizes the Vendor payments features, developed in scope of the Bank payment extended localization package.
+This section summarizes the Vendor payments features, developed in scope of the Bank extended localization package.
 
 -----
 
@@ -21,9 +21,9 @@ This extended localization feature allows field “Payment purpose” on payment
 
 -----
 
-#Export format configuration
+#Vendor payments - Export format configuration
 
-This section includes information about the electronic vendor payments export formats, used as part of the Adriatic localization. Export formats, which are used by the majority of the local (Slovenian, Croatian, Serbian and North Macedonian) electronic banking system are included in scope of this extended localization feature.
+Standard electronic payment formats are enhanced with additional formats, which are commonly used in banks from Adriatic region. 
 
 This extended localization feature enables the setup (Methods of payments), adequate transformations and export of the locally used electronic vendor payment formats. Transformations for the following bank formats are part of this extended localization feature:
 -	Slovenia – ISO 20022 (SEPA, VP70)
