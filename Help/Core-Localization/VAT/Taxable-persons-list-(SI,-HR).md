@@ -12,9 +12,8 @@ _*List of Taxable persons can also be imported. Import is enabled as part of a s
 
 ### Registration types 
 
-*Organization administration – Global address book – Registration types – Registration types* 
-
-Set up registration types for the different types of registration numbers that each party is subject to:
+1. Open Organization administration – Global address book – Registration types – Registration types.
+2. Set up registration types for the different types of registration numbers that each party is subject to:
    - Name: The name of the registration type. 
    - Description: The description of the registration type. 
    - Country/region: The unique identifier of the country/region. 
@@ -27,9 +26,10 @@ Set up registration types for the different types of registration numbers that e
 
 ### Registration category 
 
-*Organization administration – Global address book – Registration types – Registration category*
+Registration category is country/region registration identifier approved for using in particular country/region for tax, customs, and other purposes. This category defines validation rules of particular registration ID (including check digits etc.) and inclusion registration ID in different reports
 
-Registration category is country/region registration identifier approved for using in particular country/region for tax, customs, and other purposes. This category defines validation rules of particular registration ID (including check digits etc.) and inclusion registration ID in different reports:
+1. Open Organization administration – Global address book – Registration types – Registration category.
+2. Set fields:
    - Registration type: The registration type for a particular country/region. 
    - Restricted to: The kind of restriction applies to the tax registration type: None, Person, Organization. 
    - Registration category: The unique registration identifier approved for use in the country. As part of localization following Registration categories were added: 
