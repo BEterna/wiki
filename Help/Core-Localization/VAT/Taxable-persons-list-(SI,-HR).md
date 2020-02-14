@@ -8,10 +8,6 @@ _*List of Taxable persons can also be imported. Import is enabled as part of a s
 [Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_Tax%20identification%20number.docx?d=wa2bf0a8b9616456eade04fa02e33d080&csf=1&e=o2QDt3)
  -->
 
-# Registration IDs 
-
-The standard functionality of Registration IDs is used for VAT ID, tax identification numbers, company registration numbers and National identification numbers for SI, HR, RS. You can set up registration IDs for address information for customers, vendors, workers, and legal entities. Validation upon format and structure for the VAT ID registration category is part of localization functionality. 
-
 ## Setup
 
 ### Registration types 
