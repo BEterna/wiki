@@ -4,4 +4,6 @@ The following topics describe local functionality that is unique to the Slovenia
 
 ### VAT
 
+**Feature**|**Description**
+:-|:-
 [](help)
