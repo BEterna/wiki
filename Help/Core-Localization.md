@@ -4,9 +4,9 @@
 List of features, included in Localization package: 
 
 
-| **Feature** | **SI** |**CRO**  | **RS** | **Description** | **Manuals**
-|--|--|--|--|--|--|
-| D365_VAT reporting | • |•  |•  |  - Purchase VAT Date and Document receipt Date are added on Purchase Documents. Additional dates  allow to separate the VAT date fo sales tax payable and sales tax receivable.<br>  - VAT date added on sales documents to record VAT date on sales tax receivable.<br> - VAT calculation according to VAT date, which is added to tax transactions.<br>  - Informative VAT calculation<br>  - It is possible to change VAT date after the sales tax transaction has been posted.<br>  - Additional report layouts for Sales tax reporting codes for SI, HR, RS <br> - VAT reporting for SI (DDV-O, IR, PR, PDO, VIES). <br> - VAT reporting for HR (PDV report, IRA, URA, PPO, VIES). <br> - VAT reporting for RS (PP PDV, POPDV, Analytical reports). <br>  - Export VAT books to XML/CSV |[Postponed VAT](/Help/Core-Localization/VAT/Postponed-VAT-date-on-Sales-Credit-Memos-\(HR,-RS\))<br>[Taxable Persons list](/Help/Core-Localization/VAT/Taxable-persons-list-\(SI,-HR\))
+| **Feature** | **SI** |**CRO**  | **RS** | **Description** |
+|--|--|--|--|--|
+| D365_VAT reporting | • |•  |•  |  - Purchase VAT Date and Document receipt Date are added on Purchase Documents. Additional dates  allow to separate the VAT date fo sales tax payable and sales tax receivable.<br>  - VAT date added on sales documents to record VAT date on sales tax receivable.<br> - VAT calculation according to VAT date, which is added to tax transactions.<br>  - Informative VAT calculation<br>  - It is possible to change VAT date after the sales tax transaction has been posted.<br>  - Additional report layouts for Sales tax reporting codes for SI, HR, RS <br> - VAT reporting for SI (DDV-O, IR, PR, PDO, VIES). <br> - VAT reporting for HR (PDV report, IRA, URA, PPO, VIES). <br> - VAT reporting for RS (PP PDV, POPDV, Analytical reports). <br>  - Export VAT books to XML/CSV |
 | D365_Tax exempt code validation |•  | • | • | Standard validation of Tax exempt code was extended with validation for SI, RS and HR  |
 | D365_Post or correct postponed VAT on Sales Credit Memo |  | •  |  • | Localization functionality allows to post the Sales credit memo without the VAT date. While the date is empty the record would not be included in VAT reports (VAT statement calculation nor VAT book). After the customer confirms the sales credit note, VAT date can be entered on Posted Sales credit note.  |
 | D365_REK-1 reporting | • |  |  | REK-1 reporting for Employee travel expenses is enabled for SI. Transactions for reporting are generated automatically from expense reports and invoices for travel expenses. XML for reporting purposes is generated. |
@@ -25,3 +25,9 @@ List of features, included in Localization package:
 | D365_Tax depreciation report  |  |  |•  |Legally requred report for fixed assets (RS).   |
 | D365_Intrastat enhancements  | • | • |  | Intrastat statistics based on the trade in goods between the Member  States of the European Union is customized for the Croatian and Slovenian legislation. Intrastat xml scheme can be exported. |
 
+# Core Localization Manuals
+
+## VAT 
+
+[Postponed VAT](/Help/Core-Localization/VAT/Postponed-VAT-date-on-Sales-Credit-Memos-\(HR,-RS\))<br>
+[Taxable Persons list](/Help/Core-Localization/VAT/Taxable-persons-list-\(SI,-HR\))
