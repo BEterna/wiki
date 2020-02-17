@@ -104,19 +104,19 @@ Manually adding transactions to REK-1 transactions form is enabled because of al
  
 ## Test cases
 
-  - [Transactions with different income reporting modes on the expense report](Test-Scenario.zip): 
+  - [Transactions with different income reporting modes on the expense report](Test-Scenario-REK1.zip): 
 REK-1 transactions are generated according to the setup of income reporting mode on payment methods. Only transactions from REK-1 transactions form are reported in the REK-1 report.
-   - [Always exclude transaction from REK-1 reporting](Test-Scenario.zip):
+   - [Always exclude transaction from REK-1 reporting](Test-Scenario-REK1.zip):
 Transactions from Expense report that have set up on expense category "Always exclude" are not included in REK-1 transactions and therefore, not reported.
-   - [Transaction with income reporting mode No reporting](Test-Scenario.zip): Transactions from Expense report that have payment method with "No reporting" income reporting mode are not included in REK-1 transactions and therefore, not reported.
-   - [Cash advance for worker](Test-Scenario.zip): Deprecated with version 8.1
-   - [Reporting reimbursements of business trip costs for worker](Test-Scenario.zip): According to setup on payment methods, REK-1 transactions are reported after being paid to the worker.
-   - [Partial reimbursement (in installments) of business trip costs for worker](Test-Scenario.zip): Deprecated with version 8.1<br>
+   - [Transaction with income reporting mode No reporting](Test-Scenario-REK1.zip): Transactions from Expense report that have payment method with "No reporting" income reporting mode are not included in REK-1 transactions and therefore, not reported.
+   - [Cash advance for worker](Test-Scenario-REK1.zip): Deprecated with version 8.1
+   - [Reporting reimbursements of business trip costs for worker](Test-Scenario-REK1.zip): According to setup on payment methods, REK-1 transactions are reported after being paid to the worker.
+   - [Partial reimbursement (in installments) of business trip costs for worker](Test-Scenario-REK1.zip): Deprecated with version 8.1<br>
 If the amount to be paid to the worker is paid in installments, it is possible to generate each installment respectively in the form of the REK-1 transaction.
-   - [One vendor invoice for one worker](Test-Scenario.zip): It is possible to connect the vendor invoices with the worker who the cost is paid for.
-   - [One vendor invoice for multiple workers](Test-Scenario.zip): It is possible to connect the vendor invoices with multiple workers who the cost is paid for by dividing the cost to as many vendor invoice lines as there are workers.
-   - [Payment of vendor invoice in installments](Test-Scenario.zip): In case of paying vendor invoice in installments, REK transaction for the first installment is generated in the full amount of vendor liability. Before reporting, it is necessary to manually adjust the value to the amount paid by installment. The following installments have to be manually entered in REK transactions.
-   - [Manual correction of REK-1 transaction](Test-Scenario.zip): It is possible to manually correct the amount to be reported or add another entry to the list of transactions to be reported.
+   - [One vendor invoice for one worker](Test-Scenario-REK1.zip): It is possible to connect the vendor invoices with the worker who the cost is paid for.
+   - [One vendor invoice for multiple workers](Test-Scenario-REK1.zip): It is possible to connect the vendor invoices with multiple workers who the cost is paid for by dividing the cost to as many vendor invoice lines as there are workers.
+   - [Payment of vendor invoice in installments](Test-Scenario-REK1.zip): In case of paying vendor invoice in installments, REK transaction for the first installment is generated in the full amount of vendor liability. Before reporting, it is necessary to manually adjust the value to the amount paid by installment. The following installments have to be manually entered in REK transactions.
+   - [Manual correction of REK-1 transaction](Test-Scenario-REK1.zip): It is possible to manually correct the amount to be reported or add another entry to the list of transactions to be reported.
  
 
 <!--
