@@ -25,9 +25,3 @@ List of features, included in Localization package:
 | D365_Tax depreciation report  |  |  |•  |Legally required report for fixed assets (RS).   |
 | D365_Intrastat enhancements  | • | • |  | Intrastat statistics based on the trade in goods between the Member  States of the European Union is customized for the Croatian and Slovenian legislation. Intrastat XML scheme can be exported. |
 
-# Core Localization Manuals
-
-## VAT 
-
-[Postponed VAT](/Help/Core-Localization/VAT/Postponed-VAT-date-on-Sales-Credit-Memos-\(HR,-RS\))<br>
-[Taxable Persons list](/Help/Core-Localization/VAT/Taxable-persons-list-\(SI,-HR\))
