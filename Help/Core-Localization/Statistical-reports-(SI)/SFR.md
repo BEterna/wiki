@@ -1,16 +1,16 @@
-# How To: Create SFR report
+# How To: Create a SFR report
 
-SFR  (Statistics of financial accounts) is used for quarterly reporting of statistical financial accounts to Bank of Slovenia. Legal entities, obliged to reporting, are defined based on multiple criterion, defined in the Decision on reporting of data for the purpose of statistics on financial accounts, Official Gazette of the Republic of Slovenia, no. 106/2013. Report must include information about the balance of assets and liabilities on the financial accounts and information about the transactions and changes in the valuation of the financial assets and liabilities.
-This localization feature enables selecting the main accounts from which transactions will be included into SFR report, the setup selection of financial instruments, and sector codes. Report can be generated, reviewed and exported in an adequate XML format, accepted by the Bank of Slovenia.
+SFR  (Statistics of financial accounts) is used for quarterly reporting of statistical financial accounts to Bank of Slovenia. Legal entities, obliged to reporting, are defined based on multiple criteria, defined in the Decision on reporting of data for the purpose of statistics on financial accounts, Official Gazette of the Republic of Slovenia, no. 106/2013. The report must include information about the balance of assets and liabilities on the financial accounts and information about the transactions and changes in the valuation of the financial assets and liabilities.
+This localization feature enables selecting the main accounts from which transactions will be included in the SFR report, the setup selection of financial instruments, and sector codes. The report can be generated, reviewed and exported in an adequate XML format, accepted by the Bank of Slovenia.
 
 ## Setup 
 
-Prerequisite for generating SFR report is proper setup for each relevant main account, vendor and customer which includes financial instrument and/or sector code.  
+Prerequisite for generating SFR report is the proper setup for each relevant main account, vendor and customer which includes financial instruments and/or sector code.  
 
 ### Main account setup 
 
 1. Open General ledger/Chart of accounts/Accounts/Main accounts.
-2. Setup is added to main account. Default setup is set to Yes, which means, that transactions for this account will be included in SFR report. If user wants to exclude account from SFR reporting, account must be set to No. 
+2. Setup is added to the main account. The default setup is set to Yes, which means, that transactions for this account will be included in the SFR report. If the user wants to exclude the account from SFR reporting, the account must be set to No. 
 
 ### Financial  instruments 
 
@@ -25,29 +25,29 @@ Prerequisite for generating SFR report is proper setup for each relevant main ac
 ### Sector codes	 
 
 1. Open General ledger/Financial report setup/Slovenia/SFR report/Sector codes.
-2. Vendors and customers need to be alocated in one of sector codes. Alocation can be done manually or automatically.   
-   - Manual procedure: go to sector code, pick New button (as shown on picture above),  select vendor/customer from list, enter valid period.   
-   - Automatic allocation: Import Sector codes from file (General ledger/Financial report setup/Slovenia/SFR report/Import Sector codes). File (txt) can be optained from AJPES. Allocation is performed only if ID number (Matična številka) is defined on Vendor/Customer.    
+2. Vendors and customers need to be allocated in one of the sector codes. Allocation can be done manually or automatically.   
+   - Manual procedure: go to sector code, pick the New button (as shown on the picture above),  select vendor/customer from the list, enter a valid period.   
+   - Automatic allocation: Import Sector codes from the file (General ledger/Financial report setup/Slovenia/SFR report/Import Sector codes). File (txt) can be obtained from AJPES. Allocation is performed only if the ID number (Matična številka) is defined on Vendor/Customer.    
 3. Allocated sector code can be Viewed on Vendor/Customer.  
 4. All changes related to sector codes are done only in  General ledger/Financial report setup/Slovenia/SFR report/Sector codes.
 
 ## Generate SFR report 
 
 1. Open General ledger/Inquiries and reports/Slovenia/SFR report.
-2. Use »New« button to generate new report. Report name and period need to be defined.  
-3. Type of transactins can be defined for the report. Operating (current period), Opening and Closing .  
+2. Use the »New« button to generate a new report. The report name and period need to be defined.  
+3. The type of transactions can be defined for the report. Operating (current period), Opening and Closing.  
 4. There are two ways of generating report transactions:  
-   - Create transactions: old transactions (if they exist) are deleted, new transactions are generated and sector codes+financial intruments are allocated to each transaction according to existing setup for the period.  
-   - Generate: This option is recommended when working with large number of transactions. All steps, listed in previous point (delete, generate and allocate), can be taken separetely, when using this option.   
-5. As result of one of the above listed options, report transactions are generated. If transactions are missing any data (financial instrument, Sector code, SFR module), it can be edited manually. Change has effect on adequate SFR setup.  Procedure can be repeated.  
+   - Create transactions: old transactions (if they exist) are deleted, new transactions are generated and sector codes+financial instruments are allocated to each transaction according to existing setup for the period.  
+   - Generate: This option is recommended when working with large number of transactions. All steps, listed in the previous point (delete, generate and allocate), can be taken separately when using this option.   
+5. As a result of one of the above-listed options, report transactions are generated. If transactions are missing any data (financial instrument, Sector code, SFR module), it can be edited manually. Change has an effect on an adequate SFR setup. The procedure can be repeated.  
 
-Summary is generated by function Create Sums. As result data, summarized by Sector code, Financial instrument, Transaction type and SFR module, is  shown in tab Sums. Data can be edited manually if needed.  
+The summary is generated by function Create Sums. As result data, summarized by Sector code, Financial instrument, Transaction type, and SFR module, is shown in tab Sums. Data can be edited manually if needed.  
 
 Report structure can bi Viewed. If any modifications are needed, they must be made on transactions or sums.  
 
 ## SFR report export 
 
-Report can be exported to XML by using Export to XML function.  
+The report can be exported to XML by using Export to XML function.  
 
 
 <!-- 
