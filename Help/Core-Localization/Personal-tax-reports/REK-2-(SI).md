@@ -232,39 +232,39 @@ Upon closing the tax period, liability for payment is posted in sum to the vendo
  
 ## Test cases
 
-- [Starting source document is Purchase order](Test-Scenario.zip)
-- [Starting source document is Vendor invoice](Test-Scenario.zip)
-- [Entry of Gross amount](Test-Scenario.zip)
-- [Entry of Net amount](Test-Scenario.zip)
+- [Starting source document is Purchase order](Test-Scenario-REK2.zip)
+- [Starting source document is Vendor invoice](Test-Scenario-REK2.zip)
+- [Entry of Gross amount](Test-Scenario-REK2.zip)
+- [Entry of Net amount](Test-Scenario-REK2.zip)
 - Reliefs and certificates:
-   - [Additional tax reduction (cultural workers)](Test-Scenario.zip)
-   - [DTC reduced tax with required certificate](Test-Scenario.zip)
-   - [Withholding rate deduction](Test-Scenario.zip)
-- [Benefits](Test-Scenario.zip)
+   - [Additional tax reduction (cultural workers)](Test-Scenario-REK2.zip)
+   - [DTC reduced tax with required certificate](Test-Scenario-REK2.zip)
+   - [Withholding rate deduction](Test-Scenario-REK2.zip)
+- [Benefits](Test-Scenario-REK2.zip)
 - Different income types for one party paid on the same day 
-   - [Multiple source documents](Test-Scenario.zip)
-   - [One source document with multiple lines](Test-Scenario.zip)
-- [Multiple payments of the same income type to one party on the same day](Test-Scenario.zip)
-- [Payment of the same income type to multiple parties on the same day](Test-Scenario.zip)
-- [Different income types for different parties on the same day](Test-Scenario.zip)
-- [Payment to vendor liable for Slovenian VAT](Test-Scenario.zip)
+   - [Multiple source documents](Test-Scenario-REK2.zip)
+   - [One source document with multiple lines](Test-Scenario-REK2.zip)
+- [Multiple payments of the same income type to one party on the same day](Test-Scenario-REK2.zip)
+- [Payment of the same income type to multiple parties on the same day](Test-Scenario-REK2.zip)
+- [Different income types for different parties on the same day](Test-Scenario-REK2.zip)
+- [Payment to vendor liable for Slovenian VAT](Test-Scenario-REK2.zip)
 - Personal tax payments from closed transactions
-   - [Compensation (total amount)](Test-Scenario.zip)
-   - [Compensation (partial amount)](Test-Scenario.zip)
+   - [Compensation (total amount)](Test-Scenario-REK2.zip)
+   - [Compensation (partial amount)](Test-Scenario-REK2.zip)
 - Reporting regarding real estate
-   - [One building land from one party (starting with purchase order)](Test-Scenario.zip)
-   - [Multiple building lands from one party (starting with vendor invoice)](Test-Scenario.zip)
+   - [One building land from one party (starting with purchase order)](Test-Scenario-REK2.zip)
+   - [Multiple building lands from one party (starting with vendor invoice)](Test-Scenario-REK2.zip)
 - Dependency between payment journal and REK-2 report 
-   - [Generating REK-2 report from posted payment journal](Test-Scenario.zip)
-   - [Generating report from created (not yet posted) payment journal](Test-Scenario.zip)
-   - [Correcting or deleting payment journal lines is not possible while report exists](Test-Scenario.zip)
-   - [Correcting payment journal line amount is not recorded in the report](Test-Scenario.zip)
-- [Overview of personal tax payments](Test-Scenario.zip)
-- [Summary statement of income paid during the period of above test cases](Test-Scenario.zip)
+   - [Generating REK-2 report from posted payment journal](Test-Scenario-REK2.zip)
+   - [Generating report from created (not yet posted) payment journal](Test-Scenario-REK2.zip)
+   - [Correcting or deleting payment journal lines is not possible while report exists](Test-Scenario-REK2.zip)
+   - [Correcting payment journal line amount is not recorded in the report](Test-Scenario-REK2.zip)
+- [Overview of personal tax payments](Test-Scenario-REK2.zip)
+- [Summary statement of income paid during the period of above test cases](Test-Scenario-REK2.zip)
 - Notice of payment 
-   - [From not yet paid contract work](Test-Scenario.zip)
-   - [From paid contract work – date of payment is later than due date from the invoice](Test-Scenario.zip)
-- [Closing tax settlement period](Test-Scenario.zip)
+   - [From not yet paid contract work](Test-Scenario-REK2.zip)
+   - [From paid contract work – date of payment is later than due date from the invoice](Test-Scenario-REK2.zip)
+- [Closing tax settlement period](Test-Scenario-REK2.zip)
  
 ### Massive creation of invoices through purchase pool
 
