@@ -33,7 +33,7 @@ Additional setup is available for VAT date and VAT Payable date calculation. VAT
 
 [Detailed documentation](/Help/Core-Localization/VAT/Additional-dates-for-VAT-reporting-purposes)
 
-<!-- [Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_VAT%20features.docx?d=w42e2c5023dca417b9b1c9c691af0e3bf&csf=1&e=91Mb4E) -->
+<!-- [Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_VAT%20features.docx?d=w42e2c5023dca417b9b1c9c691af0e3bf&csf=1&e=91Mb4E) 
  -->
 
 ## **VAT Date change** ##
