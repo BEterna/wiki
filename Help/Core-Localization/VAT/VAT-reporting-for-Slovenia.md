@@ -10,7 +10,7 @@ is a Slovenian sales tax return report. Every taxable person identified for VAT 
 
 DDV-O is prepared based on Tax transactions and according to VAT date. DDV-O can also be previewed (html) and exported to XML file.
 
-
+[Detailed documentation](/Help/Core-Localization/Slovenian-Localization-Functionalities/DDV-O-\(Obračun-DDV\))
 
 ## **List of incoming (PR) and outgoing (IR) invoices** ##
 -----
@@ -19,6 +19,7 @@ A taxable person filing a VAT return (DDV-O) for the first time must attach a li
 
 IR and PR reports are prepared based on Tax transactions amd according to VAT date. Both reports can be exported to various format (e.g. Word, PDF or Excel). A special export in the format, required by the Slovenian tax authority (FURS) is also available for IR and PR. All reports are prepared using Slovenian sales tax reporting codes.
 
+[Detailed documentation](/Help/Core-Localization/Slovenian-Localization-Functionalities/List-of-incoming-\(PR\)-and-outgoing-\(IR\)-invoices)
 
 ## **PDO (Poročilo o dobavah)** ##
 ----- 
@@ -27,6 +28,7 @@ is a report required by the Slovenian tax authority regarding the supply of good
 
 PDO reports sums transactions based on tax exempt numbers. Report consists of A (information about the deliveries for current period) and B part (information about the corrections for previous periods). PDO report can be previewed (html) and exported as XML file, using the adequate model for reporting to the Slovenian tax authority (FURS) portal eDavki.
 
+[Detailed documentation](/Help/Core-Localization/Slovenian-Localization-Functionalities/PDO-Report)
 
 ## **VIES (recapitulative report)** ##
 -----
@@ -35,6 +37,8 @@ PDO reports sums transactions based on tax exempt numbers. Report consists of A 
 
 VIES (recapitulative report) processes the transactions, considered as intra-community trade transactions based on the delivery address of the documents (Sales invoices, Free text invoices, Project invoices, Vendor invoices) if country code from that address is specified for the EU trade. Selected transactions are then transferred to EU sales list journal, if they meet the predetermined criterion. Additional localized information are available to be added to these transactions (e.g. Customs procedure 42 or 63). In contrary to the standard, localized feature reports transactions based on the VAT (and not transaction) date. VIES report can be exported either to Excel file (standard) or to an adequate XML file format (localization), accepted by the Slovenian tax authority (FURS) portal eDavki and previewed prior to export. After generating an EU Sales list report for a specific period, it is also possible to mark the records that are included in the report by setting the Reporting status value to Reported and Closed when for example tax authorities have accepted the report.
 
+[Detailed documentation](/Help/Core-Localization/Slovenian-Localization-Functionalities/VIES-\(recapitulative-report\))
 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20VAT%20Reports%20SI%20docx.docx?d=wb9549c42a47d410a9d9723a851a6df44&csf=1&e=bFzEGW)
+<!-- 
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20VAT%20Reports%20SI%20docx.docx?d=wb9549c42a47d410a9d9723a851a6df44&csf=1&e=bFzEGW) -->
 	
