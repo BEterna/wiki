@@ -6,7 +6,7 @@ All VAT reporting for Slovenia, Croatia, and Serbia needs to be performed accord
 * VAT Payable date
 * Document Receipt date (used for defaulting VAT date)
 
-VAT date and VAT Payable date (when populated) are transferred to a VAT date field (additional localized field) on Tax transaction as a result of document posting. This date is then used for VAT calculation and reporting.
+VAT date and VAT Payable date (when populated) are transferred to a VAT date field (additional localized field) on Tax transactions as a result of document posting. This date is then used for VAT calculation and reporting.
 
 List of documents where additional VAT date fields are enabled:
 
@@ -48,5 +48,5 @@ VAT date defaulting setup is added to the following modules:
 
 VAT settlement period can be closed using extended localization features. 
 
-Field “Closed” is added to Period intervals. If the field is marked, the period is closed for VAT posting. This means that sales tax transactions can’t be posted into that period. Field can be un-marked whenever wanted. 
+Field “Closed” is added to Period intervals. If the field is marked, the period is closed for VAT posting. This means that sales tax transactions can’t be posted in that period. The field can be un-marked whenever wanted. 
 
