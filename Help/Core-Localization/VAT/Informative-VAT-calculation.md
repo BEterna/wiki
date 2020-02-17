@@ -1,0 +1,4 @@
+How To: Enter Informative VAT calculation
+
+An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value need to be calculated and later added to invoice printout or other documents.
+
