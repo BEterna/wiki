@@ -9,7 +9,7 @@ DDV-O is prepared based on Tax transactions and according to the VAT date. DDV-O
 The generation of reports is based on reporting codes. Reporting code carries information about which field the transaction will be recorded in. 
 
 1. Open Tax – Setup – Sales tax – Sales tax reporting codes:
-   - The list of reporting codes (for SI) is attached below. Reporting codes can also be imported using Excel add-in. 
+   - Enter the list of [reporting codes for SI](Reporting-codes.zip). Reporting codes can also be imported using Excel add-in. 
 2. Open Tax – Indirect taxes – Sales tax – Sales tax codes.
    - VAT reports are generated according to the setup of sales tax reporting codes on sales tax codes.  
 3. Open Electronic reporting formats setup in General ledger - General ledger parameters - Adacta localization. To generate DDV-O, electronic reporting formats need to be configured first. Two formats are available for DDV-O: 
