@@ -15,3 +15,9 @@ The following topics describe local functionality that is unique to the Croatian
 [Reporting Tab on Tax transaction](/Help/Core-Localization/VAT/Reporting-Tab-on-Tax-transaction.md)|As part of localization, additional “Reporting” tab is added to Tax transactions. It displays information, such as Customer/Vendor, Address, Tax exempt number, Document, Document date and Document receipt date. This information is used on VAT reports.
 [Informative VAT calculation](/Help/Core-Localization/VAT/Informative-VAT-calculation.md)|An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value needs to be calculated and later added to invoice printout or other documents.
 [Taxable persons list SI, HR](/Help/Core-Localization/VAT/Taxable-persons-list-\(SI,-HR\))|A taxable person list is added in the scope of Slovenian and Croatian localization. Slovenian list stores information, such as tax registration number, company registration number, taxable person type, name, address, and special handling (e.g. 76.a ZDDV-1) checkmark, while Croatian list stores the following information: OIB, identification number, type, and name. This list can later be used when adding VAT ID to Vendor or Customer.
+
+### Personal Tax Reports
+
+**Feature**|**Description**
+:-|:-
+[JOPPD](/Help/Core-Localization/Personal-tax-reports/JOPPD-\(HR\))|Topic provides a country/region-specific information about personal tax reporting in accordance with the Croatian legislative requirements. JOPPD (Izvješće o primicima, porezu na dohodak i prirezu te doprinosima za obvezna osiguranja) is a unique form for reporting personal taxes and contributions required by the Croatian tax authority. JOPPD form must be submitted by the payers of or salaries and/or by the taxpayers alone for the following types of incomes: Employment income, Income from property and property rights, Income from capital, Income from insurance, other income.
