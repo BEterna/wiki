@@ -15,3 +15,11 @@ The following topics describe local functionality that is unique to the Slovenia
 [Reporting Tab on Tax transaction](/Help/Core-Localization/VAT/Reporting-Tab-on-Tax-transaction.md)|As part of localization, additional “Reporting” tab is added to Tax transactions. It displays information, such as Customer/Vendor, Address, Tax exempt number, Document, Document date and Document receipt date. This information is used on VAT reports.
 [Informative VAT calculation](/Help/Core-Localization/VAT/Informative-VAT-calculation.md)|An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value needs to be calculated and later added to invoice printout or other documents.
 [Taxable persons list SI, HR](/Help/Core-Localization/VAT/Taxable-persons-list-\(SI,-HR\))|A taxable person list is added in the scope of Slovenian and Croatian localization. Slovenian list stores information, such as tax registration number, company registration number, taxable person type, name, address, and special handling (e.g. 76.a ZDDV-1) checkmark, while Croatian list stores the following information: OIB, identification number, type, and name. This list can later be used when adding VAT ID to Vendor or Customer.
+
+
+### Personal Tax Reports
+
+**Feature**|**Description**
+:-|:-
+[REK-1](/Help/Core-Localization/Personal-tax-reports/REK-1-\(SI\))|REK-1 is a Slovenian personal tax report, which legal entities or natural persons who perform business activities are obliged to report to the Slovenian tax authority (FURS) if they pay incomes from employment. Report layout and the required conditions are based on paragraph 8, Article 58 of the Tax Procedure Act - ZDavP-2.
+[REK-2](/Help/Core-Localization/Personal-tax-reports/REK-2-\(SI\))|REK-2 is a Slovenian personal tax report, which taxpayers are legally (ZDoh-2) obliged to report to the Slovenian tax authority (FURS) if they pay income, other than income from the employment. A taxpayer may also authorize another person to calculate and pay tax on his behalf. The data shall be reported to the tax authority (FURS) by all taxpayers when the payment of other income according to ZDoh-2 (excluding income from employment), from which the tax, the withholding tax, and social security contributions are paid.
