@@ -19,7 +19,7 @@ List of features, included in Localization package:
 | [D365_Sales and Purchase Advance Invoice](/Help/Core-Localization/Advance-invoice) |•  |•  |•  | Localization added functionality for Advance invoices posting, based on posted prepayments. Posting advance invoice will post the calculated VAT amount to the general ledger and VAT entry. When the final invoice is posted, VAT from the advance invoice is automatically reversed. posting the Sales Order will be automatically reversed.  If only a partial amount of Prepayment is applied, the proportional share of the Advance invoice will be reversed. |
 | D365_eInvoice |•  | • |  |e-Invoice can be generated for customers (SI, HR).  |
 | D365_OPZ-STAT-1 report |  | • |  | Statistical report about overdue unpaid receivables from customers, based on invoices. The report can be exported to XML. |
-| D365_eSettlement | • |  |  | eSettlement functionality  and export format (mandatory set-off) |
+| [D365_eSettlement](/Help/Core-Localization/eSettlement-\(SI\)) | • |  |  | eSettlement functionality  and export format (mandatory set-off) |
 | D365_Interest calculation type | • | • | • | Additional interest calculation type was added (Day - actual year) that calculates the interest amount in the following way: Amount * Annual interest rate / Number of days in calendar year * Number of overdue days. The calculation takes into consideration leap years. |
 | D365_Additional depreciation convention - Next month | • | • | • | Additional depreciation convention is added that enables automatic setup of depreciation run date at the first date of the month after the asset has been acquired. |
 | D365_Tax depreciation report  |  |  |•  |Legally required report for fixed assets (RS).   |
