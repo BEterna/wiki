@@ -31,7 +31,7 @@ List of documents where additional VAT date fields are enabled:
 
 Additional setup is available for VAT date and VAT Payable date calculation. VAT date validation is also added. If the VAT date is missing, posting such a document will result in an error.
 
-[Detailed documentation](/Help/Core-Localization/VAT/Additional-dates-for-VAT-reporting-purposes)
+[Detailed documentation](/Help/Core-Localization/VAT-features/Additional-dates-for-VAT-reporting-purposes)
 
 <!-- [Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_VAT%20features.docx?d=w42e2c5023dca417b9b1c9c691af0e3bf&csf=1&e=91Mb4E) 
  -->
@@ -41,54 +41,102 @@ Additional setup is available for VAT date and VAT Payable date calculation. VAT
 
 VAT date can be manually changed on posted Sales tax transactions by using the function “Change VAT date”. VAT date is then changed on both - Tax transaction and Invoice journal. VAT date change for the period that is closed for posting is not possible and will result in an error.
 
-[Detailed documentation](/Help/Core-Localization/VAT/VAT-date-change)
+[Detailed documentation](/Help/Core-Localization/VAT-features/VAT-date-change)
 
 
 ## **Reporting Tab on Tax transaction** ##
 -----
 As part of localization, an additional “Reporting” tab is added to Tax transactions. It displays information, such as Customer/Vendor, Address, Tax exempt number, Document, Document date and Document receipt date. This information is used on VAT reports. 
 
-[Detailed documentation](/Help/Core-Localization/VAT/Reporting-Tab-on-Tax-transaction)
+[Detailed documentation](/Help/Core-Localization/VAT-features/Reporting-Tab-on-Tax-transaction)
 
 ## **Informative VAT calculation** ##
 -----
 
 An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value need to be calculated and later added to invoice printout or other documents.
 
-[Detailed documentation](/Help/Core-Localization/VAT/Informative-VAT-calculation)
+[Detailed documentation](/Help/Core-Localization/VAT-features/Informative-VAT-calculation)
 
 ## **DDV-O (Obračun DDV) (Slovenia)** ##
 -----
 
-is a Slovenian sales tax return report. Every taxable person identified for VAT purposes in Slovenia is obliged to submit a VAT return to the Slovenian tax authority. DDV-O should include all the required VAT return settings, with the information needed to calculate the sales tax  and applicable deduction to be made including the total value of transactions relating to such tax and deductions. Additionally, the value of any exempt transactions should be included. Taxable entities have to submit the tax return to the tax authority by the last business day of the month, which follows  the expiry of the tax period, while Slovenian laws also allows multiple exceptions. VAT tax return (DDV-O) needs to be submitted electronically via the eDavki portal of the Slovenian tax authority (FURS).
+is a Slovenian sales tax return report. Every taxable person identified for VAT purposes in Slovenia is obliged to submit a VAT return to the Slovenian tax authority. DDV-O should include all the required VAT return settings, with the information needed to calculate the sales tax and applicable deduction to be made including the total value of transactions relating to such tax and deductions. Additionally, the value of any exempt transactions should be included. Taxable entities have to submit the tax return to the tax authority by the last business day of the month, which follows the expiry of the tax period, while Slovenian laws also allow multiple exceptions. VAT tax return (DDV-O) needs to be submitted electronically via the eDavki portal of the Slovenian tax authority (FURS).
 
-DDV-O is prepared based on Tax transactions and according to VAT date. DDV-O can also be previewed (html) and exported to XML file.
+DDV-O is prepared based on Tax transactions and according to the VAT date. DDV-O can also be previewed (HTML) and exported to the XML file.
 
-[Detailed documentation](/Help/Core-Localization/Slovenian-Localization-Functionalities/DDV-O-\(Obračun-DDV\))
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Slovenia/DDV-O-\(Obračun-DDV\))
 
 ## **List of incoming (PR) and outgoing (IR) invoices (Slovenia)** ##
 -----
 
 A taxable person filing a VAT return (DDV-O) for the first time must attach a list of the incoming (PR) and outgoing (IR) invoices that served as the basis for preparing the VAT return. These two lists must also be available to be sent to the Slovenian tax authority if required directly by the authority and therefore need to be available to be extracted from the ERP.
 
-IR and PR reports are prepared based on Tax transactions amd according to VAT date. Both reports can be exported to various format (e.g. Word, PDF or Excel). A special export in the format, required by the Slovenian tax authority (FURS) is also available for IR and PR. All reports are prepared using Slovenian sales tax reporting codes.
+IR and PR reports are prepared based on Tax transactions and according to the VAT date. Both reports can be exported to various formats (e.g. Word, PDF or Excel). A special export in the format, required by the Slovenian tax authority (FURS) is also available for IR and PR. All reports are prepared using Slovenian sales tax reporting codes.
 
-[Detailed documentation](/Help/Core-Localization/Slovenian-Localization-Functionalities/List-of-incoming-\(PR\)-and-outgoing-\(IR\)-invoices)
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Slovenia/List-of-incoming-\(PR\)-and-outgoing-\(IR\)-invoices)
 
 ## **PDO (Poročilo o dobavah) (Slovenia)** ##
 ----- 
 
-is a report required by the Slovenian tax authority regarding the supply of goods and services for which the recipient (and not the provider of goods or services) is a VAT payer according to the 76.a Article of the Slovenian sales tax law (ZDDV-1), where specific services for which this is applicable is also defined – e.g. construction work related services. Slovenian taxable persons, which perform these activities, must notice the Slovenian tax authority about their activities within 30 days of their occurrence. PDO report needs to be submitted electronically until the last day of the following month after deliveries of such goods or services occurred. Reporting is done through eDavki portal of the Slovenian tax authority (FURS).
+is a report required by the Slovenian tax authority regarding the supply of goods and services for which the recipient (and not the provider of goods or services) is a VAT payer according to the 76.a Article of the Slovenian sales tax law (ZDDV-1), where specific services for which this is applicable is also defined – e.g. construction work-related services. Slovenian taxable persons, which perform these activities, must notice the Slovenian tax authority about their activities within 30 days of their occurrence. PDO report needs to be submitted electronically until the last day of the following month after deliveries of such goods or services occurred. Reporting is done through the eDavki portal of the Slovenian tax authority (FURS).
 
-PDO reports sums transactions based on tax exempt numbers. Report consists of A (information about the deliveries for current period) and B part (information about the corrections for previous periods). PDO report can be previewed (html) and exported as XML file, using the adequate model for reporting to the Slovenian tax authority (FURS) portal eDavki.
+PDO reports sums transactions based on tax exempt numbers. The report consists of A (information about the deliveries for the current period) and B part (information about the corrections for previous periods). PDO report can be previewed (HTML) and exported as an XML file, using the adequate model for reporting to the Slovenian tax authority (FURS) portal eDavki.
 
-[Detailed documentation](/Help/Core-Localization/Slovenian-Localization-Functionalities/PDO-Report)
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Slovenia/PDO-Report)
 
 ## **VIES (recapitulative report) (Slovenia)** ##
 -----
 
- is a report in which taxable entities, identified for VAT purposes in Slovenia are obliged to report the supplies of goods and services that are delivered to entities, identified for VAT in the other Member States of the European Union during the reporting period (the calendar month). VIES report needs to be submitted to Slovenian tax authority (FURS) till the 20th in the following month after the occurrence of the reporting events.
+ is a report in which taxable entities, identified for VAT purposes in Slovenia are obliged to report the supplies of goods and services that are delivered to entities, identified for VAT in the other Member States of the European Union during the reporting period (the calendar month). VIES report needs to be submitted to the Slovenian tax authority (FURS) till the 20th in the following month after the occurrence of the reporting events.
 
-VIES (recapitulative report) processes the transactions, considered as intra-community trade transactions based on the delivery address of the documents (Sales invoices, Free text invoices, Project invoices, Vendor invoices) if country code from that address is specified for the EU trade. Selected transactions are then transferred to EU sales list journal, if they meet the predetermined criterion. Additional localized information are available to be added to these transactions (e.g. Customs procedure 42 or 63). In contrary to the standard, localized feature reports transactions based on the VAT (and not transaction) date. VIES report can be exported either to Excel file (standard) or to an adequate XML file format (localization), accepted by the Slovenian tax authority (FURS) portal eDavki and previewed prior to export. After generating an EU Sales list report for a specific period, it is also possible to mark the records that are included in the report by setting the Reporting status value to Reported and Closed when for example tax authorities have accepted the report.
+VIES (recapitulative report) processes the transactions, considered as intra-community trade transactions based on the delivery address of the documents (Sales invoices, Free text invoices, Project invoices, Vendor invoices) if country code from that address is specified for the EU trade. Selected transactions are then transferred to EU sales list journal if they meet the predetermined criterion. Additional localized information are available to be added to these transactions (e.g. Customs procedure 42 or 63). In contrary to the standard, localized feature reports transactions based on the VAT (and not transaction) date. VIES report can be exported either to Excel file (standard) or to an adequate XML file format (localization), accepted by the Slovenian tax authority (FURS) portal eDavki and previewed prior to export. After generating an EU Sales list report for a specific period, it is also possible to mark the records that are included in the report by setting the Reporting status value to Reported and Closed when for example tax authorities have accepted the report.
 
-[Detailed documentation](/Help/Core-Localization/Slovenian-Localization-Functionalities/VIES-\(recapitulative-report\))
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Slovenia/VIES-\(recapitulative-report\))
+
+
+## **PDV report (Croatia)** ##
+-----
+is a Croatian sales tax return report. Every taxable person identified for VAT purposes is obliged to submit a VAT return to the Croatian tax authority. Report consists of sums of sales tax from both payable and receivable transactions, according to different sales tax rates. Taxable entities must submit PDV report electronically via the ePorezna portal of the Croatian tax authority.
+
+PDV report is prepared based on Tax transactions  and according to VAT date. PDV report can be exported as  XML file in the format, accepted by the Croatian tax authorities.
+
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Croatia/PDV-report)
+
+## **IRA and URA reports (Croatia)** ##
+-----
+IRA and URA consist of the receivable and payable tax transactions and provide data about the applicable VAT rates for each of the sales tax transactions. IRA provides such information for the receivable, while URA for payable transactions. These two lists have to be available to be extracted from D365, in case the adequate Croatian tax authority requires so.
+
+IRA and URA reports are prepared based on Tax transactions and according to VAT date. IRA and URA reports can be exported to various format (e.g. Word, PDF or Excel).
+
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Croatia/IRA-and-URA-reports)
+
+## **PPO form (Croatia)** ##
+-----
+PPO form is legally required form in Croatia, according to the Croatian sales tax Law, Article 75., Section 1., Point 3. - Official gazette 73/13, 99/13, 148/13, 153/13, 143/14, 115/16). PPO consists of the overview of non-taxable deliveries - e.g. transferred tax liability to the recipient made in Croatia (domestic transfer of tax liability). It has to be submitted on a 3-month basis to Croatian tax authorities, with the values in Croatian national currency (HRK). It consists of transactions regarding the goods and services, determined by the local legislation, for which their recipient is a sales tax payer. Form is submitted electronically via ePorezna portal of the Croatian tax authority.
+
+PPO report is prepared based on the tax transactions. In order for tax transaction to be included in PPO report, adequate setup must exist on each of the sales tax codes. Report can be created, overviewed and exported to various formats, including the XML format, accepted by ePorezna portal of the Croatian tax authority.
+
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Croatia/PPO-report)
+
+## **PDV-S and ZP (Zbirna Prijava) report - VIES (Croatia)** ##
+-----
+PDV-S and ZP (Zbirna Prijava) report is a recapitulative report in which taxable entities, identified for VAT purposes in Croatia are obliged to report the supplies of goods or services to (ZN report) and from (PDV-S) legal entities from other EU member states, which are identified for VAT in Member States of the European Union during the reporting period. Along with entities, registered in the VAT system, buyers who are not eligible (do not charge) for VAT – but have had an acquisition of goods of value, higher then the legally required threshold, also have to submit both forms. Both – ZN and PDV-S reports have to be submitted to the Croatian tax authority.
+
+PDV-S and ZP (Zbirna Prijava) report processes the intra-community transactions based on the delivery address of the documents (Sales invoices, Free text invoices, Project invoices, Vendor invoices) if country code from that address is specified for the EU trade. Selected transactions are transferred to EU sales list journal, if they meet the predetermined criterion. Additional localized information are available to be added to these transactions (e.g. Customs procedure 42 or 63). In contrary to the standard, localized feature allows reporting transactions based on the VAT (and not transaction) date. Two separate reports – PDV-S and ZP report can then be generated. Both reports can be printed or exported to an adequate XML file format, required by the Croatian tax authority. All transactions can be also manually marked as included, reported or closed.
+
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Croatia/PDV-S-and-ZP-report)
+
+This topic provides country/region-specific information about how to set up and create the sales tax declaration for legal entities in Serbia only. In order to comply with the Serbian legislation, adequate reports regarding the sales tax need are for Serbia in terms of this localization feature and are further described below.
+
+## **KIF and KUF report (Serbia)** ##
+-----
+KIF and KUF consist of the receivable and payable tax transactions and provide data about the applicable VAT rates for each of the sales tax transactions. KIF provides such information for the receivable, while KUF for payable transactions. 
+
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Serbia/KIF-and-KUF-report)
+
+
+## **PPPDV report (Serbia)** ##
+-----
+PPPDV is a Serbian sales tax return report. Every taxable person identified for VAT purposes in Serbia is obliged to submit a VAT return to the Serbia tax authority. 
+
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Serbia/PPPDV-report)
