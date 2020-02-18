@@ -1,5 +1,113 @@
-This topic provides country/region-specific information about statement of the legally required information that need to be available for main accounts in order to comply with Croatian legislative requirements. Main account statement provides information, which legal entities in Croatia need to provide if required so by local authorities according to Croatian Accounting law (Official gazette 78/15, 134/15,120/16: Article 12., Section 9.), which specifies the minimum information, legally required to be included on main account statement.
+# How To: Create the Main account statement 
 
-This localisation feature enables Croatian legal entities to prepare account statement for each Main account with legally required information. After the generation, main account statement can be exported to various formats.
+This topic provides country/region-specific information about the statement of the legally required information that needs to be available for main accounts in order to comply with Croatian legislative requirements. The main account statement provides information, which legal entities in Croatia need to provide if required so by local authorities according to Croatian Accounting law (Official gazette 78/15, 134/15,120/16: Article 12., Section 9.), which specifies the minimum information, legally required to be included on the main account statement.
 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_HR%20Main%20account%20statement.docx?d=w752c1ecfdb8741659850627127464fbc&csf=1&e=6w1AXC)
+This localization feature enables Croatian legal entities to prepare the account statements for each Main account with the legally required information. After the generation, the main account statement can be exported to various formats.
+
+## Legal requirements
+
+In accordance to the Croatian Accounting law (Official gazette 78/15, 134/15,120/16: Article 12., Section 9.) the following are minimum requirements for Main account statement:
+
+(9) Izvadak za pojedini konto mora sadržavati najmanje sljedeće:
+1. naziv, odnosno ime i prezime te sjedište, odnosno adresu poduzetnika
+2. brojčanu oznaku konta
+3. naziv konta
+4. razdoblje na koje se odnosi
+5. početno stanje ako postoji
+6. za svaku knjiženu promjenu: jedinstvenu identifikacijsku oznaku knjigovodstvene promjene, datum knjigovodstvene promjene, datum knjiženja, opis sadržaja promjene, dugovni ili potražni iznos, oznaku pripadajuće knjigovodstvene isprave
+7. zaključni ukupni dugovni i potražni promet za razdoblje na koje se izvadak odnosi
+8. stanje konta na kraju razdoblja.
+Izvor: Zakon o računovodstvu NN 78/15, 134/15,120/16: Članak 12., Točka 9.
+
+## Name and address of the company
+
+1. Open Organization administration/Organizations/Legal entities.
+
+
+Above attached screenshots are in line with point 1 from Accounting law from chapter 1 of this document.
+
+3	General ledger number and general ledger name
+General ledger/Chart of accounts/Accounts/Main accounts
+In order to satisfy second and third requirement, we need to enter main account number and name into the system.
+
+4	Number sequence of accounting transaction
+In order to have proper accounting transaction numbering we need to set proper number sequences (requirement number 6).
+Organization administration/Number sequences/Number sequences
+
+
+
+General ledger/Ledger setup/General ledger parameters
+
+
+5	Generating reports
+General ledger/Inquiries and reports/Croatia/Izvadak konta
+
+
+By clicking on “OK” button, we get the following statement:
+
+
+To the report, we can also access following the form General ledger/Ledger reports/Ledger transaction list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To the report, we can also access following the form General ledger/Inquiries and reports/Voucher transactions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If we want to inspect when the document was created, we go to Options tab and then Record info
+
+We need to choose Show all fields.
+
+
+
+
+
+
+
+
+
+
+
