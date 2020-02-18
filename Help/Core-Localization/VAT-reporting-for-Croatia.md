@@ -1,23 +1,34 @@
-The following topics describe local functionality that is unique to the Croatian version of Finance and Operations.
+This topic provides country/region-specific information about how to set up and create the sales tax declaration for legal entities in Croatia only. In order to comply with the Croatian legislation, adequate reports regarding the sales tax need are for Croatia in terms of this localization feature and are further described below.
 
-## In This Section
+## **PDV report** ##
+-----
+is a Croatian sales tax return report. Every taxable person identified for VAT purposes is obliged to submit a VAT return to the Croatian tax authority. Report consists of sums of sales tax from both payable and receivable transactions, according to different sales tax rates. Taxable entities must submit PDV report electronically via the ePorezna portal of the Croatian tax authority.
 
-### VAT
+PDV report is prepared based on Tax transactions  and according to VAT date. PDV report can be exported as  XML file in the format, accepted by the Croatian tax authorities.
 
-**Feature**|**Description**
-:-|:-
-[PDV report](/Help/Core-Localization/Croatian-Localization-Functionalities/PDV-report)|PDV report is a Croatian sales tax return report. Every taxable person identified for VAT purposes is obliged to submit a VAT return to the Croatian tax authority. The report consists of sums of sales tax from both payable and receivable transactions, according to different sales tax rates. Taxable entities must submit the PDV report electronically via the ePorezna portal of the Croatian tax authority.
-[IRA and URA reports](/Help/Core-Localization/Croatian-Localization-Functionalities/IRA-and-URA-reports)|IRA and URA consist of the receivable and payable tax transactions and provide data about the applicable VAT rates for each of the sales tax transactions. IRA provides such information for the receivable, while URA for payable transactions. These two lists have to be available to be extracted from D365, in case the adequate Croatian tax authority requires so.
-[PPO report](/Help/Core-Localization/Croatian-Localization-Functionalities/PPO-report)|PPO report is legally required form in Croatia, according to the Croatian sales tax Law, Article 75., Section 1., Point 3. - Official gazette 73/13, 99/13, 148/13, 153/13, 143/14, 115/16). PPO consists of the overview of non-taxable deliveries - e.g. transferred tax liability to the recipient made in Croatia (domestic transfer of tax liability). It has to be submitted on a 3-month basis to Croatian tax authorities, with the values in Croatian national currency (HRK). It consists of transactions regarding the goods and services, determined by the local legislation, for which their recipient is a sales tax payer. The form is submitted electronically via ePorezna portal of the Croatian tax authority.
-[PDV-S and ZP report - VIES](/Help/Core-Localization/Croatian-Localization-Functionalities/PDV-S-and-ZP-report)|PDV-S and ZP (Zbirna Prijava) report is a recapitulative report in which taxable entities, identified for VAT purposes in Croatia are obliged to report the supplies of goods or services to (ZN report) and from (PDV-S) legal entities from other EU member states, which are identified for VAT in the Member States of the European Union during the reporting period. Along with entities, registered in the VAT system, buyers who are not eligible (do not charge) for VAT – but have had an acquisition of goods of value, higher than the legally required threshold, also have to submit both forms. Both – ZN and PDV-S reports have to be submitted to the Croatian tax authority.
-[Additional dates for VAT reporting purposes](/Help/Core-Localization/VAT/Additional-dates-for-VAT-reporting-purposes)|All VAT reporting for Slovenia, Croatia, and Serbia needs to be performed according to VAT date and not Transaction date (which is how standard functionality for Tax reporting works). For VAT reporting purposes following dates are added to several documents such as VAT date, VAT Payable date and Document Receipt date (used for defaulting VAT date).
-[VAT date change](/Help/Core-Localization/VAT/VAT-date-change.md)|VAT date can be manually changed on posted Sales tax transactions by using function “Change VAT date”. VAT date is then changed on both - Tax transaction and Invoice journal. VAT date change for the period that is closed for posting is not possible and will result in an error.
-[Reporting Tab on Tax transaction](/Help/Core-Localization/VAT/Reporting-Tab-on-Tax-transaction.md)|As part of localization, additional “Reporting” tab is added to Tax transactions. It displays information, such as Customer/Vendor, Address, Tax exempt number, Document, Document date and Document receipt date. This information is used on VAT reports.
-[Informative VAT calculation](/Help/Core-Localization/VAT/Informative-VAT-calculation.md)|An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value needs to be calculated and later added to invoice printout or other documents.
-[Taxable persons list SI, HR](/Help/Core-Localization/VAT/Taxable-persons-list-\(SI,-HR\))|A taxable person list is added in the scope of Slovenian and Croatian localization. Slovenian list stores information, such as tax registration number, company registration number, taxable person type, name, address, and special handling (e.g. 76.a ZDDV-1) checkmark, while Croatian list stores the following information: OIB, identification number, type, and name. This list can later be used when adding VAT ID to Vendor or Customer.
+[Detailed documentation](/Help/Core-Localization/Croatian-Localization-Functionalities/PDV-report)
 
-### Personal Tax Reports
+## **IRA and URA reports** ##
+-----
+IRA and URA consist of the receivable and payable tax transactions and provide data about the applicable VAT rates for each of the sales tax transactions. IRA provides such information for the receivable, while URA for payable transactions. These two lists have to be available to be extracted from D365, in case the adequate Croatian tax authority requires so.
 
-**Feature**|**Description**
-:-|:-
-[JOPPD](/Help/Core-Localization/Personal-tax-reports/JOPPD-\(HR\))|Topic provides a country/region-specific information about personal tax reporting in accordance with the Croatian legislative requirements. JOPPD (Izvješće o primicima, porezu na dohodak i prirezu te doprinosima za obvezna osiguranja) is a unique form for reporting personal taxes and contributions required by the Croatian tax authority. JOPPD form must be submitted by the payers of or salaries and/or by the taxpayers alone for the following types of incomes: Employment income, Income from property and property rights, Income from capital, Income from insurance, other income.
+IRA and URA reports are prepared based on Tax transactions and according to VAT date. IRA and URA reports can be exported to various format (e.g. Word, PDF or Excel).
+
+[Detailed documentation](/Help/Core-Localization/Croatian-Localization-Functionalities/IRA-and-URA-reports)
+
+## **PPO form** ##
+-----
+PPO form is legally required form in Croatia, according to the Croatian sales tax Law, Article 75., Section 1., Point 3. - Official gazette 73/13, 99/13, 148/13, 153/13, 143/14, 115/16). PPO consists of the overview of non-taxable deliveries - e.g. transferred tax liability to the recipient made in Croatia (domestic transfer of tax liability). It has to be submitted on a 3-month basis to Croatian tax authorities, with the values in Croatian national currency (HRK). It consists of transactions regarding the goods and services, determined by the local legislation, for which their recipient is a sales tax payer. Form is submitted electronically via ePorezna portal of the Croatian tax authority.
+
+PPO report is prepared based on the tax transactions. In order for tax transaction to be included in PPO report, adequate setup must exist on each of the sales tax codes. Report can be created, overviewed and exported to various formats, including the XML format, accepted by ePorezna portal of the Croatian tax authority.
+
+[Detailed documentation](/Help/Core-Localization/Croatian-Localization-Functionalities/PPO-report)
+
+## **PDV-S and ZP (Zbirna Prijava) report - VIES** ##
+-----
+PDV-S and ZP (Zbirna Prijava) report is a recapitulative report in which taxable entities, identified for VAT purposes in Croatia are obliged to report the supplies of goods or services to (ZN report) and from (PDV-S) legal entities from other EU member states, which are identified for VAT in Member States of the European Union during the reporting period. Along with entities, registered in the VAT system, buyers who are not eligible (do not charge) for VAT – but have had an acquisition of goods of value, higher then the legally required threshold, also have to submit both forms. Both – ZN and PDV-S reports have to be submitted to the Croatian tax authority.
+
+PDV-S and ZP (Zbirna Prijava) report processes the intra-community transactions based on the delivery address of the documents (Sales invoices, Free text invoices, Project invoices, Vendor invoices) if country code from that address is specified for the EU trade. Selected transactions are transferred to EU sales list journal, if they meet the predetermined criterion. Additional localized information are available to be added to these transactions (e.g. Customs procedure 42 or 63). In contrary to the standard, localized feature allows reporting transactions based on the VAT (and not transaction) date. Two separate reports – PDV-S and ZP report can then be generated. Both reports can be printed or exported to an adequate XML file format, required by the Croatian tax authority. All transactions can be also manually marked as included, reported or closed.
+
+[Detailed documentation](/Help/Core-Localization/Croatian-Localization-Functionalities/PDV-S-and-ZP-report)
+
