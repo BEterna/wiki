@@ -1,5 +1,18 @@
+# How To: Calculate Additional depreciation convention
+
 This topic provides country/region-specific information about additional depreciation convention, added with a purpose to comply with the local legislation. According to the local accounting standards, depreciation calculation for fixed assets has to start with the first date of the following month after an asset has been put in use, or when it is available for use.
 
-Localisation feature offers an additional depreciation convention “Next month”, which enables automatic setup of depreciation calculation run date at the first date of the month after fixed asset has been acquired (acquisition posting date is considered) or placed in service (placed in service date is considered). For example, if an asset has been acquired (or put in use) on the 10th of July, using this localised feature, depreciation run date will be set on the first day of the following month (August 1st).
+Localization feature offers an additional depreciation convention “Next month”, which enables automatic setup of depreciation calculation run date at the first date of the month after the fixed asset has been acquired (acquisition posting date is considered) or placed in service (placed in service date is considered). For example, if an asset has been acquired (or put in use) on the 10th of July, using this localized feature, the depreciation run date will be set on the first day of the following month (August 1st).
 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_Depreciation%20convention.docx?d=w8d914b252e6543b4aaa951819a8e98e8&csf=1&e=XwViCb)
+## Setup
+
+1. Open Depreciation convention.
+2. Additional  Depreciation convention type »Next month« is added. 
+
+When this type is set on a Fixed asset book, the depreciation run date will be set in the moment of acquisition posting and will be set to the following month. Placed in service month is determined by the acquisition posting date and the Depreciation run date will be set to the following month. 
+
+The default setup of the Depreciation convention can be done on a general Asset book setup or directly on a fixed asset book:
+   - Placed in service
+   - Depreciation run date
+ 
+
