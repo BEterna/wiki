@@ -86,7 +86,7 @@ Steps:
 
 Note: if posting definitions are active, the functionality of the prepayment invoice is standardly not available. Localization enables the usage of prepayment invoice even when posting definitions are active. 
 
-Check [Test Cases](Test-scenario.zip).
+Check [Test Cases](Advance-Invoice-Test-scenario.zip).
 
 ### Settle prepayment against the purchase order
  
@@ -97,7 +97,7 @@ Steps:
 3. Advance invoice: Create advance invoice – line is automatically generated because of the connection of prepayment to the purchase order. Posting the advance invoice posts only VAT amount.
 4. Final invoice: Create a final invoice with a link to purchase order. Upon posting, the advance invoice is reversed.
 
-Check [Test Cases](Test-scenario.zip).
+Check [Test Cases](Advance-Invoice-Test-scenario.zip).
 
 ### Manually settle prepayment and final invoice
  
@@ -108,13 +108,13 @@ Steps:
 3. Final invoice: Create and post the final invoice.
 4. Manually settle open transactions: Settle transaction of prepayment payment against the invoice. Upon posting, the advance invoice is reversed.
 
-Check [Test Cases](Test-scenario.zip).
+Check [Test Cases](Advance-Invoice-Test-scenario.zip).
 
 ### Reverse VAT charge (article 76.a ZDDV-1)
 
 The process can be any from the above. The only difference is that VAT posted with the advance invoice (and later reversed by posting the final invoice) is both – sales tax receivable and sales tax payable.
 
-Check [Test Cases](Test-scenario.zip).
+Check [Test Cases](Advance-Invoice-Test-scenario.zip).
  
 # Issued advance invoices
 
@@ -178,10 +178,10 @@ Advance invoice printout is not included in localization – it is project-relat
 
 ### Prepayment linked to sales order
 
-Check [Test Cases](Test-scenario.zip).
+Check [Test Cases](Advance-Invoice-Test-scenario.zip).
  
 ### Manually settling received prepayment and FTI
 
-Check [Test Cases](Test-scenario.zip).
+Check [Test Cases](Advance-Invoice-Test-scenario.zip).
  
 
