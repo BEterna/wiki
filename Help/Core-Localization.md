@@ -22,6 +22,6 @@ List of features, included in Localization package:
 | [D365_eSettlement](/Help/Core-Localization/eSettlement-\(SI\)) | • |  |  | eSettlement functionality  and export format (mandatory set-off) |
 | [D365_Interest calculation type](/Help/Core-Localization/Interest-calculation-type) | • | • | • | Additional interest calculation type was added (Day - actual year) that calculates the interest amount in the following way: Amount * Annual interest rate / Number of days in calendar year * Number of overdue days. The calculation takes into consideration leap years. |
 | [D365_Additional depreciation convention - Next month](/Help/Core-Localization/Additional-depreciation-convention) | • | • | • | Additional depreciation convention is added that enables automatic setup of depreciation run date at the first date of the month after the asset has been acquired. |
-| D365_Tax depreciation report  |  |  |•  |Legally required report for fixed assets (RS).   |
-| D365_Intrastat enhancements  | • | • |  | Intrastat statistics based on the trade in goods between the Member  States of the European Union is customized for the Croatian and Slovenian legislation. Intrastat XML scheme can be exported. |
+| [D365_Tax depreciation report](/Help/Core-Localization/Tax-depreciation-report-\(RS\))  |  |  |•  |Legally required report for fixed assets (RS).   |
+| [D365_Intrastat enhancements](/Help/Core-Localization/Intrastat-enhancements-\(SI,-HR\))  | • | • |  | Intrastat statistics based on the trade in goods between the Member  States of the European Union is customized for the Croatian and Slovenian legislation. Intrastat XML scheme can be exported. |
 
