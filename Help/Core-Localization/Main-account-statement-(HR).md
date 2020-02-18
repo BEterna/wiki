@@ -19,34 +19,29 @@ In accordance to the Croatian Accounting law (Official gazette 78/15, 134/15,120
 8. stanje konta na kraju razdoblja.
 Izvor: Zakon o računovodstvu NN 78/15, 134/15,120/16: Članak 12., Točka 9.
 
-## Name and address of the company
+## Setup 
+
+### Name and address of the company
 
 1. Open Organization administration/Organizations/Legal entities.
+2. Legal entities are in line with point 1 from Accounting law from chapter 1 of this document.
 
+### General ledger number and general ledger name
 
-Above attached screenshots are in line with point 1 from Accounting law from chapter 1 of this document.
+1. Open General ledger/Chart of accounts/Accounts/Main accounts.
+2. In order to satisfy the second and third requirements, we need to enter the main account number and name into the system.
 
-3	General ledger number and general ledger name
-General ledger/Chart of accounts/Accounts/Main accounts
-In order to satisfy second and third requirement, we need to enter main account number and name into the system.
+### Number sequence of accounting transaction
 
-4	Number sequence of accounting transaction
-In order to have proper accounting transaction numbering we need to set proper number sequences (requirement number 6).
-Organization administration/Number sequences/Number sequences
+1. Open Organization administration/Number sequences/Number sequences.
+2. In order to have proper accounting transaction numbering we need to set proper number sequences (requirement number 6).
+3. Open General ledger/Ledger setup/General ledger parameters.
 
+## Generating reports
 
-
-General ledger/Ledger setup/General ledger parameters
-
-
-5	Generating reports
-General ledger/Inquiries and reports/Croatia/Izvadak konta
-
-
-By clicking on “OK” button, we get the following statement:
-
-
-To the report, we can also access following the form General ledger/Ledger reports/Ledger transaction list.
+1. Open General ledger/Inquiries and reports/Croatia/Izvadak konta.
+2. By clicking on the “OK” button, we get the following statement:
+3. To the report, we can also access following the form General ledger/Ledger reports/Ledger transaction list.
 
 
 
