@@ -1,5 +1,7 @@
 # How To: Create PPPDV Form (VAT Statement report)
- 
+
+PPPDV is a Serbian sales tax return report. Every taxable person identified for VAT purposes in Serbia is obliged to submit a VAT return to the Serbia tax authority. 
+
 Sales tax calculation according to VAT date is part of Adacta localization pack, while standard sales tax calculation is performed according to posting date. 
  
 ## PPPDV Form
