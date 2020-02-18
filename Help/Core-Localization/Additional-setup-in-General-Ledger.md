@@ -1,5 +1,7 @@
 # How To: Set additional setup in General Ledger
 
+The functionality enables us to post tax with the same offset account as the original line from which the tax is derived. 
+
 ## Setup
 
 Setup is added to General ledger parameters as part of extended Adacta localization.
