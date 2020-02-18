@@ -1,1 +1,1 @@
-# How To: Set additional setup in Genera Ledger
+# How To: Set additional setup in General Ledger
