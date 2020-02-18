@@ -6,7 +6,7 @@ is a Croatian sales tax return report. Every taxable person identified for VAT p
 
 PDV report is prepared based on Tax transactions  and according to VAT date. PDV report can be exported as  XML file in the format, accepted by the Croatian tax authorities.
 
-[Detailed documentation](/Help/Core-Localization/Croatian-Localization-Functionalities/PDV-report)
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Croatia/PDV-report)
 
 ## **IRA and URA reports** ##
 -----
@@ -14,7 +14,7 @@ IRA and URA consist of the receivable and payable tax transactions and provide d
 
 IRA and URA reports are prepared based on Tax transactions and according to VAT date. IRA and URA reports can be exported to various format (e.g. Word, PDF or Excel).
 
-[Detailed documentation](/Help/Core-Localization/Croatian-Localization-Functionalities/IRA-and-URA-reports)
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Croatia/IRA-and-URA-reports)
 
 ## **PPO form** ##
 -----
@@ -22,7 +22,7 @@ PPO form is legally required form in Croatia, according to the Croatian sales ta
 
 PPO report is prepared based on the tax transactions. In order for tax transaction to be included in PPO report, adequate setup must exist on each of the sales tax codes. Report can be created, overviewed and exported to various formats, including the XML format, accepted by ePorezna portal of the Croatian tax authority.
 
-[Detailed documentation](/Help/Core-Localization/Croatian-Localization-Functionalities/PPO-report)
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Croatia/PPO-report)
 
 ## **PDV-S and ZP (Zbirna Prijava) report - VIES** ##
 -----
@@ -30,5 +30,5 @@ PDV-S and ZP (Zbirna Prijava) report is a recapitulative report in which taxable
 
 PDV-S and ZP (Zbirna Prijava) report processes the intra-community transactions based on the delivery address of the documents (Sales invoices, Free text invoices, Project invoices, Vendor invoices) if country code from that address is specified for the EU trade. Selected transactions are transferred to EU sales list journal, if they meet the predetermined criterion. Additional localized information are available to be added to these transactions (e.g. Customs procedure 42 or 63). In contrary to the standard, localized feature allows reporting transactions based on the VAT (and not transaction) date. Two separate reports – PDV-S and ZP report can then be generated. Both reports can be printed or exported to an adequate XML file format, required by the Croatian tax authority. All transactions can be also manually marked as included, reported or closed.
 
-[Detailed documentation](/Help/Core-Localization/Croatian-Localization-Functionalities/PDV-S-and-ZP-report)
+[Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Croatia/PDV-S-and-ZP-report)
 
