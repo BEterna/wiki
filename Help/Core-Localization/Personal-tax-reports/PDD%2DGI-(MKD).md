@@ -1,6 +1,10 @@
-Setup 
+# How To: Create PDD-GI report
 
-General ledger parameters 
+This topic provides country/region-specific information about personal tax reporting in accordance with the Macedonian legislative requirements. 
+
+## Setup 
+
+### General ledger parameters 
 
 General ledger – Ledger setup – General ledger parameters 
 
@@ -8,7 +12,7 @@ To be able to preview and export personal tax report, it is necessary to select 
 
  
 
-Income types  
+### Income types  
 
 Tax – Setup – Adriatic – Personal tax – Income types 
 
@@ -16,7 +20,7 @@ It is necessary to set up income types for reporting purposes. Using button “N
 
  
 
-Non cash type 
+### Non cash type 
 
 Accounts payable – Non cash personal receivables – Non cash type 
 
@@ -24,7 +28,7 @@ Create non-cash types for reporting non-cash personal receivables. Define defaul
 
  
 
-Sales tax authorities 
+### Sales tax authorities 
 
 Tax – Indirect taxes – Sales tax – Sales tax authorities 
 
@@ -32,7 +36,7 @@ Tax – Indirect taxes – Sales tax – Sales tax authorities
 
 Additional tax authority needs to be created for purposes of Personal tax functionality. Value in field “Report layout” has to be “Default” since personal tax entries are not reported in VAT books). In field “Vendor account” vendor is selected (vendor who the entries for personal tax payments in vendor payment journal and liabilities for payments will be created). 
 
-Sales tax settlement periods 
+### Sales tax settlement periods 
 
 Tax – Indirect taxes – Sales tax – Sales tax settlement periods 
 
@@ -42,7 +46,7 @@ New sales tax settlement period should be created for personal tax purposes.
 
 Tax authority, created earlier, should be selected in field “Authority”. We will be using “Monthly” period interval unit with interval duration “1”. Since the same functionality is being used for VAT and personal tax, it is necessary to define Period type value as “Personal tax”. This setup enables that upon closing the period only entries for personal tax will be considered in calculation (period type “Personal tax” prevents the generation of VAT report and settlement of VAT entries).  
 
-Ledger posting groups 
+### Ledger posting groups 
 
 Tax – Setup – Sales tax – Ledger posting groups 
 
@@ -52,7 +56,7 @@ New ledger posting group is opened for ledger posting. According to our business
 
 If vendor account is defined on tax authority, there is no need to set up Settlement account since closing the period will post personal tax entries to vendor, defined as tax authority on sales tax settlement period for personal tax.  
 
-Sales tax codes 
+### Sales tax codes 
 
 Tax – Indirect taxes – Sales tax – Sales tax codes 
 
@@ -72,7 +76,7 @@ Sales tax code percentage is entered in form Values. When entering value for inc
 
  
 
-Setup for personal tax reporting 
+#### Setup for personal tax reporting 
 
 Setup in Adacta localization tab on sales tax codes needs to be correctly populated for personal tax reporting to work. 
 
@@ -84,13 +88,13 @@ Income type: selected from Tax – Setup – Adriatic – Personal tax – Incom
 
  
 
-Payment setup 
+#### Payment setup 
 
 Payment section of Adacta localization tab on sales tax codes enables entry of payment data, such as Vendor account, Bank account to which the payment of personal tax will be executed, Payment ID, and Central bank purpose code. Entered data are transferred to vendor journal payment line using Payment proposal. 
 
  
 
-Sales tax groups 
+### Sales tax groups 
 
 Tax – Indirect taxes – Sales tax – Sales tax groups 
 
@@ -98,7 +102,7 @@ Add adequate sales tax codes to sales tax groups.
 
  
 
-Item sales tax groups 
+### Item sales tax groups 
 
 Tax – Indirect taxes – Sales tax – Item sales tax groups 
 
@@ -106,7 +110,7 @@ Create item sales tax group for each personal tax income type and add adequate s
 
  
 
-Procurement categories 
+### Procurement categories 
 
 Top of Form 1 
 
@@ -120,9 +124,9 @@ Procurement categories need adequate ledger account for posting – this setup i
 
 If the cost of contract work is posted via vendor invoice, ledger account setup is done under “Purchase expenditure for expense” transaction type. In case product receipts are used, posting setup also needs to be done in “Purchase expenditure, un-invoiced” section. 
 
-Personal tax transactions 
+## Personal tax transactions 
 
-Purchase order and/or Vendor invoice 
+### Purchase order and/or Vendor invoice 
 
 Enter Purchase order/Vendor invoice for each vendor by choosing adequate procurement category in document line (in case of using price lists, service item should be used). Entering multiple income types on one source document (multiple procurement categories on purchase order/vendor invoice) is also supported. Gross amounts are entered on purchase line. If entry of net amount is required, “Prices include sales tax” needs to be marked in document header, tab Setup. 
 
@@ -132,7 +136,7 @@ Item sales tax group (from procurement category) and sales tax group (from vendo
 
 After posting vendor invoice, vendor transaction and tax transactions are created. 
 
-Non-cash personal receivables 
+#### Non-cash personal receivables 
 
 New tab “Personal tax” is added to purchase order and vendor invoice line details.  
 
@@ -222,7 +226,7 @@ Example for expense report:
 
  
 
-Personal tax report 
+## Personal tax report 
 
 Personal tax report can be generated from posted or unposted vendor payment journals. 
 
@@ -262,13 +266,13 @@ Export report by selecting “Export to Excel” or “Export to XML”.
 
  
 
-Import transactions 
+### Import transactions 
 
 It is possible to import reporting transaction. Select “Import transactions” and select a file. 
 
  
 
-Personal tax payments  
+## Personal tax payments  
 
 Tax – Inquiries and reports – Withholding tax inquiries – Personal tax payments 
 
@@ -276,7 +280,7 @@ An overview of personal tax amounts is available in this form. Form is populated
 
  
 
-Closing tax settlement period 
+## Closing tax settlement period 
 
 Tax – Declarations – Sales tax – Report sales tax for settlement period 
 
