@@ -57,6 +57,14 @@ An option to calculate informative VAT is added. It is used in cases when VAT va
 
 [Detailed documentation](/Help/Core-Localization/VAT-features/Informative-VAT-calculation)
 
+
+## **Taxable persons list (Slovenia, Croatia)** ##
+-----
+
+A taxable person list is added in the scope of Slovenian and Croatian localization. Slovenian list stores information, such as tax registration number, company registration number, taxable person type, name, address, and special handling (e.g. 76.a ZDDV-1) checkmark, while Croatian list stores the following information: OIB, identification number, type, and name. This list can later be used when adding VAT ID to Vendor or Customer.
+
+[Detailed documentation](/Help/Core-Localization/VAT-features/Taxable-persons-list-\(SI,-HR\))
+
 ## **DDV-O (Obračun DDV) (Slovenia)** ##
 -----
 
