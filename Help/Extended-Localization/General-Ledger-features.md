@@ -6,7 +6,7 @@ This section, summarizes additional General Ledger features, which are part of t
 
 This extended localization functionality enables posting tax to the same offset account as the line from which the tax is derived. Journalizing tax as parent line is available only if posting definitions are enabled. If “Journalize tax as parent line” option is enabled, tax is always posted with the same offset account as the original line from which the tax is derived.
 
-[Detailed documentation](/Help/Extended-Localization/General-Ledger-features/
+[Detailed documentation](/Help/Extended-Localization/General-Ledger-features/Journalize-tax-as-parent-line)
 
 -----
 #Year-end procedure enhancements
