@@ -5,11 +5,11 @@ NOTE: a prerequisite for using Extended Localization features  is installed Core
 
 |**Feature** | **SI** |**CRO**  | **RS** | **Description** | **Package** | **Note** |
 |--|--|--|--|--|-|--|
-|D365_Import SI taxable persons  | • |  |  |Import of SI taxable persons  |LOC_TAX|  |
-|D365_Validate Tax exempt numbers  |•  | • | • | It is possible to validate  VAT numbers with VIES checker. |LOC_TAX  |  |
-|D365_Update customer information | • |  |  |It is possible to generate new customer based on VAT number.  |LOC_TAX  |  |
-|D365_Settlement period closing | • | • | • |It is possible to close Settlement periods for posting  |LOC_TAX  |  |
-|D365_Defaulting VAT date and VAT payable date  |•  | • | • |It is possible to default VAT payable and receivable dates according to setup.  |LOC_TAX  |  |
+|[D365_Import SI taxable persons](/Help/Extended-Localization/Tax-package-features/Import-of-Slovenian-taxable-persons-SI)  | • |  |  |Import of SI taxable persons  |LOC_TAX|  |
+|[D365_Validate Tax exempt numbers](/Help/Extended-Localization/Tax-package-features/Validate-Tax-exempt-numbers-VIES-database)  |•  | • | • | It is possible to validate  VAT numbers with VIES checker. |LOC_TAX  |  |
+|[D365_Update customer information](/Help/Extended-Localization/Tax-package-features/Update-customer-information-based-on-Tax-exempt-number-SI) | • |  |  |It is possible to generate new customer based on VAT number.  |LOC_TAX  |  |
+|[D365_Settlement period closing](/Help/Extended-Localization/Tax-package-features/Closing-of-Settlement-period) | • | • | • |It is possible to close Settlement periods for posting  |LOC_TAX  |  |
+|[D365_Defaulting VAT date and VAT payable date](/Help/Extended-Localization/Tax-package-features/Defaulting-VAT-date-and-VAT-payable-date)  |•  | • | • |It is possible to default VAT payable and receivable dates according to setup.  |LOC_TAX  |  |
 |[D365_Vendor Payments export](/Help/Extended-Localization/Bank-package-features/Vendor-payments)  |•  |•  |•  | - Additional export formats: ISO20022 SI (Domestic, VP70), ISO20022 HR, Pexim, Halcom, Halcom foreign.<br> - Payment reference is generated when generating export formats<br> -  Central bank purpose code setup is added to AP parameters and can be used when generating vendor payments.<br> - Payment purpose<br> - Payment ID validation  |LOC_BANK  |  |
 |[D365_Exchange rates import providers](/Help/Extended-Localization/Additional-exchange-rate-providers)  |•  |•  |•  |Following exchange rates providers are available as part of loc features: Bank of Slovenia,  Croatian national banka and National bank of Serbia  |LOC_EXCHANGE RATES|  |
 |[D365_Payment ID in Accounts receivable](/Help/Extended-Localization/Bank-package-features/Payment-ID-generation-\(SI,-HR\))  |•  | • |  |Payment ID can be generated for outgoing documents. Rules for structure can be defined.  |LOC_BANK  |  |
