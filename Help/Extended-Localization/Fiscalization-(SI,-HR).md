@@ -55,57 +55,49 @@ After posting, the transaction is displayed in Fiscalization documents.
 ### Free text invoice
 
 Upon FTI posting, infolog with information about the fiscal number is generated.<br> 
-Field “Invoice” on Customer transaction is populated with the generated fiscal numbers.
+Field “Invoice” on Customer transactions is populated with the generated fiscal numbers.
  
-2.2.1	Correct FTI
+#### Correct FTI
 
-Correcting FTI generates new fiscal number.
-To correct a free text invoice that has already been posted, select the posted free text invoice. On the Invoice page, in section Cancel, select “Correct invoice”. Define a reason code, add comments, and select the date for new corrected invoice. Modify the corrected invoice, and post it.
+1. Correcting FTI generates new fiscal number.
+2. To correct a free text invoice that has already been posted, select the posted free text invoice. On the Invoice page, in section Cancel, select “Correct invoice”. Define a reason code, add comments, and select the date for new corrected invoice. Modify the corrected invoice, and post it.
+3. After posting, fiscal numbers are generated for canceling and corrected invoices.
+4. Field “Invoice” on Customer transactions is populated with the fiscal number of posted invoice.
+5. Fiscal numbers of canceled and corrected invoices can be seen in the list of all fiscalization documents.
  
-After posting, fiscal numbers are generated for cancelling and corrected invoices.
+### Credit note
+
+The fiscal number is generated after posting a credit note.<br>
+It can be seen in field “Invoice” on Customer transaction.<br>
+The posted document can be seen in the list of all fiscalization documents.
  
-Field “Invoice” on Customer transactions is populated with fiscal number of posted invoice.
+### Advance invoice
+
+1. Posting advance invoice generates a fiscal number that is recorded in the field “Invoice”.
+2. Reversing advance invoices also generates a fiscal number.
+3. The posted document can be seen in the list of all fiscalization documents.
  
-Fiscal numbers of cancelled and corrected invoices can be seen in the list of all fiscalization documents.
+### Project invoice
+
+1. Posting invoice proposal generates a fiscal number that is recorded in the field “Invoice”.
+2. Check all project invoices to find a fiscal number in the field “Invoice”.
+3. Posted document can be seen in the list of all fiscalization documents.
  
-2.3	Credit note
-Fiscal number is generated after posting credit note.
+### Collection letter
+
+1. Collection letters are generated with fiscal numbers. 
+2. Right after creation they can be seen in Fiscalization documents form.
+3. Posting collection letters generate a fiscal number. 
+4. Field “Invoice” on Customer transactions is populated with a fiscal number.
  
-It can be seen in field “Invoice” on Customer transaction.
- 
-Posted document can be seen in the list of all fiscalization documents.
- 
-2.4	Advance invoice
-Posting advance invoice generates fiscal number that is recorded in field “Invoice”.
- 
-Reversing advance invoice also generates fiscal number.
- 
-Posted document can be seen in the list of all fiscalization documents
- 
-2.5	Project invoice
-Posting invoice proposal generates fiscal number that is recorded in field “Invoice”.
- 
-Check all project invoices to find fiscal number in field “Invoice”.
- 
-Posted document can be seen in the list of all fiscalization documents.
- 
-2.6	Collection letter
-Collection letters are generated with fiscal numbers. 
- 
-Right after creation they can be seen in Fiscalization documents form.
- 
-Posting collection letter generates fiscal number. 
- 
-Field “Invoice” on Customer transaction is populated with fiscal number.
- 
-2.7	Interest note
+### Interest note
 Created interest notes have fiscal numbers.
  
-Transactions can be seen in Fiscalization documents list.
+Transactions can be seen in the Fiscalization documents list.
  
-Posted transaction is generated with fiscal number.
+The posted transaction is generated with a fiscal number.
  
-Customer transaction has fiscal number in field Invoice.
+Customer transaction has a fiscal number in field Invoice.
  
-3	Test cases
+## Test cases
                            
