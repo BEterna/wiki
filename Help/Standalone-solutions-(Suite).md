@@ -3,12 +3,11 @@
 
 |**Feature** | **Description** | **Package** | **Note** |
 |--|--|--|-|--|
-|Advanced Banking|
-|Travel and Expenses enhancements|
-|Deferrals in Accounts Payable|
-|Fixed assets management|
-|Compensations|
-|Advanced Dunning process|
-|Public holidays|
-
+|[Advanced Banking](/Help/Standalone-solutions-\(Suite\)/Advanced-Banking)|
+|[Travel and Expenses enhancements](/Help/Standalone-solutions-\(Suite\)/Travel-and-Expenses-enhancements)|
+|[Deferrals in Accounts Payable](/Help/Standalone-solutions-\(Suite\)/Deferrals-in-Accounts-Payable)|
+|[Fixed assets management](/Help/Standalone-solutions-\(Suite\)/Fixed-assets-management)|
+|[Compensations](/Help/Standalone-solutions-\(Suite\)/Compensations)|
+|[Advanced Dunning process](/Help/Standalone-solutions-\(Suite\)/Advanced-Dunning-process)|
+|[Public holidays](/Help/Standalone-solutions-\(Suite\)/Public-holidays)|
 
