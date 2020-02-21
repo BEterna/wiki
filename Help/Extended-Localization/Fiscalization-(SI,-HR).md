@@ -101,3 +101,4 @@ Customer transaction has a fiscal number in field Invoice.
  
 ## Test cases
                            
+Check [Test Cases](Fiscalization-Test-Scenario.zip) for fiscalization.
