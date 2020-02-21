@@ -111,16 +111,6 @@ Slovenian taxable persons list is added as part of localization. Information lik
 
 Croatian taxable persons list is added as part of localization. The following information can be recorded: OIB, Identification number, type, and name. 
 
-## Update customer information based on Tax exempt number* 
-
-If SI taxpayers have been imported, it is possible to select the imported Sales tax numbers/VAT IDs when creating new customers. When creating a new customer, Tax exempt number (Sales tax number/VAT ID) has to be chosen from the drop-down menu. Customer’s Name and Primary address are automatically updated from SI taxpayers entity. 
-
-*Tax/Declarations/Slovenia/Slovenian taxable persons*
-
-*Accounts receivable/All customers/Create a new customer*
-
-If SFR sector codes have also been imported, prior to this procedure, the SFR sector code is also automatically transferred to the customer. 
-
 ## Validate Tax exempt numbers* 
 
 It is possible to validate values entered in “Tax exempt number” field on customer and vendor accounts and through the Tax-exempt numbers form. 
