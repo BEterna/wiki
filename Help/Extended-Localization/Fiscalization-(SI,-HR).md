@@ -36,26 +36,26 @@ The feature is part of the LOC_FISCALIZATION extended localization package.
  
 ### Worker’s tax identification number
 
-Worker who creates outbound documents should have valid tax identification number defined.
+The worker who creates outbound documents should have a valid tax identification number defined.
  
-If tax identification number is not defined on Worker, error is thrown upon document posting.
+If the tax identification number is not defined on Worker, the error is thrown upon document posting.
  
 ## Fiscalization documents
 
 1. Open General ledger – Inquiries and reports – Fiscalization – Fiscalization documents.
 2. Overview of all transactions with fiscal number contains all the data that are sent to tax authority. 
-3. Using button “Open document” in section Fiscalization, source document data is displayed for the selected transactions. 
+3. Using the button “Open document” in section Fiscalization, source document data is displayed for the selected transactions. 
 
 ### Sales invoice
 
 Posting sales invoice standardly does not generate infolog with information about the posted invoice.<br>
-Fiscal number can be seen in the field “Invoice” on Customer transaction.<br>
-After posting, transaction is displayed in Fiscalization documents. 
+The fiscal number can be seen in the field “Invoice” on Customer transaction.<br>
+After posting, the transaction is displayed in Fiscalization documents. 
  
 ### Free text invoice
 
-Upon FTI posting, infolog with information about fiscal number is generated.<br> 
-Field “Invoice” on Customer transaction is populated with generated fiscal number.
+Upon FTI posting, infolog with information about the fiscal number is generated.<br> 
+Field “Invoice” on Customer transaction is populated with the generated fiscal numbers.
  
 2.2.1	Correct FTI
 
