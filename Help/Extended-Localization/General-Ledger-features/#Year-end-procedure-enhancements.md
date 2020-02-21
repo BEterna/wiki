@@ -1,0 +1,5 @@
+Functionality enables balancing Main account balance with Ledger account balance in order to avoid opening transactions in cases where Ledger account balance equals zero and Main account balance does not. Feature is useful if at the end of the year a different balance on each main account - financial dimension combination s remains, while balance for the same main account (combining all the dimensions) is zero.
+
+This extended localization feature enables a proposition for balancing General Ledger transactions from General journal. As result, journal lines with settlement proposals are generated. After journal is posted, balance on both, Ledger account and Main account, is zero.
+
+[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Opening%20transactions.docx?d=we67640e06b9c4c3f8474e13701abddbe&csf=1&e=QrZuQ8)
