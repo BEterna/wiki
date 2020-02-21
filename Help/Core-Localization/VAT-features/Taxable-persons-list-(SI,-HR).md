@@ -111,32 +111,6 @@ Slovenian taxable persons list is added as part of localization. Information lik
 
 Croatian taxable persons list is added as part of localization. The following information can be recorded: OIB, Identification number, type, and name. 
 
-## Import of SI taxpayers*  
-
-*Tax – Declarations – Slovenia – Slovenian taxable persons*
-
-Localization extended feature allows import of Slovenian taxpayers from the Financial Administration of the Republic of Slovenia (FURS). 
-
-For import of taxpayers, it is necessary to insert the URLs of the documents on the FURS web page: 
-
-[DURS zavezanci PO](http://datoteke.durs.gov.si/DURS_zavezanci_PO.zip)
-
-[DURS zavezanci DEJ](http://datoteke.durs.gov.si/DURS_zavezanci_DEJ.zip) 
-
-[DURS zavezanci FO](http://datoteke.durs.gov.si/DURS_zavezanci_FO.zip)
-
-   - If “Synchronize tax exempt number table” is marked, the register of tax-exempt numbers (ID za DDV) will also be imported simultaneously (Tax/Setup/Sales tax/Tax exempt number).  
-
-   - If “Keep history” is marked, the history for each tax number will be kept in the database. New records will overwrite existing ones, if “Keep history” is not enabled.  
-
-After confirming, taxpayers are imported to Slovenian taxable persons. It might take a while to process all data.  
-
-Because of a checkmark in the field “Synchronize tax exempt number table” Tax exempt numbers table was also updated upon import. 
-
-*Tax – Setup - Sales tax- Tax exempt numbers*
-
-Tax exempt number on partner (Vendor/Customer) can be selected from the register that was imported. 
-
 ## Update customer information based on Tax exempt number* 
 
 If SI taxpayers have been imported, it is possible to select the imported Sales tax numbers/VAT IDs when creating new customers. When creating a new customer, Tax exempt number (Sales tax number/VAT ID) has to be chosen from the drop-down menu. Customer’s Name and Primary address are automatically updated from SI taxpayers entity. 
