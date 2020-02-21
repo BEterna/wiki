@@ -111,30 +111,7 @@ Slovenian taxable persons list is added as part of localization. Information lik
 
 Croatian taxable persons list is added as part of localization. The following information can be recorded: OIB, Identification number, type, and name. 
 
-## Validate Tax exempt numbers* 
 
-It is possible to validate values entered in “Tax exempt number” field on customer and vendor accounts and through the Tax-exempt numbers form. 
-
-### Customers 
-
-Entered Tax exempt number can be validated by clicking on the “Check VIES online” button. After the checking: 
-   - “Check status” field is populated with validation result (valid/Invalid); 
-   - “Last check” field displays the information about the last checking performed; 
-   - An informational message with the checking results is displayed. If the number has been identified in the VIES database, Status: Valid, name and the address of the customer are displayed. 
-
-In case of a Tax exempt number, nonexistent in the VIES database, Check status is displayed as “Invalid”. Additionally, a warning is displayed as shown in the photo below. 
-
-### Vendors 
-
-The testing procedure, added fields, and display messages are the same as the ones described for Tax exempt number check in case of customer accounts. 
-
-### Tax exempt numbers form 
-
-Tax exempt number form displays Tax exempt numbers from the VIES database. Three columns are available: Country/region, Tax exempt number and Company name. 
-
-Selecting each line and clicking on the “Check VIES online” will perform the same Tax exempt number validity check as if the checking is performed through Vendor/Customer account:
-   - If Tax exempt number is valid than Status is shown as Valid.
-   - In case of a Tax exempt number, nonexistent in VIES database Status is shown as Invalid.
 
  
 
