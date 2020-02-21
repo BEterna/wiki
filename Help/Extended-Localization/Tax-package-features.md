@@ -12,7 +12,7 @@ As part of localization package VAT date is added to some documents (for more de
 
 This additional setup for defaulting VAT dates exists in the parameters of the following modules: General ledger, Accounts Payable and Accounts Receivable.
 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_VAT%20features.docx?d=w42e2c5023dca417b9b1c9c691af0e3bf&csf=1&e=yex0Q8) (chapter 1.1)
+[Detailed documentation](/Help/Extended-Localization/Tax-package-features
 
 -----
 
