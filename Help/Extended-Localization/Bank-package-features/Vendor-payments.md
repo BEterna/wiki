@@ -1,6 +1,6 @@
 # How To: Use Vendor Payments
 
-This section summarizes the Vendor payments features, developed in scope of the Bank extended localization package.
+This section summarizes the Vendor payment features, developed in the scope of the Bank extended localization package.
 
 ## Central bank purpose code on vendor payments
 
@@ -97,7 +97,7 @@ Default Method of payment which carries information about payment order format i
  
 #### Halcom foreign GWS
 
-In order to be able to use Halcom foreign GWS payment format, the following setup should be completed on Method of payment.
+In order to be able to use Halcom foreign GWS payment format, the following setup should be completed on the Method of payment.
 
 1. Open Accounts payable – Payment setup – Methods of payment.
 2. For HALCOM_FOR payment order fill in the fields with the following values:
