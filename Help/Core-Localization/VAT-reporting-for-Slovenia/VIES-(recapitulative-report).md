@@ -82,7 +82,8 @@ This setup is needed in case the client needs to report sections C to G and A17 
 
 For VIES reporting purposes Address also needs to be set on Warehouse. If Address is outside EU, transactions will be excluded from VIES reporting, regardless of the setup described above.  
 
-## Working with the EU Sales list 
+## **Working with the EU Sales list** 
+-------
 
 ### EU transactions 
 
@@ -123,7 +124,8 @@ Transfers to/from consignment warehouses located in another EU member state are 
    - Return: consignment warehouse > non-consignment warehouse; Receive 
    - Transfer: consignment warehouse > consignment warehouse; Shipment and Receive 
 
-### Generating EU sales list report 
+### **Generating EU sales list report** 
+-----
 
 EU Sales list transactions are reported according to VAT date in localization (contrary to invoice date in standard). 
 
