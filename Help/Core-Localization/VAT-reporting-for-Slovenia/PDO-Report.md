@@ -4,7 +4,7 @@ PDO report is a report required by the Slovenian tax authority regarding the sup
 
 PDO reports sums transactions based on tax exempt numbers. The report consists of A (information about the deliveries for the current period) and B part (information about the corrections for previous periods). PDO report can be previewed (HTML) and exported as an XML file, using the adequate model for reporting to the Slovenian tax authority (FURS) portal eDavki.
 
-## Setup  
+## **Setup**  
 
 ### Export format configuration 
 
@@ -24,7 +24,7 @@ PDO reports sums transactions based on tax exempt numbers. The report consists o
 1. Open Tax – Indirect taxes – Sales tax – Sales tax codes.
 2. Sales, liable under article 76a of ZDDV-1, need to be monthly reported in the PD-O report. Define which sales are reported on sales tax code by enabling field “Include in PDO”.  
 
-## Generate PDO report 
+## **Generate PDO report** 
 
 1. Open Tax – Declarations – Slovenia – VAT – PDO report.
 2. Using the button “New” new reporting period is created where it is necessary to choose reporting Month and define Year. 
