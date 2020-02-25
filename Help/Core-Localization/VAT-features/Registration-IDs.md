@@ -65,7 +65,10 @@ When entering registration IDs with following registration types, different list
 
 In other cases, registration numbers must be entered manually. 
 
-### 2. OIB number for Croatia 
+
+**Croatia**
+
+### OIB number for Croatia 
 
 OIB number is entered as Registration type “Tax identification number (AD)”, using standard registration IDs functionality. For VAT purposes VAT ID Registration type is used.  
 
@@ -75,7 +78,9 @@ In the case of Registration type with registration category Tax identification n
 
 For the VAT ID registration category, manual entry is required.  
 
-### 3. Registration IDs for Serbia 
+**Serbia**
+
+### PIB number for Serbia 
 
 Registration ID can be used for an ID number, using standard registration IDs functionality. 
 
