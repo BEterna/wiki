@@ -1,6 +1,6 @@
-# How To: Enter Informative VAT calculation
+# How To: Informative VAT calculation
 
-An option to calculate informative VAT is added. It is used in cases when VAT value is zero, but informative VAT value needs to be calculated and later added to invoice printout or other documents.
+Outgoing invoices, issued according to 76.a article of ZDDV, must contain only informative VAT amount. This means that VAT is calculated but not posted. This is why an option to calculate informative VAT is added as part of localization. Calculated VAT amount can be later used for invoice and other printouts. 
 
 ## Setup
 
