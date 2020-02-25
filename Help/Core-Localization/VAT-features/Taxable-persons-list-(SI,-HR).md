@@ -12,7 +12,7 @@ _*List of Taxable persons can also be imported. Import is enabled as part of a s
 
 ### Registration types 
 
-1. Open Organization administration – Global address book – Registration types – Registration types.
+1. Open _Organization administration – Global address book – Registration types – Registration types_.
 2. Set up registration types for the different types of registration numbers that each party is subject to:
    - Name: The name of the registration type. 
    - Description: The description of the registration type. 
@@ -28,7 +28,7 @@ _*List of Taxable persons can also be imported. Import is enabled as part of a s
 
 Registration category is country/region registration identifier approved for using in particular country/region for tax, customs, and other purposes. This category defines validation rules of particular registration ID (including check digits etc.) and inclusion of registration ID in different reports
 
-1. Open Organization administration – Global address book – Registration types – Registration category.
+1. Open _Organization administration – Global address book – Registration types – Registration category_.
 2. Set fields:
    - Registration type: The registration type for a particular country/region. 
    - Restricted to: The kind of restriction applies to the tax registration type: None, Person, Organization. 
@@ -89,7 +89,7 @@ Click Registration IDs on forms related to the party, legal entity, vendor, cust
 
 ### OIB validation (CRO) 
 
-New OIB number is entered in Croatian taxable persons (Tax – Declaration – Croatia – Croatian taxable persons). Format and structure (11 digits) are validated upon entry – there is a warning in case of an incorrect OIB number. 
+New OIB number is entered in Croatian taxable persons (_Tax – Declaration – Croatia – Croatian taxable persons_). Format and structure (11 digits) are validated upon entry – there is a warning in case of an incorrect OIB number. 
 
 ### Tax exempt number validation (SI, CRO) 
 
