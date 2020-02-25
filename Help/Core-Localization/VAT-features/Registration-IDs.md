@@ -80,6 +80,7 @@ Set up the Enterprise ID registration category for the ID number.
 Click Registration IDs on forms related to the party, legal entity, vendor, customer, worker to open the Manage addresses page and enter registration number for selected registration type. 
 
 ## Registration ID validation 
+----
 
 ### OIB validation (CRO) 
 
