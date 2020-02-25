@@ -26,7 +26,7 @@ _*List of Taxable persons can also be imported. Import is enabled as part of a s
 
 ### Registration category 
 
-Registration category is country/region registration identifier approved for using in particular country/region for tax, customs, and other purposes. This category defines validation rules of particular registration ID (including check digits etc.) and inclusion registration ID in different reports
+Registration category is country/region registration identifier approved for using in particular country/region for tax, customs, and other purposes. This category defines validation rules of particular registration ID (including check digits etc.) and inclusion of registration ID in different reports
 
 1. Open Organization administration – Global address book – Registration types – Registration category.
 2. Set fields:
