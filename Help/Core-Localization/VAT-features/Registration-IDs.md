@@ -1,4 +1,4 @@
-Standard functionality Registration IDs are used for managing different kinds of identification numbers. Next bullets are included only for user setup help.  
+Standard functionality Registration IDs is used for managing different kinds of identification numbers. Next bullets are included only for user setup help.  
 
 ## Setup
 ----
