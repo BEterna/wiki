@@ -9,6 +9,7 @@ _*List of Taxable persons can also be imported. Import is enabled as part of a s
  -->
 
 ## Setup
+----
 
 ### Registration types 
 
@@ -42,6 +43,7 @@ Standard Registration category VAT ID is used in Slovenia for ID št. za DDV.
 Dropdown menu for Tax exempt number (with the filter on Party) will show all registration IDs with the VAT ID registration category (standard functionality). 
 
 ## Use registration IDs 
+----
 
 1. Click Registration IDs on forms related to the party, legal entity, vendor, customer, worker to open the Manage addresses page.  
 2. On the Registration ID tab, click Add, and enter information about the registration ID. Validation upon format and structure for a registration number that is VAT ID registration category is part of localization functionality. 
