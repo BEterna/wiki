@@ -57,10 +57,11 @@ Setup in registration categories:
 
 On the Registration ID tab, enter information about the registration ID. 
 
-If tax identification numbers are imported, using LOC_ext functionality (for more info, see Chapter Import of SI taxpayers*), they are shown in a dropdown in the Registration number field. A dropdown is available as part of the LOC_core package. This is valid only for following Registration types: 
-   - VAT ID: Tax exempt numbers list is opened. Tax exempt number from the list is copied to the Registration number field. Pay attention to the setup of the Registration type formatting. Correct formatting should be SI########.  
-   - Tax identification number (AD): Slovenian taxable person list is opened. The tax registration number from the list is copied to the Registration number field. 
-   - Company registration number (AD): Slovenian taxable person list is opened. ID number from the list is copied to the Registration number field.  
+When entering registration IDs with following registration types, different lists are available:
+
+   - VAT ID: Tax exempt numbers list is opened. Tax exempt number (ID za DDV) from the list is copied to the Registration number field. Pay attention to the setup of the Registration type formatting. Correct formatting should be SI########.  
+   - Tax identification number (AD): Slovenian taxable person list is opened. The tax registration number (Davčna številka) from the list is copied to the Registration number field. 
+   - Company registration number (AD): Slovenian taxable person list is opened. ID number (Matična številka) from the list is copied to the Registration number field.  
 
 In other cases, registration numbers must be entered manually. 
 
