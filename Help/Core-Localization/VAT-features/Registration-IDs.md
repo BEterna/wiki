@@ -26,13 +26,18 @@ Registration category is country/region registration identifier approved for usi
    - Registration type: The registration type for a particular country/region. 
    - Restricted to: The kind of restriction applies to the tax registration type: None, Person, Organization. 
    - Registration category: The unique registration identifier approved for use in the country. As part of localization following Registration categories were added: 
-      - Tax identification number (AD): in Slovenia used for Davčna številka. 
-      - Company registration number (AD): in Slovenia used for Matična številka podjetja. 
-      - National identification number (AD): in Slovenia used for EMŠO.
+       - Tax identification number (AD): 
+           -    in Slovenia used for Davčna številka. 
+           -    in Croatia used for OIB.
+           -    in Serbia used for PIB. 
+      - Company registration number (AD): 
+           -    in Slovenia used for Matična številka podjetja. 
+      - National identification number (AD): 
+           -    in Slovenia used for EMŠO.
 
-Standard Registration category VAT ID is used in Slovenia for ID št. za DDV. 
+Standard Registration category VAT ID is used for ID for VAT purposes. 
 
-Dropdown menu for Tax exempt number (with the filter on Party) will show all registration IDs with the VAT ID registration category (standard functionality). 
+Dropdown menu for Tax exempt number (with the filter on Party) on Vendor/Customer card will show all registration IDs with the VAT ID registration category (standard functionality). 
 
 ## Use registration IDs 
 ----
