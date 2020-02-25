@@ -1,4 +1,5 @@
 # How To: Enter Additional dates for VAT reporting purposes
+----
 
 All VAT reporting for Slovenia, Croatia, and Serbia needs to be performed according to VAT date and not Transaction date (which is how standard functionality for Tax reporting works). For VAT reporting purposes following dates are added to several documents: 
 
@@ -22,7 +23,8 @@ List of documents where additional VAT date fields are enabled:
 
 Additional setup is available for VAT date and VAT Payable date calculation. VAT date validation is also added. If the VAT date is missing, posting such a document will result in an error.
 
-## Defaulting VAT date and VAT payable date
+## Defaulting VAT date and VAT payable date*
+----
 
 In order to facilitate the posting, there is a possibility to set up VAT date and VAT payable date defaulting. Options for defaulting are:
    - None: VAT date has to be entered manually.
@@ -44,7 +46,10 @@ VAT date defaulting setup is added to the following modules:
       - Check Test case for [VAT Date FTI](VAT-Date.zip).
       - Check Test case for [VAT Date Project](VAT-Date.zip).
 
+*Part of Tax_ext package
+
 ## Closing VAT settlement period
+----
 
 VAT settlement period can be closed using extended localization features. 
 
