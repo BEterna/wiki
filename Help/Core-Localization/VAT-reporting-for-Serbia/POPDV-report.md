@@ -5,15 +5,15 @@ documents confirming a business change (e.g., insurance contract, lease agreemen
 
 ## Setup
 
-In order to be able to generate a POPDV form, mandatory setup has to be completed.
+In order to be able to generate a POPDV form, the mandatory setup has to be completed.
 
 ### POPDV format
 
-1. On the path Tax > Setup > Parameters > General ledger parameters > tab Adacta localization, POPDV format should be assigned.
+1. On the path Tax - Setup - Parameters - General ledger parameters - tab Adacta localization, POPDV format should be assigned.
 
 ### Reporting codes
 
-Reporting codes are used to direct amounts in appropriate columns of the report. List of all available reporting codes opens on the following path Modules > Tax > Setup > Sales tax > Sales tax reporting codes.
+Reporting codes are used to direct amounts in appropriate columns of the report. List of all available reporting codes opens on the following path Modules - Tax - Setup - Sales tax - Sales tax reporting codes.
  
 NOTE: Reporting codes used for the POPDV report should have the Serbian report layout assigned.
 
@@ -30,7 +30,7 @@ The mapping between reporting codes and POPDV form is in the [File](Mapping.xlsx
  
 ## Generating report
 
-1. New VAT report is generated on the following path Modules > Tax > Declarations > Sales tax > Report sales tax for settlement period.
+1. New VAT report is generated on the following path Modules - Tax - Declarations - Sales tax - Report sales tax for the settlement period.
 2. In order to run the report, the parameters should be set as follows:
   - Settlement period – choose the one related to the new VAT setup.
   - From date – enter the starting date of the VAT period.
@@ -39,7 +39,7 @@ The mapping between reporting codes and POPDV form is in the [File](Mapping.xlsx
   - With POPDV – turn this parameter to Yes in order to create POPDV form lines.
 3. After click OK and PPPDV form will be displayed:
  
-Besides creating the PPPDV report, new lines in the POPDV form for selected VAT periods will also be created. All POPDV forms are listed Modules > Tax > Declarations > Serbia > PDV > POPDV forms
+Besides creating the PPPDV report, new lines in the POPDV form for selected VAT periods will also be created. All POPDV forms are listed Modules - Tax - Declarations - Serbia - PDV - POPDV forms
 
 ## Detailed transactions
  
