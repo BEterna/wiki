@@ -11,7 +11,7 @@ Before you can use the petty cash functionality, you must complete the following
 
 ### Cash account setup
 
-1. Petty cash accounts can be defined at Cash and bank management > Bank accounts > Cash accounts.
+1. Petty cash accounts can be defined at Cash and bank management - Bank accounts - Cash accounts.
 2. During the creation of a new cash account, it is possible to define:
    - Cash: code to identify cash account.
    - Name: description of the cash account.
@@ -23,25 +23,25 @@ Before you can use the petty cash functionality, you must complete the following
  
 ### Cash posting profile setup
 
-1. Open Cash and bank management > Setup > Cash posting profiles.
+1. Open Cash and bank management - Setup - Cash posting profiles.
 2. In order to make integration with the General ledger, it is necessary to set up a cash posting profile and apply the appropriate main account for cash accounts.
  
 ### Cash and bank management parameters
 
-1. Open Cash and bank management > Setup > Cash and bank management parameters.
+1. Open Cash and bank management - Setup - Cash and bank management parameters.
 2. On the Cash tab, enter the information for cash accounts.
 3. On the Number sequence tab, specify number sequence codes for the Cash reimbursement slips, Cash disbursement slips, Cash correction voucher, and Exchange adjustment documents, and for the Cash report number.
 
 ### Cash journal setup
 
-1. Open General Ledger > Journal setup > Journal names.
-2. For posting cash transactions it is necessary to create new journal with Journal type “Cash”.
+1. Open General Ledger - Journal setup - Journal names.
+2. For posting cash transactions it is necessary to create a new journal with Journal type “Cash”.
  
 ## Daily procedures
 
 ### Generate cash journal (Slip journal)
 
-1. Open Cash and bank management > Cash transactions > Slip journal.
+1. Open Cash and bank management - Cash transactions - Slip journal.
 2. Create a new journal. Add a new line, and enter the following information:
    - Date - enter the date of the transaction.
    - Account - select the cash account. By default, a cash account is specified in the Cash and bank management parameters.
@@ -61,7 +61,7 @@ Before you can use the petty cash functionality, you must complete the following
      - Customer – The Representative lookup contains a list of customers.<br>
   - Representative - Select a representative of the type that you specified in the Representative type field.
   - Name of person – This field is filled in automatically, based on the Offset account and Representative fields. The printing form for cash slips will reflect this information.
-  - Officials -  Are added automatically from Officials setup in Organization administration > Setup > Contacts > Officials and can be changed manually. 
+  - Officials -  Are added automatically from Officials set up in Organization administration - Setup - Contacts - Officials and can be changed manually. 
   - Posting profile - Enter the posting profile for the cash account. By default, the posting profile that is specified in the Cash and bank management parameters is used.
  
 It is also enabled to select Offset posting profile.
@@ -71,37 +71,37 @@ It is also enabled to select Offset posting profile.
 1. To confirm a transaction, select the corresponding Slip journal line, and click Documents approval -> Approve. The transaction status is changed to Approved, and you can no longer edit the journal line. 
  The Approved status indicates that cash funds are received or expended. The cash balance is changed. Only approved cash transactions can be posted.
 2. To cancel an Approved status and reset the status to None, click Documents approval -> Reset status. 
-3. To post a journal, click Post -> Post and result of posting can be found in posted voucher transactions. 
+3. To post a journal, click Post -> Post and the result of posting can be found in posted voucher transactions. 
  
 ## Cash management – inquiries and reports
 
 ### Cash order report
 
-1. To print a cash order, select a Slip journal line, and then, on the Action Pane, click Print > Cash order report. Slip journal lines that have Confirmed, Approved, or Rejected status can be printed. 
+1. To print a cash order, select a Slip journal line, and then, on the Action Pane, click Print - Cash order report. Slip journal lines that have Confirmed, Approved, or Rejected status can be printed. 
 2. The system generates a printing form for either a Cash reimbursement slip or a Cash disbursement slip, depending on whether an amount is entered in the Debit field the or Credit field for the selected line:
    - Amount in the Debit field: Cash reimbursement slip
    - Amount in the Credit field: Cash disbursement slip
       
 ### Cash report
 
-1. After posting all cash transactions, one of the daily procedures should be the generation of cash reports. Navigate to Cash and bank management > Bank accounts > Cash accounts.
-2. For each cash account, it is necessary to run procedure to create a cash report on a daily basis. Select appropriate cash account and press Create cash report. Enter parameters for “To date” and the user who creates the report.
+1. After posting all-cash transactions, one of the daily procedures should be the generation of cash reports. Navigate to Cash and bank management - Bank accounts - Cash accounts.
+2. For each cash account, it is necessary to run a procedure to create a cash report on a daily basis. Select appropriate cash account and press Create cash report. Enter parameters for “To date” and the user who creates the report.
 
 All created cash reports can be reviewed/approved/printed if you press Created cash reports for a selected cash account.
  
-For each cash report, there is possibility to see related cash transactions.  
+For each cash report, there is a possibility to see related cash transactions.  
  
-3. To approve daily cash reports, press Document approval > Approve for the selected report number. 
-4. For the approval process, it is necessary to enter Employee name who approves the report.
+3. To approve daily cash reports, press Document approval - Approve for the selected report number. 
+4. For the approval process, it is necessary to enter the Employee name who approves the report.
 5. To print a daily cash report, press Print for the selected report number.
  
 ### Cash book
 
-1. Open Cash and bank management > Inquiries and reports > Cash book report.
+1. Open Cash and bank management - Inquiries and reports - Cash book report.
 2. The report reflects actual cash fund movements (receipts and expenditures).
  
 ### Journal of registration
 
-1. Open Cash and bank management > Inquiries and reports > Journal of registration of cash vouchers.
+1. Open Cash and bank management - Inquiries and reports - Journal of registration of cash vouchers.
 2. The report reflects all cash reimbursement and cash disbursement slips that have been issued.
  
