@@ -21,9 +21,9 @@ Value in field “Central bank purpose code” on vendor payment journal line ca
 When creating a payment journal line with Settle transactions function, Central bank purpose code (CBPC) is populated with the value from Accounts payable parameters if central bank purpose codes on marked transactions are different or from Vendor card if CBPC is missing. Some cases:  
    - CBPC on Transaction 1 equals SUPP and CBPC on Transaction 2 equals LOAN, vendor payment transaction will be created with CBPC value OTHER (setup on Accounts payable parameters) 
    - CBPC on Transaction 1 and Transaction 2 equals SUPP, the vendor payment transaction will be created with CBPC value SUPP 
-   - CBPC on Transaction 1 equals SUPP and CBPC on Transaction 2 is empty, the vendor payment transaction will be created with CBPC value from Vendor. If there is no value setup on the Vendor, the value will default from setup on Accounts payable parameters. 
+   - CBPC on Transaction 1 equals SUPP and CBPC on Transaction 2 is empty, the vendor payment transaction will be created with CBPC value from Vendor. If there is no value set up on the Vendor, the value will default from setup on Accounts payable parameters. 
 
-When creating a payment journal line with Payment proposal function, CBPC is populated with the value from Vendor if there is no value on the transaction (standard functionality). If the value is missing on Vendor, transactions will be generated using the CBPC setup on Accounts payable parameters.  
+When creating a payment journal line with the Payment proposal function, CBPC is populated with the value from the Vendor if there is no value on the transaction (standard functionality). If the value is missing on Vendor, transactions will be generated using the CBPC setup on Accounts payable parameters.  
 
 -----
 
@@ -33,7 +33,7 @@ This extended localization feature allows field “Payment purpose” on payment
 
 Localization allows field “Payment purpose” on payment order to be populated with the value from field “Note” on vendor payment journal line.  
 
-The field can be populated manually, or automatically (with standard feature Default descriptions1). In this case setup for Vendor – payment, the vendor is needed in Organization administration/Setup/Default descriptions. 
+The field can be populated manually, or automatically (with standard feature Default descriptions1). In this case set up for Vendor – payment, the vendor is needed in Organization administration - Setup - Default descriptions. 
 
 -----
 
@@ -74,7 +74,7 @@ This extended localization feature enables the setup (Methods of payments), adeq
      - Charge bearer: SHAR/CRED/DEBT
      - Service level: leave empty
  
-Default Method of payment which carries information about payment order format and charge bearer can be setup on Vendor card in tab Payment. Method of payment is transferred to Pending vendor invoice and from there to vendor transaction and Payment journal line.
+Default Method of payment which carries information about payment order format and charge bearer can be set up on Vendor card in tab Payment. Method of payment is transferred to Pending vendor invoice and from there to vendor transaction and Payment journal line.
  
 ### Serbia (Halcom, Halcom Foreign – GWS)
 
@@ -93,7 +93,7 @@ Default Method of payment which carries information about payment order format a
      - Payment type: Electronic payment
      - Export format: Halcom (RS)
  
-Default Method of payment which carries information about payment order format is setup on Vendor card in tab Payment. Method of payment is transferred to Pending vendor invoice and from there to vendor transaction and Payment journal line.
+Default Method of payment which carries information about payment order format is set up on Vendor card in tab Payment. Method of payment is transferred to Pending vendor invoice and from there to vendor transaction and Payment journal line.
  
 #### Halcom foreign GWS
 
