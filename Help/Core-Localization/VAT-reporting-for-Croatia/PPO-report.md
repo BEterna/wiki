@@ -8,12 +8,12 @@ PPO form 2013/2014 is legally required form in Croatia from 1.07.2013 (VAT Law A
 
 Only tax transactions with VAT codes that have “Include in PPO” marked as Yes will be included in the PPO report.  
 
-1. Open Tax/Indirect taxes/Sales tax/Sales tax code.
+1. Open Tax - Indirect taxes - Sales tax - Sales tax code.
 2. Set field Include in PPO on PPO setup.
  
 ## Generate PPO report 
 
-1. Open Tax/Declarations/Croatia/VAT/PPO report.
+1. Open Tax - Declarations - Croatia - VAT - PPO report.
 2. Enter reporting parameters such as Sales tax settlement period, dates and Worker. 
 3. As a result, the report will be generated.  
 
@@ -21,6 +21,6 @@ Only tax transactions with VAT codes that have “Include in PPO” marked as Ye
 
 PPO report can also be exported to XML. To generate the file “Create XML” must be marked as Yes and XML file name must be entered on the report parameters. 
 
-As a result XML file is generated.  
+As a result, an XML file is generated.  
 
  
