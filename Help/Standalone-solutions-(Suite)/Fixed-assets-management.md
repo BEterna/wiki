@@ -24,7 +24,7 @@ The feature is part of custom development in the scope of the AdactaSuiteFixedAs
 
 The configuration defines a mapping for a specific data model. Separate configurations are used for import and export purposes. In the case of a Fixed asset counting feature, 5 configurations were developed. They are used for export of Fixed assets, locations and users that will be performing counting and for import of counting results.  
 
-1. Open Organization administration/Workspaces/Electronic reporting.
+1. Open Organization administration - Workspaces - Electronic reporting.
 2.The latest fixed asset counting format mappings need to be imported (starting with »ERAssetCountingModel_AdFAM«):
    - ERAssetCountingModel_AdFAM,
    - ERAssetCountingAssetsExportDefault_AdFAM,
@@ -34,17 +34,17 @@ The configuration defines a mapping for a specific data model. Separate configur
 
 ### Fixed assets parameters
 
-1. Open Fixed assets/ Setup/Fixed asset parameters.
+1. Open Fixed assets - Setup - Fixed asset parameters.
 2. Imported mappings should be selected for each reporting type. In the case of missing ER setup, an error message will appear during the process of export or import. 
 
 ## Exports
 
 ### Fixed asset counting list
 
-1. Open Fixed assets/ Periodic tasks/Fixed asset counting/Asset counting.
+1. Open Fixed assets - Periodic tasks - Fixed asset counting - Asset counting.
 2. To perform the process of Fixed asset counting, the Asset counting list needs to be generated. This list is later used for export (to use with readers), matching with counting results and processing of results. 
 3. Clicking »New« Fixed asset counting list is created. Fixed asset counting ID and date can then be entered.
-4. »Suggest« assets open query with different filters based on which fixed assets are added to fixed asset counting list. Filters can be used to generate separate counting lists for different sets of Fixed Assets based on location, Type, etc.
+4. »Suggest« assets open query with different filters based on which fixed assets are added to the fixed asset counting list. Filters can be used to generate separate counting lists for different sets of Fixed Assets based on location, Type, etc.
 5. Fixed assets are then added to the fixed asset counting list to section Lines.
 6. Fixed assets can also be added/removed manually.<br>
 
@@ -55,12 +55,12 @@ A date validation exists: on a specific date, each fixed asset number can exist 
  
 ### Fixed asset locations
 
-1. Open Fixed assets/ Periodic tasks/Fixed asset counting/Export asset locations.
+1. Open Fixed assets - Periodic tasks - Fixed asset counting - Export asset locations.
 2. A list of fixed asset locations can be exported to the ».txt« file. Locations can also be filtered.
  
 #### Fixed asset counting users
 
-1. Open Fixed assets/ Periodic tasks/Fixed asset counting/Export asset counting users.
+1. Open Fixed assets - Periodic tasks - Fixed asset counting - Export asset counting users.
 2. It is possible to export a ».txt« file containing fixed assets counting users. Filtering can be done by User ID and/or Worker name. Only users linked with workers can be exported.
 
 ## Import and processing
