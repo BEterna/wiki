@@ -67,5 +67,5 @@ For Serbia, bank statement files should be zipped before import.
 4. Bank Statement is imported when it is shown in the list of bank statements. Despite not defining the bank upon import, the system has recognized this statement to be from Unicredit bank (based on account number).
 5. After import, the bank statement can be validated and reconciled. 
 
-Check [Test Scenario](Bank-statement-import.xlsx) for Slovenian bank statement import.
+Check **[Test Scenario](Bank-statement-import.xlsx)** for Slovenian bank statement import.
  
