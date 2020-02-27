@@ -42,4 +42,4 @@ VAT date defaulting setup is added to the following modules:
  
 VAT date defaulting from Accounts receivable is implemented on the Sales invoice, Free text invoice, and Project invoice. 
 
-Check [Test Scenario](VAT-Date-Test-Scenario.zip) for default dates.
+Check **[Test Scenario](VAT-Date-Test-Scenario.zip)** for default dates.
