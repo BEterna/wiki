@@ -10,7 +10,7 @@ This topic provides country/region-specific information about how to set up, cre
 
 ## Export format configuration
 
-1. Open Workspaces – Electronic reporting  Reporting configurations.
+1. Open Workspaces – Electronic reporting -> Reporting configurations.
 2. Choose Exchange -> Load XML file on any configuration. Based on file content it will automatically upload to correct configuration.
 3. Click “Browse” and choose ePobot (S).xml file attached below (before upload, check the latest version of this file with developer).
 4. After the file has loaded, click OK to upload it to configuration.
@@ -50,6 +50,4 @@ This topic provides country/region-specific information about how to set up, cre
  
 When the results of e-settlement are known, delete the transactions that have not been compensated from the vendor payment journal. Enter customers’ entries in which vendors’ transactions were settled with and post the journal. 
 
-# Test case
- 
-Check [Test Case](eSettlement-Test-scenario.xlsx)
+Check [Test Scenario](eSettlement-Test-scenario.xlsx)
