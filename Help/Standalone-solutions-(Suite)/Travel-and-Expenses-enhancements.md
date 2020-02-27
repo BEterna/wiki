@@ -55,7 +55,7 @@ Localized printouts become available only if the “Use localized reports” opt
 
 Note: if localized reports are not enabled in expense management parameters, the option “Localized print” is not available. 
  
-2. The report shows the same types of information as travel requisition localized print.
+2. The report shows the same types of information as the travel requisition localized print.
 Amounts marked with a star (*) are included in the calculation “Remains for payment” – the amount that needs to be reimbursed to a worker.
 
 ### Map to travel requisition
@@ -89,7 +89,7 @@ Additional features regarding per diems are added:
    - If field "Include percent" is marked, meal reductions will be calculated according to the value entered in field Meal percent, which represents the percentage of full daily allowance, defined in field Meals (e.g. 15% breakfast reduction for half perdiem is calculated from the amount representing 75% of the full perdiem).
    - If field “include percent” is not checked, it is necessary to adjust the percentages of meal reductions in relation to the full perdiem – reductions for meals have to be entered as percentages of full perdiem (e.g. reduction for breakfast for half perdiem represents 11.25% of the full perdiem).
  
-Check [Test Scenario](Travel-and-Expenses.zip).
+Check [Test Scenario](Travel-and-Expenses-Test-Scenario.zip).
  
 ### 	Per diem transaction date on last day
 
@@ -131,7 +131,7 @@ Possible options are:
    - Last of group: a transaction is posted on a date that is the latest of all transaction dates. 
    - Last in month: a transaction is posted on the last date of the month of the line with the latest date.
  
-Check [Test Scenario](Travel-and-Expenses.zip).
+Check [Test Scenario](Travel-and-Expenses-Test-Scenario.zip).
 
 -----
 
