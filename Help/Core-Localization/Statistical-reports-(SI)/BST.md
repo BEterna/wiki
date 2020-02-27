@@ -7,16 +7,16 @@ This localization feature enables the preparation and export of the report in th
 
 ### BST setup location
 
-1. Open General ledger/Financial report setup/Slovenia/BST options.
-2. Country to be excluded from reporting needs to be set since report is generated for transactions with non-residents.   
-3. The report format must be defined for export purposes. The first report needs to be generated in GER (described in BST codes need to be added to the BST codes list. Codes can be added with function Dodaj standard. List can be edited.  
-4. BST setup is added to main account on chart of accounts. BST report will be generated based on BST code on main accounts and ISO code on country/region setup.  Only transactions with appropriate type (receipts/expenditure) will be included in the report. Every BST code can be marked as inactive.  Such transactions will not be included in the report.  
+1. Open General ledger - Financial report setup - Slovenia - BST options.
+2. The country to be excluded from reporting needs to be set since the report is generated for transactions with non-residents.   
+3. The report format must be defined for export purposes. The first report needs to be generated in GER (described in BST codes need to be added to the BST codes list. Codes can be added with function Dodaj standard. The list can be edited.  
+4. BST setup is added to the main account on the chart of accounts. BST report will be generated based on BST code on main accounts and ISO code on country/region setup.  Only transactions with an appropriate type (receipts/expenditure) will be included in the report. Every BST code can be marked as inactive.  Such transactions will not be included in the report.  
 5. Setup can be accessed also from the BST report.
 
 ### Electronic reports configuration 
 
-1. Open Workspaces – Electronic reporting/Reporting configurations.
-2. Choose Repositories/Adacta localization/Open.
+1. Open Workspaces – Electronic reporting - Reporting configurations.
+2. Choose Repositories - Adacta localization - Open.
 3. Find BST report -> Import all.
 4. The report will now be available in BST options.  
 
@@ -32,9 +32,3 @@ The report consists of two parts. The upper part (»Transactions«) includes all
 ## BST report export 
 
 The report can be exported to TXT file. It will be generated according to the report format, defined in the BST setup.  
-
-
-
-<!-- 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20Statistical%20reports.docx?d=w4c0af9b9e8dd42e7ac762e1d199fe4b3&csf=1&e=dyzs1o)
- -->
