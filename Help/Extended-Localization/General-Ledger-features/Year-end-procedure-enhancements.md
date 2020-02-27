@@ -10,7 +10,7 @@ In cases when the Main account balance (ledger account + financial dimension) fo
 
 ## Closing Account Transactions
 
-1. Open General journal/Lines/Functions/Propose balancing GL transactions.
+1. Open General journal - Lines - Functions - Propose balancing GL transactions.
 2. New function »Propose balancing GL transactions« is added as an additional Adacta feature. In new general journal lines click Functions -> Propose balancing GL transactions. Enter Start and End date (mandatory fields) and the main account that will be included (optional).
    - Start/End date – the period for which transactions will be checked and journal generated
    - Main account – main account/s that will be included. Multiple main accounts can be included. 
