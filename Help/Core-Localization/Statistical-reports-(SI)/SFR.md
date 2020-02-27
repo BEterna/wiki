@@ -9,7 +9,7 @@ Prerequisite for generating SFR report is the proper setup for each relevant mai
 
 ### Main account setup 
 
-1. Open General ledger/Chart of accounts/Accounts/Main accounts.
+1. Open General ledger - Chart of accounts - Accounts - Main accounts.
 2. Setup is added to the main account. The default setup is set to Yes, which means, that transactions for this account will be included in the SFR report. If the user wants to exclude the account from SFR reporting, the account must be set to No. 
 
 ### Financial  instruments 
