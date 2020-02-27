@@ -12,12 +12,12 @@ The feature is part of the LOC_KEP extended localization packet.
 
 It is necessary to indicate which price group will be used for inventory valuation in the KEP report. It is common that this is the same price group that is used in a retail store for which the KEP report is created.
 
-1. Open Retail > Pricing and discounts > Price groups > All price groups.
+1. Open Retail - Pricing and discounts - Price groups - All price groups.
 2. For the appropriate price group, you need to put a checkmark in the KEP field.
 
 ### Retail store – price group
 
-1. Selected price group should be linked to retail stores in AX on the following path Retail > Channels > Retail stores > All retail stores.
+1. Selected price group should be linked to retail stores in AX on the following path Retail - Channels - Retail stores - All retail stores.
  
 ## Generate report
 
@@ -25,7 +25,7 @@ After setup is completed report can be generated.
 
 NOTE: It is necessary that there are valid prices existing for all the dates on which inventory transactions are posted, for the price group marked it will be used for KEP.
 
-1. Open Retail > Channels > Retail KEP > KEP.
+1. Open Retail - Channels - Retail KEP - KEP.
 2. A new report is created by clicking the New button in the upper left corner. In the left part of the form, a new line will appear and in the right part of the form it is necessary to fill out the following:
    - Warehouse – select the one for which the KEP report should be created. By choosing a warehouse, the Store number, Year and Price Group will automatically fill in. These data should not be changed.
    - Date from and Date to – select the period (fiscal year) for which the report is created (e.g., 01/10/2017 to 30/09/2017). In case of generating the first report in the new system (after the transfer of the initial state), the first working date in the new system should be entered as the Date from and the last date of the fiscal year for which the report is created should be entered as the Date to the new date.
