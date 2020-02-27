@@ -18,4 +18,4 @@ IBAN control number formats are different for each country: <br>
 
 After entering IBAN code on the bank account, fields Name, Bank groups, SWIFT code, and Address are automatically populated with data from the corresponding bank group (if entered in bank group form).
  
-Check [Test Scenario](Bank-Groups-Test-Scenario.zip) for default bank accounts.
+Check **[Test Scenario](Bank-Groups-Test-Scenario.zip)** for default bank accounts.
