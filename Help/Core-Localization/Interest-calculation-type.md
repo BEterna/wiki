@@ -16,5 +16,5 @@ Amount x Annual interest rate / Actual Calendar days x Days overdue.
 
 If this calculation is selected, it is important that the interest code effective dates for one version start and end within the same year. Otherwise, the calculation of interest returns an error about the start and end date.
  
-Check [Test script](Interest-calculation-type-test-case.xlsx).
+Check **[Test Scenario](Interest-calculation-type-test-case.xlsx)**.
  
