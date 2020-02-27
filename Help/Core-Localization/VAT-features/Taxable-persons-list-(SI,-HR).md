@@ -4,24 +4,17 @@ A taxable person list is added in the scope of Slovenian and Croatian localizati
 
 _*List of Taxable persons can also be imported. Import is enabled as part of a separate Tax package._
 
-<!-- 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_Tax%20identification%20number.docx?d=wa2bf0a8b9616456eade04fa02e33d080&csf=1&e=o2QDt3)
- -->
+## Taxable person list 
 
+### Taxable person list for Slovenia 
 
-## Taxable persons list 
-
-### Taxable persons list for Slovenia 
-
-*Tax – Declarations – Slovenia – Slovenian taxable persons* 
-
-Slovenian taxable persons list is added as part of localization. Information like tax registration number, ID number (i.e. company registration number), taxable person type, name, and address of the taxpayer, and the information whether the partner is liable for Slovenian VAT or whether it has special handling based on 76.a article of ZDDV-1 can be recorded in the list. 
+1. Open Tax – Declarations – Slovenia – Slovenian taxable persons.
+2. The Slovenian taxable person list is added as part of localization. Information like tax registration number, ID number (i.e. company registration number), taxable person type, name, and address of the taxpayer, and the information whether the partner is liable for Slovenian VAT or whether it has special handling based on 76.a article of ZDDV-1 can be recorded in the list. 
 
 ### Taxable persons list for Croatia 
 
-*Tax – Declarations – Croatia – Croatian taxable person*
-
-Croatian taxable persons list is added as part of localization. The following information can be recorded: OIB, Identification number, type, and name. 
+1. Open Tax – Declarations – Croatia – Croatian taxable person.
+2. Croatian taxable person list is added as part of localization. The following information can be recorded: OIB, Identification number, type, and name. 
 
 
 
