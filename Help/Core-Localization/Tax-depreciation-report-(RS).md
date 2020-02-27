@@ -10,14 +10,14 @@ This topic provides country/region-specific information about additional Tax dep
 
 There should be as many depreciation profiles as there are tax depreciation groups. A fixed asset depreciation profile should be related to the appropriate tax depreciation group. Localized field Asset accounting type (tax depreciation group) is added to the form for reporting purposes.
 
-1. Open Fixed asset > Setup > Depreciation profiles.
+1. Open Fixed asset - Setup - Depreciation profiles.
 2. Choose Asset account type: Type 2.
  
 ### Asset Book (standard)
 
 There should be one Asset Book that will be used for calculating tax depreciation with the following settings (all the fields are standard, no localization setup added).
 
-1. Open Fixed assets > Setup > Books.
+1. Open Fixed assets - Setup - Books.
    - Calculate depreciation: set field to Yes.
    - Depreciation profile: field can be blank, in order to be able to select proper information on each fixed asset, depending on the tax depreciation group belongs.
    - Post to general ledger: set field to No.
@@ -36,7 +36,7 @@ NOTE: Depreciation convention for fixed assets put in use in the first half of t
 
 ### Accounting and Tax asset book link
 
-1. Open Fixed assets > Setup > Books.
+1. Open Fixed assets - Setup - Books.
 2. It is recommended to set up Tax depreciation book as one of the derived books on accounting books. This way tax depreciation will be calculated together with accounting depreciation. 
 
 Book|Transaction Type
