@@ -153,6 +153,6 @@ If the VP70 payment order is used, payment reference is generated in the followi
  
 Field “Referenca uporabnika” in payment order is populated with this value upon XML upload.
  
-Check [Test Scenario](Vendor-Payments-Test-Scenario.zip) for payment reference.
+Check **[Test Scenario](Vendor-Payments-Test-Scenario.zip)** for payment reference.
  
 
