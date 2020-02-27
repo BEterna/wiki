@@ -6,8 +6,6 @@ The feature allows the generation of the number sequence on sales documents (Sal
 
 The feature is part of the LOC_FISCALIZATION extended localization package.
 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Fiscalization.docx?d=wae690415ee784c6caee16a4a491ec95f&csf=1&e=mZe1gX)
-
 ## Setup
 
 ### General ledger parameters
@@ -59,10 +57,10 @@ Field “Invoice” on Customer transactions is populated with the generated fis
  
 #### Correct FTI
 
-1. Correcting FTI generates new fiscal number.
-2. To correct a free text invoice that has already been posted, select the posted free text invoice. On the Invoice page, in section Cancel, select “Correct invoice”. Define a reason code, add comments, and select the date for new corrected invoice. Modify the corrected invoice, and post it.
+1. Correcting FTI generates a new fiscal number.
+2. To correct a free text invoice that has already been posted, select the posted free text invoice. On the Invoice page, in section Cancel, select “Correct invoice”. Define a reason code, add comments, and select the date for the new corrected invoice. Modify the corrected invoice, and post it.
 3. After posting, fiscal numbers are generated for canceling and corrected invoices.
-4. Field “Invoice” on Customer transactions is populated with the fiscal number of posted invoice.
+4. Field “Invoice” on Customer transactions is populated with the fiscal number of posted invoices.
 5. Fiscal numbers of canceled and corrected invoices can be seen in the list of all fiscalization documents.
  
 ### Credit note
@@ -81,12 +79,12 @@ The posted document can be seen in the list of all fiscalization documents.
 
 1. Posting invoice proposal generates a fiscal number that is recorded in the field “Invoice”.
 2. Check all project invoices to find a fiscal number in the field “Invoice”.
-3. Posted document can be seen in the list of all fiscalization documents.
+3. A posted document can be seen in the list of all fiscalization documents.
  
 ### Collection letter
 
 1. Collection letters are generated with fiscal numbers. 
-2. Right after creation they can be seen in Fiscalization documents form.
+2. Right after creation, they can be seen in Fiscalization documents form.
 3. Posting collection letters generate a fiscal number. 
 4. Field “Invoice” on Customer transactions is populated with a fiscal number.
  
@@ -101,4 +99,4 @@ Customer transaction has a fiscal number in field Invoice.
  
 ## Test cases
                            
-Check [Test Cases](Fiscalization-Test-Scenario.zip) for fiscalization.
+Check **[Test Scenaio](Fiscalization-Test-Scenario.zip)** for fiscalization.
