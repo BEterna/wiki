@@ -13,7 +13,7 @@ This topic provides country/region-specific information about how to set up, cre
 ### Export format configuration
 
 1. Open Workspaces – Electronic reporting -> Reporting configurations.
-2. Choose Exchange -> Load [XML file](e-Invoices-SI.zip) on any configuration. Based on file content it will automatically upload to correct configuration. Before upload, check the latest version of these files with the developer.
+2. Choose Exchange -> Load **[XML file](e-Invoices-SI.zip)** on any configuration. Based on file content it will automatically upload to correct configuration. Before upload, check the latest version of these files with the developer.
 3. Click “Browse” and choose the attached files (be sure to upload the Customer invoice model (AD).xml first because the following ones are dependent on it). After the file has loaded, click OK to upload it to configuration.
 4. Search for configuration “Customer invoice model (AD)” and expand it to find Project invoice – eSlog 1.6 (SI) and Sales invoice – eSlog 1.6 (SI). Check for status “Completed” in tab Versions.
  
@@ -24,15 +24,15 @@ This topic provides country/region-specific information about how to set up, cre
    - Creation of envelope: enable or disable to generate envelope upon eInvoice export or sending. 
    - Automatic sending of eInvoices: enable to automatically download eInvoice after XML is created
    - Bank: company bank for received customer payments (validation upon SWIFT and IBAN is executed in eInvoice registry).
-   - Default unit of measure: value in this field is transferred to eInvoice when the unit is not defined on customer invoice (there is no field “Unit” on Free text invoice so the value in this field is always transferred to eInvoice).
+   - The default unit of measure: value in this field is transferred to eInvoice when the unit is not defined on customer invoice (there is no field “Unit” on Free text invoice so the value in this field is always transferred to eInvoice).
    - Signature options – enable/disable “Automatic electronic signing of eInvoice” and define “Electronic signature” options. Possible choices are: 
-      - Mandatory: created eInvoices need to be signed with electronic signature using appropriate valid certificate.
+      - Mandatory: created eInvoices need to be signed with electronic signature using an appropriate valid certificate.
       - Optional: if a valid certificate is available, eInvoices are automatically signed if “Automatic electronic signing of eInvoice” is enabled. Otherwise, the user manually signs eInvoice in the registry. EInvoice can also be sent without a signature.
       - Disabled: eInvoice can be sent without an electronic signature. 
    - Download eInvoice as archive: with this function ZIP file will be generated with eInvoice files (invoice, envelope, and customized visualization). Important: visualization of the document is not part of this localized feature and needs to be implemented during project implementation.  
 3. In the “Profile” section create Profile ID and choose adequate Electronic reporting configurations for Sales and FTI, and Project invoice.
  
-It is necessary to define eInvoice unique file name in “Number sequences” section. 
+It is necessary to define eInvoice unique file name in the “Number sequences” section. 
  
 ### External codes
 
@@ -83,9 +83,7 @@ Create XML function executes validation of the following parameters:
 11. Using the button “Export” or “Send”, envelope (if enabled in parameters) and eInvoice are downloaded to the selected directory (first, select location for the envelope and save, then the select location for eInvoice and save). If “Export” is used, status stays the same; status is changed to Sent after using the action “Send”.
 12. Export of eInvoice before the creation of XML (e.g. status “New” or “Not ready”) is not allowed.
  
-#### Test cases for FTI and Sales invoice
-
-Check [Test Cases](e-Invoices-SI.zip).
+Check [Test Scenario](e-Invoices-SI.zip).
  
 ### Electronic project invoices
 
@@ -95,9 +93,7 @@ Check [Test Cases](e-Invoices-SI.zip).
 
 Project eInvoices are subject to the same procedures and actions as described in chapter Electronic customer invoices. 
 
-#### Test case for project invoice
- 
-Check [Test Cases](e-Invoices-SI.zip).
+Check **[Test Scenario](e-Invoices-SI.zip)**.
 
 ### Subsequent creation of eInvoices
 
@@ -108,11 +104,7 @@ After confirming, subsequent eInvoices are created with status “Not ready”.
  
 Proceed with the same procedures and actions as described in the chapters above. 
 
-#### Test case 
- 
-Check [Test Cases](e-Invoices-SI.zip).
-<br>
-<br>
+Check **[Test Scenario](e-Invoices-SI.zip)**.
 
 # eInvoices for Croatia 
 
@@ -122,7 +114,7 @@ The purpose of this feature is to enable the Invoice export in the prescribed el
 
 ### Export format configuration
 
-Configuration for export of invoice according to the UBL 2.1 standard is available. In the case of standard changes, the configuration needs to be adjusted. 
+Configuration for export of invoices according to the UBL 2.1 standard is available. In the case of standard changes, the configuration needs to be adjusted. 
 
 1. Open Workspaces – Electronic reporting – Reporting configurations.
 2. Choose Exchange -> Load XML file on any configuration. Based on file content it will automatically upload to correct configuration.
@@ -149,7 +141,7 @@ Click “Browse” and choose the configuration files (be sure to upload the “
 
 For B2G purposes (UBL 2.1) one provider configuration is needed. In case of supporting additional standards, new providers would be added and configured. 
  
-It is necessary to define eInvoice unique file name in “Number sequences” section. 
+It is necessary to define eInvoice unique file name in the “Number sequences” section. 
  
 ### Certificate
 
@@ -183,7 +175,7 @@ Export of eInvoice before the creation of XML (e.g. status “New” or “Not r
  
 #### Test cases for FTI and Sales invoice
 
-Check [Test Scenario](e-Invoices-HR.zip).
+Check **[Test Scenario](e-Invoices-HR.zip)**.
  
 ### Electronic project invoices
 
@@ -195,7 +187,7 @@ Project eInvoices are subject to the same procedures and actions as FTIs or Sale
 
 #### Test case for project invoice
 
-Check [Test Scenario](e-Invoices-HR.zip).
+Check **[Test Scenario](e-Invoices-HR.zip)**.
 
 ### Subsequent creation of eInvoices
 
@@ -207,6 +199,6 @@ Proceed with the same procedures and actions as described in the chapters above.
 
 #### Test case 
 
-Check [Test Scenario](e-Invoices-HR.zip).
+Check **[Test Scenario](e-Invoices-HR.zip)**.
  
 
