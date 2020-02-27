@@ -10,7 +10,7 @@ This custom-developed feature is part of the AdactaSuiteCompensations AdSuite D3
 
 ### Number sequence
 
-The number sequence needs to be set up. This can be done in Organization administration > Number sequences > Number sequences. The number sequence needs to be referenced to area Compensations. 
+The number sequence needs to be set up. This can be done in Organization administration - Number sequences - Number sequences. The number sequence needs to be referenced to area Compensations. 
  
 ### Journal name
 
@@ -18,7 +18,7 @@ A separate journal name needs to be generated. Since one voucher posting is not 
  
 ## Generate compensation proposals
 
-Compensation proposals are generated in Accounts Payable > Compensations > Generate compensations. Two types of compensations can be generated: 
+Compensation proposals are generated in Accounts Payable - Compensations - Generate compensations. Two types of compensations can be generated: 
    - Internal: between Customer and Vendor that are connected to the same Party in Global Address book
    - Chain: between Customer and Vendor that are connected to different Partys in Global Address book.  
 According to Type, different options are available. 
@@ -30,7 +30,7 @@ According to Type, different options are available.
 
 When choosing Type Chain, additional fields Customer account and Vendor account are enabled. Both need to be populated in order to create a Compensation proposal. The field name is disabled since Vendor and Customer, in this case, don't have the same Party ID. Due date and Date follow the same rules as in the case of Type Internal. 
  
-After click on OK button Compensation proposals that fit the criteria are generated. List of Compensation proposals can be found in Accounts Payable > Compensations > Compensations.
+After click on OK button Compensation proposals that fit the criteria are generated. A list of Compensation proposals can be found in Accounts Payable - Compensations - Compensations.
  
 
 Compensation proposals are assigned a certain status, according to phase: 
@@ -41,7 +41,7 @@ Compensation proposals are assigned a certain status, according to phase:
  
 
 In compensation proposal details all transactions, that fit the criteria, are listed. There is a separate tab for Customer and Vendor transactions. If the transaction will be compensated the amount in field Compensation amount is populated. The amount can be lower than the original transaction open amount. All proposed transactions can be manually reorganized, which means that transactions can be added (from open transactions list), removed or edited (change of compensation amount). 
-Compensation proposal can also be prepared for documents in foreign currency, but only in cases where vendor and customer documents are posted in the same foreign currency. Currency for compensation proposal is defined on the “Generate proposal” form. 
+Compensation proposal can also be prepared for documents in foreign currency, but only in cases where vendor and customer documents are posted in the same foreign currency. Currency for compensation proposal is defined in the “Generate proposal” form. 
 All transactions that are included in the compensation proposal, will be excluded from the payment proposal. They are still visible in the Open transactions list but are blocked for payment. If the transaction is only partially included in the compensation proposal, only the remaining open amount will be included in the payment proposal. If the payment journal is prepared by using Settle transactions function, only warning with information about the compensation amount will be displayed. However, the total open amount will be transferred to the payment journal line. 
 
 Amounts included in compensation are listed in a separate column on Settle transactions form. 
@@ -63,5 +63,5 @@ Compensation proposal can also be printed.
 The general journal is generated and posted using a button Post on Compensation proposal. The vendor and Customer posting profile need to be defined during the posting process.  Also, a separate Journal name needs to be generated. Since One voucher posting is nor allowed, offset account (type is not important, but usually Bank or Ledger are used) needs to be defined for this journal. This way two separate vouchers will be generated during the posting process. 
  
  
-Customer and Vendor transactions are generated as a result of compensation proposal posting. Journal can be opened from the Compensation proposals List using the Voucher transactions button.
+Customer and Vendor transactions are generated as a result of the compensation proposal posting. Journal can be opened from the Compensation proposals List using the Voucher transactions button.
  
