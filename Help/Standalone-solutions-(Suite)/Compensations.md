@@ -1,6 +1,67 @@
+# How To: Post Compensations
+
 Feature enables settlements between receivable and payable amounts for a company that is registered as both – a customer and a vendor in the system need to be done. This settlement process uses a legal procedure that is known as compensation or netting.
-Creation of compensation proposal is enabled, where it is possible to select customer, vendor and transactions to be compensated – credit notes can also be used in the procedure. Compensations can be posted to specified general journal, customer and vendor posting profiles. Compensation proposal can be printed.
 
-This custom developed feature is part of the AdactaSuiteCompensations AdSuite D365O extension packet.
+The creation of a compensation proposal is enabled, where it is possible to select a customer, a vendor, and transactions to be compensated – credit notes can also be used in the procedure. Compensations can be posted to the specified general journal, customer and vendor posting profiles. Compensation proposal can be printed.
 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Suite%20documentation/D365O_Compensations.docx?d=w697f0bb080984d378b4f5e8398db970f&csf=1&e=m2SwY2)
+This custom-developed feature is part of the AdactaSuiteCompensations AdSuite D365O extension packet.
+
+## Enabling compensations
+
+### Number sequence
+
+The number sequence needs to be set up. This can be done in Organization administration > Number sequences > Number sequences. The number sequence needs to be referenced to area Compensations. 
+ 
+### Journal name
+
+A separate journal name needs to be generated. Since one voucher posting is not allowed, the offset account (type is not important, but usually Bank or Ledger are used) needs to be defined for this journal. This way two separate vouchers will be generated during the posting process.
+ 
+## Generate compensation proposals
+
+Compensation proposals are generated in Accounts Payable > Compensations > Generate compensations. Two types of compensations can be generated: 
+   - Internal: between Customer and Vendor that are connected to the same Party in Global Address book
+   - Chain: between Customer and Vendor that are connected to different Partys in Global Address book.  
+According to Type, different options are available. 
+   - When choosing Type Internal, field Name is enabled. In this field, the user can choose the Party from Global Address book.  If the field is left empty, compensation proposals will be created for all candidates with the same Party ID and open receivable and payable amounts. 
+   - Currency defaults from legal entity currency since compensations are usually processed in domestic currency.  The user can also change the currency to generate compensations in foreign currency if needed. In this case, the currency of the Vendor and Customer transaction needs to be in the same currency. 
+   - With Due date, a user defines transactions to be compensated. Due date is checked for Vendor and Customer transactions.  All Vendor/Customer transactions that have a due date before or on the date defined, will be candidates for compensation. 
+   - Date field defines the date of compensation proposal. 
+ 
+
+When choosing Type Chain, additional fields Customer account and Vendor account are enabled. Both need to be populated in order to create a Compensation proposal. Field name is disabled, since Vendor and Customer in this case don't have the same Party ID. Due date and Date follow the same rules as in case of Type Internal. 
+ 
+After click on OK button Compensation proposals that fit the criteria are generated. List of Compensation proposals can be found in Accounts Payable > Compensations > Compensations.
+ 
+
+Compensation proposals are assigned certain status, according to phase: 
+   - Open: When compensation proposals are generated, they get status Open. This status allows editing and deleting document. Status can be manually changed into Active. 
+   - Active: When in status Active, no changes are allowed any more. Status can be manually changed into Open. Only Active status allows posting of the document.
+   - Closed: When compensation proposal is posted, status is automatically changed to Closed
+   - Rejected: If the proposal is rejected by Customer/Vendor, status can be changed to Rejected. With this status all connections to original transactions are deleted, which means, that transactions can be included in payment process again. 
+ 
+
+In compensation proposal details all transactions, that fit the criteria, are listed. There is a separate tab for Customer and Vendor transactions. If transaction will be compensated the amount in field Compensation amount is populated. Amount can be lower than the original transaction open amount. All proposed transactions can be manually reorganized, which means that transactions can be added (from open transactions list), removed or edited (change of compensation amount). 
+Compensation proposal can also be prepared for documents in foreign currency, but only in cases where vendor and customer documents are posted in the same foreign currency. Currency for compensation proposal is defined on “Generate proposal” form. 
+All transactions that are included in compensation proposal, will be excluded from payment proposal. They are still visible in Open transactions list but are blocked for payment. If transaction is only partially included in compensation proposal, only remaining open amount will be included in payment proposal. If payment journal is prepared by using Settle transactions function, only warning with information about compensation amount will be displayed. However, total open amount will be transferred to payment journal line. 
+
+Amounts included in compensation are listed in separate column on Settle transactions form. 
+
+ 
+
+If credit notes are included in compensation proposal, they get the negative compensation amount. If this amount is edited manually,  the negative sign needs to be set manually. 
+ 
+
+Additional Display fields are available at the bottom of transactions list: 
+   - Open amount: Shows open amount that is available for compensation
+   - Transaction sum: Shows sum of compensation amounts for specific transaction. This number is useful in cases where one transaction is split into several compensations. 
+   - Compensation amount: sum of all amounts listed in column Compensation amount. 
+ 
+Compensation proposal can also be printed. 
+ 
+## Post compensations
+
+General journal is generated and posted using button Post on Compensation proposal. Vendor and Customer posting profile need to be defined during posting process.  Also, separate Journal name needs to be generated. Since One voucher posting is nor allowed, offset account (type is not important, but usually Bank or Ledger are used) needs to be defined for this journal. This way two separate vouchers will be generated during posting process. 
+ 
+ 
+Customer and Vendor transactions are generated as result of compensation proposal posting. Journal can be opened from Compensation proposals List using Voucher transactions button.
+ 
