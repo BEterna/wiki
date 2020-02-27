@@ -12,7 +12,7 @@ The feature is added so that the information about the preferred bank account ca
 
 ### Customer groups
 
-1. Open Accounts receivable/Setup/Customer groups.
+1. Open Accounts receivable - Setup - Customer groups.
 2. A new field »Company bank account« is added to the Customer groups table. It is possible to select a default bank account for each customer group, to which a company wants to receive inflows.
  
 ### Customers
@@ -37,7 +37,7 @@ The company bank account is transferred from customer to the created Sales quota
 #### Sales order
 
 1. If a Sales order is created from the sales quotation, the company bank account is transferred from the sales quotation (and not customer).
-2. If a Sales order is created without the preexisting Sales quotation, the Company bank account is transferred from customer.
+2. If a Sales order is created without the preexisting Sales quotation, the Company bank account is transferred from the customer.
 
 #### Sales invoice
 
@@ -65,11 +65,11 @@ Functionality is not supported for invoices generated using the Vendor invoice j
 
 #### Methods of payment
 
-Company bank accounts are transferred from open vendor transactions to vendor payment journal if payment attribute »Third party bank« is checked on the payment method, used when generating vendor payment lines via the Payment proposal function.
+Company bank accounts are transferred from open vendor transactions to vendor payment journal if payment attribute »Third-party bank« is checked on the payment method, used when generating vendor payment lines via the Payment proposal function.
  
 ### Payment proposal
 
-1. Open Accounts payable/Payments/Payment journal.
+1. Open Accounts payable - Payments - Payment journal.
 2. When creating a new payment proposal, the company bank account from open customer transactions is transferred to the generated payment journal line as an Offset bank account (via the selected payment method).
 An alternate bank account field displays the vendor's bank account to which the payments should be made. The bank account field displays the company bank account (set on the alternate bank account) from which the company will pay the liabilities to the vendor.
  
