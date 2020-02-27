@@ -32,10 +32,12 @@ The standard functionality of Registration IDs is used for VAT ID, tax identific
    - Registration type: The registration type for a particular country/region.
    - Restricted to: The kind of restriction applies to the tax registration type: None, Person, Organization.
    - Registration category: The unique registration identifier approved for use in the country. As part of localization following Registration categories were added:
-     - Tax identification number (AD)  used for Davčna številka
-     - Company registration number (AD)  used for Matična številka podjetja
-     - National identification number (AD)  used for EMŠO
+     - Tax identification number (AD): used for Davčna številka.
+     - Company registration number (AD): used for Matična številka podjetja.
+     - National identification number (AD): used for EMŠO.
+
 Standard Registration category VAT ID is used for ID za DDV.
+
 The dropdown menu for Tax exempt number (with a filter on Party) will show all registration IDs with the VAT ID registration category (standard functionality).
  
 ### Use registration IDs
@@ -50,16 +52,17 @@ Standard functionality Registration IDs are used for managing different kinds of
 #### VAT ID, Tax identification number (AD), Company registration number (AD) and National identification number (AD) for Slovenia
 
 1. Setup in registration categories: 
-   - VAT ID category as ID za DDV
-   - Tax identification number (AD) as Davčna številka
-   - Company registration number (AD) as Matična številka podjetja
-   - National identification number (AD) as EMŠO 
+   - VAT ID category as ID za DDV.
+   - Tax identification number (AD) as Davčna številka.
+   - Company registration number (AD) as Matična številka podjetja.
+   - National identification number (AD) as EMŠO.
 2. On the Registration ID tab, enter information about the registration ID.
-3. If tax identification numbers are imported, using LOC_ext functionality (for more, see Chapter Import of SI taxpayers*), they are shown in drop down in Registration number field. Drop down is available as part of LOC_core package. This is valid only for following Registration types:
-   - VAT ID: Tax exempt numbers list is opened. Tax exempt number from the list is copied to Registration number field. Pay attention to the setup of the Registration type formatting. Correct formatting should be SI########. 
-   - Tax identification number (AD): Slovenian taxable persons list is opened. Tax registration number from the list is copied to Registration number field.
-   - Company registration number (AD): Slovenian taxable persons list is opened. ID number from the list is copied to Registration number field. 
-In other cases registration number must be entered manually.
+3. If tax identification numbers are imported, using LOC_ext functionality (for more, see Chapter Import of SI taxpayers*), they are shown in a dropdown in the Registration number field. Dropdown is available as part of LOC_core package. This is valid only for following Registration types:
+   - VAT ID: Tax exempt numbers list is opened. Tax exempt number from the list is copied to the Registration number field. Pay attention to the setup of the Registration type formatting. Correct formatting should be SI########. 
+   - Tax identification number (AD): Slovenian taxable person list is opened. Tax registration number from the list is copied to the Registration number field.
+   - Company registration number (AD): Slovenian taxable person list is opened. ID number from the list is copied to the Registration number field. 
+
+In other cases, the registration number must be entered manually.
 
 #### OIB number for Croatia
 
