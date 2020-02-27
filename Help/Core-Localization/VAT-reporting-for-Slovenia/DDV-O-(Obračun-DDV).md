@@ -1,4 +1,4 @@
-# How to: Prepare DDV-O
+# How to: Prepare a DDV-O
 
 DDV-O is a Slovenian sales tax return report. Every taxable person identified for VAT purposes in Slovenia is obliged to submit a VAT return to the Slovenian tax authority. DDV-O should include all the required VAT return settings, with the information needed to calculate the sales tax and applicable deduction to be made including the total value of transactions relating to such tax and deductions. Additionally, the value of any exempt transactions should be included. Taxable entities have to submit the tax return to the tax authority by the last business day of the month, which follows the expiry of the tax period, while Slovenian laws also allow multiple exceptions. VAT tax return (DDV-O) needs to be submitted electronically via the eDavki portal of the Slovenian tax authority (FURS).
 
@@ -9,7 +9,7 @@ DDV-O is prepared based on Tax transactions and according to the VAT date. DDV-O
 The generation of reports is based on reporting codes. Reporting code carries information about which field the transaction will be recorded in. 
 
 1. Open Tax – Setup – Sales tax – Sales tax reporting codes:
-   - Enter the list of [reporting codes for SI](Reporting-codes.zip). Reporting codes can also be imported using Excel add-in. 
+   - Enter the list of **[reporting codes for SI](Reporting-codes.zip)**. Reporting codes can also be imported using Excel add-in. 
 2. Open Tax – Indirect taxes – Sales tax – Sales tax codes.
    - VAT reports are generated according to the setup of sales tax reporting codes on sales tax codes.  
 3. Open Electronic reporting formats setup in General ledger - General ledger parameters - Adacta localization. To generate DDV-O, electronic reporting formats need to be configured first. Two formats are available for DDV-O: 
@@ -27,10 +27,10 @@ Sales tax calculation according to VAT date is part of the Adacta localization p
    - Sales tax payment version: 
        - Original – is used when no settlement posting for the chosen period exists. 
        - The latest corrections – is used when a settlement for the existing period is already posted. Only Tax Transactions that were created after the last settlement posting are included. 
-2. As a result of the Sales tax calculation process DDV-O form is created (SI localization feature). It can be viewed in Tax/Declarations/Slovenia/VAT/DDV-O forms. 
-3. The report can be exported to XML by choosing a button Export to XML. If the Sales tax reporting date is before 1.1.2020, the old version of DDV-O form, is generated instead. 
+2. As a result of the Sales tax calculation process DDV-O form is created (SI localization feature). It can be viewed in Tax - Declarations - Slovenia - VAT - DDV-O forms. 
+3. The report can be exported to XML by choosing a button Export to XML. If the Sales tax reporting date is before 1.1.2020, the old version of DDV-O form is generated instead. 
 
 ## DDV-O Correction 
 
-DDV-O corrections are enabled in Self report/Correction tab. Tax amount and interests can be reported. Correction is visible on the DDV-O report preview and is also included in exported XML.  
+DDV-O corrections are enabled in Self report  -> Correction tab. Tax amount and interests can be reported. Correction is visible on the DDV-O report preview and is also included in exported XML.  
 
