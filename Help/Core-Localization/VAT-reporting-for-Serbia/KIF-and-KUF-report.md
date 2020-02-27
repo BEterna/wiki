@@ -14,7 +14,7 @@ The main prerequisite: VAT Book reports are available in legal entities with SRB
 
 1. Open Tax – Setup – Sales tax – Sales tax reporting codes.
 
-Generation of reports is based on [Reporting codes](Reporting-codes.xlsx). Reporting code carries information about which field the transaction will be recorded in. Reporting codes can also be imported using Excel add-in.
+Generation of reports is based on **[Reporting codes](Reporting-codes.xlsx)**. Reporting code carries information about which field the transaction will be recorded in. Reporting codes can also be imported using Excel add-in.
 
 ### Sales tax codes reporting setup
 
