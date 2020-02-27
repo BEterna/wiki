@@ -1,4 +1,4 @@
-# How To: Create KRD report
+# How To: Create a KRD report
 
 KRD stands for the SKV part of the report on short-term receivables and liabilities from doing business with non-residents according to the financial instruments specified by the Bank of Slovenia. Legal entities obliged by the report are informed about the obligation by the Bank of Slovenian based on the importance of their business activities with the non-residents. If obliged to report, legal entities must submit the report until the 20th day in the current month for the past month, electronically in an adequate XML format.
 
@@ -10,7 +10,7 @@ This localization feature enables the preparation and export of the report to th
 
 1. Open Workspaces – Electronic reporting à Reporting configurations.
 2. Choose Exchange -> Load XML file on any configuration. Based on file content it will automatically upload to correct configuration. 
-3. You can upload [files](KRD.zip). Before upload, check the latest version of these files with the developer. 
+3. You can upload **[files](KRD.zip)**. Before upload, check the latest version of these files with the developer. 
 4. Click “Browse” and choose the attached files (be sure to upload ERKRDKIPOModel.xml first because the format file is dependent on it). After the file has loaded, click OK to upload it to configuration. 
 5. Search for configuration “KRD/KIPO” and expand it to find the KRD report. Check for status “Completed” in tab Versions. 
 
@@ -21,7 +21,7 @@ This localization feature enables the preparation and export of the report to th
 
 ### Country/region setup for KRD report 
 
-1. Open Country/region code at partner’s address. 
+1. Open Country/region code at the partner’s address. 
 2. ISO and numeric ISO country code in Organization administration – Global address book – Addresses – Address setup. 
 
 ### Financial instruments for KRD report 
@@ -41,7 +41,7 @@ This localization feature enables the preparation and export of the report to th
 
 1. Open General ledger – Inquiries and reports – Slovenia – KRD report -> Settings -> Sector codes.
 2. Navigate to Action Pane, tab General, section Settings, and button Sector codes to define sectors. This table allows you to enter the sector code and its description, and below, allocate the code to the individual customer, vendor. 
-3. It is possible to allocate sector code directly on Customer/Vendor card. 
+3. It is possible to allocate sector code directly on the Customer/Vendor card. 
 
 ## Generate KRD report 
 
@@ -58,6 +58,3 @@ Validation if the Note exists for the value in fields Other is executed upon exp
 
 3. Navigate to “Export to XML file” to export the report to XML form for Bank of Slovenia reporting. 
 
-<!-- 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20Statistical%20reports.docx?d=w4c0af9b9e8dd42e7ac762e1d199fe4b3&csf=1&e=dyzs1o)
--->
