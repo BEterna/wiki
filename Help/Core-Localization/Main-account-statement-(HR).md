@@ -23,25 +23,25 @@ Izvor: Zakon o računovodstvu NN 78/15, 134/15,120/16: Članak 12., Točka 9.
 
 ### Name and address of the company
 
-1. Open Organization administration/Organizations/Legal entities.
+1. Open Organization administration - Organizations - Legal entities.
 2. Legal entities are in line with point 1 from Accounting law from chapter 1 of this document.
 
 ### General ledger number and general ledger name
 
-1. Open General ledger/Chart of accounts/Accounts/Main accounts.
+1. Open General ledger - Chart of accounts - Accounts - Main accounts.
 2. In order to satisfy the second and third requirements, we need to enter the main account number and name into the system.
 
 ### Number sequence of accounting transaction
 
-1. Open Organization administration/Number sequences/Number sequences.
-2. In order to have proper accounting transaction numbering we need to set proper number sequences (requirement number 6).
-3. Open General ledger/Ledger setup/General ledger parameters.
+1. Open Organization administration - Number sequences - Number sequences.
+2. In order to have proper accounting transaction numbering, we need to set proper number sequences (requirement number 6).
+3. Open General ledger - Ledger setup - General ledger parameters.
 
 ## Generating reports
 
-1. Open General ledger/Inquiries and reports/Croatia/Izvadak konta.
+1. Open General ledger - Inquiries and reports - Croatia - Izvadak konta.
 2. By clicking on the “OK” button, we get the following statement:
-3. To the report, we can also access following the form General ledger/Ledger reports/Ledger transaction list.
+3. To the report, we can also access following the form General ledger - Ledger reports - Ledger transaction list.
 
 
 
