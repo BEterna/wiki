@@ -10,7 +10,7 @@ PDO reports sums transactions based on tax exempt numbers. The report consists o
 
 1. Open Workspaces – Electronic reporting à Reporting configurations.
 2. Choose Exchange – Load XML file on any configuration. Based on file content it will automatically upload to correct configuration. 
-3. [Files](PDO-Report.zip) for upload are attached below. Before upload, check the latest version of these files with the developer.  
+3. **[Files](PDO-Report.zip)** for upload are attached below. Before upload, check the latest version of these files with the developer.  
 4. Click “Browse” and choose the attached files (be sure to upload the model first (PDO.xml file) because the format is dependent on it). After the file has loaded, click OK to upload it to configuration. 
 5. Search for configuration “PDO” and expand it to find PDO format. Check for status “Completed” in tab Versions. 
 
@@ -33,4 +33,4 @@ PDO reports sums transactions based on tax exempt numbers. The report consists o
 5. Navigate to Action grid – click “Preview”. The report is generated according to section A and section B transactions.
 6. Data can be exported to XML using the button “Export to XML”.  
 
-Check [Test cases](PDO-Report.zip) for PDO report.
+Check **[Test Scenario](PDO-Report.zip)** for PDO report.
