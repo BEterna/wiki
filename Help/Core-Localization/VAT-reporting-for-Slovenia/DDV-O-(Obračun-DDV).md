@@ -1,10 +1,10 @@
-# How to: Prepare a DDV-O
+# VAT statement (DDV-O) details for Slovenia
 
 DDV-O is a Slovenian tax return report. Every taxable person identified for VAT purposes in Slovenia is obliged to submit a VAT return to the Slovenian tax authority. DDV-O should include all the required VAT return settings, with the information needed to calculate the sales tax and applicable deduction to be made including the total value of transactions relating to such tax and deductions. Additionally, the value of any exempt transactions should be included. Taxable entities have to submit the tax return to the tax authority by the last business day of the month, which follows the expiry of the tax period, while Slovenian laws also allow multiple exceptions. VAT tax return (DDV-O) needs to be submitted electronically via the eDavki portal of the Slovenian tax authority (FURS).
 
 DDV-O is prepared based on Tax transactions and according to the VAT date. DDV-O can also be previewed (HTML) and exported to the XML file.
 
-## Setup
+## **Setup**
 ----
 
 ###Sales tax authorities
@@ -25,7 +25,7 @@ Open Electronic reporting formats setup in General ledger - General ledger param
    - (1) DDV-O electronic reporting format is used to report Sales tax transactions up to (including) 31.12.2019 
    - (2) DDV-O (version 11) electronic reporting format is used to report Sales tax transactions after (including) 1.1.2020. 
 
-## Generate VAT statement (DDV-O) 
+## **Generate VAT statement (DDV-O)** 
 ----
 
 Sales tax calculation according to VAT date is part of the Adacta localization pack, while standard sales tax calculation is performed according to the posting date. Standard Sales tax calculation form is used, and it can be found in Tax/Declarations/Sales tax/Report sales tax for the settlement period.
@@ -45,7 +45,7 @@ As a result of the Sales tax calculation process DDV-O form is created (SI local
 ####Export to XML
 The report can be exported to XML by choosing a button Export to XML. If the Sales tax reporting date is before 1.1.2020, the old version of DDV-O form is generated instead. 
 
-## DDV-O Correction 
+## **DDV-O Correction** 
 ----
 
 DDV-O corrections are enabled in Self report  -> Correction tab. Tax amount and interests can be reported. Correction is visible on the DDV-O report preview and is also included in exported XML.  
