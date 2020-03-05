@@ -5,6 +5,7 @@ DDV-O is a Slovenian sales tax return report. Every taxable person identified fo
 DDV-O is prepared based on Tax transactions and according to the VAT date. DDV-O can also be previewed (HTML) and exported to the XML file.
 
 ## Setup
+----
 
 The generation of reports is based on reporting codes. Reporting code carries information about which field the transaction will be recorded in. 
 
@@ -17,6 +18,7 @@ The generation of reports is based on reporting codes. Reporting code carries in
    - (2) DDV-O (version 11) electronic reporting format is used to report Sales tax transactions after (including) 1.1.2020. 
 
 ## DDV-O report 
+----
 
 Sales tax calculation according to VAT date is part of the Adacta localization pack, while standard sales tax calculation is performed according to the posting date. Standard Sales tax calculation form is used, and it can be found in Tax/Declarations/Sales tax/Report sales tax for the settlement period.
 
@@ -31,6 +33,7 @@ Sales tax calculation according to VAT date is part of the Adacta localization p
 3. The report can be exported to XML by choosing a button Export to XML. If the Sales tax reporting date is before 1.1.2020, the old version of DDV-O form is generated instead. 
 
 ## DDV-O Correction 
+----
 
 DDV-O corrections are enabled in Self report  -> Correction tab. Tax amount and interests can be reported. Correction is visible on the DDV-O report preview and is also included in exported XML.  
 
