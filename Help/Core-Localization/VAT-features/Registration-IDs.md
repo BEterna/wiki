@@ -43,7 +43,7 @@ Standard Registration category VAT ID is used for ID for VAT purposes.
 
 Dropdown menu for Tax exempt number (with the filter set to Party) on Vendor/Customer card will show all registration IDs with the VAT ID registration category (standard functionality). 
 
-## Use registration IDs 
+## **Use registration IDs** 
 ----
 
 1. Click Registration IDs on forms related to the party, legal entity, vendor, customer, worker to open the Manage addresses page.  
@@ -92,7 +92,7 @@ Registration ID can be used for an ID number, using standard registration IDs fu
 
 2. Click Registration IDs on forms related to the party, legal entity, vendor, customer, worker to open the Manage addresses page and enter registration number for selected registration type. 
 
-## Registration ID validation 
+## **Registration ID validation** 
 ----
 
 ### OIB validation (CRO) 
