@@ -36,8 +36,7 @@ Sales tax calculation according to VAT date is part of the Adacta localization p
 | Settlement period |Period for which calculation is performed  |
 | From date | first day of the period for which calculation should be performed |
 |Transaction date  |Datum for settlement posting  |
-|Sales tax payment version  | Original – is used when no settlement posting for the chosen period exists.
-he latest corrections – is used when a settlement for the existing period is already posted. Only Tax Transactions that were created after  |
+|Sales tax payment version  | Original – is used when no settlement posting for the chosen period exists. Latest corrections – is used when a settlement for the existing period is already posted. Only Tax Transactions that were created after  |
 
  Field Description
 
