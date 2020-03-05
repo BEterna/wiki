@@ -31,24 +31,19 @@ Open Electronic reporting formats setup in General ledger - General ledger param
 Sales tax calculation according to VAT date is part of the Adacta localization pack, while standard sales tax calculation is performed according to the posting date. Standard Sales tax calculation form is used, and it can be found in Tax/Declarations/Sales tax/Report sales tax for the settlement period.
 
 
-|Field  | Description |
-|--|--|
-| Settlement period |Period for which calculation is performed  |
-| From date | first day of the period for which calculation should be performed |
-|Transaction date  |Datum for settlement posting  |
-|Sales tax payment version  | Original – is used when no settlement posting for the chosen period exists. Latest corrections – is used when a settlement for the existing period is already posted. Only Tax Transactions that were created after  |
+| **Field**                 | **Description**                                                                                                                                                                                                     |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Settlement period         | Period for which calculation is performed                                                                                                                                                                           |
+| From date                 | first day of the period for which calculation should be performed                                                                                                                                                   |
+| Transaction date          | Datum for settlement posting                                                                                                                                                                                        |
+| Sales tax payment version | _Original_ – is used when no settlement posting for the chosen period exists. _Latest corrections_ – is used when a settlement for the existing period is already posted. Only Tax Transactions that were created after the last settlement posting are included.  |
 
- Field Description
 
-1. The separate (standard) form is used for Sales tax settlement/posting. The fields that can be used: 
-   - Settlement period: Period for which calculation is performed 
-   - From date: first day of the period for which calculation should be performed  
-   - Transaction date (visible only on Settle and post sales tax form): Datum for settlement posting  
-   - Sales tax payment version: 
-       - Original – is used when no settlement posting for the chosen period exists. 
-       - The latest corrections – is used when a settlement for the existing period is already posted. Only Tax Transactions that were created after the last settlement posting are included. 
-2. As a result of the Sales tax calculation process DDV-O form is created (SI localization feature). It can be viewed in Tax - Declarations - Slovenia - VAT - DDV-O forms. 
-3. The report can be exported to XML by choosing a button Export to XML. If the Sales tax reporting date is before 1.1.2020, the old version of DDV-O form is generated instead. 
+ 
+As a result of the Sales tax calculation process DDV-O form is created (SI localization feature). It can be viewed in Tax - Declarations - Slovenia - VAT - DDV-O forms. 
+
+####Export to XML
+The report can be exported to XML by choosing a button Export to XML. If the Sales tax reporting date is before 1.1.2020, the old version of DDV-O form is generated instead. 
 
 ## DDV-O Correction 
 ----
