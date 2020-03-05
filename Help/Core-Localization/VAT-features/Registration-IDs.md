@@ -53,19 +53,21 @@ Dropdown menu for Tax exempt number (with the filter set to Party) on Vendor/Cus
 
 ### VAT ID, Tax identification number (AD), Company registration number (AD) and National identification number (AD) for Slovenia 
 
-Setup in registration categories:  
-   - VAT ID category as ID za DDV 
-   - Tax identification number (AD) as Davčna številka 
-   - Company registration number (AD) as Matična številka podjetja 
-   - National identification number (AD) as EMŠO  
+Setup in registration categories: 
+
+
+| Registration category | Description |Available list|
+|--|--|--|
+|VAT ID  | ID za DDV |Tax exempt numbers list is opened. Tax exempt number (ID za DDV) from the list is copied to the Registration number field. Pay attention to the setup of the Registration type formatting. Correct formatting should be SI########.|
+|Tax identification number (AD) |Davčna številka  |Slovenian taxable person list is opened. The tax registration number (Davčna številka) from the list is copied to the Registration number field.|
+|Company registration number (AD)  |Matična številka podjetja  |Slovenian taxable person list is opened. ID number (Matična številka) from the list is copied to the Registration number field.|
+|National identification number (AD) |EMŠO  |No list available|
+ 
+  
 
 On the Registration ID tab, enter information about the registration ID. 
 
-When entering registration IDs with following registration types, different lists are available:
-
-   - VAT ID: Tax exempt numbers list is opened. Tax exempt number (ID za DDV) from the list is copied to the Registration number field. Pay attention to the setup of the Registration type formatting. Correct formatting should be SI########.  
-   - Tax identification number (AD): Slovenian taxable person list is opened. The tax registration number (Davčna številka) from the list is copied to the Registration number field. 
-   - Company registration number (AD): Slovenian taxable person list is opened. ID number (Matična številka) from the list is copied to the Registration number field.  
+  
 
 In other cases, registration numbers must be entered manually. 
 
