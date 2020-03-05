@@ -31,6 +31,16 @@ Open Electronic reporting formats setup in General ledger - General ledger param
 Sales tax calculation according to VAT date is part of the Adacta localization pack, while standard sales tax calculation is performed according to the posting date. Standard Sales tax calculation form is used, and it can be found in Tax/Declarations/Sales tax/Report sales tax for the settlement period.
 
 
+|Field  | Description |
+|--|--|
+| Settlement period |Period for which calculation is performed  |
+| From date | first day of the period for which calculation should be performed |
+|Transaction date  |Datum for settlement posting  |
+|Sales tax payment version  | Original – is used when no settlement posting for the chosen period exists.
+he latest corrections – is used when a settlement for the existing period is already posted. Only Tax Transactions that were created after  |
+
+ Field Description
+
 1. The separate (standard) form is used for Sales tax settlement/posting. The fields that can be used: 
    - Settlement period: Period for which calculation is performed 
    - From date: first day of the period for which calculation should be performed  
