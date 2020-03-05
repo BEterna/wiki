@@ -28,21 +28,20 @@ Registration category is country/region registration identifier approved for usi
 
 1. Open Organization administration – Global address book – Registration types – Registration category.
 2. Set fields:
-   - Registration type: The registration type for a particular country/region. 
-   - Restricted to: The kind of restriction applies to the tax registration type: None, Person, Organization. 
-   - Registration category: The unique registration identifier approved for use in the country. As part of localization following Registration categories were added: 
-       - Tax identification number (AD): 
-           -    in Slovenia used for Davčna številka. 
-           -    in Croatia used for OIB.
-           -    in Serbia used for PIB. 
-      - Company registration number (AD): 
-           -    in Slovenia used for Matična številka podjetja. 
-      - National identification number (AD): 
-           -    in Slovenia used for EMŠO.
+
+
+| **Field** | **Description** |
+|--|--|
+|Registration type  |The registration type for a particular country/region.  |
+|Restricted to |The kind of restriction applies to the tax registration type: None, Person, Organization.  |
+|Registration category  |The unique registration identifier approved for use in the country. As part of localization following Registration categories were added:  |
+|| - Tax identification number (AD): Davčna številka for SLO, OIB for CRO and PIB for RS|
+|| - Company registration number (AD): Matična številka for SLO|
+|| - National identification number (AD): EMŠO for SLO|
 
 Standard Registration category VAT ID is used for ID for VAT purposes. 
 
-Dropdown menu for Tax exempt number (with the filter on Party) on Vendor/Customer card will show all registration IDs with the VAT ID registration category (standard functionality). 
+Dropdown menu for Tax exempt number (with the filter set to Party) on Vendor/Customer card will show all registration IDs with the VAT ID registration category (standard functionality). 
 
 ## Use registration IDs 
 ----
@@ -77,9 +76,9 @@ In other cases, registration numbers must be entered manually.
 
 OIB number is entered as Registration type “Tax identification number (AD)”, using standard registration IDs functionality. For VAT purposes VAT ID Registration type is used.  
 
-Set up registration categories. 
+1. Set up registration categories. 
 
-In the case of Registration type with registration category Tax identification number (AD), a dropdown list with Croatian taxable persons opens. A dropdown is available as part of the LOC_core package.  
+2. In the case of Registration type with registration category Tax identification number (AD), a dropdown list with Croatian taxable persons opens. A dropdown is available as part of the LOC_core package.  
 
 For the VAT ID registration category, manual entry is required.  
 
@@ -89,9 +88,9 @@ For the VAT ID registration category, manual entry is required.
 
 Registration ID can be used for an ID number, using standard registration IDs functionality. 
 
-Set up the Enterprise ID registration category for the ID number. 
+1. Set up the Enterprise ID registration category for the ID number. 
 
-Click Registration IDs on forms related to the party, legal entity, vendor, customer, worker to open the Manage addresses page and enter registration number for selected registration type. 
+2. Click Registration IDs on forms related to the party, legal entity, vendor, customer, worker to open the Manage addresses page and enter registration number for selected registration type. 
 
 ## Registration ID validation 
 ----
