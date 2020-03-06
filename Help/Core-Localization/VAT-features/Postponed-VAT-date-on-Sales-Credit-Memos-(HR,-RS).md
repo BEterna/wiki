@@ -1,27 +1,37 @@
-# How To: Post postponed VAT date on Sales Credit Memo
+
 
 Localization functionality allows posting Sales credit memos without VAT date in order to be compliant with Croatian and Serbian legislation. If the feature is enabled, the VAT date on the tax transaction is left empty, and these documents are not included in any VAT reports. Later, when a Credit note is confirmed by Customer, the VAT date can be added manually, directly to Tax transaction, using the VAT date change feature. 
 
-## Setup
+## **Setup**
+---
 
 Additional setup is added to General ledger parameters (General ledger - Setup - General ledger parameters - Adacta localization), which enables posting sales credit memo without VAT date:
-  - VAT Date pending on credit notes: set field to post tax transactions without VAT date, which can be changed later. 
+
+|Setup|Value|
+|---|---|
+|VAT Date pending on credit notes  | set field to post tax transactions without VAT date, which can be changed later. |
+
+
+
+  
 
 Setup affects the following documents:  
  - Free text invoice 
  - Sales invoice 
  - Project invoice 
 
-## Postponed VAT on a sales credit memo 
+## **Postponed VAT on a sales credit memo** 
+---
 
 1. Post Sales credit memo.
 2. Check tax transactions.
 
 As a result tax transactions are created without VAT date. The date can be entered later using the Change VAT date function, which is also a localization feature.  
 
-## Change VAT Date
+## **Change VAT Date**
+---
 
-1. Open Posted sales tax.
+1. Open Posted sales tax transactions.
 2. Choose the button Change VAT Date and enter the VAT date.
 
 VAT Date is entered on Posted sales tax.
