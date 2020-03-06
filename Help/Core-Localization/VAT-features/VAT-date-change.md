@@ -1,4 +1,4 @@
-# How To: Change VAT Date
+
 
 VAT date can be manually changed on posted Sales tax transactions by using the function “Change VAT date”. VAT date is then changed on both - Tax transaction and Invoice journal. VAT date change for the period that is closed for posting is not possible and will result in an error.
 
