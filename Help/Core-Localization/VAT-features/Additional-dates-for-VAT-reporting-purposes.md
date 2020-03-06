@@ -1,5 +1,4 @@
-# How To: Enter Additional dates for VAT reporting purposes
-----
+
 
 All VAT reporting for Slovenia, Croatia, and Serbia needs to be performed according to VAT date and not Transaction date (which is how standard functionality for Tax reporting works). For VAT reporting purposes following dates are added to several documents: 
 
@@ -11,17 +10,24 @@ VAT date and VAT Payable date (when populated) are transferred to a VAT date fie
 
 List of documents where additional VAT date fields are enabled:
 
-1.	_Pending Vendor Invoice_:  VAT date, VAT Payable date, Document Receipt date
-2.	_Invoice Journal_:   VAT date, VAT Payable date, Document Receipt date
-3.	_Free Text Invoice_:  VAT date
-4.	_Sales Invoice_:  VAT date
-5.	_Project Invoice_:  VAT date
-6.	_Intercompany Invoice_:  VAT date
-7.	_General Journal_:  VAT date, VAT Payable date
-8.	_Collection letter_:  fee with sales tax
-9.	_Interest letter_:  interests with sales tax
 
-Additional setup is available for VAT date and VAT Payable date calculation. VAT date validation is also added. If the VAT date is missing, posting such a document will result in an error.
+|**Document**| **Available dates** |
+|--|--|
+|Pending Vendor Invoice |VAT date, VAT Payable date, Document Receipt date  |
+|Invoice Journal |VAT date, VAT Payable date, Document Receipt date  |
+|Free Text Invoice | VAT date  |
+|Sales Invoice |VAT date  |
+|Project Invoice | VAT date |
+|Intercompany Invoice  |VAT date  |
+|General Journal |VAT date, VAT Payable date  |
+|Collection letter  | VAT date |
+|Interest letter  |VAT date  |
+
+
+VAT date validation is also added. If the VAT date is missing, posting such a document will result in an error.  
+
+  
+  
 
 ## Defaulting VAT date and VAT payable date*
 ----
