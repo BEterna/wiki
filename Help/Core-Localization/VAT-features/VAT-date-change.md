@@ -8,4 +8,5 @@ VAT date on posted sales tax transactions can be changed manually.
 
 1. Open General ledger - Tax - Inquiries and reports - Sales tax inquiries - Posted sales tax. 
 2. This can be done by using the function Change VAT date. 
-3. A new form opens where the new VAT date can be entered. If the period is closed for posting, the error is returned.  4. VAT date is then changed on Tax transaction and Invoice journal.
+3. A new form opens where the new VAT date can be entered. If the period is closed for posting, the error is returned. 
+4. VAT date is then changed on Tax transaction and Invoice journal.
