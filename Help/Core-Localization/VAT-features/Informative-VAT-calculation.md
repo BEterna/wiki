@@ -1,4 +1,4 @@
-# How To: Informative VAT calculation
+
 
 Outgoing invoices, issued according to 76.a article of ZDDV, must contain only informative VAT amount. This means that VAT is calculated but not posted. This is why an option to calculate informative VAT is added as part of localization. Calculated VAT amount can be later used for invoices and other printouts. 
 
