@@ -1,4 +1,4 @@
-# How To: Post advance invoices
+# Advance invoices
 
 Local tax authorities require VAT eligible companies that receive/give prepayments and will not deliver/receive products or services within the same tax period to report VAT from the received/given prepayment transactions in the same period as the prepayment has been given/received. In order to comply with local legislation, the purpose of this functionality is to enable posting the VAT from the received/given prepayments as soon as payments are posted.
 
@@ -6,7 +6,8 @@ This localized functionality allows for the sales or purchases advance invoice g
 
 # Received advance invoices
 
-## Setup
+## **Setup**
+---
 
 ### Vendor posting profiles
 
@@ -46,7 +47,8 @@ This localized functionality allows for the sales or purchases advance invoice g
 1. Open Tax – Indirect taxes – Sales tax – Sales tax codes.
 2. Some countries might wish to record separate sales tax codes for advance invoices (e.g. Serbia). In this case, create a separate sales tax code.
  
-## Advance invoice
+## **Generate Advance invoice**
+---
 
 1. Open Accounts payable – Payments – Advance invoice.
 2. The advance invoice is a complete localization feature. It is generated through the advance journal. Create a new journal and select journal names for Prepayments to vendors. Click on “Lines” to enter the journal.
@@ -71,7 +73,8 @@ Posting the journal posts only VAT.
 16. The message about reversal appears.
 17. Check “Evidenca PR” report to see the reversal of VAT that was posted with the advance invoice.
  
-## Test cases
+## **Test cases**
+---
 
 ### Purchase order and prepayment invoice
  
@@ -118,7 +121,8 @@ Check [Test Cases](Advance-Invoice-Test-scenario.zip).
  
 # Issued advance invoices
 
-## Setup
+## **Setup**
+---
 
 ### Customer posting profiles
 
@@ -144,7 +148,7 @@ Check [Test Cases](Advance-Invoice-Test-scenario.zip).
  
 If no separate ledger posting group is specified, sales tax from received prepayments will be posted with sales tax payable main account from used ledger posting group.
 
-## Advance invoice 
+## **Generate Advance invoice from received prepayments** 
 
 1. Open Accounts receivable – Payments – Advance invoice.
 2. The advance invoice is a complete localization feature. It is generated through the advance journal. Create a new journal and select the journal name for the Customer’s prepayment. Click on “Lines” to enter the journal.
@@ -174,7 +178,8 @@ Advance invoice printout is not included in localization – it is project-relat
 12. Mark the transaction of prepayment and FTI and select “Post”. The message about reversal appears.
 13. Check the Evidenca PR report to see the reversal of VAT that was posted with the advance invoice.
  
-## Test cases
+## **Test cases**
+---
 
 ### Prepayment linked to sales order
 
