@@ -1,8 +1,9 @@
-# How To: Use Vendor Payments
+# Use Vendor Payments
 
 This section summarizes the Vendor payment features, developed in the scope of the Bank extended localization package.
 
-## Central bank purpose code on vendor payments
+## **Central bank purpose code on vendor payments**
+---
 
 The four-digit code for the purpose of payment replaces the textual description of the payment purpose. Its use is recommended for payments that follow the principles of the SEPA scheme, which allows, along with a structured reference, automatic closing of claims. 
 
@@ -25,9 +26,10 @@ When creating a payment journal line with Settle transactions function, Central 
 
 When creating a payment journal line with the Payment proposal function, CBPC is populated with the value from the Vendor if there is no value on the transaction (standard functionality). If the value is missing on Vendor, transactions will be generated using the CBPC setup on Accounts payable parameters.  
 
------
 
-## Payment purpose description
+
+## **Payment purpose description**
+---
 
 This extended localization feature allows field “Payment purpose” on payment order to be populated with the value from field “Note” on vendor payment journal line. This way, users do not need to populate the payment purpose field manually, when generating vendor payments.
 
@@ -35,9 +37,10 @@ Localization allows field “Payment purpose” on payment order to be populated
 
 The field can be populated manually, or automatically (with standard feature Default descriptions1). In this case set up for Vendor – payment, the vendor is needed in Organization administration - Setup - Default descriptions. 
 
------
 
-## Vendor payments - Export format configuration
+
+## **Vendor payments - Export format configuration**
+---
 
 Standard electronic payment formats are enhanced with additional formats, which are commonly used in banks from the Adriatic region. 
 
