@@ -1,10 +1,11 @@
-# How To: Update customer information based on Tax exempt number (SI)
+# Update customer information based on Tax exempt number (SI)
 
 This extended localization feature enables users to default data when creating new customers, based on the entered tax identification number.
 
 If Slovenian taxpayers have been imported from the database provided by the Slovenian tax authority (FURS), it is possible to select the imported Sales tax numbers/VAT IDs when creating new customers. When creating a new customer, Tax exempt number (Sales tax number/VAT ID) must be chosen from the drop-down menu. Customer’s Name and Primary address are automatically updated from SI taxpayers entity. 
 
-##  Update customer information
+##  **Update customer information**
+---
 
 1. If SI taxpayers have been imported, it is possible to select the imported Sales tax numbers/VAT IDs when creating new customers. 
 2. When creating a new customer, Tax exempt number (Sales tax number/VAT ID) has to be chosen from the drop-down menu. Customer’s Name and Primary address are automatically updated from SI taxpayers entity. 
