@@ -1,10 +1,11 @@
-# Create a KRD report
+# KRD report
 
 KRD stands for the SKV part of the report on short-term receivables and liabilities from doing business with non-residents according to the financial instruments specified by the Bank of Slovenia. Legal entities obliged by the report are informed about the obligation by the Bank of Slovenian based on the importance of their business activities with the non-residents. If obliged to report, legal entities must submit the report until the 20th day in the current month for the past month, electronically in an adequate XML format.
 
 This localization feature enables the preparation and export of the report to the adequate localized XML file format. The report can be prepared for transactions within the specified period. Transactions are summed up by the ISO numeric code of each country and currency.
 
-## Setup 
+## **Setup** 
+---
 
 ### Electronic reporting 
 
@@ -43,7 +44,8 @@ This localization feature enables the preparation and export of the report to th
 2. Navigate to Action Pane, tab General, section Settings, and button Sector codes to define sectors. This table allows you to enter the sector code and its description, and below, allocate the code to the individual customer, vendor. 
 3. It is possible to allocate sector code directly on the Customer/Vendor card. 
 
-## Generate KRD report 
+## **Generate KRD report** 
+---
 
 1. Create a new reporting period. Select either date from the calendar lookup or enter “Period start” in form month.year. “Period end” value is automatically populated. Enter the date of preparing the report in the field “Date”.  
 Some of the “Reporter” tab fields are automatically populated after creation of the period: Reporter (legal entity’s name); in the "Report prepared by" section, the details of the worker who created the report and his contact details are filled in (if they exist on the worker's card). 
@@ -56,5 +58,8 @@ If fields "Principal other" or "Interest other" are populated, field “Note” 
 
 Validation if the Note exists for the value in fields Other is executed upon export to XML. 
 
-3. Navigate to “Export to XML file” to export the report to XML form for Bank of Slovenia reporting. 
+## **Export KRD report to XML** 
+---
+
+Navigate to “Export to XML file” to export the report to XML form for Bank of Slovenia reporting. 
 
