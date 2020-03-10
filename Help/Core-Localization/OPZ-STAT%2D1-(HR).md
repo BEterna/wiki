@@ -1,4 +1,4 @@
-# How To: Create OPZ STAT-1 report
+# OPZ STAT-1 report
 
 In order to comply with the Croatian legislation (Pravilnik o obvezujućim mišljenjima, ispravku prijave, statističkim izvješćima i poreznoj nagodbi (NN 78/15). OPZ STAT 1 is a mandatory statistical report, required by the Croatian tax authority. OPZ STAT 1 includes the overdue, but uncollected claims which legal entity has towards its customers. The report must be submitted to the Croatian tax authority in the prescribed XML file format on a quarterly basis. It is important to note that taxpayers must report only the overdue but uncollected receivables, which are not older than 6 years on the day of the reporting. The taxpayer is therefore not obliged to hand over OPZ STAT 1 report if there are no overdue but uncollected receivables in one of the above-mentioned periods. Transactions need to be reported in Croatian local currency (HRK) no matter the original currency of the document. Realized FX differences are also taken into consideration within the report.
 
@@ -29,7 +29,8 @@ Following documents are not included:
 
 Transactions need to be reported in Croatian kuna (HRK) no matter the original currency of the document. Realized FX differences are also taken into consideration within the report.
  
-## Setup
+## **Setup**
+---
 
 ### Company setup (standard fields)
 
@@ -83,7 +84,8 @@ They need to be populated only in case of importing Customer open balances, that
 For reporting purposes, field Document date (standard field) also needs to be populated with the original Invoice date. 
 For all other transactions, generated in the system (not part of opening balances import) original amounts are used for reporting and described fields do not need to be populated.
 
-## Generate OPZ STAT-1 report
+## **Generate OPZ STAT-1 report**
+---
 
 1. Open Accounts receivable/Inquiries and reports/Croatia/Generate OPZ-STAT-1.
 2. The report can be generated only in XML format (no print is available). To generate the report following fields need to be populated: 
@@ -105,7 +107,8 @@ Additional explanation of some values:
      - Mark 3 – customers with Tax exempt number and Sales tax code with EU Sales set on No
    - Number of overdue days calculation example: Due date is 15.4. and reporting balances are per 31.07. The calculation period is 16.4.-31.07., the calculated number of days is 107. 
 
-## Control report (standard report)
+## **Control report (standard report)**
+---
 
 1. Open Accounts receivable/Inquiries and reports/Open transactions report.
 2. Control report can be generated to compare open customer transactions and OPZ STAT-1 report. The standard report is used. 
