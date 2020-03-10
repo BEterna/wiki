@@ -1,4 +1,4 @@
-# How To: Export general ledger to file
+# Export general ledger to file
 
 This topic provides country/region-specific information about exporting General ledger transactions. For audition purposes, in order to comply with Slovenian legislation, General ledger transactions need to be available to be exported if required by the authorized Slovenian auditors, according to the Slovenian auditing law (ZRev-2).
 
