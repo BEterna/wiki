@@ -1,10 +1,11 @@
-# How To: Calculate Additional depreciation convention
+# Additional depreciation convention
 
 This topic provides country/region-specific information about additional depreciation convention, added with a purpose to comply with the local legislation. According to the local accounting standards, depreciation calculation for fixed assets has to start with the first date of the following month after an asset has been put in use, or when it is available for use.
 
 Localization feature offers an additional depreciation convention “Next month”, which enables automatic setup of depreciation calculation run date at the first date of the month after the fixed asset has been acquired (acquisition posting date is considered) or placed in service (placed in service date is considered). For example, if an asset has been acquired (or put in use) on the 10th of July, using this localized feature, the depreciation run date will be set on the first day of the following month (August 1st).
 
-## Setup
+## **Setup**
+---
 
 1. Open Depreciation convention.
 2. Additional  Depreciation convention type »Next month« is added. 
