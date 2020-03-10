@@ -1,4 +1,4 @@
-# How To: Create PDV-S and ZP report 
+# Create PDV-S and ZP report 
 
 PDV-S and ZP (Zbirna Prijava) report is a recapitulative report in which taxable entities, identified for VAT purposes in Croatia are obliged to report the supplies of goods or services to (ZN report) and from (PDV-S) legal entities from other EU member states, which are identified for VAT in the Member States of the European Union during the reporting period. Along with entities, registered in the VAT system, buyers who are not eligible (do not charge) for VAT – but have had an acquisition of goods of value, higher than the legally required threshold, also have to submit both forms. Both – ZN and PDV-S reports have to be submitted to the Croatian tax authority.
 
