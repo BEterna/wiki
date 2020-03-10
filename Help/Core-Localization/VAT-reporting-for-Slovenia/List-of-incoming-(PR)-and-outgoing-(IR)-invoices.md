@@ -1,4 +1,4 @@
-# Print list of incoming and outgoing invoices
+# List of incoming and outgoing invoices
 
 A taxable person filing a VAT return (DDV-O) for the first time must attach a list of the incoming (PR) and outgoing (IR) invoices that served as the basis for preparing the VAT return. These two lists must also be available to be sent to the Slovenian tax authority if required directly by the authority and therefore need to be available to be extracted from the ERP.
 
