@@ -1,4 +1,4 @@
-# How To: Create a KRD report
+# Create a KRD report
 
 KRD stands for the SKV part of the report on short-term receivables and liabilities from doing business with non-residents according to the financial instruments specified by the Bank of Slovenia. Legal entities obliged by the report are informed about the obligation by the Bank of Slovenian based on the importance of their business activities with the non-residents. If obliged to report, legal entities must submit the report until the 20th day in the current month for the past month, electronically in an adequate XML format.
 
