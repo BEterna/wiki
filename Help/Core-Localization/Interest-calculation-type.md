@@ -1,4 +1,4 @@
-# How to: Calculate interest for a day (Actual year)
+# HCalculate interest for a day (Actual year)
 
 Standard D365O feature in terms of the interest calculation allows calculating daily interests but does not account for the leap years, as it considers all years equally long.
 
@@ -6,7 +6,8 @@ This localization feature enables an additional interest calculation type “Day
 
 interest rate = amount * (annual interest rate / number of days in a calendar year) * number of overdue days
 
-## Interest calculation formula
+## **Interest calculation formula**
+---
 
 As Adacta localization feature new interest calculation type “Day (Actual year)” is added, which also includes leap years.  
  
@@ -14,7 +15,7 @@ The interest calculation formula for this period:
 
 Amount x Annual interest rate / Actual Calendar days x Days overdue.
 
-If this calculation is selected, it is important that the interest code effective dates for one version start and end within the same year. Otherwise, the calculation of interest returns an error about the start and end date.
+If this calculation is selected, it is important that the interest code **effective dates for one version start and end within the same year**. Otherwise, the calculation of interest returns an error about the start and end date.
  
 Check **[Test Scenario](Interest-calculation-type-test-case.xlsx)**.
  
