@@ -1,4 +1,4 @@
-# How To: Create a BST report
+# Create a BST report
 
 BST report on transactions by residents with non-residents for services and part of a trade, and given or received capital transfers is a monthly report on purchases/sales and capital transfers between residents and non-residents. Legal entities obliged to report are informed about their obligations by the Bank of Slovenian based on the importance of their business activities with the non-residents. The report is based on transactions from the sent and received invoices. Credit notes are reported as corrections for the original period of the invoice. If obliged to report, legal entities must submit the report until the 20th day in the current month for the past month, electronically in an adequate XML format.
 This localization feature enables the preparation and export of the report in the TXT file format based on the pre-set BST reporting codes for transactions with non-residents, with which legal entity has been involved throughout the reporting period.
