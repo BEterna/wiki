@@ -1,4 +1,4 @@
-# How To: Close a Settlement period
+# Close a Settlement period
 
 VAT settlement period can be closed using extended localization feature.  
 
