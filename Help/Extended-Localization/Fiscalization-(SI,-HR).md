@@ -1,4 +1,4 @@
-# How To: Send Sales Documents to fiscalization
+# Send Sales Documents to fiscalization
 
 Fiscalization is fiscal law designed to avoid retailer fraud in Slovenia and Croatia. Fiscal law about cash registers has been introduced in countries to control the grey economy by enforcing all mandatory transaction reporting to the authorities. According to fiscal law, an appropriate fiscal receipt has to be printed and given to the customer.
 
@@ -6,7 +6,8 @@ The feature allows the generation of the number sequence on sales documents (Sal
 
 The feature is part of the LOC_FISCALIZATION extended localization package.
 
-## Setup
+## **Setup**
+---
 
 ### General ledger parameters
 
@@ -38,19 +39,20 @@ The worker who creates outbound documents should have a valid tax identification
  
 If the tax identification number is not defined on Worker, the error is thrown upon document posting.
  
-## Fiscalization documents
+## **Fiscalization documents**
+---
 
 1. Open General ledger – Inquiries and reports – Fiscalization – Fiscalization documents.
 2. Overview of all transactions with fiscal number contains all the data that are sent to tax authority. 
 3. Using the button “Open document” in section Fiscalization, source document data is displayed for the selected transactions. 
 
-### Sales invoice
+### **Sales invoice**
 
 Posting sales invoice standardly does not generate infolog with information about the posted invoice.<br>
 The fiscal number can be seen in the field “Invoice” on Customer transaction.<br>
 After posting, the transaction is displayed in Fiscalization documents. 
  
-### Free text invoice
+### **Free text invoice**
 
 Upon FTI posting, infolog with information about the fiscal number is generated.<br> 
 Field “Invoice” on Customer transactions is populated with the generated fiscal numbers.
@@ -63,32 +65,32 @@ Field “Invoice” on Customer transactions is populated with the generated fis
 4. Field “Invoice” on Customer transactions is populated with the fiscal number of posted invoices.
 5. Fiscal numbers of canceled and corrected invoices can be seen in the list of all fiscalization documents.
  
-### Credit note
+### **Credit note**
 
 The fiscal number is generated after posting a credit note.<br>
 It can be seen in field “Invoice” on Customer transaction.<br>
 The posted document can be seen in the list of all fiscalization documents.
  
-### Advance invoice
+### **Advance invoice**
 
 1. Posting advance invoice generates a fiscal number that is recorded in the field “Invoice”.
 2. Reversing advance invoices also generates a fiscal number.
 3. The posted document can be seen in the list of all fiscalization documents.
  
-### Project invoice
+### **Project invoice**
 
 1. Posting invoice proposal generates a fiscal number that is recorded in the field “Invoice”.
 2. Check all project invoices to find a fiscal number in the field “Invoice”.
 3. A posted document can be seen in the list of all fiscalization documents.
  
-### Collection letter
+### **Collection letter**
 
 1. Collection letters are generated with fiscal numbers. 
 2. Right after creation, they can be seen in Fiscalization documents form.
 3. Posting collection letters generate a fiscal number. 
 4. Field “Invoice” on Customer transactions is populated with a fiscal number.
  
-### Interest note
+### **Interest note**
 Created interest notes have fiscal numbers.
  
 Transactions can be seen in the Fiscalization documents list.
@@ -97,6 +99,7 @@ The posted transaction is generated with a fiscal number.
  
 Customer transaction has a fiscal number in field Invoice.
  
-## Test cases
+## **Test cases**
+---
                            
 Check **[Test Scenaio](Fiscalization-Test-Scenario.zip)** for fiscalization.
