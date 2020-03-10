@@ -4,7 +4,8 @@ REK-1 is a Slovenian personal tax report, which legal entities or natural person
 
 Since salaries are standardly not calculated in D365, the Slovenian REK-1 reporting feature enables only the generation of the legally required reporting in terms of employee travel expenses. Transactions for REK-1 reporting are generated automatically from expense reports and invoices for travel expenses, but they can also be manually added. Export (XML) in the format, required by the Slovenian tax authorities and a preview (HTML) of the REK-1 report are also part of this localized feature.
 
-## Setup
+##**Setup**
+---
 
 ### General ledger parameters
 
@@ -54,14 +55,16 @@ Information about Income type is recorded on vendor transaction upon expense pos
  
 If transactions to vendor payment journal are transferred using “Settle transactions”, information about Income type is not transferred from transaction to vendor payment journal line. Attempt to post such payment journal line results in error – it is necessary to manually choose Income type in tab Payment before posting.
  
-## Purchase document entry
+## **Purchase document entry**
+---
 
 Vendor invoice or Purchase order line details allow reporting of the business trip cost for a worker in tab Personal tax. Select adequate Income type and Worker in the REK-1 section. 
  
 Creating a vendor invoice, linked to purchase order, transfers information for REK-1 reporting from purchase order to invoice Line details. 
 The transaction that was posted from vendor invoice with information about worker does not carry Income type information (VendTrans Income type field is empty) but is always included in the list of candidates for REK-1 after it has been paid.
 
-## Generating REK-1 transactions
+## **Generating REK-1 transactions**
+---
 
 1. Open Tax – Declarations – Slovenia – REK reporting – REK-1 – Personal tax transactions.
 2. Transactions to report need to be collected in Personal tax transactions form first. Only entries generated in this form can be reported in REK-1. Use button “Generate transactions” to define the date period for transferring REK-1 transactions. 
@@ -93,7 +96,8 @@ Manually adding transactions to REK-1 transactions form is enabled because of al
 2. Define date, select worker, and entry cost amount. The manually added line has the value “Not linked” in column Linked and no checkmark in field Generated. 
 3. Enter any text in the Description field.
  
-## Creating REK-1
+## **Generate REK-1**
+---
 
 1. Open Tax – Declarations – Slovenia – REK-1 reporting or Tax – Declarations – Slovenia – REK-1 forms - button REK-1 reporting.
 2. Enter any date in a month to report transactions of that month that have not yet been reported (by entering a date in February, all entries from REK-1 transactions in February that do not have reporting number, will be reported). After confirming, the REK-1 report is generated. Multiple reports can be generated in one month.
@@ -102,7 +106,8 @@ Manually adding transactions to REK-1 transactions form is enabled because of al
 5. The report is opened in an individual tab. Field B06 is populated with the amount.
 6. Use “Export to XML” to export the report to the XML format for eDavki. 
  
-## Test cases
+## **Test cases**
+---
 
   - [Transactions with different income reporting modes on the expense report](Test-Scenario-REK1.zip): 
 REK-1 transactions are generated according to the setup of income reporting mode on payment methods. Only transactions from REK-1 transactions form are reported in the REK-1 report.
