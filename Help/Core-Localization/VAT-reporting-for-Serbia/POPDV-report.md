@@ -1,4 +1,4 @@
-# How To: Create POPDV report
+# Create POPDV report
 
 VAT taxpayer is obliged to, pursuant to Article 46, paragraph 1 of the Law on VAT, and in order to properly calculate and pay VAT, keeps records in a way that allows you to control the calculation and payment of VAT in each tax period. In that records are required to provide records of transactions, activities, respectively other business changes, in particular data relating to the circulation of goods and the service performed by the VAT taxpayer, that is, which was provided to him, by invoices or other documents which serve as invoices in accordance with the Law, respectively
 documents confirming a business change (e.g., insurance contract, lease agreement concluded with a natural person, copyright contract, contract on the part, etc.), as well as other information relevant to the correct calculation of VAT.
