@@ -1,4 +1,4 @@
-# How To: Create PDD-GI report
+# Create PDD-GI report
 
 This topic provides country/region-specific information about personal tax reporting in accordance with the Macedonian legislative requirements. 
 
