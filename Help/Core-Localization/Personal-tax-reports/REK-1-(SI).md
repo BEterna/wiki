@@ -1,4 +1,4 @@
-# How To: Prepare REK-1 report
+# Prepare REK-1 report
 
 REK-1 is a Slovenian personal tax report, which legal entities or natural persons who perform business activities are obliged to report to the Slovenian tax authority (FURS) if they pay incomes from employment. Report layout and the required conditions are based on paragraph 8, Article 58 of the Tax Procedure Act - ZDavP-2.
 
