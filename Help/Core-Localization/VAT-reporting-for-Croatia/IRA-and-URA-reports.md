@@ -1,4 +1,4 @@
-# How To: Create an IRA and URA report
+# Create an IRA and URA report
 
 IRA and URA consist of the receivable and payable tax transactions and provide data about the applicable VAT rates for each of the sales tax transactions. IRA provides such information for the receivable, while URA for payable transactions. These two lists have to be available to be extracted from D365, in case the adequate Croatian tax authority requires so.
  
