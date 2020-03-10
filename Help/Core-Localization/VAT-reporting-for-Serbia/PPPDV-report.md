@@ -1,4 +1,4 @@
-# How To: Create PPPDV Form (VAT Statement report)
+# Create PPPDV Form (VAT Statement report)
 
 PPPDV is a Serbian sales tax return report. Every taxable person identified for VAT purposes in Serbia is obliged to submit a VAT return to the Serbia tax authority. 
 
