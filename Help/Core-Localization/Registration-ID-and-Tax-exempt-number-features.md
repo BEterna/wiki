@@ -1,4 +1,4 @@
-# How To: Validate Registration and Tax exempt codes
+# Validate Registration and Tax exempt codes
 
 In order to comply with locally used registration IDs (e.g. tax and identification numbers), additional registration categories are added with this localization feature and need to be set up for the adequate Registration IDs to allow other localized features to work correctly - e.g. REK reporting and eInvoices use Registration IDs with the localized registration categories for validation purposes. If inadequate registration categories are used for the set-up of registration IDs, validation when using other localized features may fail, while the required ID may also be missing from other documents, therefore localized registration categories should be used.
 
@@ -7,7 +7,8 @@ Standard D365 features allow for the validation of Tax exempt numbers formats. H
 This topic provides also country/region-specific information about the Croatian tax number (OIB) format and structure validation. OIB (Osebni identifikacijski broj) is used in Croatia as a tax identification number. Standard D365 feature does not allow for OIB format validation, therefore validation is added in the scope of this localized feature.
 
 
-## Registration ID features (SI, HR, RS)
+## **Registration ID features (SI, HR, RS)**
+---
 
 The standard functionality of Registration IDs is used for VAT ID, tax identification numbers, Company registration numbers and National identification numbers for Slovenia, Croatia, and Serbia. Users can set up the registration IDs with the localized registration categories for customers, vendors, workers, and legal entities. Localization features are additionally added registration categories, upon which also locally specific validation of format and structure is enabled.
 
