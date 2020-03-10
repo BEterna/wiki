@@ -1,4 +1,4 @@
-# How To: Import bank statement
+# Hmport bank statement
 
 This topic includes information about the bank statement transformations, used for mapping D365 fields with the information from bank statements. Transformations for the bank statement files, which are used by the majority of the local (Slovenian, Croatian, Serbian and North Macedonian) electronic banking systems are added in the scope of this extended localization feature.
 
@@ -9,14 +9,9 @@ The bank statement import process is part of standard Dynamics 365 for Operation
 
 After import, bank statements can be processed using standard D365 features.
 
-## General
 
-The bank statement import process is part of standard Dynamics 365 for Operations solution, only transformations are part of localization. Transformations for following bank formats are part of localization pack: 
-   - SI: ISO 20022
-   - HR: FINA
-   - RS: Assecco (Pexim), HalcomRS
-
-## Setup
+## **Setup**
+---
 
 ### Data management setup
 
@@ -56,7 +51,8 @@ Import is enabled only for bank accounts that have a checkmark in field “Advan
  
 Once this option is enabled on a bank account it cannot be reversed (button turns inactive, grey). The optional setup is the definition of Statement format. 
 
-## Import
+## **Import**
+---
 
 1. Bank Statement is imported in Cash and Bank management – Bank statement reconciliation – Bank statements -> Import statement.
 
