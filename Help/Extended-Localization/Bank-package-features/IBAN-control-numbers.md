@@ -1,4 +1,4 @@
-# How To: Set default Bank Account
+# IBAN control numbers
 
 The feature allows the Bank group and data from Bank group defaulting upon entering IBAN.
 
