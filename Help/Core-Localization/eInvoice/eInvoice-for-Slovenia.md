@@ -1,6 +1,7 @@
 # eInvoices for Slovenia
 
-## Setup
+## **Setup**
+---
 
 This topic provides country/region-specific information about how to set up, create and export eInvoices in order to comply with Slovenian and Croatian legislation.
 
@@ -45,7 +46,8 @@ Attached below you will find documentation on [eInvoice standard eSLOG 1.6.](e-I
 1. Define “Profile ID” from eInvoice parameters in tab Invoice and delivery on the customer that eInvoices will be issued for.
 2. Mandatory data such as name, address, tax exempt or tax registration number, ID number, and default bank account (and IBAN and SWIFT for that bank account) are being validated in the eInvoice registry upon creating XML (more on that below).
 
-## EInvoice registry
+## **EInvoice registry**
+---
 
 ### Electronic customer invoices
 
