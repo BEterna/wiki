@@ -1,8 +1,8 @@
-# How To: Set default VAT date and VAT payable date
+# Set default VAT date and VAT payable date
 
 As part of the localization package VAT date is added to some documents (for more details check Localization features) and can be entered manually. With tax package, the user is able to setup defaulting rules for VAT date calculations. It is possible to set up a VAT date and VAT payable date defaulting. 
 
-## New fields
+## Additional fields
 
 For VAT reporting purposes following dates are added:
    - VAT date
@@ -22,7 +22,8 @@ VAT date is also added on Tax transactions and is generated automatically when p
 
 Additional setup is available for VAT date and VAT Payable date calculation. VAT date validation is added. If the VAT date is missing, posting such a document is disabled.  
 
-## Defaulting VAT date and VAT payable date*
+## Defaulting VAT date and VAT payable date
+
 
 In order to facilitate the posting, there is a possibility to set up VAT date and VAT payable date defaulting. Options for defaulting are:
    - None: VAT date has to be entered manually
@@ -30,7 +31,8 @@ In order to facilitate the posting, there is a possibility to set up VAT date an
    - Document date: field “Invoice date” on the vendor invoice 
    - Document receipt date: applicable only for inbound documents
 
-### Setup
+## **Setup**
+---
 
 VAT date defaulting setup is added to the following modules: 
 1. Open General Ledger -> Setup -> General Ledger Parameters -> Adacta localization.<br>
