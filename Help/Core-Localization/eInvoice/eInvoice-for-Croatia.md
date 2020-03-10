@@ -2,7 +2,8 @@
 
 The purpose of this feature is to enable the Invoice export in the prescribed electronic form (UBL 2.1 standard). The export file can be generated for multiple invoices. Web service communication is not part of this feature. 
 
-## Setup
+## **Setup**
+---
 
 ### Export format configuration
 
@@ -44,7 +45,8 @@ Not yet supported for Croatian localization.
 1. Open Accounts receivable – Customers – All Customers.
 2. Define “Profile ID” from eInvoice parameters in tab Invoice and delivery on the customer.
 
-## EInvoice registry
+## **EInvoice registry**
+---
 
 ### Electronic customer invoices
 
@@ -65,9 +67,7 @@ The following functions are available:
  
 Export of eInvoice before the creation of XML (e.g. status “New” or “Not ready”) is not allowed.
  
-#### Test cases for FTI and Sales invoice
 
-Check **[Test Scenario](e-Invoices-HR.zip)**.
  
 ### Electronic project invoices
 
@@ -77,10 +77,6 @@ Check **[Test Scenario](e-Invoices-HR.zip)**.
 
 Project eInvoices are subject to the same procedures and actions as FTIs or Sales invoices.
 
-#### Test case for project invoice
-
-Check **[Test Scenario](e-Invoices-HR.zip)**.
-
 ### Subsequent creation of eInvoices
 
 1. Open Accounts receivable – Invoices – E-Invoices – Electronic customer/project invoices  button “Select”.
@@ -88,6 +84,16 @@ Check **[Test Scenario](e-Invoices-HR.zip)**.
 3. After confirming, subsequent eInvoices are created with status “Not ready”.
  
 Proceed with the same procedures and actions as described in the chapters above. 
+
+## **Test cases**
+---
+#### Test cases for FTI and Sales invoice
+
+Check **[Test Scenario](e-Invoices-HR.zip)**.
+#### Test case for project invoice
+
+Check **[Test Scenario](e-Invoices-HR.zip)**.
+
 
 #### Test case 
 
