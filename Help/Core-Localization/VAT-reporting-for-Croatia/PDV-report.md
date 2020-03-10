@@ -1,4 +1,4 @@
-# How To: Create a PDV form 
+# Create a PDV form 
 
 PDV report is a Croatian sales tax return report. Every taxable person identified for VAT purposes is obliged to submit a VAT return to the Croatian tax authority. The report consists of sums of sales tax from both payable and receivable transactions, according to different sales tax rates. Taxable entities must submit the PDV report electronically via the ePorezna portal of the Croatian tax authority.
 
