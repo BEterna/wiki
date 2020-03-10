@@ -12,7 +12,8 @@ In terms of this localization feature, REK-2 report generation is enabled for Sl
 
 Additionally, this localization feature enables Slovenian legal entities to create Notices of payment for paid and not yet paid contractual work and Summary statements of income. Summary statement of income for each customer (contractor) can be generated after income payments have been posted. Thus, both documents are used to inform the payees (contractors) about the income, taxes, and payment of contributions. Additionally, both – Notice of payment and Summary statement of income can be exported to various formats (e.g. Word or PDF).
 
-## Setup
+## **Setup**
+---
 
 ### General ledger parameters
 
@@ -126,7 +127,8 @@ If the cost of contract work is posted via the vendor invoice, the ledger accoun
    - Certification date. 
 3. If Certification type is chosen on sales tax code and a certificate for the same certification type is entered on the vendor, then the certificate number is recorded in REK-2 field D11. 
  
-## Purchase order and/or Vendor invoice
+## **Purchase order and/or Vendor invoice**
+---
 
 1. Contract work is entered on the separate Purchase order/Vendor invoice for each contractor (vendor) by choosing an adequate procurement category in the document line (in case of using price lists, service item should be used). Entering multiple income types on one source document (multiple procurement categories on the purchase order/vendor invoice) is also supported. Gross amounts are entered on the purchase line. If the entry of net amount is required, “Prices include sales tax” needs to be marked in the document header, tab Setup (test case in chapter Entry of Net amount). 
 2. Item sales tax group (from procurement category) and sales tax group (from vendor) are automatically populated in the line details – Setup. 
@@ -137,14 +139,15 @@ If the cost of contract work is posted via the vendor invoice, the ledger accoun
 7. Data from a purchase order is transferred to the vendor invoice. In Info part of vendor invoice under “Invoice totals” net amount of vendor payment can be seen (field Invoice amount) as well as personal tax amount in field Sales tax (income tax + deductions from gross).
 8. Posting the vendor invoice results in the following voucher transactions.
  
-### Purchase pool
+### Separate number sequence for Purchase pool
 
 1. Open Procurement and sourcing – Setup – Purchase orders – Purchase pools.
 2. If using standard functionality for the massive creation of invoices, the localization allows defining Number sequence for invoices, created from purchase orders through the purchase pool. 
 3. Navigate to Purchase pools and create a pool for REK-2. Define number sequence for invoices, which is the localization field.  
 4. When generating invoices from purchase orders using the purchase pool, they are numbered according to the number sequence defined in the pool. If the number sequence is not defined, the invoice number has to be added manually. See chapter 9.19 for more details.
 
-## Payments
+## **Payments**
+---
 
 1. Prepare vendor payment journal lines (e.g. through standard payment proposal functionality).
 2. Net payment to the vendor is transferred to the payment journal line. 
@@ -168,7 +171,8 @@ Vendor payment journal lines are settled with the bank statements. After posting
 1. If the vendor payment journal has been accidentally posted without payment lines for deductions and contributions, personal tax payments can be subsequently generated. 
 2. Use function Create personal tax payments with enabled “Include” closed transactions and define the date period of closed transactions to generate personal tax payment lines. 
 
-## REK-2 report
+## **REK-2 report**
+---
 
 1. REK-2 report can be generated from posted or unposted vendor payment journals.
 2. Creating the REK-2 report can be done through Tax – Declarations – Slovenia – REK reporting – REK-2 – REK-2 reporting or through Tax – Declarations – Slovenia – REK reporting – REK-2 – REK-2 forms -> button Read transactions.
@@ -183,12 +187,14 @@ Warning: Correcting or deleting payment journal lines is not possible while the 
  
 Export report by selecting “Export to XML” and manually upload it to eDavki.
  
-## Personal tax payments 
+## **Personal tax payments list** 
+---
 
 1. Open Tax – Inquiries and reports – Withholding tax inquiries – Personal tax payments.
 2. An overview of contractual amounts is available in this form. The form is populated with data right after the vendor invoice has been posted. 
  
-## Notice of payment
+## **Notice of payment**
+---
 
 1. Open Tax – Inquiries and reports – Withholding tax reports – Slovenia – Notice of payment.
 2. It is possible to create a Notice of payment for paid and not yet paid contractual work. 
@@ -199,7 +205,8 @@ Export report by selecting “Export to XML” and manually upload it to eDavki.
  
 It is possible to display one or more prints, according to selected filters. If a notice includes different income types, the specification for each income type is displayed on a new page, while the recipient data is shown only on the first page. Click the arrows Left – Right to move between pages or select “Go to” to enter the page number.
  
-## Summary statement of income
+## **Summary statement of income**
+---
 
 1. Open Tax – Inquiries and reports – Withholding tax reports – Slovenia – Summary statement of income.
 2. It is possible to generate a summary statement of income right after the payment has been posted. Transactions that have not yet been paid will not be recorded in the summary statement.
@@ -207,7 +214,8 @@ Define dates From/To. Click “Filter” to enter additional criteria (such as V
 3. After confirmation, a summary statement of income for the selected period is created – tax registration number, address, and summarized amounts via income type for each of the vendors are seen on a separate page. Click the arrows Left – Right to move between pages or select “Go to” to enter the page number.
 4. The statement can be exported to various formats.
  
-## Closing tax settlement period
+## **Closing tax settlement period**
+---
 
 1. Open Tax – Declarations – Sales tax – Report sales tax for the settlement period.
 Using this functionality, a sales tax report is created, enabling the user to check sales tax transactions for REK-2 before posting them. 
@@ -230,7 +238,8 @@ Upon closing the tax period, liability for payment is posted in sum to the vendo
  
 8. Check transaction settlement on vendor transactions.
  
-## Test cases
+## **Test cases**
+---
 
 - [Starting source document is Purchase order](Test-Scenario-REK2.zip)
 - [Starting source document is Vendor invoice](Test-Scenario-REK2.zip)
