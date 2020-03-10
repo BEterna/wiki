@@ -1,4 +1,4 @@
-# How To: Prepare REK-2 report
+# Prepare REK-2 report
 
 REK-2 is a Slovenian personal tax report, which taxpayers are legally (ZDoh-2) obliged to report to the Slovenian tax authority (FURS) if they pay income, other than income from the employment. A taxpayer may also authorize another person to calculate and pay tax on his behalf. The data shall be reported to the tax authority (FURS) by all taxpayers when the payment of other income according to ZDoh-2 (excluding income from employment), from which the tax, the withholding tax, and social security contributions are paid:
 -	income from another contractual relationship,
