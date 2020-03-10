@@ -1,4 +1,4 @@
-# How To: Create the Main account statement 
+# Main account statement 
 
 This topic provides country/region-specific information about the statement of the legally required information that needs to be available for main accounts in order to comply with Croatian legislative requirements. The main account statement provides information, which legal entities in Croatia need to provide if required so by local authorities according to Croatian Accounting law (Official gazette 78/15, 134/15,120/16: Article 12., Section 9.), which specifies the minimum information, legally required to be included on the main account statement.
 
@@ -19,7 +19,8 @@ In accordance to the Croatian Accounting law (Official gazette 78/15, 134/15,120
 8. stanje konta na kraju razdoblja.
 Izvor: Zakon o računovodstvu NN 78/15, 134/15,120/16: Članak 12., Točka 9.
 
-## Setup 
+## **Setup** 
+---
 
 ### Name and address of the company
 
@@ -37,46 +38,12 @@ Izvor: Zakon o računovodstvu NN 78/15, 134/15,120/16: Članak 12., Točka 9.
 2. In order to have proper accounting transaction numbering, we need to set proper number sequences (requirement number 6).
 3. Open General ledger - Ledger setup - General ledger parameters.
 
-## Generating reports
+## **Generate report**
+---
 
 1. Open General ledger - Inquiries and reports - Croatia - Izvadak konta.
 2. By clicking on the “OK” button, we get the following statement:
 3. To the report, we can also access following the form General ledger - Ledger reports - Ledger transaction list.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-To the report, we can also access following the form General ledger/Inquiries and reports/Voucher transactions.
-
-
-
-
-
-
 
 
 
