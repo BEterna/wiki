@@ -1,4 +1,4 @@
-# How To: Create a PPO report
+# Create a PPO report
 
 PPO form 2013/2014 is legally required form in Croatia from 1.07.2013 (VAT Law Article 75., Section 1., Point 3. - Official gazette 73/13, 99/13, 148/13, 153/13, 143/14, 115/16). This form represents an overview of non-taxable delivery, i.e., transferred tax liability to the recipient made in Croatia (domestic transfer of tax liability). It is filed on a 3-month basis and the value is in Croatian national currency. 
 
