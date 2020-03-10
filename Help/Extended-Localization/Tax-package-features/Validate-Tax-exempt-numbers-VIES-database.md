@@ -1,10 +1,11 @@
-# How To: Validate Tax exempt numbers (VIES database)
+# Validate Tax exempt numbers (VIES database)
 
 This extended localization feature makes it possible to validate values entered in “Tax exempt number” field on customer and vendor accounts and through the Tax-exempt numbers form with an online VIES database.
 
 VIES is an electronic means of transmitting information related to VAT registration of companies registered in the European Union.  When the user needs to verify the VAT number of companies from another Member State through VIES on the web, this request will be sent, to the relevant national database to check if the given number is valid. If yes, the "Valid" status will be displayed. If not, the "Invalid" status will be displayed.
 
-## Customers 
+## **Customers** 
+---
 
 It is possible to validate values entered in “Tax exempt number” field on customer and vendor accounts and through the Tax-exempt numbers form. 
 
@@ -15,7 +16,8 @@ Entered Tax exempt number can be validated by clicking on the “Check VIES onli
 
 In case of a Tax exempt number, nonexistent in the VIES database, Check status is displayed as “Invalid”. Additionally, a warning is displayed as shown in the photo below. 
 
-## Vendors 
+## **Vendors** 
+---
 
 The testing procedure, added fields, and display messages are the same as the ones described for Tax exempt number check in case of customer accounts. 
 
