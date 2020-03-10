@@ -49,7 +49,7 @@ This extended localization feature enables the setup (Methods of payments), adeq
    - Croatia – FINA, ISO 20022
    - Serbia – Halcom, Halcom Foreign - GWS
 
-### Slovenia (SEPA and VP70)
+### **Slovenia (SEPA and VP70)**
 
 #### Export format configuration
 
@@ -79,7 +79,7 @@ This extended localization feature enables the setup (Methods of payments), adeq
  
 Default Method of payment which carries information about payment order format and charge bearer can be set up on Vendor card in tab Payment. Method of payment is transferred to Pending vendor invoice and from there to vendor transaction and Payment journal line.
  
-### Serbia (Halcom, Halcom Foreign – GWS)
+### **Serbia (Halcom, Halcom Foreign – GWS)**
 
 #### Halcom domestic
 
@@ -109,9 +109,12 @@ In order to be able to use Halcom foreign GWS payment format, the following setu
    - Payment type: Electronic payment
    - Export format: HalcomForeignGWS(RS)
 
------
 
-## Payment ID validation for vendor invoice and payment journal (SI, HR)
+### **Croatia (SEPA)**
+
+
+## **Payment ID validation for vendor invoice and payment journal (SI, HR)**
+---
 
 This topic provides country/region-specific information about the locally used Payment IDs, which are often mandatory information when making payments in Slovenia in Croatia. Payment IDs need to be generated according to local formats. In order to validate the payment ID form to comply with the local requirements, this extended localization feature enables adequate validation.
 
@@ -127,9 +130,10 @@ For other (foreign) models standard validations are used.<br>
 
 Check **[Test Scenario](Vendor-Payments-Test-Scenario.zip)* for vendor payments.
 
------
 
-## Payment reference generation
+
+## **Payment reference generation**
+---
 
 This topic provides country/region-specific information about the locally used Reference numbers, which are often mandatory information when making payments. Reference numbers need to be generated according to locally accepted formats. In order to simplify and automate Payment reference generation in an adequate form, this extended localization feature has been developed.
 
