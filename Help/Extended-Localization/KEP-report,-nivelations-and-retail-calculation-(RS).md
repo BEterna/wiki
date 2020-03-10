@@ -1,4 +1,4 @@
-# How To: Create a KEP report
+# KEP report
 
 This topic provides country/region-specific information about the locally required KEP report, which is legally required in the retail industry by the Serbian authorities. It uses form prescribed by a rule book in which the entry, exit, and condition of goods in the warehouse need to be financially evidenced. Sources for the report are based on data from calculations, nivelations, invoices, delivery reports, and other documents.
 
@@ -6,7 +6,8 @@ This extended localization feature enables the generation and export of the Serb
 
 The feature is part of the LOC_KEP extended localization packet.
 
-## Setup
+## **Setup**
+---
 
 ### Price group
 
@@ -19,7 +20,8 @@ It is necessary to indicate which price group will be used for inventory valuati
 
 1. Selected price group should be linked to retail stores in AX on the following path Retail - Channels - Retail stores - All retail stores.
  
-## Generate report
+## **Generate report**
+---
 
 After setup is completed report can be generated. 
 
@@ -60,7 +62,8 @@ Only transactions that do not have an Ordinary number (not closed) will be remov
 
 For each transaction shown in the report, there are transaction details available in the middle section of the form.
  
-## Report closing
+## **Report closing**
+---
 
 After all errors have been corrected, the report can be finalized and prepared for printing. The closing option closes the report (after report closing, any further changes are not allowed) and all lines get a unique line number. In addition, the closing function is also a condition for printing the KEP book.
 
@@ -69,7 +72,8 @@ NOTE: Before generating and closing report for a period, it is necessary to dete
 1. For the start of the closing procedure click Close KEP transactions, on the report header.
 2. A new form opens. Enter the date by which transactions will be closed. This date should be any day within the period of the KEP book (if it is created during the day, the proposal is to take the previous day as the report closing date).
 
-## Report printing
+## **Report printing**
+---
 
 1. The print option prints all the lines of the KEP book that are closed (have line number). Printing is started by clicking on the button Print KEP report.
 2. Click on the OK button and the report will be generated.
