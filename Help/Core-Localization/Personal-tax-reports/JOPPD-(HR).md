@@ -1,4 +1,4 @@
-# How To: Prepare JOPPD 
+# Prepare JOPPD 
 
 Topic provides a country/region-specific information about personal tax reporting in accordance with the Croatian legislative requirements. JOPPD (Izvješće o primicima, porezu na dohodak i prirezu te doprinosima za obvezna osiguranja) is a unique form for reporting personal taxes and contributions required by the Croatian tax authority. JOPPD form must be submitted by the payers of or salaries and/or by the taxpayers alone for the following types of incomes: Employment income, Income from property and property rights, Income from capital, Income from insurance, other income.
 
