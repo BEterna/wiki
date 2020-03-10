@@ -1,4 +1,4 @@
-# How To: Create eInvoices for Slovenia and Croatia
+# eInvoices for Slovenia and Croatia
 
 An electronic invoice (eInvoice) is sent electronically over the internet, rather than being paper-based, and can be easily integrated into a customer's accounts payable system. In Slovenia and Croatia, eInvoices are mandatory to be used for the country budget users (governmental bodies) according to current local legislation (e.g. ZOPSPU - The law on the provision of payment services to budget users in case of Slovenia). 
 
