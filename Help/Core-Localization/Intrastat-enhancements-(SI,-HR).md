@@ -1,32 +1,34 @@
-# How To: Use Intrastat enhancements
+# Intrastat enhancements
 
 Intrastat is the system for collecting information and generating statistics about the trade of goods among countries/regions of the European Union (EU). Intrastat reporting is required whenever a product crosses the border of another EU country/region, whereas, in several countries/regions, Intrastat reporting also applies to services. Mandatory and optional elements can be collected in Intrastat reporting. Most of the Intrastat functionality consists of standard D365 features. Some features, however, are added in order to comply with the requirements of the Slovenian and Croatian local authorities. These localized enhancements are described in the following section.
 
------
 
-**EXCHANGE RATE**
+
+###**Exchange rate**
+
  
 In Croatia it is legally required to report foreign currency transactions converted into Croatian local currency (HRK), using the first valid exchange rate of Croatian national bank for the month in which Intrastat is required to be reported. This localization feature allows users to specify the adequate Exchange rate type in order to include the exchange rate calculation. When transferring transactions in foreign currency (other than HRK) to Intrastat journal, values are recalculated to accounting currency, using the specified Intrastat exchange rate.
 ELECTRONIC REPORTING FORMATS Localization provides adequate Intrastat report file mappings (for Slovenia and Croatia), which enable users to generate Intrastat reports in accordance with the Slovenian and Croatian legislation, whereas the reporting format is standard.
 
------
-**INTRASTAT JOURNAL LINE STATUS**
+
+### **Intrastat journal line status**
 
 Another localized feature is the line status of transactions included in the Intrastat journal. With the localization added status allows lines in Intrastat journal to be available for editing until line status remains “Open”. Additionally, transactions can be filtered based on this status.
 
------
-**REPORTING HISTORY**
+
+### **Reporting history**
 
 The feature enables reviewing historically created Intrastat declaration (and in these declarations included transactions). Additionally, it enables a generation of replacement declarations regarding past reporting periods, for which Intrastat declarations have already been submitted. Status of the reported transactions can be set back to “Open”, and then replacement declaration can be created for each of the reports from reporting history. This can be useful if changes have been made in connection with transactions, which have already been declared through Intrastat. In this case, replacement declarations can be created, with the updated transactions reporting period.
 
------
-**INTRASTAT ARCHIVE**
+
+### **Intrastat archive**
 
 Enables users to review transactions, which have been compressed by parameters (compression is a standard feature, while the review of compressed transactions is localized feature). Localization functionality also ads option to transfer the compressed transactions back to the Intrastat journal in their original state (before compression) when applicable.
 
------
 
-## Setup
+
+## **Setup**
+---
 
 ### Transaction codes
 
@@ -149,7 +151,8 @@ Exchange rate type for Intrastat is manually created in Cost accounting – Ledg
 1. Open Accounts payable – Charges setup – Charges codes.
 2. Set up the miscellaneous charges code to include in the invoice amount, the statistical amount, or both. On the Charges codes page, on the Foreign trade tab, enable Intrastat invoice value to include the amount of the charge in the invoice value, and enable Intrastat statistical value to include the amount of the charge in the statistical value.
 
-## Document entry
+## **Document entry**
+---
 
 When you create a sales order, free text invoice, purchase order, vendor invoice, project invoice, or transfer order, some fields that are related to foreign trade have default values in the document header or on the line:
    - The default transaction code is taken from the corresponding field on the Foreign trade parameters page. 
@@ -160,7 +163,8 @@ Upon document entry, Intrastat data can be adjusted in Line details, on the Fore
  
 Intrastat data can also be edited in the Intrastat journal before export. 
 
-## Intrastat journal
+## **Generate Intrastat journal**
+---
 
 1. Open Tax – Declarations – Foreign trade – Intrastat.
 2. Intrastat transactions are created using the button “Transfer”. Mark adequate documents that need to be transferred and confirm.
