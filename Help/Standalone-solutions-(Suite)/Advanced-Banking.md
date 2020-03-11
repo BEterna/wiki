@@ -67,7 +67,9 @@ Different action types enable the setup of various processing actions.
 
 ### Import and validate bank statement
 
-Import and validate bank statement in Cash and bank management > Bank statement reconciliation > Bankstatements.
+Import and validate bank statement in Cash and bank management > Bank statement reconciliation > Bank statements.
+
+Follow this link for details
  
 ### Bank statement processing journal
 
