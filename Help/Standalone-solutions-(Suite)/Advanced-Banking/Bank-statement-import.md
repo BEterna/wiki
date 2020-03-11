@@ -1,4 +1,4 @@
-# Hmport bank statement
+# Import bank statement
 
 This topic includes information about the bank statement transformations, used for mapping D365 fields with the information from bank statements. Transformations for the bank statement files, which are used by the majority of the local (Slovenian, Croatian, Serbian and North Macedonian) electronic banking systems are added in the scope of this extended localization feature.
 
