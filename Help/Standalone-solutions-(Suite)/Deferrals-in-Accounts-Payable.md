@@ -1,4 +1,4 @@
-# How To: Post Defferals in Accounts Payable
+# Post Defferals in Accounts Payable
 
 Deferrals refer to expenses or revenues, which are not recognized immediately on the income statement. Instead, they need to be deferred to a balance sheet account and appear later on the income statement.
 
@@ -6,11 +6,12 @@ In contrast to standard D365O functionality, this feature enables deferrals to b
 
 This custom feature is part of the AdactaSuiteDeferrals AdSuite D365O extension packet.
 
-## Setup
+## **Setup**
+---
 
 ### Deferral schemes
 
-1. Open Accounts payable - Setup - Deferrals - Deferral schemes.
+1. Open Accounts payable > Setup > Deferrals > Deferral schemes.
 2. Multiple deferral schemes with separate rules can be defined: 
    - Calendar Type: Determines which calendar is used for deferrals. Fiscal, Calendar and Allocation key can be used in case of Fiscal and Calendar amounts are allocated evenly and in case of Allocation, key amounts are allocated according to rules defined in Period allocation lines. This means that a different portion of the amount can be allocated to each period. 
    - Period frequency: Determines period as Monthly, Quarterly, Half-yearly or Yearly. In the case of Monthly Deferrals are generated on a monthly basis. 
