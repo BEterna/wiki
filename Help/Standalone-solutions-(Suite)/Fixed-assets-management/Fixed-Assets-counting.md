@@ -1,4 +1,4 @@
-#Fixed assets counting
+
 
 Purpose of Fixed assets counting functionality is the automation of the Fixed assets counting process. With standard functionality, this process is performed manually, while with this feature it is possible to generate filtered counting lists, export them (to use with readers), later import the results and later perform needed actions (write off, reallocation).
 
