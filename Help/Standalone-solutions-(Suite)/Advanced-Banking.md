@@ -105,19 +105,22 @@ When journal setup allows Customer account type, additional action Prepayment is
 Use the Transfer function to transfer processed and confirmed (if confirmation is required) bank statement lines to the general journal for posting. 
  
 Transfer parameters:
-   - Journal name: select journal for bank statement posting
-   - Lines per journal: limit the number of lines per one general journal
-   - Process unprocessed: run the processing upon transferring 
-   - Post journal: post the journal upon transferring
-   - Transfer errors: works in combination with “Post journal”; during journal posting journal lines that contain errors are transferred into a new journal (works similarly as Post and transfer button in the journal)
-   - Allow duplicates: bank statement lines are transferred to the journal even if they have already been transferred to journal previously
-   - Customers:
-     - Posting profile: select customer’s posting profile to post the transferred bank statement lines with
-     - Prepayment profile: select a customer’s posting profile for posting transferred bank statement lines that have been marked as Prepayment. If prepayment profile is left empty, it will be read from setup Accounts receivable – Setup – Accounts receivable parameters – Ledger and sales tax – Payment – Posting profile with prepayment journal voucher. If there is no setup, general posting profile for customers is transferred (Accounts receivable – Setup – Accounts receivable parameters – Ledger and sales tax – General – Posting profile)
-   - Vendors:
-     - Posting profile: select a vendor’s posting profile to post the transferred bank statement lines with
-Upon transferring, message with detailed results of transfer action and possible warnings/errors upon validation is displayed. Bank statement lines are updated with journal number and marked as Transferred. 
- 
-View details opens the journal.
+
+
+|**Parameter**| **Description** |
+|--|--|
+|Journal name  |Select journal for bank statement posting  |
+|Lines per journal  |Limit the number of lines per one general journal  |
+|Process unprocessed  |Run the processing upon transferring  |
+|Post journal  |Post the journal upon transferring  |
+|Transfer errors  |Works in combination with “Post journal”; during journal posting journal lines that contain errors are transferred into a new journal (works similarly as Post and transfer button in the journal)  |
+|Allow duplicates  |Bank statement lines are transferred to the journal even if they have already been transferred to journal previously  |
+|Customers-Posting profile |Select customer’s posting profile to post the transferred bank statement lines |
+|Customers-Prepayment profile|Select a customer’s posting profile for posting transferred bank statement lines that have been marked as Prepayment. If prepayment profile is left empty, it will be read from setup Accounts receivable > Setup > Accounts receivable parameters > Ledger and sales tax > Payment > Posting profile with prepayment journal voucher. If there is no setup, general posting profile for customers is transferred (Accounts receivable > Setup > Accounts receivable parameters > Ledger and sales tax > General > Posting profile)  |
+|Vendors-Posting profile |Select a vendor’s posting profile to post the transferred bank statement lines with|
+
+Upon transferring, message with detailed results of transfer action and possible warnings/errors upon validation is displayed. Bank statement lines are updated with journal number and marked as Transferred.
+
+Use View details to open the journal.
  
 If bank statement lines were matched with vendor or customer payment journal lines, these lines are transferred from payment journal to general journal upon transfer and keep the voucher from payment journal. If all lines from payment journal are transferred to the general journal for bank statement posting, payment journal is automatically deleted.
