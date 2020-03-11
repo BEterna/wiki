@@ -104,11 +104,12 @@ A fixed asset write off journal can then be overviewed and posted.
  
 In case if the journal is deleted, the journal batch number on the fixed asset counting header in the field »Created journal« is also deleted.
 
------
+
 
 #Mass asset lending transfer
+TODO
 
 
------
 
 #Partial asset Write-off
+TODO
