@@ -1,4 +1,4 @@
-# How To: Simplify processes in Fixed Assets
+# Simplify processes in Fixed Assets
 
 Fixed assets management package offers users a set of functionalities that simplify processes for users in case of a large number of fixed assets. Following functionalities are available as part of this package: 
 - Fixed assets counting
@@ -18,7 +18,8 @@ Upon the import, information about the counting user, time, location, fixed asse
 
 The feature is part of custom development in the scope of the AdactaSuiteFixedAssetManagement AdSuite D365O extension packet.
 
-## Setup
+## **Setup**
+---
 
 ### Fixed asset import/export configurations
 
@@ -37,7 +38,8 @@ The configuration defines a mapping for a specific data model. Separate configur
 1. Open Fixed assets - Setup - Fixed asset parameters.
 2. Imported mappings should be selected for each reporting type. In the case of missing ER setup, an error message will appear during the process of export or import. 
 
-## Exports
+## **Exports**
+---
 
 ### Fixed asset counting list
 
@@ -63,7 +65,8 @@ A date validation exists: on a specific date, each fixed asset number can exist 
 1. Open Fixed assets - Periodic tasks - Fixed asset counting - Export asset counting users.
 2. It is possible to export a ».txt« file containing fixed assets counting users. Filtering can be done by User ID and/or Worker name. Only users linked with workers can be exported.
 
-## Import and processing
+## **Import and processing**
+---
 
 While fixed asset counting list is in status »In progress«, files with counting results can be imported. Import configuration might need some modifications, depending on the scanner type and software. <br>
 Importing is performed by clicking on the »Import« button and choosing a file to be imported. After import, counting list status changes to »Partially counted«. 
@@ -85,7 +88,8 @@ In case of a missing fixed asset, a checkmark in the “Missing” column should
 If it is decided that a certain fixed asset is to be written off, a checkmark in the field »Write off« should be selected. For fixed assets with this checkmark, a write off journal can then be created directly from the counting list, by pressing the button »Create journal«. Write off procedure is described in the last chapter.
 A fixed asset list can be manually edited. Upon entering information to each line, fields »User« and »Counted« are populated with the information about the user, who manually adjusted the line and date and time of entering changes.
  
-## Write off journal
+## **Write off journal**
+---
 
 After processing the list, a responsible person has the ability to overview the list. When done, the status of the counting list should be manually changed to »Overviewed«. After fixed asset counting is completed, status should be manually changed to »Completed«. At this point, a write off journal can be created by pressing the button »Create journal«. The counting list number is automatically filled out when creating the journal. Additionally - journal name, posting profile and date should be specified. 
 
