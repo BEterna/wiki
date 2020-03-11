@@ -69,7 +69,7 @@ Different action types enable the setup of various processing actions.
 
 Import and validate bank statement in Cash and bank management > Bank statement reconciliation > Bank statements.
 
-Detailed documentation
+[Detailed documentation](https://ad365o.visualstudio.com/AdLoc/_wiki/wikis/WIPdoc/83/Bank-statement-import?anchor=import-bank-statement)
  
 ### Bank statement processing journal
 
