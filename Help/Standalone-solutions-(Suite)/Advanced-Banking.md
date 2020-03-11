@@ -1,29 +1,33 @@
-# How To: User enhanced Bank Reconciliation
+# User enhanced Bank Reconciliation
 
 The solution enables enhanced advanced bank reconciliation. Based on the transactions from the bank statement, processing can be performed (either manually or based on the pre-set processing rules). In contrast to standard D365O reconciliation, this feature enables automatic matching of imported transactions from bank statements with Open customer transactions (inflows) and not yet posted Vendor payment journals (outflows). After matching, transactions can be posted directly from the bank reconciliation processing journal. 
 
 This solution is part of the AdactaSuiteBankStatements AdSuite D365O package.
 
-## Setup
+## **Setup**
+---
 
 ### Journal names
 
-1. Open Cash and bank management – Setup – Bank Statements – Journal names.
+1. Open Cash and bank management > Setup > Bank Statements > Journal names.
 2. Set up bank statement processing journals and define account types that the bank statement lines can be mapped to.
  
 ### Unknown inflows
 
-1. Open Cash and bank management – Setup – Bank Statements – Unknown inflows.
+1. Open Cash and bank management > Setup > Bank Statements > Unknown inflows.
 2. Define main accounts for unknown inflows and outflows for each bank account to automatically transfer bank statement line amount – when marked unknown – to this account.
  
 ### Processing rules
 
-1. Open Cash and bank management – Setup – Bank Statements – Processing rules.
-2. Bank statement processing functionality enables automatic reconciliation of data from the electronic bank statement against the transactions in the system, using processing rules.
-3. Create a new processing rule set and click “Edit rule set rules” to define processing rules.
-4. Create a new processing rule; define its priority (order of execution) and a type of rule:
-   - Terminating (if the transaction meets the criteria of the current matching rule in the processing, it will not be included in the processing of the next rule).
-   - Nonterminating (if the transaction meets the condition of the current matching rule in the processing, it will nonetheless be included in the processing of the next rule).
+1. Open Cash and bank management > Setup > Bank Statements > Processing rules.
+
+Bank statement processing functionality enables automatic reconciliation of data from the electronic bank statement against the transactions in the system, using processing rules.
+
+Steps: 
+1. Create a new processing rule set and click “Edit rule set rules” to define processing rules.
+1. Create a new processing rule; define its priority (order of execution) and a type of rule:
+   - Terminating: if the transaction meets the criteria of the current matching rule in the processing, it will not be included in the processing of the next rule.
+   - Nonterminating: if the transaction meets the condition of the current matching rule in the processing, it will nonetheless be included in the processing of the next rule.
 5. In the Match tab, define criteria by which bank statement lines are filtered. When using regex match type, regex is verified, named capture groups are recognized and saved below as string values.
 In the Actions tab, define the appropriate action (detailed descriptions of each action is found in chapter Action types).<br>
    Depending on the selected action type, an additional tab is shown where criteria for transaction matching are defined. <br>
@@ -33,82 +37,41 @@ The rule below says, if bank statement lines with credit transactions and refere
 
 Different action types enable the setup of various processing actions. 
 
-#### Rewrite fields
 
-This action temporarily changes the value of any field in the bank statement using regex. In the “Field label” field, select the field that needs to be changed. The “Rewrite match” field represents the regex (search condition), the value corresponding to this key is overwritten with “Rewrite output”. The change that happens is not stored in the bank statement, as it is recorded only temporarily; this temporary record is then available for the next action.
- 
-#### Extract variables
+| Action  |  Description |
+|---|---|
+|Rewrite fields   |This action temporarily changes the value of any field in the bank statement using regex. In the “Field label” field, select the field that needs to be changed. The “Rewrite match” field represents the regex (search condition), the value corresponding to this key is overwritten with “Rewrite output”. The change that happens is not stored in the bank statement, as it is recorded only temporarily; this temporary record is then available for the next action.   |
+|Extract variables   |Using this action type, processing can extract a variable from an arbitrary field of the bank statement line in the same way as using regex values.   |
+|Ignore   |Depending on the condition defined in the Match tab, a credit/debit ignore line is created with this action.   |
+|Mark for confirmation   |If this action type is selected, a checkmark “Confirmation required” is set on the bank statements line after processing, which requires the user to manually confirm the indicated line. It is commonly used in combination with an action where a subsequent review is recommended.   |
+|Set context   |This action type creates a context that the following actions can use. It is usually combined with other actions. Contexts can be of different types (Ledger, Vendor, Customer…) and are set from regex values (a variable that can be used in field Context variable) or directly specified with a combination of account type and ledger.   |
+|Set context if empty   |Used similarly to action type from chapter Set context. Usually used in combination with other actions. It takes place if the previous action did not produce any matching results.   |
+|On account   |This action creates a matching of the bank statement line to the account that is defined by the previous action. It is commonly used in combination with the action Set context.   |
+|Match collection letter   |If this action type is included in a rule, processing will check customer collection letter journal transactions, additionally filtered by criteria in the Customer transaction matching tab and settle them upon bank statement posting.   |
+|Match customer*/vendor open transactions   |*Match customer open transactions processing rule is discontinued and replaced with the Match customer open transactions V2 rule. Vendor open transactions are matched with bank statement lines according to filters set in transaction matching. “Settle matched transaction” action is needed to settle the transactions against bank statement lines, that have been matched during processing.   |
+|Match customer open transactions V2   |A new Matching rule is added in order to enable the matching of open customer transactions according to Dispute status. Consequently, the following fields from CustDispute table are added: Collection status, Note, Last Payment amount  |
+|Settle matched customer/vendor transactions   | Bank statement lines that have been matched with the previous action are settled against paired customer or vendor transactions with this action.  |
+|Settle matched and other customer/vendor transactions by the due date   |Customer or vendor transactions that have been matched with Match customer/vendor open transactions are settled with the current bank statement line. If the amount on the bank statement line exceeds the matched customer or vendor transaction amount, the amount difference gets settled against other open transactions for that customer/vendor, using sorting by the due date (from oldest to latest). This action can also consume customer/vendor as a context in combination with Match customer/vendor bank account action for example. In that case, the bank statement line gets settled against all open transactions sorted by the due date, as described in the previous paragraph.   |
+|Match customer/vendor bank account   |Customer or vendor transactions are filtered according to criteria set in the Customer matching/Vendor matching tab and settled against bank statement lines, corresponding to the following action types. If more partners use the same bank account, a warning is thrown after processing.   |
+|Match customer/vendor journal lines   |Unposted vendor/customer payment journal lines are matched and settled against bank statement lines according to criteria, defined in Journal matching.    |
 
-Using this action type, processing can extract a variable from an arbitrary field of the bank statement line in the same way as using regex values.
 
-#### Ignore
-
-Depending on the condition defined in the Match tab, a credit/debit ignore line is created with this action.
-
-#### Mark for confirmation
-
-If this action type is selected, a checkmark “Confirmation required” is set on the bank statements line after processing, which requires the user to manually confirm the indicated line. It is commonly used in combination with an action where a subsequent review is recommended.
- 
-#### Set context
-
-This action type creates a context that the following actions can use. It is usually combined with other actions. Contexts can be of different types (Ledger, Vendor, Customer…) and are set from regex values (a variable that can be used in field Context variable) or directly specified with a combination of account type and ledger.
- 
-#### Set context if empty
-
-Used similarly to action type from chapter Set context. Usually used in combination with other actions. It takes place if the previous action did not produce any matching results.  
-
-#### On account
-
-This action creates a matching of the bank statement line to the account that is defined by the previous action. It is commonly used in combination with the action Set context.
- 
-#### Match collection letter
-
-If this action type is included in a rule, processing will check customer collection letter journal transactions, additionally filtered by criteria in the Customer transaction matching tab and settle them upon bank statement posting.
-
-#### Match customer*/vendor open transactions
-
-*Match customer open transactions processing rule is discontinued and replaced with the Match customer open transactions V2 rule.
- 
-Vendor open transactions are matched with bank statement lines according to filters set in transaction matching. “Settle matched transaction” action is needed to settle the transactions against bank statement lines, that have been matched during processing.
-
-#### Match customer open transactions V2
-
-A new Matching rule is added in order to enable the matching of open customer transactions according to Dispute status. Consequently, the following fields from CustDispute table are added: 
-   - Collection status
-   - Note
-   - Last Payment amount
- 
-#### Settle matched customer/vendor transactions
-
-Bank statement lines that have been matched with the previous action are settled against paired customer or vendor transactions with this action.
- 
-#### Settle matched and other customer/vendor transactions by the due date
-
-Customer or vendor transactions that have been matched with Match customer/vendor open transactions are settled with the current bank statement line. If the amount on the bank statement line exceeds the matched customer or vendor transaction amount, the amount difference gets settled against other open transactions for that customer/vendor, using sorting by the due date (from oldest to latest). 
-This action can also consume customer/vendor as a context in combination with Match customer/vendor bank account action for example. In that case, the bank statement line gets settled against all open transactions sorted by the due date, as described in the previous paragraph. 
- 
-#### Match customer/vendor bank account
-
-Customer or vendor transactions are filtered according to criteria set in the Customer matching/Vendor matching tab and settled against bank statement lines, corresponding to the following action types. If more partners use the same bank account, a warning is thrown after processing.
- 
-#### Match customer/vendor journal lines
-
-Unposted vendor/customer payment journal lines are matched and settled against bank statement lines according to criteria, defined in Journal matching. 
  
 ### Bank account
 
-1. Open Cash and bank management – Bank accounts – Bank accounts.
+1. Open Cash and bank management > Bank accounts > Bank accounts.
 2. On tab Reconciliation, define processing rules set for the selected bank account.
  
-## Bank statement processing
+## **Bank statement processing**
+---
 
 ### Import and validate bank statement
 
-Import and validate bank statement in Cash and bank management – Bank statement reconciliation – Bank.statements.
+Import and validate bank statement in Cash and bank management > Bank statement reconciliation > Bankstatements.
  
 ### Bank statement processing journal
 
-Open Cash and bank management – Bank statement reconciliation – Bank statement processing journal.
+Open Cash and bank management > Bank statement reconciliation > Bank statement processing journal.
 
 #### Generate debit and credit journal
 
