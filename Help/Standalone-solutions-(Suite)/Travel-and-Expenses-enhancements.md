@@ -7,14 +7,28 @@ This chapter summarizes custom-developed features in the scope of the AdactaSuit
 ---
 
 This feature enhances standard D365O travel requisition functionality by adding the following functionalities:
-   - Additional fields are added to travel requisition header: “From date and time”, “To date and time”, “By order of”, “Transport type” (Company-owned vehicle, Personal vehicle) and “Registration number”. “By order of” and “Registration number” are free text fields.
-   - The estimated expense date of each travel requisition line must be within a period, entered on the travel requisition header (set with “From” and “To date and time” fields).
-Using this feature, travel requisitions without lines can also be submitted to workflow and mapped to an expense report (if approved) if a setting “Enable submit to WF w/o lines” is enabled in Expense management parameters.
+
+### Fields on Travel requisition header
+Additional fields are added to travel requisition header: 
+   - From date and time 
+   - To date and time 
+   - By order of 
+   - Transport type (Company-owned vehicle, Personal vehicle) 
+   - Registration number 
+   - By order of 
+   - Registration number 
+
+### Date Validation
+
+The estimated expense date of each travel requisition line must be within a period, entered on the travel requisition header (set with “From” and “To date and time” fields). Using this feature, travel requisitions without lines can also be submitted to workflow and mapped to an expense report (if approved) if a setting “Enable submit to WF w/o lines” is enabled in Expense management parameters.
+
+
+### Travel requisition report print
    - Two new travel requisition printouts are added with this feature:
      - Localized print (including details from each expense line) 
      - Localized print without lines (less detailed). 
 
-Localized printouts become available only if the “Use localized reports” option is checked in Expense management parameters.
+Note: Localized printouts become available only if the “Use localized reports” option is checked in Expense management parameters.
 
 
 ## **Expense report enhancements**
@@ -27,24 +41,20 @@ This feature enhances standard D365O Expense report functionality by adding the 
 Additional fields are added to the Expense report header.
 
 Open Expense report header:
-   - “From date and time”, 
-   - “To date and time”, 
-   - “By order of”, 
-   - “Transport type” (Company-owned vehicle, Personal vehicle) 
-   - “Registration number”. “By order of” and “Registration number” are free text fields.
+   - From date and time 
+   - To date and time 
+   - By order of 
+   - Transport type (Company-owned vehicle, Personal vehicle) 
+   - Registration number 
+   - By order of 
+   - Registration number 
 
 ### Date Validation
    
-Validation is executed upon expense report dates:
-   - “Transaction date” entered for each expense line has to be within an entered period in expense report header localization fields From and To date and time. 
+Validation is executed upon expense report dates: “Transaction date” entered for each expense line has to be within an entered period in expense report header localization fields From and To date and time.
 
 ### Expense report print
 
-Two new Expense report printouts are added with this feature:
-   - Localized print (including details from each expense line) 
-   - Localized print without lines (less detailed). 
-
-Localized printouts become available only if the “Use localized reports” option is checked in Expense management parameters.
 
 1. Open Expense management – Setup – General – Expense management parameters.
 2. Localized reports are enabled in the Adacta section of expense management parameters. The same setting is used for the localized expense and travel requisition reports.
@@ -79,6 +89,7 @@ If the “Apply cash advance return” option is checked: mapping travel requisi
 ---
 
 Additional features regarding per diems are added:
+
    - In terms of standard D365O functionality meal reduction for each meal in connection with per diem need to be entered as a percentage of the full per diem. This feature, however, enables that if field "Include percent" is marked, meal deductions will be calculated according to the value entered in field Meal percent. Otherwise, the deduction has to be entered as a percentage of full per-diem (e.g.  15% breakfast reduction for half per diem is calculated from the amount representing 75% of the full per diem).
    - Per diem transaction date on Expense reports can be defaulted from the last per diem day if the option is enabled in Expense management parameters.
 
@@ -86,8 +97,13 @@ Additional features regarding per diems are added:
 
 1. Open Expense management – Setup – Calculations and codes – Per diems -> Per diem rate tiers.
 2. Localization column “Include percent” is added to the form for per diem rate tiers setup. 
-   - If field "Include percent" is marked, meal reductions will be calculated according to the value entered in field Meal percent, which represents the percentage of full daily allowance, defined in field Meals (e.g. 15% breakfast reduction for half perdiem is calculated from the amount representing 75% of the full perdiem).
-   - If field “include percent” is not checked, it is necessary to adjust the percentages of meal reductions in relation to the full perdiem – reductions for meals have to be entered as percentages of full perdiem (e.g. reduction for breakfast for half perdiem represents 11.25% of the full perdiem).
+
+| **Value** | **Description** |
+|--|--|
+| field "Include percent" is marked |meal reductions will be calculated according to the value entered in field Meal percent, which represents the percentage of full daily allowance, defined in field Meals (e.g. 15% breakfast reduction for half perdiem is calculated from the amount representing 75% of the full perdiem).  |
+| field “include percent” is not marked|it is necessary to adjust the percentages of meal reductions in relation to the full perdiem – reductions for meals have to be entered as percentages of full perdiem (e.g. reduction for breakfast for half perdiem represents 11.25% of the full perdiem).  |
+
+ 
  
 Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**.
  
@@ -95,12 +111,12 @@ Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**.
 
 #### Expense management parameters
 
-1. Open Expense management/Setup/General/Expense management parameters/Adacta (expense).
+1. Open Expense management > Setup > General > Expense management parameters > Adacta (expense).
 2. Per diem transaction date can be set up on the last per diem day by enabling the feature in Expense management parameters. 
  
 #### Transaction date on an expense report
 
-1. Open Expense management – My expenses – Expense reports.
+1. Open Expense management > My expenses > Expense reports.
 2. Upon saving the expense line “Per diem”, the Transaction date is automatically populated with the value from the field “Per diem to date”. 
 
 
@@ -128,9 +144,14 @@ This feature allows defining date for posting expenses in case of transaction gr
 2. The feature allows defining the date to post expenses on in case of enabled transaction grouping. Posting date setup is applicable only when a standard grouping of transactions based on the offset account specified in the payment method is enabled. 
  
 Possible options are:
-   - First of group: a transaction is posted on a date that is the earliest of all transaction dates.
-   - Last of group: a transaction is posted on a date that is the latest of all transaction dates. 
-   - Last in month: a transaction is posted on the last date of the month of the line with the latest date.
+
+
+|**Value**  |**Description**  |
+|--|--|
+|First of group  |Transaction is posted on a date that is the earliest of all transaction dates.  |
+|Last of group  | Transaction is posted on a date that is the latest of all transaction dates. |
+|Last in month |Transaction is posted on the last date of the month of the line with the latest date. |
+
  
 Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**.
 
