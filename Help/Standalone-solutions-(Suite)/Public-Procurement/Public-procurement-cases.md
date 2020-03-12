@@ -105,11 +105,7 @@ This can be done by clicking »New« and selecting adequate member roles (from t
  
 ### Public procurement attachments
 
-Attachments can also be added to the Public procurement case. 
-
-1. This can be done by clicking »New« and selecting the present attachment type from the register. 
-2. Once a new line is created, desired files to be attached (e.g. service/goods specifications, different documentation) can be added to each line, by clicking the »Attachments« button.
-3. A new (standard) form opens where a file type can be selected, uploaded  and other details about the attached file can be filled in. 
+Attachments can also be added to the Public procurement case. This can be done by clicking »New« and selecting the present attachment type from the register. Once a new line is created, desired files to be attached (e.g. service/goods specifications, different documentation) can be added to each line, by clicking the »Attachments« button. A new (standard) form opens where a file type can be selected, uploaded  and other details about the attached file can be filled in. 
  
 ### Public procurement identifications
 
@@ -119,9 +115,7 @@ Once a public procurement case is officially published on an adequate public pro
 
 Additional enhancement on certifications is added as part of public procurement functionality, and that is the Certification insurance type. Upon certification entry on vendor form, the field Certification insurance type is added to the standard form to ensure the additional classification of vendor certificates. 
  
-1. The values for drop-down selection in this field are entered in the code list at Procurement and sourcing - Setup - Vendors - Certification insurance type.
-2. If certifications are applicable for an individual public procurement case, they can be added in this section by clicking “New”, specifying Vendor (it is possible to choose from all the tenderers, co-tenderers or subcontractors specified in “Tenderer registration section” of the public procurement case) and selecting Certification type from the related register.
-3. One vendor certificate can only be used for one public procurement case. It is not possible to use the same certificate on multiple cases.
+The values for drop-down selection in this field are entered in the code list at Procurement and sourcing > Setup > Vendors > Certification insurance type. If certifications are applicable for an individual public procurement case, they can be added in this section by clicking “New”, specifying Vendor (it is possible to choose from all the tenderers, co-tenderers or subcontractors specified in “Tenderer registration section” of the public procurement case) and selecting Certification type from the related register. One vendor certificate can only be used for one public procurement case. It is not possible to use the same certificate on multiple cases.
 
 ### Proposed vendors
 
@@ -129,12 +123,12 @@ The proposed vendors section is used only for public procurement procedures, con
  
 ### Tender registration
 
-1. Tender registrations section serves for registering tenders, who responded to the specific public procurement request. The following fields are available to be entered for each tender (line):
+Tender registrations section serves for registering tenders, who responded to the specific public procurement request. The following fields are available to be entered for each tender (line):
 
 
 |**Field**|**Description**|
 |--|--|
-|Date and time  |of the received tender  |
+|Date and time  |Date and Time of the received tender  |
 |Vendor’s account  |endor’s account from the vendor’s register (NOTE: if vendors are added to “Proposed vendors” section of the public procurement case, only these specified vendors can be selected when registering tenderers)  |
 |Consortium  |should be checked if the line refers to the consortium of vendors  |
 |Worker  |who registered the tender is automatically selected from the register upon entering each new tender  |
@@ -145,29 +139,27 @@ The proposed vendors section is used only for public procurement procedures, con
 |Number of consignments  |indicates the number of the received consignments connected with the tender.  |
 
 
-2. In the bottom part of the form, users can specify to which RFQ case from the “Public procurement parts” each tender reefers to. The bottom part of the form consists of as many lines as there are RFQ cases (public procurement parts) related to the public procurement case.
+In the bottom part of the form, users can specify to which RFQ case from the “Public procurement parts” each tender reefers to. The bottom part of the form consists of as many lines as there are RFQ cases (public procurement parts) related to the public procurement case.
 
 For example – tender from “Telekom Slovenije, d.d.” refers to the goods/services from the public procurement part “000076”. This is indicated with the “In tender” checkmark:
  
 #### Consortium
 
-1. If the “Consortium” field is marked on the tender registration, the “Co-tenders” function becomes available for the selected record. This function allows entering multiple vendors accounts, associated with one received tender if applicable (e.g. if more vendors together responded to the public procurement request).
-2. A new form opens where multiple vendor accounts from the register can be selected.
+If the “Consortium” field is marked on the tender registration, the “Co-tenders” function becomes available for the selected record. This function allows entering multiple vendors accounts, associated with one received tender if applicable (e.g. if more vendors together responded to the public procurement request). A new form opens where multiple vendor accounts from the register can be selected.
  
 NOTE: all co-tenderers from which the invoices are expected to be received in relation to the Public procurement case outcome document (Purchase order, Purchase agreement or Framework agreement), should be entered since only invoices from the specified vendors can be accepted in terms of the resulting document.  
 
 #### Subcontractors
 
-1. Similarly to a consortium, subcontractors can be added to each tender, by clicking the “Subcontractors” button.
-2. A new form opens, where vendors from the register can be specified as subcontractors.
+Similarly to a consortium, subcontractors can be added to each tender, by clicking the “Subcontractors” button. A new form opens, where vendors from the register can be specified as subcontractors.
  
 In contrast to co-tenderers, Subcontractors serve only as additional information about the subcontractors involved with each tender, while no limitations in the further documents, related to the specified subcontractors exist.
 
 #### Copy vendors
 
-1. When successfully selecting public procurement case parts (RFQ cases), tenderers should be transferred to these public procurement case parts (RFQ case), associated with each tender. This can be done by clicking the “Copy vendors” function. Once completed, all the transferred lines are indicated with the “Yes” mark in the “Transferred” field of each tender.
-2. When tenderers are transferred to an adequate RFQ case, an informational message is also displayed.
-3. Tenderers are transferred only to public procurement case parts (RFQ cases), marked with “In tender” checkmark, but only if the Delivery status of their tenders is “In time” and the tenders are marked as “Properly labeled”:
+When successfully selecting public procurement case parts (RFQ cases), tenderers should be transferred to these public procurement case parts (RFQ case), associated with each tender. This can be done by clicking the “Copy vendors” function. Once completed, all the transferred lines are indicated with the “Yes” mark in the “Transferred” field of each tender.
+
+When tenderers are transferred to an adequate RFQ case, an informational message is also displayed. Tenderers are transferred only to public procurement case parts (RFQ cases), marked with “In tender” checkmark, but only if the Delivery status of their tenders is “In time” and the tenders are marked as “Properly labeled”:
  
 #### Send
 
@@ -186,7 +178,7 @@ An informational message is also displayed.
  
 ### Tenderer replies
 
-When RFQ case lines, associated with tenders, listed in the “Tender registration” section of the public procurement case are in status “Sent”, a separate line, associated with each of the registered tenders appears in the “Tenderer replies” section as seen on the screenshot above. 
+When RFQ case lines, associated with tenders, listed in the “Tender registration” section of the public procurement case are in status “Sent”, a separate line, associated with each of the registered tenders appears in the “Tenderer replies” section. 
 
 1. By clicking on the “Request for quotation case” link on each line, or by selecting a specific line and clicking “Reply details”, RFQ connected with the tender opens and details about the tenderer replies can be entered.
 2. Entering tenderer replies will not be described in detail since it is a standard D365O feature. 
