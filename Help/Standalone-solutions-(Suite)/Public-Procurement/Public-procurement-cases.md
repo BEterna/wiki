@@ -1,10 +1,11 @@
-## Public procurement cases
+# Public procurement cases
 
 Public procurement cases functionality is used to perform public procurement procedures in D365O.
 
-### Setup
+## **Setup**
+---
 
-#### Case categories
+### Case categories
 
 Case categories are used to distinguish between different public procurement procedures. The required number of case categories, therefore, depends on the types of distinct public procurement processes required to be performed in D365O. For each public procurement procedure (e.g. Low-value order or Open procedure), a unique case category is proposed to be created.
 
@@ -16,7 +17,7 @@ If the total amount of the combined RFQ cases connected with the public procurem
  
 Additionally, amount limits are checked, if “Propose case categories” function is used when adding RFQ cases to a new public procurement case.
  
-#### Case processes
+### Case processes
 
 The case process is a predefined template, which describes the expected steps in the process of each of the public procurement cases. Case processes can be defined per case category or separately for each public procurement case.
 A new case process can be created by clicking “New” and adding responsibilities – a list of all the possible stages within the process.
@@ -25,7 +26,7 @@ A new case process can be created by clicking “New” and adding responsibilit
 2. Once Responsibilities are entered, process hierarchy can be defined. This is done by clicking the “Details” button under the “Process” tab.
 3. The hierarchy of the entered process steps can be added by clicking “New” - “Level”. A new form opens, where additional information about each of the steps in the process can be entered.
  
-#### Case Statuses and Stages
+### Case Statuses and Stages
 
 When newly created, the public procurement case is in status “Opened”. When users start working with the case, status can be updated to “In process” by clicking the “Change status” button.
  
@@ -35,7 +36,8 @@ Each stage of the case can be started by clicking the »Change stage« and selec
  
 NOTE: both – Public procurement case statuses and stages only have the informational value for users - e.g. to get an insight into a stage of the public procurement or easily filter out the desired public procurement cases. However, no validation linked with either specific public procurement case status or stage exists.
 
-### Create case
+## **Create case**
+---
 
 1. Public procurement cases can be created:
    - Directly from the RFQ case: On RFQ case click on either “Create case” (creates a new public procurement case) or “Add to case” (connects RFQ case with an already existing public procurement case) button.
@@ -64,15 +66,16 @@ Click on “New” - “Case”.
 
 After all the required information for a specific public procurement case is entered, the case can be created by clicking the »Create« button in the bottom right corner of the form. A public procurement case form opens, where most of the information, entered upon creating the case can still be edited. The public procurement case form and its processing is described throughout the following chapter.
 
-### Case sections
+## **Case sections**
+---
 
 Throughout the following part of the document, sections of the Public procurement case form, together with their purpose and functionalities are described.
 
-#### General
+### General
 
 A general section consists of mostly the information, which can already be entered upon creating a new public procurement case (as described in chapter *Create Case*). Additionally, a Primary contact connected with the case can be selected from the contacts register.
  
-#### Public procurement parts
+### Public procurement parts
 
 This section consists of the RFQ cases, related to the public procurement case. If public procurement case has been created directly from the RFQ case (as described in chapter *Create Case*, RFQ number from which public procurement case has been created is automatically displayed in the public procurement parts sections. On the other hand, if public procurement case has been created throughout the Public procurement cases form (as described in chapter *Create Case*), RFQ case(s), which the user wants to associate with the public procurement case need to be manually added. This can be done by clicking on the »New« button. Details about each of the related RFQ cases can be viewed by clicking on the »Details« button, which opens the selected RFQ case. By clicking the “Delete” button, RFQ case(s) can also be removed from the public procurement case.
  
@@ -80,14 +83,14 @@ The ID of the connected RFQ case(s), their Title and Net amount are automaticall
 
 Additionally, Expected dates of finality and a checkmark whether quotations in relation to each RFQ are Final can be specified. Their function is described later throughout the document.
 
-#### Public procurement members
+### Public procurement members
 
 In this section, it is possible to add members (e.g. of the Expert commission), related to the public procurement case. 
 1. This can be done by clicking »New« and selecting adequate member roles (from the register of roles), then assigning each role to a worker (from the register of workers). 
 2. For each of the selected members, a Description and duration of their membership in the public procurement case can be defined. 
 3. Multiple members can be added (as separate lines).
  
-#### Public procurement attachments
+### Public procurement attachments
 
 Attachments can also be added to the Public procurement case. 
 
@@ -95,11 +98,11 @@ Attachments can also be added to the Public procurement case.
 2. Once a new line is created, desired files to be attached (e.g. service/goods specifications, different documentation) can be added to each line, by clicking the »Attachments« button.
 3. A new (standard) form opens where a file type can be selected, uploaded  and other details about the attached file can be filled in. 
  
-#### Public procurement identifications
+### Public procurement identifications
 
 Once a public procurement case is officially published on an adequate public procurement portal, Public procurement identifications (št. Javnega naročila) can be entered.
   
-#### Certifications
+### Certifications
 
 Additional enhancement on certifications is added as part of public procurement functionality, and that is the Certification insurance type. Upon certification entry on vendor form, the field Certification insurance type is added to the standard form to ensure the additional classification of vendor certificates. 
  
@@ -107,11 +110,11 @@ Additional enhancement on certifications is added as part of public procurement 
 2. If certifications are applicable for an individual public procurement case, they can be added in this section by clicking “New”, specifying Vendor (it is possible to choose from all the tenderers, co-tenderers or subcontractors specified in “Tenderer registration section” of the public procurement case) and selecting Certification type from the related register.
 3. One vendor certificate can only be used for one public procurement case. It is not possible to use the same certificate on multiple cases.
 
-#### Proposed vendors
+### Proposed vendors
 
 The proposed vendors section is used only for public procurement procedures, connected with a Framework Agreement. If a Framework agreement is linked to a Public procurement case, the Proposed vendors section displays vendors (tenderers) from the related agreement. If public procurement is not linked to a Framework agreement, proposed vendors should not be entered.
  
-#### Tender registration
+### Tender registration
 
 1. Tender registrations section serves for registering tenders, who responded to the specific public procurement request. The following fields are available to be entered for each tender (line):
    - Date and time: of the received tender;
@@ -127,27 +130,27 @@ The proposed vendors section is used only for public procurement procedures, con
 
 For example – tender from “Telekom Slovenije, d.d.” refers to the goods/services from the public procurement part “000076”. This is indicated with the “In tender” checkmark:
  
-##### Consortium
+#### Consortium
 
 1. If the “Consortium” field is marked on the tender registration, the “Co-tenders” function becomes available for the selected record. This function allows entering multiple vendors accounts, associated with one received tender if applicable (e.g. if more vendors together responded to the public procurement request).
 2. A new form opens where multiple vendor accounts from the register can be selected.
  
 NOTE: all co-tenderers from which the invoices are expected to be received in relation to the Public procurement case outcome document (Purchase order, Purchase agreement or Framework agreement), should be entered since only invoices from the specified vendors can be accepted in terms of the resulting document.  
 
-##### Subcontractors
+#### Subcontractors
 
 1. Similarly to a consortium, subcontractors can be added to each tender, by clicking the “Subcontractors” button.
 2. A new form opens, where vendors from the register can be specified as subcontractors.
  
 In contrast to co-tenderers, Subcontractors serve only as additional information about the subcontractors involved with each tender, while no limitations in the further documents, related to the specified subcontractors exist.
 
-##### Copy vendors
+#### Copy vendors
 
 1. When successfully selecting public procurement case parts (RFQ cases), tenderers should be transferred to these public procurement case parts (RFQ case), associated with each tender. This can be done by clicking the “Copy vendors” function. Once completed, all the transferred lines are indicated with the “Yes” mark in the “Transferred” field of each tender.
 2. When tenderers are transferred to an adequate RFQ case, an informational message is also displayed.
 3. Tenderers are transferred only to public procurement case parts (RFQ cases), marked with “In tender” checkmark, but only if the Delivery status of their tenders is “In time” and the tenders are marked as “Properly labeled”:
  
-##### Send
+#### Send
 
 Send functions performs the same action, as the “Send” function on the standard RFQ case form and are meant for sending RFQs to the specified vendors.
 
@@ -162,7 +165,7 @@ An informational message is also displayed.
  
 3. After refreshing the form, a new line appears in the “Tenderer replies” section of the Public procurement case.
  
-#### Tenderer replies
+### Tenderer replies
 
 When RFQ case lines, associated with tenders, listed in the “Tender registration” section of the public procurement case are in status “Sent”, a separate line, associated with each of the registered tenders appears in the “Tenderer replies” section as seen on the screenshot above. 
 
@@ -170,15 +173,15 @@ When RFQ case lines, associated with tenders, listed in the “Tender registrati
 2. Entering tenderer replies will not be described in detail since it is a standard D365O feature. 
 3. Once replies have been managed (tenderer replies are submitted for each of the RFQ cases), the status of each submitted tenderer reply on the associated public procurement case changes to “Received”. “Net Amount” fields display the price, calculated based on the entered tenderer replies.
  
-#### Public opening of tenders
+### Public opening of tenders
 
 In this section, the location and time of the public opening of tenders can be specified by clicking »New« and typing in the location and opening date and time.
  
-#### Administration
+### Administration
 
 This section displays information about the user who created the case and the creation date and time. Additionally, when the case is closed, it also displays information about the closing user, date and time.
  
-#### Legal protection events
+### Legal protection events
 
 1. Different legal protection event can also be entered if and when applicable by clicking “New”. Adequate fields then need to be filled in, depending on the legal event type:
    - Event type ID: selected from the register;
@@ -190,7 +193,8 @@ This section displays information about the user who created the case and the cr
 2. Additionally, in the bottom part of the form, the user can define which of the RFQs a specific legal protection event refers to.
 3. After the legal protection event is completed, a tender accepting process can begin.
 
-### Accept tenders
+## **Accept tenders**
+---
 
 1. Before accepting the tenders, public procurement parts (RFQ cases connected with the public procurement case) should be marked as “Final”. Information about the finality is also transferred to the RFQ case.
 2. Tender replies can be compared by clicking the “Accept tenders” button.
@@ -212,19 +216,20 @@ NOTE: a checkmark in the “Do not transfer inventory dimensions” field signif
    - Tenderer replies form, where the selected tender is also indicated.
 8. Additionally, informational messages indicate the public procurement case processing results – created either Purchase order, Purchase agreement or Framework agreement.
  
-#### Group acceptance journals
+### Group acceptance journals
 
 An additional parameter is added to procurement parameters that enable a grouping of accepted tenders by vendor account and currency code into a single document when the result of public procurement processing is a purchase agreement.
  
 With the “Group acceptance journal” parameter enabled, if the result of the public procurement case acceptance is a purchase agreement when the same vendor is marked as selected for different public procurement parts (different RFQs), a single output document is generated upon clicking Accept. The created purchase agreement contains all lines from accepted RFQs. 
  
-### Resulting document
+## **Resulting document**
+---
 
 A decision about the resulting document is defined by the user at the point of Public procurement case creation, by selecting an adequate document in the Purchase type field. This process is described in chapter *Create Case*.
  
 NOTE: in case of a chosen tender from a tenderer consortium, multiple documents (purchase agreements) are created because of public procurement case – one for each of the specified co-tenderers and one for a vendor, which defines the vendor consortium. 
    
-#### Purchase order
+### Purchase order
 
 If a result of a public procurement case is a purchase order, purchase type “Purchase order” has been defined when generating the case. If any other document had been selected upon the public procurement case creation, these documents would be created instead.
  
@@ -232,14 +237,14 @@ If a result of a public procurement case is a purchase order, purchase type “P
 2. All the information (header and line details) about the tenders are transferred from the related tender (RFQ case part associated with the tender) to this newly created purchase order (standard D3565O functionality). 
 3. A purchase order is created in status “Approved”.
  
-#### Purchase agreement
+### Purchase agreement
 
 If Purchase agreements are created because of a public procurement case, they can be accessed through standard D365O forms for accessing purchase agreements. Header and line information about the accepted tender are transferred from the related RFQ case parts, included in the accepted tender.
  
 1. If tender from a consortium of tenderers has been accepted in public procurement case, then one purchase agreement is created for each of the involved vendor accounts in D365O:
 2. Information about the related purchase agreements, resulting from the accepted tender for a consortium of tenderers can be seen in the “Related agreements” section on each of the related agreements.
     
-#### Framework agreement
+### Framework agreement
 
 1. If the purchase type “Framework agreement” has been defined when generating the public procurement case, a result of the case process is a generated framework agreement. One framework agreement can consist out of multiple case parts and tenders related to each of these parts (RFQ cases).
  
@@ -251,14 +256,16 @@ NOTE: Purchase type “Framework agreement” is displayed as an option also whe
    - Reference: “Framework agreement ID”.
 3. After tenders are accepted, a Framework agreement is created based on the pre-set number sequence. 
  
-### Send decisions
+## **Send decisions**
+---
 
 1. Notifying tenderers about the acceptance or rejection of their tenders can be recorded on the Public procurement case in the “Tender registrations” section. By selecting an adequate tenderer, “Decision sending date” and “Decision delivery” date can be entered. 
 2. This procedure should be repeated for each tenderer, included in the public procurement case.
 
 NOTE: publishing decision about the accepted/rejected tenders can only be indicated in D365O, while it may have to be manually updated on the adequate public procurement portal.
 
-### Close case
+## **Close case**
+---
 
 1. Once the public procurement process is complete, the case can be marked as “Closed”. This can be done by clicking “Change status” and selecting “Closed”.
 2. In the “Administration” section, “Closed by” fields display the name of the user, who closed the case, along with the closed date and time.
