@@ -3,6 +3,7 @@
 ## Purchase order enhancement
 
 ### Assign subcontractor 
+---
 
 In standard D365FO, when a purchase order is related to a purchase agreement that has subcontractors, it is not possible to change the vendor account to one of the subcontractors without removing the link to the agreement. Consequently, it is not possible to track agreement fulfillment that would include subcontractors.
  
