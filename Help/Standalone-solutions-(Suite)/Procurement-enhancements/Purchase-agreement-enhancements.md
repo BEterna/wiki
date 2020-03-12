@@ -1,24 +1,28 @@
 ## Purchase agreement enhancements
 
 ### Requester
+---
 
 An additional field “Requester” has been added to the purchase agreement header to allow the specification of an employee who has requested the creation of a specific purchase agreement. Field Requester allows the selection from the list of all employees.
  
 This additional field allows for the person in the field to be included in the vendor invoice review process if adequate participant provider is selected in the workflow configuration.
 
 ### Purchase agreement type
+---
 
 For further differentiation of purchase agreements an additional field “Purchase agreement type” has been implemented to determine whether an agreement is an Annex or a stand-alone agreement. Possible values for selection in the field are Agreement and Annex. 
  
 If Annex is selected, a new field "Related to agreement" activates (more in the next chapter).
  
 ### Related to agreement
+---
 
 In relation to the “Purchase agreement type” field, an additional one – Related to an agreement – has been added to the purchase agreement header. This feature allows establishing a relation between an original purchase agreement and its annex. 
 
 Related to the agreement field is active only when the Purchase agreement type selected is “Annex”. It allows the selection of all existing purchase agreements from all legal entities that are of type “Agreement”. 
  
 ### Disable editing of effective purchase agreements
+---
 
 Standard functionality allows for data on the purchase agreement to be edited regardless of document status. To prevent changes in Effective status, additional functionality is implemented. 
 
@@ -29,6 +33,7 @@ When this parameter is set to Yes, a purchase agreement is locked for editing wh
 When the status is set to On hold, the agreement fields become active for editing.
  
 ### Change classification
+---
 
 Standard functionality does not allow for purchase agreement classification to be changed (once the record is saved, the field becomes unavailable for editing).
  
