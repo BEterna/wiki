@@ -1,8 +1,24 @@
-# How To: Use Procurement enhancements
+# Procurement enhancements
 
 Throughout the following sections of this document, functionalities and forms connected with different procurement procedures will be presented, together with their embeddedness with the standard D365O features, required for procurement processes.
 
-Firstly, the required setup in terms of procurement enhancements is described, followed by the overview of additionally developed functionalities in procurement procedures. Additionally, enhancements added to standard D365O forms (e.g. purchase agreements) are presented throughout the document.
+Following enhancements are available: 
+- Purchase requisition and request for quotation
+  - Allow change of purchase type
+  - Auto approve the purchase requisition
+ - Purchase agreement enhancements
+   - Requester
+   - Purchase agreement type
+   - Related to agreement
+   - Disable editing of effective purchase agreements
+   - Change classification
+ - Purchase order enhancement
+   - Assign subcontractor
+- Vendor invoice workflow enhancements
+   - Participant is Purchase order line requester
+   - Participant is Purchase order or purchase agreement requester
+   - Participant is Purchase order purchase placer
+   - Participant is Purchase order requester
 
 ## Purchase requisition and request for quotation enhancements
 
@@ -24,6 +40,7 @@ If “Allow change of purchase type” is enabled, standard Purchase type field 
 Changing purchase type on RFQ case manually is not allowed if:
    - standard D365O conditions for locking the field are met or
    - RFQ is connected with the public procurement case (available only in AdSuite_Public Procurement package)
+
  
 ### Auto approve the purchase requisition
 
