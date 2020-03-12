@@ -12,36 +12,33 @@ Framework agreement consists of following sections:
 |**Section**|**Description**  |
 |--|--|
 |General  |Information in section General is transferred directly from the public procurement case, from which framework agreement has been created (indicated in the “Case ID” field).  |
-|Selected parts and vendors  |section displays all the accepted tenders from the originating public procurement case.   |
-|Lines  |ection displays information about the lines, from the accepted tenders, while in Line details section more information about each of the lines is displayed throughout multiple tabs, as described below.  |
+|Selected parts and vendors  |Section displays all the accepted tenders from the originating public procurement case.   |
+|Lines  |Section displays information about the lines, from the accepted tenders, while in Line details section more information about each of the lines is displayed throughout multiple tabs, as described below.  |
 
 
-   - GENERAL tab displays information about the:
-     - Agreement line product (Procurement category or Item) and procurement category/item name;
-     - Agreement ID (ID of the framework agreement to which each line belongs to);
-     - Part (public procurement case part – the originating RFQ case) and
-     - Project ID (if the referring RFQ line is linked to a project).
-   - PRICE AND DISCOUNT display information about Quantity, Price, Units, Amounts, and Currency.
-   - FULFILLMENT section displays the:
-     - Remaining (total remaining amount, left to be released in terms of framework agreement line);
-     - Released to request for quotations;
-     - Released to purchase agreements;
-     - Released to request purchase orders.
-5. Releasing from framework agreements can be done by linking the RFQ case directly with the framework agreement and connecting them with a public procurement case, as described throughout the following chapter.
+| **Line Tab** |**Available information**  |
+|--|--|
+|General  | <ul><li>Agreement line product (Procurement category or Item) and procurement category/item name</li><li>Agreement ID (ID of the framework agreement to which each line belongs to)</li><li>Part (public procurement case part – the originating RFQ case)</li><li>Project ID (if the referring RFQ line is linked to a project)</li></ul>|
+|Price and discount  |information about Quantity, Price, Units, Amounts, and Currency|
+|Fulfilment  | <ul><li>Remaining (total remaining amount, left to be released in terms of framework agreement line)</li><li>Released to request for quotations</li><li>Released to purchase agreements</li><li>Released to request purchase orders</li></ul>|
+
+
+Releasing from framework agreements can be done by linking the RFQ case directly with the framework agreement and connecting them with a public procurement case, as described throughout the following chapter.
 
 ## **Releasing from a framework agreement**
 ---
 
-1. A public procurement case, which refers to a framework agreement, is created by creating RFQ cases. Firstly, an adequate framework agreement needs to be selected in the RFQ case header section, and then adequate RFQ case(s) need to be connected to a public procurement case.
+A public procurement case, which refers to a framework agreement, is created by creating RFQ cases. Firstly, an adequate framework agreement needs to be selected in the RFQ case header section, and then adequate RFQ case(s) need to be connected to a public procurement case.
 
 NOTE: only RFQ cases associated with the same framework agreement can be connected to the same public procurement case.
-2. Framework agreements can be selected directly on each RFQ case by clicking “Select framework agreement” button:
-3. A new form opens where it is possible to select applicable framework agreement to be associated with the RFQ case (“Framework agreement parts” section) and mark lines from the agreement, which will be released throughout the RFQ case. If one framework agreement consists of multiple parts (tenders), separate records on the list display all the existing framework agreements and part combinations.
+
+1. Framework agreements can be selected directly on each RFQ case by clicking “Select framework agreement” button:
+1. A new form opens where it is possible to select applicable framework agreement to be associated with the RFQ case (“Framework agreement parts” section) and mark lines from the agreement, which will be released throughout the RFQ case. If one framework agreement consists of multiple parts (tenders), separate records on the list display all the existing framework agreements and part combinations.
  
 NOTE: only framework agreements in Status “Effective” are displayed on the list.
 In the “Actions” section, a connection between the lines from the RFQ and framework agreement are defined:
  
-4. Actions work in the following way:
+Actions work in the following way:
    - If none of the (two) checkmarks are checked, no connection will be created between the framework agreement and RFQ case – only headers of both documents will be connected. In the case of a framework agreement with multiple parts, only parts on which we are positioned before clicking “Ok” will be connected.
    - If “Automatically match existing lines” is checked, a new connection between the existing framework agreement and RFQ case lines will be created:
      - In case of Procurement categories: if same Procurement category is selected on both – framework agreement and RFQ case line or a procurement category, subordinate to the one from the framework agreement is selected on the RFQ case line;
