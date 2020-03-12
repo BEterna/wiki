@@ -1,4 +1,4 @@
-# How To: Post Compensations
+# Compensations (Set-off)
 
 The feature enables settlements between receivable and payable amounts for a company that is registered as both – a customer and a vendor in the system need to be done. This settlement process uses a legal procedure that is known as compensation or netting.
 
@@ -6,7 +6,8 @@ The creation of a compensation proposal is enabled, where it is possible to sele
 
 This custom-developed feature is part of the AdactaSuiteCompensations AdSuite D365O extension packet.
 
-## Enabling compensations
+## **Setup**
+---
 
 ### Number sequence
 
@@ -16,21 +17,25 @@ The number sequence needs to be set up. This can be done in Organization adminis
 
 A separate journal name needs to be generated. Since one voucher posting is not allowed, the offset account (type is not important, but usually Bank or Ledger are used) needs to be defined for this journal. This way two separate vouchers will be generated during the posting process.
  
-## Generate compensation proposals
+## **Generate compensation proposals**
+---
 
 Compensation proposals are generated in Accounts Payable - Compensations - Generate compensations. Two types of compensations can be generated: 
    - Internal: between Customer and Vendor that are connected to the same Party in Global Address book
    - Chain: between Customer and Vendor that are connected to different Partys in Global Address book.  
 According to Type, different options are available. 
-   - When choosing Type Internal, field Name is enabled. In this field, the user can choose the Party from Global Address book.  If the field is left empty, compensation proposals will be created for all candidates with the same Party ID and open receivable and payable amounts. 
-   - Currency defaults from legal entity currency since compensations are usually processed in domestic currency.  The user can also change the currency to generate compensations in foreign currency if needed. In this case, the currency of the Vendor and Customer transaction needs to be in the same currency. 
-   - With Due date, a user defines transactions to be compensated. Due date is checked for Vendor and Customer transactions.  All Vendor/Customer transactions that have a due date before or on the date defined, will be candidates for compensation. 
-   - The date field defines the date of the compensation proposal. 
- 
 
-When choosing Type Chain, additional fields Customer account and Vendor account are enabled. Both need to be populated in order to create a Compensation proposal. The field name is disabled since Vendor and Customer, in this case, don't have the same Party ID. Due date and Date follow the same rules as in the case of Type Internal. 
+To generate compensations proposal, following parameters need to be defined: 
+
+| **Parameter** |**Description**|
+|--|--|
+|Type  |Two options are available: Internal and Chain. When choosing Type Chain, fields Customer account and Vendor account are enabled. In this field, the user can manually choose Vendor and Customer for comepansation.  With option Internal compensation proposals will be created for all candidates with the same Party ID and open receivable and payable amounts. Fields Customer account and Vendor account are disabled. |
+|Date  |The date field defines the date of the compensation proposal.   |
+|Due date  |With Due date, a user defines transactions to be compensated. Due date is checked for Vendor and Customer transactions.  All Vendor/Customer transactions that have a due date before or on the date defined, will be candidates for compensation.  |
+|Currency  | Currency defaults from legal entity currency since compensations are usually processed in domestic currency.  The user can also change the currency to generate compensations in foreign currency if needed. In this case, the currency of the Vendor and Customer transaction needs to be in the same currency. |
+
  
-After click on OK button Compensation proposals that fit the criteria are generated. A list of Compensation proposals can be found in Accounts Payable - Compensations - Compensations.
+After confirming with OK button Compensation proposals that fit the criteria are generated. A list of Compensation proposals can be found in Accounts Payable > Compensations > Compensations.
  
 
 Compensation proposals are assigned a certain status, according to phase: 
