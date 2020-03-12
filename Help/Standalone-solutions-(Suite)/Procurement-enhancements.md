@@ -3,7 +3,7 @@
 Throughout the following sections of this document, functionalities and forms connected with different procurement procedures will be presented, together with their embeddedness with the standard D365O features, required for procurement processes.
 
 Following enhancements are available: 
-- Purchase requisition and request for quotation
+- Purchase requisition and request for quotation enhancements
   - Allow change of purchase type
   - Auto approve the purchase requisition
  - Purchase agreement enhancements
