@@ -1,6 +1,8 @@
  
-## Vendor invoice workflow enhancements
+# Vendor invoice workflow enhancements
 
+## **Additional participant providers**
+---
 Vendor invoice workflow is enhanced for additional participant type “Vendor invoice participant provider= that offers four new participants:
    - Purchase order line requester
    - Purchase order or purchase agreement requester
