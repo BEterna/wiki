@@ -39,12 +39,11 @@ NOTE: both – Public procurement case statuses and stages only have the informa
 ## **Create case**
 ---
 
-1. Public procurement cases can be created:
-   - Directly from the RFQ case: On RFQ case click on either “Create case” (creates a new public procurement case) or “Add to case” (connects RFQ case with an already existing public procurement case) button.
-   - Through Public procurement cases form: Procurement and sourcing - Public procurement cases - All cases
-Click on “New” - “Case”.
-2. Following any of the above-described procedures (1 or 2), a new form opens. If action to add RFQ case to an already existing case is selected, a new form opens, where users can select the public procurement case, with which they want to connect the RFQ case.
-3. If an action to create a new public procurement case out of the RFQ case is selected, a different form opens, where it is possible to determine additional information about the public procurement case. This information is described below by each section of the public procurement case form: 
+Public procurement cases can be created:
+1.    Directly from the RFQ case: On RFQ case click on either “Create case” (creates a new public procurement case) or “Add to case” (connects RFQ case with an already existing public procurement case) button.
+1.  Through Public procurement cases form: Procurement and sourcing > Public procurement cases > All cases > New > Case.
+
+Following any of the above-described procedures (1 or 2), a new form opens. If action to add RFQ case to an already existing case is selected, a new form opens, where users can select the public procurement case, with which they want to connect the RFQ case. If an action to create a new public procurement case out of the RFQ case is selected, a different form opens, where it is possible to determine additional information about the public procurement case. This information is described below by each section of the public procurement case form: 
 
 GENERAL section:
 
@@ -101,9 +100,8 @@ Additionally, Expected dates of finality and a checkmark whether quotations in r
 ### Public procurement members
 
 In this section, it is possible to add members (e.g. of the Expert commission), related to the public procurement case. 
-1. This can be done by clicking »New« and selecting adequate member roles (from the register of roles), then assigning each role to a worker (from the register of workers). 
-2. For each of the selected members, a Description and duration of their membership in the public procurement case can be defined. 
-3. Multiple members can be added (as separate lines).
+
+This can be done by clicking »New« and selecting adequate member roles (from the register of roles), then assigning each role to a worker (from the register of workers). For each of the selected members, a Description and duration of their membership in the public procurement case can be defined. Multiple members can be added (as separate lines).
  
 ### Public procurement attachments
 
