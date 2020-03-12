@@ -1,4 +1,4 @@
-# How To: Use Public Procurement
+# Public Procurement
 
 Public procurement is a set of actions, with the objective of purchasing goods, services or contractual works in a more economical way. In some countries, the use of prescribed public procurement procedures is often mandatory, especially for direct or indirect users of national and local budgets. Regardless of the type and extent of the order, these entities must respect the fundamental principles of public procurement, such as the economic use of public funds, the equity of providers, the transparency of the procedures, and the principle of ensuring competition between the tenderers. All public procurement contracts have to be in accordance with these principles, therefore this functionality enhances and adds to the standard D365O functionality for the purpose of simple, efficient and legally correct public procurement.
 
@@ -7,6 +7,7 @@ Throughout the following sections of this document, functionalities and forms co
 Firstly, the required setup in terms of public procurement is described, followed by the overview of public procurement procedures and the role of additionally developed functionalities (Public procurement case enhancements and Framework agreements) in these procedures. Additionally, enhancements added to standard D365O forms (e.g. purchase orders or requests for quotation) are presented throughout the document.
 
 ## Public procurement parts
+
 
 Public procurement parts refer to requests for quotation (RFQ) cases, which are used as input documents to successfully perform public procurement procedures. Throughout the following chapter, required setup, prerequisites, and additionally developed functionalities, required for an adequate RFQs creation for the purpose of public procurement procedures are presented.
 
