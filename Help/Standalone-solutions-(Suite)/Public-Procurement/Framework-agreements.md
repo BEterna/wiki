@@ -1,12 +1,21 @@
-## Framework agreements
+# Framework agreements
 
-### Form description
+## **Form description**
+---
+Open Procurement and sourcing > Purchase agreements > Framework agreements.
 
-1. Open Procurement and sourcing - Purchase agreements - Framework agreements.
-2. The creation of Framework agreements is discussed throughout the chapter Framework agreement. Once created, the Framework agreements list displays all the generated framework agreements:
-3. Information in section General is transferred directly from the public procurement case, from which framework agreement has been created (indicated in the “Case ID” field).
-Selected parts and vendors section displays all the accepted tenders from the originating public procurement case. 
-4. Lines section displays information about the lines, from the accepted tenders, while in Line details section more information about each of the lines is displayed throughout multiple tabs, as described in the following paragraphs.
+The creation of Framework agreements is discussed throughout the chapter Framework agreement. Once created, the Framework agreements list displays all the generated framework agreements.
+
+Framework agreement consists of following sections: 
+
+
+|**Section**|**Description**  |
+|--|--|
+|General  |Information in section General is transferred directly from the public procurement case, from which framework agreement has been created (indicated in the “Case ID” field).  |
+|Selected parts and vendors  |section displays all the accepted tenders from the originating public procurement case.   |
+|Lines  |ection displays information about the lines, from the accepted tenders, while in Line details section more information about each of the lines is displayed throughout multiple tabs, as described below.  |
+
+
    - GENERAL tab displays information about the:
      - Agreement line product (Procurement category or Item) and procurement category/item name;
      - Agreement ID (ID of the framework agreement to which each line belongs to);
@@ -20,7 +29,8 @@ Selected parts and vendors section displays all the accepted tenders from the or
      - Released to request purchase orders.
 5. Releasing from framework agreements can be done by linking the RFQ case directly with the framework agreement and connecting them with a public procurement case, as described throughout the following chapter.
 
-### Releasing from a framework agreement
+## **Releasing from a framework agreement**
+---
 
 1. A public procurement case, which refers to a framework agreement, is created by creating RFQ cases. Firstly, an adequate framework agreement needs to be selected in the RFQ case header section, and then adequate RFQ case(s) need to be connected to a public procurement case.
 
