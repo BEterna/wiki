@@ -9,7 +9,7 @@ Public procurement cases functionality is used to perform public procurement pro
 
 Case categories are used to distinguish between different public procurement procedures. The required number of case categories, therefore, depends on the types of distinct public procurement processes required to be performed in D365O. For each public procurement procedure (e.g. Low-value order or Open procedure), a unique case category is proposed to be created.
 
-1. Open Organization administration - Setup - Cases - Case categories.
+1. Open Organization administration > Setup > Cases > Case categories.
 2. New Case categories can be created by clicking »New«, then enter a name and description to an adequate hierarchy node. For each case category, a default case process can be set. Case processes specify the steps for each distinct public procurement process and are further described throughout the following chapter (2.1.2).
 3. In the “Public procurement amount limits” section, order value for each public procurement case category can be set. Amounts refer to the total amount of the combined public procurement case parts (RFQ cases), added to the case. However, no amount of validation exists, while these amounts are mainly informational.
  
@@ -22,7 +22,7 @@ Additionally, amount limits are checked, if “Propose case categories” functi
 The case process is a predefined template, which describes the expected steps in the process of each of the public procurement cases. Case processes can be defined per case category or separately for each public procurement case.
 A new case process can be created by clicking “New” and adding responsibilities – a list of all the possible stages within the process.
 
-1. Open Organization administration - Setup - Cases - Case processes.
+1. Open Organization administration > Setup > Cases > Case processes.
 2. Once Responsibilities are entered, process hierarchy can be defined. This is done by clicking the “Details” button under the “Process” tab.
 3. The hierarchy of the entered process steps can be added by clicking “New” - “Level”. A new form opens, where additional information about each of the steps in the process can be entered.
  
