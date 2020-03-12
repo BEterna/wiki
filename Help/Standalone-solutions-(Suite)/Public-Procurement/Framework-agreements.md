@@ -59,12 +59,12 @@ Attached (connected) framework agreement lines, connected with each line of the 
 A link between the RFQ and framework agreement can also be removed – on both the header and the line level.
 
 
-11. A new public procurement case can then be created directly from the RFQ case. This newly generated public procurement case is automatically connected with the framework agreement (or its part), connected with the originating RFQ case. All lines from the RFQ cases, connected with the same public procurement case need to be connected to a framework agreement. If connecting multiple RFQ cases to the same public procurement case, lines from all these RFQs need to be connected to the same framework agreement.
-12. Trying to add RFQ cases, connected with different framework agreements to one public procurement case will result in an error.
-13. When RFQ(s), connected with a framework agreement is added to a public procurement case, the framework agreement is displayed in the Agreement ID field on the case.
-14. In the “Proposed vendors” section of the public procurement case, vendors from each part (RFQ case) of the connected framework agreement are displayed.
-15. When registering tenders, connected with the public procurement case, only vendors from the “Proposed vendors” section can be registered as tenderers.
+A new public procurement case can then be created directly from the RFQ case. This newly generated public procurement case is automatically connected with the framework agreement (or its part), connected with the originating RFQ case. All lines from the RFQ cases, connected with the same public procurement case need to be connected to a framework agreement. If connecting multiple RFQ cases to the same public procurement case, lines from all these RFQs need to be connected to the same framework agreement. Trying to add RFQ cases, connected with different framework agreements to one public procurement case will result in an error.
+
+When RFQ(s), connected with a framework agreement is added to a public procurement case, the framework agreement is displayed in the Agreement ID field on the case.
+
+In the “Proposed vendors” section of the public procurement case, vendors from each part (RFQ case) of the connected framework agreement are displayed. When registering tenders, connected with the public procurement case, only vendors from the “Proposed vendors” section can be registered as tenderers.
  
 The rest of the public procurement procedure is the same as for any other public procurement cases and is described throughout previous sections of this document.
 
-16. When tenders are accepted, the fulfilment of the referring lines from the framework agreement is updated, according to the Purchase type from the public procurement case.
+When tenders are accepted, the fulfilment of the referring lines from the framework agreement is updated, according to the Purchase type from the public procurement case.
