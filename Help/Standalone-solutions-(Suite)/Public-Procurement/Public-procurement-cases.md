@@ -204,38 +204,45 @@ This section displays information about the user who created the case and the cr
  
 ### Legal protection events
 
-1. Different legal protection event can also be entered if and when applicable by clicking “New”. Adequate fields then need to be filled in, depending on the legal event type:
-   - Event type ID: selected from the register;
-   - Applicant: a worker who filed the request;
-   - Date;
-   - Application complete: (yes/no);
-   - Commission decision: can be selected from the register;
-   - Commission decision date.
-2. Additionally, in the bottom part of the form, the user can define which of the RFQs a specific legal protection event refers to.
-3. After the legal protection event is completed, a tender accepting process can begin.
+Different legal protection event can also be entered if and when applicable by clicking “New”. Adequate fields then need to be filled in, depending on the legal event type:
+
+
+|**Field**|**Description**|
+|--|--|
+|Event type ID  |selected from the register  |
+|Applicant  |a worker who filed the request  |
+|Date  |  |
+|Application complete  |Options Yes if application is complete and No if application is incomplete.  |
+|Commission decision  |can be selected from the register|
+|Commission decision date  |Date of commission decision|
+
+
+
+Additionally, in the bottom part of the form, the user can define which of the RFQs specific legal protection event refers to.
+After the legal protection event is completed, a tender accepting process can begin.
 
 ## **Accept tenders**
 ---
 
-1. Before accepting the tenders, public procurement parts (RFQ cases connected with the public procurement case) should be marked as “Final”. Information about the finality is also transferred to the RFQ case.
-2. Tender replies can be compared by clicking the “Accept tenders” button.
-3. A new form opens, consisting of two additional tabs: (1) Request for quotation and (2) Acceptance of quotation.
-   - RFQ cases associated with tenders to be accepted;
-   - Based on the selected RFQ case in (1), tenderer replies are listed. Users can select tenders to be accepted by adding a checkmark into the “Marked” field.
+Before accepting the tenders, public procurement parts (RFQ cases connected with the public procurement case) should be marked as “Final”. Information about the finality is also transferred to the RFQ case.
+
+Tender replies can be compared by clicking the “Accept tenders” button. A new form opens, consisting of two additional tabs: (1) Request for quotation and (2) Acceptance of quotation.
+   - (1) RFQ cases associated with tenders to be accepted;
+   - (2) Based on the selected RFQ case in (1), tenderer replies are listed. Users can select tenders to be accepted by adding a checkmark into the “Marked” field.
  
 NOTE: if a Purchase type of the public procurement case is “Framework agreement”, multiple vendors can be selected for one public procurement case part (RFQ case).
-When the desired tenderer replies are selected, they can be accepted by clicking on the “Accept” button.
- 
-4. A new form for Accepting requests for quotation opens, where RFQ, tenderer’s name, and currency are displayed. Transaction date is automatically adjusted to the current system date, but can also be changed.
+
+When the desired tenderer replies are selected, they can be accepted by clicking on the “Accept” button. A new form for Accepting requests for quotation opens, where RFQ, tenderer’s name, and currency are displayed. Transaction date is automatically adjusted to the current system date, but can also be changed.
 
 NOTE: a checkmark in the “Do not transfer inventory dimensions” field signifies that inventory dimensions from the RFQ case line, associated with the tender will not be transferred to the generated document (public procurement case result) and is applicable only if result of the public procurement case acceptance is either purchase agreement or framework agreement.
 
-5. In the bottoms section of the form, RFQ case lines, associated with the tender replies to be accepted are displayed.
-6. By clicking OK, another form for rejecting the remaining tenders opens. The section contains all the received tenderer replies, which have not been accepted in the previous step of the procedure.
-7. When processing is completed, the status of the accepted tenderer replies changes to “Accepted” and of those rejected to “Rejected”. This can be seen in:
+In the bottoms section of the form, RFQ case lines, associated with the tender replies to be accepted are displayed. By clicking OK, another form for rejecting the remaining tenders opens. The section contains all the received tenderer replies, which have not been accepted in the previous step of the procedure.
+
+When processing is completed, the status of the accepted tenderer replies changes to “Accepted” and of those rejected to “Rejected”. This can be seen in:
    - “Acceptance journal” section of the “Request for quotation acceptance” form or
    - Tenderer replies form, where the selected tender is also indicated.
-8. Additionally, informational messages indicate the public procurement case processing results – created either Purchase order, Purchase agreement or Framework agreement.
+
+Additionally, informational messages indicate the public procurement case processing results – created either Purchase order, Purchase agreement or Framework agreement.
  
 ### Group acceptance journals
 
@@ -254,16 +261,15 @@ NOTE: in case of a chosen tender from a tenderer consortium, multiple documents 
 
 If a result of a public procurement case is a purchase order, purchase type “Purchase order” has been defined when generating the case. If any other document had been selected upon the public procurement case creation, these documents would be created instead.
  
-1. It can be accessed through standard D365O forms for accessing purchase orders. 
-2. All the information (header and line details) about the tenders are transferred from the related tender (RFQ case part associated with the tender) to this newly created purchase order (standard D3565O functionality). 
-3. A purchase order is created in status “Approved”.
+It can be accessed through standard D365O forms for accessing purchase orders. All the information (header and line details) about the tenders are transferred from the related tender (RFQ case part associated with the tender) to this newly created purchase order (standard D3565O functionality). Purchase order is created in status “Approved”.
  
 ### Purchase agreement
 
 If Purchase agreements are created because of a public procurement case, they can be accessed through standard D365O forms for accessing purchase agreements. Header and line information about the accepted tender are transferred from the related RFQ case parts, included in the accepted tender.
  
-1. If tender from a consortium of tenderers has been accepted in public procurement case, then one purchase agreement is created for each of the involved vendor accounts in D365O:
-2. Information about the related purchase agreements, resulting from the accepted tender for a consortium of tenderers can be seen in the “Related agreements” section on each of the related agreements.
+If tender from a consortium of tenderers has been accepted in public procurement case, then one purchase agreement is created for each of the involved vendor accounts in D365O:
+
+Information about the related purchase agreements, resulting from the accepted tender for a consortium of tenderers can be seen in the “Related agreements” section on each of the related agreements.
     
 ### Framework agreement
 
