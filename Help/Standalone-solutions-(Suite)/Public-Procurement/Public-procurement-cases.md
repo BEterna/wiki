@@ -273,26 +273,33 @@ Information about the related purchase agreements, resulting from the accepted t
     
 ### Framework agreement
 
-1. If the purchase type “Framework agreement” has been defined when generating the public procurement case, a result of the case process is a generated framework agreement. One framework agreement can consist out of multiple case parts and tenders related to each of these parts (RFQ cases).
+Prior to generating framework agreements, number sequences used for Framework agreements need to be configured in Organizational administration module, with the following settings:
+
+
+|**Field**|**Value**  |
+|--|--|
+|Scope  |Shared  |
+|Area |Purchase  |
+|Reference  |Framework agreement ID  |
+
+
+If the purchase type “Framework agreement” has been defined when generating the public procurement case, a result of the case process is a generated framework agreement. One framework agreement can consist out of multiple case parts and tenders related to each of these parts (RFQ cases).
  
 NOTE: Purchase type “Framework agreement” is displayed as an option also when creating RFQ cases, but cannot be manually selected there.
  
-2. Prior to generating framework agreements, number sequences used for Framework agreements need to be configured in Organizational administration module, with the following settings:
-   - Scope: »Shared”;
-   - Area: “Purchase” and
-   - Reference: “Framework agreement ID”.
-3. After tenders are accepted, a Framework agreement is created based on the pre-set number sequence. 
+After tenders are accepted, a Framework agreement is created based on the pre-set number sequence. 
  
 ## **Send decisions**
 ---
 
-1. Notifying tenderers about the acceptance or rejection of their tenders can be recorded on the Public procurement case in the “Tender registrations” section. By selecting an adequate tenderer, “Decision sending date” and “Decision delivery” date can be entered. 
-2. This procedure should be repeated for each tenderer, included in the public procurement case.
+Notifying tenderers about the acceptance or rejection of their tenders can be recorded on the Public procurement case in the “Tender registrations” section. By selecting an adequate tenderer, “Decision sending date” and “Decision delivery” date can be entered. 
+This procedure should be repeated for each tenderer, included in the public procurement case.
 
 NOTE: publishing decision about the accepted/rejected tenders can only be indicated in D365O, while it may have to be manually updated on the adequate public procurement portal.
 
 ## **Close case**
 ---
 
-1. Once the public procurement process is complete, the case can be marked as “Closed”. This can be done by clicking “Change status” and selecting “Closed”.
-2. In the “Administration” section, “Closed by” fields display the name of the user, who closed the case, along with the closed date and time.
+Once the public procurement process is complete, the case can be marked as “Closed”. This can be done by clicking “Change status” and selecting “Closed”.
+
+In the “Administration” section, “Closed by” fields display the name of the user, who closed the case, along with the closed date and time.
