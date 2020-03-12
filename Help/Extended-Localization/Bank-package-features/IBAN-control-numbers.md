@@ -1,10 +1,21 @@
-This extended localization feature enables the IBAN control numbers check for Slovenia, Croatia and Serbia. Standard functionality does not support IBAN check for these three countries, while this feature enables the adequate IBAN validation.
+# IBAN control numbers
 
-This extended localization feature enables IBAN control number formats, which differ among countries:
--	For Slovenian IBAN control number consists of 2 numbers: SI56XXXXXXXXXXXXXXX
--	For Croatian IBAN control number consists of 7 numbers: HR12XXXXXXXXXXXXXXXXX
--	For Serbian IBAN control number consists of 3 numbers: RS35XXXXXXXXXXXXXXXXX
+The feature allows the Bank group and data from Bank group defaulting upon entering IBAN.
 
-IBAN entries, not in accordance with the above-described formats in terms of each of the countries will result in an error and are not possible to be saved.
+This extended localization feature enables additional localization fields “IBAN control number” and “SWIFT code” on bank group form. Entering IBAN on partner, employee or company bank account enables automatic transfer of data from related bank groups. After entering IBAN code on the bank account, fields Name, Bank groups, SWIFT code, and Address are automatically populated with data from the corresponding bank group (if entered in bank group form).
 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365%20ext%20LOC_Payment%20ID%20in%20AR.docx?d=wbbde751b05f04ac3aa59621a83941b49&csf=1&e=QqQj6b)
+## Bank groups setup
+
+1. Open Cash and bank management – Setup – Bank groups.
+2. It is possible to enter localization fields “IBAN control number” and “SWIFT code” on the bank group form. Entering IBAN on partner, employee or company bank account enables automatic transfer of data from related bank groups.
+
+IBAN control number formats are different for each country: <br>
+   - For SI IBAN control number consists of 2 numbers: SI56XXXXXXXXXXXXXXX<br>
+   - For HR IBAN control number consists of 7 numbers: HR12XXXXXXXXXXXXXXXXX<br>
+   - For RS IBAN control number consists of 3 numbers: RS35XXXXXXXXXXXXXXXXX<br>
+ 
+## Enter bank account
+
+After entering IBAN code on the bank account, fields Name, Bank groups, SWIFT code, and Address are automatically populated with data from the corresponding bank group (if entered in bank group form).
+ 
+Check **[Test Scenario](Bank-Groups-Test-Scenario.zip)** for default bank accounts.

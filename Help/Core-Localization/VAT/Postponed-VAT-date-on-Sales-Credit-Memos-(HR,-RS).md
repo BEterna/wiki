@@ -1,4 +1,0 @@
-
-Localization functionality allows posting Sales credit memos without VAT date in order be compliant with Croatian and Serbian legislation. If the feature is enabled, VAT date on tax transaction is left empty, and these documents are not included in any VAT reports. Later, when Credit note is confirmed by Customer, VAT date can be added manually, directly to Tax transaction, using VAT date change feature. 
-
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20VAT%20Reports%20SI%20docx.docx?d=wb9549c42a47d410a9d9723a851a6df44&csf=1&e=bFzEGW)
