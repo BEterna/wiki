@@ -132,15 +132,21 @@ The proposed vendors section is used only for public procurement procedures, con
 ### Tender registration
 
 1. Tender registrations section serves for registering tenders, who responded to the specific public procurement request. The following fields are available to be entered for each tender (line):
-   - Date and time: of the received tender;
-   - Vendor’s account: vendor’s account from the vendor’s register (NOTE: if vendors are added to “Proposed vendors” section of the public procurement case, only these specified vendors can be selected when registering tenderers);
-   - Consortium: should be checked if the line refers to the consortium of vendors;
-   - Worker: who registered the tender is automatically selected from the register upon entering each new tender;
-   - Delivery status: indicates whether tender has been received within the specified public procurement case Expiry date - “Late” or “In time” options are available (NOTE: only tenders from the tenderers who sent their tenders “In time” can be accepted later in the process);
-   - Submission method: indicates the method by which tenderer has submitted the tender (e.g. by mail or electronically);
-   - Delivered by: a free text field (e.g. name of the delivery person); 
-   - Properly labeled: indicates whether the received tender is properly labeled (NOTE: only properly labeled tenders can be accepted later in the process);
-   - Number of consignments: indicates the number of the received consignments connected with the tender.
+
+
+|**Field**|**Description**|
+|--|--|
+|Date and time  |of the received tender  |
+|Vendor’s account  |endor’s account from the vendor’s register (NOTE: if vendors are added to “Proposed vendors” section of the public procurement case, only these specified vendors can be selected when registering tenderers)  |
+|Consortium  |should be checked if the line refers to the consortium of vendors  |
+|Worker  |who registered the tender is automatically selected from the register upon entering each new tender  |
+|Delivery status  |indicates whether tender has been received within the specified public procurement case Expiry date - “Late” or “In time” options are available (NOTE: only tenders from the tenderers who sent their tenders “In time” can be accepted later in the process)  |
+|Submission method  |indicates the method by which tenderer has submitted the tender (e.g. by mail or electronically)  |
+|Delivered by  |a free text field (e.g. name of the delivery person)  |
+|Properly labeled  |indicates whether the received tender is properly labeled (NOTE: only properly labeled tenders can be accepted later in the process)  |
+|Number of consignments  |indicates the number of the received consignments connected with the tender.  |
+
+
 2. In the bottom part of the form, users can specify to which RFQ case from the “Public procurement parts” each tender reefers to. The bottom part of the form consists of as many lines as there are RFQ cases (public procurement parts) related to the public procurement case.
 
 For example – tender from “Telekom Slovenije, d.d.” refers to the goods/services from the public procurement part “000076”. This is indicated with the “In tender” checkmark:
