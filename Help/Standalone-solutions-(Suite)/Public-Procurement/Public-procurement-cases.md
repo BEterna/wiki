@@ -45,24 +45,39 @@ NOTE: both – Public procurement case statuses and stages only have the informa
 Click on “New” - “Case”.
 2. Following any of the above-described procedures (1 or 2), a new form opens. If action to add RFQ case to an already existing case is selected, a new form opens, where users can select the public procurement case, with which they want to connect the RFQ case.
 3. If an action to create a new public procurement case out of the RFQ case is selected, a different form opens, where it is possible to determine additional information about the public procurement case. This information is described below by each section of the public procurement case form: 
-   - GENERAL:
-      - Name: selected from the workers and contractors register (used to ease the filtering of cases);
-      - Case category: select an adequate public procurement case category from the register;
-      - Case ID: generated automatically according to the number sequences setup;
-      - Description: description (content) of the public procurement case can be added;
-      - Priority: can be selected from the register;
-      - Parent case: an existent public procurement case can be selected if applicable;
-      - Status: can be selected from the register.
-    - PUBLIC PROCUREMENT:
-      - Purchase type: the desired result of the public procurement case (Purchase agreement, Purchase order or Framework agreement);
-      - Solicitation type: selected from the register (Constructions, Goods or Services);
-      - Expiry date and time: expiry date of the Public procurement case (final date for the acceptance of vendor quotations);
-      - Subject: a free text field (e.g. longer description of the public procurement case);
-      - Agreement ID: link to an associated Framework agreement if it exists.
-    - OTHER: 
-      - Department: the department responsible for the public procurement case;
-      - Employee responsible: an employee responsible for the public procurement case (selected from the employee's register);
-      - Case process: populated automatically according to case category (defined in “General” section) – it can still be changed by selecting an adequate value from the register.
+
+GENERAL section:
+
+|**Field**|**Description** |
+|--|--|
+|Name  |selected from the workers and contractors register (used to ease the filtering of cases)  |
+|Case category  |select an adequate public procurement case category from the register  |
+|Case ID |generated automatically according to the number sequences setup  |
+|Description  |description (content) of the public procurement case can be added  |
+|Priority  |can be selected from the register  |
+|Parent case  |an existent public procurement case can be selected if applicable  |
+|Status  |can be selected from the register  |
+
+PUBLIC PROCUREMENT section: 
+
+|**Field**|**Description** |
+|--|--|
+|Purchase type  |the desired result of the public procurement case (Purchase agreement, Purchase order or Framework agreement)  |
+|Solicitation type  | selected from the register (Constructions, Goods or Services) |
+|Expiry date and time  |expiry date of the Public procurement case (final date for the acceptance of vendor quotations)  |
+|Subject  |a free text field (e.g. longer description of the public procurement case)  |
+|Agreement ID  |link to an associated Framework agreement if it exists.  |
+
+OTHER section:
+
+
+|**Field**|**Description** |
+|--|--|
+|Department  |the department responsible for the public procurement case  |
+|Employee responsible  |an employee responsible for the public procurement case (selected from the employee's register)  |
+|Case process  |populated automatically according to case category (defined in “General” section) – it can still be changed by selecting an adequate value from the register.  |
+
+
 
 After all the required information for a specific public procurement case is entered, the case can be created by clicking the »Create« button in the bottom right corner of the form. A public procurement case form opens, where most of the information, entered upon creating the case can still be edited. The public procurement case form and its processing is described throughout the following chapter.
 
