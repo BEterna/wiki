@@ -3,6 +3,7 @@
 The procurement process usually begins with Purchase requisitions (PRs) – a standard D365O feature. However, some enhancements in connection with PRs are made for the purpose of the more efficient procurement process. These enhancements are described throughout the following chapters.
 
 ### Allow change of purchase type
+---
 
 When RFQ cases are created from PRs, their purchase type is “Purchase requisition” and cannot be changed. The purchase type on RFQs is important, as it defines the outcome (document) that is to be created at the end. Since standard D365O functionality does not allow the change of purchase type on RFQ cases, which were created from PRs, the below-described functionality has been added to allow that.
 
@@ -21,6 +22,7 @@ Changing purchase type on RFQ case manually is not allowed if:
 
  
 ### Auto approve the purchase requisition
+---
 
 Using this setting, when creating RFQ(s) out of PR(s) with purchase type either “Purchase order” or “Purchase agreement”, after accepting/rejecting all the PR lines, PR is auto-approved – PR header and line status automatically changes to “Closed”. Auto-approval is generated in the name of the user, who performed the acceptance/rejection of the last remaining unprocessed PR line. Auto-approval can be enabled in:
 
