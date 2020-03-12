@@ -28,17 +28,19 @@ Releasing from framework agreements can be done by linking the RFQ case directly
 ## **Releasing from a framework agreement**
 ---
 
+###Connect Framework agreement and RFQ
+
 A public procurement case, which refers to a framework agreement, is created by creating RFQ cases. Firstly, an adequate framework agreement needs to be selected in the RFQ case header section, and then adequate RFQ case(s) need to be connected to a public procurement case.
 
 NOTE: only RFQ cases associated with the same framework agreement can be connected to the same public procurement case.
 
-1. Framework agreements can be selected directly on each RFQ case by clicking “Select framework agreement” button:
+1. Framework agreements can be selected directly on each RFQ case by clicking “Select framework agreement” button
 1. A new form opens where it is possible to select applicable framework agreement to be associated with the RFQ case (“Framework agreement parts” section) and mark lines from the agreement, which will be released throughout the RFQ case. If one framework agreement consists of multiple parts (tenders), separate records on the list display all the existing framework agreements and part combinations.
  
 NOTE: only framework agreements in Status “Effective” are displayed on the list.
-In the “Actions” section, a connection between the lines from the RFQ and framework agreement are defined:
+In the “Actions” section, a connection between the lines from the RFQ and framework agreement are defined.
  
-Actions work in the following way:
+**Actions** work in the following way:
    - If none of the (two) checkmarks are checked, no connection will be created between the framework agreement and RFQ case – only headers of both documents will be connected. In the case of a framework agreement with multiple parts, only parts on which we are positioned before clicking “Ok” will be connected.
    - If “Automatically match existing lines” is checked, a new connection between the existing framework agreement and RFQ case lines will be created:
      - In case of Procurement categories: if same Procurement category is selected on both – framework agreement and RFQ case line or a procurement category, subordinate to the one from the framework agreement is selected on the RFQ case line;
@@ -47,11 +49,16 @@ Actions work in the following way:
        - If Item from the RFQ case, a line is connected with the procurement category on the framework agreement or is connected to its subordinate procurement category.
 NOTE: manually connecting lines, described in the following part of this section uses the same principle for connecting the framework agreement and RFQ case lines as described above.
    - If “Create lines from selection” is checked, lines on the RFQ case are created based on the selected lines from the framework agreement (selected before clicking “Ok”). Subsequently, a connection between the newly generated RFQ case lines and framework agreement lines will be automatically created.
-5. If connecting framework agreement to RFQ case prior to entering RFQ case lines, these lines need to be manually connected with an adequate framework agreement part. This can be done by clicking on the “Update line” and “Create link”.
-6. A new form opens with lines from the selected framework agreement part, which match with the procurement category or item from the RFQ case line.
-8. The same rules for matching the framework agreement and RFQ lines, as described above when describing the “Release from framework agreement” actions apply if lines are connected manually.
-9. A link between the RFQ and framework agreement can also be removed – on both the header and the line level.
-10. Attached (connected) framework agreement lines, connected with each line of the RFQ can also be viewed.
+
+If connecting framework agreement to RFQ case prior to entering RFQ case lines, these lines need to be manually connected with an adequate framework agreement part. This can be done by clicking on the “Update line” and “Create link”. A new form opens with lines from the selected framework agreement part, which match with the procurement category or item from the RFQ case line. The same rules for matching the framework agreement and RFQ lines, as described above when describing the “Release from framework agreement” actions apply if lines are connected manually.
+
+Attached (connected) framework agreement lines, connected with each line of the RFQ can also be viewed.
+
+###Remove link between Framework agreement and RFQ
+
+A link between the RFQ and framework agreement can also be removed – on both the header and the line level.
+
+
 11. A new public procurement case can then be created directly from the RFQ case. This newly generated public procurement case is automatically connected with the framework agreement (or its part), connected with the originating RFQ case. All lines from the RFQ cases, connected with the same public procurement case need to be connected to a framework agreement. If connecting multiple RFQ cases to the same public procurement case, lines from all these RFQs need to be connected to the same framework agreement.
 12. Trying to add RFQ cases, connected with different framework agreements to one public procurement case will result in an error.
 13. When RFQ(s), connected with a framework agreement is added to a public procurement case, the framework agreement is displayed in the Agreement ID field on the case.
