@@ -2,14 +2,32 @@
 
 This chapter summarizes custom-developed features in the scope of the AdactaSuiteTravelAndExpenses AdSuite D365O extension packet that is described throughout the sections below.
 
+Following features are available:
+
+1. Travel requisition enhancements
+   - Fields on Travel requisition header
+   - Date Validation
+   - Travel requisition report print
+
+1. Expense report enhancements
+   - Fields on Expense report header
+   - Date Validation
+   - Expense report print
+   - Map to travel requisition
+   - Automatic Cash advance return line
+   - Set up posting dates for group Expense report transactions posting
+
+1. Cash advance enhancements
+   - Map cash advances to travel requisition
+   - PerDiem enhancements
+   - Per diem rate tiers: Include percent setup
+   - Per diem transaction date on last day
 
 
 
-## **Delegates for Cash advances**
----
+1. Signatories on localized report printouts
+1. Mass delegation
+1. Delegates for cash advances
 
-With Expense management enhancement package users can additionally generate Cash advances for other Employees if they are delegated for them (standard function “Delegates”). 
 
-1. New function “Open other users cash advances” is added to the Cash advances page, which opens a list of delegated Employees. 
-2. The user must select the employee for whom he wants to create a new Cash advance. After that the cash advance generation procedure is standard.
 
