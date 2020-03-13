@@ -84,6 +84,39 @@ Additional setting in Expense management parameters:
 
 If the “Apply cash advance return” option is checked: mapping travel requisition (with applied cash advance in status “Paid”) to expense report will automatically create an additional line with expense type “Cash advance return”. Transaction amount and date are transferred from cash advance, connected with the mapped travel requisition.
 
+### **Map cash advances to travel requisition**
+
+
+This feature enables cash advances to be mapped to travel requisitions. Travel requisition can be chosen from the drop-down menu (field “Map to travel requisition”). “Amount” displays total travel requisition amount from the mapped requisition. Only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to a cash advance.
+
+1. Added link to travel requisition. 
+2. Travel requisition can be chosen in the field “Map to travel requisition”. 
+3. “Amount” displays the total travel requisition amount from the chosen requisition. 
+
+Only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to the cash advance.
+
+
+### **Set up posting dates for group Expense report transactions posting**
+
+This feature allows defining date for posting expenses in case of transaction grouping. Posting date setup is applicable only when a standard grouping of transactions based on the offset account (specified on payment method) is enabled. Using this functionality, expenses can be posted based on: (1) The earliest transaction date within the group; (2) The latest transaction date within the group; (3) Last date in a month of the transaction line with the latest date.
+
+### Posting date of group transactions
+
+1. Open Expense management – Setup – General – Expense management parameters.
+2. The feature allows defining the date to post expenses on in case of enabled transaction grouping. Posting date setup is applicable only when a standard grouping of transactions based on the offset account specified in the payment method is enabled. 
+ 
+Possible options are:
+
+
+|**Value**  |**Description**  |
+|--|--|
+|First of group  |Transaction is posted on a date that is the earliest of all transaction dates.  |
+|Last of group  | Transaction is posted on a date that is the latest of all transaction dates. |
+|Last in month |Transaction is posted on the last date of the month of the line with the latest date. |
+
+ 
+Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**.
+
 
 ## **Per Diem enhancements**
 ---
@@ -120,40 +153,6 @@ Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**.
 2. Upon saving the expense line “Per diem”, the Transaction date is automatically populated with the value from the field “Per diem to date”. 
 
 
-
-## **Map cash advances to travel requisition**
----
-
-This feature enables cash advances to be mapped to travel requisitions. Travel requisition can be chosen from the drop-down menu (field “Map to travel requisition”). “Amount” displays total travel requisition amount from the mapped requisition. Only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to a cash advance.
-
-1. Added link to travel requisition. 
-2. Travel requisition can be chosen in the field “Map to travel requisition”. 
-3. “Amount” displays the total travel requisition amount from the chosen requisition. 
-
-Only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to the cash advance.
-
-
-## **Set up posting dates for group Expense report transactions posting**
----
-
-This feature allows defining date for posting expenses in case of transaction grouping. Posting date setup is applicable only when a standard grouping of transactions based on the offset account (specified on payment method) is enabled. Using this functionality, expenses can be posted based on: (1) The earliest transaction date within the group; (2) The latest transaction date within the group; (3) Last date in a month of the transaction line with the latest date.
-
-### Posting date of group transactions
-
-1. Open Expense management – Setup – General – Expense management parameters.
-2. The feature allows defining the date to post expenses on in case of enabled transaction grouping. Posting date setup is applicable only when a standard grouping of transactions based on the offset account specified in the payment method is enabled. 
- 
-Possible options are:
-
-
-|**Value**  |**Description**  |
-|--|--|
-|First of group  |Transaction is posted on a date that is the earliest of all transaction dates.  |
-|Last of group  | Transaction is posted on a date that is the latest of all transaction dates. |
-|Last in month |Transaction is posted on the last date of the month of the line with the latest date. |
-
- 
-Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**.
 
 
 ## **Signatories on localized report printouts**
