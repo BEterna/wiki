@@ -8,7 +8,7 @@ This chapter summarizes custom-developed features in the scope of the AdactaSuit
 
 This feature enhances standard D365O travel requisition functionality by adding the following functionalities:
 
-### Fields on Travel requisition header
+### **Fields on Travel requisition header**
 Additional fields are added to travel requisition header: 
    - From date and time 
    - To date and time 
@@ -18,12 +18,12 @@ Additional fields are added to travel requisition header:
    - By order of 
    - Registration number 
 
-### Date Validation
+### **Date Validation**
 
 The estimated expense date of each travel requisition line must be within a period, entered on the travel requisition header (set with “From” and “To date and time” fields). Using this feature, travel requisitions without lines can also be submitted to workflow and mapped to an expense report (if approved) if a setting “Enable submit to WF w/o lines” is enabled in Expense management parameters.
 
 
-### Travel requisition report print
+### **Travel requisition report print**
    - Two new travel requisition printouts are added with this feature:
      - Localized print (including details from each expense line) 
      - Localized print without lines (less detailed). 
@@ -36,7 +36,7 @@ Note: Localized printouts become available only if the “Use localized reports�
 
 This feature enhances standard D365O Expense report functionality by adding the following functionalities.
 
-### Fields on Expense report header
+### **Fields on Expense report header**
 
 Additional fields are added to the Expense report header.
 
@@ -49,11 +49,11 @@ Open Expense report header:
    - By order of 
    - Registration number 
 
-### Date Validation
+### **Date Validation**
    
 Validation is executed upon expense report dates: “Transaction date” entered for each expense line has to be within an entered period in expense report header localization fields From and To date and time.
 
-### Expense report print
+### **Expense report print**
 
 
 1. Open Expense management – Setup – General – Expense management parameters.
@@ -68,13 +68,13 @@ Note: if localized reports are not enabled in expense management parameters, the
 2. The report shows the same types of information as the travel requisition localized print.
 Amounts marked with a star (*) are included in the calculation “Remains for payment” – the amount that needs to be reimbursed to a worker.
 
-### Map to travel requisition
+### **Map to travel requisition**
 
 This feature also enables Travel requisitions to be mapped to Expense reports. Upon mapping information from Travel requisition header and lines are transferred to the mapped Expense report. The feature works only if “Copy data from requisition” option is checked in Expense management parameters, while only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to an Expense report.
 
 Upon mapping information from travel requisition header and lines are transferred to an expense report.
 
-### Automatic Cash advance return line
+### **Automatic Cash advance return line**
 
 If mapping Travel requisition with an applied cash advance (in status “Paid), upon transferring information from Travel requisition to mapped Expense report, additional expense line with expense type “Cash advance return” will be automatically created on an Expense report. The transaction amount and date for this newly generated line are transferred from cash advance (mapped to Travel requisition).
 
@@ -84,23 +84,12 @@ Additional setting in Expense management parameters:
 
 If the “Apply cash advance return” option is checked: mapping travel requisition (with applied cash advance in status “Paid”) to expense report will automatically create an additional line with expense type “Cash advance return”. Transaction amount and date are transferred from cash advance, connected with the mapped travel requisition.
 
-### **Map cash advances to travel requisition**
-
-
-This feature enables cash advances to be mapped to travel requisitions. Travel requisition can be chosen from the drop-down menu (field “Map to travel requisition”). “Amount” displays total travel requisition amount from the mapped requisition. Only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to a cash advance.
-
-1. Added link to travel requisition. 
-2. Travel requisition can be chosen in the field “Map to travel requisition”. 
-3. “Amount” displays the total travel requisition amount from the chosen requisition. 
-
-Only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to the cash advance.
-
 
 ### **Set up posting dates for group Expense report transactions posting**
 
 This feature allows defining date for posting expenses in case of transaction grouping. Posting date setup is applicable only when a standard grouping of transactions based on the offset account (specified on payment method) is enabled. Using this functionality, expenses can be posted based on: (1) The earliest transaction date within the group; (2) The latest transaction date within the group; (3) Last date in a month of the transaction line with the latest date.
 
-### Posting date of group transactions
+#### Posting date of group transactions
 
 1. Open Expense management – Setup – General – Expense management parameters.
 2. The feature allows defining the date to post expenses on in case of enabled transaction grouping. Posting date setup is applicable only when a standard grouping of transactions based on the offset account specified in the payment method is enabled. 
@@ -117,6 +106,18 @@ Possible options are:
  
 Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**.
 
+## **Cash advance enhancements**
+---
+
+### **Map cash advances to Travel requisition**
+
+This feature enables cash advances to be mapped to travel requisitions. Travel requisition can be chosen from the drop-down menu (field “Map to travel requisition”). “Amount” displays total travel requisition amount from the mapped requisition. Only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to a cash advance.
+
+1. Added link to travel requisition. 
+2. Travel requisition can be chosen in the field “Map to travel requisition”. 
+3. “Amount” displays the total travel requisition amount from the chosen requisition. 
+
+Only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to the cash advance.
 
 ## **Per Diem enhancements**
 ---
@@ -126,7 +127,7 @@ Additional features regarding per diems are added:
    - In terms of standard D365O functionality meal reduction for each meal in connection with per diem need to be entered as a percentage of the full per diem. This feature, however, enables that if field "Include percent" is marked, meal deductions will be calculated according to the value entered in field Meal percent. Otherwise, the deduction has to be entered as a percentage of full per-diem (e.g.  15% breakfast reduction for half per diem is calculated from the amount representing 75% of the full per diem).
    - Per diem transaction date on Expense reports can be defaulted from the last per diem day if the option is enabled in Expense management parameters.
 
-### Per diem rate tiers: Include percent setup
+### **Per diem rate tiers: Include percent setup**
 
 1. Open Expense management – Setup – Calculations and codes – Per diems -> Per diem rate tiers.
 2. Localization column “Include percent” is added to the form for per diem rate tiers setup. 
@@ -140,7 +141,7 @@ Additional features regarding per diems are added:
  
 Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**.
  
-### 	Per diem transaction date on last day
+### 	**Per diem transaction date on last day**
 
 #### Expense management parameters
 
@@ -160,7 +161,7 @@ Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**.
 
 This feature enables signatories to be set in Expense management parameters. Chosen Signatories are displayed on both localized travel requisition and expense reports and are enabled only for the localized printouts. It is possible to set whether Left, Middle, or Right signatory will be displayed on printouts. It is also possible to enter the text in the adequate field for each of the enabled signatories, which will be displayed under the signature line (e.g. CEO).
 
-### Setup
+### **Setup**
 
 1. Signatories can be set in Expense management parameters. 
 2. Chosen Signatories are displayed on localized travel requisition and expense reports. Signatories are enabled only for localized prints.
