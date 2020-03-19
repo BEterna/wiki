@@ -23,7 +23,7 @@ Validation is executed upon expense report dates: “Transaction date” entered
 Validation is optional and can be enabled/disabled in Expense management > Setup > General > Expense management parameters > Adacta (expense) > Ignore From-To date validation. 
 
 
-|Value  | Bahavior |
+|**Value**  | **Behavior** |
 |--|--|
 |Yes |Validation is not performed. There is no warning and the document can be submited to Workflow even if transaction is out of date range defined on the header of the document.  |
 |No  |Validation is performed. Warning appears if transaction is out of date range defined on the header of the document and the document cannot be submited to Workflow. |
