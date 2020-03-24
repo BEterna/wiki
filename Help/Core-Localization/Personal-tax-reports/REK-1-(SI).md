@@ -103,27 +103,18 @@ Personal tax transactions form can be filtered by “Open” transactions (not y
 
 |**Field**|**Description**|
 |--|--|
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+|Date  |payment date (if income reporting mode is “At settlement” or in case of vendor invoice transaction) or transaction date (when income reporting mode is “At expense posting”).  |
+|Worker  |worker for whom the business trip cost will be reported.  |
+|Amount  |transaction amount (in case of vendor invoice amount reported is base + VAT).  |
+|Income type  |income type of the transaction  |
+|Linked  |source from which each entry was generated (options are: Vendor invoice line, Expense line, Vendor transaction; manually added lines have value “Not linked”).  |
+|Reporting number  | number of created REK-1 report that contains this transaction; once a line has a reporting number, it cannot be edited anymore. If REK-1 report has not yet been generated, such transaction will have an empty value in field Reporting number. If the REK-1 report is deleted, information about the reporting number is automatically deleted.|
+|Generated  |marked with a checkmark are those transactions that are created through “Generate transactions” functionality; manually added entries do not have a checkmark in this field.  |
+|Description  |displays additional information about the transferred line; for manually added lines this is a free text field.  |
 
-   - Date: payment date (if income reporting mode is “At settlement” or in case of vendor invoice transaction) or transaction date (when income reporting mode is “At expense posting”).
-   - Worker: worker for whom the business trip cost will be reported.
-   - Amount: transaction amount (in case of vendor invoice amount reported is base + VAT).
-   - Income type: income type of the transaction
-   - Linked: source from which each entry was generated (options are: Vendor invoice line, Expense line, Vendor transaction; manually added lines have value “Not linked”).
-   - Reporting number: number of created REK-1 report that contains this transaction; once a line has a reporting number, it cannot be edited anymore.
-     - If REK-1 report has not yet been generated, such transaction will have an empty value in field Reporting number;
-     - If the REK-1 report is deleted, information about the reporting number is automatically deleted.
-   - Generated: marked with a checkmark are those transactions that are created through “Generate transactions” functionality; manually added entries do not have a checkmark in this field.
-   - Description: displays additional information about the transferred line; for manually added lines this is a free text field. 
-5. Button “Open source” displays source document for the selected transaction (Expense report for expense line, for vendor invoice line Invoice journal, is displayed, and Vendor transaction is opened for vendor transaction for the worker).
+
+  
+Button “Open source” displays source document for the selected transaction (Expense report for expense line, for vendor invoice line Invoice journal, is displayed, and Vendor transaction is opened for vendor transaction for the worker).
  
 It is possible to manually adjust the Amount of the lines that have not yet been reported. Information about the original amount remains in the Description. The adjusted amount is reported to REK-1.
  
@@ -135,15 +126,18 @@ Manually adding transactions to REK-1 transactions form is enabled because of al
 2. Define date, select worker, and entry cost amount. The manually added line has the value “Not linked” in column Linked and no checkmark in field Generated. 
 3. Enter any text in the Description field.
  
-## **Generate REK-1**
+## **Generate and Export REK-1**
 ---
 
-1. Open Tax – Declarations – Slovenia – REK-1 reporting or Tax – Declarations – Slovenia – REK-1 forms - button REK-1 reporting.
-2. Enter any date in a month to report transactions of that month that have not yet been reported (by entering a date in February, all entries from REK-1 transactions in February that do not have reporting number, will be reported). After confirming, the REK-1 report is generated. Multiple reports can be generated in one month.
-3. Clicking on button “REK-1 transactions” will display only those entries that are included in the selected REK-1 report.
-4. Click on Preview to check the report.
-5. The report is opened in an individual tab. Field B06 is populated with the amount.
-6. Use “Export to XML” to export the report to the XML format for eDavki. 
+1. Open Tax > Declarations > Slovenia > REK-1 reporting _or_ Tax > Declarations > Slovenia > REK-1 forms > button Read transactions.
+2. Enter any date in a month to report transactions of that month that have not yet been reported (by entering a date in February, all entries from REK-1 transactions in February that do not have reporting number, will be reported). 
+3. After confirming, the REK-1 report is generated. Multiple reports can be generated in one month.
+
+To **view generated reports** go to Tax > Declarations > Slovenia > REK-1 forms
+
+1. Click on button “View transactions” or dispayed Date:  entries that are included in the selected REK-1 report will be dispayed.
+2. Click on "Preview" to check the report. The report is opened in an separate tab. REK-1 reporting fields are populated with amounts. 
+3. Use “Export to XML” to export the report to the XML format for eDavki. 
  
 ## **Test cases**
 ---
