@@ -5,7 +5,7 @@ Localization functionality allows posting Sales credit memos without VAT date in
 ## **Setup**
 ---
 
-Additional setup is added to General ledger parameters (General ledger - Setup - General ledger parameters - Adacta localization), which enables posting sales credit memo without VAT date:
+Additional setup is added to General ledger parameters (General ledger > Setup > General ledger parameters > Adacta localization), which enables posting sales credit memo without VAT date:
 
 |Setup|Value|
 |---|---|
@@ -13,17 +13,15 @@ Additional setup is added to General ledger parameters (General ledger - Setup -
 
 
 
-  
-
-Setup affects the following documents:  
+Setup affects Credit notes generated from the following documents:  
  - Free text invoice 
  - Sales invoice 
  - Project invoice 
 
-## **Postponed VAT on a sales credit memo** 
+## **Generate Credit memo without VAT date (postponed VAT)** 
 ---
 
-1. Post Sales credit memo.
+1. Post Sales credit memo (follow standard procedures).
 2. Check tax transactions.
 
 As a result tax transactions are created without VAT date. The date can be entered later using the Change VAT date function, which is also a localization feature.  
@@ -34,7 +32,7 @@ As a result tax transactions are created without VAT date. The date can be enter
 1. Open Posted sales tax transactions.
 2. Choose the button Change VAT Date and enter the VAT date.
 
-VAT Date is entered on Posted sales tax.
+VAT Date is entered on Posted sales tax. Such document will be included in VAT reporting.
 
 
 
