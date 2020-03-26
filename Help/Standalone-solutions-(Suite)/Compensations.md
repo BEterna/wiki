@@ -83,8 +83,17 @@ Amounts included in compensation are listed in a separate column on Settle trans
 ## **Post compensations**
 ---
 
-The general journal is generated and posted using a button Post on Compensation proposal. The vendor and Customer posting profile need to be defined during the posting process.  Also, a separate Journal name needs to be generated. Since One voucher posting is not allowed, offset account (type is not important, but usually Bank or Ledger are used) needs to be defined for this journal. This way two separate vouchers will be generated during the posting process. 
- 
+Post button is enabled only if Compensation status is set to Active. This needs to be done manually. With click on Post button, new form opens, where following posting parameters need to be defined: 
+
+|**Parameter**|**Description**  |
+|--|--|
+|Journal Date | Date of compensation posting. Transactions will be settled with this date.  |
+|Journal Name  |Journal name, that is used for compensation posting. |
+|Customer posting profile  |Posting profile that will be used for closing customer transactions from compensation |
+|Vendor posting profile  |Posting profile that will be used for closing Vendor transactions from compensation |
+
  
 Customer and Vendor transactions are generated as a result of the compensation proposal posting. Journal can be opened from the Compensation proposals List using the Voucher transactions button.
+
+**In case of error**, Journal is generated, but not posted. Posting error is displayed. Information about generated journal is visible in compensation header in field Journal batch number. User can open generated journal and manually adjust it or delete it. If Journal is deleted, Journal batch number is deleted from Compensations header. 
  
