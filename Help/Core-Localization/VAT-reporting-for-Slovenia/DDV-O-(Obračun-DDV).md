@@ -15,9 +15,9 @@ To generate a VAT declaration in the correct format for the appropriate tax auth
 
 The generation of reports is based on reporting codes. Reporting code carries information about which field the transaction will be recorded in. 
 
-1. Open Tax – Setup – Sales tax – Sales tax reporting codes:
+1. Open Tax > Setup > Sales tax > Sales tax reporting codes:
    - Enter the list of **[reporting codes for SI](Reporting-codes.zip)**. Reporting codes can also be imported using Excel add-in. 
-2. Open Tax – Indirect taxes – Sales tax – Sales tax codes.
+2. Open Tax > Indirect taxes > Sales tax > Sales tax codes.
    - VAT reports are generated according to the setup of sales tax reporting codes on sales tax codes.  
 
 ####Configure Electronic reporting 
@@ -40,7 +40,7 @@ Sales tax calculation according to VAT date is part of the Adacta localization p
 
 
  
-As a result of the Sales tax calculation process DDV-O form is created (SI localization feature). It can be viewed in Tax - Declarations - Slovenia - VAT - DDV-O forms. 
+As a result of the Sales tax calculation process DDV-O form is created (SI localization feature). It can be viewed in Tax > Declarations > Slovenia > VAT > DDV-O forms. 
 
 ####Export to XML
 The report can be exported to XML by choosing a button Export to XML. If the Sales tax reporting date is before 1.1.2020, the old version of DDV-O form is generated instead. 
