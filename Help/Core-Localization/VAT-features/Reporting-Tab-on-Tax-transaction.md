@@ -4,6 +4,7 @@ As part of localization, an additional “Reporting” tab is added to Tax trans
 
 ## **Reporting Tab data sources**
 ----
+Go to Tax > Inquiries and reports > Sales tax inquiries > Posted sales tax > Reporting tab
 
 Following information, needed for VAT reporting purposes is added to the tab:
 
