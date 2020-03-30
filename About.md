@@ -22,6 +22,10 @@ The feature list is available on the following link. Features are grouped into C
 
 [Roadmap](Roadmap.md) is being prepared and will be available soon.
 
+## **Marketing materials**
+
+Please see official marketing brochure for [[Core localization]](http://resources.adacta-group.com/sites/58f8940b4c193e9fd30633c8/content_entry58f89d794c193e264120ffc2/5b6316d74c193e3793016f96/files/Dynamics_365_FO_Localization_Pack.pdf?1567087120). 
+
 
 -------------
 [Adacta Group](https://www.adacta-group.com/solutions/erp) 
