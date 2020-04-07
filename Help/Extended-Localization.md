@@ -27,11 +27,17 @@ NOTE: a prerequisite for using Extended Localization features is installed Core 
 
 <br>
 
+## Additional Exchange rate providers package
+---
+
 |**Additional Exchange rate providers _(LOC_EXCHANGE RATES)_**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
 |--|--|--|--|--|--|-|--|
 |[D365_Exchange rates import providers](/Help/Extended-Localization/Additional-exchange-rate-providers)  |•  |•  |•  |Following exchange rates providers are available as part of loc features: Bank of Slovenia,  Croatian national banka and National bank of Serbia  |  |
 
 <br>
+
+## Additional General Ledger package
+---
 
 |**Additional General Ledger Features _(LOC_LEDGER)_**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
 |--|--|--|--|--|--|-|--|
@@ -40,6 +46,9 @@ NOTE: a prerequisite for using Extended Localization features is installed Core 
 
 <br>
 
+## Fiscalization package
+---
+
 |**Fiscalization _(LOC_FISCALIZATION)_**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
 |--|--|--|--|--|--|-|--|
 |[D365_Fiscal number sequence](/Help/Extended-Localization/Fiscalization-\(SI,-HR\))  |•  |•  |  |Generating number sequence on sales documents (Sales Invoice, Free text invoice, Project Invoice, Prepayment invoice) according to the Fiscal law.   |  |
@@ -47,11 +56,17 @@ NOTE: a prerequisite for using Extended Localization features is installed Core 
 
 <br>
 
+## KEP package (only for Sebia)
+---
+
 |**KEP _(LOC_KEP)_**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
 |--|--|--|--|--|--|-|--|
 |[D365_KEP report](/Help/Extended-Localization/KEP-report,-nivelations-and-retail-calculation-\(RS\)) |  |  | • |Legally required report for retail. It includes KEP report, nivelations and retail calculation.   |    |
 
 <br>
+
+## Cash Register package (depricated)
+---
 
 |**Cash Register _(LOC_CASH)_**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
 |--|--|--|--|--|--|-|--|
