@@ -1,4 +1,9 @@
-Standard functionality Registration IDs is used for managing different kinds of identification numbers. Next bullets are included only for user setup help.  
+In order to comply with locally used registration IDs (e.g. tax and identification numbers), additional registration categories are added with this localization feature and need to be set up for the adequate Registration IDs to allow other localized features to work correctly - e.g. REK reporting and eInvoices use Registration IDs with the localized registration categories for validation purposes. If inadequate registration categories are used for the set-up of registration IDs, validation when using other localized features may fail, while the required ID may also be missing from other documents, therefore localized registration categories should be used.
+
+Standard D365 features allow for the validation of Tax exempt numbers formats. However, by standard, format validation is not available for Slovenian or Croatian Tax exempt numbers and is added with this localization feature.
+
+
+Standard functionality Registration IDs is used for managing different kinds of identification numbers. Some of bullets are included only for user setup help.  
 
 ## **Setup**
 ----
