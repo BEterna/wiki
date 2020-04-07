@@ -3,7 +3,8 @@
 
 NOTE: a prerequisite for using Extended Localization features is installed Core Localization package.
 
-
+## Tax package:
+---
 |**Tax Package Features _(LOC_TAX)_**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
 |--|--|--|--|--|--|-|--|
 |[D365_Import SI taxable persons](/Help/Extended-Localization/Tax-package-features/Import-of-Slovenian-taxable-persons-SI)  | • |  |  |Import of SI taxable persons  | |
@@ -13,6 +14,9 @@ NOTE: a prerequisite for using Extended Localization features is installed Core 
 |[D365_Defaulting VAT date and VAT payable date](/Help/Extended-Localization/Tax-package-features/Defaulting-VAT-date-and-VAT-payable-date)  |•  | • | • |It is possible to default VAT payable and receivable dates according to setup.  |   |
 
 <br>
+
+## Bank package
+---
 
 |**Bank Package Features _(LOC_BANK)_**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
 |--|--|--|--|--|--|-|--|
