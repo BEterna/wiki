@@ -35,11 +35,11 @@ In order to facilitate the posting, there is a possibility to set up VAT date an
 ---
 
 VAT date defaulting setup is added to the following modules: 
-1. Open General Ledger -> Setup -> General Ledger Parameters -> Adacta localization.<br>
+1. Open General Ledger > Setup > General Ledger Parameters > General.<br>
     VAT date defaulting from the setup above is applicable in the General journal. If general journal entry has account type “Vendor” or “Customer”, setup from Accounts payable/Accounts receivable is active.
-2. Open Accounts Payable -> Setup -> Accounts Payable Parameters -> Adacta localization.<br>
+2. Open Accounts Payable > Setup > Accounts Payable Parameters > General.<br>
     VAT date defaulting from Accounts payable is implemented on Pending vendor invoice and Vendor invoice journal.
-3. Open Accounts Receivable -> Setup -> Accounts Receivable parameters -> Adacta localization.<br>
+3. Open Accounts Receivable > Setup > Accounts Receivable parameters > General.<br>
     There is no “Default VAT payable date” setup at accounts receivable parameters and no “Document receipt date” option in the selection. 
  
 VAT date defaulting from Accounts receivable is implemented on the Sales invoice, Free text invoice, and Project invoice. 
