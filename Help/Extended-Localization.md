@@ -38,7 +38,8 @@ NOTE: a prerequisite for using Extended Localization features is installed Core 
 
 |**Fiscalization _(LOC_FISCALIZATION)_**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
 |--|--|--|--|--|--|-|--|
-|[D365_Fiscalization](/Help/Extended-Localization/Fiscalization-\(SI,-HR\))  |•  |•  |  |Generating number sequence on sales documents (Sales Order, Free text invoice, Project Invoice, Prepayment invoice) according to the Fiscal law.   |  |
+|[D365_Fiscal number sequence](/Help/Extended-Localization/Fiscalization-\(SI,-HR\))  |•  |•  |  |Generating number sequence on sales documents (Sales Invoice, Free text invoice, Project Invoice, Prepayment invoice) according to the Fiscal law.   |  |
+|[D365_Communication with Tax authority](/Help/Extended-Localization/Fiscalization-\(SI,-HR\))  |  |•  |  |Communication with Tax Authority (Porezna) to exchange fiscal numbers for sales documents (Sales Invoice, Free text invoice, Project Invoice, Prepayment invoice) according to the Fiscal law.   |  |
 
 <br>
 
