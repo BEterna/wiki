@@ -22,7 +22,7 @@ The generation of reports is based on reporting codes. Reporting code carries in
 
 ####Configure Electronic reporting 
 
-First make sure, that Adacta localization ER configurations are imported. In case they are missing, you will need to import them first. Instructions are available on [this link](/How-to/Import-Adacta-configurations.md). 
+First make sure, that Adacta localization ER configurations are imported. In case they are missing, you will need to import them first. Instructions are available on [this link](/How-to/Import-Adacta-ER-configurations). 
 
 Open Electronic reporting formats setup in General ledger - General ledger parameters - Adacta localization. To generate DDV-O, electronic reporting formats need to be configured first. Two formats are available for DDV-O: 
    - (1) DDV-O electronic reporting format is used to report Sales tax transactions up to (including) 31.12.2019 
