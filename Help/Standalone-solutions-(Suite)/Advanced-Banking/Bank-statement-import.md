@@ -40,8 +40,9 @@ Example of XML file import setup:
 
 Open System administration > Workspaces > Data management > Import
 
-2. Import parameters are set up here. Each localization needs its own setup.
-3. After entering the name of the processing group, the Source data format (which was created above) should be chosen. 
+Generate separate import group for Each bank format. 
+1. Create new import group and name the way that it will give enough information about the content  (e.g. BankStatementSEPAImport_SI) 
+of the processing group, the Source data format (which was created above) should be chosen. 
 4. Choose a sample file for upload. The file attached below is the same for all localizations.
 5. After upload, entity mapping is automatically generated and data project is created. The next step is clicking the “View map” on the data project icon.
 6. Form with entities is opened. Clicking “View map” on BankStatementDocumentEntity opens mapping visualization.
