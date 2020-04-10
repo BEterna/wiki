@@ -1,13 +1,12 @@
 # Import bank statement
 
-This topic includes information about the bank statement transformations, used for mapping D365 fields with the information from bank statements. Transformations for the bank statement files, which are used by the majority of the local (Slovenian, Croatian, Serbian and North Macedonian) electronic banking systems are added in the scope of this extended localization feature.
+This topic includes information about the bank statement transformations, used for mapping D365 fields with the information from bank statements. Transformations for following bank statement formats are added as part of this package: 
 
-The bank statement import process is part of standard Dynamics 365 for Operations solution, only transformations are part of localization. Transformations for following bank formats are part of this extended localization feature:
    - Slovenia – ISO 20022
    - Croatia – FINA
    - Serbia – Assecco (Pexim) and HalcomRS
 
-After import, bank statements can be processed using standard D365 features.
+After import, bank statements can be processed using standard D365 bank reconciliation feature or additional bank statement processing features that this package is offering.
 
 
 ## **Setup**
@@ -37,9 +36,10 @@ Example of XML file import setup:
 
 
  
-### Import parameters
+#### Import parameters
 
-1. Open System administration – Workspaces – Data management – Import.
+Open System administration > Workspaces > Data management > Import
+
 2. Import parameters are set up here. Each localization needs its own setup.
 3. After entering the name of the processing group, the Source data format (which was created above) should be chosen. 
 4. Choose a sample file for upload. The file attached below is the same for all localizations.
