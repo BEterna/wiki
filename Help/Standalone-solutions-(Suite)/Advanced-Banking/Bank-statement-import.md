@@ -13,13 +13,29 @@ After import, bank statements can be processed using standard D365 features.
 ## **Setup**
 ---
 
-### Data management setup
+### **Data management setup**
 
-#### Source data format
+#### Create Source data format
 
-1. Open System administration – Workspaces – Data management – Configure data source.
-2. It is necessary to create a new Source data format with regional settings for each of the Adriatic localizations (SI, HR, and RS). The setup below is shown for SI localization (the setup for remaining localizations is basically the same, the only difference is the Language locale value). 
-3. After entering Source name and Description, the value “XML” should be chosen for cases when a bank statement is in XML format. XML Style should have value “Element”. In the Regional setting part, adequate language for the country is chosen together with an adequate time zone.
+<br>Open System administration > Workspaces > Data management > Configure data source.
+
+It is necessary to create a new Source data format. Setup depends on the type of import file. 
+
+Example of XML file import setup:  
+
+|**Source name**| **Operations** | 
+|--|--|
+|**Source name** |XML-Element  |
+|**Description**  |XML element  |
+|**Type**  |File  |
+|**Default dextension**  |XML  |
+|**File format**  |XML |
+|**XML style**  |Element  |
+|**Root document**  |Document  |
+|**Language locale**  |*pick local language that you want to use  |
+|**Time zone preference**  | Company or Manual |
+
+
  
 ### Import parameters
 
