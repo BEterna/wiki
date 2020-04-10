@@ -7,6 +7,7 @@ There is a number of configurations that were developed as part of different Ada
 |--|--|
 |EU Sales list model | 1 |
 |Intrastat model |1  |
+|ISO20022 Credit transfer |1.1  |
 |Ledger accounting reports  | 1 |
 |Payment model  | 1 |
 
