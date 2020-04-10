@@ -41,7 +41,7 @@ Example of XML file import setup:
 Open System administration > Workspaces > Data management > Import
 
 Generate separate import group for Each bank format. 
-1. **Create new import project** and name it the way that it will give enough information about the content  (e.g. BankStatementSEPAImport_SI) 
+1. **Create new import project** and name it the way that it will give enough information about the content  (e.g. BankStatementImport_SI) 
 
 
 
@@ -75,13 +75,25 @@ file sample: [**SampleBankCompositeEntity.xml**](/.attachments/SampleBankComposi
 Transformations for the supported formats can be found on [this link](https://ad365o.visualstudio.com/AdSuite/_versionControl?path=%24%2FAdSuite%2FBankStatements%2FMain%2F10%2FMetadata%2FAdactaSuiteBankStatements%2FAdactaSuiteBankStatements%2FAxResource%2FResourceContent%2FData). 
  
  
-### Bank statement format
+### **Bank statement format**
 
-1. Open Cash and bank management – Setup – Advanced bank reconciliation – Bank statement format.
-2. Bank statement format entry should be created for each format of the Adriatic localization countries. Supported formats: 
-   - SI: ISO 20022
-   - HR: FINA
-   - RS: Assecco (Pexim), HalcomRS
+Open Cash and bank management > Setup > Advanced bank reconciliation > Bank statement format.
+
+Enter all bank statement formats that will be used in the bank statement processing. Formats added by this package are listed at the beginning of this chapter. 
+
+
+|**Field**|**Value**  |
+|--|--|
+|**Statement format**  |Name of the statement format e.g. HalcomSI |
+|**Name** |Description of the format  |
+|**Processing group**  |Choose one of the processing groups generated  in previous steps. Each statement format has its own processing group e.g. BankStatementImport_SI |
+|**XML file**  |  |
+|**File type**  |  |
+|**Generic electronic import format**  |  |
+| **Import format configuration** |  |
+
+
+  
 3. After choosing the processing group (each format has its own processing group) checkmark in field “XML file” is set for those that receive bank statements in XML form. 
  
 There is an additional column “Halcom RS” which is a specialty of Serbian bank statements import when Halcom format is used. Halcom_RS is special in a way that generates two files for one bank statement which is then imported in .zip file. For that purpose, Halcom_RS has a checkmark in the field “Halcom RS”.
