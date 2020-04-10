@@ -59,11 +59,21 @@ file sample: [**SampleBankCompositeEntity.xml**](/.attachments/SampleBankComposi
 
 ![image.png](/.attachments/image-b253b583-0da5-4da6-a950-4522f5efad9f.png)
 
-3. To **apply xslt transformations**, go to line that you created in previous step > View map > Choose correct entity > View map > Transformations Tab > New. XSLT files are specific for each bank/file format
+3. To **apply xslt transformations**, go to line that you created in previous step > View map > Choose correct entity > View map > Transformations Tab > New. XSLT files are specific for each bank/file format. Select an adequate XSLT file and confirm. In the case of more than one transformation file, the order of the transformations is very important. After upload, transformations should be applied by clicking on “Apply transforms”.
 
 
-1. 9. Transformations for the supported formats can be found on [this link](https://ad365o.visualstudio.com/AdSuite/_versionControl?path=%24%2FAdSuite%2FBankStatements%2FMain%2F10%2FMetadata%2FAdactaSuiteBankStatements%2FAdactaSuiteBankStatements%2FAxResource%2FResourceContent%2FData). Select an adequate XSLT file and confirm. In the case of more than one transformation file, the order of the transformations is very important.
-1. 10. After upload, transforms should be applied by clicking on “Apply transforms”. 
+| **Format** | **Transformation** |
+|--|--|
+|**Halcom**  |Halcom_SI.xslt  | 
+|**FINA**  | 1. FINA_TxtToXML_HR.xslt <br>2. FINA_XMLToRecon_HR.xslt | 
+|**Asecco (Pexim)**  | Asseco_RS.xslt |
+|**HalcomRS**  | 1. Halcom_TxtToXML_RS.xslt <br>2. Halcom_XMLToRecon_RS.xslt |
+
+
+
+
+Transformations for the supported formats can be found on [this link](https://ad365o.visualstudio.com/AdSuite/_versionControl?path=%24%2FAdSuite%2FBankStatements%2FMain%2F10%2FMetadata%2FAdactaSuiteBankStatements%2FAdactaSuiteBankStatements%2FAxResource%2FResourceContent%2FData). 
+ 
  
 ### Bank statement format
 
