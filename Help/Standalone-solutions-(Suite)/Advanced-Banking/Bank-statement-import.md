@@ -2,7 +2,7 @@
 
 This topic includes information about the bank statement transformations, used for mapping D365 fields with the information from bank statements. Transformations for following bank statement formats are added as part of this package: 
 
-   - Slovenia – ISO 20022
+   - Slovenia – ISO 20022 (HalcomSI)
    - Croatia – FINA
    - Serbia – Assecco (Pexim) and HalcomRS
 
