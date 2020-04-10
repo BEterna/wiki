@@ -41,11 +41,11 @@ Example of XML file import setup:
 Open System administration > Workspaces > Data management > Import
 
 Generate separate import group for Each bank format. 
-1. Create new import group and name it the way that it will give enough information about the content  (e.g. BankStatementSEPAImport_SI) 
+1. **Create new import project** and name it the way that it will give enough information about the content  (e.g. BankStatementSEPAImport_SI) 
 
 
 
-1. In the Selected entities Area add new entity (New File):
+1. In the Selected entities Area **add new entity** (New File):
 
 |Field| Value |
 |--|--|
@@ -53,13 +53,16 @@ Generate separate import group for Each bank format.
 | **Source data format** |Choose one of data sources, generated in the previous step e.g. XML-Element |
 |**Use sample file**  |Yes  |
 |**Default refresh type**  | Any of two options |
+|**Upload data file**  | upload SampleBankCompositeEntity sample file located in AOT resources |
 
-. Choose a sample file for upload. The file attached below is the same for all localizations.
-1. 5. After upload, entity mapping is automatically generated and data project is created. The next step is clicking the “View map” on the data project icon.
-1. 6. Form with entities is opened. Clicking “View map” on BankStatementDocumentEntity opens mapping visualization.
-1. 7. Transformation file(s) should be uploaded to the tab “Transformation”.
-1. 8. Clicking on “New” creates entry where transformation file(s) can be uploaded. Note: each format has its own transformation(s).
-1. 9. Transformations for the supported formats can be found on this link. Select an adequate XSLT file and confirm. In the case of more than one transformation file, the order of the transformations is very important.
+file sample: [**SampleBankCompositeEntity.xml**](/.attachments/SampleBankCompositeEntity-33b781da-249e-4e72-8896-9fe62b83ea6d.xml)
+
+![image.png](/.attachments/image-b253b583-0da5-4da6-a950-4522f5efad9f.png)
+
+3. To **apply xslt transformations**, go to line that you created in previous step > View map > Choose correct entity > View map > Transformations Tab > New. XSLT files are specific for each bank/file format
+
+
+1. 9. Transformations for the supported formats can be found on [this link](https://ad365o.visualstudio.com/AdSuite/_versionControl?path=%24%2FAdSuite%2FBankStatements%2FMain%2F10%2FMetadata%2FAdactaSuiteBankStatements%2FAdactaSuiteBankStatements%2FAxResource%2FResourceContent%2FData). Select an adequate XSLT file and confirm. In the case of more than one transformation file, the order of the transformations is very important.
 1. 10. After upload, transforms should be applied by clicking on “Apply transforms”. 
  
 ### Bank statement format
