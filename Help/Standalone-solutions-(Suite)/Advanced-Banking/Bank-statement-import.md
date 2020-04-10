@@ -25,7 +25,7 @@ Example of XML file import setup:
 |**Source name**| **Operations** | 
 |--|--|
 |**Source name** |XML-Element  |
-|**Description**  |XML element  |
+|**Description**  |XML Element  |
 |**Type**  |File  |
 |**Default dextension**  |XML  |
 |**File format**  |XML |
@@ -41,15 +41,26 @@ Example of XML file import setup:
 Open System administration > Workspaces > Data management > Import
 
 Generate separate import group for Each bank format. 
-1. Create new import group and name the way that it will give enough information about the content  (e.g. BankStatementSEPAImport_SI) 
-of the processing group, the Source data format (which was created above) should be chosen. 
-4. Choose a sample file for upload. The file attached below is the same for all localizations.
-5. After upload, entity mapping is automatically generated and data project is created. The next step is clicking the “View map” on the data project icon.
-6. Form with entities is opened. Clicking “View map” on BankStatementDocumentEntity opens mapping visualization.
-7. Transformation file(s) should be uploaded to the tab “Transformation”.
-8. Clicking on “New” creates entry where transformation file(s) can be uploaded. Note: each format has its own transformation(s).
-9. Transformations for the supported formats can be found on this link. Select an adequate XSLT file and confirm. In the case of more than one transformation file, the order of the transformations is very important.
-10. After upload, transforms should be applied by clicking on “Apply transforms”. 
+1. Create new import group and name it the way that it will give enough information about the content  (e.g. BankStatementSEPAImport_SI) 
+
+
+
+1. In the Selected entities Area add new entity (New File):
+
+|Field| Value |
+|--|--|
+|**Entity name**  | Bank statements |
+| **Source data format** |Choose one of data sources, generated in the previous step e.g. XML-Element |
+|**Use sample file**  |Yes  |
+|**Default refresh type**  | Any of two options |
+
+. Choose a sample file for upload. The file attached below is the same for all localizations.
+1. 5. After upload, entity mapping is automatically generated and data project is created. The next step is clicking the “View map” on the data project icon.
+1. 6. Form with entities is opened. Clicking “View map” on BankStatementDocumentEntity opens mapping visualization.
+1. 7. Transformation file(s) should be uploaded to the tab “Transformation”.
+1. 8. Clicking on “New” creates entry where transformation file(s) can be uploaded. Note: each format has its own transformation(s).
+1. 9. Transformations for the supported formats can be found on this link. Select an adequate XSLT file and confirm. In the case of more than one transformation file, the order of the transformations is very important.
+1. 10. After upload, transforms should be applied by clicking on “Apply transforms”. 
  
 ### Bank statement format
 
