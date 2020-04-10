@@ -36,7 +36,54 @@ Example of XML file import setup:
 
 
  
-#### Import parameters
+### **Bank statement import setup** 
+
+## Set up the import of HalcomSI (ISO20022) bank statements
+
+First, you must define the bank statement format processing group for HalcomSI bank statements by using the data entity framework.
+1.	Go to **Workspaces** > **Data management**.
+2.	Click **Import**.
+3.	Enter a name for the format, such as **BankStatementImport_SI**.
+4.	Set the **Source data format** field to **XML-Element**
+5.	Set the **Entity name** field to **Bank statements**.
+6.	To upload the import files, click **Upload**, and then browse to select the **[SampleBankCompositeEntity.xml](/.attachments/SampleBankCompositeEntity-33b781da-249e-4e72-8896-9fe62b83ea6d.xml)** file that you saved earlier.
+7.	After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.
+8.	The Bank statements entity is a composite entity that consists of four separate entities. In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.
+9.	On the **Transformations** tab, click **New**.
+10.	For sequence number 1, click **Upload file**, and select the **Halcom_SI.xslt** file that you saved earlier.
+11.	Click **Apply transforms**
+
+After the format processing group is set up, the next step is to define the bank statement format rules for HalcomSI bank statements.
+1.	Go to **Cash and bank management > Setup > Advanced bank reconciliation setup > Bank statement format**.
+2.	Click **New**.
+3.	Specify a statement format, such as **HalcomSI**.
+4.	Enter a name for the format.
+5.	Set the **Processing group** field to the group that you defined earlier, such as **BankStatementImport_SI**.
+
+##Set up the import of FINA (ISO20022) bank statements
+
+First, you must define the bank statement format processing group for FINA bank statements by using the data entity framework.
+
+1.	Go to **Workspaces > Data management**.
+2.	Click **Import**.
+3.	Enter a name for the format, such as **BankStatementImport_HR**.
+4.	Set the **Source data format** field to **XML-Element**
+5.	Set the **Entity name** field to **Bank statements**.
+6.	To upload the import files, click Upload, and then browse to select the **[SampleBankCompositeEntity.xml](/.attachments/SampleBankCompositeEntity-33b781da-249e-4e72-8896-9fe62b83ea6d.xml)** file that you saved earlier.
+7.	After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.
+8.	The Bank statements entity is a composite entity that consists of four separate entities. In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.
+9.	On the **Transformations** tab, click **New**.
+10.	For sequence number 1, click **Upload file**, and select the **FINA_TxtToXML_HR.xslt** file that you saved earlier.
+11.	For sequence number 2, click **Upload file**, and select the **FINA_XMLToRecon_HR.xslt** file that you saved earlier.
+12.	Click **Apply transforms**
+
+After the format processing group is set up, the next step is to define the bank statement format rules for FINA bank statements.
+1.	Go to **Cash and bank management > Setup > Advanced bank reconciliation setup > Bank statement format**.
+2.	Click **New**.
+3.	Specify a statement format, such as **FINA**.
+4.	Enter a name for the format.
+5.	Set the **Processing group** field to the group that you defined earlier, such as **BankStatementImport_HR**.
+
 
 Open System administration > Workspaces > Data management > Import
 
