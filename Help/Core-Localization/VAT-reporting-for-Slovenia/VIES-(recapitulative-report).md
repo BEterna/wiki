@@ -9,14 +9,14 @@ VIES (recapitulative report) processes the transactions, considered as intra-com
 
 ### Legal entity 
 
-1. Open Organization administration > Organizations > Legal entities.
-2. The primary address of the legal entity must be in an EU member state. On the Legal entities page, select your legal entity. On the Addresses, FastTab, create an address, select a country/region and other address components, and mark the address as Primary.  
-3. On the Tax registration FastTab, in the “Tax registration number” field, specify the tax registration number for your company. 
+1. Open **Organization administration > Organizations > Legal entities.**
+2. The **primary address** of the legal entity must be in an **EU member state**. On the Legal entities page, select your legal entity. On the Addresses, FastTab, create an address, select a country/region and other address components, and mark the address as Primary.  
+3. On the **Tax registration FastTab**, in the “Tax registration number” field, specify the **tax registration number** for your company. 
 
 ### Tax exempt identification parameters 
 
-1. Open Tax > Setup > Sales tax > Country/region parameters.
-2. Set up tax exempt identification parameters on the Country/region parameters page. For each country/region where you have counterparties, create a record on the page, and specify the following information: 
+1. Open **Tax > Setup > Sales tax > Country/region parameters**.
+2. Set up **tax exempt identification parameters** on the Country/region parameters page. For each country/region where you have counterparties, create a record on the page, and specify the following information: 
 
 
 |**Parameter**|**Description**|
@@ -28,8 +28,8 @@ VIES (recapitulative report) processes the transactions, considered as intra-com
   
 ### Tax exempt numbers 
 
-1. Open Tax > Setup > Sales tax > Tax exempt numbers.
-2. Create tax exempt numbers for your counterparties on the Tax exempt numbers page. For each tax exempt number, create a record on the page, and specify the following information: 
+1. Open **Tax > Setup > Sales tax > Tax exempt numbers**.
+2. Create **tax exempt numbers** for your counterparties on the Tax exempt numbers page. For each tax exempt number, create a record on the page, and specify the following information: 
 
 |**Parameter**|**Description**|
 |--|--|
@@ -38,19 +38,19 @@ VIES (recapitulative report) processes the transactions, considered as intra-com
 |Company name  |(optional) Enter the name of the counterparty. |
 
  
-3. Navigate to All Customers or All Vendors, and select a customer/vendor record. On the Invoice and delivery FastTab, in the “Tax exempt number” field, select the tax registration number. 
+3. Navigate to All Customers or All Vendors, and **select a customer/vendor record**. On the Invoice and delivery FastTab, in the “Tax exempt number” field, **select the tax registration number**. 
 
 ### Sales tax 
 
 #### Sales tax codes 
 
-1. Open Tax > Indirect taxes > Sales tax > Sales tax codes.
-2. Set up the tax codes to include on the EU Sales list report. On the Report setup FastTab, for each sales tax code that should be included in the report, clear the “Excluded” checkbox.  
+1. Open **Tax > Indirect taxes > Sales tax > Sales tax codes**.
+2. Set up the **tax codes to include** on the EU Sales list report. On the Report setup FastTab, for each sales tax code that should be included in the report, **clear the “Excluded” checkbox**.  
 
 #### Item sales tax groups 
 
-1. Open Tax > Indirect taxes > Sales tax > Item sales tax groups.
-2. Set up sales tax parameters for items on the Item sales tax groups page. For each item sales tax group, select a value in the “Reporting type” field. The value that you select determines the ESL amount column that the line amount will be included in:
+1. Open **Tax > Indirect taxes > Sales tax > Item sales tax groups**.
+2. Set up sales tax parameters for items on the Item sales tax groups page. For each item sales tax group, **select a value in the “Reporting type” field**. The value that you select determines the ESL amount column that the line amount will be included in:
 
 
 |**Value**|**Description**|
@@ -63,12 +63,12 @@ VIES (recapitulative report) processes the transactions, considered as intra-com
 
 #### Electronic reporting configuration 
 
-1. Open Workspaces > Electronic reporting à Reporting configurations.
-2. Search for model “EU Sales list model” and expand it to find “EU Sales list AD”. Check for status “Completed” in tab Versions. 
+1. Open **Workspaces > Electronic reporting > Reporting configurations**.
+2. Search for model “EU Sales list model” and expand it to find **“EU Sales list AD”**. Check for status “Completed” in tab Versions. 
 
 #### Foreign trade parameters 
 
-1. Open Tax > Setup > Foreign trade > Foreign trade parameters.
+1. Open **Tax > Setup > Foreign trade > Foreign trade parameters**.
 2. Set up ESL reporting parameters on the Foreign trade parameters page. Specify the following parameters on EU sales list tab on Transfer part:
 
 
