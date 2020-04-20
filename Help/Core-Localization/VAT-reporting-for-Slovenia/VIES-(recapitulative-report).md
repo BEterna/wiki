@@ -105,12 +105,19 @@ VIES (recapitulative report) processes the transactions, considered as intra-com
 6. Set the following parameters on the **Number sequences** tab: 
    - Select a number sequence code for the EU sales list reference. 
 
+7. Select **report mapping** in **Electronic reporting**  tab: 
+   - Select File format mapping
+   - Select Report format mapping
+
+     
+          
+
 ### Warehouse for consignment setup 
 
 This setup is needed in case the client needs to report sections C to G and A17 from the EU Sales list report. 
 
-1. Open Inventory management > Setup > Inventory breakdown > Warehouses.
-2. Following setup is added to Warehouse:  
+1. Open **Inventory management > Setup > Inventory breakdown > Warehouses**.
+2. Following setup is added to **Warehouse**:  
 
 |**Parameter**|**Description**|
 |--|--|
@@ -119,7 +126,7 @@ This setup is needed in case the client needs to report sections C to G and A17 
 
   
 
-For VIES reporting purposes Address also needs to be set on Warehouse. If Address is outside EU, transactions will be excluded from VIES reporting, regardless of the setup described above.  
+For VIES reporting purposes **Address** also needs to be set on Warehouse. If Address is outside EU, transactions will be excluded from VIES reporting, regardless of the setup described above.  
 
 ## **Working with the EU Sales list** 
 -------
