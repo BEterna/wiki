@@ -78,7 +78,7 @@ VIES (recapitulative report) processes the transactions, considered as intra-com
 |Transfer purchases  |Select this checkbox to include purchases on the ESL.  |
 
 
-3. Set up ESL reporting parameters on the Foreign trade parameters page. Specify the following parameters on EU sales list tab on Rounding rules part:
+3. Set up **ESL reporting parameters** on the Foreign trade parameters page. Specify the following parameters on EU sales list tab on **Rounding rules** part:
 
 |**Parameter**|**Description**|
 |--|--|
@@ -87,7 +87,7 @@ VIES (recapitulative report) processes the transactions, considered as intra-com
 |Rounding method  |Select the rounding method to use when ESL amounts are rounded (Normal, Downward, or Rounding-up).|
 |Number of decimals |Specify the number of decimal places to show in ESL amounts (both in electronic files and on the ESL preview report).|
  
-4. Set up ESL reporting parameters on the Foreign trade parameters page. Specify the following parameters on EU sales list tab on the Electronic reporting part:
+4. Set up **ESL reporting parameters** on the Foreign trade parameters page. Specify the following parameters on EU sales list tab on the **Electronic reporting** part:
 
 |**Parameter**|**Description**|
 |--|--|
@@ -95,14 +95,14 @@ VIES (recapitulative report) processes the transactions, considered as intra-com
 |Report format mapping  |Select the format to use when a preview report is generated for the ESL. |
 
   
-5. Set the following parameters on the Country/region properties tab. Identify EU member states. For each EU member state, create a record on the page, and specify the following information:  
+5. Set the following parameters on the **Country/region properties** tab. **Identify EU member states**. For each EU member state, create a record on the page, and specify the following information:  
 
 |**Parameter**|**Description**|
 |--|--|
 |Country/region |Select a country/region.|
 |Country/region type|If the Country/region value is the country that your company is registered in, select “Domestic”. If it is an EU member state other than the country that your company is registered in, select “EU”. If the Country/region value is not an EU member state, select “Third country/region”. |
 
-6. Set the following parameters on the Number sequences tab: 
+6. Set the following parameters on the **Number sequences** tab: 
    - Select a number sequence code for the EU sales list reference. 
 
 ### Warehouse for consignment setup 
