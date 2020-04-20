@@ -150,11 +150,11 @@ Intra-community trade transactions are marked in the “List code” field. If t
 ### EU sales list journal 
 
 1. Open **Tax > Declarations > Foreign trade > EU Sales list**.
-2. You can collect information about intra-EU trade transactions on the EU Sales list page by using the “Transfer” function. This function lets you include transactions of different reporting types (i.e., items or services), according to the item sales tax groups that are specified on transaction lines.  
+2. You can collect information about intra-EU trade transactions on the EU Sales list page by using the **“Transfer”** function. This function lets you include transactions of different reporting types (i.e., items or services), according to the item sales tax groups that are specified on transaction lines.  
 The Transfer function creates a record on the EU Sales list journal for each transaction that corresponds to selected parameters. Counterparty account number, country/region, tax exempt number, and invoice number and date are transferred. The list code value is copied from the transaction. You can manually change the list code for a transaction on the EU Sales list page. Additional localization value is “Customs procedure 42 or 63”. 
-3. The Transfer function creates records with the Reporting status value set to Included. 
+3. The **Transfer function** creates records with the **Reporting status** value set to **Included**. 
 
-You can validate the information that is collected on the EU Sales list page by using the “Validate” function. 
+You can validate the information that is collected on the EU Sales list page by using the **“Validate”** function. 
 
 ### EU sales list journal - Consignment reporting 
 
