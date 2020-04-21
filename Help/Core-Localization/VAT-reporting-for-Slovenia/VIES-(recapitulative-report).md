@@ -186,34 +186,36 @@ Transfers to/from consignment warehouses located in another EU member state are 
 ### **Generating EU sales list report** 
 -----
 
-EU Sales list transactions are reported **according to VAT date** in localization (contrary to invoice date in standard). 
+EU Sales list transactions are reported **according to VAT date** in localization (contrary to invoice date in standard). You can generate report by using the **“Reporting”** function on EU sales list.  Open **Tax > Declarations > Foreign trade > EU Sales list > Reporting**  and Insert following parameters:  
 
-1. You can generate a report by using the **“Reporting”** function:  
-   - Select a **Reporting period** and define the first date of the reporting month; “To date” is automatically calculated.  
-   - Enable **“Generate file”** if XML file for download should be generated and enter “File name” of the XML export file. You can also choose to generate a preview report by enabling the **“Generate report”** and entering “Report file name”.  
-   - Localization enables you to choose Worker that will be displayed as a contact person on the report. The worker’s telephone number, if entered on the worker, will also transfer to the report as a contact number. 
-2. After confirmation, an **XML file** is available for **download** if the “Generate file” was selected:
-   - If the **“Generate report”** is selected, the file in xls format is generated. In general, preview consists of separate lines that list the total amounts of supplies per counterparty country/region, tax exempt number, and reporting type. 
-   - If Report format mapping **“EU Sales list by rows report”** is selected in Foreign trade parameters, the preview report is displayed by report type in rows. This is a standard EU Sales list and it **ignores all localized specifics**.   
-   - If Report format mapping **“EU Sales list by columns report”** is selected in Foreign trade parameters, the preview report is displayed by report type in columns. This is a standard EU Sales list and it **ignores all localized specifics**. 
 
-Another localization option is to select “Send electronically”. For this to be enabled, you need to select the “Generate file” first. The file name is a mandatory field. 
+| **Parameter** |**Description**|
+|--|--|
+|**Reporting period** |Select the type of reporting period from the following options:<br> - _Not selected_ – The reporting period is not specified.<br> - _Monthly_ – The EU sales list report is generated monthly.<br> - _Quarterly_ – The EU sales list report is generated quarterly.|
+|**From date** |Select the starting date of the reporting period to include in the report.  |
+|**To date**  |Select the ending date of the reporting period to include in the report.  |
+|**Generate file**  | Select this check box to generate the EU sales list as an export **XML file**. |
+|**File name**  |Enter the file name and file path of the EU sales list export file.  |
+|**Generate report**  |Select this check box to generate **preview report**.  |
+|**Report name**  |Enter the file name and file path of the EU sales list preview file.   |
+|**Send electronically**  |Localization feature. For this to be enabled, you need to select the “Generate file” first. The file name is a mandatory field. This option creates a record in **Tax > Declarations > Slovenia > VAT > VIES recapitulative forms**, which can be previewed  or exported to the XML file.  |
+|**Worker**  | Select the worker who is responsible for filing the report |
 
-This option creates a record in Tax > Declarations > Slovenia > VAT > VIES recapitulative forms, which can be previewed in e-Davki format or exported to the XML file. 
+
 
 #### Reporting status 
 
-After you generate an EU Sales list report for a specific period, you can mark the records that are included in the report by setting the Reporting status value to Reported. To set this status, use the “Mark” > “Mark as reported” function on the EU Sales list page. 
+After you generate an EU Sales list report for a specific period, you can mark the records that are included in the report by setting the Reporting status value to **Reported**. To set this status, use the **“Mark” > “Mark as reported”** function on the EU Sales list page. 
 
-When you have completed the reporting process for a specific period (for example, when tax authorities have accepted the EU Sales list report), you can mark the records as Closed.  
+When you have completed the reporting process for a specific period (for example, when tax authorities have accepted the EU Sales list report), you can mark the records as **Closed**.  
 
-Setting the Reporting status value to “Included” will revert the closing of the period. These records can then be included on EU Sales list report again. You can select to view transactions according to their status.  
+Setting the Reporting status value to **“Included”** will revert the closing of the period. These records can then be included on EU Sales list report again. You can select to view transactions according to their status.  
 
 #### Corrections 
 
-Localization allows users to report corrections for previous periods. Standard feature enables marking corrected transaction (field “Corrected” in the EU sales list transaction line). Localization feature changes this logic with marking correcting transactions, opposite to standard functionality where corrected transactions are marked.   
+Localization allows users to **report corrections** for previous periods. Standard feature enables marking corrected transaction (field “Corrected” in the EU sales list transaction line). Localization feature changes this logic with marking correcting transactions, opposite to standard functionality where corrected transactions are marked.   
 
-Additionally Date of original document is added. This information is needed for section B reporting. 
+Additionally Date of original document is added. This information is needed for **section B reporting**. 
 
 Reporting date determines the period in which the correction is reported. 
 
