@@ -9,40 +9,40 @@ IR and PR reports are prepared based on Tax transactions amd **according to VAT 
 
 ### “Evidenca IR” report printout
 
-1. Open Tax Declarations > Slovenia > VAT > “Evidenca IR” report.
-2. Enter reporting parameters such as Sales tax settlement period and VAT dates or/and Posting dates. 
+1. Open **Tax Declarations > Slovenia > VAT > “Evidenca IR” report**.
+2. Enter **reporting parameters** such as Sales tax settlement period and VAT dates or/and Posting dates. 
 3. After confirmation, report is generated. It is possible to export the report into various formats and search the report for entered values.
 4. Click on “Refresh” button to open reporting parameters. 
 
 ### "Evidenca IR" (FURS export) report (csv Export) 
 
-1. Open Tax Declarations > Slovenia > VAT > “Evidenca IR” (FURS export) report.
-2. Enter reporting parameters and click OK. 
+1. Open **Tax Declarations > Slovenia > VAT > “Evidenca IR” (FURS export) report**.
+2. Enter **reporting parameters** and click OK. 
 3. Report in FURS export format is generated.  
 
 ### IR report export to Excel
 
-1. Open Tax > Declarations > Slovenia > VAT > “Evidenca IR” report forms.
-2. Click button “Show report in table” to open reporting parameters. Define the Settlement period and dates. After confirmation, a list of all relevant transactions in the defined period is created.  
-3. Use function “Export to Excel” to export lines to Excel. Combination Ctrl + Shift + E can also be used for export.  
+1. Open **Tax > Declarations > Slovenia > VAT > “Evidenca IR” report forms**.
+2. Click button **“Show report in table”** to open reporting parameters. Define the Settlement period and dates. After confirmation, a list of all relevant transactions in the defined period is created.  
+3. Use function **“Export to Excel”** to export lines to Excel. Combination Ctrl + Shift + E can also be used for export.  
 
 ## PR reports 
 ---
 
 ### “Evidenca PR” report printout
-1. Open Tax Declarations > Slovenia > VAT > “Evidenca PR” report.
-2. Enter reporting parameters such as Sales tax settlement period and VAT dates or/and Posting dates. 
+1. Open **Tax Declarations > Slovenia > VAT > “Evidenca PR” report**.
+2. Enter **reporting parameters** such as Sales tax settlement period and VAT dates or/and Posting dates. 
 3. After confirmation, report is generated. It is possible to export the report into various formats and search the report for entered values.
 4. Click on “Refresh” button to open reporting parameters. 
 
 ### "Evidenca PR" (FURS export) report (csv Export) 
-1. Open Tax Declarations > Slovenia > VAT > “Evidenca PR” (FURS export) report.
-2. Enter reporting parameters and click OK. 
+1. Open **Tax Declarations > Slovenia > VAT > “Evidenca PR” (FURS export) report**.
+2. Enter **reporting parameters** and click OK. 
 3. Report in FURS export format is generated. 
 
 ### PR report export to Excel
 
-1. Open Tax > Declarations > Slovenia > VAT > “Evidenca PR” report forms.
-2. Click button “Show report in table” to open reporting parameters. Define the Settlement period and dates. After confirmation, a list of all relevant transactions in the defined period is created.  
-3. Use function “Export to Excel” to export lines to Excel. Combination Ctrl + Shift + E can also be used for export.  
+1. Open **Tax > Declarations > Slovenia > VAT > “Evidenca PR” report forms**.
+2. Click button **“Show report in table”** to open reporting parameters. Define the Settlement period and dates. After confirmation, a list of all relevant transactions in the defined period is created.  
+3. Use function **“Export to Excel”** to export lines to Excel. Combination Ctrl + Shift + E can also be used for export.  
 
