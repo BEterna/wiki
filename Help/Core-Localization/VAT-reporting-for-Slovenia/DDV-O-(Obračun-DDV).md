@@ -2,7 +2,7 @@
 
 DDV-O is a Slovenian tax return report. Every taxable person identified for VAT purposes in Slovenia is obliged to submit a VAT return to the Slovenian tax authority. DDV-O should include all the required VAT return settings, with the information needed to calculate the sales tax and applicable deduction to be made including the total value of transactions relating to such tax and deductions. Additionally, the value of any exempt transactions should be included. Taxable entities have to submit the tax return to the tax authority by the last business day of the month, which follows the expiry of the tax period, while Slovenian laws also allow multiple exceptions. VAT tax return (DDV-O) needs to be submitted electronically via the eDavki portal of the Slovenian tax authority (FURS).
 
-DDV-O is prepared based on Tax transactions and according to the VAT date. DDV-O can also be previewed (HTML) and exported to the XML file.
+DDV-O is prepared based on Tax transactions and **according to the VAT date**. DDV-O can also be previewed (HTML) and exported to the XML file.
 
 ## **Setup**
 ----
