@@ -15,23 +15,23 @@ To generate a VAT declaration in the correct format for the appropriate tax auth
 
 The generation of reports is based on reporting codes. Reporting code carries information about which field the transaction will be recorded in. 
 
-1. Open Tax > Setup > Sales tax > Sales tax reporting codes:
+1. Open **Tax > Setup > Sales tax > Sales tax reporting codes**:
    - Enter the list of **[reporting codes for SI](Reporting-codes.zip)**. Reporting codes can also be imported using Excel add-in. 
-2. Open Tax > Indirect taxes > Sales tax > Sales tax codes.
+2. Open **Tax > Indirect taxes > Sales tax > Sales tax codes**:
    - VAT reports are generated according to the setup of sales tax reporting codes on sales tax codes.  
 
 ####Configure Electronic reporting 
 
 First make sure, that Adacta localization ER configurations are imported. In case they are missing, you will need to import them first. Instructions are available on [**this link**](/How-to/Import-Adacta-ER-configurations). 
 
-Open Electronic reporting formats setup in General ledger - General ledger parameters - Adacta localization. To generate DDV-O, electronic reporting formats need to be configured first. Two formats are available for DDV-O: 
+Open **Electronic reporting formats setup in General ledger > General ledger parameters > Adacta localization**. To generate DDV-O, electronic reporting formats need to be configured first. Two formats are available for DDV-O: 
    - (1) DDV-O electronic reporting format is used to report Sales tax transactions up to (including) 31.12.2019 
    - (2) DDV-O (version 11) electronic reporting format is used to report Sales tax transactions after (including) 1.1.2020. 
 
 ## **Generate VAT statement (DDV-O)** 
 ----
 
-Sales tax calculation according to VAT date is part of the Adacta localization pack, while standard sales tax calculation is performed according to the posting date. Standard Sales tax calculation form is used, and it can be found in Tax/Declarations/Sales tax/Report sales tax for the settlement period.
+Sales tax calculation **according to VAT date** is part of the Adacta localization pack, while standard sales tax calculation is performed according to the posting date. Standard Sales tax calculation form is used, and it can be found in **Tax > Declarations > Sales tax > Report sales tax for the settlement period**.
 
 
 | **Field**                 | **Description**                                                                                                                                                                                                     |
@@ -43,7 +43,7 @@ Sales tax calculation according to VAT date is part of the Adacta localization p
 
 
  
-As a result of the Sales tax calculation process DDV-O form is created (SI localization feature). It can be viewed in Tax > Declarations > Slovenia > VAT > DDV-O forms. 
+As a result of the Sales tax calculation process DDV-O form is created (SI localization feature). It can be viewed in **Tax > Declarations > Slovenia > VAT > DDV-O forms**. 
 
 ####Export to XML
 The report can be exported to XML by choosing a button Export to XML. If the Sales tax reporting date is before 1.1.2020, the old version of DDV-O form is generated instead. 
