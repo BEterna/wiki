@@ -5,8 +5,8 @@ Outgoing invoices, issued according to 76.a article of ZDDV, must contain only i
 ## Setup
 ---
 
-1. Open Sales tax codes - Sales tax code - Values.
-2. Setup for informative value in % is added to the Sales tax values setup. If the value is entered, the informative tax is calculated.
+1. Open **Sales tax codes > Sales tax code > Values**.
+2. Setup for **informative value in %** is added to the Sales tax values setup. If the value is entered, the informative tax is calculated.
  
 Calculated informative tax is visible on the tax transaction on the Amount Tab. This value can later be used for reports, printouts, and inquiries. 
 

@@ -4,12 +4,12 @@ IRA and URA consist of the receivable and payable tax transactions and provide d
  
 ## I-RA report 
 
-1. Open Tax - Declarations - Croatia - PDV - IRA form.
+1. Open **Tax > Declarations > Croatia  > PDV > IRA form**.
 2. Enter reporting parameters such as Sales tax settlement period and VAT dates or/and Posting dates. 
 3. After confirmation, the report is generated. 
 
 ## U-RA report 
 
-1. Open Tax - Declarations - Croatia - PDV - URA form.
+1. Open **Tax > Declarations > Croatia > PDV > URA form**.
 2. Enter reporting parameters such as Sales tax settlement period and VAT dates or/and Posting dates. 
 3. After confirmation, the report is generated. 

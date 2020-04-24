@@ -61,6 +61,7 @@ After the format processing group is set up, the next step is to define the **ba
 3.	Specify a statement format, such as **HalcomSI**.
 4.	Enter a name for the format.
 5.	Set the **Processing group** field to the group that you defined earlier, such as **BankStatementImport_SI**.
+6.	Enable XML file option.
 
 
 
@@ -89,6 +90,7 @@ After the format processing group is set up, the next step is to define the **ba
 3.	Specify a statement format, such as **FINA**.
 4.	Enter a name for the format.
 5.	Set the **Processing group** field to the group that you defined earlier, such as **BankStatementImport_HR**.
+6.	Disable XML file option, enter File type = txt
 
 
 
@@ -99,7 +101,7 @@ First, you must define the bank statement format processing group for HalcomRS b
 1.	Go to **Workspaces > Data management**.
 2.	Click **Import**.
 3.	Enter a name for the format, such as **BankStatementImport_RS**.
-4.	Set the **Source data format** field to **???**
+4.	Set the **Source data format** field to **XML-Element**
 5.	Set the **Entity name** field to **Bank statements**.
 6.	To upload the import files, click **Upload**, and then browse to select the **[SampleBankCompositeEntity.xml](/.attachments/SampleBankCompositeEntity-33b781da-249e-4e72-8896-9fe62b83ea6d.xml)** file that you saved earlier.
 7.	After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.
@@ -117,6 +119,9 @@ After the format processing group is set up, the next step is to define the **ba
 3.	Specify a statement format, such as **HalcomRS**.
 4.	Enter a name for the format.
 5.	Set the **Processing group** field to the group that you defined earlier, such as **BankStatementImport_RS**.
+6.	Disable XML file option, enter File type = txt
+7.	Enable Halcom RS option 
+
 
 
 There is an additional column “Halcom RS” available, which is **specific for Serbian bank statements import**. Halcom_RS is special in a way that it generates two files for one bank statement which is then imported as .zip file. For that purpose, Halcom_RS has a checkmark in the field “Halcom RS”.
@@ -144,6 +149,7 @@ After the format processing group is set up, the next step is to define the **ba
 3.	Specify a statement format, such as **AssecoRS**.
 4.	Enter a name for the format.
 5.	Set the **Processing group** field to the group that you defined earlier, such as **BankStatementImport_Asseco**.
+6.	Enable XML file option.
 
 
  
