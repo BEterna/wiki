@@ -4,9 +4,9 @@ PDV report is a Croatian sales tax return report. Every taxable person identifie
 
 ## PDV form
 
-Sales tax calculation according to VAT date is part of the Adacta localization pack, while standard sales tax calculation is performed according to the posting date. 
+Sales tax calculation **according to VAT date** is part of the Adacta localization pack, while standard sales tax calculation is performed according to the posting date. 
 
-1. Standard Sales tax calculation form is used and it can be found in Tax - Declarations - Sales tax - Report sales tax for the settlement period.  
+1. Standard Sales tax calculation form is used and it can be found in **Tax > Declarations > Sales tax > Report sales tax for the settlement period**. The difference is, that it uses VAT date instead of Transaction date.   
 2. The separate (standard) form is used for Sales tax settlement/posting.  
 3. Field explanation: 
    - Settlement period: Period for which calculation is performed 
