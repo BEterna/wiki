@@ -109,7 +109,7 @@ Deferrals can also be posted in case of received **Credit notes**. The procedure
 Deferrals can be included in a budget check (if enabled in Budget check parameters). In this case, the budget is reserved at the moment of generating the invoice (standard) and reversed at the moment of posting the invoice. When posting deferrals (Deferrals > Expense account) budget is posted in the correct period. 
 
 Scenario: 
-   - Generate Purchase order with line amount 1.750€ - Budget reservation is created in Encumbrances section with the amount 1.750€
-   - Generate Vendor invoice from Purchase order - Budget reservation from the Purchase order is released. Budget reservation in section Actual expenditures is generated with the amount 1.750€ 
+   - Generate Purchase order - Budget reservation is created in Encumbrances section 
+   - Generate Vendor invoice from Purchase order - Budget reservation from the Purchase order is released. Budget reservation in section Actual expenditures is generated. 
    - Generate Deferrals for specific Vendor invoice line - Post Invoice - Budget in Actual expenditures is released (negative line with original amount is generated) 
    - Post Deferrals (deferrals - Expense) - Budget reservation is generated in the Actual expenditures section in the correct period. 
