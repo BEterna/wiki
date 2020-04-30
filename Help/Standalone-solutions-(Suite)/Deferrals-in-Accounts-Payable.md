@@ -82,6 +82,10 @@ All the existing deferral lines are displayed. It is possible to filter between 
  
 Posting from deferrals to a cost account can be performed manually or automatically. 
 
+###Deferrals for received Credit notes
+
+Deferrals can also be posted in case of received Credit notes. The procedure is the same as described above, the only difference are negative amounts. 
+
 ### Manual posting
 
 1. For manual posting go to the deferrals list, open one deferral and then go to Lines. Mark the line and click Post. A deferral voucher will be generated. 
