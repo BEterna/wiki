@@ -108,6 +108,8 @@ Deferrals can also be posted in case of received **Credit notes**. The procedure
 
 Deferrals can be included in a budget check (if enabled in Budget check parameters). In this case, the budget is reserved at the moment of generating the invoice (standard) and reversed at the moment of posting the invoice. When posting deferrals (Deferrals > Expense account) budget is posted in the correct period. 
 
+Budget check can also be performed periodically as Batch job. Go to **Accounts payable > Periodic tasks > Deferrals > Perform budget check on deferrals** and define recurrence rules. This way bufget check will be performed periodically for all generated deferral lines. 
+
 Scenario: 
    - Generate Purchase order - Budget reservation is created in Encumbrances section 
    - Generate Vendor invoice from Purchase order - Budget reservation from the Purchase order is released. Budget reservation in section Actual expenditures is generated. 
