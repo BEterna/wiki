@@ -17,3 +17,4 @@ In order to do partially dispose fixed asset perform following steps:
 
 In the picture below, you can see a simple example for partial disposal. A new fixed asset in the amount of 1.000 USD was acquired on the 1st of January 2019. The fixed asset has 10 depreciation periods and the depreciation method is Straight line service life, which means that monthly depreciation amount is 100 USD. Depreciations for January and February were posted at the end of each month. On 16th of March 2019 the fixed asset was partially disposed for 30%, as it can be seen in the picture. The partial disposal of 30% influenced the change of the depreciation amount in March. The new acquisition value of the fixed asset is now 700 USD and consequently, the new depreciation amount is 70 USD (transaction on the date of 31/03/2019). 
 
+![image.png](/.attachments/image-df5655b0-8f00-467e-9e86-7fb2696d409e.png)
