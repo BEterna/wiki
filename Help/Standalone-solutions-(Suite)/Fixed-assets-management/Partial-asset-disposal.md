@@ -1,4 +1,39 @@
-Partial Disposal is a functionality that enables companies to partially dispose one fixed asset. 
+Partial Disposal is a functionality that enables user to partially dispose one fixed asset.  With new Partial disposal - scrap transaction type, a fixed asset in disposed for desired disposal percent (e.g. 20%). Partial disposal function generates all needed transactions that affect allready generated transactions.  
+
+## Setup
+---
+
+### Fixed asset posting profiles
+
+1. Go to **Fixed assets > Setup > Fixed asset posting profiles** 
+1. Select **posting profile** that is used for other transactions
+1. Select transaction type **Partial disposal - scrap**
+1. Add **new entry** for each of the books that this transaction type will be used with and select **Ledger accounts**
+ 
+### Fixed assets parameters 
+
+This setup is needed to automatically generate Depreciation adjustment transaction in the moment of partial disposal posting.
+
+1. Go to **Fixed assets > Setup > Fixed assets parameters > Fixed assets**
+1. Set parameter **Automatically create depreciation adjustment amounts with disposal**  to Yes
+ 
+
+### Fixed asset book
+
+1. Go to **Fixed assets > Fixed assets > Fixed assets >  Mark specific Fixed Asset > Books**
+1. Set parameter **Create depreciation adjustments with basis adjustments** to Yes
+1. Set parameter **Allow depreciation when placed in service and disposal are in the same fiscal year** to: 
+   - **Yes**: depreciation adjustment transaction will not be posted automatically, if Acquisition and Partial disposal – scrap transactions are within the same Fiscal year.
+   - **No**: depreciation adjustment transaction will be posted automatically also in case that Acquisition and Partial disposal – scrap transactions are within the same Fiscal year. 
+
+If you want this parameter to be set to Yes always when new Fixed asset is generated: 
+1. Go to **Fixed assets > Setup > Books** 
+1. Set parameter **Create depreciation adjustments with basis adjustments** to Yes
+1. Set parameter **Allow depreciation when placed in service and disposal are in the same fiscal year** to Yes/No
+
+
+
+
 
 ## Dispose fixed asset
 ---
