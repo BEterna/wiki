@@ -11,7 +11,7 @@ This custom feature is part of the AdactaSuiteDeferrals AdSuite D365O extension 
 
 ### Deferral schemes
 
-1. Open Accounts payable > Setup > Deferrals > Deferral schemes.
+1. Open **Accounts payable > Setup > Deferrals > Deferral schemes**.
 2. Multiple deferral schemes with separate rules can be defined: 
 
 
@@ -30,73 +30,77 @@ This custom feature is part of the AdactaSuiteDeferrals AdSuite D365O extension 
  
 ### Number sequences
 
-1. Organization administration > Number sequences > Number sequences.
-2. Two number sequences in Area Deferrals: 
+1. **Organization administration > Number sequences > Number sequences**.
+2. Two number sequences need to be set up in Area Deferrals: 
    - Deferral voucher
    - Deferral ID
 
 ### Allow deferrals with project
 
-1. Accounts payable > Setup > Accounts payable parameters.
+1. **Accounts payable > Setup > Accounts payable parameters**.
 2. Select to enable or disable deferrals on invoice lines linked to the project. 
 3. If “Allow deferrals with project” is enabled, it is possible to select a deferral scheme on vendor invoice line with project ID. In this case, deferrals are not generated for project transactions. When this setup is not enabled, it is not possible to select deferrals on vendor invoice lines with project ID. 
 
 ### Posting definitions
 
-1. General ledger - Posting Setup - Posting definitions.
+1. **General ledger - Posting Setup - Posting definitions**.
 2. Setup needs to be done in posting definitions (even if posting definitions are not enabled for other transactions). 
  
 ### Budget control
 
-1. Budgeting > Setup > Budget control > Budget control configuration.
+1. **Budgeting > Setup > Budget control > Budget control configuration**.
 2. Deferrals can also be subject of the budget control process. Budget control will be performed if the Expense deferral option in Document and journals is marked. Option Check at line entry is disabled and cannot be enabled.
  
 ## **Generate deferrals**
 ---
 
-1. Accounts payable > Invoices > Pending Vendor Invoices.
+1. **Accounts payable > Invoices > Pending Vendor Invoices**.
 2. Line detail Deferral is added to the Pending vendor invoice line. 
  
-   Every Vendor invoice line can be deferred separately, even using different Deferral scheme. Depending on the chosen deferral scheme, Deferral lines are generated. Default Deferral date depends on the setup defined on the Deferral scheme. The posting date of the first deferral line is the same as the Invoice posting date. All other deferral lines get posting date from Ledger posting setup on Deferral schemes. In this case, the Start date can be blank.
-If deferrals refer to previous periods (e.g. Invoice received in March, but it refers to a whole year), the Start date needs to be entered somewhere in the past. In this case, Deferrals will be generated for current and future periods, and all deferrals that should be posted in previous periods will be summed in the current period. This amount will be posted to the cost account all other deferral lines will be posted deferrals account. This is only valid for deferral schemes with Start deferral on invoice date set to Yes. 
+   Every Vendor invoice line can be deferred separately, even using different **Deferral scheme**. Depending on the chosen deferral scheme, Deferral lines are generated. Default **Deferral date** depends on the setup defined on the Deferral scheme. The posting date of the first deferral line is the same as the Invoice posting date. All other deferral lines get posting date from Ledger posting setup on Deferral schemes. In this case, the Start date can be blank.<br>
+<br>If deferrals refer to **previous periods** (e.g. Invoice received in March, but it refers to a whole year), the Start date needs to be entered somewhere in the past. In this case, Deferrals will be generated for current and future periods, and all deferrals that should be posted in previous periods will be summed in the current period. This amount will be posted to the cost account all other deferral lines will be posted deferrals account. This is only valid for deferral schemes with Start deferral on invoice date set to Yes. 
  
 3. When the invoice is posted, lines get posted to cost accounts and at the same time correction transaction is created to move the amounts from cost to deferral account. Posting definitions are used in this process. 
 It is possible to subsequently generate deferrals for invoice lines that have already been posted. In Invoice journal select desired transaction, navigate to tab Lines, and select the line for deferrals.
 4. If “Allow deferrals with project” is disabled in the parameters, it is not possible to select deferrals on vendor invoice line with project ID. 
 5. It is also not possible to create deferrals in invoice journal on vendor invoice line with project ID. 
  
-## **Deferrals posting**
+## **Deferrals posting and inquiries**
 ---
 
 Open: 
-1. Accounts payable > Inquiries and reports > Deferrals > Deferrals or
-2. Accounts payable > Inquiries and reports > Deferrals > Unposted deferrals or
-3. Accounts payable > Inquiries and reports > Deferrals > Posted deferrals or
-4. Accounts payable > Inquiries and reports > Deferrals > Deferral lines
+1. **Accounts payable > Inquiries and reports > Deferrals > Deferrals** or
+2. **Accounts payable > Inquiries and reports > Deferrals > Unposted deferrals** or
+3. **Accounts payable > Inquiries and reports > Deferrals > Posted deferrals** or
+4. **Accounts payable > Inquiries and reports > Deferrals > Deferral lines**
 
 After posting the Vendor invoice with deferral lines, a voucher is generated (cost > deferral). It can be accessed using the Voucher transactions option in the Deferral tab. 
   
-All invoice lines, posted to Deferrals, are listed in the Deferrals list. Posted and unposted deferrals can be viewed in separate list pages (Posted/Unposted deferrals). In the Posted deferrals list are listed only deferrals that are completely transferred from deferrals to costs. All the others are listed in the Unposted deferrals list.
+All invoice lines, posted to Deferrals, are listed in the **Deferrals list**. Posted and unposted deferrals can be viewed in separate list pages (Posted/Unposted deferrals). In the **Posted deferrals list** are listed only deferrals that are completely transferred from deferrals to costs. All the others are listed in the **Unposted deferrals list**.
  
-All the existing deferral lines are displayed. It is possible to filter between Posted/Not posted/All deferral lines.
+All the existing deferral lines are displayed. It is possible to filter between **Posted/Not posted/All** deferral lines.
  
 Posting from deferrals to a cost account can be performed manually or automatically. 
+
+###Deferrals for received Credit notes
+
+Deferrals can also be posted in case of received **Credit notes**. The procedure is the same as described above, the only difference are negative amounts. 
 
 ### Manual posting
 
 1. For manual posting go to the deferrals list, open one deferral and then go to Lines. Mark the line and click Post. A deferral voucher will be generated. 
 2. Functions as View distributions, Subledger journal, Voucher transactions, Budget checking are available for each deferral line. 
-3. Deferrals can also be manually posted from Accounts payable > Inquiries and reports > Deferrals > Deferral lines form by choosing a specific deferral (line) and clicking the “Post” button. From the same form, it is also possible to: View distributions, Subledger journal, Voucher transactions and performs Budget checking for each deferral line.
+3. Deferrals can also be manually posted from **Accounts payable > Inquiries and reports > Deferrals > Deferral lines** form by choosing a specific deferral (line) and clicking the **Post** button. From the same form, it is also possible to: View distributions, Subledger journal, Voucher transactions and performs Budget checking for each deferral line.
 
 ### Manual mass posting
 
-1. Open Accounts payable > Periodic tasks > Deferrals > Post deferrals.
+1. Open **Accounts payable > Periodic tasks > Deferrals > Post deferrals**.
 2. Mass posting of deferrals can be performed. 
 3. The date period needs to be defined. All deferrals that have a posting date in the defined interval, will be posted. 
 
 ### Automatic posting
 
-1. Open Accounts payable > Periodic tasks > Deferrals > Post deferrals.
+1. Open **Accounts payable > Periodic tasks > Deferrals > Post deferrals**.
 2. Deferrals can be posted automatically if batch processing is defined. 
 
 ## **Budget check** 
@@ -104,8 +108,10 @@ Posting from deferrals to a cost account can be performed manually or automatica
 
 Deferrals can be included in a budget check (if enabled in Budget check parameters). In this case, the budget is reserved at the moment of generating the invoice (standard) and reversed at the moment of posting the invoice. When posting deferrals (Deferrals > Expense account) budget is posted in the correct period. 
 
+Budget check can also be performed periodically as Batch job. Go to **Accounts payable > Periodic tasks > Deferrals > Perform budget check on deferrals** and define recurrence rules. This way bufget check will be performed periodically for all generated deferral lines. 
+
 Scenario: 
-   - Generate Purchase order with line amount 1.750€ - Budget reservation is created in Encumbrances section with the amount 1.750€
-   - Generate Vendor invoice from Purchase order - Budget reservation from the Purchase order is released. Budget reservation in section Actual expenditures is generated with the amount 1.750€ 
+   - Generate Purchase order - Budget reservation is created in Encumbrances section 
+   - Generate Vendor invoice from Purchase order - Budget reservation from the Purchase order is released. Budget reservation in section Actual expenditures is generated. 
    - Generate Deferrals for specific Vendor invoice line - Post Invoice - Budget in Actual expenditures is released (negative line with original amount is generated) 
    - Post Deferrals (deferrals - Expense) - Budget reservation is generated in the Actual expenditures section in the correct period. 
