@@ -1,6 +1,8 @@
 
 Mass asset lending functionality is used to automate and simplify the standard D365O Fixed asset lending. Functionality adds the Mass asset lending feature, which amongst others enables users to lend several fixed assets at once, based on the specified criterion.
 
+With the new lending functionallity, responsible employee and/or location can be added/changed, and the last open lending record is closed. In addition, it is also possible to transfer financial dimension values of newly assigned employee to the fixed asset. It is important to emphasize that based on the setup in the system, this functionality can use physical locations (additional feature) instead of standard locations. 
+
 ## **Setup**
 ---
 
