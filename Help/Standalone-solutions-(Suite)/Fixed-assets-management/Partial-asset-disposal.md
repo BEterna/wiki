@@ -47,6 +47,15 @@ In order to do partially dispose fixed asset perform following steps:
 1. Select the **fixed asset number** you want to partially dispose in the Account field. Other fixed asset information will be automatically entered from the Fixed asset book information. 
 1. Click **Post**. 
 
+
+**Partial diposal transactions overview**
+---
+
+1. Go to **Fixed assets > Fixed assets > Fixed assets >  Mark specific Fixed Asset > Books > Transactions** 
+1. All transactions that were generated can be checked on each fixed asset. Partial disposal – scrap transaction will reduce amounts for all posted transaction types on the fixed asset by the disposal percent. 
+
+<br>
+
 ## Example
 ---
 
