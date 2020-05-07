@@ -6,11 +6,18 @@ With the new lending functionallity, responsible employee and/or location can be
 ## **Setup**
 ---
 
-### Financial dimensions of the borrower
+### Physical locations 
+Mass asset lending functionality can use either standard or physical locations. To use physical locations:
+1. Go to **Fixed assets > Setup > Fixed assets parameters > Fixed assets** tab 
+1. Set **Activate physical locations** to Yes. If this option is set to No, standard locations will be used.
 
-Fixed assets > Setup > Fixed asset parameters > Mass asset lending
+### Mass asset lending dimension attributes
 
-Select Financial dimensions that need to be transferred from borrower to Fixed asset. 
+With this setup user defines financial dimensions that will be transferred from employee to fixed asset when mass asset lending action is performed. 
+
+1. Go to **Fixed assets > Setup > Fixed asset parameters > Mass asset lending**
+1. From the list of available dimensions (attributes) **select attributes** that will be transferred **from employee to fixed asset**. On the left side, there is a list of all available attributes, while on the right side is the list of selected attributes, which will be transferred during mass asset lending, if the **Financial dimensions of the borrower option is set to Yes** when running the Mass asset lending job.
+ 
 
 ## **Generate Mass asset lending**
 ---
