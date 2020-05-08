@@ -19,22 +19,23 @@ With this setup user defines financial dimensions that will be transferred from 
 1. From the list of available dimensions (attributes) **select attributes** that will be transferred **from employee to fixed asset**. On the left side, there is a list of all available attributes, while on the right side is the list of selected attributes, which will be transferred during mass asset lending, if the **Financial dimensions of the borrower option is set to Yes** when running the Mass asset lending job.
  
 
-## **Generate Mass asset lending**
+## **Perform Mass asset lending**
 ---
 
-Fixed assets > Periodic tasks > Mass asset lending
+<br>
 
-Specify the following parameters:
+1. Go to **Fixed assets > Periodic tasks > Mass asset lending** 
+1. Specify the following **parameters**:
 
 
 |**Parameter**| **Description** |
 |--|--|
-|Transfer date  |  |
-|From worker  |ID of a worker (from the register) from which assets should be transferred (if left blank,  all the acquired fixed assets from the fixed asset register will be processed)  |
-|To worker  |ID of the borrower (worker from the register)  |
-|Financial dimensions of the borrower  |indicate whether financial dimensions from the borrower’s position should be transferred to the fixed asset book upon lending (only the dimensions selected in fixed asset parameters  |
+|**Transfer date**  | Date that will be assigned to a new lending record as Lending date. Transfer date also affects the Actual return date of the previous opened lending record. Actual return date is recorded as one day prior to the Transfer date.  New lending cannot be created for fixed assets that have open lending with a later date in comparison to transfer date. If a fixed asset fulfils all filtering criteria, but has an open lending with the later date then the transfer date, Error message will appear. Transfer date must be at least 1 day after the current open lending.|
+|**From worker**  |ID of a worker (from the register) from which assets should be transferred. If left blank,  all acquired fixed assets from the fixed asset register will be processed, unless one of the other filters is selected. In this case a warning is displayed upon mass asset transfer generation. All active and inactive workers are availabe for selection.   |
+|**To worker**  |ID of the borrower (worker from the register)  |
+|**Financial dimensions of the borrower**  |indicate whether financial dimensions from the borrower’s position should be transferred to the fixed asset book upon lending (only the dimensions selected in fixed asset parameters  |
 
-
+When multiple filters are defined (eg. From worker and From location), only corresponding fixed assets that match all criteria will be processed. 
 It is also possible to filter assets to be processed by the: Fixed asset number, Fixed asset book status and Fixed asset group. When selected, click OK to run the mass asset lending.
 
 NOTE: if no “From worker” is specified, fixed asset transfers will be created for all the acquired fixed assets. In this case a warning is displayed upon mass asset transfer generation.
