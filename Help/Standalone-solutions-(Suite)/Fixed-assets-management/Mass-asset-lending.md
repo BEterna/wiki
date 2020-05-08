@@ -32,7 +32,7 @@ With this setup user defines financial dimensions that will be transferred from 
 |--|--|
 |**Transfer date**  | Date that will be assigned to a new lending record as Lending date. Transfer date also affects the Actual return date of the previous opened lending record. Actual return date is recorded as one day prior to the Transfer date.  New lending cannot be created for fixed assets that have open lending with a later date in comparison to transfer date. If a fixed asset fulfils all filtering criteria, but has an open lending with the later date then the transfer date, Error message will appear. Transfer date must be at least 1 day after the current open lending.|
 |**From worker**  |ID of a worker (from the register) from which assets should be transferred. If left blank,  all acquired fixed assets from the fixed asset register will be processed, unless one of the other filters is selected. In this case a warning is displayed upon mass asset transfer generation. All active and inactive workers are availabe for selection.   |
-|**To worker**  |ID of the borrower (worker from the register)  |
+|**To worker**  |ID of the borrowing worker. Only active workers are available for selection. If the field is left empty, new lending record will be generated with the worker from previous borrowing employee. In this case field To location can not be epty, otherways error will occur.|
 |**Financial dimensions of the borrower**  |indicate whether financial dimensions from the borrower’s position should be transferred to the fixed asset book upon lending (only the dimensions selected in fixed asset parameters  |
 
 When multiple filters are defined (eg. From worker and From location), only corresponding fixed assets that match all criteria will be processed. 
