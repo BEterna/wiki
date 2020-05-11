@@ -56,7 +56,7 @@ When multiple filters are defined (eg. From worker and From location), only corr
 
 Following transactions are created as **result** of As result of Mass asset lending process:
 1. **Lending record on the Fixed asset level**: This transaction is recorded always when Mass asset lending is performed for the selected records. It indicates tat some kind of change on the Fixed asset level happened. This could be the change of responsible worker, Location or financial dimensions. 
-1. **Transaction in Fixed asset Book**: In cases when financial dimensions change (eg. Asset is transferred from worker A to worker B, and worker A works on position in Business unit 1 and worker B works on position in Business unit 2), also transaction on the Book level is generated. this means that this kind of change also affects General ledger. 
+1. **Transaction in Fixed asset Book**: In cases when financial dimensions change (eg. Asset is transferred from worker A to worker B, and worker A works on position in Business unit 1 and worker B works on position in Business unit 2), also transaction on the Book level is generated. This means that this kind of change also affects General ledger. _Note: Only remaining value gets transferred._
 
 
 **To see generated lending records:** 
@@ -67,3 +67,12 @@ Following transactions are created as **result** of As result of Mass asset lend
 1. Go to **Fixed asset > Books > Select a Book**
 1. List of all generated **Book transactions** is available. This is only valid for Books that have Post to General ledger setup set to Yes. In this case all transactions are also posted to General ledger.
 
+## **Asset transfer transaction reversal**
+---
+
+Asset transfer transaction can be reversed by clicking the button Reverse transaction in Fixed asset transactions form: 
+1. Go to **Fixed asset > Books > Select a book > Transactions > Reverse button**
+1. Select transaction
+1. Click **Reverse**
+
+Reverse transaction functionality will reverse postings that occurred with Asset transfer transaction and it will return financial dimensions on fixed asset book that were assigned on the fixed asset prior to the mass asset lending.  **However,** the record in the Lending form will not be removed automatically. It has to be **deleted manually**
