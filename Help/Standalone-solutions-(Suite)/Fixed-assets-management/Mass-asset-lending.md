@@ -1,5 +1,5 @@
 
-Mass asset lending functionality is used to automate and simplify the standard D365O Fixed asset lending. Functionality adds the Mass asset lending feature, which among others enables users to lend several fixed assets at once, based on the specified criterion.
+Mass asset lending functionality is used to automate and simplify the standard D365O Fixed asset lending. Functionality adds the Mass asset lending feature, which among others enables users to lend several fixed assets at once, based on the specified critera.
 
 With the new lending functionality, responsible employee and/or location can be added/changed, and the last open lending record is closed. In addition, it is also possible to transfer financial dimension values of newly assigned employee to the fixed asset. It is important to emphasize that based on the setup in the system, this functionality can use physical locations (additional feature) instead of standard locations. 
 
@@ -22,7 +22,8 @@ With this setup user defines financial dimensions that will be transferred from 
 ## **Perform Mass asset lending**
 ---
 
-<br>
+
+###Apply processing parameters<br>
 
 1. Go to **Fixed assets > Periodic tasks > Mass asset lending** 
 1. Specify the following **parameters**:
@@ -40,17 +41,29 @@ With this setup user defines financial dimensions that will be transferred from 
 
 
 When multiple filters are defined (eg. From worker and From location), only corresponding fixed assets that match all criteria will be processed. 
-It is also possible to filter assets to be processed by the: Fixed asset number, Fixed asset book status and Fixed asset group. When selected, click OK to run the mass asset lending.
 
-NOTE: if no “From worker” is specified, fixed asset transfers will be created for all the acquired fixed assets. In this case a warning is displayed upon mass asset transfer generation.
+3. Use standard **filtering and batch processing options** if needed. 
+1. Click OK to **run the mass asset lending**.
+1. **Info message** with the details about the lent fixed asset(s) is available in the Action center
 
-## **Mass asset lending results**
----
+<br>
 
-When the processing is completed, an informational message with the details about the lent fixed asset(s) is available in the Action center.
+### Mass asset lending results<br>
 
-Fixed assets > Fixed Assets > Fixed assets
 
-Changes for all the lent fixed assets can be seen by clicking the “Lend” button on each of the fixed assets (standard feature). A new line is created in the “Lending” form of all the processed fixed assets. If a lending line for a fixed asset without the specified “Actual return date” existed, prior to generating the Mass asset lending, then the “Actual return date” is automatically set on the previous day of the newly generated lending line.
 
-If financial dimensions from the borrower’s position were checked to be transferred when generating the Mass asset lending (and setup in Fixed asset parameters exists), then dimensions are transferred from the borrower’s position to all the fixed asset books (with enabled financial dimensions), connected to each of the lent fixed assets.
+
+
+Following transactions are created as **result** of As result of Mass asset lending process:
+1. **Lending record on the Fixed asset level**: This transaction is recorded always when Mass asset lending is performed for the selected records. It indicates tat some kind of change on the Fixed asset level happened. This could be the change of responsible worker, Location or financial dimensions. 
+1. **Transaction in Fixed asset Book**: In cases when financial dimensions change (eg. Asset is transferred from worker A to worker B, and worker A works on position in Business unit 1 and worker B works on position in Business unit 2), also transaction on the Book level is generated. this means that this kind of change also affects General ledger. 
+
+
+**To see generated lending records:** 
+1. Go to **Fixed asset > Lend**
+1. List of all **lending transactions** is available. New line is created in the “Lending” form of the selected fixed asset. If a lending line for a fixed asset without the specified “Actual return date” existed, prior to generating the Mass asset lending, then the “Actual return date” is automatically set on the previous day of the newly generated lending line.
+
+**To see generated Fixed asset Book transactions:** 
+1. Go to **Fixed asset > Books > Select a Book**
+1. List of all generated **Book transactions** is available. This is only valid for Books that have Post to General ledger setup set to Yes. In this case all transactions are also posted to General ledger.
+
