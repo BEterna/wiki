@@ -1,1 +1,3 @@
-WIP
+The purpose of functionality is to enable hierarchy among locations, which is not supported by standard functionality. 
+
+The benefit of physical locations is that they have hierarchical structure, meaning that each location can have its parent location and sublocations, which is not possible with standard locations. In addition, physical locations functionality allows adding locations which are a part of a tree structure only and do not represent actual physical location. Physical locations can also be activated and deactivated multiple times.  
