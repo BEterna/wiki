@@ -41,3 +41,11 @@ Tree structure of the created physical locations can be seen in the left menu. A
 
 _Note: Physical location drop-down menu offers only **active physical locations**. If **Activate physical location** in Fixed asset parameters is set to No, standard location field will be shown in the Location fast tab instead of Physical location field._ 
 
+### Select physical locations on Lending record
+
+1. Go to **Fixed assets > Fixed assets > Fixed assets > select specific Fixed asset > Lend**
+1. Add **new** lending record
+1. Select **Physical location** from drop-down menu
+
+_Note: Selection of Physical location on Lending record **does not affect Physical location on Fixed asset card**, which has to be changed **manually**. Physical location drop-down menu offers only **active physical locations**. If **Activate physical location** in Fixed asset parameters is set to No, standard location field will be shown in the Location fast tab instead of Physical location field._ 
+
