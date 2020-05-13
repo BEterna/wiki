@@ -49,3 +49,14 @@ _Note: Physical location drop-down menu offers only **active physical locations*
 
 _Note: Selection of Physical location on Lending record **does not affect Physical location on Fixed asset card**, which has to be changed **manually**. Physical location drop-down menu offers only **active physical locations**. If **Activate physical location** in Fixed asset parameters is set to No, standard location field will be shown in the Location fast tab instead of Physical location field._ 
 
+
+### Select physical locations on Fixed asset counting form
+
+1. Go to **Fixed assets > Periodic tasks > Fixed asset counting > Asset counting**
+1. Generate **new** Asset counting record with button New
+1. **Suggest** new counting lines (recommended) or **Add lines** manually
+1. Each line is populated with **Original location from Fixed asset**. If the physical location field on the fixed asset is blank, original location is also left blank.
+1. **Counted location** is populated as result of fixed asset counting process - manually or with import
+
+_Note: Physical location drop-down menu offers only **active physical locations**. If **Activate physical location** in Fixed asset parameters is set to No, standard location field will be shown in the Location fast tab instead of Physical location field._ 
+
