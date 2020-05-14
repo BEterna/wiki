@@ -47,11 +47,14 @@ Attached below you will find documentation on [eInvoice standard eSLOG 1.6.](e-I
 2. Mandatory data such as name, address, tax exempt or tax registration number, ID number, and default bank account (and IBAN and SWIFT for that bank account) are being validated in the eInvoice registry upon creating XML (more on that below).
 
 ### Customer setup - Taxable person type
+ 
 1. Go to **Accounts receivable > Customers > All customers > Select Customer > Invoice and delivery tab**
 1. Select **Taxable person type** from drop-down menu. Available options: 
    - Legal entity
    - Sole proprietor
    - Natural person
+
+_Note: This setup **affects validation** of **Tax registration number** (Davčna številka) and **Registration number** (Matična številka), when eInovice is generated. When Type Natural person is selected, those two are optional. When Sole proprietor or Legal entity is selected both, Tax registration number and Registration number are mandatory._ 
 
 ## **EInvoice registry**
 ---
