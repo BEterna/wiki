@@ -41,10 +41,12 @@ Attached below you will find documentation on [eInvoice standard eSLOG 1.6.](e-I
 1. Open Accounts receivable – Setup – Electronic signature certificates.
 2. For testing purposes, it is possible to define a certificate for the electronic signature of eInvoices.
  
-### Customer setup
+### Customer setup - profile ID
 
 1. Define “Profile ID” from eInvoice parameters in tab Invoice and delivery on the customer that eInvoices will be issued for.
 2. Mandatory data such as name, address, tax exempt or tax registration number, ID number, and default bank account (and IBAN and SWIFT for that bank account) are being validated in the eInvoice registry upon creating XML (more on that below).
+
+### Customer setup - Taxable person type
 
 ## **EInvoice registry**
 ---
