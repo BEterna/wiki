@@ -1,4 +1,3 @@
-Taxable-person-type
 VAT
 VAT-features
 VAT-reporting-for-Slovenia
@@ -10,6 +9,7 @@ Advance-invoice
 eInvoice
 eSettlement-(SI)
 Registration-IDs
+Taxable-person-type
 Additional-depreciation-convention
 Additional-Interest-calculation-%2D-Linear-method
 Intrastat-enhancements-(SI,-HR)
