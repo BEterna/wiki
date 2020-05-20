@@ -113,3 +113,30 @@ Format and structure (11 digits) are validated upon entry – there is a warning
 Validation is performed if the Check tax exempt number is marked in Tax/Setup/Sales tax/Country/region parameters.  
 
 Validation for Slovenia and Croatia is added as part of localization. Validation for other supported countries is performed as part of standard solution. Tax exempt number structure (8 digits for SI and 11 for CRO) is validated upon entry – there is a warning displayed in case of incorrect tax exempt number.    
+
+
+## **Retrieval priority**
+---
+
+REgistration ID's listed above are used for reporting purposes. They can be used in combination with additional identification numbers (see   [Additional identification numbers](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Additional-identification-numbers). Therefore retrieval priority is defined:   
+
+
+### Customer/vendor entity 
+**Tax registration number** (Davčna številka or OIB): 
+
+1. Tax registration number on customer or vendor
+2. Registration IDs
+
+**Company ID** (Matična številka) 
+1. ID number on customer or vendor
+2. Registrations IDs 
+
+
+### Legal entity:
+**Tax registration number** (Davčna številka or OIB):
+1. Tax registration number on legal entity
+2. Registration IDs
+
+**VAT ID** (ID za DDV)
+1. VAT exempt number export on legal entity
+2. Registrations IDs 
