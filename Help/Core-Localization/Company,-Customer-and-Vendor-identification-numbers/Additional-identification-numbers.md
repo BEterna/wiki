@@ -1,8 +1,13 @@
+Following fields are added to Customer and Vendor: 
+
+## Tax registration number
+ Davčna številka in Slovenian localization and OIB in Croatian localization. 
 
 
-Tax registration number (DŠ, OIB)
-Taxable person type (si) 
-Company ID (MŠ - si)
+
+
+## - Taxable person type (si) 
+- Company ID (MŠ - si)
 
 Implemented defaulting of taxable person type, vat id and company id from tax registration number when selected (slovenian taxable persons
 
