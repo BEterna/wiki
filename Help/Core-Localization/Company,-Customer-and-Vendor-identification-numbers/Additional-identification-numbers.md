@@ -1,4 +1,10 @@
 Following fields are added to Customer and Vendor: 
+- Tax registration number
+- Taxable person type
+- Company ID
+
+## **Setup**
+---
 
 ## Tax registration number
  Davčna številka in Slovenian localization and OIB in Croatian localization. 
@@ -16,15 +22,24 @@ Following fields are added to Customer and Vendor:
    - Legal entity
    - Sole proprietor
    - Natural person
+1. Filed can be populated **automatically** when selecting Tax registration number.
 
 _Note: This setup **affects validation** of **Tax registration number** (Davčna številka) and **Registration number** (Matična številka), when eInovice is generated. For more details go to [eInvoices](/Help/Core-Localization/eInvoice/eInvoice-for-Slovenia)._ 
 
 
-## Company ID (MŠ - si)
+## Company ID (SI only)
+Matična številka
+1. Go to **Accounts receivable > Customers > All customers > Select Customer > Invoice and delivery tab > Tax registration number field** or **Accounts payable> Vendors > All Vendors > Select Vendor > Invoice and delivery tab > Tax registration number field**
+1. Enter the number manually. 
+1. Filed can be populated **automatically** when selecting Tax registration number.
 
-Implemented defaulting of taxable person type, vat id and company id from tax registration number when selected (slovenian taxable persons
 
-dentification retrieval priority: OK
+## **Retrieval priority**
+---
+
+Identification numbers listed above are used for reporting purposes. They can be used in combination with Registratin ID's (see   [Registration ID's](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Registration-IDs). Therefore retrieval priority is defined in following way:   
+
+
 Customer/vendor: 
 DŠ/OIB:  OK. Če obstaja podatek na kupcu in v Registration ID's, se na Reporting tab na TAx trans vzame podatek iz kupca. V nasprotnem primeru se vzame podatek iz Registratin ID.  
 1. Tax registration number on customer or vendor
