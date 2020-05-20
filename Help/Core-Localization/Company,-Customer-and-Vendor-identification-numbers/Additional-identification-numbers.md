@@ -10,8 +10,14 @@ Following fields are added to Customer and Vendor:
 
 
 ## Taxable person type (SI only) 
-Three types of taxable perons are available: 
 
+1. Go to **Accounts receivable > Customers > All customers > Select Customer > Invoice and delivery tab > Tax registration number field** or **Accounts payable> Vendors > All Vendors > Select Vendor > Invoice and delivery tab > Tax registration number field**
+1. Select **Taxable person type** from drop-down menu. Available options: 
+   - Legal entity
+   - Sole proprietor
+   - Natural person
+
+_Note: This setup **affects validation** of **Tax registration number** (Davčna številka) and **Registration number** (Matična številka), when eInovice is generated. For more details go to [eInvoices](/Help/Core-Localization/eInvoice/eInvoice-for-Slovenia)._ 
 
 
 ## Company ID (MŠ - si)
