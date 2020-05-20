@@ -37,20 +37,25 @@ Matična številka
 ## **Retrieval priority**
 ---
 
-Identification numbers listed above are used for reporting purposes. They can be used in combination with Registratin ID's (see   [Registration ID's](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Registration-IDs). Therefore retrieval priority is defined in following way:   
+Identification numbers listed above are used for reporting purposes. They can be used in combination with Registratin ID's (see   [Registration ID's](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Registration-IDs). Therefore retrieval priority is defined:   
 
 
-Customer/vendor: 
-DŠ/OIB:  OK. Če obstaja podatek na kupcu in v Registration ID's, se na Reporting tab na TAx trans vzame podatek iz kupca. V nasprotnem primeru se vzame podatek iz Registratin ID.  
+### Customer/vendor entity 
+**Tax registration number** (Davčna številka or OIB): 
+
 1. Tax registration number on customer or vendor
 2. Registration IDs
-Company ID (MŠ): OK Če obstaja podatek na kupcu in v Registration ID's, se na reporte vzame podatek iz kupca. V nasprotnem primeru se vzame podatek iz Registratin ID.
+
+**Company ID** (Matična številka) 
 1. ID number on customer or vendor
 2. Registrations IDs 
-Legal entity:
-DŠ/OIB: OK
+
+
+### Legal entity:
+**Tax registration number** (Davčna številka or OIB):
 1. Tax registration number on legal entity
 2. Registration IDs
-VAT num.: OK
+
+**VAT ID** (ID za DDV)
 1. VAT exempt number export on legal entity
 2. Registrations IDs 
