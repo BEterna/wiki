@@ -49,7 +49,7 @@ Not yet supported for Croatian localization.
    - on Registration ID's > OIB. Information is needed when eInvoice is generated. 
 Note: priorities described in [Additional identification numbers](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Additional-identification-numbers)
 
-## **EInvoice registry**
+## **eInvoice registry**
 ---
 
 ### Electronic customer invoices
