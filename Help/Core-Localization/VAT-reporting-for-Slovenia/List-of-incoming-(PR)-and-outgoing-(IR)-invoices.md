@@ -14,17 +14,21 @@ IR and PR reports are prepared based on Tax transactions amd **according to VAT 
 3. After confirmation, report is generated. It is possible to export the report into various formats and search the report for entered values.
 4. Click on “Refresh” button to open reporting parameters. 
 
-### "Evidenca IR" (FURS export) report (csv Export) 
+_Note: In case when report structure changes due to legislation changes, resulting output depends on reporting date._ 
 
-1. Open **Tax Declarations > Slovenia > VAT > “Evidenca IR” (FURS export) report**.
+### VAT payable rep. CSV export  
+
+1. Open **Tax Declarations > Slovenia > VAT > VAT payable rep. CSV export**.
 2. Enter **reporting parameters** and click OK. 
 3. Report in FURS export format is generated.  
 
-### IR report export to Excel
+_Note: In case when report structure changes due to legislation changes, resulting output depends on reporting date._ 
+### "Evidenca IR" report forms
 
 1. Open **Tax > Declarations > Slovenia > VAT > “Evidenca IR” report forms**.
 2. Click button **“Show report in table”** to open reporting parameters. Define the Settlement period and dates. After confirmation, a list of all relevant transactions in the defined period is created.  
 3. Use function **“Export to Excel”** to export lines to Excel. Combination Ctrl + Shift + E can also be used for export.  
+
 
 ## PR reports 
 ---
@@ -35,10 +39,14 @@ IR and PR reports are prepared based on Tax transactions amd **according to VAT 
 3. After confirmation, report is generated. It is possible to export the report into various formats and search the report for entered values.
 4. Click on “Refresh” button to open reporting parameters. 
 
-### "Evidenca PR" (FURS export) report (csv Export) 
-1. Open **Tax Declarations > Slovenia > VAT > “Evidenca PR” (FURS export) report**.
+_Note: In case when report structure changes due to legislation changes, resulting output depends on reporting date._ 
+
+### VAT receivable rep. CSV export 
+1. Open **Tax Declarations > Slovenia > VAT > VAT receivable rep. CSV export**.
 2. Enter **reporting parameters** and click OK. 
 3. Report in FURS export format is generated. 
+
+_Note: In case when report structure changes due to legislation changes, resulting output depends on reporting date._ 
 
 ### PR report export to Excel
 
