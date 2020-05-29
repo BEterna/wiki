@@ -20,9 +20,10 @@ ODO-1 report needs to be generated in case of payment to non-residents.
 
 ### Sales tax settlement periods
 
-1. Open Tax – Indirect taxes – Sales tax – Sales tax settlement periods.
-2. The new sales tax settlement period has to be created for REK-2 purposes.
-3. The tax authority, created earlier, has to be selected in the field “Authority”. We will be using the “Monthly” period interval unit with interval duration “1”. Since the same functionality is being used for VAT and REK-2, it is necessary to define Period type value as “REK-2”. This setup enables that upon closing the period only entries for REK-2 will be considered in the calculation (period type “REK-2” prevents the generation of DDV-O report and settlement of VAT entries). 
+1. Open **Tax > Indirect taxes > Sales tax > Sales tax settlement periods**.
+2. Create new **Tax settlement period** for ODO-1 reporting. 
+3. In the **Authority** field select authority that was created for personal tax reporting purposes. 
+4. In the **Period interval unit** select interval that will be used for reporting.  
 
 ### Ledger posting groups
 
