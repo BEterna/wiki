@@ -27,10 +27,8 @@ ODO-1 report needs to be generated in case of payment to non-residents.
 
 ### Ledger posting groups
 
-1. Open Tax – Setup – Sales tax – Ledger posting groups.
-2. The new ledger posting group is opened for ledger posting (main account defined in field “Sales tax receivable”). According to our business practice, we open as many ledger posting groups as there are different ledger accounts we want to post liabilities to.
- 
-There is no need to set up a Settlement account since closing the period will post REK-2 entries to the vendor, defined as tax authority on sales tax settlement period for REK-2. 
+1. Open **Tax > Setup > Sales tax > Ledger posting groups**.
+2. Create new **Ledger posting group** for posting tax transactions (main account defined in field “Sales tax receivable”). There is no need to set up a Settlement account since closing the period will post ODO-1 entries to the vendor, defined as tax authority on sales tax settlement period for ODO-1. 
 
 ### Sales tax codes
 
