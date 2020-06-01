@@ -22,7 +22,9 @@ Following information, needed for VAT reporting purposes is added to the tab:
 
 |Source document| Source field |
 |--|--|
-| Vendor Invoice, Sales Invoice, Free text invoice, and Project Invoice  | Vendor/Customer in the document header |
+|Vendor Invoice  | Vendor account in the document header |
+|Sales Invoice, Free text invoice  | Invoice Address in the document header |
+|Project Invoice  | Address from funding sources in the document header |
 | Journal with Vendor/Customer line | Address field on journal line |
 
  
