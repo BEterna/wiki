@@ -79,7 +79,7 @@ If the cost of contract work is posted via the vendor invoice, the ledger accoun
 
 ### Vendor certifications
 
-1. Certificates regarding reliefs or international conventions are entered on vendor card -> button Certifications. 
+1. Certificates regarding reliefs or international conventions are entered on **Vendor card > button Certifications**. 
 2. Mandatory fields to enter are: 
    - Certification type and Certification number,
    - Certifying organizations (e.g. Slovenian tax authority or Ministry for culture),
