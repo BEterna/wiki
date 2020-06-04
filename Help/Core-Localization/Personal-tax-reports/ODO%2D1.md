@@ -90,9 +90,21 @@ If the cost of contract work is posted via the vendor invoice, the ledger accoun
 ---
 
 Tax transactions with ODO-1 setup are used for ODO-1 reporting. To generate report: 
-1. Go to **Tax > Declarations > Slovenia > ODO reporting > ODO-1 > ODO-1 forms** to prepare transactions for specific period.
-2. Select Reporting parameters: 
+1. Go to **Tax > Declarations > Slovenia > ODO reporting > ODO-1 > ODO-1 forms** or **Tax > Declarations > Slovenia > ODO reporting > ODO-1 > ODO-1 reporting > Read transactions** to prepare transactions for specific period.
+2. Select **Reporting parameters**: 
    - From date: Starting date of reports
    - To date: Ending date of reports
    - Include transactions from unposted journals:  Yes to include unposted journals / se No to exclude unposted journals
-Tax > Declarations > Slovenia > ODO reporting > ODO-1 > ODO-1 reporting
+3. Go to **Tax > Declarations > Slovenia > ODO reporting > ODO-1 > ODO-1 reporting** to see generated reports
+
+## **Export ODO-1 report**
+---
+
+1. Go to **Tax > Declarations > Slovenia > ODO reporting > ODO-1 > ODO-1 reporting > Export to XML** to generate XML file that can be later imported into eDavki. Enter **parameters**: 
+   - Document type: Select one of the values from the list
+   - Receiver type: Select one of the values from the list
+1. **Generate XML** with **OK**.
+1. Go to Details tab > Preview** to see specific report details. 
+
+
+   - 
