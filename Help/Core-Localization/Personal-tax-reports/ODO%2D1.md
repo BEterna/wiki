@@ -85,3 +85,14 @@ If the cost of contract work is posted via the vendor invoice, the ledger accoun
    - Certifying organizations (e.g. Slovenian tax authority or Ministry for culture),
    - Certification date. 
 3. If Certification type is chosen on sales tax code and a certificate for the same certification type is entered on the vendor, then the certificate number is recorded in REK-2 field D11. 
+
+## **Generate ODO-1 report**
+---
+
+Tax transactions with ODO-1 setup are used for ODO-1 reporting. To generate report: 
+1. Go to **Tax > Declarations > Slovenia > ODO reporting > ODO-1 > ODO-1 forms** to prepare transactions for specific period.
+2. Select Reporting parameters: 
+   - From date: Starting date of reports
+   - To date: Ending date of reports
+   - Include transactions from unposted journals:  Yes to include unposted journals / se No to exclude unposted journals
+Tax > Declarations > Slovenia > ODO reporting > ODO-1 > ODO-1 reporting
