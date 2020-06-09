@@ -162,7 +162,7 @@ If the cost of contract work is posted via the vendor invoice, the ledger accoun
 Note: changing the amount on vendor payment line is not recorded in the REK-2 report. Test case presented in chapter Correcting payment journal line amount is not recorded in the report.
 
 At this stage, it is already possible to create the REK-2 report (navigate to chapter REK-2 report for details). Correcting or deleting payment journal lines is not possible while the report exists, as lines are locked for editing. Correction is possible after deleting the existing REK-2 report.
-Vendor payment journal lines are settled with the bank statements. After posting, transactions of personal tax payments are created on the FURS vendor.  
+Vendor payment journal lines are settled with posting of journal/bank statement. After posting, transactions of personal tax payments are created on the FURS vendor and the existing Tax transactions are populated with VAT date.  
  
 ### Payment compensation
 
