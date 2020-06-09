@@ -139,7 +139,8 @@ If the cost of contract work is posted via the vendor invoice, the ledger accoun
 5. Real estate data from vendor invoice is recorded in the area "Podatki o nepremičninah" on the iREK. Test case presented in chapter Reporting regarding real estate.
 6. After the purchase order is confirmed, it can be linked to the vendor invoice. One purchase order can be mapped to one vendor invoice. 
 7. Data from a purchase order is transferred to the vendor invoice. In Info part of vendor invoice under “Invoice totals” net amount of vendor payment can be seen (field Invoice amount) as well as personal tax amount in field Sales tax (income tax + deductions from gross).
-8. Posting the vendor invoice results in the following voucher transactions.
+8. Posting the vendor invoice results in posting vendor, Tax and GL transactions. 
+9. **VAT date** in generated Tax transactions is left **empty** if **Post personal tax without VAT date** is set to **Yes** in Tax settlement period setup. 
  
 ### Separate number sequence for Purchase pool
 
