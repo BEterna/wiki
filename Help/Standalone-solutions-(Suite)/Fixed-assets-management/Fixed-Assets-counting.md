@@ -24,10 +24,16 @@ The configuration defines a mapping for a specific data model. Separate configur
    - ERAssetCountingLocationsDefault_AdFAM,
    - ERAssetCountingUsersDefault_AdFAM.
 
-### Fixed assets parameters
+### Fixed assets parameters - import/export mapping
 
-1. Open Fixed assets - Setup - Fixed asset parameters.
-2. Imported mappings should be selected for each reporting type. In the case of missing ER setup, an error message will appear during the process of export or import. 
+1. Open Fixed assets > Setup > Fixed asset parameters > Electronic reporting.
+2. Import/exort mappings should be selected for each reporting type. In the case of missing ER setup, an error message will appear during the process of export or import. 
+
+### Fixed assets parameters - Barcode setup
+
+1. Open **Fixed assets > Setup > Fixed asset parameters > Fixed asset.**
+2. Go to **Barcode tab**
+3. Set **Bar code equals fixed asset number** to **Yes** if Bar codes are not generated another way
 
 ## **Exports**
 ---
