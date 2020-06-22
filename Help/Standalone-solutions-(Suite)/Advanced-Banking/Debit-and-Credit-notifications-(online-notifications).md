@@ -1,10 +1,10 @@
 Debit and Credit notifications are used in cases when users need more frequent updates regarding bank transactions. Therefore, term Online notifications is also used. Frequency of import is part of setup, which means that it can be adjusted according to specifics of business process.  
 
-##Setup
+## **Setup**
 ---
  See [Bank statement Import setup](/Help/Standalone-solutions-\(Suite\)/Advanced-Banking/Bank-statement-import)
 
-## Import and validate debit credit notifications
+## **Import and validate debit credit notifications**
 ---
 
 If SharePoint source is configured for debit credit bank notifications, they can be either imported from SharePoint or entered manually.
