@@ -195,7 +195,7 @@ Once this option is enabled on a bank account it cannot be reversed (button turn
 
 It is possible to configure different sources (e.g. SharePoint) for importing bank debit credit notifications and statements to D365FO. Configuration of SharePoint is optional – they can also be entered manually or imported from PC.
 
-To configure SharePoint as a statement/notification source: 
+To **configure SharePoint** as a statement/notification source: 
 1. Go to **Organization administration > Document management > Document types**.
 2. Create Document type **Inbox** for each file type (bank statement or/and notification)
 2. Create Document type **Completed** for each file type (bank statement or/and notification)
@@ -205,6 +205,15 @@ To configure SharePoint as a statement/notification source:
 
 Same number of folders should be created on the **connecting SharePoint**. Each of the newly created Document types then needs to be **mapped** with the **related SharePoint folder**. To do that, enter URL address of each SharePoint folder in the **Sharepoint Address field** of the Document type setup.
 
+Finally, **mapping of Electronic reporting sources** with **Document types** needs to be configured. 
+1. Go to **Organization administration > Electronic reporting > Electronic reporting source**. 
+2. Create a **new source** for each file type (one for bank statements and one for notifications). 
+3. In field “**Format**” configure **Camt.054 Format (AD)** as bank notification and **Camt.053 Format (AD)** as bank statements source.
+4. On each newly created Electronic reporting source **add a new File source**, enter adequate name (bank statement or notification)
+5. Click on Settings  
+6. Enable **SharePoint** and connect **Document types** with adequate **document categories** 
+
+![image.png](/.attachments/image-9111f5aa-8841-4d1d-b72a-9dbad06ff1c2.png)
 
 ## **Import**
 ---
