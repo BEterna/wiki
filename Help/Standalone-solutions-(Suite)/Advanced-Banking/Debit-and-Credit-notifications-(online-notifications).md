@@ -2,7 +2,7 @@ Debit and Credit notifications are used in cases when users need more frequent u
 
 ##Setup
 ---
-
+ See [Bank statement Import setup](/Help/Standalone-solutions-\(Suite\)/Advanced-Banking/Bank-statement-import)
 
 ## Import and validate debit credit notifications
 ---
