@@ -75,7 +75,11 @@ Import and validate bank statement in **Cash and bank management > Bank statemen
 
 Open **Cash and bank management > Bank statement reconciliation > Bank statement processing journal**.
 
+Once imported and validated, credit debit notifications and/or bank statement can be reconciled with existing transactions in D365FO. It is also possible to reconcile bank statement lines with already reconciled debit credit bank notification lines and vice versa.
+
 #### Generate debit and credit journal
+
+Debit and credit journal must be generated to process imported debit credit notification and/or bank statement transaction. Define:
 
 1. Generate **bank statement processing journal** for validated bank statement lines by selecting Credit and Debit journal names and defining the number of lines per each journal.
 2. Credit and Debit journals are created. **Open** the desired journal by clicking on **Lines**.
@@ -91,12 +95,12 @@ Open **Cash and bank management > Bank statement reconciliation > Bank statement
  
 ####  Manual matching
 
-It is possible to manually match bank statement lines to desired account types. Depending on setup on processing journal, account types that are available are Vendor, Customer, Bank account, and General ledger.
-1. Select Vendor/Customer account. Open transactions will list below. 
+It is possible to **manually match bank statement lines** to desired account types. Depending on setup on processing journal, account types that are available are Vendor, Customer, Bank account, and General ledger.
+1. **Select** Vendor/Customer account. Open transactions will list below. 
 2. If action “Account” is used, the amount from the bank statement line will be posted on a selected vendor/customer account with no link to any transaction. Confirmation is required.
-3. It is possible to mark the desired transaction from listed open vendor/customer transactions and match it with bank statement line. Put checkmark in field Marked and click Transfer. The transaction will be settled against the bank statement line in the amount of the bank statement line. Confirmation is required.
-4. Bank statement line can be transferred to account type Bank. Select Bank account and click Account to match bank statement line against a bank account. Confirmation is required.
-5. Bank statement line transaction can also be settled on main account. In tab General ledger, select main account and click Transfer. Link type General ledger is created. Confirmation is required.
+3. It is possible to **mark** the desired transaction from listed open vendor/customer transactions and **match** it with bank statement line. Put checkmark in field Marked and click **Transfer**. The transaction will be settled against the bank statement line in the amount of the bank statement line. **Confirmation** is required.
+4. Bank statement line can be transferred to account type Bank. **Select Bank account** and click **Account** to match bank statement line against a bank account. **Confirmation** is required.
+5. Bank statement line transaction can also be settled on main account. In tab **General ledger**, select **main account** and click **Transfer**. Link type General ledger is created. **Confirmation** is required.
  
 When journal setup allows Customer account type, additional action Prepayment is available. With this bank statement line can be marked as prepayment and will be posted according to customer posting profile for prepayments, selected upon Transfer. 
  
