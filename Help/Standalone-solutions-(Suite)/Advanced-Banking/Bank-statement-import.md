@@ -215,7 +215,7 @@ Finally, **mapping of Electronic reporting sources** with **Document types** nee
 
 ![image.png](/.attachments/image-9111f5aa-8841-4d1d-b72a-9dbad06ff1c2.png)
 
-## **Import**
+## **Import Bank statement**
 ---
 
 Bank Statement is imported in Cash and Bank management > Bank statement reconciliation > Bank statements > Import statement.
