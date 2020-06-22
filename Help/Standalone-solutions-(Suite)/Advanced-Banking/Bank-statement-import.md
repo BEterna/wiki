@@ -1,6 +1,10 @@
 # Import bank statement
 
-This topic includes information about the bank statement transformations, used for mapping D365 fields with the information from bank statements. Transformations for following bank statement formats are added as part of this package: 
+This topic includes information about two options for bank statement import: 
+- Bank statement transformations, used for mapping D365 fields with the information from bank statements (**Data management** - Option 1).
+- **Electronic reporting formats** for bank statement import (Option 2). 
+
+Following bank statement formats are supported as part of this package: 
 
    - Slovenia – ISO 20022 (HalcomSI)
    - Croatia – FINA
@@ -9,7 +13,7 @@ This topic includes information about the bank statement transformations, used f
 After import, bank statements can be processed using standard D365 bank reconciliation feature or additional bank statement processing features that this package is offering.
 
 
-## **Setup**
+## **Setup with Data management (Option 1)**
 ---
 
 ### **Data management setup**
@@ -152,7 +156,17 @@ After the format processing group is set up, the next step is to define the **ba
 6.	Enable XML file option.
 
 
- 
+## **Setup with Electronic reporting** 
+---
+1. Go to **Organization administraton > Workspaces > Electronic reporting**
+2. Open **Adacta repository**
+3. Click **Add** and **create** new configuration repository by choosing **Adacta Suite (Bank Statements)**
+4. Select repository, created in previous bullet and **Open**. 
+5. **Import** all **Bank statement models**
+
+Imported transformation files are then displayed in Electronic reporting configurations as: 
+- **Camt.053 Format (AD)** for bank statements 
+- **Campt.054 Format (AD)** for bank debit credit notifications
 
 
 ### Bank account setup
