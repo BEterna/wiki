@@ -9,29 +9,28 @@ This solution is part of the AdactaSuiteBankStatements AdSuite D365O package.
 
 ### Journal names
 
-1. Open Cash and bank management > Setup > Bank Statements > Journal names.
-2. Set up bank statement processing journals and define account types that the bank statement lines can be mapped to.
+1. Open **Cash and bank management > Setup > Bank Statements > Journal names**.
+2. Set up **bank statement processing journals** and define account types that the bank statement lines can be mapped to.
  
 ### Unknown inflows
 
-1. Open Cash and bank management > Setup > Bank Statements > Unknown inflows.
-2. Define main accounts for unknown inflows and outflows for each bank account to automatically transfer bank statement line amount – when marked unknown – to this account.
+1. Open **Cash and bank management > Setup > Bank Statements > Unknown inflows**.
+2. Define **main accounts for unknown inflows and outflows** for each bank account to automatically transfer bank statement line amount – when marked unknown – to this account.
  
 ### Processing rules
 
-1. Open Cash and bank management > Setup > Bank Statements > Processing rules.
+1. Open **Cash and bank management > Setup > Bank Statements > Processing rules**.
 
 Bank statement processing functionality enables automatic reconciliation of data from the electronic bank statement against the transactions in the system, using processing rules.
 
 Steps: 
-1. Create a new processing rule set and click “Edit rule set rules” to define processing rules.
-1. Create a new processing rule; define its priority (order of execution) and a type of rule:
-   - Terminating: if the transaction meets the criteria of the current matching rule in the processing, it will not be included in the processing of the next rule.
-   - Nonterminating: if the transaction meets the condition of the current matching rule in the processing, it will nonetheless be included in the processing of the next rule.
-5. In the Match tab, define criteria by which bank statement lines are filtered. When using regex match type, regex is verified, named capture groups are recognized and saved below as string values.
-In the Actions tab, define the appropriate action (detailed descriptions of each action is found in chapter Action types).<br>
-   Depending on the selected action type, an additional tab is shown where criteria for transaction matching are defined. <br>
-The rule below says, if bank statement lines with credit transactions and reference number of regex value are found, match them with vendor journal lines, that have the same reference number (field in vendor payment journal is called Payment reference) as bank statement lines.
+1. Create a **new processing rule set** and click “**Edit rule set rules**” to define processing rules.
+1. Create a **new processing rule**; define its priority (order of execution) and a **type** of rule:
+   - **Terminating**: if the transaction meets the criteria of the current matching rule in the processing, it will not be included in the processing of the next rule.
+   - **Nonterminating**: if the transaction meets the condition of the current matching rule in the processing, it will nonetheless be included in the processing of the next rule.
+5. In the **Match tab**, define criteria by which bank statement lines are filtered. When using regex match type, regex is verified, named capture groups are recognized and saved below as string values.
+4. In the **Actions tab**, define the appropriate action (detailed descriptions of each action is found in chapter Action types). Depending on the selected action type, an additional tab is shown where criteria for transaction matching are defined.
+
  
 ### Action types
 
@@ -60,35 +59,35 @@ Different action types enable the setup of various processing actions.
  
 ### Bank account
 
-1. Open Cash and bank management > Bank accounts > Bank accounts.
-2. On tab Reconciliation, define processing rules set for the selected bank account.
+1. Open **Cash and bank management > Bank accounts > Bank accounts**.
+2. On tab Reconciliation, define **processing rules** set for the selected bank account.
  
 ## **Bank statement processing**
 ---
 
 ### Import and validate bank statement
 
-Import and validate bank statement in Cash and bank management > Bank statement reconciliation > Bank statements.
+Import and validate bank statement in **Cash and bank management > Bank statement reconciliation > Bank statements**.
 
 [Detailed documentation](https://ad365o.visualstudio.com/AdLoc/_wiki/wikis/WIPdoc/83/Bank-statement-import?anchor=import-bank-statement)
  
 ### Bank statement processing journal
 
-Open Cash and bank management > Bank statement reconciliation > Bank statement processing journal.
+Open **Cash and bank management > Bank statement reconciliation > Bank statement processing journal**.
 
 #### Generate debit and credit journal
 
-1. Generate bank statement processing journal for validated bank statement lines by selecting Credit and Debit journal names and defining the number of lines per each journal.
-2. Credit and Debit journals are created. Open the desired journal by clicking on Lines.
-3. The form is divided into two tabs. Information about the bank statement lines is found in tab Bank statement lines. Reference number represents payment reference, the Document number is payment ID. Tab Matching is divided into two sections: the right part is used for transaction matching (account types that the bank statement lines can be mapped to are defined in journal setup – see chapter Journal names), whereas the left section provides information about the matched transaction.
+1. Generate **bank statement processing journal** for validated bank statement lines by selecting Credit and Debit journal names and defining the number of lines per each journal.
+2. Credit and Debit journals are created. **Open** the desired journal by clicking on **Lines**.
+3. The form is divided into **two tabs**. Information about the bank statement lines is found in tab **Bank statement lines**. Reference number represents payment reference, the Document number is payment ID. Tab **Matching** is divided into two sections: the right part is used for transaction matching (account types that the bank statement lines can be mapped to are defined in journal setup – see chapter Journal names), whereas the left section provides information about the matched transaction.
  
 #### Processing 
 
-1. Run processing to automatically match bank statement lines with transactions in the system, according to processing rules. 
-2. After the processing is done, message about the results and possible warnings are displayed.
-3. Transactions that match the criteria from processing rules are mapped to adequate bank statement lines. Bank statement lines are marked as Processed. The field Ledger account displays the account that the line was mapped to. Bank statement lines that have not been matched and lines that have been matched by a processing rule that has action type “Mark for confirmation” included, are marked as Confirmation required.
+1. Run **processing** to automatically match bank statement lines with transactions in the system, according to processing rules. 
+2. After the processing is done, message about the **results and possible warnings** are displayed.
+3. Transactions that match the criteria from processing rules are mapped to adequate bank statement lines. Bank statement lines are **marked as Processed**. The field Ledger account displays the account that the line was mapped to. Bank statement lines that have not been matched and lines that have been matched by a processing rule that has action type “Mark for confirmation” included, are marked as Confirmation required.
 4. For line, that has been matched, information about the matched transaction is displayed in tab Matching.
-5. If bank statement line is marked as Unknown, the matching line is automatically created according to setup in Unknown inflows. Bank statement line needs to be manually marked as Confirmed.
+5. If bank statement line is marked as **Unknown**, the matching line is automatically created according to setup in Unknown inflows. Bank statement line needs to be **manually marked as Confirmed**.
  
 ####  Manual matching
 
