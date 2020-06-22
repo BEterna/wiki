@@ -158,6 +158,10 @@ After the format processing group is set up, the next step is to define the **ba
 
 ## **Setup with Electronic reporting** 
 ---
+
+### Import Electronic reporting configurations
+<br>
+
 1. Go to **Organization administraton > Workspaces > Electronic reporting**
 2. Open **Adacta repository**
 3. Click **Add** and **create** new configuration repository by choosing **Adacta Suite (Bank Statements)**
@@ -166,8 +170,17 @@ After the format processing group is set up, the next step is to define the **ba
 
 Imported transformation files are then displayed in Electronic reporting configurations as: 
 - **Camt.053 Format (AD)** for bank statements 
-- **Campt.054 Format (AD)** for bank debit credit notifications
+- **Camt.054 Format (AD)** for bank debit credit notifications
 
+
+### Bank statement format setup
+1. Go to **Cash and bank management > Setup > Advanced bank reconciliation setup > Bank statement format**
+2. **Add** new **Bank statement import configuration**
+3. Specify a **statement format**, such as **Camt.053**.
+4. Enter a **name for the format**.
+5. Enable **XML** file option.
+6. Mark **Generic Electronic import format field** 
+7. Select **Import configuration format**
 
 ### Bank account setup
 
