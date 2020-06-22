@@ -12,8 +12,9 @@ Following bank statement formats are supported as part of this package:
 
 After import, bank statements can be processed using standard D365 bank reconciliation feature or additional bank statement processing features that this package is offering.
 
+## **Setup**
 
-## **Setup with Data management (Option 1)**
+### **Setup of Data management (Option 1)**
 ---
 
 ### **Data management setup**
@@ -156,7 +157,7 @@ After the format processing group is set up, the next step is to define the **ba
 6.	Enable XML file option.
 
 
-## **Setup with Electronic reporting** 
+### **Setup of Electronic reporting formats** 
 ---
 
 ### Import Electronic reporting configurations
@@ -183,10 +184,27 @@ Imported transformation files are then displayed in Electronic reporting configu
 7. Select **Import configuration format**
 
 ### Bank account setup
+---
 
 Import is enabled only for bank accounts that have a checkmark in field “Advanced bank reconciliation”.
  
 Once this option is enabled on a bank account it cannot be reversed (button turns inactive, grey). The optional setup is the definition of Statement format. 
+
+### Configuration of import sources
+---
+
+It is possible to configure different sources (e.g. SharePoint) for importing bank debit credit notifications and statements to D365FO. Configuration of SharePoint is optional – they can also be entered manually or imported from PC.
+
+To configure SharePoint as a statement/notification source: 
+1. Go to **Organization administration > Document management > Document types**.
+2. Create Document type **Inbox** for each file type (bank statement or/and notification)
+2. Create Document type **Completed** for each file type (bank statement or/and notification)
+2. Create Document type **Error** for each file type (bank statement or/and notification)
+  
+![image.png](/.attachments/image-f7e7cef3-851b-48e8-98ab-b18e70b83e63.png)
+
+Same number of folders should be created on the **connecting SharePoint**. Each of the newly created Document types then needs to be **mapped** with the **related SharePoint folder**. To do that, enter URL address of each SharePoint folder in the **Sharepoint Address field** of the Document type setup.
+
 
 ## **Import**
 ---
