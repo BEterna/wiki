@@ -218,10 +218,18 @@ Finally, **mapping of Electronic reporting sources** with **Document types** nee
 ## **Import Bank statement**
 ---
 
-Bank Statement is imported in Cash and Bank management > Bank statement reconciliation > Bank statements > Import statement.
+Bank Statement is imported in **Cash and Bank management > Bank statement reconciliation > Bank statements > Import statement**.
 
-For Serbia, bank statement files should be zipped before import. 
+At import, system checks for an **unique combination** of bank account number, SWIFT code, routing number, IBAN and currency between bank account records in D365FO and information from the statement. Therefore, import for multiple bank account records in D365FO with same bank account number, but different currencies is possible.
+
+_NOTE: No validation exist to avoid duplicated bank statements in D365FO - same bank statement can be imported several times._
+
+If adequate setup exists, bank statements can also be imported directly from the configured sources (SharePoint) through **Cash and bank management > Periodic tasks > Bank statements import (ER)**.
+
+
+_NOTE: For Serbia, bank statement files should be zipped before import._ 
  
+1. Set **Import statements for multiple bank accounts in all legal entities** to yes if you want to import statements for multiple bank accounts at once. NOTE: importing statements to multiple bank accounts in D365FO with same bank account number is not allowed. 
 1. Select **Bank account** from list of bank accounts.
 1. Select **Statement format**. If the format is already defined on Bank account, this field is populated automatically after choosing Bank account. During import, the system will recognize bank account based on IBAN number if it is not defined in parameters.
 1. Click **Upload** 
