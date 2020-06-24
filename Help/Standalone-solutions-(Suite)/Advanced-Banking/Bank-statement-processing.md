@@ -65,13 +65,13 @@ Different action types enable the setup of various processing actions.
 ## **Bank statement processing**
 ---
 
-### Import and validate bank statement
+### **Import and validate bank statement**
 
 Import and validate bank statement in **Cash and bank management > Bank statement reconciliation > Bank statements**.
 
-[Detailed documentation](https://ad365o.visualstudio.com/AdLoc/_wiki/wikis/WIPdoc/83/Bank-statement-import?anchor=import-bank-statement)
+See documentation: [Detailed documentation](https://ad365o.visualstudio.com/AdLoc/_wiki/wikis/WIPdoc/83/Bank-statement-import?anchor=import-bank-statement)
  
-### Bank statement processing journal
+### **Bank statement processing journal**
 
 Open **Cash and bank management > Bank statement reconciliation > Bank statement processing journal**.
 
@@ -79,35 +79,70 @@ Once imported and validated, credit debit notifications and/or bank statement ca
 
 #### Generate debit and credit journal
 
-Debit and credit journal must be generated to process imported debit credit notification and/or bank statement transaction. Define:
+Debit and credit journal must be generated to process imported debit credit notification and/or bank statement transaction. 
 
-1. Generate **bank statement processing journal** for validated bank statement lines by selecting Credit and Debit journal names and defining the number of lines per each journal.
-2. Credit and Debit journals are created. **Open** the desired journal by clicking on **Lines**.
-3. The form is divided into **two tabs**. Information about the bank statement lines is found in tab **Bank statement lines**. Reference number represents payment reference, the Document number is payment ID. Tab **Matching** is divided into two sections: the right part is used for transaction matching (account types that the bank statement lines can be mapped to are defined in journal setup – see chapter Journal names), whereas the left section provides information about the matched transaction.
+1. Go to  **Cash and bank management > Bank statement reconciliation > Bank statement processing journal**
+2. Click **Generate** 
+2. Enter following parameters: 
+   - **Credit and/or Debit journal names**: Choose form the list of journal names 
+   - **Lines** per journal: enter number of lines that will be generated per journal. 
+   - **Sources**:  limit transactions to be added to processing journal > **Bank statement** creates only journals with bank statement lines (Journal source = “Statement”), **Bank debit credit notifications** creates only journals with bank notification lines (Journal source = Notification) or **Both**  to create multiple separate journals for both source types (Statement and Notification)
+2. Select Additional automation options (optional):    
+   - **Validate bank statements and notifications in status “Open”**: if “Yes” Open bank statements/notifications are automatically validated and transferred to processing journal, if existent validation errors are displayed
+   - **Process generated journals**: If "Yes", generated processing journal lines will be automatically processed. If set to "No", user needs to run processing manually
+   - **Transfer generated journals**: If set to "Yes", processed and successfully matched processing journal lines will be automaticaly transferred to General journal. If set to "No2, user needs to run transfer manually. 
+
+2. Credit and Debit journals are created. Depending on source selection, separate journals are created also for transactions from bank statements (Source: “Statement”) and debit credit notifications (Source: “Notification”). **Open** the desired journal by clicking on **Lines**.
+
+The form is divided into **two tabs**. Information about the bank statement/notification lines is found in tab **Bank statement lines**. Reference number represents payment reference, the Document number is payment ID, Statement ID is Statement ID (or Notification ID if journal source is “Notification”). . Tab **Matching** is divided into two sections: the right part is used for transaction matching (account types that the bank statement lines can be mapped to are defined in journal setup – see chapter Journal names), whereas the left section provides information about the matched transaction.
  
 #### Processing 
 
 1. Run **processing** to automatically match bank statement lines with transactions in the system, according to processing rules. 
-2. After the processing is done, message about the **results and possible warnings** are displayed.
-3. Transactions that match the criteria from processing rules are mapped to adequate bank statement lines. Bank statement lines are **marked as Processed**. The field Ledger account displays the account that the line was mapped to. Bank statement lines that have not been matched and lines that have been matched by a processing rule that has action type “Mark for confirmation” included, are marked as Confirmation required.
+2. After the processing is completed, message about the matching **results and possible warnings** are displayed.
+3. Transactions that match the criteria from processing rules are mapped to adequate bank statement/notification lines. Bank statement/notification lines are **marked as Processed**. The field Ledger account displays the account that the line was mapped to. Bank statement lines that have not been matched and lines that have been matched by a processing rule that has action type “Mark for confirmation” included, are marked as Confirmation required.
 4. For line, that has been matched, information about the matched transaction is displayed in tab Matching.
-5. If bank statement line is marked as **Unknown**, the matching line is automatically created according to setup in Unknown inflows. Bank statement line needs to be **manually marked as Confirmed**.
+5. If bank statement/notification line is marked as **Unknown**, the matching line is automatically created according to setup in Unknown inflows. Bank statement line needs to be **manually marked as Confirmed**.
  
 ####  Manual matching
 
-It is possible to **manually match bank statement lines** to desired account types. Depending on setup on processing journal, account types that are available are Vendor, Customer, Bank account, and General ledger.
+It is possible to **manually match bank statement/notification lines** to desired account types. Depending on setup on processing journal, account types that are available are Vendor, Customer, Bank account, and General ledger, Bridged transactions and Processed bank transactions.
+
+**Vendor/Customer account**
 1. **Select** Vendor/Customer account. Open transactions will list below. 
-2. If action “Account” is used, the amount from the bank statement line will be posted on a selected vendor/customer account with no link to any transaction. Confirmation is required.
-3. It is possible to **mark** the desired transaction from listed open vendor/customer transactions and **match** it with bank statement line. Put checkmark in field Marked and click **Transfer**. The transaction will be settled against the bank statement line in the amount of the bank statement line. **Confirmation** is required.
-4. Bank statement line can be transferred to account type Bank. **Select Bank account** and click **Account** to match bank statement line against a bank account. **Confirmation** is required.
-5. Bank statement line transaction can also be settled on main account. In tab **General ledger**, select **main account** and click **Transfer**. Link type General ledger is created. **Confirmation** is required.
+2. If action “Account” is used, the amount from the bank statement/notification line will be posted on a selected vendor/customer account with no link to any transaction. Confirmation is required.
+3. It is possible to **mark** the desired transaction from listed open vendor/customer transactions and **match** it with bank statement/notification line. Vendors tab also allows selection of open vendor payment journal lines to be matched with bank statement/transaction lines. Put checkmark in field Marked and click **Transfer**. Marked transaction will be settled against the bank statement/notification line in the amount of the bank statement line. **Confirmation** is required.
+3. Additional action **Prepayment** is available on Customers tab. With this bank statement/notification line (inflow) can be marked as prepayment and will be posted according to customer posting profile for prepayments, selected upon Transfer. 
+
+**Bank**
+
+4. Bank statement/notification line can be transferred to account type Bank. **Select Bank account** and click **Account** to match bank statement line against a bank account. **Confirmation** is required.
+
+**General Ledger**
+
+5. Bank statement/notification line transaction can also be settled on main account. In tab **General ledger**, select **main account** and click **Transfer**. Link type General ledger is created. **Confirmation** is required.
  
-When journal setup allows Customer account type, additional action Prepayment is available. With this bank statement line can be marked as prepayment and will be posted according to customer posting profile for prepayments, selected upon Transfer. 
+**Bridged transactions**
+
+Bank statement/notification line transaction can also be settled with an open customer/vendor **bridged transactions**. By clicking “**Transfer**” one bridged transaction can be settled with one bank statement/notification line transaction. Following validation is applied:
+   - Bank statement/notification currency must equal the bridged transaction currency (transfer is not possible if the currencies are not equal);
+   - Bank statement/notification line transaction amount must match the bridged transaction amount (only a warning is displayed, transfer is completed);
+   - Bank statement/notification line transaction amount sign (+/-) must match the bridged transaction sign (transfer is not possible if the signs are not equal);
+   - If the selected bridged line is already connected with another bank statement/notification line transaction it cannot be connected to another one.
+
+Similar validation is also applied for other manual matching types. Link type Customer bridged transaction or Vendor bridged transaction is created. Manual confirmation is required.
+
+**Processed bank transactions**
+
+Bank statement (debit credit notification) lines can also be settled with already reconciled bank debit credit notification (bank statement) lines. This can be achieved from “Processed bank transactions” tab. Select adequate transaction from the reconciled notification (statement) and click on transfer. Link type “Processed bank transaction” is created. Confirmation is required.
+
  
 #### Transfer
 
-Use the Transfer function to transfer processed and confirmed (if confirmation is required) bank statement lines to the general journal for posting. 
- 
+Use the Transfer function to transfer processed and confirmed (if confirmation is required) bank statement/notification lines to the general journal for posting. 
+
+_NOTE: if bank statement/notification line is matched with already reconciled bank statement/notification line, no general journal entries are generated._ 
+
 Transfer parameters:
 
 
