@@ -148,18 +148,26 @@ Transfer parameters:
 
 |**Parameter**| **Description** |
 |--|--|
-|Journal name  |Select journal for bank statement posting  |
+|Journal name  |Select journal for bank statement/notification posting  |
 |Lines per journal  |Limit the number of lines per one general journal  |
 |Process unprocessed  |Run the processing upon transferring  |
 |Post journal  |Post the journal upon transferring  |
 |Transfer errors  |Works in combination with “Post journal”; during journal posting journal lines that contain errors are transferred into a new journal (works similarly as Post and transfer button in the journal)  |
-|Allow duplicates  |Bank statement lines are transferred to the journal even if they have already been transferred to journal previously  |
-|Customers-Posting profile |Select customer’s posting profile to post the transferred bank statement lines |
-|Customers-Prepayment profile|Select a customer’s posting profile for posting transferred bank statement lines that have been marked as Prepayment. If prepayment profile is left empty, it will be read from setup Accounts receivable > Setup > Accounts receivable parameters > Ledger and sales tax > Payment > Posting profile with prepayment journal voucher. If there is no setup, general posting profile for customers is transferred (Accounts receivable > Setup > Accounts receivable parameters > Ledger and sales tax > General > Posting profile)  |
+|Allow duplicates  |Bank statement/notification lines are transferred to the journal even if they have already been transferred to journal previously  |
+|Customers-Posting profile |Select customer’s posting profile to post the transferred bank statement/notification lines |
+|Customers-Prepayment profile|Select a customer’s posting profile for posting transferred bank statement/notification lines that have been marked as Prepayment. If prepayment profile is left empty, it will be read from setup Accounts receivable > Setup > Accounts receivable parameters > Ledger and sales tax > Payment > Posting profile with prepayment journal voucher. If there is no setup, general posting profile for customers is transferred (Accounts receivable > Setup > Accounts receivable parameters > Ledger and sales tax > General > Posting profile)  |
 |Vendors-Posting profile |Select a vendor’s posting profile to post the transferred bank statement lines with|
 
-Upon transferring, message with detailed results of transfer action and possible warnings/errors upon validation is displayed. Bank statement lines are updated with journal number and marked as Transferred.
+Upon transferring, **message** with detailed results of transfer action and possible warnings/errors upon validation is displayed. Bank statement/notification lines are updated with journal number and marked as **Transferred**.
 
-Use View details to open the journal.
+Use **View details** to open the journal.
  
-If bank statement lines were matched with vendor or customer payment journal lines, these lines are transferred from payment journal to general journal upon transfer and keep the voucher from payment journal. If all lines from payment journal are transferred to the general journal for bank statement posting, payment journal is automatically deleted.
+Bank statement/notification lines which were matched with open vendor payment journal lines are transferred from vendor payment to a newly created general journal. When all lines from a specific vendor payment journal are transferred, (empty) vendor payment journal is automatically deleted.
+
+For matched open customer/vendor transactions, payment entries are generated in a newly created general journal. 
+1. If matching with open **customer/vendor transactions** has been made upon reconciliation, matched open customer/vendor transactions are automatically settled against newly created customer/vendor payment transactions when general journal is posted. 
+2. If bank statement/notification lines were only matched with **customer/vendor account** (“Account” action selected with manual matching), settlement is not performed.
+3. If bank statement/notification transaction was matched directly with **General ledger account**, upon transfer, new general journal lines against the specified main account are created.
+4. In case of the matched customer/vendor **bridged transaction**, same processing as if using standard General journal function “Select bridged transactions” is applied when transferring matching statement/notification lines to general journal.  If upon the transfer a statement/notification line has already been marked for settlement (in another bank statement processing journal), posted, or is no longer existent, transfer results in an error. Transfer also results in an error if the amounts of matched transactions are not equal. Upon the transfer, transaction date of matched bridged transaction is updated with the matched bank statement/notification line date (field “Booking date”). Exchange rate is also updated according to the same booking date from matching statement/notification line. Additionally, bank statement/notification ID and bank statement/notification line transaction description (field “Description”) are transferred to the “Document” and the “Note” fields in the newly created general journal line.
+5. If bank statement line is matched with already **reconciled bank notification line**, no general journal entries are created. Upon transfer, matched debit credit notification line in marked as “Reconciled”.
+If bank debit credit notification is matched with already reconciled bank statement line, no general journal entries are created. Upon transfer, matched debit credit notification line in marked as “Reconciled with bank statement”.
