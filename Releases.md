@@ -3,7 +3,7 @@ Here is the list of latest releases including release notes.
 
 |**Package**  | **Release number** |**Release date**  | **Release notes**|
 |--|--|--|--|
-|Core Localization  | AdLocalization_10.0_2020.04.24.1 |24.4.2020  | [Release notes](https://adacta.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B762AE8B8-2486-4516-8240-2DD69B194417%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true)  |
+|Core Localization  | AdLocalization_10.0_2020.04.24.1 |24.4.2020  | [Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B6C8DCB9B-E8EF-4509-A4EB-C2FC57F87DFA%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true)  |
 |Tax package  | AdLocalization_10.0_2020.04.24.1 | 24.4.2020 |[Release notes](https://adacta.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B762AE8B8-2486-4516-8240-2DD69B194417%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true)  |
 |Bank package | AdLocalization_10.0_2020.04.24.1 |24.4.2020  |[Release notes](https://adacta.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B762AE8B8-2486-4516-8240-2DD69B194417%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true)  |
 |Additional Exchange rate providers package  |AdLocalization_10.0_2020.04.24.1  |24.4.2020  | [Release notes](https://adacta.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B762AE8B8-2486-4516-8240-2DD69B194417%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true) |
