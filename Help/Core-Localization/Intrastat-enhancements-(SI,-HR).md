@@ -61,10 +61,17 @@ For each mode of delivery (Procurement and sourcing – Setup – Distribution �
 1. Open Tax – Setup – Foreign trade – Port.
 2. Set up the port/airport of loading/unloading if this information is collected by your country.
  
-### Delivery terms
+### Delivery terms - Intrastat code
 
 1. Open Accounts payable – Setup – Terms of delivery.
 2. If a country collects delivery terms information, it is necessary to set them up. Define the Intrastat code for each of the terms.
+
+### Delivery terms - statistical value adjustment
+
+1. Open Accounts payable > Setup > Terms of delivery.
+2. Set Intrastat dispatch statistical value percent adjustment if needed
+3. Set Intrastat arrival statistical value adjustment percent if needed
+
  
 ### Statistics procedure
 
