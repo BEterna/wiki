@@ -186,7 +186,7 @@ A customer invoice, free text invoice, purchase invoice, project invoice, custom
  
 More information about the selected transactions can be found on the tab General.
 
-In cases when statistical value adjustment percent is set on Terms of delivery, Statistical value adjustment amount is populated. 
+In cases when statistical value adjustment percent is set on Terms of delivery, **Statistical value adjustment amount** is populated. 
  
 4. Review transferred data, including country/region of destination/dispatch, country of origin, weight, quantity, quantity in additional units, commodity, transaction code, invoice amounts, and statistical amounts. You can modify data if necessary as long as line status is Open. Line status (LOC) is a localization feature.
 5. Click to “Validate” to execute validation of transactions in the Intrastat journal according to Check setup in Foreign trade parameters. 
