@@ -25,6 +25,11 @@ The feature enables reviewing historically created Intrastat declaration (and in
 
 Enables users to review transactions, which have been compressed by parameters (compression is a standard feature, while the review of compressed transactions is localized feature). Localization functionality also ads option to transfer the compressed transactions back to the Intrastat journal in their original state (before compression) when applicable.
 
+### **Weight change on product receipt**
+Information about weight can be manually changed on product receipt line. 
+
+### **Statistical adjustment value according to delivery terms** 
+With additional setup on Delivery terms, statistical value adjustment can be calculated. Different setup can be applied to each delivery term. 
 
 
 ## **Setup**
