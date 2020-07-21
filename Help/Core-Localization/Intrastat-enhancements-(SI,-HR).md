@@ -168,10 +168,12 @@ Exchange rate type for Intrastat is manually created in Cost accounting – Ledg
 
 When you create a sales order, free text invoice, purchase order, vendor invoice, project invoice, or transfer order, some fields that are related to foreign trade have default values in the document header or on the line:
    - The default transaction code is taken from the corresponding field on the Foreign trade parameters page. 
-   - The default commodity code, country/region of origin, and state/province of origin are taken from the item. 
+   - The default commodity code, country/region of origin, state/province of origin and weight are taken from the item. 
 You can change the default values and can also fill in other foreign trade-related information: the statistics procedure, transport method, and port.
 
 Upon document entry, Intrastat data can be adjusted in Line details, on the Foreign trade tab. 
+
+As part of localization solution, fields unit weight, Total weight and unit of measure are added to **product receipt line**. If unit wight information exists on the item level it is automatically transferred to document. It can also be manually removed or changed. If wight is changed, new amount is transferred to intrastat reporting line. If weight is removed, the action depends on setup in Foreign trade parameters > Check setup > Weight. If value is set to yes, blank walue is not allowed. In such case, system will throw error at the moment of posting product receipt. If value is set to No, empty value in wigts field is allowed. In such case weight will be transferred from item setup. 
  
 Intrastat data can also be edited in the Intrastat journal before export. 
 
