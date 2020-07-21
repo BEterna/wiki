@@ -69,8 +69,8 @@ For each mode of delivery (Procurement and sourcing – Setup – Distribution �
 ### Delivery terms - statistical value adjustment
 
 1. Open Accounts payable > Setup > Terms of delivery.
-2. Set Intrastat dispatch statistical value percent adjustment if needed
-3. Set Intrastat arrival statistical value adjustment percent if needed
+2. Set Intrastat dispatch statistical value percent adjustment if needed: Statistical amount on the dispatch transaction will be adjusted according to setup
+3. Set Intrastat arrival statistical value adjustment percent if needed: Statistical amount on the arrival transaction will be adjusted according to setup
 
  
 ### Statistics procedure
