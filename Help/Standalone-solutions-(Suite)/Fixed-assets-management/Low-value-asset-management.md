@@ -4,7 +4,7 @@ Low value asset functionality can be used when low value assets are managed thro
 # **Setup**
 ---
 
-## **Posting**
+### **Posting**
 
 1. Go to **Inventory management > Setup > Posting > Posting** 
 2. Select **transaction type**. Posting setup is expanded to include new section Low value assets, where it is possible to define postings for the following transaction types:
@@ -14,7 +14,7 @@ Low value asset functionality can be used when low value assets are managed thro
    - Correction
 3. Setup for Issue and Depreciation types is **mandatory**. Setup for other types is optional and depends on process specifics. 
 
-## **Journal names**
+### **Journal names**
 
 1. Go to **Inventory management > Setup > Journal names > Inventory**
 2. Create a **new journal name** for each journal type and specify the needed parameters. Inventory journals include **additional journal types**:
@@ -25,3 +25,52 @@ Low value asset functionality can be used when low value assets are managed thro
 Selection in field **New voucher** by has been **expanded** to include additional option: Worker (waiting for extension point!).
 
 If the journal is of Low value asset – Return type, **additional tab Low value asset** is displayed, where it is possible to set up the **default value for Write-off** (Yes or No). This value is defaulted to Low value asset – Return journal line. If value is set to **Yes**, Low value asset write-off transaction will be generated at the moment of posting transaction with this journal. If value is set to **No** write-of transaction will not be generated. 
+
+### **Low value asset locations**
+
+1. Go to Inventory management > Setup > Low value assets > Low value asset locations
+
+Low value asset locations are used when **low value assets are returned** to indicate that they have already been **used**. Instead of returning them to inventory (site or warehouse from where they were released), the functionality supports return to Low value asset location from where they can **again be assigned to workers** or **transferred to another low value asset location**. 
+
+2. Create as many Low value asset locations as desired by specifying Location ID and Description and adding default financial dimensions. 
+
+### **Number sequence for low value asset adjustment voucher**
+
+1. Go to **Inventory management > Setup > Inventory and warehouse management parameters > Number sequences**
+2. Create a new **number sequence** for the low value assets adjustment postings and set it up **under Low value asset adjustment voucher**. This number sequence is used when adjustment transactions are posted upon running the low value asset adjustment processing (see more in Low value asset adjustment chapter).
+
+# **Working with low value assets**
+---
+
+## **Supported cases**
+
+With low value assets functionality, the following test cases are supported:
+1.	Low value asset issue from inventory.
+2.	Low value asset issue from low value asset location.
+3.	Low value asset transfer from one responsible person to another.
+4.	Low value asset transfer from one low value asset location to another.
+5.	Low value asset return to low value asset location.
+6.	Low value asset return with write-off.
+7.	Low value asset return proposals. 
+8.	Overview of low value asset assignments.
+9.	Low value asset adjustment.
+
+Low value asset Issue
+
+1. Go to **Inventory management > Journal entries > Low value assets > Low value asset – Release**.  
+**Release journal** is used to release low value asset from its physical location (inventory or low value asset location) and assign it to a worker.
+2. Create **new journal** by clicking New and selecting journal Name. **Other parameters** such as description, voucher policy, details level etc. are defaulted from journal name and can be changed, if needed. 
+3.Add journal lines for low value asset release. Available columns to populate:
+
+|Field|Description  |
+|--|--|
+|**Date**  | transaction date |
+|**Item number**  |select desired item that represents low value asset.  |
+|**Low value assignment**  |if release is done from low value asset location, select open low value asset location assignment; if release if done from inventory (site or warehouse), skip this field.  |
+|**Responsible worker**  |elect Worker to whom the assignment is to be made; financial dimensions are defaulted from worker’s employment.  |
+|**Assigned person**  |defaults from selected Responsible person; if needed, change to other Party ID  |
+|**Quantity**  |assigned quantity  |
+| **Storage/Tracking/Product dimensions** |Displayed through Display dimension. Select according to information that is tracked on product; usually Site and Warehouse from where the low value asset will be released.  |
+
+
+ 
