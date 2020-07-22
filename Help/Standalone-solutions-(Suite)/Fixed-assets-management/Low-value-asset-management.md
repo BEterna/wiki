@@ -120,6 +120,40 @@ Return journal is used to indicate the return of low value assets. The returned 
 |Low value asset location  |If field Write-off is set to No, select low value asset location for the asset to be returned to; financial dimensions are defaulted from selected location.  |
 |Quantity  |Return quantity defaults from assignment, can be changed to lower quantity.  |
 
+3. **Post** the journal.
+4. Low value asset transaction can be **viewed** through **Low value asset assignment button** on journal line action pane or through **Inventory management > Low value assets > Low value asset assignment/Open low value asset assignment**.
+
+General ledger posting that is created for low value asset return **depends on the posting setup**: 
+- If low value asset assignments **are not tracked on off-balance-sheet accounts** (In use and Correction posting types are not set up), then no general ledger posting is created, regardless of selection in the Write-off field.
+- If low value asset assignments **are tracked also on off-balance-sheet accounts** (In use and Correction posting types are set up), and 
+  - **If write off is Yes**, then 
+    - Low value asset, In use (credit) and Low value asset, Correction (debit) transactions are posted using original transaction’s financial dimensions.
+  - If **write off is No**, then 
+    - Low value asset, In use ( - debit) and Low value asset, Correction ( - credit) transactions are posted, using financial dimensions from the original assignment.
+    - Low value asset, In use (debit) and Low value asset, Correction (credit) transactions are posted with financial dimensions from selected location.
+
+### **Return proposals**
+
+Low value asset – Return journal enables return proposals with which we can perform mass low value asset returns (or write-offs). 
+
+1. In journal’s action pane navigate to **Functions > Return proposals**. Available **parameters**:
+Responsible worker: mandatory field; select worker for which to perform return/write-off
+
+|Field| Description |
+|--|--|
+|**Responsible worker**  |Mandatory field. Select worker for which to perform return/write-off  |
+|**Item number**  |Select item for return/write-off. If left empty, return/write-off proposal will be created for all open low value  |
+|**Journal**  |Defaults from journal number  |
+|**Return date**  |Defaults to session date. Change if needed.  |
+|**Records to include**  |Specify additional parameters  |
+
+2. After confirmation, **journal lines are created** according to selected parameters. Depending on journal’s default write-off setup (see more in Journal names chapter), the value in field is set either to Yes or No; if set to No, Low value asset location needs to be specified for each journal line. 
+
+
+
+
+
+
 
 
 
