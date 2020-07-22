@@ -55,12 +55,11 @@ With low value assets functionality, the following test cases are supported:
 8.	Overview of low value asset assignments.
 9.	Low value asset adjustment.
 
-Low value asset Issue
-
+## **Low value asset Issue**
+Release journal is used to release low value asset from its physical location (inventory or low value asset location) and assign it to a worker.
 1. Go to **Inventory management > Journal entries > Low value assets > Low value asset – Release**.  
-**Release journal** is used to release low value asset from its physical location (inventory or low value asset location) and assign it to a worker.
 2. Create **new journal** by clicking New and selecting journal Name. **Other parameters** such as description, voucher policy, details level etc. are defaulted from journal name and can be changed, if needed. 
-3.Add journal lines for low value asset release. Available columns to populate:
+3. **Add journal lines** for low value asset release. Available columns to populate:
 
 |Field|Description  |
 |--|--|
@@ -71,6 +70,35 @@ Low value asset Issue
 |**Assigned person**  |defaults from selected Responsible person; if needed, change to other Party ID  |
 |**Quantity**  |assigned quantity  |
 | **Storage/Tracking/Product dimensions** |Displayed through Display dimension. Select according to information that is tracked on product; usually Site and Warehouse from where the low value asset will be released.  |
+
+4. **Post** the journal.
+5. Low value asset **assignment is created** for selected responsible worker which can be viewed through **Low value asset assignment button** on journal line action pane or through **Inventory management > Low value assets > Low value asset assignment/Open low value asset assignment**. 
+
+General ledger posting that is created for low value asset release **depends on the posting setup**: 
+- If low value asset assignments **are not tracked on off-balance-sheet accounts** (In use and Correction posting types are not set up), then only Low value asset, Depreciation (debit) and Low value asset, Issue (credit) postings happen. 
+- If low value asset assignments **are tracked also on off-balance-sheet accounts**, then Low value asset, In use (debit) and Low value asset, Correction (credit) transactions are posted along with Depreciation and Issue. 
+
+
+## **Low value asset Transfer**
+Transfer journal is used to transfer low value assets from one responsible person to another or from one low value asset location to another. 
+1. Go to Inventory management > Journal entries > Low value assets > Low value asset – Transfer
+2. Create new journal by clicking New and selecting journal Name. Add journal lines for low value asset transfer. Available columns to populate:
+
+|Field|Description  |
+|--|--|
+|**Date**  |Transaction date  |
+|**Item number**  |Select low value asset item to transfer (records in field Low value asset assignment will be filtered by the selected value).  |
+|**Low value asset assignment**  |Select open low value asset assignment. If no item number was selected, it will be populated with the item from assignment selection.  |
+|**Responsible worker** |If the selected low value asset assignment is of type Worker, select Worker to whom the transfer is to be made; financial dimensions are defaulted from worker’s employment. If the selected low value asset assignment is of type Location, field Worker is not available for selection. |
+|**Assigned person** |Defaults from selected Responsible person; if needed, change to other Party ID. |
+|**Low value asset location** |If the selected low value asset assignment is of type Location, select new location for the asset to be transferred to; financial dimensions are defaulted from selected location. |
+|**Quantity** |Transfer quantity defaults from assignment, can be changed to lower quantity. |
+
+
+
+
+
+
 
 
  
