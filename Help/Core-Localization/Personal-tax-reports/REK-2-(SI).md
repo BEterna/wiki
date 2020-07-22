@@ -36,7 +36,9 @@ Additionally, this localization feature enables Slovenian legal entities to crea
 
 1. Open Tax – Indirect taxes – Sales tax – Sales tax settlement periods.
 2. The new sales tax settlement period has to be created for REK-2 purposes.
-3. The tax authority, created earlier, has to be selected in the field “Authority”. We will be using the “Monthly” period interval unit with interval duration “1”. Since the same functionality is being used for VAT and REK-2, it is necessary to define Period type value as “REK-2”. This setup enables that upon closing the period only entries for REK-2 will be considered in the calculation (period type “REK-2” prevents the generation of DDV-O report and settlement of VAT entries). 
+3. The tax authority, created earlier, has to be selected in the field “Authority”. We will be using the “Monthly” period interval unit with interval duration “1”. Since the same functionality is being used for VAT and REK-2, it is necessary to define Period type value as “REK-2”. This setup enables that upon closing the period only entries for REK-2 will be considered in the calculation (period type “REK-2” prevents the generation of DDV-O report and settlement of VAT entries).
+4. Set **Post personal tax without VAT date** to **Yes** to enable posting of REK-2 tax transactions without VAT date. In this case VAT date will be populated automatically with payment date when payment journal is posted.  
+5. Set **Period type** to **Personal tax**
 
 ### Ledger posting groups
 
@@ -137,7 +139,8 @@ If the cost of contract work is posted via the vendor invoice, the ledger accoun
 5. Real estate data from vendor invoice is recorded in the area "Podatki o nepremičninah" on the iREK. Test case presented in chapter Reporting regarding real estate.
 6. After the purchase order is confirmed, it can be linked to the vendor invoice. One purchase order can be mapped to one vendor invoice. 
 7. Data from a purchase order is transferred to the vendor invoice. In Info part of vendor invoice under “Invoice totals” net amount of vendor payment can be seen (field Invoice amount) as well as personal tax amount in field Sales tax (income tax + deductions from gross).
-8. Posting the vendor invoice results in the following voucher transactions.
+8. Posting the vendor invoice results in posting vendor, Tax and GL transactions. 
+9. **VAT date** in generated Tax transactions is left **empty** if **Post personal tax without VAT date** is set to **Yes** in Tax settlement period setup. 
  
 ### Separate number sequence for Purchase pool
 
@@ -159,7 +162,7 @@ If the cost of contract work is posted via the vendor invoice, the ledger accoun
 Note: changing the amount on vendor payment line is not recorded in the REK-2 report. Test case presented in chapter Correcting payment journal line amount is not recorded in the report.
 
 At this stage, it is already possible to create the REK-2 report (navigate to chapter REK-2 report for details). Correcting or deleting payment journal lines is not possible while the report exists, as lines are locked for editing. Correction is possible after deleting the existing REK-2 report.
-Vendor payment journal lines are settled with the bank statements. After posting, transactions of personal tax payments are created on the FURS vendor.  
+Vendor payment journal lines are settled with posting of journal/bank statement. After posting, transactions of personal tax payments are created on the FURS vendor and the existing Tax transactions are populated with VAT date.  
  
 ### Payment compensation
 

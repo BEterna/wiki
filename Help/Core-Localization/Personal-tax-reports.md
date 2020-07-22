@@ -38,3 +38,7 @@ REK-2 is a Slovenian personal tax report, which taxpayers are legally (ZDoh-2) o
    - interest and dividends.
 
 [Detailed documentation](/Help/Core-Localization/Personal-tax-reports/REK-2-\(SI\))
+
+## **ODO-1 report** ##
+---
+ODO-1 is Slovenian tax report that has to be generated in cases when company pays income to a non-resident. In such cases company needs to  calculate and pay personal tax on the behalf of the receiver.

@@ -91,6 +91,17 @@ Note: if posting definitions are active, the functionality of the prepayment inv
 
 Check [Test Cases](Advance-Invoice-Test-scenario.zip).
 
+### Reverse generated Prepayment invoice
+Prepayment invoice, generated based on issued prepayment, can be also reversed. With Reverse function, new Prepayment invoice journal with negative amount is created, but it needs to be posted manually. After that prepayment is again available for issue of new Prepayment invoice.
+
+To create Prepayment invoice reversal: 
+1. Go to **Accounts payable > Invoices > Prepayment invoice** 
+1. Choose Prepayment invoice that needs to be reversed 
+1. Go to tab **Prepayment invoice > Reverse**
+1. Enter parameters and click **OK**. Prepayment journal is generated.
+1. Go to **Accounts payable > Payments > Prepayment invoice**
+1. Go to journal that was generated in step 4 and click **Post**. Prepayment invoice is reversed and prepayment available for new Advanced invoice. 
+
 ### Settle prepayment against the purchase order
  
 Steps:
@@ -177,6 +188,17 @@ Advance invoice printout is not included in localization – it is project-relat
  
 12. Mark the transaction of prepayment and FTI and select “Post”. The message about reversal appears.
 13. Check the Evidenca PR report to see the reversal of VAT that was posted with the advance invoice.
+
+### Reverse generated Prepayment invoice
+Prepayment invoice, generated based on received prepayment, can be also reversed. With Reverse function, new Prepayment invoice journal with negative amount is created, but it needs to be posted manually. After that prepayment is again available for issue of new Prepayment invoice.
+
+To create Prepayment invoice reversal: 
+1. Go to **Accounts receivable > Invoices > Prepayment invoice** 
+1. Choose Prepayment invoice that needs to be reversed 
+1. Go to tab **Prepayment invoice > Reverse**
+1. Enter parameters and click **OK**. Prepayment journal is generated.
+1. Go to **Accounts receivable > Payments > Prepayment invoice**
+1. Go to journal that was generated in step 4 and click **Post**. Prepayment invoice is reversed and prepayment available for new Prepayment invoice. 
  
 ## **Test cases**
 ---

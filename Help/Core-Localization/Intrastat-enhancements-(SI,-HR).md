@@ -25,6 +25,11 @@ The feature enables reviewing historically created Intrastat declaration (and in
 
 Enables users to review transactions, which have been compressed by parameters (compression is a standard feature, while the review of compressed transactions is localized feature). Localization functionality also ads option to transfer the compressed transactions back to the Intrastat journal in their original state (before compression) when applicable.
 
+### **Weight change on product receipt**
+Information about weight can be manually changed on product receipt line. 
+
+### **Statistical adjustment value according to delivery terms** 
+With additional setup on Delivery terms, statistical value adjustment can be calculated. Different setup can be applied to each delivery term. 
 
 
 ## **Setup**
@@ -56,10 +61,17 @@ For each mode of delivery (Procurement and sourcing – Setup – Distribution �
 1. Open Tax – Setup – Foreign trade – Port.
 2. Set up the port/airport of loading/unloading if this information is collected by your country.
  
-### Delivery terms
+### Delivery terms - Intrastat code
 
 1. Open Accounts payable – Setup – Terms of delivery.
 2. If a country collects delivery terms information, it is necessary to set them up. Define the Intrastat code for each of the terms.
+
+### Delivery terms - statistical value adjustment
+
+1. Open Accounts payable > Setup > Terms of delivery.
+2. Set Intrastat dispatch statistical value percent adjustment if needed: Statistical amount on the dispatch transaction will be adjusted according to setup
+3. Set Intrastat arrival statistical value adjustment percent if needed: Statistical amount on the arrival transaction will be adjusted according to setup
+
  
 ### Statistics procedure
 
@@ -156,10 +168,12 @@ Exchange rate type for Intrastat is manually created in Cost accounting – Ledg
 
 When you create a sales order, free text invoice, purchase order, vendor invoice, project invoice, or transfer order, some fields that are related to foreign trade have default values in the document header or on the line:
    - The default transaction code is taken from the corresponding field on the Foreign trade parameters page. 
-   - The default commodity code, country/region of origin, and state/province of origin are taken from the item. 
+   - The default commodity code, country/region of origin, state/province of origin and weight are taken from the item. 
 You can change the default values and can also fill in other foreign trade-related information: the statistics procedure, transport method, and port.
 
 Upon document entry, Intrastat data can be adjusted in Line details, on the Foreign trade tab. 
+
+As part of localization solution, fields unit weight, Total weight and unit of measure are added to **product receipt line**. If unit wight information exists on the item level it is automatically transferred to document. It can also be manually removed or changed. If wight is changed, new amount is transferred to intrastat reporting line. If weight is removed, the action depends on setup in Foreign trade parameters > Check setup > Weight. If value is set to yes, blank walue is not allowed. In such case, system will throw error at the moment of posting product receipt. If value is set to No, empty value in wigts field is allowed. In such case weight will be transferred from item setup. 
  
 Intrastat data can also be edited in the Intrastat journal before export. 
 
@@ -173,6 +187,8 @@ Intrastat data can also be edited in the Intrastat journal before export.
 A customer invoice, free text invoice, purchase invoice, project invoice, customer packing slip, vendor product receipt, or transfer order is transferred to the Intrastat journal only if the country/region type of the destination (on dispatches) or consignment (on arrivals) is EU.
  
 More information about the selected transactions can be found on the tab General.
+
+In cases when statistical value adjustment percent is set on Terms of delivery, **Statistical value adjustment amount** is populated. 
  
 4. Review transferred data, including country/region of destination/dispatch, country of origin, weight, quantity, quantity in additional units, commodity, transaction code, invoice amounts, and statistical amounts. You can modify data if necessary as long as line status is Open. Line status (LOC) is a localization feature.
 5. Click to “Validate” to execute validation of transactions in the Intrastat journal according to Check setup in Foreign trade parameters. 

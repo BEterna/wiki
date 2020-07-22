@@ -44,8 +44,12 @@ Not yet supported for Croatian localization.
 
 1. Open Accounts receivable – Customers – All Customers.
 2. Define “Profile ID” from eInvoice parameters in tab Invoice and delivery on the customer.
+3. Enter Tax registration number (OIB) - Information is needed when eInvoice is generated.
+   - on Invoice and delivery tab > field Tax registration number (OIB) or
+   - on Registration ID's > OIB. Information is needed when eInvoice is generated. 
+Note: priorities described in [Additional identification numbers](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Additional-identification-numbers)
 
-## **EInvoice registry**
+## **eInvoice registry**
 ---
 
 ### Electronic customer invoices
