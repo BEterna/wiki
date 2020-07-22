@@ -94,6 +94,31 @@ Transfer journal is used to transfer low value assets from one responsible perso
 |**Low value asset location** |If the selected low value asset assignment is of type Location, select new location for the asset to be transferred to; financial dimensions are defaulted from selected location. |
 |**Quantity** |Transfer quantity defaults from assignment, can be changed to lower quantity. |
 
+3. **Post** the journal.
+4. Low value asset **transfer is created** for selected worker or location which can be viewed through **Low value asset assignment button** on journal line action pane or through **Inventory management > Low value assets > Low value asset assignment/Open low value asset assignment**. 
+
+General ledger posting that is created for low value asset transfer **depends on the posting setup**: 
+- If low value asset assignments **are not tracked on off-balance-sheet accounts** (In use and Correction posting types are not set up), then no general ledger posting is created. 
+- If low value asset assignments **are tracked also on off-balance-sheet accounts** and the low value asset transfer resulted in the change of financial dimensions that are tracked on ledger accounts for this setup, then 
+  - **Original assignment is cancelled** for off-the-balance-sheet accounts (Low value asset, In use ( - debit) and Low value asset, Correction ( - credit) transactions are posted, using financial dimensions from the original assignment).
+  - Low value asset, In use (debit) and Low value asset, Correction (credit) **transactions are posted** with financial dimensions from new worker/location.
+
+## **Low value asset Return**
+
+Return journal is used to indicate the return of low value assets. The returned low value asset can either be in good shape for further use – in this case the item is returned to low value asset location from where is can be assigned to another worker; or it might be ruined and needs to be written off. Returns to inventory are not supported. 
+
+1. Go to **Inventory management > Journal entries > Low value assets > Low value asset – Return**
+2. Create **new journal** by clicking New and selecting journal Name. Add journal lines for low value asset transfer. Available columns to populate:
+
+
+|Field|Description  |
+|--|--|
+|Date  |Transaction date. |
+|Item number |Select low value asset item to return (records in field Low value asset assignment will be filtered by the selected value).  |
+|Low value asset assignment  |Select open low value asset assignment. If no item number was selected, it will be populated with the item from assignment selection.  |
+|Write-off  |If **Yes**: field Low value asset location is not available. <br>If **No**: field Low value asset location is mandatory.  |
+|Low value asset location  |If field Write-off is set to No, select low value asset location for the asset to be returned to; financial dimensions are defaulted from selected location.  |
+|Quantity  |Return quantity defaults from assignment, can be changed to lower quantity.  |
 
 
 
