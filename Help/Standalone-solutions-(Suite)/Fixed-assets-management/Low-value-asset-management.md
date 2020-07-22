@@ -150,6 +150,31 @@ Responsible worker: mandatory field; select worker for which to perform return/w
 2. After confirmation, **journal lines are created** according to selected parameters. Depending on journal’s default write-off setup (see more in Journal names chapter), the value in field is set either to Yes or No; if set to No, Low value asset location needs to be specified for each journal line. 
 
 
+## **Low value asset assignments overview**
+
+Each low value asset assignment is tracked in Low value asset assignment form.
+
+1. Go to **Inventory management > Low value assets > Low value asset assignment/Open low value asset assignment** 
+
+Here, you can **view the data related to each low value asset assignment** as well as voucher transactions for each record. On the left side, low value asset assignments are displayed in the list, on the right side the details for each record as well as low value asset return information are displayed. The overview enables personalization of additional columns to the left side of the form. 
+It is possible to switch to list form, using button Switch to list form.
+
+In the list form, the data is displayed in columns. 
+
+
+# **Low value asset adjustment**
+
+If the posting of low value assets includes **setup for posting types In use and Correction**, then Low value asset **adjustment will need to be run** after the inventory recalculation process is complete to create adjustments also on In use and Correction ledger accounts (inventory recalculation creates adjustment for Issue and Depreciation ledger accounts).
+
+1. First, **run inventory recalculation** to successfully create adjustment transaction for Issue and Depreciation ledger accounts. You can check Voucher for each inventory recalculation to see the posting results. You can also **view Settlements** to see posted Adjustments for each transaction. 
+2. **After the inventory recalculation** is successfully run, navigate to **Inventory management > Low value assets > Low value asset adjustment**. Available **parameters**:
+
+|Field|Description  |
+|--|--|
+|**From and To date**  |Define period for calculation  |
+|**Posting type**  |**Validate**: Expected adjustment transactions for each item will be displayed in infolog <br>**Post**: adjustment transactions will be posted|
+|**Posting date** |the date with which the adjustments will be posted to general ledger |
+|**Detail level** |**Details**: adjustments are posted for each transaction in detail <br>**Summary**: adjustments are summed by ledger dimension (ledger account and financial dimensions). |
 
 
 
