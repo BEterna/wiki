@@ -62,7 +62,7 @@ Different action types enable the setup of various processing actions.
 1. Open **Cash and bank management > Bank accounts > Bank accounts**.
 2. On tab Reconciliation, define **processing rules** set for the selected bank account.
  
-## **Bank statement processing**
+## **Bank statement/Notifications processing**
 ---
 
 ### **Import and validate bank statement**
@@ -134,7 +134,9 @@ Similar validation is also applied for other manual matching types. Link type Cu
 
 **Processed bank transactions**
 
-Bank statement (debit credit notification) lines can also be settled with already reconciled bank debit credit notification (bank statement) lines. This can be achieved from “Processed bank transactions” tab. Select adequate transaction from the reconciled notification (statement) and click on transfer. Link type “Processed bank transaction” is created. Confirmation is required.
+Bank statement (debit credit notification) lines can also be settled with already reconciled bank debit credit notification (bank statement) lines. This can be achieved from “Processed bank transactions” tab. Select adequate transaction from the reconciled notification (statement) and click on transfer. Link type “Processed bank transaction” is created. Confirmation is required. 
+
+In cases when the same notification is received multiple times, it can be marked each time. Marking is done manually.  
 
  
 #### Transfer
