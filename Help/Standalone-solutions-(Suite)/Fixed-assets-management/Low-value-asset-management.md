@@ -176,7 +176,7 @@ If the posting of low value assets includes **setup for posting types In use and
 |**Posting date** |the date with which the adjustments will be posted to general ledger |
 |**Detail level** |**Details**: adjustments are posted for each transaction in detail <br>**Summary**: adjustments are summed by ledger dimension (ledger account and financial dimensions). |
 
-
+**Posted adjustment transactions** can be **viewed from Low value asset assignment page**, for each assignment in field Adjustment or through Cost adjustment form.
 
 
 
