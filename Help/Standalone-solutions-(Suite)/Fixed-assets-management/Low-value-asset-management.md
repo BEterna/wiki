@@ -178,7 +178,12 @@ If the posting of low value assets includes **setup for posting types In use and
 
 **Posted adjustment transactions** can be **viewed from Low value asset assignment page**, for each assignment in field Adjustment or through Cost adjustment form.
 
+# **Data entities**
 
+With the following data entities, low value asset journals can be **exported/imported using data management**:
+- Low value asset – Release (InventInventoryLVAReleaseJournalEntity_AdFAM)
+- Low value asset – Transfer (InventInventoryLVATransferJournalEntity_AdFAM)
+- Low value asset – Return (InventInventoryLVAReturnJournalEntity_AdFAM)
 
 
 
