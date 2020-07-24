@@ -61,6 +61,14 @@ Different action types enable the setup of various processing actions.
 
 1. Open **Cash and bank management > Bank accounts > Bank accounts**.
 2. On tab Reconciliation, define **processing rules** set for the selected bank account.
+
+### Cross currency matching parameter
+With this parameter user can enable matching in cases when original payment document currency and currency, received with bank statement, are different.
+1. Go to Cash and bank management > Cash and bank management parameters > Bank statement 
+2. Set Enable cross currency matching parameter to yes, to globally enable matching of transaction in different currencies.
+3. Select one of options under Vendor payment posting currency parameter, which defines which currency will be used for posting of vendor payment transaction. Available options: 
+   - Payment currency: Payments are posted in original payment transaction currency (standard behavior)
+   - Coverage/bank statement currency: payments are posted in bank statement currency
  
 ## **Bank statement/Notifications processing**
 ---
