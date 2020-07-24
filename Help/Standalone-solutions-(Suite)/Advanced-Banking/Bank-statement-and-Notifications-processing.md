@@ -122,9 +122,11 @@ It is possible to **manually match bank statement/notification lines** to desire
 3. It is possible to **mark** the desired transaction from listed open vendor/customer transactions and **match** it with bank statement/notification line. Vendors tab also allows selection of open vendor payment journal lines to be matched with bank statement/transaction lines. Put checkmark in field Marked and click **Transfer**. Marked transaction will be settled against the bank statement/notification line in the amount of the bank statement line. **Confirmation** is required.
 3. Additional action **Prepayment** is available on Customers tab. With this bank statement/notification line (inflow) can be marked as prepayment and will be posted according to customer posting profile for prepayments, selected upon Transfer. 
 
+In cases when bank statement transaction currency is different from original vendor payment transaction, such transactions can be matched only if Enable cross currency matching parameter is enabled. In this case system takes original vendor payment transaction and changes Currency, amount and calculates cross rate based on both amounts. 
+
 **Bank**
 
-4. Bank statement/notification line can be transferred to account type Bank. **Select Bank account** and click **Account** to match bank statement line against a bank account. **Confirmation** is required.
+4. Bank statement/notification line can be transferred to account type Bank. **Select Bank account** and click **Account** to match bank statement line against a bank account. **Confirmation** is required. 
 
 **General Ledger**
 
