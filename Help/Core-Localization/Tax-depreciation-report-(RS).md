@@ -70,7 +70,7 @@ PORESKA-T|Write up adjustment
 
 ## **Generate POA by asset report (after 1.1.2020)**
 ---
-This report is not leagaly required, but it is used for comparison of depreciation amounts per asset book on the Fixed asset level. 
+This report is not legally required, but it is used for comparison of depreciation amounts per asset book on the Fixed asset level. 
 1. The report can be generated on the following path: **Fixed assets > Inquiries and reports > Serbia > POA by assets**
 2. Enter report parameters:
    - Date from and Date to: entered period should be one fiscal year long
