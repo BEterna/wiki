@@ -52,7 +52,7 @@ Different action types enable the setup of various processing actions.
 |Settle matched customer/vendor transactions   | Bank statement lines that have been matched with the previous action are settled against paired customer or vendor transactions with this action.  |
 |Settle matched and other customer/vendor transactions by the due date   |Customer or vendor transactions that have been matched with Match customer/vendor open transactions are settled with the current bank statement line. If the amount on the bank statement line exceeds the matched customer or vendor transaction amount, the amount difference gets settled against other open transactions for that customer/vendor, using sorting by the due date (from oldest to latest). This action can also consume customer/vendor as a context in combination with Match customer/vendor bank account action for example. In that case, the bank statement line gets settled against all open transactions sorted by the due date, as described in the previous paragraph.   |
 |Match customer/vendor bank account   |Customer or vendor transactions are filtered according to criteria set in the Customer matching/Vendor matching tab and settled against bank statement lines, corresponding to the following action types. If more partners use the same bank account, a warning is returned after processing.   |
-|Match customer/vendor journal lines   |Unposted vendor/customer payment journal lines are matched and settled against bank statement lines according to criteria, defined in Journal matching.    |
+|Match customer/vendor journal lines   |Unposted vendor/customer payment journal lines are matched and settled against bank statement lines according to criteria, defined in Journal matching. Cross currency matching enabled only with this matching rule and only in cases when Enable cross currency matching parameter is enabled.    |
 |Match customer/vendor bridged transactions   |Customer/vendor bridged transactions are matched with the bank statement lines according to criteria, defined in Bridged transactions matching.    |
 |Match processed bank transactions   |Action is used for matching: <br>(1)	Bank statement lines against already processed bank notification lines <br>(2)	Bank notification lines against already processed bank statement lines     |
 
@@ -61,6 +61,14 @@ Different action types enable the setup of various processing actions.
 
 1. Open **Cash and bank management > Bank accounts > Bank accounts**.
 2. On tab Reconciliation, define **processing rules** set for the selected bank account.
+
+### Cross currency matching parameter
+With this parameter user can enable matching in cases when original payment document currency and currency, received with bank statement, are different.
+1. Go to Cash and bank management > Cash and bank management parameters > Bank statement 
+2. Set Enable cross currency matching parameter to yes, to globally enable matching of transaction in different currencies.
+3. Select one of options under Vendor payment posting currency parameter, which defines which currency will be used for posting of vendor payment transaction. Available options: 
+   - Payment currency: Payments are posted in original payment transaction currency (standard behavior)
+   - Coverage/bank statement currency: payments are posted in bank statement currency
  
 ## **Bank statement/Notifications processing**
 ---
@@ -114,9 +122,14 @@ It is possible to **manually match bank statement/notification lines** to desire
 3. It is possible to **mark** the desired transaction from listed open vendor/customer transactions and **match** it with bank statement/notification line. Vendors tab also allows selection of open vendor payment journal lines to be matched with bank statement/transaction lines. Put checkmark in field Marked and click **Transfer**. Marked transaction will be settled against the bank statement/notification line in the amount of the bank statement line. **Confirmation** is required.
 3. Additional action **Prepayment** is available on Customers tab. With this bank statement/notification line (inflow) can be marked as prepayment and will be posted according to customer posting profile for prepayments, selected upon Transfer. 
 
+In cases when bank statement transaction currency is different from original vendor payment transaction, such transactions can be matched only if Enable **cross currency matching** parameter is enabled. In this case system takes original vendor payment transaction and changes Currency, amount and calculates cross rate based on both amounts. **Following restrictions apply**: 
+- One bank statement line can be matched with only one vendor payment journal line
+- Bank statement line amount is the same as matched vendor payment transaction  
+- If matched vendor payment transaction settles multiple vendor transactions, the same cross rate is used for all lines. 
+
 **Bank**
 
-4. Bank statement/notification line can be transferred to account type Bank. **Select Bank account** and click **Account** to match bank statement line against a bank account. **Confirmation** is required.
+4. Bank statement/notification line can be transferred to account type Bank. **Select Bank account** and click **Account** to match bank statement line against a bank account. **Confirmation** is required. 
 
 **General Ledger**
 
