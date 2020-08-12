@@ -67,3 +67,12 @@ PORESKA-T|Write up adjustment
    - Tax Book: select Tax book used used for tax depreciation
 3. Click OK to generate report. 
    
+
+## **Generate POA by asset report (after 1.1.2020)**
+---
+1. The report can be generated on the following path: **Fixed assets > Inquiries and reports > Serbia > POA by assets**
+2. Enter report parameters:
+   - Date from and Date to: entered period should be one fiscal year long
+   - Accounting Book: select Asset book used for accounting depreciation
+   - Tax Book: select Tax book used used for tax depreciation
+3. Click OK to generate report. 
