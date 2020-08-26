@@ -3,22 +3,31 @@
 ## **Setup**
 ---
 
-This topic provides country/region-specific information about how to set up, create and export eInvoices in order to comply with Slovenian and Croatian legislation.
+This topic provides country/region-specific information about how to set up, create and export eInvoices in order to comply with Slovenian legislation.
 
 ### Export format configuration
 
-1. Open Workspaces – Electronic reporting -> Reporting configurations.
-2. Choose Exchange -> Load **[XML file](e-Invoices-SI.zip)** on any configuration. Based on file content it will automatically upload to correct configuration. Before upload, check the latest version of these files with the developer.
-3. Click “Browse” and choose the attached files (be sure to upload the Customer invoice model (AD).xml first because the following ones are dependent on it). After the file has loaded, click OK to upload it to configuration.
-4. Search for configuration “Customer invoice model (AD)” and expand it to find Project invoice – eSlog 1.6 (SI) and Sales invoice – eSlog 1.6 (SI). Check for status “Completed” in tab Versions.
+1. Open **Workspaces > Electronic reporting > Reporting configurations**.
+2. Choose **Exchange > Load **[XML file](e-Invoices-SI.zip)**** on any configuration. Based on file content it will automatically upload to correct configuration. Before upload, check the latest version of these files with the developer.
+3. Click **Browse** and choose the attached files (be sure to upload the Customer invoice model (AD).xml first because the following ones are dependent on it). After the file is loaded, click OK to upload it to configuration.
+4. Search for configuration “Customer invoice model (AdLoc)” and expand it to find Project invoice – eSlog 2.0 (SI) and Sales invoice – eSlog 2.0 (SI). Check for status “Completed” in tab Versions.
  
 ### Electronic invoice parameters
 
-1. Open Accounts receivables – Setup – Slovenia – E-Invoices – Electronic invoice parameters.
-2. General eInvoice parameters are set up under tab “General”, such as:
-   - Creation of envelope: enable or disable to generate envelope upon eInvoice export or sending. 
-   - Automatic sending of eInvoices: enable to automatically download eInvoice after XML is created
-   - Bank: company bank for received customer payments (validation upon SWIFT and IBAN is executed in eInvoice registry).
+1. Open **Accounts receivables > Setup > Slovenia > E-Invoices > Electronic invoice parameters**.
+2. Following eInvoice parameters are set up under tab **General**:
+
+|Parameter|Description|
+|--|--|
+|Create envelope|enable or disable to generate envelope upon eInvoice export or sending.|
+|Automatic sending of eInvoices| When enabled, zip/XML file will automatically be downloaded, after XML is created (function Create XML). When disabled, zip/XML file will be downloaded with seperate action (Send).|
+|Bank account|Company bank account for received customer payments (validation upon SWIFT and IBAN is executed in eInvoice registry), that will be used for eInvoices.  |
+|Default unit of measure|Value in this field is transferred to eInvoice when the unit is not defined on customer invoice. There is no field “Unit” on Free text invoice so in this case the value in this field is always transferred to eInvoice).|
+|Download eInvoice as archive|  |
+|Electronic signature|  |
+|Automatic electronic signing of eInvoices|  |
+  
+     
    - The default unit of measure: value in this field is transferred to eInvoice when the unit is not defined on customer invoice (there is no field “Unit” on Free text invoice so the value in this field is always transferred to eInvoice).
    - Signature options – enable/disable “Automatic electronic signing of eInvoice” and define “Electronic signature” options. Possible choices are: 
       - Mandatory: created eInvoices need to be signed with electronic signature using an appropriate valid certificate.
