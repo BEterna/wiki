@@ -37,20 +37,21 @@ This topic provides country/region-specific information about how to set up, cre
  
 ### External codes
 
-1. Open Organization administration – Setup – Units – Units.
-2. It is necessary to map standard eInvoice units of measure to AX units that will be used on customer invoices (e.g. AX unit “pcs” is defined in eInvoice documentation as “pce”). This is done through External codes, where External code definition and Code both have to be named “eRacun” in order for validation to be successful.
+1. Open **Organization administration > Setup > Units > Units > Choose unit of measure > External codes**.
+2. **Map** standard **eInvoice units** of measure to D365FO units that will be used on customer invoices (e.g. D365FO unit “pcs” is defined in eInvoice documentation as “pce”). This is done through External codes, where External code definition and Code both have to be named “eRacun” in order for validation to be successful.
  
-Attached below you will find documentation on [eInvoice standard eSLOG 1.6.](e-Invoices-SI.zip) Units of measure can be found on pages 78–81.
+
  
 ###  Certificate
 
-1. Open Accounts receivable – Setup – Electronic signature certificates.
-2. For testing purposes, it is possible to define a certificate for the electronic signature of eInvoices.
+1. Open **Accounts receivable > Setup > Electronic signature certificates**.
+2. **Add** Electronic signature certificate. For testing purposes, it is possible to define a certificate for the electronic signature of eInvoices.
  
 ### Customer setup - profile ID
 
-1. Define “Profile ID” from eInvoice parameters in tab Invoice and delivery on the customer that eInvoices will be issued for.
-2. Mandatory data such as name, address, tax exempt or tax registration number, ID number, and default bank account (and IBAN and SWIFT for that bank account) are being validated in the eInvoice registry upon creating XML (more on that below).
+1. Go to Accounts receivable > Customers > All customers > Open specific customer > go to Invoice and delivery tab > Profile ID. 
+2. Choose “Profile ID” from list. Profile ID defines eInvoice structure.   
+2. **Mandatory data** such as name, address, tax exempt or tax registration number, ID number, and default bank account (and IBAN and SWIFT for that bank account) are being validated in the eInvoice registry upon creating XML (more on that below).
 
 ### Customer setup - Taxable person type
  
