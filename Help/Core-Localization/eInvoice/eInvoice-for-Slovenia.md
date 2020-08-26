@@ -72,7 +72,7 @@ _Note: This setup **affects validation** of **Tax registration number** (Davčna
 
 1. Open **Accounts receivable > Invoices > E-Invoices > Electronic customer invoices**.
 2. **Posting** Sales or Free text invoices for customers with Profile ID **automatically generates eInvoice**.
-3. Go to **Accounts receivable > Invoices > E-Invoices > Electronic customer invoices /Electronic project invoices** where all generated einvoices can be found. Created eInvoice can be found in customer eInvoices registry with status “New”. 
+3. Go to **Accounts receivable > Invoices > E-Invoices > Electronic customer invoices** where all generated einvoices can be found. Created eInvoice can be found in customer eInvoices registry with status “New”. 
 4. With action **Create XML**, file is generated. With action **Sign**, file can be signed and with action **Send**, file is downloaded. 
 5. Create XML function executes **validation** of the following parameters:
    - LEGAL ENTITY ACCOUNT INFORMATION (name, a bank account with IBAN and SWIFT; address with country, city and ZIP code)
@@ -99,9 +99,9 @@ Check [Test Scenario](e-Invoices-SI.zip).
  
 ### Electronic project invoices
 
-1. Open Accounts receivable – Invoices – E-Invoices – Electronic project invoices.
-2. Posting invoice proposal for customers with Profile ID automatically generates eInvoice.
-3. Created eInvoice can be found in the project eInvoices registry with status “New”. 
+1. Open **Accounts receivable > Invoices > E-Invoices > Electronic project invoices**.
+2. **Posting** invoice proposal for customers with Profile ID **automatically generates eInvoice**.
+3. Go to **Accounts receivable > Invoices > E-Invoices > Electronic project invoices** where all generated einvoices can be found. Created eInvoice can be found in Project eInvoices registry with status “New”. 
 
 Project eInvoices are subject to the same procedures and actions as described in chapter Electronic customer invoices. 
 
@@ -109,11 +109,11 @@ Check **[Test Scenario](e-Invoices-SI.zip)**.
 
 ### Subsequent creation of eInvoices
 
-Accounts receivable – Invoices – E-Invoices – Electronic customer/project invoices  button “Select”
-EInvoices can be subsequently generated according to selected filters for already posted invoices or invoices deleted from eInvoice registry for the customer with adequate Profile ID. Navigate to button “Select” and define Criteria for the subsequent creation of eInvoices. 
+1. Open **Accounts receivable > Invoices > E-Invoices > Electronic customer/project invoices > button “Select”**
+2. **EInvoices** can be subsequently generated according to selected filters for already posted invoices or invoices deleted from eInvoice registry for the customer with adequate Profile ID. Navigate to button **Select** and define Criteria for the subsequent creation of eInvoices. 
  
-After confirming, subsequent eInvoices are created with status “Not ready”.
+3. After confirming, subsequent eInvoices are **created** with status **Not ready**.
  
-Proceed with the same procedures and actions as described in the chapters above. 
+4. Proceed with the same steps and actions as described in the chapters above. 
 
 Check **[Test Scenario](e-Invoices-SI.zip)**.
