@@ -95,7 +95,7 @@ _Note: This setup **affects validation** of **Tax registration number** (Davčna
 12. Using the action **Export** or **Send**, envelope (if enabled in parameters) and eInvoice are downloaded to the selected directory (first, select location for the envelope and save, then the select location for eInvoice and save). If **Export** action is used, status stays the same. Status is changed to Sent after using the action **Send**.
 13. eInvoice can be exported only after creation of XML (e.g. status must be higher then **New** or **Not ready**).
  
-Check [Test Scenario](e-Invoices-SI.zip).
+Check **[Test Scenario](e-Invoices-SI.zip)**.
  
 ### Electronic project invoices
 
