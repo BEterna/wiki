@@ -27,13 +27,13 @@ This topic provides country/region-specific information about how to set up, cre
 |**Electronic signature**|**Mandatory**: created eInvoices need to be signed with electronic signature using an appropriate valid certificate. <br>**Optional**: if a valid certificate is available, eInvoices are automatically signed if “Automatic electronic signing of eInvoice” is enabled. Otherwise, the user manually signs eInvoice in the registry. EInvoice can also be sent without a signature. <br>**Disabled**: eInvoice can be sent without an electronic signature.  |
 |**Automatic electronic signing of eInvoices**|If set to Yes, eInvoice will be automatically signed. If Electronic signature option Disabled is chosen, this parameter is disabled. |
   
-   
   
- 
    
-3. In the “Profile” section create Profile ID and choose adequate Electronic reporting configurations for Sales and FTI, and Project invoice.
+3. Go to **Profile** section, create Profile ID and choose adequate Electronic reporting configurations for Sales and Free text invoice, Sales and Free text credit note and Project invoice.
+
+4. Go to **Number sequences** section and define number sequence code for eInvoice unique file name. 
  
-It is necessary to define eInvoice unique file name in the “Number sequences” section. 
+ 
  
 ### External codes
 
