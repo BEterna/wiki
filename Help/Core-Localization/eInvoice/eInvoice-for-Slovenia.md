@@ -88,15 +88,12 @@ _Note: This setup **affects validation** of **Tax registration number** (Davčna
  
 6. If validation is successful, status is changed to **Created**, eInvoice unique file name is generated as defined in the number sequence. 
 7. The XML file is created and stored in the field **Outgoing XML** in **tab Details**. Here, more information about eInvoice is displayed, including a unique file name, details about the user, creating date, and signature data. 
-7. If **Automatic electronic signing of eInvoice** is enabled in eInvoice parameters, eInvoice is automatically signed after XML creation. 
-8. After XML has been created, buttons **Create signature** and **Send** are enabled. **Status** is changed to **Created** or **Sent**, depending on Automatic sending of eInvoices parameter. If parameter is set to Yes, status is changed to Sent if parameter is seto to No, status is changed to Created. 
-9. Using **Create signature** and **Send** adequately changes the status of eInvoice. 
-10. Multi select is also enabled for actions. Mark multiple eInvoices with a checkmark and select appropriate action.
-
-    Manual changing of status to higher status is not allowed.
- 
-11. Using the button “Export” or “Send”, envelope (if enabled in parameters) and eInvoice are downloaded to the selected directory (first, select location for the envelope and save, then the select location for eInvoice and save). If “Export” is used, status stays the same; status is changed to Sent after using the action “Send”.
-12. Export of eInvoice before the creation of XML (e.g. status “New” or “Not ready”) is not allowed.
+8. If **Automatic electronic signing of eInvoice** is enabled in eInvoice parameters, eInvoice is automatically signed after XML creation. 
+9. After XML has been created, buttons **Create signature** and **Send** are enabled. **Status** is changed to **Created** or **Sent**, depending on Automatic sending of eInvoices parameter. If parameter is set to Yes, status is changed to Sent. If parameter is set to No, status is changed to Created. 
+10. Using **Create signature** changes status to **Signed** (applicable only if Automatic sending of eInvoices parameter is set to No). With action **Send** status is changed to **Sent**.  
+11. **Multi select** is also enabled for actions. Mark multiple eInvoices with a checkmark and select appropriate action.
+12. Using the action **Export** or **Send**, envelope (if enabled in parameters) and eInvoice are downloaded to the selected directory (first, select location for the envelope and save, then the select location for eInvoice and save). If **Export** action is used, status stays the same. Status is changed to Sent after using the action **Send**.
+13. eInvoice can be exported only after creation of XML (e.g. status must be higher then **New** or **Not ready**).
  
 Check [Test Scenario](e-Invoices-SI.zip).
  
