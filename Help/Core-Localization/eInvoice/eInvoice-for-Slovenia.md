@@ -73,8 +73,8 @@ _Note: This setup **affects validation** of **Tax registration number** (Davčna
 1. Open **Accounts receivable > Invoices > E-Invoices > Electronic customer invoices**.
 2. **Posting** Sales or Free text invoices for customers with Profile ID **automatically generates eInvoice**.
 3. Go to **Accounts receivable > Invoices > E-Invoices > Electronic customer invoices /Electronic project invoices** where all generated einvoices can be found. Created eInvoice can be found in customer eInvoices registry with status “New”. 
-4. To be able to Sign, Export, or Send eInvoice, it is necessary to generate XML file through the button “Create XML”. 
-Create XML function executes validation of the following parameters:
+4. With action **Create XML**, file is generated. With action **Sign**, file can be signed and with action **Send**, file is downloaded. 
+5. Create XML function executes **validation** of the following parameters:
    - LEGAL ENTITY ACCOUNT INFORMATION (name, a bank account with IBAN and SWIFT; address with country, city and ZIP code)
    - INVOICING AND DELIVERY CUSTOMER ACCOUNT INFORMATION (name, a bank account with IBAN and SWIFT; address with country, city and ZIP code)
    - Tax exempt or tax identification number and company identification number on both customer and legal entity (NOTE: adequate registration categories must be selected for each of the required registration IDs: Tax identification number (AD), Company registration number (AD), VAT ID (if VAT ID is entered in Registration IDs)
