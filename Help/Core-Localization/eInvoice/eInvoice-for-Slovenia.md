@@ -53,6 +53,8 @@ This topic provides country/region-specific information about how to set up, cre
 2. Choose “Profile ID” from list. Profile ID defines eInvoice structure.   
 2. **Mandatory data** such as name, address, tax exempt or tax registration number, ID number, and default bank account (and IBAN and SWIFT for that bank account) are being validated in the eInvoice registry upon creating XML (more on that below).
 
+_Note: **Leave** parameters **eInvoice** and **eInvoice envelope** set to **No**, since these parameters enable standard eInvoice functionality._
+
 ### Customer setup - Taxable person type
  
 1. Go to **Accounts receivable > Customers > All customers > Select Customer > Invoice and delivery tab**
@@ -63,12 +65,12 @@ This topic provides country/region-specific information about how to set up, cre
 
 _Note: This setup **affects validation** of **Tax registration number** (Davčna številka) and **Registration number** (Matična številka), when eInovice is generated. When Type Natural person is selected, those two are optional. When Sole proprietor or Legal entity is selected both, Tax registration number and Registration number are mandatory._ 
 
-## **EInvoice registry**
+## **eInvoice registry**
 ---
 
 ### Electronic customer invoices
 
-1. Open Accounts receivable – Invoices – E-Invoices – Electronic customer invoices.
+1. Open Accounts receivable > Invoices > E-Invoices > Electronic customer invoices.
 2. Posting sales or free text invoices for customers with Profile ID automatically generates eInvoice.
 3. Created eInvoice can be found in customer eInvoices registry with status “New”. 
 4. To be able to Sign, Export, or Send eInvoice, it is necessary to generate XML file through the button “Create XML”. 
