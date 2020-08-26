@@ -19,21 +19,18 @@ This topic provides country/region-specific information about how to set up, cre
 
 |Parameter|Description|
 |--|--|
-|Create envelope|enable or disable to generate envelope upon eInvoice export or sending.|
-|Automatic sending of eInvoices| When enabled, zip/XML file will automatically be downloaded, after XML is created (function Create XML). When disabled, zip/XML file will be downloaded with seperate action (Send).|
-|Bank account|Company bank account for received customer payments (validation upon SWIFT and IBAN is executed in eInvoice registry), that will be used for eInvoices.  |
-|Default unit of measure|Value in this field is transferred to eInvoice when the unit is not defined on customer invoice. There is no field “Unit” on Free text invoice so in this case the value in this field is always transferred to eInvoice).|
-|Download eInvoice as archive|  |
-|Electronic signature|  |
-|Automatic electronic signing of eInvoices|  |
+|**Create envelope**|enable or disable to generate envelope upon eInvoice export or sending.|
+|**Automatic sending of eInvoices**| When enabled, zip/XML file will automatically be downloaded, after XML is created (function Create XML). When disabled, zip/XML file will be downloaded with seperate action (Send).|
+|**Bank account**|Company bank account for received customer payments (validation upon SWIFT and IBAN is executed in eInvoice registry), that will be used for eInvoices.  |
+|**Default unit of measure**|Value in this field is transferred to eInvoice when the unit is not defined on customer invoice. There is no field “Unit” on Free text invoice so in this case the value in this field is always transferred to eInvoice).|
+|**Download eInvoice as archive**|If set to Yes, ZIP file will be generated with eInvoice files (invoice, envelope, and customized visualization). Important: visualization of the document is not part of this localized feature and needs to be implemented during project implementation.  |
+|**Electronic signature**|**Mandatory**: created eInvoices need to be signed with electronic signature using an appropriate valid certificate. <br>**Optional**: if a valid certificate is available, eInvoices are automatically signed if “Automatic electronic signing of eInvoice” is enabled. Otherwise, the user manually signs eInvoice in the registry. EInvoice can also be sent without a signature. <br>**Disabled**: eInvoice can be sent without an electronic signature.  |
+|**Automatic electronic signing of eInvoices**|If set to Yes, eInvoice will be automatically signed. If Electronic signature option Disabled is chosen, this parameter is disabled. |
   
-     
-   - The default unit of measure: value in this field is transferred to eInvoice when the unit is not defined on customer invoice (there is no field “Unit” on Free text invoice so the value in this field is always transferred to eInvoice).
-   - Signature options – enable/disable “Automatic electronic signing of eInvoice” and define “Electronic signature” options. Possible choices are: 
-      - Mandatory: created eInvoices need to be signed with electronic signature using an appropriate valid certificate.
-      - Optional: if a valid certificate is available, eInvoices are automatically signed if “Automatic electronic signing of eInvoice” is enabled. Otherwise, the user manually signs eInvoice in the registry. EInvoice can also be sent without a signature.
-      - Disabled: eInvoice can be sent without an electronic signature. 
-   - Download eInvoice as archive: with this function ZIP file will be generated with eInvoice files (invoice, envelope, and customized visualization). Important: visualization of the document is not part of this localized feature and needs to be implemented during project implementation.  
+   
+  
+ 
+   
 3. In the “Profile” section create Profile ID and choose adequate Electronic reporting configurations for Sales and FTI, and Project invoice.
  
 It is necessary to define eInvoice unique file name in the “Number sequences” section. 
