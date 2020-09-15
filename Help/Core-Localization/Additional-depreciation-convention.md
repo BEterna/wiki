@@ -7,13 +7,31 @@ Localization feature offers an additional depreciation convention “Next month�
 ## **Setup**
 ---
 
-1. Open Depreciation convention.
+### Depreciation convention
+1. Go to Fixed assets > Setup > Fixed asset groups > Books > Depreciation convention.
 2. Additional  Depreciation convention type »Next month« is added. 
 
+
+### Create depreciation adjustment with basis adjustment setup on FA Book
+This setup affects only transaction type Acquisition adjustment. 
+1. If set to Yes: Next month convention is ignored. Transaction is included in calculation of base amount for depreciation in the month of transaction date (transaction posted on 1.1. will be included in depreciation calculation for january)   
+2. If set to No: Next month convention is taken into account. Transaction is included in calculation of base amount for depreciation the next month after transaction date (transaction posted on 1.1. will be included in depreciation calculation for february)   
+
+## **Usage**
+---
 When this type is set on a Fixed asset book, the depreciation run date will be set in the moment of acquisition posting and will be set to the following month. Placed in service month is determined by the acquisition posting date and the Depreciation run date will be set to the following month. 
 
 The default setup of the Depreciation convention can be done on a general Asset book setup or directly on a fixed asset book:
    - Placed in service
    - Depreciation run date
+
+Transactions taken into consideration: 
+ - Acquisition
+ - Acquisition adjustment
+ - Write up adjustment
+ - Write down adjustment
+
+ 
+
  
 
