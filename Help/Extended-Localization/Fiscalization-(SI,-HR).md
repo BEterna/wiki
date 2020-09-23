@@ -9,6 +9,13 @@ The feature is part of the LOC_FISCALIZATION extended localization package.
 ## **Setup**
 ---
 
+### Legal entity setup
+1. Open **Organization administration > Organizations > Legal entities**
+2. Navigate to tab **General**:
+3. Go to **Time zone**: Select your current time zone. This time zone will be used as time when fiscal document is sent to tax authority and also as time when fiscal document is created (for Croatia and Slovenia select appropriate GMT+1 time zone).
+
+
+
 ### General ledger parameters
 
 1. Open General ledger – Ledger setup – General ledger parameters.
