@@ -77,7 +77,7 @@ With this parameter user can enable matching in cases when original payment docu
 
 Import and validate bank statement in **Cash and bank management > Bank statement reconciliation > Bank statements**.
 
-See documentation: [Detailed documentation](https://ad365o.visualstudio.com/AdLoc/_wiki/wikis/WIPdoc/83/Bank-statement-import?anchor=import-bank-statement)
+See documentation: [Detailed documentation](/Help/Standalone-solutions-\(Suite\)/Advanced-Banking/Bank-statement-import)
  
 ### **Bank statement processing journal**
 
