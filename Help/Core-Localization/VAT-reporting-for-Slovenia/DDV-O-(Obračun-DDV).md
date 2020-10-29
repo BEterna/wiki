@@ -54,7 +54,8 @@ Tax report can be previewed. Preview is generated based on generated XML, using 
 
 ####Export to XML
 The report can be exported to XML by choosing a button Export to XML. If the Sales tax reporting date is before 1.1.2020, the old version of DDV-O form is generated instead. 
-NOTE: Field TaxNumber in XML is populated with Tax registration number (Davčna številka) and not VAT number (ID za DDV). When XML is imported into eDavki, this number is transformed (SI prefix is added as part of transformation in eDavki). 
+
+_**NOTE**: Field TaxNumber in XML is populated with Tax registration number (Davčna številka) and not VAT number (ID za DDV). When XML is imported into eDavki, this number is transformed (SI prefix is added as part of transformation in eDavki)._ 
 
 ## **DDV-O Correction** 
 ----
