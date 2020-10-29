@@ -7,7 +7,11 @@ DDV-O is prepared based on Tax transactions and **according to the VAT date**. D
 ## **Setup**
 ----
 
-###Sales tax authorities
+####Legal entity - Tax registration number
+1. Go to **Organization information > Organizations > Legal entities > Tab Tax registration > Tax registration number**
+2. Enter Tax registration for the Legal entity (Davčna številka!)
+
+####Sales tax authorities
 
 To generate a VAT declaration in the correct format for the appropriate tax authority, you must set up the report layout for the sales tax authorities. On the **Sales tax authorities** page, in the **Report layout** field, select **Slovenian report layout**. Select the same sales tax authority for the sales tax settlement period that will be used in the sales tax codes. 
 
