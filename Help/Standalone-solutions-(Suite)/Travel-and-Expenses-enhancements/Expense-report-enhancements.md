@@ -28,7 +28,11 @@ Validation is optional and can be enabled/disabled in Expense management > Setup
 |Yes |Validation is not performed. There is no warning and the document can be submited to Workflow even if transaction is out of date range defined on the header of the document.  |
 |No  |Validation is performed. Warning appears if transaction is out of date range defined on the header of the document and the document cannot be submited to Workflow. |
 
+###**Disable Pre-authorisation of manually added lines**
+With standard functionality manually added lines need to be pre-authorised (Pre-authorised node on Travel expense line is set to Yes). With this extension pre-authorisation of such lines can be avoided. 
 
+1. Go to **Expense management > Setup > Expense management parameters > Adacta (expense)**
+2. Find setup "**Default Pre-Authorised field to No**". If set to Yes, value of Pre-authorised node on Travel expense line will be automatically set to No and pre-authorisation won't be demanded. If set to No, value of Pre-authorised node on Travel expense line will be automatically set to Yes and pre-authorisation will be demanded.
 
 ### **Expense report print**
 
