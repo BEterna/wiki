@@ -40,3 +40,13 @@ In terms of outflows - each vendor bank account can be mapped to a specific comp
 
 [Detailed documentation](/Help/Extended-Localization/Bank-package-features/Default-bank-account)
 
+
+----
+# Additional exchange rate providers
+
+As standard D365 functionality does not support some of the locally used exchange rate providers, often requested by local companies, this extended localization feature enables the most commonly used providers within the region.
+
+The following additional exchange rates providers are available as part of this localization package: Bank of Slovenia, Croatian national bank, National bank of Serbia and National bank of Macedonia. Exchange rates from the listed providers can then be imported and used throughout D365 using standard features.
+
+[Detailed documentation](/Help/Extended-Localization/Bank-package-features/Additional-exchange-rate-providers)
+

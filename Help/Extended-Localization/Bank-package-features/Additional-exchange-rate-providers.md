@@ -16,5 +16,3 @@ For the configuration of the National Bank of Serbia, each company needs an indi
    - License id,
    - Username,
    - Password.
-
-
