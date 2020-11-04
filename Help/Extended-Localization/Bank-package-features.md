@@ -40,3 +40,7 @@ In terms of outflows - each vendor bank account can be mapped to a specific comp
 
 [Detailed documentation](/Help/Extended-Localization/Bank-package-features/Default-bank-account)
 
+
+----
+# Additional exchange rate providers
+
