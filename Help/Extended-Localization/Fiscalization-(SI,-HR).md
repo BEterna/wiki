@@ -2,7 +2,7 @@
 
 Fiscalization is fiscal law designed to avoid retailer fraud in Slovenia and Croatia. Fiscal law about cash registers has been introduced in countries to control the grey economy by enforcing all mandatory transaction reporting to the authorities. According to fiscal law, an appropriate fiscal receipt has to be printed and given to the customer.
 
-The feature allows the generation of the number sequence on sales documents (Sales Order, Free text invoice, Project Invoice, Prepayment invoice, FTI corrections, Credit notes, Collection letters, Interest notes, and Advance invoices) according to the Fiscal law. The fiscal number can be seen in the field “Invoice” on Customer transactions. After posting, the transaction is displayed in Fiscalization documents.
+The feature allows the generation of the number sequence on sales documents (Sales Order, Free text invoice, Project Invoice, Prepayment invoice, FTI corrections, Credit notes, Collection letters, Interest notes, and Advance invoices) according to the Fiscal law. The fiscal number can be seen in the field “Invoice” on Customer transactions. After posting, the transaction is displayed in Fiscalization documents. QR code is also generated as result. 
 
 The feature is part of the LOC_FISCALIZATION extended localization package.
 
@@ -105,6 +105,10 @@ Transactions can be seen in the Fiscalization documents list.
 The posted transaction is generated with a fiscal number.
  
 Customer transaction has a fiscal number in field Invoice.
+
+### **Use generated QR code in printouts**
+
+Generated QR code can be used in printouts. Here is the [example of implementation](/How-to/Implement-QR-code-image-in-FTI) of QR code on Free text invoice. Principle is the same for all the other documents. 
  
 ## **Test cases**
 ---

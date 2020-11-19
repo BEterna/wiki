@@ -19,3 +19,5 @@ Set image source as Database and use field from this data source where QR code i
  
 
 Keep image size as required (QR kod for Croatian invoices is required to be in size 2x2 cm and empty space arround QR code needs to be at least 2 mm).
+
+The principle is the same for all the other documents, the difference is only in ReportDataProvider and associated temp table. 
