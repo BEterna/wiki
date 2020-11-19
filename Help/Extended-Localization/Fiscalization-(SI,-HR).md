@@ -106,7 +106,7 @@ The posted transaction is generated with a fiscal number.
  
 Customer transaction has a fiscal number in field Invoice.
 
-### Use generated QR code in printouts
+### **Use generated QR code in printouts**
 
 Generated QR code can be used in printouts. Here is the [example of implementation](/How-to/Implement-QR-code-image-in-FTI) of QR code on Free text invoice. Principle is the same for all the other documents. 
  
