@@ -25,8 +25,8 @@ The generation of reports is based on [BIH reporting codes.xlsx](/.attachments/B
 
 
 ##**KIF report**
-Option 1: generate KIF report for the first time for settlement period 
-1. Go to **Tax > Declarations > Bosnia and Herzegovina > VAT > Generate KIF report lines**.
+----
+1. To generate KIF report for the first time for settlement period go to **Tax > Declarations > Bosnia and Herzegovina > VAT > Generate KIF report lines** and to update lines for already generated report go to **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Generate tab > Generate KIF report**
 2. Enter reporting parameters such as Sales tax settlement period and VAT date or/and Posting dates and File line count (number of lines per file with size restriction of 5 MB).
 3. After confirmation, a report is generated.
 4. **Export** of lines in CSV file by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Export tab > ER export**
@@ -34,11 +34,17 @@ Option 1: generate KIF report for the first time for settlement period
 6. If changes are needed for the closed report, it can be **reopened** by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Open** option
 7.	**Deleting** of report header and lines can be done only for open reports in **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Delete** option
 
-Option 2: Generate update of lines for already generated KIF report:
-1. Open **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Generate tab > Generate KIF report lines**.
-2. Enter reporting parameters such as Sales tax settlement period and VAT dates or/and Posting dates and File line count (number of lines per file with size restriction of 5 MB).
-3. After confirmation, a report is generated.
-4. **Export** of lines in CSV file by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Export tab > ER export**
-5. After export, the report can be **closed for changes**  by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Close** option
-6. If changes are needed for the closed report, it can be **reopened** by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Open** option
-7. **Deleting** of report header and lines can be done only for open reports in **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Delete** option
+
+
+
+##**KUF report**
+----
+1. To generate KUF report for the first time for settlement period, go to  **Tax > Declarations > Bosnia and Herzegovina > VAT > Generate KUF report lines** and to update lines for already generated report go to **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Generate tab > Generate KUF report lines**.
+2.	Enter **reporting parameters** such as Sales tax settlement period and VAT dates or/and Posting dates and File line count (number of lines per file with size restriction of 5 MB).
+3.	After confirmation, a report is generated.
+4.	**Export** of lines in CSV file by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Export tab > ER export**
+5.	After export, the report can be **closed for changes** and new lines generating by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Close** option
+6.	If changes are needed for the closed report, it can be **reopened** by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Open** option
+7.	**Deleting** of report header and lines can be done only for open reports in **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Delete** option
+
+
