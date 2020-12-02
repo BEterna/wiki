@@ -13,7 +13,8 @@ Reporting codes are used to direct amounts in appropriate columns of the report.
 NOTE: Reporting codes used for the PDV report should have the Bosnian report layout assigned.
 
 ###**Sales tax authorities setup**
-1. Go to In order to enable Bosnian VAT reports layouts, this report needs to be defined on Tax authority.
+1. Go to **Tax > Indirect taxes > Sales tax > Sales tax authorities > Report layout**. 
+2. Choose Bosnian report Layout.
 
 ###**Sales tax code setup**
 Each transaction that should be shown in the report should have an appropriate sales tax setup assigned. Setup that defines in which column of the report amounts will be shown are od the Report setup (for amounts with a positive sign) and Report setup – Credit note (for amounts with negative sign) tabs.
