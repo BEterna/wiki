@@ -17,13 +17,16 @@ NOTE: Reporting codes used for the PDV report should have the Bosnian report lay
 2. Choose Bosnian report Layout.
 
 ###**Sales tax code setup**
-Each transaction that should be shown in the report should have an appropriate sales tax setup assigned. Setup that defines in which column of the report amounts will be shown are od the Report setup (for amounts with a positive sign) and Report setup – Credit note (for amounts with negative sign) tabs.
-NOTE: Automatically reversed transactions will go in the same column as the original transaction. The mapping between reporting codes and POPDV form is in the File.
-Generating report
-1.	New VAT report is generated on the following path Modules - Tax - Declarations - Sales tax - Report sales tax for the settlement period.
-2.	In order to run the report, the parameters should be set as follows:
-•	Settlement period – choose the one related to the new VAT setup.
-•	From date – enter the starting date of the VAT period.
-•	Sales tax payment version – choose the Original option.
-•	Print report – turn this parameter to Yes if PDV the report should be printed.
-3.	After click OK and PDV form will be displayed
+1. Go to **Tax > Indirect taxes > Sales tax > Sales tax codes**.
+2. Set up reporting codes from Bosnian report layout, defind on Tax authorities setup. VAT reports are generated according to the setup of sales tax reporting codes.
+
+_NOTE: Automatically reversed transactions will go in the same column as the original transaction._
+
+##**Generate report**
+1.	Go to **Tax > Declarations > Sales tax > Report sales tax for the settlement period**.
+2.	**Run the report** with following parameters:
+    - Settlement period – choose the one related to the new VAT setup.
+    - From date – enter the starting date of the VAT period.
+    - Sales tax payment version – choose the Original option.
+    - Print report – turn this parameter to Yes if PDV the report should be printed.
+3.	After click **OK** and PDV form will be displayed
