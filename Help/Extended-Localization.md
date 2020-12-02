@@ -3,6 +3,8 @@
 
 NOTE: a prerequisite for using Extended Localization features is installed Core Localization package.
 
+Release notes: 
+
 ## Tax package:
 ---
 |**Tax Package Features _(LOC_TAX)_**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
