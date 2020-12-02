@@ -19,6 +19,10 @@ The feature list is available on the following link. Features are grouped into C
 3. **[_Standalone - Suite_](/Help/Standalone-solutions-\(Suite\))** features: 
     * Standalone Adacta add-ons. 
 
+##**Release notes**
+- Localization and extended packages release notes
+
+
 ## **Roadmap**
 ---
 
