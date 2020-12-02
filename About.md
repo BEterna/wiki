@@ -20,6 +20,7 @@ The feature list is available on the following link. Features are grouped into C
     * Standalone Adacta add-ons. 
 
 ##**Release notes**
+---
 - Localization and extended packages release notes
 
 
