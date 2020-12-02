@@ -1,6 +1,7 @@
 **Core Localization** is a combination of custom developed features, which enhance/change the functionality of standard D365O functionalities in order to cover the mandatory legislative business requirements for Slovenia, Croatia, and Serbia. In this section, Core Localization features are summarized through several sub-sections, based on the business context.
 
 
+
 List of features, included in Localization package: 
 
 
