@@ -1,6 +1,9 @@
-Create D PDV report
+#**Create D PDV report**
+
 Additional reports which should be submitted with PDV report to BH tax authority by the 10th of next month for prior sales tax period.
-Setup
+
+##**Setup**
+---
 In order to be able to generate a D PDV form, the mandatory setup has to be completed.
 Reporting codes
 Reporting codes are used to direct amounts in appropriate columns of the report. List of all available reporting codes opens on the following path Modules - Tax - Setup - Sales tax - Sales tax reporting codes.
