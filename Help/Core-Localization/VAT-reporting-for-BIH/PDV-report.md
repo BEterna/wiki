@@ -8,12 +8,12 @@ In order to be able to generate a PDV form, the mandatory setup has to be comple
 
 ###**Reporting codes**
 Reporting codes are used to direct amounts in appropriate columns of the report.
-1. Go to Tax > Setup > Sales tax > Sales tax reporting codes.
+1. Go to **Tax > Setup > Sales tax > Sales tax reporting codes**.
 2. Enter reporting codes for Bosnian layout. See the [list of available reporting codes](/Help/Core-Localization/VAT-reporting-for-BIH/KIF-and-KUF-report) for Bosnian layout.
 NOTE: Reporting codes used for the PDV report should have the Bosnian report layout assigned.
 
 ###**Sales tax authorities setup**
-In order to enable Bosnian VAT reports layouts, this report needs to be defined on Tax authority.
+1. Go to In order to enable Bosnian VAT reports layouts, this report needs to be defined on Tax authority.
 
 ###**Sales tax code setup**
 Each transaction that should be shown in the report should have an appropriate sales tax setup assigned. Setup that defines in which column of the report amounts will be shown are od the Report setup (for amounts with a positive sign) and Report setup – Credit note (for amounts with negative sign) tabs.
