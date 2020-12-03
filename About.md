@@ -21,7 +21,7 @@ The feature list is available on the following link. Features are grouped into C
 
 ##**Release notes**
 ---
-- [Localization and extended packages](/.attachments/Release%20notes%20AdLoc10-49ac9e14-a7e0-4b05-b435-4b024a40800f.xlsx) release notes
+- [Localization and extended packages](/.attachments/Release%20notes%20AdLoc10%20(1)-36e83eb7-e01b-4564-8f8c-ffa9ac80256c.xlsx) release notes
 
 
 ## **Roadmap**
