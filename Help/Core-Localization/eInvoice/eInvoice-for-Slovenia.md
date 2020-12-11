@@ -38,7 +38,8 @@ This topic provides country/region-specific information about how to set up, cre
 ### External codes
 
 1. Open **Organization administration > Setup > Units > Units > Choose unit of measure > External codes**.
-2. **Map** standard **eInvoice units** of measure to D365FO units that will be used on customer invoices (e.g. D365FO unit “pcs” is defined in eInvoice documentation as “pce”). This is done through External codes, where External code definition and Code both have to be named “eRacun” in order for validation to be successful.
+2. In Overview segment add Code=eRacun, external code definition=eRacun; Mark field Standard code
+2. In Value segment **Map** standard **eInvoice units** of measure to D365FO units that will be used on customer invoices (e.g. D365FO unit “pcs” is defined in eInvoice documentation as “pce”). This is done through External codes, where External code definition and Code both have to be named “eRacun” in order for validation to be successful.
  
 
  
