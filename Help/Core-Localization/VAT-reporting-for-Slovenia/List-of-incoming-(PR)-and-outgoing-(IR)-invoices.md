@@ -14,7 +14,7 @@ IR and PR reports are prepared based on Tax transactions amd **according to VAT 
 3. After confirmation, report is generated. It is possible to export the report into various formats and search the report for entered values.
 4. Click on “Refresh” button to open reporting parameters. 
 
-_Note:(1) In case when report structure changes due to legislation changes, resulting output depends on reporting date. (2)Field "Številka listine" is populated with Voucher number and document number (Field Document number on Tax transaction tab "Reporting")._ 
+_Note:(1) In case when report structure changes due to legislation changes, resulting output depends on reporting date. (2) Field "Številka listine" is populated with Voucher number and document number (Field Document number on Tax transaction tab "Reporting")._ 
 
 ### VAT payable rep. CSV export  
 
