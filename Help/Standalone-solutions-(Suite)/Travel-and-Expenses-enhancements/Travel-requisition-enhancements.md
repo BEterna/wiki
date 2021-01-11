@@ -15,10 +15,10 @@ Additional fields are added to travel requisition header:
 
 ### **Date Validation**
 
-The estimated expense date of each travel requisition line must be within a period, entered on the travel requisition header (set with “From” and “To date and time” fields). This feature can be enabled/disabled with parameter in Expense management parameters > Adacta (expense) > Ignore Form-To date validation. If set to No, dates from travel requisition lines will be validated against dates in the document header.   
+The estimated expense date of each travel requisition line must be within a period, entered on the travel requisition header (set with “From” and “To date and time” fields). This feature can be enabled/disabled with parameter in **Expense management parameters > Adacta (expense) > Ignore Form-To date validation**. If set to No, dates from travel requisition lines will be validated against dates in the document header.   
 
 ### **Submit travel requisition without lines into Workflow**
-Parameter for submission of Travel requisition is added to Expense management parameters > Adacta (expense) > Enable submit to WF w/o lines. If set to yes, travel requisition can be submitted to  Workflow without lines.
+Parameter for submission of Travel requisition is added to **Expense management parameters > Adacta (expense) > Enable submit to WF w/o lines**. If set to yes, travel requisition can be submitted to  Workflow without lines.
 
 
 ### **Travel requisition report print**
@@ -26,8 +26,11 @@ Parameter for submission of Travel requisition is added to Expense management pa
      - Localized print (including details from each expense line) 
      - Localized print without lines (less detailed). 
 
-Note: Localized printouts become available only if the “Use localized reports” option is checked in Expense management parameters.
+Note: Localized printouts become available only if option is checked in **Expense management parameters > Adacta (expense) > Use localized reports**.
 
 ### **Generate Expense report from Travel requisition**
 
 It is possible to generate Expense report directly form approved Travel requisition. Function "Create expense report is added to Travel requisition list page. If approval status is different from Approved or Reconciliation status is set to Closed, function is disabled. 
+
+### **Close requisition when mapping to expense report**
+It is possible to automatically force closing of travel requisition after it is mapped to Expense report, even though there is an unreconciled amount left on the travel requisition. With parameter in **Expense management parameters > Adacta (expense) > Close requisition when mapping to expense report** set to Yes, travel requisition will be closed when it is mapped with expense report. If mapping is removed, status will be reversed back to Open (if reconciled amount exists). If parameter is set to No, status of the travel requisition will be left Open, but only in cases when reconciled amount exists. If reconciled amount equals 0, status will be set to Closed (standard functionality). 
