@@ -20,7 +20,7 @@ Open Expense report header:
    
 Validation is executed upon expense report dates: “Transaction date” entered for each expense line has to be within an entered period in expense report header localization fields From and To date and time.
 
-Validation is optional and can be enabled/disabled in Expense management > Setup > General > Expense management parameters > Adacta (expense) > Ignore From-To date validation. 
+Validation is optional and can be enabled/disabled in **Expense management > Setup > General > Expense management parameters > Adacta (expense) > Ignore From-To date validation**. 
 
 
 |**Value**  | **Behavior** |
@@ -34,36 +34,29 @@ With standard functionality manually added lines need to be pre-authorised (Pre-
 1. Go to **Expense management > Setup > Expense management parameters > Adacta (expense)**
 2. Find setup "**Default Pre-Authorised field to No**". If set to Yes, value of Pre-authorised node on Travel expense line will be automatically set to No and pre-authorisation won't be demanded. If set to No, value of Pre-authorised node on Travel expense line will be automatically set to Yes and pre-authorisation will be demanded.
 
-### **Expense report print**
+### **Expense report Localized print**
 
 
-1. Open Expense management – Setup – General – Expense management parameters.
-2. Localized reports are enabled in the Adacta section of expense management parameters. The same setting is used for the localized expense and travel requisition reports.
+1. Open **Expense management > Setup > General > Expense management parameters > Adacta (expense > Use localized reports**.
+2. when set to Yes, localized reports are available under Print section of Travel requisitions and Expense reports.  
+1. Choose Print > **Localized print** on an expense report to generate the report. 
 
-#### Localized print
-
-1. Choose Print – Localized print on an expense report to generate the report. 
-
-Note: if localized reports are not enabled in expense management parameters, the option “Localized print” is not available. 
+_Note: if localized reports are not enabled in expense management parameters, the option “Localized print” is not available._ 
  
-2. The report shows the same types of information as the travel requisition localized print.
-Amounts marked with a star (*) are included in the calculation “Remains for payment” – the amount that needs to be reimbursed to a worker.
 
 ### **Map to travel requisition**
 
-This feature also enables Travel requisitions to be mapped to Expense reports. Upon mapping information from Travel requisition header and lines are transferred to the mapped Expense report. The feature works only if “Copy data from requisition” option is checked in Expense management parameters, while only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to an Expense report.
+This feature also enables Expense reports to be mapped with Travel requisitions. Upon mapping information from mapped Travel requisition header and lines are transferred to Expense report. The feature works only if **“Copy data from requisition” option is checked in Expense management parameters**, while only travel requisitions in Reconciliation status “Open” and Approval status “Approved” can be mapped to an Expense report.
 
-Upon mapping information from travel requisition header and lines are transferred to an expense report.
 
 ### **Automatic Cash advance return line**
 
 If mapping Travel requisition with an applied cash advance (in status “Paid), upon transferring information from Travel requisition to mapped Expense report, additional expense line with expense type “Cash advance return” will be automatically created on an Expense report. The transaction amount and date for this newly generated line are transferred from cash advance (mapped to Travel requisition).
 
-Additional setting in Expense management parameters: 
-1. Open Expense management parameters - Adacta (expense).
-2. Set field Apply cash advance return.
+To enable this function:  
+1. Go to **Expense management parameters > Adacta (expense) > Apply cas advance return**.
+2. Set field Apply cash advance return to Yes.
 
-If the “Apply cash advance return” option is checked: mapping travel requisition (with applied cash advance in status “Paid”) to expense report will automatically create an additional line with expense type “Cash advance return”. Transaction amount and date are transferred from cash advance, connected with the mapped travel requisition.
 
 
 ### **Set up posting dates for group Expense report transactions posting**
@@ -72,7 +65,7 @@ This feature allows defining date for posting expenses in case of transaction gr
 
 #### Posting date of group transactions
 
-1. Open Expense management – Setup – General – Expense management parameters.
+1. Open **Expense management > Setup > General > Expense management parameters > Adacta (expense) > Per diem transaction date on last day**.
 2. The feature allows defining the date to post expenses on in case of enabled transaction grouping. Posting date setup is applicable only when a standard grouping of transactions based on the offset account specified in the payment method is enabled. 
  
 Possible options are:
