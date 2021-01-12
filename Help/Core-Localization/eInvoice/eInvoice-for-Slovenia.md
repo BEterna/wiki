@@ -122,3 +122,10 @@ Check **[Test Scenario](e-Invoices-SI.zip)**.
 ## **Additional information regarding Tax number and VAT number recording in XML file**
 --- 
 Following rules regarding Tax and VAT number of receiver and issuer are implemented, according to National forum for e-invoice: 
+
+###**Case 1: Issuer is identified for VAT purposes (has VAT number)**
+VAT number (Tax exempt number/ID za DDV) is recorded under BT-31 and BT-32<br>
+![image.png](/.attachments/image-1c7aa7cb-4553-4865-9200-7b1d2339b845.png)
+
+###**Case 1: Issuer is identified for VAT purposes (has VAT number)**
+VAT number (Tax exempt number/ID za DDV) is recorded under BT-31 and BT-32<br>
