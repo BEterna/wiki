@@ -127,5 +127,14 @@ Following rules regarding Tax and VAT number of receiver and issuer are implemen
 VAT number (Tax exempt number/ID za DDV) is recorded under BT-31 and BT-32<br>
 ![image.png](/.attachments/image-1c7aa7cb-4553-4865-9200-7b1d2339b845.png)
 
-###**Case 1: Issuer is identified for VAT purposes (has VAT number)**
-VAT number (Tax exempt number/ID za DDV) is recorded under BT-31 and BT-32<br>
+###**Case 2: Issuer is NOT identified for VAT purposes (has only Tax number)**
+Tax number (Davčna številka) is recorded under BT-32<br>
+![image.png](/.attachments/image-3d06d57c-db77-46c9-95f9-892bcf27cc33.png)
+
+###**Case 3: Receiver is identified for VAT purposes (has VAT number)**
+VAT number (Tax exempt number/ID za DDV) is recorded under BT-48 and NBT-013<br>
+![image.png](/.attachments/image-9caa1ca4-1233-4f64-80da-bf5217fe39f6.png)
+
+###**Case 4: Receiver is NOT identified for VAT purposes (has only Tax number)**
+Tax number (Davčna številka) is recorded under BT-32<br>
+![image.png](/.attachments/image-fd3a5cd9-da6e-4de3-aeb8-93cc130690f2.png)
