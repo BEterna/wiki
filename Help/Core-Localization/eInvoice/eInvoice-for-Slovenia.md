@@ -118,3 +118,7 @@ Check **[Test Scenario](e-Invoices-SI.zip)**.
 4. Proceed with the same steps and actions as described in the chapters above. 
 
 Check **[Test Scenario](e-Invoices-SI.zip)**.
+
+## **Additional information regarding Tax number and VAT number recording in XML file**
+--- 
+Following rules regarding Tax and VAT number of receiver and issuer are implemented, according to National forum for e-invoice: 
