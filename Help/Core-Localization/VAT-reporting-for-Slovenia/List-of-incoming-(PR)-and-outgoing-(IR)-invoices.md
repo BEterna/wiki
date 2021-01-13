@@ -22,7 +22,7 @@ _Note:(1) In case when report structure changes due to legislation changes, resu
 2. Enter **reporting parameters** and click OK. 
 3. Report in FURS export format is generated.  
 
-_Note: In case when report structure changes due to legislation changes, resulting output depends on reporting date._ 
+_Note: (1) In case when report structure changes due to legislation changes, resulting output depends on reporting date. (2) Document number field is populated with Document number/Invoice number and not with voucher number._ 
 ### "Evidenca IR" report forms
 
 1. Open **Tax > Declarations > Slovenia > VAT > “Evidenca IR” report forms**.
