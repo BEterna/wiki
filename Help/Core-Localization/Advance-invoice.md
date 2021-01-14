@@ -84,7 +84,7 @@ To see the list of posted Prepayment invoices and their reversals based on gener
 
 
 
-12. Open Tax – Declarations – Slovenia – VAT – PR – “Evidenca PR” report. Check Evidenca PR report with date filter on VAT date to see VAT transaction. 
+ 
 13. Upon posting the final invoice, advance invoice (and with it the posted VAT amount) is reversed. If the final invoice is linked to the purchase order that was settled against prepayment, reversal happens upon posting the invoice.
 14. If there was no purchase order, reversal happens upon manually settling the posted invoice and payment of prepayment. Navigate to “Settle transactions” on the Vendor account.
 15. Mark the transaction of prepayment and final invoice and select “Post”.
