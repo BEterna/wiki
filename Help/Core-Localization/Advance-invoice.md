@@ -49,7 +49,7 @@ This localized functionality allows for the sales or purchases advance invoice g
 
 
  
-## **Generate Advance invoice**
+## **Generate Prepayment invoice**
 ---
 
 1. Open **Accounts payable > Payments > Prepayment invoice.**
@@ -64,7 +64,26 @@ _Note: in case of prepayment invoice, the date for the filter is the posting dat
 7. Upon saving the line, the Voucher amount/Line amount and Voucher VAT/Line VAT fields are calculated. For countries that use separate sales tax codes for the advance invoice (e.g. Serbia), it is necessary to change the item sales tax group after the line generation. **Sales tax** for individual prepayment invoice line can be checked before posting by navigating to **Inquiries > Sales tax**.
 8. **Enter** Document receipt date, Document date, VAT date, and advance invoice number.
 10. **Post** Prepayment journal. Posting the journal posts only VAT. 
-11. Check voucher for an individual advance invoice by navigating to Inquiries – Voucher. The main account for debit transactions comes from the ledger posting group, whereas the main account for credit amount is from vendor posting profile (field “Sales tax prepayments”).
+
+
+##**View Prepayment invoice information**
+---
+To see the list of posted Prepayment invoices and their reversals based on generated final Invoices: 
+1. Go to **Accounts Payable > Invoices > Prepayment invoice**
+2. **List** of all generated prepayment invoices will open
+3. To see **Voucher** select Prepayment invoice and go to Tab Prepayment invoice > Voucher
+4. To see **Posted sales tax** select Prepayment invoice and go to Tab Prepayment invoice > Posted sales tax
+5. To **reverse** Prepayment invoice (only in cases when Prepayment invoice needs to be reversed manually and it won't be settled with final Invoice) select Prepayment invoice and go to Tab Prepayment invoice > Reverse.
+6. To **Print** Prepayment invoice select Prepayment invoice and go to Tab Prepayment invoice > **Print journal** or Use **print management** Print journal is used when you just want to preview and print Prepayment invoice. In cases, when you need some additional rules eg. sent to emali, print to file, use separate print layout for separate customers etc. it is recommended to use print management option. 
+
+
+##**Prepayment invoice and Final invoice**
+---
+
+
+
+
+
 12. Open Tax – Declarations – Slovenia – VAT – PR – “Evidenca PR” report. Check Evidenca PR report with date filter on VAT date to see VAT transaction. 
 13. Upon posting the final invoice, advance invoice (and with it the posted VAT amount) is reversed. If the final invoice is linked to the purchase order that was settled against prepayment, reversal happens upon posting the invoice.
 14. If there was no purchase order, reversal happens upon manually settling the posted invoice and payment of prepayment. Navigate to “Settle transactions” on the Vendor account.
