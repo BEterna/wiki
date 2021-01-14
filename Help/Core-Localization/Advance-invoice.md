@@ -61,10 +61,9 @@ _Note: in case of prepayment invoice, the date for the filter is the posting dat
    - If there is no purchase order, add a line with Item type “Text” and insert necessary data (quantity, amount, and sales tax group are populated automatically, enter item sales tax group). 
    - If there is a purchase order that has not been linked, select item type “item”, select purchase order and order line – quantity, amount, and sales tax data will transfer automatically. <br>
 
-8. Upon saving the line, the Voucher amount/Line amount and Voucher VAT/Line VAT fields are calculated. For countries that use separate sales tax codes for the advance invoice (e.g. Serbia), it is necessary to change the item sales tax group after the line generation.
-9. Enter Document receipt date, Document date, VAT date, and advance invoice number.
-10. Check the sales tax that will be posted by each advance invoice by navigating to Inquiries – Sales tax. Check the sales tax for individual advance invoice line by clicking button “Sales tax” in tab Details.<br> 
-Posting the journal posts only VAT. 
+7. Upon saving the line, the Voucher amount/Line amount and Voucher VAT/Line VAT fields are calculated. For countries that use separate sales tax codes for the advance invoice (e.g. Serbia), it is necessary to change the item sales tax group after the line generation. **Sales tax** for individual prepayment invoice line can be checked before posting by navigating to **Inquiries > Sales tax**.
+8. **Enter** Document receipt date, Document date, VAT date, and advance invoice number.
+10. **Post** Prepayment journal. Posting the journal posts only VAT. 
 11. Check voucher for an individual advance invoice by navigating to Inquiries – Voucher. The main account for debit transactions comes from the ledger posting group, whereas the main account for credit amount is from vendor posting profile (field “Sales tax prepayments”).
 12. Open Tax – Declarations – Slovenia – VAT – PR – “Evidenca PR” report. Check Evidenca PR report with date filter on VAT date to see VAT transaction. 
 13. Upon posting the final invoice, advance invoice (and with it the posted VAT amount) is reversed. If the final invoice is linked to the purchase order that was settled against prepayment, reversal happens upon posting the invoice.
