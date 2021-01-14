@@ -46,6 +46,12 @@ This localized functionality allows for the sales or purchases advance invoice g
 
 1. Open Tax – Indirect taxes – Sales tax – Sales tax codes.
 2. Some countries might wish to record separate sales tax codes for advance invoices (e.g. Serbia). In this case, create a separate sales tax code.
+
+### Print management setup (Optional)
+
+Print management option is also enabled for Advance invoices. It is not mandatory to use Print management.
+1. Open Accounts receivable > Setup > Forms > Form setup > General > Print management > Documents > Prepayment invoice
+2. Create new Default form with needed setup (different destination etc.).
  
 ## **Generate Advance invoice**
 ---
