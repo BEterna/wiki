@@ -52,18 +52,16 @@ This localized functionality allows for the sales or purchases advance invoice g
 ## **Generate Advance invoice**
 ---
 
-1. Open Accounts payable > Payments > Advance invoice.
-2. The advance invoice is a complete localization feature. It is generated through the advance journal. Create a new journal and select journal names for Prepayments to vendors. Click on “Lines” to enter the journal.
-3. To create a proposal of all transactions, posted as prepayment (posted with a checkmark in field Prepayment journal voucher), navigate to Functions – Create prepayment proposal. 
-4. Enter “From date” and “To date” to filter payments of prepayments. Note: in case of prepayment invoice, the date for the filter is the posting date of liability (posting date of prepayment invoice) and not the payment date of the prepayment invoice. Optionally, enter the Posting date and VAT date that advance invoices will be generated with.
-5. Confirm the date parameters. 
-6. An advance invoice is created in the journal. If the payment of prepayment was settled against purchase order through Settle open transactions (see test case), the invoice line is generated automatically.<br>
-If there is no purchase order or the payment of prepayment was not linked to one, the line is not generated. There is an infolog: “Prepayment is not completely allocated to orders.”
-7. In this case, manually add the line: 
+1. Open **Accounts payable > Payments > Prepayment invoice.**
+2. Create **New** journal and Click on **Lines** to enter the journal.
+3. Navigate to **Functions > create prepayment proposal**.   
+4. Enter **“From date”** and **“To date”** to filter out payment transactions marked as prepayment. Optionally, enter the **Posting date** and **VAT date** that Prepayment invoices will be generated with. Confirm the date parameters.<br>
+_Note: in case of prepayment invoice, the date for the filter is the posting date of liability (posting date of prepayment invoice) and not the payment date of the prepayment invoice._
+6. **Prepayment invoice header** is generated in the upper section of the journal. If the prepayment was generated as part of the purchase order the invoice line is generated automatically. If there is no purchase order or the payment of prepayment was not linked to one, the line is not generated. Infolog appears: “Prepayment is not completely allocated to orders.” In this case, manually add the line: 
    - If there is no purchase order, add a line with Item type “Text” and insert necessary data (quantity, amount, and sales tax group are populated automatically, enter item sales tax group). 
-   - If there is a purchase order that has not been linked, select item type “item”, select purchase order and order line – quantity, amount, and sales tax data will transfer automatically. 
-For countries that use separate sales tax codes for the advance invoice (e.g. Serbia), it is necessary to change the item sales tax group after the line generation.
-8. Upon saving the line, the Voucher amount/Line amount and Voucher VAT/Line VAT fields are calculated.
+   - If there is a purchase order that has not been linked, select item type “item”, select purchase order and order line – quantity, amount, and sales tax data will transfer automatically. <br>
+
+8. Upon saving the line, the Voucher amount/Line amount and Voucher VAT/Line VAT fields are calculated. For countries that use separate sales tax codes for the advance invoice (e.g. Serbia), it is necessary to change the item sales tax group after the line generation.
 9. Enter Document receipt date, Document date, VAT date, and advance invoice number.
 10. Check the sales tax that will be posted by each advance invoice by navigating to Inquiries – Sales tax. Check the sales tax for individual advance invoice line by clicking button “Sales tax” in tab Details.<br> 
 Posting the journal posts only VAT. 
