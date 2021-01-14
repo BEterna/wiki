@@ -79,13 +79,9 @@ To see the list of posted Prepayment invoices and their reversals based on gener
 
 ##**Prepayment invoice and Final invoice**
 ---
+When Final invoice is linked to prepayment, Prepayment invoice is automatically reversed. 
 
-
-
-
-
- 
-13. Upon posting the final invoice, advance invoice (and with it the posted VAT amount) is reversed. If the final invoice is linked to the purchase order that was settled against prepayment, reversal happens upon posting the invoice.
+1.  If the final invoice is linked to the purchase order that was settled against prepayment, reversal happens upon posting the invoice.
 14. If there was no purchase order, reversal happens upon manually settling the posted invoice and payment of prepayment. Navigate to “Settle transactions” on the Vendor account.
 15. Mark the transaction of prepayment and final invoice and select “Post”.
 16. The message about reversal appears.
