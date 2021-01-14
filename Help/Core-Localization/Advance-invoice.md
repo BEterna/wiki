@@ -4,7 +4,7 @@ Local tax authorities require VAT eligible companies that receive/give prepaymen
 
 This localized functionality allows for the sales or purchases advance invoice generation, processing and posting based on the posted received/given prepayments. Posting advance invoice post only the calculated VAT amount from the prepayment transactions to both - general ledger and VAT entry. When the final (original) invoice is posted, VAT from with the invoice settled advance invoice is automatically reversed and VAT of the final (original) invoice is posted. If only a partial amount of prepayment is applied, a proportional share of the Advance invoice will be reversed. Advance invoices can be either settled with sales or purchase documents or manually. VAT reversal occurs with the settlement.
 
-# Received advance invoices
+# Received prepayment invoices
 
 ## **Setup**
 ---
@@ -144,30 +144,30 @@ The process can be any from the above. The only difference is that VAT posted wi
 
 Check [Test Cases](Advance-Invoice-Test-scenario.zip).
  
-# Issued advance invoices
+# Issued prepayment invoices
 
 ## **Setup**
 ---
 
 ### Customer posting profiles
 
-1. Open Accounts receivable – Setup – Customer posting profiles.
+1. Open **Accounts receivable > Setup > Customer posting profiles**.
 2. To use the prepayment functionality, you need to set up a specific customer posting profile. Selecting the main account in the “Sales tax prepayments” field is mandatory if the option “Sales tax on prepayment in payment journal” in Accounts receivable parameters are marked. Otherwise, the received payment of prepayment cannot be posted.
  
-### Advance invoice journal
+### Prepayment invoice journal
 
-1. Open Accounts receivable – Payment setup – Prepayment journal names.
+1. Open **Accounts receivable > Payment setup > Prepayment journal names**.
 2. Create a new entry, enter a name, and select journal type “Customer’s prepayment”. Define voucher series for posting advance invoices, and select Amounts in the journal include sales tax (amounts, including VAT, are entered on the advance invoice).
  
 ### Accounts receivable parameters
 
-1. Open Accounts receivable – Setup – Accounts receivable parameters.
+1. Open **Accounts receivable > Setup > Accounts receivable parameters**.
 2. Adacta localization: Navigate to Adacta localization and enable prepayments functionality in the field “Use prepayments”. 
 3. Ledger and sales tax: Navigate to Ledger and sales tax section and select a posting profile to use for posting prepayments in payment journals. Select “Yes” in the field “Sales tax on prepayment journal voucher”. In this case, the posting profile should have the main account for “Sales tax prepayments” (see chapter 2.1.1).
  
 ### Ledger posting groups
 
-1. Open Tax – Setup – Sales tax – Ledger posting groups.
+1. Open **Tax > Setup > Sales tax > Ledger posting groups.**
 2. If sales tax from received prepayment should be posted on the separate main account, create a new Ledger posting group with a sales tax payable account and settlement account. 
 3. Select this ledger posting group in the localization field Ledger posting group for tax in prepayments. 
  
@@ -175,7 +175,7 @@ If no separate ledger posting group is specified, sales tax from received prepay
 
 ### Print management setup (Optional)
 
-Print management option is also enabled for Advance invoices. It is not mandatory to use Print management.
+Print management option is also enabled for prepayment invoices. It is not mandatory to use Print management.
 1. Open **Accounts receivable > Setup > Forms > Form setup > General > Print management > Documents > Prepayment invoice**
 2. Create new Default form with needed setup (different destination etc.).
 
