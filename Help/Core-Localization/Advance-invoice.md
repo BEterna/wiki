@@ -182,23 +182,17 @@ Print management option is also enabled for prepayment invoices. It is not manda
 ## **Generate Advance invoice from received prepayments** 
 ---
 
-1. Open Accounts receivable – Payments – Advance invoice.
-2. The advance invoice is a complete localization feature. It is generated through the advance journal. Create a new journal and select the journal name for the Customer’s prepayment. Click on “Lines” to enter the journal.
-3. To create a proposal of all transactions, posted as prepayment (posted with a checkmark in field Prepayment journal voucher), navigate to Functions – Create prepayment proposal. 
-4. Enter the date range for received prepayments (“From date”, “To date”) for which advance invoices will be generated. Optionally, enter the Posting date and VAT date that advance invoices will be generated with. Confirm the parameters.
-5. Advance invoices are created in the journal. If the received payment of prepayment was settled against sales order through Settle open transactions (see test case), the invoice line is generated automatically.
-
-If there is no sales order or the payment of prepayment was not linked to one, the line is not generated. There is an infolog: “Prepayment is not completely allocated to orders.”
- 
-6. In this case, manually add the line: 
+1. Open **Accounts payable > Payments > Prepayment invoice**.
+2. Create **New** journal and Click on **Lines** to enter the journal.
+3. Navigate to **Functions > create prepayment proposal**.   
+4. Enter **“From date”** and **“To date”** to filter out payment transactions marked as prepayment. Optionally, enter the **Posting date** and **VAT date** that Prepayment invoices will be generated with. Confirm the date parameters.<br>
+5. **Prepayment invoice header** is generated in the upper section of the journal. If the received payment of prepayment was settled against sales order through Settle open transactions (see test case), the invoice line is generated automatically.If there is no sales order or the payment of prepayment was not linked to one, the line is not generated. Infolog appears: “Prepayment is not completely allocated to orders.” In this case, manually add the line: 
    - If there is no sales order, add a line with Item type “Text” (quantity, amount, sales tax group – if it is defined on the customer – are automatically populated, add item sales tax group). 
    - If there is a sales order that has not been linked to received prepayment, select item type “item”, select sales order and order line – quantity, amount, and sales tax data will transfer automatically. 
-Upon saving the line, the Voucher amount/Line amount and Voucher VAT/Line VAT fields are calculated.
-7. Enter the VAT date for generated advance invoices.
-8. Check the sales tax that will be posted by each advance invoice by navigating to Inquiries – Sales tax. <br>
-Posting the journal posts only VAT. 
-9. Check voucher for an individual advance invoice by navigating to Inquiries – Voucher. The main account for credit transactions comes from the ledger posting group, whereas the main account for debit amount is from the customer posting profile (field “Sales tax prepayments”).
-10. Print Advance invoice (classic print or using Print management). Localized print is available.  
+6. Upon saving the line, the Voucher amount/Line amount and Voucher VAT/Line VAT fields are calculated.
+8. **Enter** Document date, VAT date, and advance invoice number.
+10. **Post** Prepayment journal. Posting the journal posts only VAT. 
+
 
 10. Check the Evidenca IR report with the date filter on the VAT date to see the VAT transaction.
 11. Upon posting the final invoice, advance invoice (and with it the posted VAT amount) is reversed. If the final invoice is linked to a sales order that was settled against received prepayment, reversal happens upon posting the invoice.
