@@ -194,15 +194,17 @@ Print management option is also enabled for prepayment invoices. It is not manda
 10. **Post** Prepayment journal. Posting the journal posts only VAT. 
 
 
-10. Check the Evidenca IR report with the date filter on the VAT date to see the VAT transaction.
-11. Upon posting the final invoice, advance invoice (and with it the posted VAT amount) is reversed. If the final invoice is linked to a sales order that was settled against received prepayment, reversal happens upon posting the invoice.
- 
-   - If there was no sales order, it is possible to settle received prepayment against free text invoice – if done before posting, reversal happens upon posting the FTI. 
- 
-   - If not, navigate to “Settle transactions” on the Customer account.
- 
-12. Mark the transaction of prepayment and FTI and select “Post”. The message about reversal appears.
-13. Check the Evidenca PR report to see the reversal of VAT that was posted with the advance invoice.
+##**View Prepayment invoice information**
+---
+To see the list of posted Prepayment invoices and their reversals based on generated final Invoices: 
+1. Go to **Accounts Receivable > Invoices > Prepayment invoice**
+2. **List** of all generated prepayment invoices will open
+3. To see **Voucher** select Prepayment invoice and go to Tab Prepayment invoice > Voucher
+4. To see **Posted sales tax** select Prepayment invoice and go to Tab Prepayment invoice > Posted sales tax
+5. To **reverse** Prepayment invoice (only in cases when Prepayment invoice needs to be reversed manually and it won't be settled with final Invoice) select Prepayment invoice and go to Tab Prepayment invoice > Reverse.
+6. To **Print** Prepayment invoice select Prepayment invoice and go to Tab Prepayment invoice > **Print journal** or Use **print management** Print journal is used when you just want to preview and print Prepayment invoice. In cases, when you need some additional rules eg. sent to emali, print to file, use separate print layout for separate customers etc. it is recommended to use print management option. 
+
+
 
 ### Reverse generated Prepayment invoice
 Prepayment invoice, generated based on received prepayment, can be also reversed. With Reverse function, new Prepayment invoice journal with negative amount is created, but it needs to be posted manually. After that prepayment is again available for issue of new Prepayment invoice.
@@ -215,6 +217,19 @@ To create Prepayment invoice reversal:
 1. Go to **Accounts receivable > Payments > Prepayment invoice**
 1. Go to journal that was generated in step 4 and click **Post**. Prepayment invoice is reversed and prepayment available for new Prepayment invoice. 
  
+
+##**Prepayment invoice and Final invoice**
+---
+When Final invoice is linked to prepayment, Prepayment invoice is automatically reversed. 
+
+1.  If the final invoice is linked to the sales order that was settled against prepayment, reversal happens upon posting the invoice.
+14. If there was no sales order, reversal happens upon manually settling the posted invoice and payment of prepayment. 
+    - Navigate to “Settle transactions” on the Customer account.
+    - Mark the transaction of prepayment and final invoice and select “Post”. The message about reversal appears.
+
+
+
+
 ## **Test cases**
 ---
 
