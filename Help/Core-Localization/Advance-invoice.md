@@ -189,7 +189,7 @@ Print management option is also enabled for prepayment invoices. It is not manda
 5. **Prepayment invoice header** is generated in the upper section of the journal. If the received payment of prepayment was settled against sales order through Settle open transactions (see test case), the invoice line is generated automatically.If there is no sales order or the payment of prepayment was not linked to one, the line is not generated. Infolog appears: “Prepayment is not completely allocated to orders.” In this case, manually add the line: 
    - If there is no sales order, add a line with Item type “Text” (quantity, amount, sales tax group – if it is defined on the customer – are automatically populated, add item sales tax group). 
    - If there is a sales order that has not been linked to received prepayment, select item type “item”, select sales order and order line – quantity, amount, and sales tax data will transfer automatically. 
-6. Upon saving the line, the Voucher amount/Line amount and Voucher VAT/Line VAT fields are calculated.
+6. Upon saving the line, the Voucher amount/Line amount and Voucher VAT/Line VAT fields are calculated. In cases where separate sales tax codes for the advance invoice is needed, it is necessary to change the item sales tax group after the line generation. **Sales tax** for individual prepayment invoice line can be checked before posting by navigating to **Inquiries > Sales tax**.
 8. **Enter** Document date, VAT date, and advance invoice number.
 10. **Post** Prepayment journal. Posting the journal posts only VAT. 
 
