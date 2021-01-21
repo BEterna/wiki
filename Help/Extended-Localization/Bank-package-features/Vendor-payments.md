@@ -127,7 +127,7 @@ _Note: (1) Standard validation is performed when Validate or Simulate posting fu
 3. Control for Payment ID on vendor invoice is additionally triggered upon document saving when the vendor bank account has country code for which validation is implemented (standard validation!). 
 4. Control in vendor payment journal is executed if “Validate payment ID” is enabled regardless of the vendor bank account. 
  
-A payment ID is entered manually in purchase documents or on vendor payment journal line before posting. As part of extended localization controls are added for models SI00, SI01, SI02, SI03, SI04, SI05, SI06, SI07, SI08, SI09, SI10, SI11, SI12, SI18, SI19, SI28, SI38, SI40, SI41, SI48, SI49, SI51, SI55, SI58, SI99, HR01, HR02, HR03, HR04, HR05, HR06, HR07, HR08, HR09, HR10, HR11. If the entered value is wrong, the system will generate a warning.<br>
+A payment ID is entered manually in purchase documents or on vendor payment journal line before posting. As part of extended localization **controls are added for models** SI00, SI01, SI02, SI03, SI04, SI05, SI06, SI07, SI08, SI09, SI10, SI11, SI12, SI18, SI19, SI28, SI38, SI40, SI41, SI48, SI49, SI51, SI55, SI58, SI99, HR01, HR02, HR03, HR04, HR05, HR06, HR07, HR08, HR09, HR10, HR11. If the entered value is wrong, the system will generate a warning.<br>
 For other (foreign) models standard validations are used.<br>
 
 Check **[Test Scenario](Vendor-Payments-Test-Scenario.zip)* for vendor payments.
