@@ -115,3 +115,11 @@ Scenario:
    - Generate Vendor invoice from Purchase order - Budget reservation from the Purchase order is released. Budget reservation in section Actual expenditures is generated. 
    - Generate Deferrals for specific Vendor invoice line - Post Invoice - Budget in Actual expenditures is released (negative line with original amount is generated) 
    - Post Deferrals (deferrals - Expense) - Budget reservation is generated in the Actual expenditures section in the correct period. 
+
+## **Reversal of Vendor invoice with deferrals** 
+---
+In cases when Vendor invoice has related deferrals, it can can be reversed only after the deferrals are also reversed. 
+
+1. Go to **Accounts payable > All Vendors (and select specific Vendor) > Transactions (select Vendor invoice that needs to be reversed) > Reverse**. When user wants to reverse Vendor invoice with deferrals, error message appears. Invoice can not be reversed, until related deferrals are reversed.
+1. Go to Deferrals list **Accounts payable > Inquiries and reports > Deferrals > Deferrals** and select specific deferral. Reverse **Deferral lines** first (if they are posted) and then reverse **Deferral header**. Deferral header can be reversed only if related deferral lines are reversed. If posted deferral lines exist, error will appear. 
+1. Go to Vendor invoice that needs to be reversed and reverse it with reverse function. 
