@@ -28,6 +28,9 @@ Enables users to review transactions, which have been compressed by parameters (
 ### **Weight change on product receipt**
 Information about weight can be manually changed on product receipt line. 
 
+### **Weight validation moved from Item to Product receipt**
+Standard validation (weight on Item) is removed and enabled only validation of weight on product receipt. If weight is missing on Item and entered on product receipt, document can be posted.   
+
 ### **Statistical adjustment value according to delivery terms** 
 With additional setup on Delivery terms, statistical value adjustment can be calculated. Different setup can be applied to each delivery term. 
 
