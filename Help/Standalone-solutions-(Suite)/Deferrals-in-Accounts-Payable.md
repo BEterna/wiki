@@ -121,5 +121,11 @@ Scenario:
 In cases when Vendor invoice has related deferrals, it can can be reversed only after the deferrals are also reversed. 
 
 1. Go to **Accounts payable > All Vendors (and select specific Vendor) > Transactions (select Vendor invoice that needs to be reversed) > Reverse**. When user wants to reverse Vendor invoice with deferrals, error message appears. Invoice can not be reversed, until related deferrals are reversed.
-1. Go to Deferrals list **Accounts payable > Inquiries and reports > Deferrals > Deferrals** and select specific deferral. Reverse **Deferral lines** first (if they are posted) and then reverse **Deferral header**. Deferral header can be reversed only if related deferral lines are reversed. If posted deferral lines exist, error will appear. 
+1. Go to Deferrals list **Accounts payable > Inquiries and reports > Deferrals > Deferrals** and select specific deferral. Reverse **Deferral lines** first (if they are posted) and then reverse **Deferral header**. Deferral header can be reversed only if related deferral lines are reversed. If posted deferral lines exist, error will appear. In case when Deferral header is reversed, Post button on Deferral lines is disabled. 
 1. Go to Vendor invoice that needs to be reversed and reverse it with reverse function. 
+
+Information about **deferral voucher** is added to following Deferral list pages:
+-  Deferrals
+- Unposted Deferrals
+- Posted deferrals
+- Deferral lines (vidible only when filter is set to All).
