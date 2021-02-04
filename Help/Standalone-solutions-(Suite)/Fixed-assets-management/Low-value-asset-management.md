@@ -148,8 +148,10 @@ Responsible worker: mandatory field; select worker for which to perform return/w
 |**Journal**  |Defaults from journal number  |
 |**Return date**  |Defaults to session date. Change if needed.  |
 |**Records to include**  |Specify additional parameters  |
+|**Write-off**  |Select Yes or No to indicate the default value for write-off (if set to No, Low value asset location needs to be specified)  |
+|**Low value asset location (Location ID)**  |Specify value if Write off is set to No.  |
 
-2. After confirmation, **journal lines are created** according to selected parameters. Depending on journal’s default write-off setup (see more in Journal names chapter), the value in field is set either to Yes or No; if set to No, Low value asset location needs to be specified for each journal line. 
+2. After confirmation, **journal lines are created** according to selected parameters.  
 
 
 ## **Low value asset assignments overview**
