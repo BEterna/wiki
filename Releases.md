@@ -19,4 +19,4 @@ Here is the list of latest releases including release notes.
 |Public holidays  |AdSuitePublHol_10.0_2020.11.11.1 |11.11.2020|  |
 |Procurement enhancements  |AdSuiteProcEnh_10.0_2020.12.01.1  |1.12.2020  |  |
 |Public Procurement  |AdSuitePublProc_10.0_2021.01.06.1  | 6.1.2021 |  |
-|GDPR |AdSuiteGDPR_10.0_2020.11.11.1 |11.11.2020 |  |
+|GDPR |AdSuiteGDPR_10.0_2021.01.11.1 |11.1.2021 |  |
