@@ -23,7 +23,7 @@ Following features are available:
    - Per diem rate tiers: Include percent setup
    - Per diem transaction date on last day
 
-
+1. Per Diem enhancements
 
 1. Signatories on localized report printouts
 1. Mass delegation
