@@ -3,3 +3,4 @@ Advanced banking package includes enhancements that help users with processing b
 - Additional bank statement import formats
 - Debit credit notifications import (online notifications)
 - Additional bank statement processing journal with additional processing rules
+- Realized Cash flow report

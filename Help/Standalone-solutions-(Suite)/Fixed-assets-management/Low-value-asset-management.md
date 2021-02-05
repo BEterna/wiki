@@ -26,6 +26,8 @@ Selection in field **New voucher** by has been **expanded** to include additiona
 
 If the journal is of Low value asset – Return type, **additional tab Low value asset** is displayed, where it is possible to set up the **default value for Write-off** (Yes or No). This value is defaulted to Low value asset – Return journal line. If value is set to **Yes**, Low value asset write-off transaction will be generated at the moment of posting transaction with this journal. If value is set to **No** write-of transaction will not be generated. 
 
+After the journal names are created, navigate to **Inventory and warehouse management parameters > Journals tab**, to select default journal names for each low value asset journal type.
+
 ### **Low value asset locations**
 
 1. Go to Inventory management > Setup > Low value assets > Low value asset locations
@@ -146,8 +148,10 @@ Responsible worker: mandatory field; select worker for which to perform return/w
 |**Journal**  |Defaults from journal number  |
 |**Return date**  |Defaults to session date. Change if needed.  |
 |**Records to include**  |Specify additional parameters  |
+|**Write-off**  |Select Yes or No to indicate the default value for write-off (if set to No, Low value asset location needs to be specified)  |
+|**Low value asset location (Location ID)**  |Specify value if Write off is set to No.  |
 
-2. After confirmation, **journal lines are created** according to selected parameters. Depending on journal’s default write-off setup (see more in Journal names chapter), the value in field is set either to Yes or No; if set to No, Low value asset location needs to be specified for each journal line. 
+2. After confirmation, **journal lines are created** according to selected parameters.  
 
 
 ## **Low value asset assignments overview**

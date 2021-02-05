@@ -6,6 +6,7 @@ The localized feature enables Slovenian legal entities to export General ledger 
 
 ## Export General Ledger to file
 
-1. Open General Ledger - Slovenian reporting - Export General Ledger to file.
-2. General Ledger transactions can be exported to file for auditing purposes.
-3. As a result, CSV file is created. 
+1. Open **General Ledger > Slovenian reporting > Export General Ledger to file**.
+2. General Ledger transactions can be **exported to file** for auditing purposes.
+3. As a result, **CSV file** is created 
+

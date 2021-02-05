@@ -23,8 +23,9 @@ Following features are available:
    - Per diem rate tiers: Include percent setup
    - Per diem transaction date on last day
 
-
-
+1. PerDiem enhancements
+    - Per diem rate tiers: Include percent setup
+    - Per diem transaction date on last day
 1. Signatories on localized report printouts
 1. Mass delegation
 1. Delegates for cash advances
