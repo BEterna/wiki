@@ -17,13 +17,16 @@ Step 3: Import Microsoft configurations from **Operations resources repository**
 |Ledger accounting reports  | 1 |
 |Payment model  | 1 |
 
-Step 3: Import Adacta configurations from **Adacta repository**. There are separate repositories available for each package. Import  repositories for the packages you are using. Go to  **Workspaces > Electronic reporting > Configuration providers > Adacta > Repositories** > pick repository according to installed packages. Available repositories: 
+Step 3: Import Adacta configurations from **Adacta repository**. There are separate repositories available for each package. Import  repositories for the packages you are using. 
+1. Go to  **Workspaces > Electronic reporting > Configuration providers > Adacta > Repositories** > pick repository according to install packages. Available repositories: 
 
 - Adacta localization
 - Adacta localization (Bank)
 - Adacta localization (Fiscalization)
 - Adacta Suite (Dunning)
 
+1. Cklick **Open**
+1.Choose option **Import all** to import all configurations for selected repository or Select specific configuration and click **Impor**t under Versions option in cases when specific configuration needs to be refreshed.  
 
 
 
