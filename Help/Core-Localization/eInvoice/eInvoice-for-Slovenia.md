@@ -6,6 +6,10 @@ This topic provides country/region-specific information about how to set up, cre
 - Project invoice / Credit note
 - Advance invoice / Credit note (only for SI)
 
+Supported providers: 
+- SI: UJP, Halcom, ZZI
+- CRO:  
+
 ## **Setup**
 ---
 
