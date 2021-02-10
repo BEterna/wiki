@@ -1,9 +1,15 @@
 # eInvoices for Slovenia
 
+This topic provides country/region-specific information about how to set up, create and export eInvoices in order to comply with Slovenian legislation. eInovices can be generated for folowing docuemnt types: 
+- Free text invoice / Credit note
+- Sales invoice / Credit note
+- Project invoice / Credit note
+- Advance invoice / Credit note
+
 ## **Setup**
 ---
 
-This topic provides country/region-specific information about how to set up, create and export eInvoices in order to comply with Slovenian legislation.
+
 
 ### Export format configuration
 
@@ -29,7 +35,7 @@ This topic provides country/region-specific information about how to set up, cre
   
   
    
-3. Go to **Profile** section, create Profile ID and choose adequate Electronic reporting configurations for Sales and Free text invoice, Sales and Free text credit note and Project invoice.
+3. Go to **Profile** section, create Profile ID and choose adequate Electronic reporting configurations for Sales and Free text invoice, Sales and Free text credit note, Project invoice, Project credit note, Advance invoice and Advance invoice Credit note.
 
 4. Go to **Number sequences** section and define number sequence code for eInvoice unique file name. 
  
