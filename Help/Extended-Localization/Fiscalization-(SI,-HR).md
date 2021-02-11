@@ -59,7 +59,7 @@ If the tax identification number is not defined on Worker, the error is thrown u
 ## **Fiscalization documents**
 ---
 
-1. Open General ledger – Inquiries and reports – Fiscalization – Fiscalization documents.
+1. Open **General ledger > Inquiries and reports > Fiscalization > Fiscalization documents**.
 2. Overview of all transactions with fiscal number contains all the data that are sent to tax authority. 
 3. Using the button “Open document” in section Fiscalization, source document data is displayed for the selected transactions. 
 
