@@ -9,38 +9,48 @@ The feature is part of the LOC_FISCALIZATION extended localization package.
 ## **Setup**
 ---
 
-### Legal entity setup
+### **Legal entity setup**
 1. Open **Organization administration > Organizations > Legal entities**
 2. Navigate to tab **General**:
 3. Go to **Time zone**: Select your current time zone. This time zone will be used as time when fiscal document is sent to tax authority and also as time when fiscal document is created (for Croatia and Slovenia select appropriate GMT+1 time zone).
 
 
 
-### General ledger parameters
+### **General ledger parameters**
 
-1. Open General ledger – Ledger setup – General ledger parameters.
+1. Open **General ledger > Ledger setup > General ledger parameters**.
 2. Navigate to Adacta localization, tab Fiscalization:
-   - Fiscalization: enable functionality to use fiscalization of outbound documents
-   - Separator: define delimiter that identifies the distinction between different sets of fiscal numbers; allowed characters are \ / * - _|. : ; 
-   - Fiscalization document: enable documents that need to use fiscalization numbering (note: standard numbering is replaced with fiscal numbering; voucher numbering remains standard!)
+   - **Fiscalization**: enable functionality to use fiscalization of outbound documents
+   - **Separator**: define delimiter that identifies the distinction between different sets of fiscal numbers; allowed characters are \ / * - _|. : ; 
+   - **Fiscalization document**: enable documents that need to use fiscalization numbering (note: standard numbering is replaced with fiscal numbering; voucher numbering remains standard!)
+   - **Fiscalization job**: Fiscalization job setup is used used to setup Batch processing and recurrence to send fiscalization documents to the fiscalization service. Set recurrence for batch processing. _Note: The same fiscalization process will be triggered with print of fiscalization documents to ensure that fiscalization process is triggered before printing_
  
-### Fiscalization – locations
+### **Fiscalization – locations**
 
-1. Open General ledger – Fiscalization – Locations.
+1. Open **General ledger > Fiscalization > Locations**.
 2. An integral part of the fiscal number is the company’s location. Create a new entry and identify the location.
- 
-### Fiscalization – terminals
+3. **Enable Fiscalization** for those **locations** for which fiscalization number sequence should be used.
+4. **Enable Tax authority fiscalization** for those locations eligible for full fiscalization (document needs to receive JIR/EOR and ZKI/ZOI).
 
-1. Open General ledger – Fiscalization – Terminals.
-2. Create a new terminal and select an adequate location.
  
-### Fiscalization number sequence setup
+### **Fiscalization – terminals**
 
-1. Open General ledger – Fiscalization – Fiscalization number sequence setup.
+1. Open **General ledger > Fiscalization > Terminals**.
+2. **Create a new terminal** and select an adequate location.
+3. **Add workers** which will create invoices for defined terminal and location
+
+### **Fiscalization methods of payment**
+1.	Open **General ledger > Fiscalization > Fiscalization methods of payment** > Create new fiscalization method of payment and enter adequate Code
+2.	Open **Accounts receivable > Payments setup > Methods of payment** > Navigate to Method of payment, tab Fiscalization > Choose needed Method of payment defined for fiscalization
+
+ 
+### **Fiscalization number sequence setup**
+
+1. Open **General ledger > Fiscalization > Fiscalization number sequence setup**.
 2. The third part of the fiscal number is invoice number which is determined by fiscalization number sequence. 
 3. Create a new entry, specify effectively and expiration dates, and define Location and Terminal. Create a number sequence code to select in the Fiscalization sequence field. Be careful to select Continuous numbering.
  
-### Worker’s tax identification number
+### **Worker’s tax identification number**
 
 The worker who creates outbound documents should have a valid tax identification number defined.
  
