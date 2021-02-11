@@ -5,11 +5,11 @@ The purpose of this feature is to enable the Invoice export in the prescribed el
 ## **Setup**
 ---
 
-### Export format configuration
+### **Export format configuration**
 
 Configuration for export of invoices according to the UBL 2.1 standard is available. In the case of standard changes, the configuration needs to be adjusted. 
 
-1. Open Workspaces – Electronic reporting – Reporting configurations.
+1. Open **Workspaces > Electronic reporting > Reporting configurations**.
 2. Choose Exchange -> Load XML file on any configuration. Based on file content it will automatically upload to correct configuration.
 3. Before upload, check the latest version of these files with the developer. 
 Click “Browse” and choose the configuration files (be sure to upload the “Customer invoice model AdLoc“ first because the following ones are dependent on it). After the file has loaded, click OK to upload it to configuration.
@@ -19,13 +19,15 @@ Click “Browse” and choose the configuration files (be sure to upload the “
    - Sales Credit Note HR,
    - Sales invoice HR.
   
-### Electronic invoice parameters
+### **Electronic invoice parameters**
 
-1. Open Accounts receivable – Setup – Croatia – E-Invoices – Electronic invoice parameters.
+1. Open **Accounts receivable > Setup > Croatia > E-Invoices > Electronic invoice parameters**.
 2. General eInvoice parameters are set up under tab “General”, such as:
-   - Automatic sending of eInvoices: enable to automatically download eInvoice after XML is created
-   - Download eInvoice as archive: with this function ZIP file will be generated with eInvoice files (invoice and customized visualization). Important: visualization of the document is not part of this localized feature and needs to be implemented during project implementation).
-   - Signature options (Not yet supported for Croatian localization)
+   - **Automatic sending of eInvoices**: enable to automatically download eInvoice after XML is created
+   - **Default unit of measure**: Default unit of measure for eInvoice if value is empty on source entity 
+   - **Download eInvoice as archive**: with this function ZIP file will be generated with eInvoice files (invoice and customized visualization). Important: visualization of the document is not part of this localized feature and needs to be implemented during project implementation).
+   - **Memorandum information**
+   - **Signature options** (Not yet supported for Croatian localization)
 3. In the “Profile” section create Profile ID and choose adequate Electronic reporting configurations:
    - for Sales and Free text invoices: “Sales Invoice HR”,
    - for Sales and Free text credit notes: “Sales Credit Note HR”,
