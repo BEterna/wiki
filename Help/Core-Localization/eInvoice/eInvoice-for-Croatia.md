@@ -73,18 +73,18 @@ Not yet supported for Croatian localization.
 
 ### Electronic customer invoices
 
-1. Open Accounts receivable – Invoices – E-Invoices – Electronic customer invoices.
+1. Open **Accounts receivable > Invoices > E-Invoices > Electronic customer invoices**.
 2. Posting sales or free text invoices for customers with Profile ID automatically generates eInvoice. 
 3. Created eInvoice can be found in customer eInvoices registry with status “New”. 
-4. Create an XML function that creates the XML version of the invoice. No validation of the information from the customer/invoice is currently supported in terms of Croatian localization.
+4. **Create an XML** function that creates the XML version of the invoice. No validation of the information from the customer/invoice is currently supported in terms of Croatian localization.
 The XML file is created and stored in the field “Outgoing XML” in the Details tab. Here, more information about eInvoice is displayed, including a unique file name, details about the user and created date.
-5. Status is changed to “Created”. eInvoice unique file name is generated as defined in the number sequence.
-6. After XML has been created, the button “Send” is enabled. By clicking the button, eInvoice status changes to “Sent”. An XML version of the eInvoice is downloaded at the same time.
-7. Multiple selections are also enabled for actions. Mark the eInvoices with a checkmark and select appropriate action (Create XML, Send).
+5. Status is changed to “**Created**”. eInvoice unique file name is generated as defined in the number sequence.
+6. After XML has been created, the button “**Send**” is enabled. By clicking the button, eInvoice status changes to “Sent”. An XML version of the eInvoice is downloaded at the same time.
+7. **Multiple selections** are also enabled for actions. Mark the eInvoices with a checkmark and select appropriate action (Create XML, Send).
  
 Manually changing status to higher status is not allowed.
  
-The following functions are available:
+**The following functions are available**:
    - “Export” - XML version of eInvoice is exported (eInvoice status remains unchanged) and
    - “Send” (if function “Download eInvoice as an archive in Electronic invoice parameters is enabled), a ZIP file containing the XML version of the eInvoice is downloaded. eInvoice status changes to “Sent”.
  
@@ -92,17 +92,17 @@ Export of eInvoice before the creation of XML (e.g. status “New” or “Not r
  
 
  
-### Electronic project invoices
+### **Electronic project invoices**
 
-1. Open Accounts receivable – Invoices – E-Invoices – Electronic project invoices.
+1. Open **Accounts receivable > Invoices > E-Invoices > Electronic project invoices**.
 2. Posting invoice proposal for customers with Profile ID automatically generates eInvoice.
 3. Created eInvoice can be found in the project eInvoices registry with status “New”. 
 
 Project eInvoices are subject to the same procedures and actions as FTIs or Sales invoices.
 
-### Subsequent creation of eInvoices
+### **Subsequent creation of eInvoices**
 
-1. Open Accounts receivable – Invoices – E-Invoices – Electronic customer/project invoices  button “Select”.
+1. Open **Accounts receivable > Invoices > E-Invoices > Electronic customer/project invoices** > button “Select”.
 2. EInvoices can be subsequently generated according to selected filters for already posted invoices or invoices deleted from eInvoice registry for the customer with adequate Profile ID. Navigate to button “Select” and define Criteria for the subsequent creation of eInvoices. 
 3. After confirming, subsequent eInvoices are created with status “Not ready”.
  
