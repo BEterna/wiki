@@ -33,6 +33,7 @@ Click “Browse” and choose the configuration files (be sure to upload the “
    - for Sales and Free text credit notes: “Sales Credit Note HR”,
    - for Project invoices: “Project Invoice HR”,
    - For Project credit note: “Project Credit Note HR”. 
+4.  In the „**Number sequence**“ section set number sequence which will be used for eInvoice export
 
 For B2G purposes (UBL 2.1) one provider configuration is needed. In case of supporting additional standards, new providers would be added and configured. 
  
@@ -42,14 +43,30 @@ It is necessary to define eInvoice unique file name in the “Number sequences�
 
 Not yet supported for Croatian localization.
 
-### Customer setup
+### **Customer setup**
 
-1. Open Accounts receivable – Customers – All Customers.
-2. Define “Profile ID” from eInvoice parameters in tab Invoice and delivery on the customer.
-3. Enter Tax registration number (OIB) - Information is needed when eInvoice is generated.
-   - on Invoice and delivery tab > field Tax registration number (OIB) or
-   - on Registration ID's > OIB. Information is needed when eInvoice is generated. 
-Note: priorities described in [Additional identification numbers](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Additional-identification-numbers)
+1. Open **Accounts receivable > Customers > All Customers**.
+2. Define “**Profile ID**” from eInvoice parameters in tab Invoice and delivery on the customer.
+3. Enter **OIB** for the customer - Information is needed when eInvoice is generated.
+   - on Invoice and delivery tab > field OIB or
+   - on Registration ID's > OIB. Information is needed when eInvoice is generated.<br>  _Note: priorities described in [Additional identification numbers](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Additional-identification-numbers)_
+4. Define **primary contact** for the customer:
+   - Add new contact for the customer and define primary email address which will be used for eInvoices
+   - On Sales demographics tab choose defined contact for the customer
+
+### **Legal entity setup**
+1.	Open **Organization administration > Organizations > Legal entities**.
+2.	Under tab Addresses, the primary address for the legal entity needs to be entered
+3.	Under tab Contact information, the primary email address needs to be entered
+4.	Under tab Tax registration, field Tax registration number needs to be populated with OIB
+
+### **Unit of measure setup**
+1.	Open **Organization administration > Setup > Units > Units**.
+2.	Select unit of measure and open External codes
+3.	Under tab Overview, enter code eRacun and enable option Standard code
+4.	Under tab Value, enter code used for eInvoices for the selected unit of measure (aligned with UN/ECE Recommendation 20)
+
+
 
 ## **eInvoice registry**
 ---
