@@ -1,4 +1,9 @@
-Import Vendor invoices
+With this functuionallity users can import Vendor invoice lines for specific Vendors. Currently import of invoices for following Vendors is supported: 
+- Petrol
+- OMV
+- Elektro Energija
+- Telekom
+- A1
 
 ##**Setup**
 ---
