@@ -5,13 +5,19 @@ PDV report is a Croatian sales tax return report. Every taxable person identifie
 ## **Setup**
 ----
 
-### Legal Entity Tax reporting number 
+### Legal Entity - Tax reporting number 
 Go to Organization administration > Legal entities > open specific Legal entity > Tag reporting tab. 
 **Enter OIB** in Tax registration number field. **Important**: Do not enter VAT ID in this field since all reports use this field as OIB.
 
-###Sales tax authorities
+### Legal Entity - Address
+Go to Organization administration > Legal entities > open specific Legal entity > Address. Enter Legal entity address. Information is used for reporting purposes. 
 
-To generate a VAT declaration in the correct format for the appropriate tax authority, you must set up the report layout for the sales tax authorities. On the **Sales tax authorities** page, in the **Report layout** field, select **Croatian report layout**. Select the same sales tax authority for the sales tax settlement period that will be used in the sales tax codes. 
+###Sales tax authorities - report layout
+
+To generate a VAT declaration in the correct format for the appropriate tax authority, you must set up the **report layout** for the sales tax authorities. On the **Sales tax authorities** page, in the **Report layout** field, select **Croatian report layout**. Select the same sales tax authority for the sales tax settlement period that will be used in the sales tax codes. 
+
+###Sales tax authorities - responsible person
+When generating XML, it is mandatory to report **responsible person** for the preparation of report. Setup exists on Tax authorities form. Currently fields Responsible person first name and Responsible person last name need to be added to the form using personalization. 
 
 ####Sales tax reporting codes
 
