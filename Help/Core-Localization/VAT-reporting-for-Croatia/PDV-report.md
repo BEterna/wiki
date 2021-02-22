@@ -5,9 +5,12 @@ PDV report is a Croatian sales tax return report. Every taxable person identifie
 ## **Setup**
 ----
 
-### Legal Entity Tax reporting number 
+### Legal Entity - Tax reporting number 
 Go to Organization administration > Legal entities > open specific Legal entity > Tag reporting tab. 
 **Enter OIB** in Tax registration number field. **Important**: Do not enter VAT ID in this field since all reports use this field as OIB.
+
+### Legal Entity - Address
+Go to Organization administration > Legal entities > open specific Legal entity > Address. Enter Legal entity address. Information is used for reporting purposes. 
 
 ###Sales tax authorities - report layout
 
