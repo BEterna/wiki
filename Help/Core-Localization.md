@@ -2,8 +2,8 @@
 
 
 
-List of features, included in Localization package: 
-Npte: Features for  countries marked with * are updated only if customer informes us about legislation changes.
+List of features, included in Localization package: <br>
+_Note: Features for countries marked with * are updated only if customer informs us about legislation changes. Changes are implemented in accordance with applicable general terms and conditions._
 
 
 | **Feature** | **SI** |**CRO**  | **RS** | **BIH*** | **Description** |
