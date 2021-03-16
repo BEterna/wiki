@@ -30,7 +30,10 @@ Note: Localized printouts become available only if option is checked in **Expens
 
 ### **Generate Expense report from Travel requisition**
 
-It is possible to generate Expense report directly form approved Travel requisition. Function "Create expense report is added to Travel requisition list page. If approval status is different from Approved or Reconciliation status is set to Closed, function is disabled. 
+It is possible to generate Expense report directly form approved Travel requisition. Function "Create expense report is added to Travel requisition list page and Travel requisition page. If approval status is different from Approved or Reconciliation status is set to Closed, function is disabled. 
+
+### **Link to related Expense report**
+Link to related Expense report is added to Travel requisitions list page (**Expense reports > My expenses > Travel requisition >** Column Expense report number)
 
 ### **Close requisition when mapping to expense report**
 It is possible to automatically force closing of travel requisition after it is mapped to Expense report, even though there is an unreconciled amount left on the travel requisition. With parameter in **Expense management parameters > Adacta (expense) > Close requisition when mapping to expense report** set to Yes, travel requisition will be closed when it is mapped with expense report. If mapping is removed, status will be reversed back to Open (if reconciled amount exists). If parameter is set to No, status of the travel requisition will be left Open, but only in cases when reconciled amount exists. If reconciled amount equals 0, status will be set to Closed (standard functionality). 
