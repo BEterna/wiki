@@ -154,7 +154,7 @@ In cases when the same notification is received multiple times, it can be marked
  
 #### Transfer
 
-Use the Transfer function to transfer processed and confirmed (if confirmation is required) bank statement/notification lines to the general journal for posting. 
+Use the Transfer function to transfer **processed** and **confirmed** (if confirmation is required) bank statement/notification lines to the general journal for posting. If confirmation is needed, lines can be confirmed by marking the line in "Confirmation" column. **Multiple lines** can be marked and **confirmed** at the same time by using option **Functions > Mark selected as confirmed**. 
 
 _NOTE: if bank statement/notification line is matched with already reconciled bank statement/notification line, no general journal entries are generated._ 
 
