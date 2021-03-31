@@ -152,9 +152,10 @@ Bank statement (debit credit notification) lines can also be settled with alread
 In cases when the same notification is received multiple times, it can be marked each time. Marking is done manually.  
 
  
-#### Transfer
+## **Transfer processed Bank statement to General ledger (Post bank statement)**
+---
 
-Use the Transfer function to transfer processed and confirmed (if confirmation is required) bank statement/notification lines to the general journal for posting. 
+Use the Transfer function to transfer **processed** and **confirmed** (if confirmation is required) bank statement/notification lines to the general journal for posting. If confirmation is needed, lines can be confirmed by marking the line in "Confirmation" column. **Multiple lines** can be marked and **confirmed** at the same time by using option **Functions > Mark selected as confirmed**. 
 
 _NOTE: if bank statement/notification line is matched with already reconciled bank statement/notification line, no general journal entries are generated._ 
 
@@ -186,3 +187,13 @@ For matched open customer/vendor transactions, payment entries are generated in 
 4. In case of the matched customer/vendor **bridged transaction**, same processing as if using standard General journal function “Select bridged transactions” is applied when transferring matching statement/notification lines to general journal.  If upon the transfer a statement/notification line has already been marked for settlement (in another bank statement processing journal), posted, or is no longer existent, transfer results in an error. Transfer also results in an error if the amounts of matched transactions are not equal. Upon the transfer, transaction date of matched bridged transaction is updated with the matched bank statement/notification line date (field “Booking date”). Exchange rate is also updated according to the same booking date from matching statement/notification line. Additionally, bank statement/notification ID and bank statement/notification line transaction description (field “Description”) are transferred to the “Document” and the “Note” fields in the newly created general journal line.
 5. If bank statement line is matched with already **reconciled bank notification line**, no general journal entries are created. Upon transfer, matched debit credit notification line in marked as “Reconciled”.
 If bank debit credit notification is matched with already reconciled bank statement line, no general journal entries are created. Upon transfer, matched debit credit notification line in marked as “Reconciled with bank statement”.
+
+
+## **Bank statements/Notifications lines overview**
+---
+Sometimes user needs to search for past successful matches in old Bank statements/Notifications. For such purposes additional overview is added. 
+
+1. Go to **Cash and bank management > Bank statement reconciliation > Bank transactions matching overview** 
+2. Select **filters** if needed. Additional filtering parameters can be added.
+3. Transactions **overview opens**. All bank statement/Notification lines that meet applied conditions (filters) are displayed regardless of Bank statement/Notification. If original line was matched,  matching result is displayed in bottom half of the form. 
+4. In case that user wants to **access original processing journal**, function Processing journal can be used. It is found in upper left corner of the form. Whit this function original processing journal opens. 
