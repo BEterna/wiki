@@ -77,6 +77,15 @@ Payment section of the Adacta localization tab on sales tax codes enables entry 
  
 If the cost of contract work is posted via the vendor invoice, the ledger account setup is done under “Purchase expenditure for expense” transaction type. In case product receipts are used, posting setup also needs to be done in the “Purchase expenditure, un-invoiced” section.
 
+### Vendor Tax identification number
+Tax identification number is needed when ODO-1 report is generated. If the number is missing, error message will appear. To enter Tax identification number: 
+1. Go to **Accounts payable > Vendors > All Vendors** and select specific vendor
+2. Go to **Registration** section and select **Registration ID's** option.
+3. When Registration ID's form opens, go to **Registration ID tab** and enter **Tax registration ID**. Make sure that appropriate registration type is available.
+
+_Note: Field Tax registration number exists on Vendor account, but it can be used only for Slovenian Vendors/Persons, since it is validated against Slovenian rules for Tax registration number structure. In case of foreign Tax registration number validation will fail. This is why Registration ID's option is applicable in these cases._   
+ 
+
 ### Vendor certifications
 
 1. Certificates regarding reliefs or international conventions are entered on **Vendor card > button Certifications**. 
