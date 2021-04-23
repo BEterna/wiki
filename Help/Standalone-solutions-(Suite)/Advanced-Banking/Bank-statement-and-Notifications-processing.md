@@ -2,7 +2,7 @@
 
 The solution enables enhanced advanced bank reconciliation. Based on the transactions from the bank statement, processing can be performed (either manually or based on the pre-set processing rules). In contrast to standard D365O reconciliation, this feature enables automatic matching of imported transactions from bank statements with Open customer transactions (inflows) and not yet posted Vendor payment journals (outflows). After matching, transactions can be posted directly from the bank reconciliation processing journal. 
 
-This solution is part of the AdactaSuiteBankStatements AdSuite D365O package.
+This solution is part of the BE-ternaSuiteBankStatements AdSuite D365O package.
 
 ## **Setup**
 ---
