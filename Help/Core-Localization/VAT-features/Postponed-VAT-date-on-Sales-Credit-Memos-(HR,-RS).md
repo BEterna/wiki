@@ -5,7 +5,7 @@ Localization functionality allows posting Sales credit memos without VAT date in
 ## **Setup**
 ---
 
-Additional setup is added to General ledger parameters (General ledger > Setup > General ledger parameters > Adacta localization), which enables posting sales credit memo without VAT date:
+Additional setup is added to General ledger parameters (General ledger > Setup > General ledger parameters > BE-terna localization), which enables posting sales credit memo without VAT date:
 
 |Setup|Value|
 |---|---|
