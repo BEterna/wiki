@@ -19,7 +19,7 @@ The feature is part of the LOC_FISCALIZATION extended localization package.
 ### **General ledger parameters**
 
 1. Open **General ledger > Ledger setup > General ledger parameters**.
-2. Navigate to Adacta localization, tab Fiscalization:
+2. Navigate to BE-terna localization, tab Fiscalization:
    - **Fiscalization**: enable functionality to use fiscalization of outbound documents
    - **Separator**: define delimiter that identifies the distinction between different sets of fiscal numbers; allowed characters are \ / * - _|. : ; 
    - **Fiscalization document**: enable documents that need to use fiscalization numbering (note: standard numbering is replaced with fiscal numbering; voucher numbering remains standard!)
