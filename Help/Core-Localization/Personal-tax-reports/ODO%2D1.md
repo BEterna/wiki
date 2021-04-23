@@ -7,7 +7,7 @@ ODO-1 report needs to be generated in case of payment to non-residents.
 
 ### General ledger parameters
 
-1. Open **General ledger > Ledger setup > General ledger parameters > Adacta localization**.
+1. Open **General ledger > Ledger setup > General ledger parameters > BE-terna localization**.
 2. Select **ODO1 report** configuration in ODO 1 electronic reporting format field. 
  
  
@@ -57,7 +57,7 @@ When entering the value for income tax it is important to enter also potential *
 
 #####	Payment setup
 
-Payment section of the Adacta localization tab on sales tax codes enables entry of **payment data**, such as Vendor account (Slovenian tax authority FURS, in our case), Bank account to which the payment of personal tax will be executed, Payment ID, and Central bank purpose code. Entered data are transferred to the **vendor journal payment** line using the Payment proposal.
+Payment section of the BE-terna localization tab on sales tax codes enables entry of **payment data**, such as Vendor account (Slovenian tax authority FURS, in our case), Bank account to which the payment of personal tax will be executed, Payment ID, and Central bank purpose code. Entered data are transferred to the **vendor journal payment** line using the Payment proposal.
  
 ### Sales tax groups
 
