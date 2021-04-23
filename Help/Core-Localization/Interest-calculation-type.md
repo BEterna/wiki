@@ -9,7 +9,7 @@ interest rate = amount * (annual interest rate / number of days in a calendar ye
 ## **Interest calculation formula**
 ---
 
-As Adacta localization feature new interest calculation type “Day (Actual year)” is added, which also includes leap years.  
+As BE-terna localization feature new interest calculation type “Day (Actual year)” is added, which also includes leap years.  
  
 The interest calculation formula for this period:
 
