@@ -26,7 +26,7 @@ Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**. - Depricated!
 
 #### Expense management parameters
 
-1. Open Expense management > Setup > General > Expense management parameters > Adacta (expense).
+1. Open Expense management > Setup > General > Expense management parameters > BE-terna (expense).
 2. Per diem transaction date can be set up on the last per diem day by enabling the feature in Expense management parameters. 
  
 #### Transaction date on an expense report
