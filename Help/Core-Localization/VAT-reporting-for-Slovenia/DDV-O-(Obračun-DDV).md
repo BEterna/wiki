@@ -26,16 +26,16 @@ The generation of reports is based on reporting codes. Reporting code carries in
 
 ####Configure Electronic reporting 
 
-First make sure, that Adacta localization ER configurations are imported. In case they are missing, you will need to import them first. Instructions are available on [**this link**](/How-to/Import-Adacta-ER-configurations). 
+First make sure, that BE-terna localization ER configurations are imported. In case they are missing, you will need to import them first. Instructions are available on [**this link**](/How-to/Import-Adacta-ER-configurations). 
 
-Open **Electronic reporting formats setup in General ledger > General ledger parameters > Adacta localization**. To generate DDV-O, electronic reporting formats need to be configured first. Two formats are available for DDV-O: 
+Open **Electronic reporting formats setup in General ledger > General ledger parameters > BE-terna localization**. To generate DDV-O, electronic reporting formats need to be configured first. Two formats are available for DDV-O: 
    - (1) DDV-O electronic reporting format is used to report Sales tax transactions up to (including) 31.12.2019 
    - (2) DDV-O (version 11) electronic reporting format is used to report Sales tax transactions after (including) 1.1.2020. 
 
 ## **Generate VAT statement (DDV-O)** 
 ----
 
-Sales tax calculation **according to VAT date** is part of the Adacta localization pack, while standard sales tax calculation is performed according to the posting date. Standard Sales tax calculation form is used, and it can be found in **Tax > Declarations > Sales tax > Report sales tax for the settlement period**.
+Sales tax calculation **according to VAT date** is part of the BE-terna localization pack, while standard sales tax calculation is performed according to the posting date. Standard Sales tax calculation form is used, and it can be found in **Tax > Declarations > Sales tax > Report sales tax for the settlement period**.
 
 
 | **Field**                 | **Description**                                                                                                                                                                                                     |
