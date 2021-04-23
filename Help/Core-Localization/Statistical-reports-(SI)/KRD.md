@@ -18,7 +18,7 @@ This localization feature enables the preparation and export of the report to th
 ### **General ledger parameters** 
 
 1. Open **General ledger > Ledger setup > General ledger parameters**.
-2. Navigate to Adacta localization, tab Electronic reporting, and select KRD report in field “KRD electronic reporting format”. 
+2. Navigate to BE-terna localization, tab Electronic reporting, and select KRD report in field “KRD electronic reporting format”. 
 
 ### **Country/region setup for KRD report** 
 
