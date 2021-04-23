@@ -7,7 +7,7 @@ KIF and KUF consist of the receivable and payable tax transactions and provide d
 The main prerequisite: VAT Book reports are available in legal entities with BIH country/region code.
 
 ###KUF/KIF format
-1. Go to **Tax > Setup > Parameters > General ledger parameters > tab Adacta localization > Electronic reporting**
+1. Go to **Tax > Setup > Parameters > General ledger parameters > tab BE-terna localization > Electronic reporting**
 2. Select KIF and KUF report electronic reporting format (KIF report csv/KUF report csv)
 
 ###Sales tax authorities setup
