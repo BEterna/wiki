@@ -2,7 +2,7 @@
 
 Standard D365O functionality allows adding a calendar to a customer (receipt calendars), vendor (purchase calendars), warehouse, coverage group, resource (work center). Calendars can also be used in payroll, master planning, and manufacturing. They define working times (working days) and allow calculation of capacity for resources of the legal entity. With this feature, the standard functionality is enhanced with an option to add public holidays to working times and payment calendars. The feature is especially useful for entering local public holidays, which are not working days.
 
-The feature is part of  AdactaPublicHolidays AdSuite D365O extension.
+The feature is part of  BE-ternaPublicHolidays AdSuite D365O extension.
 
 ##**Setup**
 ---

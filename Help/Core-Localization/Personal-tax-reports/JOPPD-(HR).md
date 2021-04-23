@@ -9,7 +9,7 @@ This localization feature enables Croatian legal entities to generate JOPPD repo
 ### Setup of JOPPD report
 
 1. Open General ledger - Ledger setup - General ledger parameters.
-2. Using “Adacta localization” the Croatian local JOPPD report is set up using applicant and payer data. Localization offers new fields for Croatian JOPPD (populated with identification type “OIB”). 
+2. Using “BE-terna localization” the Croatian local JOPPD report is set up using applicant and payer data. Localization offers new fields for Croatian JOPPD (populated with identification type “OIB”). 
 
 ### Setup of Income types 
 
@@ -87,6 +87,3 @@ This localization feature enables Croatian legal entities to generate JOPPD repo
  
 
  
-
-<!-- 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_HR%20JOPPD.docx?d=wcbeb786ca7e8442fa1205f4c2e0163cc&csf=1&e=xnEiEr) -->

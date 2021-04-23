@@ -22,7 +22,7 @@ This localized functionality allows for the sales or purchases advance invoice g
 ### Accounts payable parameters
 
 1. Open **Accounts payable > Setup > Accounts payable parameter**s.
-2. Adacta localization: Navigate to the Adacta localization section and enable prepayments by selecting “Yes” in the Use prepayments field. Select advance invoice journal name for reversal transaction in the field “Reversal journal name”. If advance invoices functionality is used as shown in the test case “Purchase order and prepayment invoice” then reversal of advance invoice uses the voucher set up on this journal. 
+2. BE-terna localization: Navigate to the BE-terna localization section and enable prepayments by selecting “Yes” in the Use prepayments field. Select advance invoice journal name for reversal transaction in the field “Reversal journal name”. If advance invoices functionality is used as shown in the test case “Purchase order and prepayment invoice” then reversal of advance invoice uses the voucher set up on this journal. 
 3. Ledger and sales tax: Navigate to Ledger and sales tax section, tab Payment, and select Posting profile for payment journal with prepayment. When the payment journal line is marked as prepayment, posting profile changes to the selected one. Mark “Yes” for sales tax on prepayment in payment journal included in the amount. In this case, the posting profile should have the main account for “Sales tax prepayments” (see Chapter 1.1). 
 4. On the tab Prepayment invoice, select the Posting profile with which prepayment invoices will be posted. This setup will be used only in cases when posting definitions are not in use. Otherways setup from posting definitions is used for posting prepayment invoices.  
  
@@ -162,7 +162,7 @@ Check [Test Cases](Advance-Invoice-Test-scenario.zip).
 ### Accounts receivable parameters
 
 1. Open **Accounts receivable > Setup > Accounts receivable parameters**.
-2. Adacta localization: Navigate to Adacta localization and enable prepayments functionality in the field “Use prepayments”. 
+2. BE-terna localization: Navigate to BE-terna localization and enable prepayments functionality in the field “Use prepayments”. 
 3. Ledger and sales tax: Navigate to Ledger and sales tax section and select a posting profile to use for posting prepayments in payment journals. Select “Yes” in the field “Sales tax on prepayment journal voucher”. In this case, the posting profile should have the main account for “Sales tax prepayments” (see chapter 2.1.1).
  
 ### Ledger posting groups

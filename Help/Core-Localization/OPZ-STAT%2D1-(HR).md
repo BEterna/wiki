@@ -65,7 +65,7 @@ Transactions need to be reported in Croatian kuna (HRK) no matter the original c
 
 ### Electronic reporting setup
 
-1. Open General ledger/Ledger setup/General ledger parameters/Adacta localization/Electronic reporting.
+1. Open General ledger/Ledger setup/General ledger parameters/BE-terna localization/Electronic reporting.
 2. If report configuration is changed following steps need to be done: 
    - Delete OPZ STAT-1 configuration
    - Reimport OPZ STAT-1 configuration

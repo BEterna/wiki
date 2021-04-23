@@ -18,7 +18,7 @@ PDO reports sums transactions based on tax exempt numbers. The report consists o
 ### General ledger parameters
 
 1. Open **General ledger > Ledger setup > General ledger parameters**.
-2. To **define export format** navigate to Adacta localization and section Electronic reporting. Select “PDOXmlFormat” in the field “PDO electronic reporting format". 
+2. To **define export format** navigate to BE-terna localization and section Electronic reporting. Select “PDOXmlFormat” in the field “PDO electronic reporting format". 
 
 ### Sales tax code 
 

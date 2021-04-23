@@ -22,7 +22,7 @@ BST setup is added to the main account on the chart of accounts. BST report will
 ### Electronic reports configuration 
 
 1. Open **Workspaces > Electronic reporting > Reporting configurations**.
-2. Choose Repositories > Adacta localization > Open.
+2. Choose Repositories > BE-terna localization > Open.
 3. Find BST report > Import all.
 4. The report will now be available in BST options.  
 

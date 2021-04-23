@@ -50,13 +50,13 @@ Sales tax code percentage is entered in form Values. When entering the value for
 
 #### Setup for personal tax reporting 
 
-1. Setup in the Adacta localization tab on sales tax codes needs to be correctly populated for personal tax reporting to work: 
+1. Setup in the BE-terna localization tab on sales tax codes needs to be correctly populated for personal tax reporting to work: 
    - Personal tax reporting: PDD-GI 
    - Income type: selected from Tax – Setup – Adriatic – Personal tax – Income types 
 
 #### Payment setup 
 
-Payment section of the Adacta localization tab on sales tax codes enables entry of payment data, such as Vendor account, Bank account to which the payment of personal tax will be executed, Payment ID, and Central bank purpose code. Entered data are transferred to the vendor journal payment line using the Payment proposal. 
+Payment section of the BE-terna localization tab on sales tax codes enables entry of payment data, such as Vendor account, Bank account to which the payment of personal tax will be executed, Payment ID, and Central bank purpose code. Entered data are transferred to the vendor journal payment line using the Payment proposal. 
 
 ### Sales tax groups 
 

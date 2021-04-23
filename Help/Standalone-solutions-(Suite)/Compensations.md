@@ -4,7 +4,7 @@ The feature enables settlements between receivable and payable amounts for a com
 
 The creation of a compensation proposal is enabled, where it is possible to select a customer, a vendor, and transactions to be compensated – credit notes can also be used in the procedure. Compensations can be posted to the specified general journal, customer and vendor posting profiles. Compensation proposal can be printed.
 
-This custom-developed feature is part of the AdactaSuiteCompensations AdSuite D365O extension packet.
+This custom-developed feature is part of the BE-ternaSuiteCompensations AdSuite D365O extension packet.
 
 ## **Setup**
 ---

@@ -1,4 +1,4 @@
-Adacta fiscalization agent is an application that is installed as a windows service under NETWORK SERVICE or user account and it is used as middleware between D365FO and Tring fiscal printer.
+BE-terna fiscalization agent is an application that is installed as a windows service under NETWORK SERVICE or user account and it is used as middleware between D365FO and Tring fiscal printer.
 
 
 # **Installation**
@@ -74,7 +74,7 @@ User that is connected to the Fiscalization agent Client ID needs special permis
 -	Fiscalization integration agent
 
 ONLY **Default company on D365FO user** is used to retrieve fiscalization data so be sure to configure right company on user level.
-Client ID of Adacta fiscalization agent must be connected to the user account in D365 to enable communication between the fiscalization agent and D365 application (check: Azure Active Directory applications form): 
+Client ID of BE-terna fiscalization agent must be connected to the user account in D365 to enable communication between the fiscalization agent and D365 application (check: Azure Active Directory applications form): 
 ![image.png](/.attachments/image-61b55297-9ce9-4b64-8f3e-2bf561fb284b.png)
 
 # **Application registration**

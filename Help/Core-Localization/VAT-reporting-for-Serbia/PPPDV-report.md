@@ -2,7 +2,7 @@
 
 PPPDV is a Serbian sales tax return report. Every taxable person identified for VAT purposes in Serbia is obliged to submit a VAT return to the Serbia tax authority. 
 
-Sales tax calculation according to VAT date is part of the Adacta localization pack, while standard sales tax calculation is performed according to the posting date. 
+Sales tax calculation according to VAT date is part of the BE-terna localization pack, while standard sales tax calculation is performed according to the posting date. 
  
 ## PPPDV Form
 
@@ -31,8 +31,8 @@ Sales tax calculation according to VAT date is part of the Adacta localization p
  
 ##	General ledger parameters
 
-1. Open General ledger – Ledger setup – General ledger parameters – Adacta localization.
-2. To define export format navigate to Adacta localization and section Electronic reporting. Select “PPPDVXmlFormat” in the field “PPPDV electronic reporting format".
+1. Open General ledger – Ledger setup – General ledger parameters – BE-terna localization.
+2. To define export format navigate to BE-terna localization and section Electronic reporting. Select “PPPDVXmlFormat” in the field “PPPDV electronic reporting format".
 3. Set additional settings for export XML file for PPPDV for on General ledger – Ledger setup – General ledger parameters – Sales tax such as Responsible person and contact e-mail address.
 4. The tax identification number for Serbian companies (PIB) can be entered on legal entity detail (tab Registration numbers). PIB should be displayed on the PPPDV report and exported in the PPPDV.xml file.
  
