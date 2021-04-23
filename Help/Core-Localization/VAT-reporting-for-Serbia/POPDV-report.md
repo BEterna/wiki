@@ -9,7 +9,7 @@ In order to be able to generate a POPDV form, the mandatory setup has to be comp
 
 ### POPDV format
 
-1. On the path Tax - Setup - Parameters - General ledger parameters - tab Adacta localization, POPDV format should be assigned.
+1. On the path Tax - Setup - Parameters - General ledger parameters - tab BE-terna localization, POPDV format should be assigned.
 
 ### Reporting codes
 
