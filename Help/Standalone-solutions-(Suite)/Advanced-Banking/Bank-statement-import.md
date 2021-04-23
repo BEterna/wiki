@@ -165,7 +165,7 @@ After the format processing group is set up, the next step is to define the **ba
 
 1. Go to **Organization administraton > Workspaces > Electronic reporting**
 2. Open **Adacta repository**
-3. Click **Add** and **create** new configuration repository by choosing **Adacta Suite (Bank Statements)**
+3. Click **Add** and **create** new configuration repository by choosing **BE-terna Suite (Bank Statements)**
 4. Select repository, created in previous bullet and **Open**. 
 5. **Import** all **Bank statement models**
 
