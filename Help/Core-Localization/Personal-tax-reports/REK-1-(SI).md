@@ -10,7 +10,7 @@ Since salaries are standardly not calculated in D365, the Slovenian REK-1 report
 ### General ledger parameters - ER format
 
 1. Open General ledger > Ledger setup > General ledger parameters.
-2. To define the export format, navigate to Adacta localization and section Electronic reporting. Select “REK1 report” in the field “REK 1 electronic reporting format".
+2. To define the export format, navigate to BE-terna localization and section Electronic reporting. Select “REK1 report” in the field “REK 1 electronic reporting format".
  
 ### Income type
 
@@ -25,7 +25,7 @@ By selecting the appropriate value in the field "iREK field B", the amount of th
 _NOTE: Deprecated with version 8.1!_
 
 _1. Open Expense management > Setup > General > Expense management parameters._
-_2. Income type for cash advances needs to be defined in the “Adacta” section. This ensures that cash advances are also generated in REK-1 transactions and reported._ 
+_2. Income type for cash advances needs to be defined in the “BE-terna” section. This ensures that cash advances are also generated in REK-1 transactions and reported._ 
  
 ### Payment methods
 
@@ -156,7 +156,3 @@ If the amount to be paid to the worker is paid in installments, it is possible t
    - [Payment of vendor invoice in installments](Test-Scenario-REK1.zip): In case of paying vendor invoice in installments, REK transaction for the first installment is generated in the full amount of vendor liability. Before reporting, it is necessary to manually adjust the value to the amount paid by installment. The following installments have to be manually entered in REK transactions.
    - [Manual correction of REK-1 transaction](Test-Scenario-REK1.zip): It is possible to manually correct the amount to be reported or add another entry to the list of transactions to be reported.
  
-
-<!--
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI%20REK-1.docx?d=w03f44baa02f34a5aa5de364e26dcd17c&csf=1&e=UYOfAy)
--->
