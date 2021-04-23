@@ -1,6 +1,6 @@
 # Enhance the usage of Travel and Expenses
 
-This chapter summarizes custom-developed features in the scope of the AdactaSuiteTravelAndExpenses AdSuite D365O extension packet that is described throughout the sections below.
+This chapter summarizes custom-developed features in the scope of the BE-ternaSuiteTravelAndExpenses AdSuite D365O extension packet that is described throughout the sections below.
 
 Following features are available:
 
