@@ -1,6 +1,6 @@
 There is a number of configurations that were developed as part of different BE-terna solutions. Some of them are dependent on standard MS configurations. Therefore it is important to import configurations in **following order**:
 
-Step 1: Generate new **Configuration provider BE-terna**. Go to Electronic reporting workspace, under Related links, select link Configuration providers and click New to generate new configuration provider and enter Name = BE-terna; Internet address = http://www.adacta-group.com
+Step 1: Generate new **Configuration provider BE-terna**. Go to Electronic reporting workspace, under Related links, select link Configuration providers and click New to generate new configuration provider and enter Name = BE-terna; Internet address = http://www.be-terna.com
 
 Step 2: Add new Configuration repository.  
 - To add new Microsoft repository go to **Workspaces > Electronic reporting > Configuration providers > Microsoft > Repositories > Add** and choose Operation resources repository.
