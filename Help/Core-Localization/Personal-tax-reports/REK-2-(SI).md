@@ -66,7 +66,7 @@ Contributions to the gross increase in total employer cost. For each of the cont
  
 #### Setup for REK-2 reporting
 
-There are fields in Adacta localization part on sales tax codes that need to be correctly populated in order for REK-2 reporting to work.
+There are fields in BE-terna localization part on sales tax codes that need to be correctly populated in order for REK-2 reporting to work.
    - Personal tax reporting: REK-2
    - Income type: chosen from Tax – Setup – Adriatic – Personal tax – Income types
    - In case of sales tax code for income tax, fields Deduction type and Contribution type are populated with “None”, field Tax income type has to have a value from Tax – Setup – Adriatic – Personal tax – Income tax income types (same as in the picture above)
@@ -78,9 +78,9 @@ There are fields in Adacta localization part on sales tax codes that need to be 
 
 If payment is done to contractors who exercise certain reliefs on income tax it is necessary to create additional sales tax codes with the appropriate settings. Recommended is to create new procurement categories for income types with relief and define new item sales tax groups (procurement category is then chosen on the purchase order/vendor invoice for the contractors that exercises a certain relief). It is also possible to create new sales tax groups and allocate them to respective vendors. 
 
-Adacta localization tab on sales tax code allows “Benefit type” and “Required certificate” to be chosen in section Reporting. Choosing a certain relief does not automatically affect the calculation – it is necessary to manually enter the appropriate value (e.g. if relief for cultural workers is selected on sales tax code, it is necessary to enter the appropriate percentage of relief to Values; sole indication that it is a relief for cultural workers does not affect the amount).
+BE-terna localization tab on sales tax code allows “Benefit type” and “Required certificate” to be chosen in section Reporting. Choosing a certain relief does not automatically affect the calculation – it is necessary to manually enter the appropriate value (e.g. if relief for cultural workers is selected on sales tax code, it is necessary to enter the appropriate percentage of relief to Values; sole indication that it is a relief for cultural workers does not affect the amount).
 
-For this purpose, new fields are added to sales tax codes, Adacta localization. It is possible to choose among the following relief options:
+For this purpose, new fields are added to sales tax codes, BE-terna localization. It is possible to choose among the following relief options:
    - DTC reduced tax: enable if income tax is subjected to tax reduction under double taxation convention. 
       - Required certificate: choose certificate type, in case that is needed to exercise tax reduction (individual certificates are entered on vendor card – more in Chapter Vendor certifications) 
  
@@ -94,13 +94,13 @@ Fields 110 and 203 of the REK-2 report are populated with information about tax 
  
 #### Benefits
 
-“Benefit type” field is added to the Sales tax code tab Adacta localization. Options to select are Personal vehicle, Accommodation, Insurance premium, and Other.
+“Benefit type” field is added to the Sales tax code tab BE-terna localization. Options to select are Personal vehicle, Accommodation, Insurance premium, and Other.
  
 Test case presented in chapter Benefits.
 
 #####	Payment setup
 
-Payment section of the Adacta localization tab on sales tax codes enables entry of payment data, such as Vendor account (Slovenian tax authority FURS, in our case), Bank account to which the payment of personal tax will be executed, Payment ID, and Central bank purpose code. Entered data are transferred to the vendor journal payment line using the Payment proposal.
+Payment section of the BE-terna localization tab on sales tax codes enables entry of payment data, such as Vendor account (Slovenian tax authority FURS, in our case), Bank account to which the payment of personal tax will be executed, Payment ID, and Central bank purpose code. Entered data are transferred to the vendor journal payment line using the Payment proposal.
  
 ### Sales tax groups
 
@@ -289,8 +289,3 @@ For the creation of vendor invoices for contractual work out of purchase orders,
 5. Vendor invoices can be massively created from confirmed purchase orders. Navigate to Accounts payable – Invoices – Pending vendor invoices and select “From purchase order”. 
 6. Choose the “REK-2” pool in the Criteria section and confirm.
 7. Invoice is created for every purchase order that meets the criteria. If the purchase order is without product receipt, be careful to select “Default from Ordered quantity” before creating invoices. If needed, edit the invoices before posting.
-
-
-<!-- 
-[Detailed documentation](https://adacta.sharepoint.com/:w:/r/sites/ERP-Product-Development/Shared%20Documents/D365FO%20Localization%20documentation/D365O%20LOC_SI_REK-2.docx?d=w75c789afbd7e4969b65593037f9c87ed&csf=1&e=eyTSZs)
--->
