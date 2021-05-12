@@ -55,6 +55,13 @@ The feature is part of the LOC_FISCALIZATION extended localization package.
 The worker who creates outbound documents should have a valid tax identification number defined.
  
 If the tax identification number is not defined on Worker, the error is thrown upon document posting.
+
+In order to create valid tax identification number for worker, following setup is needed: 
+1.	Go to **Organization administration > Global address book > Registration types > Registration types** and generate appropriate **Registration type**.
+2.	Go to **Organization administration > Global address book > Registration types > Registration categories** and **link** Created Registration type with Registration category Tax identification number (AD) 
+3.	Add Tax identification number for worker
+4.	Go to **System administration > Users > Users** and **link user with Person** (worker with defined tax identification number)
+
  
 ## **Fiscalization documents**
 ---
