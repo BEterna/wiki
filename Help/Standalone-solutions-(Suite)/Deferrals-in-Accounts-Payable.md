@@ -2,7 +2,7 @@
 
 Deferrals refer to expenses or revenues, which are not recognized immediately on the income statement. Instead, they need to be deferred to a balance sheet account and appear later on the income statement.
 
-In contrast to standard D365O functionality, this feature enables deferrals to be created directly from Vendor invoices or Vendor invoice journals by applying the pre-set deferral scheme to each invoice line. It is possible to overview posted and non-posted deferrals (on different list pages) and post them manually (by marking selected deferral lines to be posted), manually collectively (by defining date frame for deferrals to be posted)) or automatically (via batch processing).
+In contrast to standard D365O functionality, this feature enables deferrals to be created directly from Vendor invoices or on already posted vendor invoices by applying the pre-set deferral scheme to each invoice line. It is possible to overview posted and non-posted deferrals (on different list pages) and post them manually (by marking selected deferral lines to be posted), manually collectively (by defining date frame for deferrals to be posted)) or automatically (via batch processing).
 
 This custom feature is part of the BE-ternaaSuiteDeferrals AdSuite D365O extension packet.
 
@@ -54,8 +54,8 @@ This custom feature is part of the BE-ternaaSuiteDeferrals AdSuite D365O extensi
 ## **Generate deferrals**
 ---
 
-1. **Accounts payable > Invoices > Pending Vendor Invoices**.
-2. Line detail Deferral is added to the Pending vendor invoice line. 
+-  **Accounts payable > Invoices > Pending Vendor Invoices**.
+1. Line detail Deferral is added to the Pending vendor invoice line. 
  
    Every Vendor invoice line can be deferred separately, even using different **Deferral scheme**. Depending on the chosen deferral scheme, Deferral lines are generated. Default **Deferral date** depends on the setup defined on the Deferral scheme. The posting date of the first deferral line is the same as the Invoice posting date. All other deferral lines get posting date from Ledger posting setup on Deferral schemes. In this case, the Start date can be blank.<br>
 <br>If deferrals refer to **previous periods** (e.g. Invoice received in March, but it refers to a whole year), the Start date needs to be entered somewhere in the past. In this case, Deferrals will be generated for current and future periods, and all deferrals that should be posted in previous periods will be summed in the current period. This amount will be posted to the cost account all other deferral lines will be posted deferrals account. This is only valid for deferral schemes with Start deferral on invoice date set to Yes. 
@@ -64,6 +64,10 @@ This custom feature is part of the BE-ternaaSuiteDeferrals AdSuite D365O extensi
 It is possible to subsequently generate deferrals for invoice lines that have already been posted. In Invoice journal select desired transaction, navigate to tab Lines, and select the line for deferrals.
 4. If “Allow deferrals with project” is disabled in the parameters, it is not possible to select deferrals on vendor invoice line with project ID. 
 5. It is also not possible to create deferrals in invoice journal on vendor invoice line with project ID. 
+
+- **Accounts payable > Inquiries and reports > Invoice > Invoice journal**
+1. Select invoice and go to Lines tab
+1. Click button Create deferral and select appropriate deferral scheme and start date of the deferral.
  
 ## **Deferrals posting and inquiries**
 ---
