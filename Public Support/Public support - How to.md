@@ -17,7 +17,7 @@ Support requests [**Issues**, **Change requests** and **Ideas**] can be submited
 + [2] Reproduction steps
 + [3] In which version of the application the issue was found (10.0.23 ...)
 + [4] Client project
-+ [5] Jira tickt link if relevant
++ [5] Jira ticket link if relevant
 
 ![](NewIssue.jpg)
 
