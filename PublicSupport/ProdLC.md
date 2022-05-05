@@ -1,6 +1,6 @@
 ## Product lifecycle
 #High-level process
-[](ProdLifecycleHL.png)
+![](ProdLifecycleHL.png)
 
 #Detailed process
-[](ProdLifecycleDetailed.png)
+![](ProdLifecycleDetailed.png)
