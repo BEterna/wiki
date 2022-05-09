@@ -1,6 +1,6 @@
 # Adriatic localization
 
-## Release AdLocalization_10.0_2022.05.09.2
+## Release AdLocalization_10.0_2022.05.10.2
 
 **!!!** *Important: 10.0.25 application depandency* **!!!**
 
