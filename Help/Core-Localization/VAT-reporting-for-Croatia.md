@@ -12,7 +12,7 @@ PDV report is prepared based on Tax transactions  and according to VAT date. PDV
 -----
 IRA and URA consist of the receivable and payable tax transactions and provide data about the applicable VAT rates for each of the sales tax transactions. IRA provides such information for the receivable, while URA for payable transactions. These two lists have to be available to be extracted from D365, in case the adequate Croatian tax authority requires so.
 
-IRA and URA reports are prepared based on Tax transactions and according to VAT date. IRA and URA reports can be exported to various format (e.g. Word, PDF or Excel).
+IRA and URA reports are prepared based on Tax transactions and according to VAT date. IRA and URA reports can be exported to various format (e.g. Word, PDF or Excel). URA report can be exported as XML file in the format, accepted by the Croatian tax authorities.
 
 [Detailed documentation](/Help/Core-Localization/VAT-reporting-for-Croatia/IRA-and-URA-reports)
 
