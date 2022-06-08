@@ -12,6 +12,9 @@ Go to Organization administration > Legal entities > open specific Legal entity 
 ### Legal Entity - Address
 Go to Organization administration > Legal entities > open specific Legal entity > Address. Enter Legal entity address. Information is used for reporting purposes. 
 
+### Legal Entity - Area and Branch identification
+Go to Organization administration > Legal entities > open specific Legal entity > Statutory reporting. Enter Area (one letter) and Branch (four-digit number). Setup is related to the national classification of the legal entity and information is used for reporting purposes. 
+
 ###Sales tax authorities - report layout
 
 To generate a VAT declaration in the correct format for the appropriate tax authority, you must set up the **report layout** for the sales tax authorities. On the **Sales tax authorities** page, in the **Report layout** field, select **Croatian report layout**. Select the same sales tax authority for the sales tax settlement period that will be used in the sales tax codes. 
