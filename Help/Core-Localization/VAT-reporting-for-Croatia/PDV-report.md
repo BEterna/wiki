@@ -24,7 +24,7 @@ When generating XML, it is mandatory to report **responsible person** for the pr
 The generation of reports is based on reporting codes. Reporting code carries information about which field the transaction will be recorded in. 
 
 1. Open **Tax > Setup > Sales tax > Sales tax reporting codes**:
-   - Enter the list of **reporting codes for Croatia**[Sales tax reporting codes_HR.zip](/.attachments/Sales%20tax%20reporting%20codes_HR-3add9eb0-1edb-4655-b0b0-6db768d218ca.zip). Reporting codes can also be imported using Excel add-in. 
+   - Enter the list of **reporting codes for Croatia** [Sales tax reporting codes_HR.zip](/.attachments/Sales%20tax%20reporting%20codes_HR-3add9eb0-1edb-4655-b0b0-6db768d218ca.zip). Reporting codes can also be imported using Excel add-in. 
 2. Open **Tax > Indirect taxes > Sales tax > Sales tax codes**:
    - VAT reports are generated according to the setup of sales tax reporting codes on sales tax codes.  
 
