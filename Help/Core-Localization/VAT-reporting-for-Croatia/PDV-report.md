@@ -13,7 +13,7 @@ Go to Organization administration > Legal entities > open specific Legal entity 
 Go to Organization administration > Legal entities > open specific Legal entity > Address. Enter Legal entity address. Information is used for reporting purposes. 
 
 ### Legal Entity - Area and Branch identification
-Go to Organization administration > Legal entities > open specific Legal entity > Statutory reporting. Enter Area (one letter) and Branch (four-digit number). Setup is related to the national classification of the legal entity and information is used for reporting purposes. 
+Go to Organization administration > Legal entities > open specific Legal entity > Statutory reporting. Enter **Area** (one letter) and **Branch** (four-digit number). Setup is related to the national classification of the legal entity and information is used for reporting purposes. 
 
 ###Sales tax authorities - report layout
 
