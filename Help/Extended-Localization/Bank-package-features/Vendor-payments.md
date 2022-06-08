@@ -161,6 +161,11 @@ If the VP70 payment order is used, payment reference is generated in the followi
    - Record ID of the payment line
  
 Field “Referenca uporabnika” in payment order is populated with this value upon XML upload.
+
+### SEPA (HR)
+For SEPA payment orders, payment reference for regular payments is generated in the following form:
+  - HR00 + Record ID of payment line
+
  
 Check **[Test Scenario](Vendor-Payments-Test-Scenario.zip)** for payment reference.
  
