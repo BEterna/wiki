@@ -14,7 +14,15 @@ The feature is part of the LOC_FISCALIZATION extended localization package.
 2. Navigate to tab **General**:
 3. Go to **Time zone**: Select your current time zone. This time zone will be used as time when fiscal document is sent to tax authority and also as time when fiscal document is created (for Croatia and Slovenia select appropriate GMT+1 time zone).
 
+### **Electronic reporting**
+Fiscalization process is using electronic reporting configuration to create XML file. Inside BE-terna electronic reporting repository are available following configurations that need to be imported:
+- Fiscalization model
+- Fiscalization format
 
+### **Key vault parameters**
+Key vault parameters need to be configured in order to run fiscalization process. They are used to store key vault certificate.
+1. Open **System administration > Setup > Key vault parameters**
+2. **Create a new Key vault** and select adequate setup in order to connect fiscalization certificate registered on Azure
 
 ### **General ledger parameters**
 
@@ -23,7 +31,11 @@ The feature is part of the LOC_FISCALIZATION extended localization package.
    - **Fiscalization**: enable functionality to use fiscalization of outbound documents
    - **Separator**: define delimiter that identifies the distinction between different sets of fiscal numbers; allowed characters are \ / * - _|. : ; 
    - **Fiscalization document**: enable documents that need to use fiscalization numbering (note: standard numbering is replaced with fiscal numbering; voucher numbering remains standard!)
+   - **Web service URL**: used to store fiscalization URI; for testing purposes use test URL, and for production environment use production URL.
+   - **Report format**: used to store desired fiscalization ER configuration; select Fiscalization format; please note that electornic reporting configuration need to be imported. 
+   - **Key Vault certificate**: choose created Key vault parameters
    - **Fiscalization job**: Fiscalization job setup is used used to setup Batch processing and recurrence to send fiscalization documents to the fiscalization service. Set recurrence for batch processing. _Note: The same fiscalization process will be triggered with print of fiscalization documents to ensure that fiscalization process is triggered before printing_
+   
  
 ### **Fiscalization – locations**
 
