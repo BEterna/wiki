@@ -1,6 +1,15 @@
 # BE-terna suite
 [[_TOC_]]
 ___
+##*10.0_2022.08.25.1
+
+
+
+|Suite| Description | Type |
+|--|--|--|
+| Vendor invoice lines import | Access to Financial dimensions tab on Consumer definition form  |Bug fix  |
+
+
 ## *10.0_2022.05.09.1
 
 **!!!** *Important: 10.0.25 application depandency* **!!!**
