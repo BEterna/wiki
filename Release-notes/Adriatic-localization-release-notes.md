@@ -2,6 +2,15 @@
 [[_TOC_]]
 ___
 
+## Release AdLocalization_10.0_2022.10.12.1
+
+### Localization core
+|Area|Description|type|
+|---|---|---|
+|eInvoice|eInvoice HR - ER fix for business unit|Bug fix|
+|Tax report|POPDV xml export - field 5.1 value fix|Bug fix|
+___
+
 ## Release AdLocalization_10.0_2022.09.09.1
 
 ### Localization core
