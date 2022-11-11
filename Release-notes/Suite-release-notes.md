@@ -1,6 +1,13 @@
 # BE-terna suite
 [[_TOC_]]
 ___
+
+### 10.0.2022.11.09.01
+|Area|Description|type|
+|---|---|---|
+|Project Invoice enhancements|Added Open transactions button on Project invoice proposal form|New feature|
+
+
 ##*10.0_2022.08.25.1
 
 
