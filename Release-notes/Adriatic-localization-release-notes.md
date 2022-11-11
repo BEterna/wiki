@@ -2,14 +2,20 @@
 [[_TOC_]]
 ___
 
-## Release AdLocalization_10.0_2022.10.12.1
+## Release AdLocalization_10.0.0.2022.11.09.01
 
 ### Localization core
 |Area|Description|type|
 |---|---|---|
-|eInvoice|eInvoice HR - ER fix for business unit|Bug fix|
-|Tax report|POPDV xml export - field 5.1 value fix|Bug fix|
-___
+|Taxable persons list|Added currently active description to Slovenian taxable persons form|New feature|
+|BIH VAT report|Amounts with two decimals|New feature|
+|SFR and KRD Report|Added Open in excel functionality for sector allocation and SFR/KRD codes buttons on Vendor and Customer master card|New feature|
+
+### Localization extended
+|Area|Description|type|
+|---|---|---|
+|Import taxable persons|Added address, street number, name, Tax exempt number on customer creation from Taxable persons list|New feature|
+
 
 ## Release AdLocalization_10.0_2022.09.09.1
 
