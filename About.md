@@ -19,10 +19,5 @@ The feature list is available on the following link. Features are grouped into C
 3. **[_Standalone - Suite_](/Help/Standalone-solutions-\(Suite\))** features: 
     * Standalone BE-terna add-ons. 
 
-##**Release notes**
----
-- [Localization and extended packages](/.attachments/Release%20notes%20AdLoc10%20(2)-9a87f7f0-0a46-4348-a092-165bb5896759.xlsx) release notes
-
-
 
 
