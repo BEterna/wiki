@@ -1,6 +1,12 @@
 # BE-terna suite
 [[_TOC_]]
 ___
+### 10.0_2022.11.24.2
+|Area|Description|type|
+|---|---|---|
+|Travel and Expense enhancements|Travel requisition to travel expense dimension transfer fix|Bug fix|
+
+
 
 ### 10.0.2022.11.09.01
 |Area|Description|type|
