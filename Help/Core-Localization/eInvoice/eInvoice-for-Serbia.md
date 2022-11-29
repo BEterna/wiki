@@ -118,3 +118,5 @@ Prepayment eInvoices are subject to the same procedures and actions as FTIs or S
 3.	After confirming, subsequent eInvoices are created with a "Not Ready" status.
 Proceed with the same procedures and actions as described in the chapters above.
 
+#**Test cases**
+________________________________________
