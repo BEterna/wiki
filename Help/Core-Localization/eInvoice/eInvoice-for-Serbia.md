@@ -122,3 +122,4 @@ Proceed with the same procedures and actions as described in the chapters above.
 ________________________________________
 1. Discounts can be used on the Sales order Invoice and are calculated by using standard fields. Check [**Test scenarios for Discounts**](/.attachments/Test-scenario-Discounts-f702c7a9-5cd2-4cf5-bf69-59b2668f3589.zip)
 
+2. Prepayment invoices must be created through Be-terna localization using Prepayment journals.
