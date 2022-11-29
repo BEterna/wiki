@@ -120,3 +120,4 @@ Proceed with the same procedures and actions as described in the chapters above.
 
 #**Test cases**
 ________________________________________
+1. Discounts can be used on the Sales order Invoice and are calculated by using standard fields.
