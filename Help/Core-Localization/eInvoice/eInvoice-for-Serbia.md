@@ -120,7 +120,7 @@ Proceed with the same procedures and actions as described in the chapters above.
 
 #**Test cases**
 ________________________________________
-1. Discounts can be used on the Sales order Invoice and are calculated by using standard fields. Check [**Test scenarios for Discounts**](/.attachments/Test-scenarios-Discounts-8fafc905-8abd-4f20-b4cd-1057cddbdfce.zip)
+1. Standard discounts can be used on Invoices and are calculated by using standard fields (Quantity, Unit price, Discount, Discount percent, Total discount). Check [**Test scenarios for Discounts**](/.attachments/Test-scenarios-Discounts-8fafc905-8abd-4f20-b4cd-1057cddbdfce.zip)
 
 2. Prepayment invoices must be created through Be-terna localization using Prepayment journals. Check [**Test scenarios for Prepayments**](/.attachments/Test-scenarios-Prepayments-afcbf3e1-d06f-4fdb-915c-68b0b5e0ec10.zip)
 3. Settlement between prepayment and final invoices must be created to decrease the VAT amounts. Check 
