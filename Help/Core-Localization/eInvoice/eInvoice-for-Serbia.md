@@ -122,6 +122,6 @@ Proceed with the same procedures and actions as described in the chapters above.
 ________________________________________
 1. Standard discounts can be used on Invoices and are calculated to fit eFaktura portal logic by using standard fields (Quantity, Unit price, Discount, Discount percent, Total discount) in the XML files. Check [**Test scenarios for Discounts**](/.attachments/Test-scenarios-Discounts-8fafc905-8abd-4f20-b4cd-1057cddbdfce.zip)
 
-2. Prepayment invoices must be created through Be-terna localization using Prepayment journals. Check [**Test scenarios for Prepayments**](/.attachments/Test-scenarios-Prepayments-a4d3e4f5-24bc-450a-b877-d0805590a1e5.zip)
+2. Prepayment invoices must be created through Be-terna localization using Prepayment journals for the correct document type to be used in the XML file. Check [**Test scenarios for Prepayments**](/.attachments/Test-scenarios-Prepayments-a4d3e4f5-24bc-450a-b877-d0805590a1e5.zip)
 3. Settlement between prepayment and final invoices must be created to decrease the VAT amounts. Check 
 4. Add notes or attachments to the Sales order, Sales order invoice, FreeText Invoice, Project invoice. Check 
