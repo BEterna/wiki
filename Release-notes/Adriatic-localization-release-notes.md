@@ -2,6 +2,17 @@
 [[_TOC_]]
 ___
 
+## Release AdLocalization_10.0_2022.11.30.1
+
+### Localization core
+|Area|Description|type|
+|---|---|---|
+|VAT|VAT date on Invoice approval not transfering|Bug fix|
+|eInvoice HR|Update for business process|New feature|
+|eInvoice RS|Advance invoice support|New feature|
+|Tax BA|Payment method inupt error fix|Bug fix|
+___
+
 ## Release AdLocalization_10.0.0.2022.11.09.01
 
 ### Localization core
