@@ -1,5 +1,9 @@
 # BE-terna suite
 [[_TOC_]]
+
+___
+### 10.0_2022.12.03.1
+!!! Important: 10.0.26 application depandency !!!
 ___
 ### 10.0_2022.11.24.2
 |Area|Description|type|

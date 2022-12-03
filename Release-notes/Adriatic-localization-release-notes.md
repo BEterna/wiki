@@ -1,6 +1,13 @@
 # Adriatic localization
 [[_TOC_]]
 ___
+## Release AdLocalization_10.0_2022.12.03.1
+
+### Localization core
+|Area|Description|type|
+|---|---|---|
+|eInvoice HR|Mapping of customer referenc in ER|nNew feature|
+___
 
 ## Release AdLocalization_10.0_2022.11.30.1
 
