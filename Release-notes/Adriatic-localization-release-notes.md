@@ -6,7 +6,7 @@ ___
 ### Localization core
 |Area|Description|type|
 |---|---|---|
-|eInvoice HR|Mapping of customer referenc in ER|nNew feature|
+|eInvoice HR|Mapping of customer referenc in ER|New feature|
 ___
 
 ## Release AdLocalization_10.0_2022.11.30.1
