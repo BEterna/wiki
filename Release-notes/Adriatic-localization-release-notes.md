@@ -1,6 +1,13 @@
 # Adriatic localization
 [[_TOC_]]
 ___
+## Release AdLocalization_10.0_2022.12.05.1
+
+### Localization Fiscalization
+|Area|Description|type|
+|---|---|---|
+|Fiscalization|Profirma fiscalization fix|Bug fix|
+______
 ## Release AdLocalization_10.0_2022.12.03.1
 
 ### Localization core
