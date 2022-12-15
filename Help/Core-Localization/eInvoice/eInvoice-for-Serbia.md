@@ -96,6 +96,7 @@ ________________________________________
 Manually changing status to higher status is not allowed.
 Export of eInvoice before the creation of XML (e.g., status "New" or "Not ready") is not allowed.
 
+
 **Electronic project invoices**
 1.	Open **Accounts receivable > Invoices > E-Invoices > Electronic project invoices.**
 2.	Posting invoice for customers with Profile ID automatically generates eInvoice.
@@ -110,7 +111,7 @@ Prepayment eInvoices are subject to the same procedures and actions as FTIs or S
 
 **Additional fields – eInvoice documents**
 1.	The period fields (**Start date and End date**) are added to the Free Text invoice, Project Invoice, Sales Order, and Posting Invoice Headers. These fields are mandatory for posting Credit notes and Debit notes if Document reference is not applied.
-2.	If the user marks a Credit note with an Invoice using Settle transactions, **Document reference** and **Issue date** of the original Invoice fields will be applied in the XML file.
+2.	If the user marks a Credit note with an Invoice using Settle transactions, **Document reference** and **Issue date** of the original Invoice fields will be applied in the XML file. 
 3.	The **Debit note** checkbox is added to Free text invoices, Project invoices, Sales orders, and Posting Invoice Headers.
 4.	The **Customer reference** field is intended for Agreement ID. The data can be filled during Sales agreement creation and past on to the Sales order and Invoice or manually added. Customer reference on the Project contract can be added through Funding sources > Details and transferred to the Project invoice.
 5.	The **Customer requisition** field is intended for External order IDs. The data can be filled during the Release order from the Sales agreement and past on to the Invoice or manually added. Customer requisition on the Project contract can be added through Funding sources/Details and transferred to the Project Invoice
