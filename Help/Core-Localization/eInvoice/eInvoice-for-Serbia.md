@@ -116,7 +116,7 @@ Prepayment eInvoices are subject to the same procedures and actions as FTIs or S
 5.	The **Customer requisition** field is intended for External order IDs. The data can be filled during the Release order from the Sales agreement and past on to the Invoice or manually added. Customer requisition on the Project contract can be added through Funding sources/Details and transferred to the Project Invoice
 
 **Subsequent creation of eInvoices**
-1.	Open **Accounts receivable > Invoices > E-Invoices > Electronic customer/project invoices >** button “Select”.
+1.	Open **Accounts receivable > Invoices > E-Invoices > Electronic customer/project/prepayment invoices >** button “Select”.
 2.	EInvoices can be subsequently generated according to selected filters for already posted invoices or invoices deleted from the eInvoice registry for the customer with an adequate Profile ID. Navigate to the button "Select" and define the Criteria for the subsequent creation of eInvoices.
 3.	After confirming, subsequent eInvoices are created with a "Not Ready" status.
 Proceed with the same procedures and actions as described in the chapters above.
