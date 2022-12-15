@@ -81,6 +81,12 @@ Configuration for export of invoices according to the UBL 2.1 standard is availa
 3.	For each sales tax exempt code in the Translation option, enter the exact quote of the article in Serbian language (example: "Poresko oslobođenje bez prava na odbitak prethodnog poreza za promet zemljišta, kao i na davanje u zakup tog zemljišta")
 4.	Use the Exempt checkbox in the Sales tax group set up on the Sales tax codes and choose the adequate Exempt code. For each exempt case, a new Sales tax code is needed
 
+**Attachments**
+1.	Open **Accounts receivable > Setup > Forms > Form setup**
+2.	Under the Invoice/Free text invoice tab, set **Include document on sheet** to Header or All
+3.	Open **Organization administration > Document management > Document management parameters** and under the General tab set **Use active document table** to "Yes
+4.	Open **Organization administration > Document management > Active document tables** and add Sales order, Customer invoice journal, and Customer free text invoice with "Always enabled"
+5.	Create a document and add the attachment to the header. Only header attachments with an **External** restriction will be automatically transferred to eInvoice documents. Note that the file size must not exceed 3MB.
 
 #**eInvoice registry**
 ________________________________________
