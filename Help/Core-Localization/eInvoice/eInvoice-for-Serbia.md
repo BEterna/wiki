@@ -27,8 +27,9 @@ Configuration for export of invoices according to the UBL 2.1 standard is availa
 **Electronic invoice parameters**
 1.	Open **Accounts receivable > Setup > Serbia > E-Invoices > Electronic invoice parameters.**
 2.	General eInvoice parameters are set up under the tab "General", such as:
-- **Automatic sending of eInvoices**: enable for downloading eInvoice after XML is created automatically
-- **Default unit of measure**: Default unit of measurement for eInvoice if a value is empty on the source entity
+- **Automatic sending of eInvoices**: Enable for downloading eInvoice after XML is created automatically and changing the status of the eInvoice to Sent.
+- **Default unit of measure**: Default unit of measurement for eInvoice if a value is empty on the source entity.
+- **Default unit of measure for prepayments**: Default unit of measurement for eInvoice prepayments if a value is empty on the source entity. It it mandatory to set this field to H87.
 - **Download eInvoice as archive**: with this function ZIP file will be generated with eInvoice files (invoice and customized visualization). **Important**: visualization of the document is not part of this localized feature and needs to be implemented during project implementation).
 - **Electronic signature**:
 1. **Mandatory**: eInvoices must be signed with an electronic signature using an appropriate valid certificate.
@@ -47,11 +48,13 @@ Configuration for export of invoices according to the UBL 2.1 standard is availa
 
 **Customer setup**
 1.	Open **Accounts receivable > Customers > All Customers**.
-2.	Tick the **eInvoice** option to Yes.
-3.	Define "**Profile ID**" from eInvoice parameters in the tab Invoice and delivery on the customer.
-4.	Enter **JMBG** for the customer (Person) - Information is needed when eInvoice is generated.
-5.	Enter **JBKJS** for the customer (Organization) who is using public services in the format **JBKJS:#####** (5-digit number) – Information is needed when eInvoice is generated.
-6.	Define **primary contact** for the customer, which will be used for eInvoice.
+2.	Enter the **Tax exempt number** (PIB) for the customer, the field is mandatory.
+3.	Enter the **RegistrationID** (matični broj) for the customer in the field RegistrationID. The registration type must be linked with Registration category **Company registration number (AD)** and **SRB** country code.
+4.	Tick the **eInvoice attachment** option to Yes to be able to use attachments for eInvoice documents.
+5.	Define "**Profile ID**" from eInvoice parameters in the tab Invoice and delivery on the customer.
+6.	Enter **JMBG** for the customer (Person) - Information is needed when eInvoice is generated.
+7.	Enter **JBKJS** for the customer (Organization) who is using public services in the format **JBKJS:#####** (5-digit number) – Information is needed when eInvoice is generated.
+8.	Define **Primary contact** for the customer, which will be used for eInvoice.
 
 **Legal entity setup**
 1. Open **Organization administration > Organizations > Legal entities**.
@@ -78,6 +81,12 @@ Configuration for export of invoices according to the UBL 2.1 standard is availa
 3.	For each sales tax exempt code in the Translation option, enter the exact quote of the article in Serbian language (example: "Poresko oslobođenje bez prava na odbitak prethodnog poreza za promet zemljišta, kao i na davanje u zakup tog zemljišta")
 4.	Use the Exempt checkbox in the Sales tax group set up on the Sales tax codes and choose the adequate Exempt code. For each exempt case, a new Sales tax code is needed
 
+**Attachments**
+1.	Open **Accounts receivable > Setup > Forms > Form setup**
+2.	Under the Invoice/Free text invoice tab, set **Include document on sheet** to Header or All
+3.	Open **Organization administration > Document management > Document management parameters** and under the General tab set **Use active document table** to "Yes
+4.	Open **Organization administration > Document management > Active document tables** and add Sales order, Customer invoice journal, and Customer free text invoice with "Always enabled"
+5.	Create a document and add the attachment to the header. Only header attachments with an **External** restriction will be automatically transferred to eInvoice documents. Note that the file size must not exceed 3MB.
 
 #**eInvoice registry**
 ________________________________________
@@ -93,6 +102,7 @@ ________________________________________
 Manually changing status to higher status is not allowed.
 Export of eInvoice before the creation of XML (e.g., status "New" or "Not ready") is not allowed.
 
+
 **Electronic project invoices**
 1.	Open **Accounts receivable > Invoices > E-Invoices > Electronic project invoices.**
 2.	Posting invoice for customers with Profile ID automatically generates eInvoice.
@@ -107,13 +117,13 @@ Prepayment eInvoices are subject to the same procedures and actions as FTIs or S
 
 **Additional fields – eInvoice documents**
 1.	The period fields (**Start date and End date**) are added to the Free Text invoice, Project Invoice, Sales Order, and Posting Invoice Headers. These fields are mandatory for posting Credit notes and Debit notes if Document reference is not applied.
-2.	If the user marks a Credit note with an Invoice using Settle transactions, **Document reference** and **Issue date** of the original Invoice fields will be applied in the XML file.
+2.	If the user marks a Credit note with an Invoice using Settle transactions, **Document reference** and **Issue date** of the original Invoice fields will be applied in the XML file. 
 3.	The **Debit note** checkbox is added to Free text invoices, Project invoices, Sales orders, and Posting Invoice Headers.
 4.	The **Customer reference** field is intended for Agreement ID. The data can be filled during Sales agreement creation and past on to the Sales order and Invoice or manually added. Customer reference on the Project contract can be added through Funding sources > Details and transferred to the Project invoice.
 5.	The **Customer requisition** field is intended for External order IDs. The data can be filled during the Release order from the Sales agreement and past on to the Invoice or manually added. Customer requisition on the Project contract can be added through Funding sources/Details and transferred to the Project Invoice
 
 **Subsequent creation of eInvoices**
-1.	Open **Accounts receivable > Invoices > E-Invoices > Electronic customer/project invoices >** button “Select”.
+1.	Open **Accounts receivable > Invoices > E-Invoices > Electronic customer/project/prepayment invoices >** button “Select”.
 2.	EInvoices can be subsequently generated according to selected filters for already posted invoices or invoices deleted from the eInvoice registry for the customer with an adequate Profile ID. Navigate to the button "Select" and define the Criteria for the subsequent creation of eInvoices.
 3.	After confirming, subsequent eInvoices are created with a "Not Ready" status.
 Proceed with the same procedures and actions as described in the chapters above.
