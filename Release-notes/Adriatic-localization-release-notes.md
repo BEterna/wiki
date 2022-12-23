@@ -11,7 +11,12 @@ ____
 |VAT|VAT payable date defaulting on invoice approval|New feature|
 |Statistical reports SI|KRD and SFR usability improvements|New feature|
 |eInvoice RS|Support for notes, unit of measure on prepayments and automatic generation for prepayments|New feature|
+|Tax HR|Updated tax report layouts for EUR (PDV, PPO, IRA, URA), updated Electronic reporting formats (ZP, PDV-S); Added support for legacy HRK (layouts display HRK if company currency is HRK, new ER formats for HRK support)|New feature|
 
+### Localization exchange rate providers
+|Area|Description|type|
+|---|---|---|
+|HNB|New exchange rate provider - EUR support |New feature|
 ___
 ## Release AdLocalization_10.0_2022.12.05.1
 
