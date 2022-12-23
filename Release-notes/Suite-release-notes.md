@@ -1,8 +1,14 @@
 # BE-terna suite
 [[_TOC_]]
 ___
+### 10.0_2022.12.23.1
+|Suite|Description|type|
+|---|---|---|
+|Fixed asset management|Disposal document - Original document view from Fixed asset transactions|New feature|
+|Fixed asset management|Disposal document in reversed status cannot be reverted to draft|Bug fix|
+___
 ### 10.0_2022.12.19.1
-|Area|Description|type|
+|Suite|Description|type|
 |---|---|---|
 |Public Procurement|Preparer transfer from Public Procurement case to Purchase agreement|New feature|
 |Public Procurement|Incorrect RFQ line update from Public Procurement case|Bug fix|
@@ -11,14 +17,13 @@ ___
 !!! Important: 10.0.26 application depandency !!!
 ___
 ### 10.0_2022.11.24.2
-|Area|Description|type|
+|Suite|Description|type|
 |---|---|---|
 |Travel and Expense enhancements|Travel requisition to travel expense dimension transfer fix|Bug fix|
 
 
-
 ### 10.0.2022.11.09.01
-|Area|Description|type|
+|Suite|Description|type|
 |---|---|---|
 |Project Invoice enhancements|Added Open transactions button on Project invoice proposal form|New feature|
 
@@ -31,10 +36,7 @@ ___
 | eInvice | XSLT transformation fix for negative amounts - Telekom specification |Bug fix|
 ___
 
-
 ##*10.0_2022.08.25.1
-
-
 
 |Suite| Description | Type |
 |--|--|--|
