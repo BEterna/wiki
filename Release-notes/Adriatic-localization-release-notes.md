@@ -1,5 +1,17 @@
 # Adriatic localization
 [[_TOC_]]
+____
+## Release AdLocalization_10.0_2022.12.23.1
+
+### Localization core
+|Area|Description|type|
+|---|---|---|
+|eInvoice SI|Physical persons email support|New feature|
+|REK|REK-O support|New feature|
+|VAT|VAT payable date defaulting on invoice approval|New feature|
+|Statistical reports SI|KRD and SFR usability improvements|New feature|
+|eInvoice RS|Support for notes, unit of measure on prepayments and automatic generation for prepayments|New feature|
+
 ___
 ## Release AdLocalization_10.0_2022.12.05.1
 
@@ -7,7 +19,7 @@ ___
 |Area|Description|type|
 |---|---|---|
 |Fiscalization|Profirma fiscalization fix|Bug fix|
-______
+____
 ## Release AdLocalization_10.0_2022.12.03.1
 
 ### Localization core
