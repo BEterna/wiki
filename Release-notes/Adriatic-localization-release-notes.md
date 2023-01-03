@@ -1,7 +1,11 @@
 # Adriatic localization
 [[_TOC_]]
 ____
-## Release AdLocalization_10.0_2023.1.3.1
+## Release AdLocalization_10.0_2023.01.03.1
+### Localization core
+|Area|Description|type|
+|---|---|---|
+|eInvoice RS|eInvoice RS RegistrationID added to ER|New feature|
 
 ### Localization exchange rate providers
 |Area|Description|type|
