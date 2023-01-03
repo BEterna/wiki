@@ -1,6 +1,13 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_10.0_2023.1.3.1
+
+### Localization exchange rate providers
+|Area|Description|type|
+|---|---|---|
+|HNB|Import ratio direction fix for HNB API V3|Bug fix|
+____
 ## Release AdLocalization_10.0_2022.12.23.1
 
 ### Localization core
@@ -16,7 +23,7 @@ ____
 ### Localization exchange rate providers
 |Area|Description|type|
 |---|---|---|
-|HNB|New exchange rate provider - EUR support |New feature|
+|HNB|New exchange rate provider - EUR support|New feature|
 ___
 ## Release AdLocalization_10.0_2022.12.05.1
 
