@@ -1,6 +1,17 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_10.0_2023.01.XX.X
+### Localization core
+|Area|Description|type|
+|---|---|---|
+|eInvoice RS|ER configuration updated with new fields (Recquisition date, Buyer reference Id) |New feature|
+|eInvoice RS|IssueDate changed and allowance base amount divided with zero|Bug fix|
+|VAT|VAT date not filledt from Settlement date when using Conditional sales tax option|Bug fix|
+|eInvoice SI|ER configuration update|Bug fix|
+
+
+____
 ## Release AdLocalization_10.0_2023.01.03.1
 ### Localization core
 |Area|Description|type|
