@@ -1,7 +1,7 @@
 # Adriatic localization
 [[_TOC_]]
 ____
-## Release AdLocalization_10.0_2023.01.XX.X
+## Release AdLocalization_10.0.0.2023013001
 ### Localization core
 |Area|Description|type|
 |---|---|---|
