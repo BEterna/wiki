@@ -52,7 +52,7 @@ This localized functionality allows for the sales or purchases advance invoice g
 ## **Generate Prepayment invoice**
 ---
 
-1. Open **Accounts payable > Payments > Posted prepayment vendor invoices.**
+1. Open **Accounts payable > Payments > Prepayment vendor invoice journal.**
 2. Create **New** journal and Click on **Lines** to enter the journal.
 3. Navigate to **Functions > create prepayment proposal**.   
 4. Enter **“From date”** and **“To date”** to filter out payment transactions marked as prepayment. Optionally, enter the **Posting date** and **VAT date** that Prepayment invoices will be generated with. Confirm the date parameters.<br>
@@ -69,7 +69,7 @@ _Note: in case of prepayment invoice, the date for the filter is the posting dat
 ##**View Prepayment invoice information**
 ---
 To see the list of posted Prepayment invoices and their reversals based on generated final Invoices: 
-1. Go to **Accounts Payable > Invoices > Prepayment vendor invoice journal**
+1. Go to **Accounts Payable > Invoices > Posted prepayment vendor invoices**
 2. **List** of all generated prepayment invoices will open
 3. To see **Voucher** select Prepayment invoice and go to Tab Prepayment invoice > Voucher
 4. To see **Posted sales tax** select Prepayment invoice and go to Tab Prepayment invoice > Posted sales tax
@@ -109,11 +109,11 @@ Check [Test Cases](Advance-Invoice-Test-scenario.zip).
 Prepayment invoice, generated based on issued prepayment, can be also reversed. With Reverse function, new Prepayment invoice journal with negative amount is created, but it needs to be posted manually. After that prepayment is again available for issue of new Prepayment invoice.
 
 To create Prepayment invoice reversal: 
-1. Go to **Accounts payable > Invoices > Prepayment vendor invoice journal** 
+1. Go to **Accounts payable > Invoices > Posted prepayment vendor invoices** 
 1. Choose Prepayment invoice that needs to be reversed 
 1. Go to tab **Prepayment invoice > Reverse**
 1. Enter parameters and click **OK**. Prepayment journal is generated.
-1. Go to **Accounts payable > Payments > Posted prepayment vendor invoices**
+1. Go to **Accounts payable > Payments > Prepayment vendor invoice journal**
 1. Go to journal that was generated in step 4 and click **Post**. Prepayment invoice is reversed and prepayment available for new Advanced invoice. 
 
 ### Settle prepayment against the purchase order
@@ -182,7 +182,7 @@ Print management option is also enabled for prepayment invoices. It is not manda
 ## **Generate Advance invoice from received prepayments** 
 ---
 
-1. Open **Accounts payable > Payments > Posted prepayment customer invoices**.
+1. Open **Accounts payable > Payments > Prepayment customer invoice journal**.
 2. Create **New** journal and Click on **Lines** to enter the journal.
 3. Navigate to **Functions > create prepayment proposal**.   
 4. Enter **“From date”** and **“To date”** to filter out payment transactions marked as prepayment. Optionally, enter the **Posting date** and **VAT date** that Prepayment invoices will be generated with. Confirm the date parameters.<br>
@@ -197,7 +197,7 @@ Print management option is also enabled for prepayment invoices. It is not manda
 ##**View Prepayment invoice information**
 ---
 To see the list of posted Prepayment invoices and their reversals based on generated final Invoices: 
-1. Go to **Accounts Receivable > Invoices > Prepayment customer invoice journal**
+1. Go to **Accounts Receivable > Invoices > Posted prepayment customer invoices**
 2. **List** of all generated prepayment invoices will open
 3. To see **Voucher** select Prepayment invoice and go to Tab Prepayment invoice > Voucher
 4. To see **Posted sales tax** select Prepayment invoice and go to Tab Prepayment invoice > Posted sales tax
@@ -210,11 +210,11 @@ To see the list of posted Prepayment invoices and their reversals based on gener
 Prepayment invoice, generated based on received prepayment, can be also reversed. With Reverse function, new Prepayment invoice journal with negative amount is created, but it needs to be posted manually. After that prepayment is again available for issue of new Prepayment invoice.
 
 To create Prepayment invoice reversal: 
-1. Go to **Accounts receivable > Invoices > Prepayment customer invoice journal** 
+1. Go to **Accounts receivable > Invoices > Posted prepayment customer invoices** 
 1. Choose Prepayment invoice that needs to be reversed 
 1. Go to tab **Prepayment invoice > Reverse**
 1. Enter parameters and click **OK**. Prepayment journal is generated.
-1. Go to **Accounts receivable > Payments > Posted prepayment customer invoices**
+1. Go to **Accounts receivable > Payments > Prepayment customer invoice journal**
 1. Go to journal that was generated in step 4 and click **Post**. Prepayment invoice is reversed and prepayment available for new Prepayment invoice. 
  
 
