@@ -44,21 +44,25 @@ Configuration for export of invoices according to the UBL 2.1 standard is availa
 - for Project credit note: "Project Credit Note (RS)"
 - For Prepayment invoice: "Prepayment Invoice (RS)"
 - For Prepayment credit note: "Prepayment Credit Note (RS)".
-4.	The "Number sequence" section defines the number sequence code (Continuous is mandatory) for the eInvoice unique filename.
+4.	**Number sequence** section defines the number sequence code (Continuous is mandatory) for the eInvoice unique filename.
 
 **Customer setup**
 1.	Open **Accounts receivable > Customers > All Customers**.
 2.	Enter the **Tax exempt number** (PIB) for the customer, the field is mandatory.
 3.	Enter the **RegistrationID** (matični broj) for the customer in the field RegistrationID. The registration type must be linked with Registration category **Company registration number (AD)** and **SRB** country code.
-4.	Tick the **eInvoice attachment** option to Yes to be able to use attachments for eInvoice documents.
-5.	Define "**Profile ID**" from eInvoice parameters in the tab Invoice and delivery on the customer.
-6.	Enter **JMBG** for the customer (Person) - Information is needed when eInvoice is generated.
-7.	Enter **JBKJS** for the customer (Organization) who is using public services in the format **JBKJS:#####** (5-digit number) – Information is needed when eInvoice is generated.
-8.	Define **Primary contact** for the customer, which will be used for eInvoice.
+4.	Enter the **RegistrationID** (GLN - global location number) for each customer address in the field RegistrationID. The registration type must be linked with Registration category **Branch ID** and **SRB** country code.
+5.	Tick the **eInvoice attachment** option to Yes to use attachments for eInvoice documents.
+6.	Define "**Profile ID**" from eInvoice parameters in the tab Invoice and delivery on the customer.
+7.	Define **Invoice subtypes** in the customer table, values ID, and description that will be part of the Buyer reference in the XML file.
+8.	Enter **JMBG** for the customer (Person) - Information is needed when eInvoice is generated.
+9.	Enter **JBKJS** for the customer (Organization) who is using public services in the format **JBKJS:#####** (5-digit number) – Information is needed when eInvoice is generated.
+10.	Define **Primary contact** for the customer, which will be used for eInvoice.
 
 **Legal entity setup**
 1. Open **Organization administration > Organizations > Legal entities**.
 1. Under tab Addresses, the primary address for the legal entity needs to be entered
+3.	Enter the **RegistrationID** (matični broj) for the Legal entity in the field RegistrationID. The registration type must be linked with Registration category **Company registration number (AD)** and **SRB** country code.
+4.	Enter the **RegistrationID** (GLN - global location number) for each Legal entity address in the field RegistrationID. The registration type must be linked with Registration category **Branch ID** and **SRB** country code.
 1. Under the tab Bank account information, the primary bank account needs to be entered
 1. Under the tab Contact information, the primary contact needs to be entered
 1. If the legal entity is the public institution, the **JBKJS** needs to be defined under the Serbia section of the Registration numbers tab
@@ -119,8 +123,12 @@ Prepayment eInvoices are subject to the same procedures and actions as FTIs or S
 1.	The period fields (**Start date and End date**) are added to the Free Text invoice, Project Invoice, Sales Order, and Posting Invoice Headers. These fields are mandatory for posting Credit notes and Debit notes if Document reference is not applied.
 2.	If the user marks a Credit note with an Invoice using Settle transactions, **Document reference** and **Issue date** of the original Invoice fields will be applied in the XML file. 
 3.	The **Debit note** checkbox is added to Free text invoices, Project invoices, Sales orders, and Posting Invoice Headers.
-4.	The **Customer reference** field is intended for Agreement ID. The data can be filled during Sales agreement creation and past on to the Sales order and Invoice or manually added. Customer reference on the Project contract can be added through Funding sources > Details and transferred to the Project invoice.
-5.	The **Customer requisition** field is intended for External order IDs. The data can be filled during the Release order from the Sales agreement and past on to the Invoice or manually added. Customer requisition on the Project contract can be added through Funding sources/Details and transferred to the Project Invoice
+4.	The **Customer reference** field is intended for ContractDocumentReference in the XML file. The data can be filled during Sales agreement creation and past on to the Sales order and Invoice or manually added. Customer reference on the Project contract can be added through Funding sources > Details and transferred to the Project invoice.
+5.	The **Customer requisition** and **Customer requisition date** fields are intended for OrderReference in the XML file. The data can be filled during the Release order from the Sales agreement and past on to the Invoice or manually added. Customer requisition on the Project contract can be added through Funding sources/Details and transferred to the Project Invoice
+3.	The **Bar codes** on the Items are added to the XML tag StandardItemIdentification.
+3.	The **External item numbers** on the Items are added to the XML tag SellersItemIdentification.
+3.	The **Packing slip number** and **Packing slip date**, if exists, are added to the XML tag DespatchDocumentReference.
+3.	The **Packing slip return number** and **Packing slip return date**, if exists, are added to the XML tag DespatchDocumentReference.
 
 **Subsequent creation of eInvoices**
 1.	Open **Accounts receivable > Invoices > E-Invoices > Electronic customer/project/prepayment invoices >** button “Select”.
