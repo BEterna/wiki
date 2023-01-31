@@ -123,8 +123,12 @@ Prepayment eInvoices are subject to the same procedures and actions as FTIs or S
 1.	The period fields (**Start date and End date**) are added to the Free Text invoice, Project Invoice, Sales Order, and Posting Invoice Headers. These fields are mandatory for posting Credit notes and Debit notes if Document reference is not applied.
 2.	If the user marks a Credit note with an Invoice using Settle transactions, **Document reference** and **Issue date** of the original Invoice fields will be applied in the XML file. 
 3.	The **Debit note** checkbox is added to Free text invoices, Project invoices, Sales orders, and Posting Invoice Headers.
-4.	The **Customer reference** field is intended for Agreement ID. The data can be filled during Sales agreement creation and past on to the Sales order and Invoice or manually added. Customer reference on the Project contract can be added through Funding sources > Details and transferred to the Project invoice.
-5.	The **Customer requisition** field is intended for External order IDs. The data can be filled during the Release order from the Sales agreement and past on to the Invoice or manually added. Customer requisition on the Project contract can be added through Funding sources/Details and transferred to the Project Invoice
+4.	The **Customer reference** field is intended for ContractDocumentReference in the XML file. The data can be filled during Sales agreement creation and past on to the Sales order and Invoice or manually added. Customer reference on the Project contract can be added through Funding sources > Details and transferred to the Project invoice.
+5.	The **Customer requisition** and **Customer requisition date** fields are intended for OrderReference in the XML file. The data can be filled during the Release order from the Sales agreement and past on to the Invoice or manually added. Customer requisition on the Project contract can be added through Funding sources/Details and transferred to the Project Invoice
+3.	The **Bar codes** on the Items are added to the XML tag StandardItemIdentification.
+3.	The **External item numbers** on the Items are added to the XML tag SellersItemIdentification.
+3.	The **Packing slip number** and **Packing slip date**, if exists, are added to the XML tag DespatchDocumentReference.
+3.	The **Packing slip return number** and **Packing slip return date**, if exists, are added to the XML tag DespatchDocumentReference.
 
 **Subsequent creation of eInvoices**
 1.	Open **Accounts receivable > Invoices > E-Invoices > Electronic customer/project/prepayment invoices >** button “Select”.
