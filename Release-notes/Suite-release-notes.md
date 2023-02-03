@@ -1,7 +1,7 @@
 # BE-terna suite
 [[_TOC_]]
 ___
-### #10.0.20230202.01
+### 10.0.20230202.01
 |Suite|Description|type|
 |---|---|---|
 |Fixed asset management|Fixed asset book Profile calculation - Partial disposal transaction included|New feature|
