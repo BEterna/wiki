@@ -1,6 +1,16 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_10.0.0.2023022301
+### Localization core
+|Area|Description|type|
+|---|---|---|
+|eInvoice RS|Support for Customer reference and Customer requisition on prepayments|New feature|
+### Localization Bank
+|Area|Description|type|
+|---|---|---|
+|Vendor payments|Validation for payment id with model HR04 fix|Bug fix|
+____
 ## Release AdLocalization_10.0.0.2023020301
 ### Localization core
 |Area|Description|type|
