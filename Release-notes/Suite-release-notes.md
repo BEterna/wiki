@@ -5,6 +5,7 @@ ___
 |Suite|Description|type|
 |---|---|---|
 |Fixed asset management|Low value asset: registering cost amounts in Low value asset assignment view for all transactions|New feature|
+|Fixed asset management|Low value asset: return proposal posting fix|Bug fix|
 |Compensations|Error handling during journal posting|Bug fix|
 ___
 ### 10.0.20230202.01
