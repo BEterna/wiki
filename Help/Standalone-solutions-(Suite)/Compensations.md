@@ -95,5 +95,5 @@ Post button is enabled only if Compensation status is set to Active. This needs 
  
 Customer and Vendor transactions are generated as a result of the compensation proposal posting. Journal can be opened from the Compensation proposals List using the Voucher transactions button.
 
-**In case of error**, Journal is generated, but not posted. Posting error is displayed. Information about generated journal is visible in compensation header in field Journal batch number. User can open generated journal and manually adjust it or delete it. If Journal is deleted, Journal batch number is deleted from Compensations header. 
+**In case of error**, posting error message is displayed, journal is not generated, compensation status is not changed to Closed. User can fix the posting error by configuring the setup and retry posting – if the journal is successfully posted, compensation status is changed to Closed, field Journal batch number and Posting date are populated. 
  

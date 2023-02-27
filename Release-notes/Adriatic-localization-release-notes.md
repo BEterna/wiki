@@ -1,6 +1,22 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_10.0.0.2023022301
+### Localization core
+|Area|Description|type|
+|---|---|---|
+|eInvoice RS|Support for Customer reference and Customer requisition on prepayments|New feature|
+### Localization Bank
+|Area|Description|type|
+|---|---|---|
+|Vendor payments|Validation for payment id with model HR04 fix|Bug fix|
+____
+## Release AdLocalization_10.0.0.2023020301
+### Localization core
+|Area|Description|type|
+|---|---|---|
+|VAT reporting for Croatia|Extending reports for tax rate 0%|New feature|
+____
 ## Release AdLocalization_10.0.0.2023013001
 ### Localization core
 |Area|Description|type|
@@ -9,8 +25,6 @@ ____
 |eInvoice RS|IssueDate changed and allowance base amount divided with zero|Bug fix|
 |VAT|VAT date not filled from Settlement date when using Conditional sales tax option|Bug fix|
 |eInvoice SI|ER configuration update|Bug fix|
-
-
 ____
 ## Release AdLocalization_10.0_2023.01.03.1
 ### Localization core
