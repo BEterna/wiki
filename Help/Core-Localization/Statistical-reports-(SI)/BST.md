@@ -18,6 +18,10 @@ This localization feature enables the preparation and export of the report in th
 1. Open **General ledger > Chart of accounts > Accounts > Main accounts**. 
 BST setup is added to the main account on the chart of accounts. BST report will be generated based on BST code on main accounts and ISO code on country/region setup.  
 
+### Legal entity setup 
+
+1. Open Organization administration - Organizations - Legal entities - Registration IDs.
+2. In Registration IDs tab add new Registration type for the selected legal entity ([Detailed documentation](/Help/Core-Localization/Company-Customer-and-Vendor-identification-numbers/Registration-IDs)). 
 
 ### Electronic reports configuration 
 
