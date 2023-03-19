@@ -21,7 +21,9 @@ BST setup is added to the main account on the chart of accounts. BST report will
 ### Legal entity setup 
 
 1. Open Organization administration - Organizations - Legal entities - Registration IDs.
-2. In Registration IDs tab add new Registration type for the selected legal entity ([Detailed documentation on registration types](/Help/Core-Localization/Company-Customer-and-Vendor-identification-numbers/Registration-IDs)). 
+2. In Registration IDs tab add new Registration type for the selected legal entity
+
+[Detailed documentation on registration types](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Registration-IDs) 
 
 ### Electronic reports configuration 
 
