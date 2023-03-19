@@ -45,6 +45,11 @@ _**Note: Group name must include Group label (A,B) and number that represents Ca
 2. Navigate to Action Pane, tab General, section Settings, and button Sector codes to define sectors. This table allows you to enter the sector code and its description, and below, allocate the code to the individual customer, vendor. 
 3. It is possible to allocate sector code directly on the Customer/Vendor card. 
 
+### Legal entity setup 
+
+1. Open Organization administration - Organizations - Legal entities - Registration IDs.
+2. In Registration IDs tab add new Registration type for the selected legal entity ([Detailed documentation on registration types](/Help/Core-Localization/Company-Customer-and-Vendor-identification-numbers/Registration-IDs)). 
+
 ## **Generate KRD report** 
 ---
 

@@ -4,13 +4,15 @@ REK-1 is a Slovenian personal tax report, which legal entities or natural person
 
 Since salaries are standardly not calculated in D365, the Slovenian REK-1 reporting feature enables only the generation of the legally required reporting in terms of employee travel expenses. Transactions for REK-1 reporting are generated automatically from expense reports and invoices for travel expenses, but they can also be manually added. Export (XML) in the format, required by the Slovenian tax authorities and a preview (HTML) of the REK-1 report are also part of this localized feature.
 
+With 01.01.2023 the REK-1 format changed to the new REK-O format. Except fom the changed format all existihng functionalities remains the same.
+
 ##**Setup**
 ---
 
 ### General ledger parameters - ER format
 
 1. Open General ledger > Ledger setup > General ledger parameters.
-2. To define the export format, navigate to BE-terna localization and section Electronic reporting. Select “REK1 report” in the field “REK 1 electronic reporting format".
+2. To define the export format, navigate to BE-terna localization and section Electronic reporting. Select “REK1 (REK-O)” in the field “REK 1 electronic reporting format".
  
 ### Income type
 

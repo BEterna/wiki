@@ -1,6 +1,21 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_10.0.0.2023031701
+### Localization core
+|Area|Description|type|
+|---|---|---|
+|Advance invoice|Update of Prepayment reports|New feature|
+|Personal tax reorts - REK (SI)|REK-O updates|New feature|
+|Statistical reports (SI)|Enabling updates of SFR Sector allocation through Open-In-Excel functionality s|New feature|
+|Fiscalization (HR)|Location id and terminal id information extended to 20 characters|Bug fix|
+
+### Localization RCash
+|Area|Description|type|
+|---|---|---|
+|Petty cash|Eastern Europe and Russia functionality for Petty cash enabled for SI, HR and SR|New feature|
+
+____
 ## Release AdLocalization_10.0.0.2023022301
 ### Localization core
 |Area|Description|type|

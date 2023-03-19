@@ -5,6 +5,7 @@ This topic provides country/region-specific information about how to set up, cre
 - Sales invoice / Credit note
 - Project invoice / Credit note
 - Advance invoice / Credit note (only for SI)
+- Interest note / Credit note (only for SI)
 
 Supported providers: 
 - SI: UJP, Halcom, ZZI
@@ -29,7 +30,7 @@ Supported providers:
 
 |Parameter|Description|
 |--|--|
-|**Create envelope**|enable or disable to generate envelope upon eInvoice export or sending.|
+|**Create envelope**|Enable or disable to generate envelope upon eInvoice export or sending.|
 |**Automatic sending of eInvoices**| When enabled, zip/XML file will automatically be downloaded, after XML is created (function Create XML). When disabled, zip/XML file will be downloaded with seperate action (Send).|
 |**Bank account**|Company bank account for received customer payments (validation upon SWIFT and IBAN is executed in eInvoice registry), that will be used for eInvoices.  |
 |**Default unit of measure**|Value in this field is transferred to eInvoice when the unit is not defined on customer invoice. There is no field “Unit” on Free text invoice so in this case the value in this field is always transferred to eInvoice).|
@@ -40,6 +41,15 @@ Supported providers:
   
    
 3. Go to **Profile** section, create Profile ID and choose adequate Electronic reporting configurations for Sales and Free text invoice, Sales and Free text credit note, Project invoice, Project credit note, Advance invoice and Advance invoice Credit note.
+
+|Parameter|Description|
+|--|--|
+|**Profile ID**|ID profile code.|
+|**UJP**|If set to Yes, it determines the profile for UJP (Urad za javna plačila) customer.|
+|**Skip basic validation**|If set to Yes, validation of VAT ID/Tax number, (default) customer bank account, Registration No. is skipped.|
+|**Receiver agent**|Receiver agent is part of the envelope data. If the set value is empty, the SWIFT/BIC code from the customer's default bank account will be used. Otherwise, the entered value will be used (e.g. when eInvoices are sent to BIZBOX use value BIZBSI2DICL).|
+|**Receiver mailbox**|Receiver mailbox is part of the envelope data. If the set value is empty, the IBAN from the customer's default bank account will be used. Otherwise, the entered value will be used.|
+|**Other fields**|Select appropriate electronic reporting template for specific type of documents.|
 
 4. Go to **Number sequences** section and define number sequence code for eInvoice unique file name. 
  
@@ -62,7 +72,7 @@ Supported providers:
 
 1. Go to Accounts receivable > Customers > All customers > Open specific customer > go to Invoice and delivery tab > Profile ID. 
 2. Choose “Profile ID” from list. Profile ID defines eInvoice structure.   
-2. **Mandatory data** such as name, address, tax exempt or tax registration number, ID number, and default bank account (and IBAN and SWIFT for that bank account) are being validated in the eInvoice registry upon creating XML (more on that below).
+2. **Mandatory data** such as name, address, tax exempt or tax registration number, ID number, and default bank account (and IBAN and SWIFT for that bank account) are being validated in the eInvoice registry upon creating XML (more on that below). Part of this validation is skipped, when parameter 'Skip basic validation' is set to Yes.
 
 _Note: **Leave** parameters **eInvoice** and **eInvoice envelope** set to **No**, since these parameters enable standard eInvoice functionality._
 
@@ -88,7 +98,7 @@ _Note: This setup **affects validation** of **Tax registration number** (Davčna
 5. Create XML function executes **validation** of the following parameters:
    - LEGAL ENTITY ACCOUNT INFORMATION (name, a bank account with IBAN and SWIFT; address with country, city and ZIP code)
    - INVOICING AND DELIVERY CUSTOMER ACCOUNT INFORMATION (name, a bank account with IBAN and SWIFT; address with country, city and ZIP code)
-   - Tax exempt or tax identification number and company identification number on both customer and legal entity (NOTE: adequate registration categories must be selected for each of the required registration IDs: Tax identification number (AD), Company registration number (AD), VAT ID (if VAT ID is entered in Registration IDs)
+   - Tax exempt or tax identification number and company identification number on both customer and legal entity (NOTE: adequate registration categories must be selected for each of the required registration IDs: Tax identification number (AD), Company registration number (AD), VAT ID (if VAT ID is entered in Registration IDs). **Exception:** If the parameter 'Skip basic validation' is set to Yes, these data is not checked, but customer e-mail address is mandatory.
    - Invoice ID
    - Unit of measure for on invoice used units or a default unit of measure with adequate set up external codes (value for external code must be “eRacun” or validation fails) 
    - Purpose code (either on customer transaction or on legal entity
@@ -104,7 +114,7 @@ _Note: This setup **affects validation** of **Tax registration number** (Davčna
 10. Using **Create signature** changes status to **Signed** (applicable only if Automatic sending of eInvoices parameter is set to No). With action **Send** status is changed to **Sent**.  
 11. **Multi select** is also enabled for actions. Mark multiple eInvoices with a checkmark and select appropriate action.
 12. Using the action **Export** or **Send**, envelope (if enabled in parameters) and eInvoice are downloaded to the selected directory (first, select location for the envelope and save, then the select location for eInvoice and save). If **Export** action is used, status stays the same. Status is changed to Sent after using the action **Send**.
-13. eInvoice can be exported only after creation of XML (e.g. status must be higher then **New** or **Not ready**).
+13. eInvoice can be exported only after creation of XML (e.g. status must be higher than **New** or **Not ready**).
  
 Check **[Test Scenario](e-Invoices-SI.zip)**.
  
@@ -112,7 +122,7 @@ Check **[Test Scenario](e-Invoices-SI.zip)**.
 
 1. Open **Accounts receivable > Invoices > E-Invoices > Electronic project invoices**.
 2. **Posting** invoice proposal for customers with Profile ID **automatically generates eInvoice**.
-3. Go to **Accounts receivable > Invoices > E-Invoices > Electronic project invoices** where all generated einvoices can be found. Created eInvoice can be found in Project eInvoices registry with status “New”. 
+3. Go to **Accounts receivable > Invoices > E-Invoices > Electronic project invoices** where all generated eInvoices can be found. Created eInvoice can be found in Project eInvoices registry with status “New”. 
 
 Project eInvoices are subject to the same procedures and actions as described in chapter Electronic customer invoices. 
 
@@ -122,12 +132,12 @@ Check **[Test Scenario](e-Invoices-SI.zip)**.
 
 1. Open **Accounts receivable > Invoices > E-Invoices > Electronic advance invoices**.
 2. **Posting** Advance invoices for customers with Profile ID **automatically generates eInvoice**.
-3. Go to **Accounts receivable > Invoices > E-Invoices > Electronic advance invoices** where all generated einvoices can be found. Created eInvoice can be found in Advance eInvoices registry with status “New”. 
+3. Go to **Accounts receivable > Invoices > E-Invoices > Electronic advance invoices** where all generated eInvoices can be found. Created eInvoice can be found in Advance eInvoices registry with status “New”. 
 4. With action **Create XML**, file is generated. With action **Sign**, file can be signed and with action **Send**, file is downloaded. 
 5. Create XML function executes **validation** of the following parameters:
    - LEGAL ENTITY ACCOUNT INFORMATION (name, a bank account with IBAN and SWIFT; address with country, city and ZIP code)
    - INVOICING AND DELIVERY CUSTOMER ACCOUNT INFORMATION (name, a bank account with IBAN and SWIFT; address with country, city and ZIP code)
-   - Tax exempt or tax identification number and company identification number on both customer and legal entity (NOTE: adequate registration categories must be selected for each of the required registration IDs: Tax identification number (AD), Company registration number (AD), VAT ID (if VAT ID is entered in Registration IDs)
+   - Tax exempt or tax identification number and company identification number on both customer and legal entity (NOTE: adequate registration categories must be selected for each of the required registration IDs: Tax identification number (AD), Company registration number (AD), VAT ID (if VAT ID is entered in Registration IDs). **Exception:** If the parameter 'Skip basic validation' is set to Yes, these data is not checked, but customer e-mail address is mandatory.
    - Invoice ID
    - Unit of measure for on invoice used units or a default unit of measure with adequate set up external codes (value for external code must be “eRacun” or validation fails) 
    - Purpose code (either on customer transaction or on legal entity
@@ -143,7 +153,7 @@ Check **[Test Scenario](e-Invoices-SI.zip)**.
 10. Using **Create signature** changes status to **Signed** (applicable only if Automatic sending of eInvoices parameter is set to No). With action **Send** status is changed to **Sent**.  
 11. **Multi select** is also enabled for actions. Mark multiple eInvoices with a checkmark and select appropriate action.
 12. Using the action **Export** or **Send**, envelope (if enabled in parameters) and eInvoice are downloaded to the selected directory (first, select location for the envelope and save, then the select location for eInvoice and save). If **Export** action is used, status stays the same. Status is changed to Sent after using the action **Send**.
-13. eInvoice can be exported only after creation of XML (e.g. status must be higher then **New** or **Not ready**).
+13. eInvoice can be exported only after creation of XML (e.g. status must be higher than **New** or **Not ready**).
  
 
 ### **Subsequent creation of eInvoices**

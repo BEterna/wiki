@@ -32,6 +32,12 @@ Prerequisite for generating SFR report is the proper setup for each relevant mai
 3. Allocated sector code can be Viewed on Vendor/Customer.  
 4. All changes related to sector codes are done only in  General ledger/Financial report setup/Slovenia/SFR report/Sector codes.
 
+### Legal entity setup 
+
+1. Open Organization administration - Organizations - Legal entities - Registration IDs.
+2. In Registration IDs tab add new Registration type for the selected legal entity ([Detailed documentation on registration types](/Help/Core-Localization/Company-Customer-and-Vendor-identification-numbers/Registration-IDs)). 
+
+
 ## **Generate SFR report** 
 ---
 

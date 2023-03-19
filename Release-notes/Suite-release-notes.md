@@ -1,6 +1,13 @@
 # BE-terna suite
 [[_TOC_]]
 ___
+### 10.0.20230317.01
+|Suite|Description|type|
+|---|---|---|
+|Realized Cash flow|Inquiry optimization|New feature|
+|Business events|10.0.32 Dependency update|Dependency update|
+
+___
 ### 10.0.20230223.01
 |Suite|Description|type|
 |---|---|---|
