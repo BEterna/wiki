@@ -45,11 +45,11 @@ Supported providers:
 |Parameter|Description|
 |--|--|
 |**Profile ID**|ID profile code.|
-|**UJP**|If set to Yes, it determines the profile for UJP (Urad za javna plačila) customer|
-|**Skip basic validation**|If set to Yes, validation of VAT ID/Tax number, (default) customer bank account, Registration No. is skipped|
-|**Receiver agent**|Receiver agent is part of the envelope data. If the set value is empty, the SWIFT/BIC code from the customer's default bank account will be used. Otherwise, the entered value will be used (e.g. when eInvoices are sent to BIZBOX use value BIZBSI2DICL)|
-|**Receiver mailbox**|Receiver mailbox is part of the envelope data. If the set value is empty, the IBAN from the customer's default bank account will be used. Otherwise, the entered value will be used|
-|**Other fields**|Select appropriate electronic reporting template for specific type of documents|
+|**UJP**|If set to Yes, it determines the profile for UJP (Urad za javna plačila) customer.|
+|**Skip basic validation**|If set to Yes, validation of VAT ID/Tax number, (default) customer bank account, Registration No. is skipped.|
+|**Receiver agent**|Receiver agent is part of the envelope data. If the set value is empty, the SWIFT/BIC code from the customer's default bank account will be used. Otherwise, the entered value will be used (e.g. when eInvoices are sent to BIZBOX use value BIZBSI2DICL).|
+|**Receiver mailbox**|Receiver mailbox is part of the envelope data. If the set value is empty, the IBAN from the customer's default bank account will be used. Otherwise, the entered value will be used.|
+|**Other fields**|Select appropriate electronic reporting template for specific type of documents.|
 
 4. Go to **Number sequences** section and define number sequence code for eInvoice unique file name. 
  
