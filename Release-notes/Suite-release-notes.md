@@ -5,6 +5,7 @@ ___
 |Suite|Description|type|
 |---|---|---|
 |Realized Cash flow|Inquiry optimization|New feature|
+|Bank statements|Import when date and time format includes fractions of seconds|Bug fix|
 |Business events|10.0.32 Dependency update|Dependency update|
 
 ___
