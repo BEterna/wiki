@@ -39,6 +39,8 @@ Prerequisite for generating SFR report is the proper setup for each relevant mai
 
 [Detailed documentation on registration types](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Registration-IDs) 
 
+**!Note**: The Registration type includes the "Restricted to" value. When using the same registration type in several legal entities, the same "Restricted to" value for a specific Registration type must be used in all of them. 
+
 ## **Generate SFR report** 
 ---
 

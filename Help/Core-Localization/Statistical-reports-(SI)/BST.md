@@ -25,6 +25,8 @@ BST setup is added to the main account on the chart of accounts. BST report will
 
 [Detailed documentation on registration types](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Registration-IDs) 
 
+**!Note**: The Registration type includes the "Restricted to" value. When using the same registration type in several legal entities, the same "Restricted to" value for a specific Registration type must be used in all of them. 
+
 ### Electronic reports configuration 
 
 1. Open **Workspaces > Electronic reporting > Reporting configurations**.
