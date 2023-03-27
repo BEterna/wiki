@@ -18,7 +18,7 @@ Additionally, this localization feature enables Slovenian legal entities to crea
 ### General ledger parameters
 
 1. Open General ledger – Ledger setup – General ledger parameters.
-2. To be able to preview and export the REK-2 report, it is necessary to select the “REK-2 electronic reporting format”.
+2. To be able to preview and export the REK-2 report, it is necessary to select the “REK-2 (REK-O)”.
  
 ### Income types and income tax income types
 
