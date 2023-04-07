@@ -1,0 +1,6 @@
+# Cash management
+
+This extended localization feature enables the use of standard Dynamics 365 Finance and operations Eastern Europe and Russia Petty cash functionality for Adriatic countries (Slovenia, Croatia, Serbia, Bosnia and Herzegovina, Macedonia).
+
+The feature is part of the LOC_RCASH extended localization packet.
+
