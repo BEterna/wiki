@@ -14,7 +14,7 @@ ____
 ### Localization Bank
 |Area|Description|Type|
 |---|---|---|
-|Exchange rates (HR)|Import exchange rates for a selected date range|Bug fix|
+|Exchange rates (HR)|Fixed import exchange rates for a selected date range|Bug fix|
 |Security|Fixed Access level rights (replaced deprecated "Invoke" with "Delete")|BugFix|
 
 ### Localization Fiscalization
