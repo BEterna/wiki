@@ -6,7 +6,7 @@ ____
 |Area|Description|type|
 |---|---|---|
 |Advance invoice|Update of Prepayment reports|New feature|
-|Personal tax reorts - REK (SI)|REK-O updates|New feature|
+|Personal tax reports - REK (SI)|REK-O updates|New feature|
 |Statistical reports (SI)|Enabling updates of SFR Sector allocation through Open-In-Excel functionality s|New feature|
 |Fiscalization (HR)|Location id and terminal id information extended to 20 characters|Bug fix|
 
