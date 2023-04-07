@@ -2,7 +2,7 @@
 
 
 |**Feature** | **Description** | **Package** | **Note** |
-|--|--|--|-|--|
+|--|--|--|-|
 |[Advanced Banking](/Help/Standalone-solutions-\(Suite\)/Advanced-Banking)|The solution enables enhanced advanced bank reconciliation. Based on the transactions from the bank statement, processing can be performed (either manually or based on the pre-set processing rules). In contrast to standard D365O reconciliation, this feature enables automatic matching of imported transactions from bank statements with Open customer transactions (inflows) and not yet posted Vendor payment journals (outflows). After matching, transactions can be posted directly from the bank reconciliation processing journal.|BE-ternaSuiteBankStatements AdSuite D365O
 |[Travel and Expenses enhancements](/Help/Standalone-solutions-\(Suite\)/Travel-and-Expenses-enhancements)|This solution enables to use custom-developed features fro travel requisition enhancements, Per Diem enhancements, map cash advances to travel requisition, set up posting dates for group expense report transaction posting, signatories on localized report printouts, mass delegation and delegates for cash advances.|BE-ternaSuiteTravelAndExpenses AdSuite D365O
 |[Deferrals in Accounts Payable](/Help/Standalone-solutions-\(Suite\)/Deferrals-in-Accounts-Payable)|Deferrals refer to expenses or revenues, which are not recognized immediately on the income statement. Instead, they need to be deferred to a balance sheet account and appear later on the income statement.|BE-ternaSuiteDeferrals AdSuite D365O
