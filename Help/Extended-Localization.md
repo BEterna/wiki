@@ -72,4 +72,4 @@ NOTE: a prerequisite for using Extended Localization features is installed Core 
 
 |**Cash Register _(LOC_RCASH)_**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
 |--|--|--|--|--|--|
-|[Cash Management](/Help/Extended-Localization/Cash-Management)  | • | • | • |Cash register is opened as a Cash account. For Cash account is possible to setup cash posting profile and posting slip journal for cash inflows and outflows. There is possible to setup the responsible person > the main cashier, which can be printed on cash reports (Cash receipts and Cash disbursements).  |  |Not available for versions after 7.3  |
+|[Cash Management](/Help/Extended-Localization/Cash-management)  | • | • | • |Cash register is opened as a Cash account. For Cash account is possible to setup cash posting profile and posting slip journal for cash inflows and outflows. There is possible to setup the responsible person > the main cashier, which can be printed on cash reports (Cash receipts and Cash disbursements).  |  |Not available for versions after 7.3  |
