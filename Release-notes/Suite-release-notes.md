@@ -7,7 +7,7 @@ ___
 |Bank statements|Updated ER format for importing bank statements: when bank statement dates do not have a time zone specified, they imported as by the timezone of the legal entity the bank statement is imported to.|Bug fix|
 |Realized Cash flow|New infolog message added after recalculation of data is concluded|New feature|
 |Compensations|Disabled customer/vendor transaction reversal, when transaction included in an already posted compensation|Bug fix|
-|Compensations|Enabled the possibility to change the status of the compensation to Open even when compensation and transaction amounts do not match|Compensations|
+|Compensations|Enabled the possibility to change the status of the compensation to Open even when compensation and transaction amounts do not match|Bug fix|
 
 ___
 ### 10.0.20230317.01
