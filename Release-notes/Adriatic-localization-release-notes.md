@@ -35,7 +35,7 @@ ____
 ### Localization Cash register
 |Area|Description|Type|
 |---|---|---|
-|Cash register|Additional specific Eastern Europe functionalities enabled for BA, HR, MK, RS and SI (Cash accounts - Cash reports)|New Feature|
+|Cash register|Additional specific Eastern Europe functionalities enabled for BA, HR, MK, RS and SI (Cash accounts - Cash report)|New Feature|
 |Cash register|Cash order report: Fields Order number, Legal entity address and Created date time added to report|New Feature|
 |Cash register|Cash report: Fields Legal entity address and Created date time added to report|New Feature|
 
