@@ -1,19 +1,58 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_10.0_2023.04.07.1
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|VAT|Localization fields removed from data entity "Sales tax code values" and transferred to "Sales tax code values V2" due to removal of the entity "Sales tax code values" in version 10.0.32|Dependency update|
+|VAT reporting for Croatia|Fixed IRA and URA reports for years previous to 2023 after tax rate 0% introduced|Bug fix|
+|VAT reporting|Tax reporting number refresh on vendor invoice journal after changing vendor account on line|Bug fix|
+|VAT reporting|Tax reporting fields initialized when using Open In Excel functionality with journals (Vendor invoice journal)|Bug fix|
+|Security|Fixed Access level rights (replaced deprecated "Invoke" with "Delete")|Bug Fix|
+
+### Localization Bank
+|Area|Description|Type|
+|---|---|---|
+|Exchange rates (HR)|Import exchange rates for a selected date range|Bug fix|
+|Security|Fixed Access level rights (replaced deprecated "Invoke" with "Delete")|BugFix|
+
+### Localization Fiscalization
+|Area|Description|Type|
+|---|---|---|
+|Security|Fixed Access level rights (replaced deprecated "Invoke" with "Delete")|BugFix|
+
+### Localization KEP
+|Area|Description|Type|
+|---|---|---|
+|Security|Fixed Access level rights (replaced deprecated "Invoke" with "Delete")|BugFix|
+
+### Localization Tax
+|Area|Description|Type|
+|---|---|---|
+|Security|Fixed Access level rights (replaced deprecated "Invoke" with "Delete")|BugFix|
+
+### Localization Cash register
+|Area|Description|Type|
+|---|---|---|
+|Cash register|Additional specific Eastern Europe functionalities enabled for BA, HR, MK, RS and SI (Cash accounts - Cash reports)|New Feature|
+|Cash register|Cash order report: Fields Order number, Legal entity address and Created date time added to report|New Feature|
+|Cash register|Cash report: Fields Legal entity address and Created date time added to report|New Feature|
+
+____
 ## Release AdLocalization_10.0.0.2023031701
 ### Localization core
-|Area|Description|type|
+|Area|Description|Type|
 |---|---|---|
 |Advance invoice|Update of Prepayment reports|New feature|
 |Personal tax reports - REK (SI)|REK-O updates|New feature|
 |Statistical reports (SI)|Enabling updates of SFR Sector allocation through Open-In-Excel functionality s|New feature|
 |Fiscalization (HR)|Location id and terminal id information extended to 20 characters|Bug fix|
 
-### Localization RCash
-|Area|Description|type|
+### Localization Cash register
+|Area|Description|Type|
 |---|---|---|
-|Petty cash|Eastern Europe and Russia functionality for Petty cash enabled for SI, HR and SR|New feature|
+|Cash register|Eastern Europe and Russia functionality for Petty cash enabled for SI, HR and SR|New feature|
 
 ____
 ## Release AdLocalization_10.0.0.2023022301
