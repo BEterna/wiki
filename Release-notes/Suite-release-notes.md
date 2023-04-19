@@ -1,6 +1,11 @@
 # BE-terna suite
 [[_TOC_]]
 ___
+### 10.0.20230419.01
+|Suite|Description|Type|
+|---|---|---|
+|Bank statements|New button on bank statement lines for manual changing Booking date when bank statement header in status Open and bank statement line in status Booked|New feature|
+___
 ### 10.0_2023.04.07.1
 |Suite|Description|Type|
 |---|---|---|
