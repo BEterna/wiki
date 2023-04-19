@@ -1,6 +1,13 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_10.0.0.2023041901
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|eInvoice RS|Changed position of GLN number in the exported xml file|Changed feature|
+|OPZ STAT-1 HR|New data entity for updating/migrating original invoice amount and original VAT amount (Customer transactions (localization data))|New feature|
+
 ## Release AdLocalization_10.0_2023.04.07.1
 ### Localization core
 |Area|Description|Type|
