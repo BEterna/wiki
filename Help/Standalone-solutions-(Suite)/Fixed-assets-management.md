@@ -6,6 +6,7 @@ Fixed assets management package offers users a set of functionalities that simpl
 - Partial asset disposal
 - Physical locations
 - Additional Fixed asset information
+- Disposal document
 
 
 
