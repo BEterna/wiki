@@ -238,6 +238,8 @@ _NOTE: For Serbia, bank statement files should be zipped before import._
 
 Bank Statement is imported when it is shown in the list of bank statements. After import, the bank statement can be validated and reconciled. 
 
+_NOTE: Sometimes bank statements include also lines with a date outside the defined bank statement period. In order to avoid failure of bank statement validation, a new functionality that allows users to change the booking date on selected lines that were imported is available in the Bank statement detail form (new button Change booking date)._ 
+
 
 Check **[Test Scenario](Bank-statement-import.xlsx)** for Slovenian bank statement import.
  
