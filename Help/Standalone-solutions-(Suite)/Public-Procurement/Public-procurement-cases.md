@@ -67,6 +67,18 @@ PUBLIC PROCUREMENT section:
 |Subject  |a free text field (e.g. longer description of the public procurement case)  |
 |Agreement ID  |link to an associated Framework agreement if it exists.  |
 
+If selected Purchase type is Purchase agreement, additional fields appear:
+|**Field**|**Description** |
+|--|--|
+|Requested by|employee automatically defaults if user that created the record is related to employee; value from this field is defaulted to field Preparer on purchase agreement, that is the result of public procurement case processing (note the standard behavior: when Purchase   agreement is created directly form Request from quotation and not through public procurement case, field Preparer is defaulted from RFQ’s field Requested by, even if empty)|
+|Effective date|effective date of purchase agreement, that is the result of public procurement case processing|
+|Expiration date|expiration date of purchase agreement, that is the result of public procurement case processing|
+|Purchase agreement classification|value that defaults to purchase agreement, that is the result of public procurement case processing|
+|||
+|||
+
+
+
 OTHER section:
 
 
