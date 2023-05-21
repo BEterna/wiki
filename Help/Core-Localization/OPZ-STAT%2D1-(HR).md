@@ -79,9 +79,11 @@ We need to wait for a message from the system, which says that import is complet
    - Original Invoice amount
    - Original VAT amount
 
-They need to be populated only in case of importing Customer open balances, that was partially closed before import. This means that open amount is different from the original amount. Amounts need to be entered in HRK (even if the original was different). The migration of this two fields is enabled through a data entity: Customer transactions (localization data) with some limitations:
+They need to be populated only in case of importing Customer open balances, that was partially closed before import. This means that open amount is different from the original amount. Amounts need to be entered in HRK (even if the original was different). 
+
+The migration of these two fields is enabled also through a data entity: Customer transactions (localization data). When migrating data user should be aware of the following limitations:
 - The data entity enables the import only for customer transactions of the type: Customer, Interest, General ledger.
-- The key to identify a customer transaction is: customer account & invoice number + & transaction date & voucher.
+- The key to identify a customer transaction is: customer account & invoice number & transaction date & voucher.
 - If multiple customer transactions are found with a specific combination of the key fields, such import will result in error and for such customer transaction a manual approach must be used.
  
 For reporting purposes, field Document date (standard field) also needs to be populated with the original Invoice date. 
