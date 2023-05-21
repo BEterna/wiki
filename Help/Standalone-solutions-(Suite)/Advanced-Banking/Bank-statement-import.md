@@ -42,6 +42,7 @@ Example of XML file import setup:
 
  
 ### **Bank statement import setup** 
+_NOTE: This option requires a valid transformation for a specific bank statement format. Although sample transformations for formats listed below are provided in this document, they must be considered only as samples that may require additional adaptation according to data specifics used by a Bank in their bank statements preparation procedure._
 
 ## Set up the import of HalcomSI (ISO20022) bank statements
 
@@ -160,7 +161,7 @@ After the format processing group is set up, the next step is to define the **ba
 ### **Setup of Electronic reporting formats** 
 ---
 
-### Import Electronic reporting configurations
+### Import Electronic reporting configurations (Option 2)
 <br>
 
 1. Go to **Organization administraton > Workspaces > Electronic reporting**
