@@ -1,7 +1,7 @@
 # BE-terna suite
 [[_TOC_]]
 ___
-### #10.0.20230525.01
+### 10.0.20230525.01
 |Suite|Description|Type|
 |---|---|---|
 |Deferrals|Calculation of deferral amounts based on exchange rates that were saved on the original document|Bug fix
