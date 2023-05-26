@@ -5,7 +5,7 @@ ____
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
-|VAT for Serbia|Individual VAT reporting|New feature|
+|VAT reporting for Serbia|Individual VAT reporting|New feature|
 |Main account statement (HR)|Enabled the possibility to run report for periods larger than 31 days|New feature|
 |VAT features|Fields related to VAT (VAT date, VAT payable date, Customer/Vendor, Address, Tax exempt number) can be defaulted on new lines when creating vendor invoice lines from Invoice register lines trough Vendor invoice approval form|New feature|
 |eInvoice|Updated Electronic report model in order to include Unite of measure external code only for code "eRacun"|Bug fix|
