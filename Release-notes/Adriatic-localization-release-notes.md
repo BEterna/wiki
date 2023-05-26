@@ -1,6 +1,20 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_#10.0.0.2023052501
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|VAT reporting for Serbia|Individual VAT reporting|New feature|
+|Main account statement (HR)|Enabled the possibility to run report for periods larger than 31 days|New feature|
+|VAT features|Fields related to VAT (VAT date, VAT payable date, Customer/Vendor, Address, Tax exempt number) can be defaulted on new lines when creating vendor invoice lines from Invoice register lines trough Vendor invoice approval form|New feature|
+|eInvoice|Updated Electronic report model in order to include Unite of measure external code only for code "eRacun"|Bug fix|
+
+### Localization Bank
+|Area|Description|Type|
+|---|---|---|
+|Bank features|Added new restriction for accessing Bank localization fields in Method of payments form only for Adriatic legal entities|Bug fix|
+____
 ## Release AdLocalization_10.0.0.2023041901
 ### Localization core
 |Area|Description|Type|

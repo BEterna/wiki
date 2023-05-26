@@ -1,6 +1,13 @@
 # BE-terna suite
 [[_TOC_]]
 ___
+### 10.0.20230525.01
+|Suite|Description|Type|
+|---|---|---|
+|Deferrals|Calculation of deferral amounts based on exchange rates that were saved on the original document|Bug fix
+Public procurement|Enabled the option to have the same Vendor as a Co-tender in different Consortiums on the same procurement public case|Bug fix|
+
+___
 ### 10.0.20230419.01
 |Suite|Description|Type|
 |---|---|---|

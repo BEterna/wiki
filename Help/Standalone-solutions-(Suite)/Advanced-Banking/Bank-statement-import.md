@@ -42,6 +42,7 @@ Example of XML file import setup:
 
  
 ### **Bank statement import setup** 
+_NOTE: This option requires a valid transformation for a specific bank statement format. Although sample transformations for formats listed below are provided in this document, they must be considered only as samples that may require additional adaptation according to data specifics used by a Bank in their bank statements preparation procedure._
 
 ## Set up the import of HalcomSI (ISO20022) bank statements
 
@@ -160,7 +161,7 @@ After the format processing group is set up, the next step is to define the **ba
 ### **Setup of Electronic reporting formats** 
 ---
 
-### Import Electronic reporting configurations
+### Import Electronic reporting configurations (Option 2)
 <br>
 
 1. Go to **Organization administraton > Workspaces > Electronic reporting**
@@ -236,6 +237,8 @@ _NOTE: For Serbia, bank statement files should be zipped before import._
 1. Click **OK**
 
 Bank Statement is imported when it is shown in the list of bank statements. After import, the bank statement can be validated and reconciled. 
+
+_NOTE: Sometimes bank statements include also lines with a date outside the defined bank statement period. In order to avoid failure of bank statement validation, a new functionality that allows users to change the booking date on selected lines that were imported is available in the Bank statement detail form (new button Change booking date)._ 
 
 
 Check **[Test Scenario](Bank-statement-import.xlsx)** for Slovenian bank statement import.

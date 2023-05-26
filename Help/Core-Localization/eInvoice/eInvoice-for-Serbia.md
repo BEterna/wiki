@@ -136,6 +136,7 @@ Prepayment eInvoices are subject to the same procedures and actions as FTIs or S
 3.	After confirming, subsequent eInvoices are created with a "Not Ready" status.
 Proceed with the same procedures and actions as described in the chapters above.
 
+
 #**Test cases**
 ________________________________________
 1. Standard discounts can be used on Invoices and are calculated to fit eFaktura portal logic by using standard fields (Quantity, Unit price, Discount, Discount percent, Total discount) in the XML files. Check [**Test scenarios for Discounts**](/.attachments/Test-scenarios-Discounts-8fafc905-8abd-4f20-b4cd-1057cddbdfce.zip)
