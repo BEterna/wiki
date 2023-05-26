@@ -1,6 +1,9 @@
 This topic provides country/region-specific information about setting up, creating, and exporting data for Individual VAT reporting to comply with Serbian legislation. Individual VAT reporting data can be generated for the following document types:
 - Vendor invoice (only for Individual VAT)
 
+Supported providers:
+- RS: Ministry of Finance eFaktura
+
 #**Setup**
 ________________________________________
 **Export format configuration**
