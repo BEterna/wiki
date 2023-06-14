@@ -38,6 +38,7 @@ First make sure, that BE-terna localization ER configurations are imported. In c
 Open Electronic reporting formats setup in General ledger > General ledger parameters > BE-terna localization. To generate PDV form, electronic reporting formats need to be configured first. Two formats are available for PDV form: 
    - (1) PDVXmlFormatVer8 electronic reporting format is used to report Sales tax transactions up to (including) 31.12.2014 
    - (2) PDVXmlFormatVer9 electronic reporting format is used to report Sales tax transactions from (including) 1.1.2015 
+   - (3) PDVXmlFormatVer10 electronic reporting format is used to report Sales tax transactions from (including) 1.1.2023 
 
 ## **Generate VAT statement (PDV form)** 
 ----
