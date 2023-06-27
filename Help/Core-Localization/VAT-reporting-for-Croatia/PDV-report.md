@@ -27,7 +27,7 @@ When generating XML, it is mandatory to report **responsible person** for the pr
 The generation of reports is based on reporting codes. Reporting code carries information about which field the transaction will be recorded in. 
 
 1. Open **Tax > Setup > Sales tax > Sales tax reporting codes**:
-   - Enter the list of **reporting codes for Croatia** [Sales tax reporting codes_HR.zip](/.attachments/Sales%20tax%20reporting%20codes_HR-3add9eb0-1edb-4655-b0b0-6db768d218ca.zip). Reporting codes can also be imported using Excel add-in. 
+   - Enter the list of **reporting codes for Croatia** [Sales tax reporting codes_HR.zip](/.attachments/Sales%20tax%20reporting%20codes_HR-7f836b08-0457-4e4e-a33e-7696dc8bda3f.zip) Reporting codes can also be imported using Excel add-in. 
 2. Open **Tax > Indirect taxes > Sales tax > Sales tax codes**:
    - VAT reports are generated according to the setup of sales tax reporting codes on sales tax codes.  
 
@@ -38,6 +38,7 @@ First make sure, that BE-terna localization ER configurations are imported. In c
 Open Electronic reporting formats setup in General ledger > General ledger parameters > BE-terna localization. To generate PDV form, electronic reporting formats need to be configured first. Two formats are available for PDV form: 
    - (1) PDVXmlFormatVer8 electronic reporting format is used to report Sales tax transactions up to (including) 31.12.2014 
    - (2) PDVXmlFormatVer9 electronic reporting format is used to report Sales tax transactions from (including) 1.1.2015 
+   - (3) PDVXmlFormatVer10 electronic reporting format is used to report Sales tax transactions from (including) 1.1.2023 
 
 ## **Generate VAT statement (PDV form)** 
 ----

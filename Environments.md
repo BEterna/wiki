@@ -1,4 +1,4 @@
-**Links to active Enviroments**
+**Links to active Environments**
 
 |**Version**  | **Link** |**AXC file** | **Automation** |
 |--|--|--|--|

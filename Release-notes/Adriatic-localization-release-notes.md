@@ -1,6 +1,12 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_#10.0.0.2023062601
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|Intrastat enhancements (SI,HR)|Country/region specifics for SI and HR removed on button Transfer in Intrastat form due to Microsoft change in version 10.0.34|Dependency update|
+____
 ## Release AdLocalization_#10.0.0.2023060501
 ### Localization core
 |Area|Description|Type|
