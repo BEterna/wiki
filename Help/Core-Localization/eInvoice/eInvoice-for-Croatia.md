@@ -59,15 +59,20 @@ Not yet supported for Croatian localization.
 ### **Customer setup**
 
 1. Open **Accounts receivable > Customers > All Customers**.
-2. Define “**Profile ID**” from eInvoice parameters in tab Invoice and delivery on the customer.
-1. Define **Default business process for invoice** for cases where a customer uses a different business process for invoices than the one already defined on Electronic invoice parameters. In the case that some customer should use different business processes for different invoices this can be defined directly on a document.
-1. Define **Default business process for credit note** for cases where a customer uses a different business process for credit notes than the one already defined on Electronic invoice parameters. In the case that some customer should use different business processes for different credit notes this can be defined directly on a document.
+1. Enable **eInvoice attachment** field if visualization for eInvoice needs to be included in XML
+2. Define “**Profile ID**” from eInvoice parameters in the tab Invoice and delivery on the customer.
+1. Define **Business unit** for the Order account if XML needs to include additional customer identification in the following examples:
+   - If the Invoice account is different from the Order account and XML needs to have information about the business unit for the Order account
+   - If the Order account is the same as the Invoice account but XML needs to have additional information about the business unit for the Order account
+1. Define **Default business process for invoice** for cases where a customer uses a different business process for invoices than the one already defined on Electronic invoice parameters. In the case that some customers should use different business processes for different invoices this can be defined directly on a document.
+1. Define **Default business process for credit note** for cases where a customer uses a different business process for credit notes than the one already defined on Electronic invoice parameters. In the case that some customers should use different business processes for different credit notes this can be defined directly on a document.
 3. Enter **OIB** for the customer - Information is needed when eInvoice is generated.
    - on Invoice and delivery tab > field OIB or
    - on Registration ID's > OIB. Information is needed when eInvoice is generated.<br>  _Note: priorities described in [Additional identification numbers](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Additional-identification-numbers)_
 4. Define **primary contact** for the customer:
-   - Add new contact for the customer and define primary email address which will be used for eInvoices
-   - On Sales demographics tab choose defined contact for the customer
+   - Add new contact for the customer and define the primary email address which will be used for eInvoices
+   - On the Sales demographics tab choose the defined contact for the customer
+1. Define **address** for customer
 
 ### **Legal entity setup**
 1.	Open **Organization administration > Organizations > Legal entities**.
@@ -81,7 +86,9 @@ Not yet supported for Croatian localization.
 3.	Under tab Overview, enter code eRacun and enable option Standard code
 4.	Under tab Value, enter code used for eInvoices for the selected unit of measure (aligned with UN/ECE Recommendation 20)
 
-
+**Posting invoices**
+1. If **Reference to Agreement** needs to be used on eInvoice use field **Customer reference**. Customer reference field can be found on Sales order header or Free text invoice header. If project invoices are used, customer reference field should be entered on Project contract under Details on Funding sources.  
+1. Define **Business unit** on invoice in the case that an invoice should have a specific business unit different from the default busniness unit defined on Electronic invoice parameters or the default business unit defined on the customer card.
 
 ## **eInvoice registry**
 ---
