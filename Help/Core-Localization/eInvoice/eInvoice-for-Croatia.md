@@ -19,13 +19,26 @@ Click “Browse” and choose the configuration files (be sure to upload the “
    - Sales Credit Note HR,
    - Sales invoice HR.
   
+### **Business processes setup**
+1. To define possible business processes open **Accounts receivable > Setup > Croatia > E-Invoices > Business processes**.
+1. Create needed business processes:
+   - **Business process id**: Define the exact code used to identify the type of invoice
+   - **Description**: Enter a description of a business process 
+   - **Enabled for invoice**: Set yes if the business process should be used for invoices
+   - **Enabled for credit note**: Set yes if the business process should be used for credit notes
+
+Please note that at least two business processes need to be created, one for invoices and one for credit notes. If all business processes need to be open, use the following Excel as help for the setup [Business processes_ProfileID.xlsx](/.attachments/Business%20processes_ProfileID-0c904e70-3ffa-4b82-b36a-160d328b9a65.xlsx)
+
+
 ### **Electronic invoice parameters**
 
 1. Open **Accounts receivable > Setup > Croatia > E-Invoices > Electronic invoice parameters**.
 2. General eInvoice parameters are set up under tab “General”, such as:
    - **Automatic sending of eInvoices**: enable to automatically download eInvoice after XML is created
-   - **Default unit of measure**: Default unit of measure for eInvoice if value is empty on source entity 
-   - **Download eInvoice as archive**: with this function ZIP file will be generated with eInvoice files (invoice and customized visualization). Important: visualization of the document is not part of this localized feature and needs to be implemented during project implementation).
+   - **Default unit of measure**: Default unit of measure for eInvoice if a value is empty on source entity 
+   - **Default business process for invoices**: Define the default business process for the invoice that is commonly used for all customers. In the case that some customer use different business processes for invoices this can be defined directly on customer card.  
+   - **Default business process for credit notes**: Define the default business process for the credit notes that is commonly used for all customers. In the case that some customer use different business processes for credit notes this can be defined directly on customer card. 
+   - **Download eInvoice as archive**: with this function, ZIP file will be generated with eInvoice files (invoice and customized visualization). Important: visualization of the document is not part of this localized feature and needs to be implemented during project implementation).
    - **Memorandum information**
    - **Signature options** (Not yet supported for Croatian localization)
 3. In the “Profile” section create Profile ID and choose adequate Electronic reporting configurations:
@@ -47,6 +60,8 @@ Not yet supported for Croatian localization.
 
 1. Open **Accounts receivable > Customers > All Customers**.
 2. Define “**Profile ID**” from eInvoice parameters in tab Invoice and delivery on the customer.
+1. Define **Default business process for invoice** for cases where a customer uses a different business process for invoices than the one already defined on Electronic invoice parameters. In the case that some customer should use different business processes for different invoices this can be defined directly on a document.
+1. Define **Default business process for credit note** for cases where a customer uses a different business process for credit notes than the one already defined on Electronic invoice parameters. In the case that some customer should use different business processes for different credit notes this can be defined directly on a document.
 3. Enter **OIB** for the customer - Information is needed when eInvoice is generated.
    - on Invoice and delivery tab > field OIB or
    - on Registration ID's > OIB. Information is needed when eInvoice is generated.<br>  _Note: priorities described in [Additional identification numbers](/Help/Core-Localization/Company,-Customer-and-Vendor-identification-numbers/Additional-identification-numbers)_
