@@ -2,6 +2,14 @@
 [[_TOC_]]
 
 ___
+### 10.0.20230706.01
+|Suite|Description|Type|
+|---|---|---|
+|Bank statements|Security fix for button "Change booking date" in bank statement form|Bug fix|
+|Compensations|Updated link on voucher field for customer and vendor transactions in the Compensation form. By clicking the voucher value, user is redirected to a new form showing the selected voucher transactions.|Bug fix|
+|Compensations|New button added for customer and vendor transactions in the Compensation form for viewing the selected customer or vendor transaction. By clicking the button "Go to customer transaction" or "G to vendor transaction", user is redirected to a new form showing the selected customer or vendor transaction.|New feature|
+
+___
 ### 10.0.20230626.01
 |Suite|Description|Type|
 |---|---|---|

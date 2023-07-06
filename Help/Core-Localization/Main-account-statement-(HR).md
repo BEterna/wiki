@@ -28,7 +28,7 @@ Izvor: Zakon o računovodstvu NN 78/15, 134/15,120/16: Članak 12., Točka 9.
 2. By clicking on the “OK” button, statement is generated
 3. Report can also be accessed from General ledger - Ledger reports - Ledger transaction list.
 
-_NOTE: Users will be forced to tun the report in batch when the selected period will exceed 31 days._
+_NOTE: Users will be forced to run the report in batch when the selected period will exceed 31 days._
 
 _NOTE: The product functionality is based on standard Microsoft D365FO framework (used for Dimension statement report). As Microsoft disabled the ability to run this kind of reports when the selected period is larger than 31 days, there is possibility that even when running the Main account statement in batch it could end in unsuccessful result. In such cases, the approach based on exporting data via data entities and prepare a BI report outside D365FO, must be used)._
 
