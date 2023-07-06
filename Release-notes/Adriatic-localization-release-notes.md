@@ -1,6 +1,14 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_##10.0.0.2023070601
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|VAT reporting for Serbia|Individual VAT reporting xml data structure update according to changes made by RS Ministry of Finance|New feature|
+|Main account statement (HR)|Totals for column Amount in accounting currency are added to the report|New feature|
+
+____
 ## Release AdLocalization_#10.0.0.2023062601
 ### Localization core
 |Area|Description|Type|
