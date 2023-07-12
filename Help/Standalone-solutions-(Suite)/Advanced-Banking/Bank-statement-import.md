@@ -59,7 +59,7 @@ First, you must define the bank statement format processing group for HalcomSI b
 10.	For sequence number 1, click **Upload file**, and select the **Halcom_SI.xslt** file that you saved earlier.
 11.	Click **Apply transforms**
 
-Transformations for the supported formats can be found on [**this link**](https://ad365o.visualstudio.com/AdSuite/_versionControl?path=%24%2FAdSuite%2FBankStatements%2FMain%2F10%2FMetadata%2FAdactaSuiteBankStatements%2FAdactaSuiteBankStatements%2FAxResource%2FResourceContent%2FData). 
+Transformations for the supported formats can be found on [**this link**](https://erp-releases.be-terna.com/b/adaxreleases?path=adsuite%2f10.0%2fAdSuiteBankStmt-Transformations%2f). 
 
 After the format processing group is set up, the next step is to define the **bank statement format** rules for HalcomSI bank statements.
 1.	Go to **Cash and bank management > Setup > Advanced bank reconciliation setup > Bank statement format**.
@@ -88,7 +88,7 @@ First, you must define the bank statement format processing group for FINA bank 
 11.	For sequence number 2, click **Upload file**, and select the **FINA_XMLToRecon_HR.xslt** file that you saved earlier.
 12.	Click **Apply transforms**
 
-Transformations for the supported formats can be found on [**this link**](https://erp-releases.be-terna.com/b/adaxreleases?path=adsuite/10.0/AdSuiteBankStmt/Transformations). 
+Transformations for the supported formats can be found on [**this link**](https://erp-releases.be-terna.com/b/adaxreleases?path=adsuite%2f10.0%2fAdSuiteBankStmt-Transformations%2f). 
 
 After the format processing group is set up, the next step is to define the **bank statement format** rules for FINA bank statements.
 1.	Go to **Cash and bank management > Setup > Advanced bank reconciliation setup > Bank statement format**.
@@ -117,7 +117,7 @@ First, you must define the bank statement format processing group for HalcomRS b
 11.	For sequence number 2, click **Upload** file, and select the **Halcom_XMLToRecon_RS.xslt** file that you saved earlier.
 12.	Click **Apply transforms**
 
-Transformations for the supported formats can be found on [**this link**](https://ad365o.visualstudio.com/AdSuite/_versionControl?path=%24%2FAdSuite%2FBankStatements%2FMain%2F10%2FMetadata%2FAdactaSuiteBankStatements%2FAdactaSuiteBankStatements%2FAxResource%2FResourceContent%2FData). 
+Transformations for the supported formats can be found on [**this link**](https://erp-releases.be-terna.com/b/adaxreleases?path=adsuite%2f10.0%2fAdSuiteBankStmt-Transformations%2f). 
 
 After the format processing group is set up, the next step is to define the **bank statement format** rules for HalcomRS bank statements.
 1.	Go to **Cash and bank management > Setup > Advanced bank reconciliation setup > Bank statement format**.
@@ -147,7 +147,7 @@ First, you must define the bank statement format processing group for AssecoRS b
 10.	For sequence number 1, click **Upload file**, and select the **Asseco_RS.xslt** file that you saved earlier.
 11.	Click **Apply transforms**
 
-Transformations for the supported formats can be found on [**this link**](https://ad365o.visualstudio.com/AdSuite/_versionControl?path=%24%2FAdSuite%2FBankStatements%2FMain%2F10%2FMetadata%2FAdactaSuiteBankStatements%2FAdactaSuiteBankStatements%2FAxResource%2FResourceContent%2FData). 
+Transformations for the supported formats can be found on [**this link**](https://erp-releases.be-terna.com/b/adaxreleases?path=adsuite%2f10.0%2fAdSuiteBankStmt-Transformations%2f). 
 
 After the format processing group is set up, the next step is to define the **bank statement format** rules for AssecoRS bank statements.
 1.	Go to **Cash and bank management > Setup > Advanced bank reconciliation setup > Bank statement format**.
