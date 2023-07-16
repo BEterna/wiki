@@ -2,9 +2,9 @@ Item consumption from company’s own inventory to a project can happen in diffe
 
 Prevention of item consumption from inventory to a project in the procurement process can be configured on Project group (for project) and/or on Item model group (for item). 
 
-![image.png](/.attachments/image-11365b9e-06d1-4522-9bc4-c5084f349ab1.png)
+![PreventIC01.jpg](/.attachments/PreventIC01-c3b0cec6-631c-4505-add0-2a813afc1946.jpg)
 
-![image.png](/.attachments/image-827f092a-feea-4de6-86a5-a677c5e48ab0.png)
+![PreverntIC02.jpg](/.attachments/PreverntIC02-475d2040-7078-483e-81b9-a5e04fde0a44.jpg)
 
 Logic is based on combination of both options, which is explained in the following table for different scenarios. If both options are set to No, the out-of-the-box D365FO logic applies.
 
