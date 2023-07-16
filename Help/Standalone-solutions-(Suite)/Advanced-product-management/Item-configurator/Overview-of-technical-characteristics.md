@@ -1,0 +1,5 @@
+Values are displayed based on the serial or batch number. View attribute values for registered technical characteristics for an item through:
+- **Item transactions**: new button _Technical characteristics_ has been added to the item transactions form; navigate to _Action pane > Inventory > View > Technical characteristics_ (button is available for each serial/batch number so serial and/or batch number display dimensions must be enabled). A new window opens where all attribute values are displayed. 
+- **On-hand inventory**: new button _Technical characteristics_ has been added to the _On-hand inventory > Action pane > View tab_. The button is available for each serial/batch number so so serial and/or batch number display dimensions must be enabled. A new window opens where all attribute values are displayed. . 
+ 
+Technical attributes that were added upon product registration can be edited from item transactions or on-hand inventory with the following roles: Receiving clerk, Project manager, Buying agent. 
