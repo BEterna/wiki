@@ -5,7 +5,7 @@ Utilities Infrastructure management (_UIM_) is a vertical solution created on Mi
 
 UIM combines a set of integrated functionalities for the following business process areas:
 - **Investment management**,
-- **Asset management**,
+- **Fixed assets management**,
 - **Public procurement and procurement enhancements**,
 - **Inventory management**,
 - **Loan and deposit management**.
@@ -19,20 +19,21 @@ In addition to that, it provides the integration layers for:
 ---
 
 **[Investment management](/Help/Standalone-solutions-\(Suite\)/Investment-management)**
--	Project numbering per project groups
--	Investment project hierarchy
--	Project financing types
--	Project purpose
--	Project allocation tracking dimension
--	Technical assets (in relation with Projects and Fixed assets)
--	Item requirements automatic processing and shipping optimization
--	Project activation proposal
+- Project numbering per project groups
+- Investment project hierarchy
+- Project financing types
+- Project purpose
+- Project allocation tracking dimension
+- Technical assets (in relation with Projects and Fixed assets)
+- Item requirements automatic processing and shipping optimization
+- Project activation proposal
+- Investment integration layer
 
 **[Fixed asset management](/Help/Standalone-solutions-\(Suite\)/Fixed-assets-management)**
--	Physical locations 
--	Mass asset lending
--	Asset counting
--	Asset partial disposing
+- Physical locations 
+- Mass asset lending
+- Asset counting
+- Asset partial disposing
 - Low value assets
  
 **[Public procurement](/Help/Standalone-solutions-\(Suite\)/Public-Procurement)**
@@ -42,7 +43,7 @@ In addition to that, it provides the integration layers for:
 - Certificates
 - Automatic generation of output documents
 
-**[Procurement enhancements](/Help/Procurement-enhancements)**
+**[Procurement enhancements](/Help/Standalone-solutions-\(Suite\)/Procurement-enhancements)**
 - Purchase requisition and request for quotation enhancements
   - Allow change of purchase type
   - Auto approve the purchase requisition
@@ -56,21 +57,15 @@ In addition to that, it provides the integration layers for:
   - Assign subcontractor
 - Vendor invoice workflow enhancements
 
-**[Advanced product management](/Help/Advanced-product-management)**
--	Item configurator
+**[Advanced product management](/Help/Standalone-solutions-\(Suite\)/Advanced-product-management)**
+- Item configurator
 - E-product receipt 
 
-**[Loan and deposit management](/Help/Loan-and-deposit-management)**
--	Loans registration and calculation
--	Accruals calculation
-
-**[Investment integration layer](/Help/Investment-management-%2D-integration)**
--	Project interface
--	Project requirements interface (materials, services)
--	Project consumption interfaces (materials, labour, expenses)
--	Inventory on-hand interfaces
+**[Loan and deposit management](/Help/Standalone-solutions-\(Suite\)/Loans-and-deposits)**
+- Loans registration and calculation
+- Accruals calculation
 
 **Document management integration layer**
--	Vendor invoice interface
--	Document workflow interface
--	Document archiving process
+- Vendor invoice interface
+- Document workflow interface
+- Document archiving process
