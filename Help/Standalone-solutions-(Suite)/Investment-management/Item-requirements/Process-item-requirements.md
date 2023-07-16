@@ -81,6 +81,7 @@ Available inventory is in following warehouses and locations that are not the sa
 ![procesIR06.jpg](/.attachments/procesIR06-15be6fe1-aa7a-4c6b-a287-169d8f6afebe.jpg)
 
 Item requirement contains different receiving WHS (66) and consumption WHS (77) for the quantity of 5.
+
 ![procesIR07.jpg](/.attachments/procesIR07-976a1c2e-79d2-4745-9de5-7bb394646ce3.jpg)
 
 ![procesIR08.jpg](/.attachments/procesIR08-9e42f9c4-ad70-45a6-bc21-e2e358f04e52.jpg)
