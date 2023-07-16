@@ -1,0 +1,3 @@
+The UIM product provides overview of all shipments that have been generated via the Process item requirement job in the **Generated shipment** form. With this list, storekeepers have overview of all shipments from their warehouses to be either spent on the project or sent to another warehouse. 
+
+Following chapters provide detailed description on automatically created Generated shipments out of item requirements.
