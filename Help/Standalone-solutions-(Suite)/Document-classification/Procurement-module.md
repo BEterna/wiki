@@ -14,7 +14,7 @@ Tag combination value column, which is available for filtering, is **added to th
 
 # Tag transfer between documents 
 ---
-Tags are transferred from existing purchase document(s) to a new one upon document creation. If one purchase document that contains tags is used to create another (1:1 relation), all tags are transferred to a newly created document. If the relation is n:1 (multiple documents are combined to create a new document), transfer of tags follows the selected option in the procurement setup from chapter [Transfer setup](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/13/Document-classification?anchor=transfer-setup-for-procurement-documents) (union of tags or no union). 
+Tags are transferred from existing purchase document(s) to a new one upon document creation. If one purchase document that contains tags is used to create another (1:1 relation), all tags are transferred to a newly created document. If the relation is n:1 (multiple documents are combined to create a new document), transfer of tags follows the selected option in the procurement setup from chapter [Transfer setup](/Help/Standalone-solutions-\(Suite\)/Document-classification#transfer-setup-for-procurement-documents) (union of tags or no union). 
 
 Possibilities of tag transfer between purchase documents:
 - PR > PO (1:1) – transfer of all tags
