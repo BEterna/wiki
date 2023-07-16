@@ -33,9 +33,9 @@ Navigate to _Procurement and sourcing > Setup > Procurement and sourcing paramet
 Tags can be added to documents using button **Manage tags** in the Action pane. New dialog window opens where Tag value can be selected for each added Tag type. Once saved, the tag values for each type are displayed in the **Tag combination value** field in the document detail header, using reporting values. Separator between tag types is pipe sign: **|**.
 
 For usage of tags in respective modules, see the following pages:
-- [Procurement module](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/50/Procurement-module?anchor=tags-on-procurement-documents)
-- [Project module](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/52/Project-module?anchor=tags-on-project-documents)
-- [Fixed assets module](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/54/Fixed-assets-module?anchor=tags-on-documents-in-fixed-assets-module)
+- [Procurement module](/Help/Standalone-solutions-\(Suite\)/Document-classification/Procurement-module)
+- [Project module](/Help/Standalone-solutions-\(Suite\)/Document-classification/Project-module)p/sta)
+- [Fixed assets module](/Help/Standalone-solutions-\(Suite\)/Document-classification/Fixed-assets-module)
 
 # Availability of tags in workflow configurations
 
