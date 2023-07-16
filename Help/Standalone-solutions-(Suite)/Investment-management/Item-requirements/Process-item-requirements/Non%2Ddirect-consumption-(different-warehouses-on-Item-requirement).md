@@ -62,7 +62,7 @@ Picking is automatically done on available dimensions, which is in our case:
 
 ![NDCons14.jpg](/.attachments/NDCons14-a8384490-1750-4d0f-8a01-d8ae55137d66.jpg)
 
-Shipping and receiving of TO is done out of generated shipment by posting shipments as explained in the [Process item requirements](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/94/Process-item-requirements) and in the [Generated shipments](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/102/Generated-shipments) chapters. Note: If item will in meantime become available in stock, new picking list registration will be generated for the same TO line.
+Shipping and receiving of TO is done out of generated shipment by posting shipments as explained in the [Process item requirements](/Help/Standalone-solutions-\(Suite\)/Investment-management/Item-requirements/Process-item-requirements) and in the [Generated shipments](/Help/Standalone-solutions-\(Suite\)/Investment-management/Item-requirements/Generated-shipments) chapters. Note: If item will in meantime become available in stock, new picking list registration will be generated for the same TO line.
 
 When posting shipment from the Generated shipments form, TO will be automatically shipped and received on consumption (terrain) warehouse and default receipt location (if location dimension is required per item). Items are picked on Consumption warehouse after posting Generated shipment.
 
