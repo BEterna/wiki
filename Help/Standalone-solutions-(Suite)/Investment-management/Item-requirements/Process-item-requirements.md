@@ -1,0 +1,125 @@
+With Investment management package, the Process item requirements job is available that can run on server, e.g. each hour. This job is processing item requirements (IR) for items (excluding service items) that are required for a project on a construction site or from a mobile warehouse. The job handles creation of TO, if warehouses on item requirements differ, and it automatically generates picking lists (shipments) along with picking list registrations when items are available in inventory.
+
+The job will process only item requirements that are covered in corresponding date range. For this purpose, the additional ‘Item requirements processing lead time’ field is available in the Default order settings form on item:
+
+![image.png](/.attachments/image-7ccf091d-28a1-4504-98fc-b2470990f331.png)
+![image.png](/.attachments/image-792c4d0d-6f69-43cc-8edf-e19f8fb5f9fb.png)
+ 
+Rules regarding Item requirements processing lead time are following:
+- If this field is set to 0, IR will be processed. 
+
+- If today’s date is:
+   - Equal to or higher than Requested receipt date on item requirement - IR processing lead time, the job will process such item requirement. 
+   - Less than Requested receipt date on item requirement - IR processing lead time, the job will not process such item requirement.
+- Example of use:
+   - IR processing lead time on item is set to 5
+   - Requested receipt date on IR is set to 10.1.2020
+   - Today’s date is:
+      - 4.1.2020 – Process IR job will not process such IR
+      - 5.1.2020 – Process IR job will process such IR
+      - 6.1.2020 – Process IR job will process such IR
+      - 11.1.2020 – Process IR job will process such IR
+
+Job will also skip service items if item requirements would include such items. Example of error message is shown in the following image.
+
+![image.png](/.attachments/image-a4e69d7b-8511-4659-b2e1-c4da77d14912.png)
+
+Picking route status must be set to Activated (please refer to the [Setup – Picking route status](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/90/Setup?anchor=picking-route-status) chapter) for the job to be able to do automatic picking. If either of these parameters is set to Completed, error appears when running the Process item requirements job:
+
+![image.png](/.attachments/image-2bce64ae-3dad-49fe-9067-898864d9204d.png) 
+
+Before we dive into examples of project consumption, automatic picking of items from warehouses should be explained. Rules for automatic picking list registration of items via item requirements (generated shipments) depend on whether: 
+- project is assigned to a specific project allocation (PA) including hierarchy (i.e. implementation projects) 
+- additional tracking dimensions are set on item requirement. For example, project manager could require an item with exactly specified serial number, consequently picking for an item requirement cannot be done, if the same item is in stock with another serial number.
+
+**Example for automatic picking of items**
+
+Project ‘A’ is associated with PA ‘A’, project ‘B’ is associated to PA ‘B’ and another PA ‘G’ is defined in code list with no project associated to it. 
+
+| Project ID | Project allocation |
+|--|--|
+| A | A |
+| B| B |
+| - | G |
+
+In this example, an item is available in stock on following tracking and storage dimensions:
+
+| Quantity | Site | Warehouse | Project allocation | Batch number |Project allocation description|
+|--|--|--|--|--|--|
+|1 |6  |66  |A  |X  | Item is available for project A. |
+|1 |6  |66  | A | Y |  Item is available for project A.|
+|1 |6  |66  |  G|  X| Item is available for any project. |
+|1 |6  | 66 |  B|  Y| Item is available for project B. |
+
+Let’s say that we require 4 pieces of this item for project ‘A’ and defined dimensions on item requirement are: 
+- site ‘6’
+- warehouse ‘66’
+- PA ‘A’
+
+With available inventory, automatic picking of 3 pieces of item will be done as follows:
+-	1 piece: 6 – 66 – A – X
+-	1 piece: 6 – 66 – A – Y
+-	1 piece: 6 – 66 – G – X
+
+Let’s now say that we require 4 pieces of this item for project ‘A’ and defined dimensions on item requirement are: 
+-	site ‘6’
+-	warehouse ‘66’
+-	PA ‘A’
+-	batch number ‘X’
+
+With available inventory, automatic picking of 2 pieces of item will be done as follows:
+-	1 piece: 6 – 66 – A – X
+-	1 piece: 6 – 66 – G – X
+
+# Item requirements processing
+---
+If item is being tracked also on a location, default receipt (for transfer order) and issue location (for posting IR) must be specified on warehouses for the use of auto receive through transfer orders. In the next sample, we will be using WHS 77 for Terrain warehouse, from which we will be consuming items to a project.
+
+![procesIR01.jpg](/.attachments/procesIR01-1abd6232-024c-471b-aac0-d2e11caaefee.jpg)![procesIR02.jpg](/.attachments/procesIR02-444c21fc-075b-4372-af5c-af87a8768396.jpg)
+
+Available inventory is in following warehouses and locations that are not the same as Terrain WHS.
+
+![procesIR03.jpg](/.attachments/procesIR03-f08542e2-20be-4d41-9c70-230c088afcc7.jpg)
+
+Item requirement contains different receiving WHS (66) and consumption WHS (77) for the quantity of 5.
+![procesIR04.jpg](/.attachments/procesIR04-d250c9a2-0af9-47aa-afa3-b4e9401a35a7.jpg)
+
+![procesIR05.jpg](/.attachments/procesIR05-5b6b690a-b518-4118-8aa9-4b309773ea87.jpg)
+
+The Process IR job automatically generates new TO with picking in WHS 66. New shipments are available in the Generated shipments overview.
+
+![procesIR06.jpg](/.attachments/procesIR06-5d54e1a4-97f4-4c41-a92b-f3e89fc3ae4c.jpg)
+
+In the next step, the Post shipment action in the Generated shipments overview transfers items from a WHS 66 to a WHS 77 on a default receipt location and picks available items in WHS 77 for this IR.
+
+![procesIR07.jpg](/.attachments/procesIR07-9b15aaa2-1aff-4408-953c-862b0a275edc.jpg)
+
+Quantity of 5 on IR is now picked and TO has been processed (shipped and received through a transit WHS). Inventory transactions are picked on a default receipt location in a WHS 77.
+![procesIR08.jpg](/.attachments/procesIR08-fd3415c0-765f-4fba-afae-d09f208fcebd.jpg)
+
+![procesIR09.jpg](/.attachments/procesIR09-e1ec7c9d-b022-47f7-bb51-661c47952b4d.jpg)
+
+On-hand overview shows no available quantity as all pieces have been picked and are therefore meant to be consumed from inventory to a project through IR.
+
+![procesIR10.jpg](/.attachments/procesIR10-14dc0f60-78df-4933-877b-e676f6c0f59a.jpg)
+
+Inventory transactions for this item before posting packing slip on IR are following:
+1.	Lines marked under number 1 are beginning transactions for quantity that was available in inventory.
+2.	Lines marked under number 2 are transactions for items picked in WHS 66 and received in transit WHS 27.
+3.	Lines marked under number 3 are transactions for items picked in transit WHS 27 and received in WHS 77 in Default receive location (the same as auto-receive option for TOs in standard solution).
+4.	Lines marked under number 4 are transactions for items picked on item requirement.
+
+![procesIR11.jpg](/.attachments/procesIR11-af54e9ba-f9de-4499-948c-41bea4f90743.jpg)
+
+The next step is posting packing slip on IR, which posts consumption on a project. The quantity of 5 will be delivered after posting.
+
+![procesIR12.jpg](/.attachments/procesIR12-3a26eb11-f6c6-456c-9531-a2cd4976fe34.jpg)
+
+![procesIR13.jpg](/.attachments/procesIR13-67aee1bd-1d01-4505-8899-356c07ace324.jpg)
+Issue inventory transactions for this item after posting packing slip on IR are now in status Sold for WHS 77 and default issue location.
+
+![image.png](/.attachments/image-02466b6d-81e5-4c85-bd4b-0bfec664be33.png)
+
+On hand overview after posting consumption from inventory to a project shows no lines.
+
+![image.png](/.attachments/image-7f606eae-d19b-4d20-ad74-0a152eba944b.png)
