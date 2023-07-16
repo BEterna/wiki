@@ -8,4 +8,4 @@ This warehouse must not be included in master planning warehouse configuration (
  
 All warehouses to which we are receiving items through Generated arrivals form must have default receipt location specified, if items are being tracked also by location.
 
-![Items (3).png](/.attachments/Items%20(3)-296b25a6-f14d-46d2-a8a4-d0aeade06647.png)
+![Items (2).png](/.attachments/Items%20(2)-17684af2-3393-4663-96b4-e4e818d2a864.png)
