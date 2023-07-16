@@ -77,3 +77,5 @@ For implementing specific integration scenarios that cannot be covered by using 
 - Inventory state (state of current inventory)
 - Asset values
 
+
+Check [Postman collection examples](https://documenter.getpostman.com/view/11980146/2s946feDLt).
