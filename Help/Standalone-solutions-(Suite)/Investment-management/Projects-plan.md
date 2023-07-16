@@ -4,7 +4,7 @@ Purpose of the Projects plan report is to provide consolidated data about projec
 
 #Setup 
 ---
-Projects plan report shows the amounts based on three different setups previously described in this section: P[rojects linking](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/85/Enhancements-for-projects?anchor=projects-linking), [Project allocations](/Help/Standalone-solutions-\(Suite\)/Investment-management/Project-allocation) and [Project category mapping](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/85/Enhancements-for-projects?anchor=project-category-mapping). 
+Projects plan report shows the amounts based on three different setups previously described in this section: [Projects linking](/Help/Standalone-solutions-\(Suite\)/Investment-management/Enhancements-for-projects#projects-linking), [Project allocations](/Help/Standalone-solutions-\(Suite\)/Investment-management/Project-allocation) and [Project category mapping](/Help/Standalone-solutions-\(Suite\)/Investment-management/Enhancements-for-projects#project-category-mapping). 
 
 ##Projects linking
 When two separate project hierarchies are used for implementation and investment projects, implementation project transactions amounts are shown on the investment project based on the Projects linking. 
@@ -20,7 +20,7 @@ Rules for displaying implementation project transaction amounts on investment pr
 Project allocations setup for Projects plan works in combination with Projects linking setup. Projects linking will not allow linking one implementation project with two investment projects that are part of different project allocations. In case that such linking is attempted, following error message appears: _Implementation project "XY" is already assigned to project allocation "YX"._
 
 ##Project category mapping
-Implementation project transaction amounts are mapped to project categories based on the Project category mapping explained in [Project category mapping](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/85/Enhancements-for-projects?anchor=project-category-mapping). 
+Implementation project transaction amounts are mapped to project categories based on the Project category mapping explained in [Project category mapping](/Help/Standalone-solutions-\(Suite\)/Investment-management/Enhancements-for-projects#project-category-mapping). 
 
 # Projects plan report 
 ---
