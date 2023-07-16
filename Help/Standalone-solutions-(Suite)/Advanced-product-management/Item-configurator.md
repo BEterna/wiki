@@ -1,6 +1,3 @@
-# Item configurator 
----
-Item configurator is part of UIM solution, _Adacta Suite Product and Inventory Management_. 
 
 With item configurator functionality, items with a specific unique automatically generated name and list of required technical characteristics can be created using procurement categories and product attributes. Upon product creation through item configurator, the system generates item name, using the combination of procurement category and required attribute values. It also validates if any other item with the same combination of procurement category and attribute values already exists and prevents the creation of duplicated items. With the item configurator, the process of creating new items is standardized, simplified and efficient. 
 
