@@ -1,5 +1,6 @@
 If storekeeper has to post only part of picked quantity within the same shipment and for the remaining quantity, he would like to post it at a later time, he can follow next steps:
 1. In the Picking routes form, he can split lines if only part of quantity should be posted.
+
 ![Items.png](/.attachments/Items-123ebf33-0eee-4ae4-b36b-f3835b390a38.png)
 
 ![Items (1).png](/.attachments/Items%20(1)-c3a5e258-0629-4935-96d1-68465a54a03c.png)
