@@ -1,5 +1,3 @@
-
-##Create a released item
 New fields have been added to the dialogue window of creating a new item:
 - Checkbox **Create from the procurement category**: if marked Yes, the user can select the procurement category from which to create the item.
 - Category drop-down menu, where the user can **select a procurement category**.
@@ -12,8 +10,6 @@ When the user confirms the released item creation:
 - The new item is automatically related to the selected procurement category.
 - The new item has all the defined required attributes.
 
- 
-###Validations
 Validations on released item:
 - The system validates if any other item with the same combination of procurement category and attribute values exists and if such item already exists the functionality prevents user to create item duplicate. 
 - Attributes can not be deleted or edited once on the Released item that was created with the Item configurator functionality. 
