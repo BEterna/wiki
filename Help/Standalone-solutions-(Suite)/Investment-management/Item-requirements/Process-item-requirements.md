@@ -95,6 +95,7 @@ In the next step, the Post shipment action in the Generated shipments overview t
 ![procesIR10.jpg](/.attachments/procesIR10-8238b491-bb93-46ff-beff-e0a02da67892.jpg)
 
 Quantity of 5 on IR is now picked and TO has been processed (shipped and received through a transit WHS). Inventory transactions are picked on a default receipt location in a WHS 77.
+
 ![procesIR11.jpg](/.attachments/procesIR11-58d3f047-ca5f-4ff5-aa87-3b5f40ac1af3.jpg)
 
 ![procesIR12.jpg](/.attachments/procesIR12-c8158256-b0d5-43fb-8816-0d21e4286809.jpg)
@@ -112,6 +113,7 @@ Inventory transactions for this item before posting packing slip on IR are follo
 ![procesIR14.jpg](/.attachments/procesIR14-dce03c85-afce-449f-9070-1076149b2a84.jpg)
 
 The next step is posting packing slip on IR, which posts consumption on a project. The quantity of 5 will be delivered after posting.
+
 ![procesIR15.jpg](/.attachments/procesIR15-1982fe57-6c34-4170-8d39-cc8b5f744910.jpg)
 
 ![procesIR16.jpg](/.attachments/procesIR16-c85e84d6-0467-4ea5-a01b-df65b6927562.jpg)
