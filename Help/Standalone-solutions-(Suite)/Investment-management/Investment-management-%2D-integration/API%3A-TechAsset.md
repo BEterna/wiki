@@ -1,0 +1,3 @@
+Technical assets are stored in D365FO as a code list to be related to other entities (projects, fixed assets) within different processes. TechAsset API creates or updates records in Technical assets table. It can insert records, when Technical assets do not exist yet or update existing records in D365FO. After successful inserts or updates of records in the Technical assets table an output is provided from D365FO to the 3rd party system. When inserts or updates fail, the error message is provided to the 3rd party system.
+
+The technical asset form in D365FO IM package for specific project is located in **Project management and accounting > Projects > Setup > Technical assets > Technical assets**.
