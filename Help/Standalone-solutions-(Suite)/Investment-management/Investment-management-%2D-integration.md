@@ -75,4 +75,5 @@ Updated data entities with Investment management package that include new fields
 For implementing specific integration scenarios that cannot be covered by using Data entities in D365FO, there are custom services available to third party systems:
 - Purchase requisition (insert of header and lines)
 - Inventory state (state of current inventory)
+- Asset values
 
