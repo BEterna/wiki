@@ -1,3 +1,1 @@
-With the e-product receipt functionality, users can import and register receipt of product for multiple orders or lines including values for inventory dimensions on _Purchase order product receipt_ form and on _Arrival overview journal_. 
-
-With the use of Item configurator functionality e-product receipt also supports the _import of technical characteristics_. 
+With the e-product receipt functionality, users can import and register receipt of product for multiple orders or lines including values for inventory dimensions on _Purchase order product receipt_ form and on _Arrival overview journal_. With the use of Item configurator functionality e-product receipt also supports the _import of technical characteristics_. 
