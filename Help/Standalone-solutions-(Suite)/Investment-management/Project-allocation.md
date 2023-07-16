@@ -14,7 +14,7 @@ The code list of project allocations is available in _Inventory management > Set
 
 New project allocation values are created using the button New. Add **Name** and **Description** and establish a relation to a **Project** (select from the drop-down list). A project can only be assigned to project allocation once. The Project allocation field is a unique value and cannot be repeated.
 
-If **Applies to hierarchy** field is marked, the relation of project allocation is valid for all sub-projects of the selected project, as well as for all implementation projects that are linked to investment projects through the Project linking setup. For more details about Project linking, please refer to the [Projects linking](/Help/Standalone-solutions-\(Suite\)/Investment-management/Enhancements-for-projects?) chapter. 
+If **Applies to hierarchy** field is marked, the relation of project allocation is valid for all sub-projects of the selected project, as well as for all implementation projects that are linked to investment projects through the Project linking setup. For more details about Project linking, please refer to the [Projects linking](/Help/Standalone-solutions-\(Suite\)/Investment-management/Enhancements-for-projects??anchor=projects-linking) chapter. 
 
 It is not allowed to relate a subproject to a project allocation if its parent project is already related and has a check-mark in the Applies to hierarchy field.
 
