@@ -2,7 +2,7 @@ Item requirements for a project are used for items that are not necessarily cons
 
 An overall process of item consumption on a project would go like displayed in the image below:
 
-!![ItemRequieremnts.jpeg](/.attachments/ItemRequieremnts-40e697d6-5800-4953-bb3d-f0a3fa2dc7f1.jpeg)
+![ItemRequieremnts.jpeg](/.attachments/ItemRequieremnts-40e697d6-5800-4953-bb3d-f0a3fa2dc7f1.jpeg)
 
 With Investment management package, process of item procurement and consumption can be more automated.  Items differ and can be consequently treated in different ways for project consumption. 
 - **Consumables** (e.g. screws): such items do not require the Project allocation (PA) tracking dimension because they are usually consumed for different projects and are not reserved in stock for a particular project. These items are usually available in stock in main warehouse and can be consumed from a moving warehouse (e.g. truck). When a truck driver comes to pick up consumables from main warehouse, he will transfer these items as needed on different locations per each project. With Investment management package, such items do not require item requirements, instead users can create transfer order (TO) from main warehouse to a moving warehouse and a project member can post item consumption on project via project item journal when consumables are actually consumed on a project.
