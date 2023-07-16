@@ -2,8 +2,7 @@ With Investment management package, the Process item requirements job is availab
 
 The job will process only item requirements that are covered in corresponding date range. For this purpose, the additional ‘Item requirements processing lead time’ field is available in the Default order settings form on item:
 
-![image.png](/.attachments/image-7ccf091d-28a1-4504-98fc-b2470990f331.png)
-![image.png](/.attachments/image-792c4d0d-6f69-43cc-8edf-e19f8fb5f9fb.png)
+![procesIR01.jpg](/.attachments/procesIR01-3d8ab8ba-03ab-4b01-b2d3-b5f76cef53fe.jpg) ![procesIR02.jpg](/.attachments/procesIR02-11d53f1a-cb0b-4495-83e8-1e109191f806.jpg)
  
 Rules regarding Item requirements processing lead time are following:
 - If this field is set to 0, IR will be processed. 
@@ -22,11 +21,11 @@ Rules regarding Item requirements processing lead time are following:
 
 Job will also skip service items if item requirements would include such items. Example of error message is shown in the following image.
 
-![image.png](/.attachments/image-a4e69d7b-8511-4659-b2e1-c4da77d14912.png)
+![procesIR03.jpg](/.attachments/procesIR03-8f379f35-9dec-4f1f-a2d8-bcd22379ac6f.jpg)
 
 Picking route status must be set to Activated (please refer to the [Setup – Picking route status](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/90/Setup?anchor=picking-route-status) chapter) for the job to be able to do automatic picking. If either of these parameters is set to Completed, error appears when running the Process item requirements job:
 
-![image.png](/.attachments/image-2bce64ae-3dad-49fe-9067-898864d9204d.png) 
+![procesIR04.jpg](/.attachments/procesIR04-8b7e2b82-a7cf-49e5-9df6-ba9ffcf30cc8.jpg)
 
 Before we dive into examples of project consumption, automatic picking of items from warehouses should be explained. Rules for automatic picking list registration of items via item requirements (generated shipments) depend on whether: 
 - project is assigned to a specific project allocation (PA) including hierarchy (i.e. implementation projects) 
@@ -75,27 +74,27 @@ With available inventory, automatic picking of 2 pieces of item will be done as 
 ---
 If item is being tracked also on a location, default receipt (for transfer order) and issue location (for posting IR) must be specified on warehouses for the use of auto receive through transfer orders. In the next sample, we will be using WHS 77 for Terrain warehouse, from which we will be consuming items to a project.
 
-![procesIR01.jpg](/.attachments/procesIR01-1abd6232-024c-471b-aac0-d2e11caaefee.jpg)![procesIR02.jpg](/.attachments/procesIR02-444c21fc-075b-4372-af5c-af87a8768396.jpg)
+![procesIR05.jpg](/.attachments/procesIR05-612123d7-028e-4fe6-a4fc-f078f2fae60d.jpg)
 
 Available inventory is in following warehouses and locations that are not the same as Terrain WHS.
 
-![procesIR03.jpg](/.attachments/procesIR03-f08542e2-20be-4d41-9c70-230c088afcc7.jpg)
+![procesIR06.jpg](/.attachments/procesIR06-15be6fe1-aa7a-4c6b-a287-169d8f6afebe.jpg)
 
 Item requirement contains different receiving WHS (66) and consumption WHS (77) for the quantity of 5.
-![procesIR04.jpg](/.attachments/procesIR04-d250c9a2-0af9-47aa-afa3-b4e9401a35a7.jpg)
+![procesIR07.jpg](/.attachments/procesIR07-976a1c2e-79d2-4745-9de5-7bb394646ce3.jpg)
 
-![procesIR05.jpg](/.attachments/procesIR05-5b6b690a-b518-4118-8aa9-4b309773ea87.jpg)
+![procesIR08.jpg](/.attachments/procesIR08-9e42f9c4-ad70-45a6-bc21-e2e358f04e52.jpg)
 
 The Process IR job automatically generates new TO with picking in WHS 66. New shipments are available in the Generated shipments overview.
 
-![procesIR06.jpg](/.attachments/procesIR06-5d54e1a4-97f4-4c41-a92b-f3e89fc3ae4c.jpg)
+![procesIR09.jpg](/.attachments/procesIR09-e6470b0d-da81-4673-b81d-39b4ef4ee701.jpg)
 
 In the next step, the Post shipment action in the Generated shipments overview transfers items from a WHS 66 to a WHS 77 on a default receipt location and picks available items in WHS 77 for this IR.
 
-![procesIR07.jpg](/.attachments/procesIR07-9b15aaa2-1aff-4408-953c-862b0a275edc.jpg)
+![procesIR10.jpg](/.attachments/procesIR10-8238b491-bb93-46ff-beff-e0a02da67892.jpg)
 
 Quantity of 5 on IR is now picked and TO has been processed (shipped and received through a transit WHS). Inventory transactions are picked on a default receipt location in a WHS 77.
-![procesIR08.jpg](/.attachments/procesIR08-fd3415c0-765f-4fba-afae-d09f208fcebd.jpg)
+![procesIR11.jpg](/.attachments/procesIR11-58d3f047-ca5f-4ff5-aa87-3b5f40ac1af3.jpg)
 
 ![procesIR09.jpg](/.attachments/procesIR09-e1ec7c9d-b022-47f7-bb51-661c47952b4d.jpg)
 
