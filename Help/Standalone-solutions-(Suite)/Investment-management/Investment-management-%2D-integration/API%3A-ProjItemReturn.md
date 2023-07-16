@@ -1,0 +1,5 @@
+The Item return document within D365FO manages two main cases on projects: an item has been spent to a project but should not be or more quantity than required was specified on item requirements for a project. In this regard, Item return can be of 2 types:
+- **Reverse** - handles cases when consumption from inventory to a project already happened, but it shouldn’t. For the Reverse type please refer to the API ProjItemConsumption.
+- **Cancel** - handles cases when there was no consumption on project yet, but there was required excessive quantity on item requirements (also already processed ones with existing generated shipments) and it must be cancelled. Note that if additional quantity is required for a project, simply new item requirement can be created using API ProjItemRequirement.
+
+ProjItemReturn API creates record in Item return table of type Cancel or Reverse, update or delete existing Item return. After successful insert of records in the Item return table, an output is provided from D365FO to the 3rd party system. When inserts fail, the error message is provided to the 3rd party system.
