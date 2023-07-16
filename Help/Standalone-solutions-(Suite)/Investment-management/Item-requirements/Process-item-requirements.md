@@ -96,11 +96,11 @@ In the next step, the Post shipment action in the Generated shipments overview t
 Quantity of 5 on IR is now picked and TO has been processed (shipped and received through a transit WHS). Inventory transactions are picked on a default receipt location in a WHS 77.
 ![procesIR11.jpg](/.attachments/procesIR11-58d3f047-ca5f-4ff5-aa87-3b5f40ac1af3.jpg)
 
-![procesIR09.jpg](/.attachments/procesIR09-e1ec7c9d-b022-47f7-bb51-661c47952b4d.jpg)
+![procesIR12.jpg](/.attachments/procesIR12-c8158256-b0d5-43fb-8816-0d21e4286809.jpg)
 
 On-hand overview shows no available quantity as all pieces have been picked and are therefore meant to be consumed from inventory to a project through IR.
 
-![procesIR10.jpg](/.attachments/procesIR10-14dc0f60-78df-4933-877b-e676f6c0f59a.jpg)
+![procesIR13.jpg](/.attachments/procesIR13-26f087af-46b7-4a0d-9c07-f12b9ef81570.jpg)
 
 Inventory transactions for this item before posting packing slip on IR are following:
 1.	Lines marked under number 1 are beginning transactions for quantity that was available in inventory.
@@ -108,17 +108,16 @@ Inventory transactions for this item before posting packing slip on IR are follo
 3.	Lines marked under number 3 are transactions for items picked in transit WHS 27 and received in WHS 77 in Default receive location (the same as auto-receive option for TOs in standard solution).
 4.	Lines marked under number 4 are transactions for items picked on item requirement.
 
-![procesIR11.jpg](/.attachments/procesIR11-af54e9ba-f9de-4499-948c-41bea4f90743.jpg)
+![procesIR14.jpg](/.attachments/procesIR14-dce03c85-afce-449f-9070-1076149b2a84.jpg)
 
 The next step is posting packing slip on IR, which posts consumption on a project. The quantity of 5 will be delivered after posting.
+![procesIR15.jpg](/.attachments/procesIR15-1982fe57-6c34-4170-8d39-cc8b5f744910.jpg)
 
-![procesIR12.jpg](/.attachments/procesIR12-3a26eb11-f6c6-456c-9531-a2cd4976fe34.jpg)
-
-![procesIR13.jpg](/.attachments/procesIR13-67aee1bd-1d01-4505-8899-356c07ace324.jpg)
+![procesIR16.jpg](/.attachments/procesIR16-c85e84d6-0467-4ea5-a01b-df65b6927562.jpg)
 Issue inventory transactions for this item after posting packing slip on IR are now in status Sold for WHS 77 and default issue location.
 
-![image.png](/.attachments/image-02466b6d-81e5-4c85-bd4b-0bfec664be33.png)
+![procesIR17.jpg](/.attachments/procesIR17-d16bcd3e-4d12-48ba-832a-92599ad8582c.jpg)
 
 On hand overview after posting consumption from inventory to a project shows no lines.
 
-![image.png](/.attachments/image-7f606eae-d19b-4d20-ad74-0a152eba944b.png)
+![procesIR18.jpg](/.attachments/procesIR18-7280d197-ca2e-494e-9caf-f4342d199634.jpg)
