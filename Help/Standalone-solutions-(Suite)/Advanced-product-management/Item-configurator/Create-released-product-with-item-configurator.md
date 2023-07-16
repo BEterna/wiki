@@ -10,7 +10,7 @@ When the user confirms the released item creation:
 - The new item is automatically related to the selected procurement category.
 - The new item has all the defined required attributes.
 
-Validations on released item:
+**Validations** on released item:
 - The system validates if any other item with the same combination of procurement category and attribute values exists and if such item already exists the functionality prevents user to create item duplicate. 
 - Attributes can not be deleted or edited once on the Released item that was created with the Item configurator functionality. 
 - Released items can not be removed from the Procurement category, nor can the category be removed from the item. 
