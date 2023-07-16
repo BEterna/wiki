@@ -1,5 +1,3 @@
-##Subsequently adding new attributes to the procurement category
-
 New attributes can only be added to the procurement category through a **wizard**. Standard button Add in Product attributes tab in Procurement categories form has been replaced by a **new button Add**, enabled by the set up in the Product information management parameters. 
 
 Upon clicking Add, a form opens, where the user first selects desired attributes to add to procurement category. Only attributes that have not previously been added to the procurement category are available for selection. 
