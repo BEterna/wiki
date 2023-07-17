@@ -5,7 +5,7 @@ Utilities Infrastructure management (_UIM_) is a vertical solution created on Mi
 
 UIM combines a set of integrated functionalities for the following business process areas:
 - **Investment management**,
-- **Fixed assets management**,
+- **Fixed assets management and asset insurance**,
 - **Public procurement and procurement enhancements**,
 - **Inventory management**,
 - **Loan and deposit management**.
@@ -35,6 +35,10 @@ In addition to that, it provides the integration layers for:
 - Asset counting
 - Asset partial disposing
 - Low value assets
+
+**[Asset insurance](/Help/Standalone-solutions-\(Suite\)/Asset-insurance)**
+- Insurance policies 
+- Loss events
  
 **[Public procurement](/Help/Standalone-solutions-\(Suite\)/Public-Procurement)**
 - Public procurement case
