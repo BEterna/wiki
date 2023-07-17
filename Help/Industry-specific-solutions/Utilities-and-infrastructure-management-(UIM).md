@@ -8,7 +8,8 @@ UIM combines a set of integrated functionalities for the following business proc
 - **Fixed assets management and asset insurance**,
 - **Public procurement and procurement enhancements**,
 - **Inventory management**,
-- **Loan and deposit management**.
+- **Loan and deposit management**,
+- **Document classification**.
 
 In addition to that, it provides the integration layers for:
 - **Investment management**,
@@ -68,6 +69,9 @@ In addition to that, it provides the integration layers for:
 **[Loan and deposit management](/Help/Standalone-solutions-\(Suite\)/Loans-and-deposits)**
 - Loans registration and calculation
 - Accruals calculation
+
+**[Document classification](/Help/Standalone-solutions-\(Suite\)/Document-classification)**
+- tagging documents in Procurement, Project, and Fixed assets modules
 
 **Document management integration layer**
 - Vendor invoice interface
