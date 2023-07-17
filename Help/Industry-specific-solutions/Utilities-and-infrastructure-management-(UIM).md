@@ -71,7 +71,7 @@ In addition to that, it provides the integration layers for:
 - Accruals calculation
 
 **[Document classification](/Help/Standalone-solutions-\(Suite\)/Document-classification)**
-- tagging documents in Procurement, Project, and Fixed assets modules
+- Tagging documents in Procurement, Project, and Fixed assets modules
 
 **Document management integration layer**
 - Vendor invoice interface
