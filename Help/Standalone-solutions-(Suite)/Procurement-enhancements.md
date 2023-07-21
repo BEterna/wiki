@@ -20,11 +20,3 @@ Following enhancements are available:
    - Participant is Purchase order purchase placer
    - Participant is Purchase order requester
 
-
-
-
-
-
-
-
-

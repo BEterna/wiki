@@ -1,0 +1,2 @@
+Expense forecast shows **estimate of project costs**. ProjForecastExpense API creates or updates records in Expense forecasts table for a given project ID. It can insert records, when Transaction ID is not provided by the 3rd party system or update exiting Transaction ID in D365FO, provided by the 3rd party system. After successful inserts or updates of records in the Expense forecasts table, an output is provided from D365FO to the 3rd party system. When inserts or updates fail, the error message is provided to the 3rd party system.
+

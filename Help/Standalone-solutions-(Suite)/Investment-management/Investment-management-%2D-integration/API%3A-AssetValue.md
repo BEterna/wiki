@@ -1,0 +1,1 @@
+AssetValue API provides the retrieval of all Fixed assets, for which the value have changed after selected date. Value of Fixed asset can change due to acquisition adjustments, write up/write down adjustments, depreciations, partial disposals or disposal. 

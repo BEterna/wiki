@@ -18,3 +18,6 @@ The feature list is available on the following link. Features are grouped into C
 3. **[_Standalone - Suite_](/Help/Standalone-solutions-\(Suite\))** features: 
     * Standalone BE-terna add-ons. 
 
+4. **[_Industry specific solutions_](/Help/Industry-specific-solutions)** features: 
+    * Selected combination of several standalone BE-terna add-ons. 
+

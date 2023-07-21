@@ -1,0 +1,11 @@
+With the Investment management package, new field **Inventory dimensions (receiving)** is available on item requirement, while warehouse on regular inventory dimensions is considered as a warehouse for item consumption. In the example below, project manager requires an item for a project in the terrain warehouse 77 (which is a construction site) and storekeeper will issue this item to a project manager from the default warehouse 66. 
+ 
+![RecWH01.jpg](/.attachments/RecWH01-f7172040-5559-406a-bad8-7b77f447cb6d.jpg)
+ 
+If consumption (terrain) warehouse and receiving (default) warehouse differ and if consumption warehouse is marked as Terrain warehouse (please refer to the [Setup - Warehouses](https://dev.azure.com/DynamicsUIM/D365UIM/_wiki/wikis/D365UIM.wiki/90/Setup?anchor=warehouses) chapter), the system will automatically create transfer order (TO) from receiving (default) warehouse to consumption (terrain) warehouse. If no item is available in stock in receiving warehouse, the system will create planned purchase order for receiving warehouse (if master planning module is in use, otherwise users should manually create purchase orders). Picking and registration of items in receiving warehouse is done automatically out of transfer order. Storekeeper will post shipment of items (in stock) when they are issued from receiving warehouse on request of a project member. Receipt of items on terrain warehouse is posted in the same time as shipment and picking on terrain warehouse happens with the same action.
+
+Validations regrading selected warehouses on item requirements are following:
+- If **consumption and receiving warehouses differ**, then the selected consumption warehouse must have Investment management type defined as **Terrain**.
+- If **consumption and receiving warehouses are the same**, then the selected consumption warehouse must be **Default** or **Moving**. Otherwise warning is displayed.
+
+![RecWH02.jpg](/.attachments/RecWH02-eb376bf1-14e2-4ff4-b6fd-e3b50a7b0c10.jpg)

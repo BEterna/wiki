@@ -1,0 +1,5 @@
+Financing types are used for reporting purposes to note who is financing the project and for what amount. ProjFinancingType API creates or updates records in **Project financing types** table per Project. It can insert records, when the combination of Project ID – Financing type – From date – To date does not exist yet or update existing combination of Project ID – Financing type – From date – To date in D365FO. 
+
+After successful inserts or updates of records in the Project financing types table, an output is provided from D365FO to the 3rd party system. When inserts or updates fail, the error message is provided to the 3rd party system.
+
+The project financing types form in D365FO IM package is located in **Project management and accounting > Projects > All projects > Project card > Manage > Financing types**.
