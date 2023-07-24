@@ -6,7 +6,7 @@ ___
 |---|---|---|
 |Investment management|Process expense consumption job: Generating project transaction with negative quantity with appropriate (negative) amounts|Bug Fix|
 |Investment management|Additional logic implemented for ProjItemRequirementDeliveries_AdIMI data entity taking into consideration multi inventory transactions related to the same item requirement|New feature|
-|Investment management|Updated TechAssetFixedAssetEntity_AdIMdata entity unique key impacting BYOD export (data entity mapping structure refresh and republish of data must be performed on existing environments if export to BYOD is enabled)|BugFix|
+|Investment management|Updated TechAssetFixedAssetEntity_AdIM data entity unique key impacting BYOD export (data entity mapping structure refresh and republish of data must be performed on existing environments if export to BYOD is enabled)|BugFix|
 
 ___
 ### 10.0.20230706.01
