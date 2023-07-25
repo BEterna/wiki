@@ -1,6 +1,13 @@
 # BE-terna suite
 [[_TOC_]]
 ___
+### 10.0.20230725.01
+!!! Important: 10.0.34 application dependency !!!
+|Suite|Description|Type|
+|---|---|---|
+|Investment management|Fix for missing parameter inventVersionid on Inventory adjustment print|Dependency update|
+
+___
 ### 10.0.20230720.01
 |Suite|Description|Type|
 |---|---|---|
