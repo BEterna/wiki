@@ -127,8 +127,8 @@ Prepayment eInvoices are subject to the same procedures and actions as FTIs or S
 5.	The **Customer requisition** and **Customer requisition date** fields are intended for OrderReference in the XML file. The data can be filled during the Release order from the Sales agreement and past on to the Invoice or manually added. Customer requisition on the Project contract can be added through Funding sources/Details and transferred to the Project Invoice. Customer requisition on the Prepayment can be added through the General tab.
 3.	The **Bar codes** on the Items are added to the XML tag StandardItemIdentification.
 3.	The **External item numbers** on the Items are added to the XML tag SellersItemIdentification.
-3.	The **Packing slip number** and **Packing slip date**, if exists, are added to the XML tag DespatchDocumentReference.
-3.	The **Packing slip return number** and **Packing slip return date**, if exists, are added to the XML tag DespatchDocumentReference.
+3.	The **Packing slip number** and **Packing slip date**, if exists, are added to the XML tag DespatchDocumentReference only if the field "Print packing slip specification" is checked on Invoice in Print management on the location Account receivables/Setup/Forms/Form setup.
+3.	The **Packing slip return number** and **Packing slip return date**, if exists, are added to the XML tag DespatchDocumentReference only if the field "Print packing slip specification" is checked on Invoice in Print management on the location Account receivables/Setup/Forms/Form setup.
 
 **Subsequent creation of eInvoices**
 1.	Open **Accounts receivable > Invoices > E-Invoices > Electronic customer/project/prepayment invoices >** button “Select”.
