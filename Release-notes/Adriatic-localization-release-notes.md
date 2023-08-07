@@ -1,7 +1,16 @@
 # Adriatic localization
 [[_TOC_]]
 ____
-## Release AdLocalization_##10.0.0.2023070601
+## Release AdLocalization_#10.0.0.2023080701
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|Tax|Validation added when changing VAT date on Posted sales tax transactions. Only Changes from or to a date in an open ledger period are allowed.|Bug fix|
+|Tax|Vat date and VAT payable date added to data entities: General journal line entry, VendInvoiceJournalLine, CustInvoiceJournalLine.|New feature|
+|eInvoice|Updated Electronic report model in order to include Unite of measure external code only for code "eRacun" for project invoices.|Bug fix|
+
+____
+## Release AdLocalization_#10.0.0.2023070601
 ### Localization core
 |Area|Description|Type|
 |---|---|---|

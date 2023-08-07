@@ -1,6 +1,13 @@
 # BE-terna suite
 [[_TOC_]]
 ___
+### 10.0.20230807.01
+|Suite|Description|Type|
+|---|---|---|
+|Defferals|Deferral header can be posted automatically, if the checkbox mark “Don’t post deferral header” is set to “No” when creating the deferral.”|New feature|
+|Investment management|Timesheets automatic generation process - error when posting Timesheets "TTSBEGIN/TTSCOMMIT pair has been detected" fixed.|Bug fix|
+
+___
 ### 10.0.20230725.01
 !!! Important: 10.0.34 application dependency !!!
 |Suite|Description|Type|
