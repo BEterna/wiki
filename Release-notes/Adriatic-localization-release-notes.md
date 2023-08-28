@@ -1,6 +1,13 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_#10.0.0.2023082301
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|Tax|Fixed error with Vat date and VAT payable date in data entity: General journal line entry, when using the entity in legal entities without Adriatic localization.|Bug fix|
+
+____
 ## Release AdLocalization_#10.0.0.2023080701
 ### Localization core
 |Area|Description|Type|
