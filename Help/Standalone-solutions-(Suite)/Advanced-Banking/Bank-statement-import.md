@@ -46,7 +46,7 @@ _NOTE: This option requires a valid transformation for a specific bank statement
 
 ## Set up the import of HalcomSI (ISO20022) bank statements
 
-First, using the data entity framework, you must define the bank statement format processing group for HalcomSI bank statements.
+First, you must define the bank statement format processing group for HalcomSI bank statements using the data entity framework.
 1.	Go to **Workspaces** > **Data management**.
 2.	Click **Import**.
 3.	Enter a name for the format, such as **BankStatementImport_SI**.
@@ -73,7 +73,7 @@ After the format processing group is set up, the next step is to define the **ba
 
 ##Set up the import of FINA (ISO20022) bank statements
 
-First, using the data entity framework, you must define the bank statement format processing group for FINA bank statements.
+First, you must define the bank statement format processing group for FINA bank statements using the data entity framework.
 
 1.	Go to **Workspaces > Data management**.
 2.	Click **Import**.
@@ -103,7 +103,7 @@ After the format processing group is set up, the next step is to define the **ba
 
 ##Set up the import of HalcomRS bank statements
 
-First, using the data entity framework, you must define the bank statement format processing group for HalcomRS bank statements.
+First, you must define the bank statement format processing group for HalcomRS bank statements using the data entity framework.
 1.	Go to **Workspaces > Data management**.
 2.	Click **Import**.
 3.	Enter a name for the format, such as **BankStatementImport_RS**.
@@ -130,11 +130,11 @@ After the format processing group is set up, the next step is to define the **ba
 
 
 
-An additional column, “Halcom RS” is available, which is **specific for Serbian bank statements import**. Halcom_RS is special because it generates two files for one bank statement, which is then imported as a .zip file. Halcom_RS has a checkmark in the field “Halcom RS” for that purpose.
+An additional column, “Halcom RS” is available, which is **specific for Serbian bank statements import**. Halcom_RS is special because it generates two files for one bank statement imported as a .zip file. Halcom_RS has a checkmark in the “Halcom RS” field for that purpose.
 
 ##Set up the import of AssecoRS (Pexim) bank statements
 
-First, using the data entity framework, you must define the bank statement format processing group for AssecoRS bank statements.
+First, you must define the bank statement format processing group for AssecoRS bank statements using the data entity framework.
 1.	Go to **Workspaces > Data management**.
 2.	Click **Import**.
 3.	Enter a name for the format, such as **BankStatementImport_Asseco**.
@@ -192,7 +192,7 @@ Imported transformation files are then displayed in Electronic reporting configu
 4. Enter a **name for the format**.
 5. Choose the file type **TXT** for Halcom RS 
 6. Check the **Combine text files** because Halcom RS has two files under one .zip file
-7. In the **Matches** put the matching rule on file name. For Halcom RS, use `(.*)_cov\.txt:(.*)\.txt`
+7. In the **Matches**, put the matching rule on the file name. For Halcom RS, use `(.*)_cov\.txt:(.*)\.txt`
 8. Mark **Generic Electronic import format field** 
 9. Select **Import configuration format** from the list of ER configurations
 
