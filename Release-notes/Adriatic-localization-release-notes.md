@@ -1,5 +1,12 @@
 # Adriatic localization
 [[_TOC_]]
+
+____
+## Release AdLocalization_#10.0.0.2023091901
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|Tax|Validation logic extended when changing a blank VAT date on Posted sales tax transactions to a vaid date.|Bug fix|
 ____
 ## Release AdLocalization_#10.0.0.2023082301
 ### Localization core
