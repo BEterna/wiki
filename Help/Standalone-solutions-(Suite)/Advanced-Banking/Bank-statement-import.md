@@ -180,21 +180,21 @@ Imported transformation files are then displayed in Electronic reporting configu
 #### Camt.053 and Camt.054 formats
 1. Go to **Cash and bank management > Setup > Advanced bank reconciliation setup > Bank statement format**
 2. **Add** new **Bank statement import configuration**
-3. Specify a **statement format**, such as **Camt.053**.
+3. Specify a **statement format**, such as **Camt.053** or **Camt.054**
 4. Enter a **name for the format**.
-5. Choose the file type, **XML** 
-6. Mark **Generic Electronic import format field** 
-7. Select **Import configuration format**
-8. 
+5. Choose the file type **XML** 
+6. Select **Import configuration format** from the list of ER configurations
 
 #### Halcom RS formats
 1. Go to **Cash and bank management > Setup > Advanced bank reconciliation setup > Bank statement format**
 2. **Add** new **Bank statement import configuration**
-3. Specify a **statement format**, such as **Camt.053**.
+3. Specify a **statement format**, such as **Halcom RS**.
 4. Enter a **name for the format**.
 5. Choose the file type **TXT** for Halcom RS 
-6. Mark **Generic Electronic import format field** 
-7. Select **Import configuration format**
+6. Check the **Combine text files** because Halcom RS has two files under one .zip file
+7. In the **Matches** put the matching rule on file name. For Halcom RS, use `(.*)_cov\.txt:(.*)\.txt`
+8. Mark **Generic Electronic import format field** 
+9. Select **Import configuration format** from the list of ER configurations
 
 ### Bank account setup
 ---
