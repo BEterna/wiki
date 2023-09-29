@@ -33,3 +33,6 @@ Batch job considers only records with status **None**. Status of the selected re
 Unsuccessfully processed staging transactions with an error can be reprocessed by manually resetting their status (click button Reset status in the **Project item consumption** staging form).
 
 During the batch processing, Project category is validated. It can be defaulted first from Item and then from Default category setup located in **Project management and accounting > Setup > Project management and accounting parameters > Journals**. If not, the processing of Item consumption fails.
+
+By default the records shown in the form are filtered to those with a Date in the current month.
+A cleanup function is provided for past records status Posted or Error (click button Delete transactions in the **Project item consumption** staging form).
