@@ -17,6 +17,11 @@ ____
 |Area|Description|Type|
 |---|---|---|
 |Bank features| Features related to bank statement import for Serbia (Bank statement formats form - Halcom RS field) marked as obsolete in order to be removed in future releases. (Feature transferred to Stand alone solution for Advanced banking)|Obsolete feature|
+
+### Localization Cash register
+|Area|Description|Type|
+|---|---|---|
+|Cash register|Cash report labels enabled for translations.|Bug fix|
 ____
 ## Release AdLocalization_#10.0.0.2023091901
 ### Localization core
