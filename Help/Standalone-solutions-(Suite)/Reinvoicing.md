@@ -31,7 +31,7 @@ Allocation template setup can be accessed in a few ways:
 3. New form with Lines from the invoice will open. 
 4. Mark the lines which should be re-invoiced (column 'Include'). One or multiple lines can be selected.
 5. Select option **Allocation key** at the top. NOTE: In case that the lines were already allocated the system will show warning 'Sales line for this invoice already exists.' 
-6. Select the value in **Distributed by** field: this value defines how the line will be allocated – by percentage (x% of the value) or Amount (fixed amount can be entered eg. 500€)
+6. Select the value in **Distributed by** field: this value defines how the line will be allocated – by percentage (x% of the value) or Amount (fixed amount can be entered eg. 500€).
 7. Select the value under **Field**: this value defines which value will be split – Quantity (eg. 10h) or Amount (500€).
 8. If the options **Distributed by: Percent** and **Field: Amount** are selected, user has additional option - **Template name**. This option enables user to choose a predefined allocation key template. 
    - Allocation template setup can be accessed in three ways: 
@@ -56,7 +56,7 @@ e.g. 40% of the quantity will be reinvoiced to the customer DE-012, 35% of the q
 3. New form with Lines from the invoice will open. 
 4. Mark the lines which should be re-invoiced (column 'Include'). One or multiple lines can be selected.
 5. Select option **Allocation key** at the top. NOTE: *In case that the lines were already allocated the system will show warning 'Sales line for this invoice already exists.' 
-6. Select the value in **Distributed by** field: this value defines how the line will allocated – by percentage (x% of the value) or Amount (fixed amount can be entered eg. 500€)
+6. Select the value in **Distributed by** field: this value defines how the line will allocated – by percentage (x% of the value) or Amount (fixed amount can be entered eg. 500€).
 7. Select the value under **Field**: this value defines which value will be split – Quantity (eg. 10h) or amount (500€).
 8. If the options **Distributed by: Percentage** and **Field: Amount** are selected, user has additional option - **Template name**. This option enables user to choose a predefined allocation key template. 
    - Allocation template setup can be accessed in three ways: 
