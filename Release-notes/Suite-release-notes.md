@@ -1,6 +1,16 @@
 # BE-terna suite
 [[_TOC_]]
 ___
+### 
+|Suite|Description|Type|
+|---|---|---|
+|Advanced banking - Bank statement import| New electronic format for Halcom RS is enabled for importing bank statements in Serbia. |New feature|
+|Fixed asset management| Calculation of the amount value for transactions generated in the partial disposal process corrected in order to not generate rounding differences.|Bug fix|
+|Investment management| Cleanup for past data (posted records or records in errors) enabled in Project management and accounting > Inquiries and reports > Investment management in forms: Hour consumption (external), Item consumption (external), Cost consumption (external).|New feature|
+|Investment management| Import of a selected Purchase agreement per purchase requisition line is enabled in the Investment management - integration API: ProjPurchRequisition. The functionality is available only when the feature: Enable input of Purchase agreement in createPurchReqService and PurchaseRequisitionLineEntity is enabled.|New feature|
+|Travel and expenses| New option to force dates entered by the user in the Delegate extended form on to automatically generated records in the Delegates form is added.|New feature|
+
+___
 ### 10.0.20230807.01
 |Suite|Description|Type|
 |---|---|---|
