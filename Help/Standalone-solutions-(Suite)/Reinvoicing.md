@@ -70,6 +70,6 @@ e.g. 40% of the quantity will be reinvoiced to the customer DE-012, 35% of the q
 11. Select the lines with value in Customer account field and click Validate. All lines will be validated, and Message will be returned. In case of validation errors, all errors should be corrected before continuing to next step. 
 12. Click OK. As result, one or multiple Sales orders will be created. Message with Sales orders numbers will appear. In cases where intercompany customer will be selected, related Purchase order will also be created.
 13. In case of related intercompany Purchase orders project ID needs to be selected on the purchase order header: 
-   - Go to Accounts payable > Purchase orders > All purchase orders and select purchase order
-   - Select function Change project ID under Purchase order tab
+   - Go to Accounts payable > Purchase orders > All purchase orders and select purchase order.
+   - Select function Change project ID under Purchase order tab.
    - Enter project ID to which costs should be posted.
