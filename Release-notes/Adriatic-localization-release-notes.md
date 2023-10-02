@@ -6,7 +6,7 @@ ____
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
-|Advance invoice|Foter text from print management setup enabled in the prepayment report when using the Print management option. Report label Tax value enabled for translation.|Bug fix|
+|Advance invoice|Footer text from print management setup enabled in the prepayment report when using the Print management option. Report label Tax value enabled for translation.|Bug fix|
 |Advance invoice| Correction option enabled when a Prepayment transaction is reversed enabling the presentation of the amount on the Debit/Credit side according to the corrections setup.|Changed feature|
 |Advance invoice| Filter enabled in Posted prepayment vendor invoices form showing only records related to vendor prepayments. Filter enabled in Posted prepayment customer invoices form showing only records related to custo0mer  prepayments.|Bug fix|
 |Advance invoices| Sales tax amount displayed in an accounting currency instead of in a transaction currency for prepayments: In the reversal of prepayments in a currency different than the currency of the legal entity, the Sales tax amount was presented in the accounting currency instead of in the transaction currency. The new release includes a fix of such behavior and an upgrade procedure for updating the wrongly presented Sales tax amounts on records in the past.|Bug fix|
