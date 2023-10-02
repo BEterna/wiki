@@ -33,3 +33,7 @@ If successfully created journal that was not yet posted due to some error is man
 
 Unsuccessfully processed staging transactions with an error can be reprocessed by manually resetting their status (click button Reset status in the **Project expense consumption** staging form).
 
+By default the records shown in the form are filtered to those with a Date in the current month.
+
+A cleanup function is provided for past records status Posted or Error (click button Delete transactions in the **Project expense consumption** staging form).
+

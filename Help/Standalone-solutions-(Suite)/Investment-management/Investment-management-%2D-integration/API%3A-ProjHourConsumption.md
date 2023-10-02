@@ -24,3 +24,7 @@ Field Transaction ID in the project hour consumption staging form is filled for 
 Unsuccessfully processed staging transactions with an error can be reprocessed by manually:
 - resetting their status (click button Reset status in the **Project hour consumption** staging form) 
 - and triggering the timesheet generation (click button Timesheet generation) - this step can be omitted as the batch job always process all staging transactions in status None.
+
+By default the records shown in the form are filtered to those with a Date in the current month.
+
+A cleanup function is provided for past records status Posted or Error (click button Delete transactions in the **Project hour consumption** staging form).

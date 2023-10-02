@@ -2,11 +2,33 @@
 [[_TOC_]]
 
 ____
+## Release AdLocalization_#10.0.0.2023092901
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|Advance invoice|Footer text from print management setup enabled in the prepayment report when using the Print management option. Report label Tax value enabled for translation.|Bug fix|
+|Advance invoice| Correction option enabled when a Prepayment transaction is reversed enabling the presentation of the amount on the Debit/Credit side according to the corrections setup.|Changed feature|
+|Advance invoice| Filter enabled in Posted prepayment vendor invoices form showing only records related to vendor prepayments. Filter enabled in Posted prepayment customer invoices form showing only records related to custo0mer  prepayments.|Bug fix|
+|Advance invoices| Sales tax amount displayed in an accounting currency instead of in a transaction currency for prepayments: In the reversal of prepayments in a currency different than the currency of the legal entity, the Sales tax amount was presented in the accounting currency instead of in the transaction currency. The new release includes a fix of such behavior and an upgrade procedure for updating the wrongly presented Sales tax amounts on records in the past.|Bug fix|
+|VAT reporting for Serbia| Individual VAT reporting xml data structure update according to changes made by RS Ministry of Finance (additional condition for Turnover amount).|New feature|
+|Intrastat|Translations enabled in the intrastat IR002A (HR) ER format.| New feature|
+
+### Localization Bank
+|Area|Description|Type|
+|---|---|---|
+|Bank features| Features related to bank statement import for Serbia (Bank statement formats form - Halcom RS field) marked as obsolete in order to be removed in future releases. (Feature transferred to Stand alone solution for Advanced banking)|Obsolete feature|
+
+### Localization Cash register
+|Area|Description|Type|
+|---|---|---|
+|Cash register|Cash report labels enabled for translations.|Bug fix|
+____
 ## Release AdLocalization_#10.0.0.2023091901
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
 |Tax|Validation logic extended to enable changing a blank VAT date on Posted sales tax transactions to a valid date value.|Bug fix|
+
 ____
 ## Release AdLocalization_#10.0.0.2023082301
 ### Localization core
