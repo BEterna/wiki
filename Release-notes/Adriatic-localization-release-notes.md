@@ -2,7 +2,7 @@
 [[_TOC_]]
 
 ____
-## Release AdLocalization_#
+## Release AdLocalization_#10.0.0.2023092901
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
