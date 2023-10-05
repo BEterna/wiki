@@ -26,7 +26,7 @@ The project structure type can be defined for each project:
    - Project contract: rules for automatic creation of project contracts when the project is created through IM integration process. For a selected combination of project group, customer account the rule is defined in the column Use project contract:
       - None (meaning no contract will be created and linked to the project).
       - New (meaning when the project is created a new project contract is also created for it).
-      - Existing (meaning when the project is created, it is linked to an existing project contract) – if selected, a value in column Project contract ID must be specified.
+      - Existing (meaning when the project is created, it is linked to an existing project contract) – if selected, a value in column Project contract ID must be specified. NOTE: This option includes an additional parameter "Do not create new funding source", meaning that the customer defined on a project will be also added as a founding source to the project contract when this check mark is not selected.
 4. In the **Project forecasts** fast tab the parameters define how project forecasts are created through IM integration process(only expense forecasts are supported): 
       - Expense forecast category: defines the default expense project category used when expense project forecasts 
  are created through the IM integration process.
