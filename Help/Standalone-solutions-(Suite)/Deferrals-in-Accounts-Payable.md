@@ -2,7 +2,7 @@
 
 Deferrals refer to expenses or revenues, which are not recognized immediately on the income statement. Instead, they need to be deferred to a balance sheet account and appear later on the income statement.
 
-In contrast to standard D365O functionality, this feature enables deferrals to be created directly from Vendor invoices or on already posted vendor invoices by applying the pre-set deferral scheme to each invoice line. It is possible to overview posted and non-posted deferrals (on different list pages) and post them manually (by marking selected deferral lines to be posted), manually collectively (by defining date frame for deferrals to be posted)) or automatically (via batch processing).
+In contrast to standard D365O functionality, this feature enables deferrals to be created directly from Pending Vendor invoices or on already posted vendor invoices (created from Pending Vendor invoices) by applying the pre-set deferral scheme to each invoice line. It is possible to overview posted and non-posted deferrals (on different list pages) and post them manually (by marking selected deferral lines to be posted), manually collectively (by defining date frame for deferrals to be posted)) or automatically (via batch processing).
 
 This custom feature is part of the BE-ternaaSuiteDeferrals AdSuite D365O extension packet.
 

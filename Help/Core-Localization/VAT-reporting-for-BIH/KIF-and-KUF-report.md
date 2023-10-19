@@ -10,6 +10,8 @@ The main prerequisite: VAT Book reports are available in legal entities with BIH
 1. Go to **Tax > Setup > Parameters > General ledger parameters > tab BE-terna localization > Electronic reporting**
 2. Select KIF and KUF report electronic reporting format (KIF report csv/KUF report csv)
 
+NOTE: To use the Preview functionality of the KIF/KUF reports parameters for KIF and KUF report preview electronic reporting format (KIF report excel/KUF report excel) must be specified.
+
 ###Sales tax authorities setup
 
 1. Go to **Tax > Indirect taxes > Sales tax > Sales tax authorities > Report layout**. 
@@ -34,8 +36,8 @@ The generation of reports is based on [BIH reporting codes.xlsx](/.attachments/B
 6. If changes are needed for the closed report, it can be **reopened** by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Open** option
 7.	**Deleting** of report header and lines can be done only for open reports in **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Delete** option
 
-
-
+_NOTE: A preview of the report is also available by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Export tab > ER Preview**. This functionality requires a valid setup in **General Ledger > Ledger setup > General ledger parameters > BE-terna localization > Electronic reporting**:_
+- _KIF report preview electronic reporting format: the value **KIF report excel** is available_
 
 ##**KUF report**
 ----
@@ -46,5 +48,8 @@ The generation of reports is based on [BIH reporting codes.xlsx](/.attachments/B
 5.	After export, the report can be **closed for changes** and new lines generating by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Close** option
 6.	If changes are needed for the closed report, it can be **reopened** by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Open** option
 7.	**Deleting** of report header and lines can be done only for open reports in **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Delete** option
+
+_NOTE: A preview of the report is also available by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Export tab > ER Preview**. This functionality requires a valid setup in **General Ledger > Ledger setup > General ledger parameters > BE-terna localization > Electronic reporting**:_
+- _KUF report preview electronic reporting format: the value **KIF report excel** is available_
 
 

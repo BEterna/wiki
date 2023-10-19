@@ -4,9 +4,11 @@
 
 Additional features regarding per diems are added:
 
-   - In terms of standard D365O functionality meal reduction for each meal in connection with per diem need to be entered as a percentage of the full per diem. This feature, however, enables that if field "Include percent" is marked, meal deductions will be calculated according to the value entered in field Meal percent. Otherwise, the deduction has to be entered as a percentage of full per-diem (e.g.  15% breakfast reduction for half per diem is calculated from the amount representing 75% of the full per diem).
+   - In terms of standard D365O functionality meal reduction for each meal in connection with per diem need to be entered as a percentage of the full per diem. 
+<!--This feature, however, enables that if field "Include percent" is marked, meal deductions will be calculated according to the value entered in field Meal percent. Otherwise, the deduction has to be entered as a percentage of full per-diem (e.g.  15% breakfast reduction for half per diem is calculated from the amount representing 75% of the full per diem).-->
    - Per diem transaction date on Expense reports can be defaulted from the last per diem day if the option is enabled in Expense management parameters.
 
+<!--
 ### **Per diem rate tiers: Include percent setup**
 
 1. Open **Expense management > Setup > Calculations and codes > Per diems > Per diem rate tiers**.
@@ -17,10 +19,9 @@ Additional features regarding per diems are added:
 |--|--|
 | field "Include percent" is marked |meal reductions will be calculated according to the value entered in field Meal percent, which represents the percentage of full daily allowance, defined in field Meals (e.g. 15% breakfast reduction for half perdiem is calculated from the amount representing 75% of the full perdiem).  |
 | field “include percent” is not marked|it is necessary to adjust the percentages of meal reductions in relation to the full perdiem – reductions for meals have to be entered as percentages of full perdiem (e.g. reduction for breakfast for half perdiem represents 11.25% of the full perdiem).  |
-
- 
  
 Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**. - Depricated!
+-->
  
 ### 	**Per diem transaction date on last day**
 
