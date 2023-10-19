@@ -3,7 +3,7 @@
 
 ___
 ###10.0.20231019.01
-!!! Important: 10.0.35 application dependency !!!
+**!!! Important: 10.0.35 application dependency !!!**
 |Suite|Description|Type|
 |---|---|---|
 |Travel and Expenses enhancements| Per diem calculation updated due to changes in Microsoft standard calculation for per diems in version 10.0.35. Per diem rate tiers: Include percent setup is removed. |Dependency update|
