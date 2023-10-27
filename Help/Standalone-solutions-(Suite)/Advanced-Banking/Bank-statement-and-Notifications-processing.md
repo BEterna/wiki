@@ -69,7 +69,12 @@ With this parameter user can enable matching in cases when original payment docu
 3. Select one of options under Vendor payment posting currency parameter, which defines which currency will be used for posting of vendor payment transaction. Available options: 
    - Payment currency: Payments are posted in original payment transaction currency (standard behavior)
    - Coverage/bank statement currency: payments are posted in bank statement currency
- 
+
+### Processing journal parameter
+With this parameter user can define weather the bank statement journal lines are marked by default or not.
+1. Go to Cash and bank management > Cash and bank management parameters > Bank statement 
+2. Set journal lines unmarked by default to No, to have all bank statement journal lines marked by default. Or set journal lines unmarked by default parameter to Yes, to have all bank statement journal lines unmarked by default.
+
 ## **Bank statement/Notifications processing**
 ---
 
