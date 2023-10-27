@@ -2,6 +2,13 @@
 [[_TOC_]]
 
 ___
+###10.0.20231027.01
+|Suite|Description|Type|
+|---|---|---|
+|Advanced banking|Improved bank statement proccesing with the option to configure if transactions in the Bank statement proccessing journal are marked or unmarked by default.|New feature|
+|Advanced banking|Improved bank statement processing with the option to display the current sum of marked Customer/Vendor transactions.|New feature|
+|Fixed asset management|Updated data entity for Asset counting journal lines (Asset counting lines per header): fields Missed, Surplus, Write off, Counted, User enabled for import. Additional validation added to prevent marking counting journal lines with more than one option among Missed, Surplus, Write off.|Changed feature|
+___
 ###10.0.20231019.01
 **!!! Important: 10.0.35 application dependency !!!**
 |Suite|Description|Type|

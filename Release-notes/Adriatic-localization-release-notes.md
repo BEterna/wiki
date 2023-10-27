@@ -1,6 +1,20 @@
 # Adriatic localization
 [[_TOC_]]
 
+
+____
+## Release AdLocalization_#10.0.20231027.02
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|Export General ledger to file|Updated the name of the generated export file, including From/To date information from the filter defined when triggering the export, or current date time information when no dates are defined in the filter for generating the export file.|Changed feature|
+|Personal tax reports (SI)|Rek-2 (REK-O) ER format updated by including the field A052b.|Bug fix|
+
+### Localization Tax
+|Area|Description|Type|
+|---|---|---|
+|Tax|Fixed to current date defaulting logic for VAT date and VAT Payable date.|Bug fix|
+
 ____
 ## Release AdLocalization_#10.0.0.2023092901
 ### Localization core
