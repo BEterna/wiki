@@ -4,7 +4,7 @@
 ###10.0.20231116.01
 |Suite|Description|Type|
 |---|---|---|
-|Investment management|Possibility to create an Item return document for items with an inventory status Reserved ordered. |New feature|
+|Investment management|Possibility to create an Item return document of the type Cancel for items with an inventory status Reserved ordered. |New feature|
 |Investment management|Increased the field length of the parameter PurchAgreementId in API: ProjPurchRequisition.|Bug fix|
 
 ___
