@@ -1,6 +1,18 @@
 # Adriatic localization
 [[_TOC_]]
 
+____
+## Release AdLocalization_#10.0.20231116.01
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|VAT reporting for BIH|New version of the ER format for export KIF and KUF into csv are available according to new technical requirements issued by Indirect taxation authority BIH.|Changed feature|
+|VAT reporting for BIH|KIF/KUF report preview is available for viewing KIF and KUF data in MS Excel.|New feature|
+
+### Localization Tax
+|Area|Description|Type|
+|---|---|---|
+|Tax|Fixed to current date defaulting logic for VAT date and VAT Payable date.|Bug fix|
 
 ____
 ## Release AdLocalization_#10.0.20231027.02
