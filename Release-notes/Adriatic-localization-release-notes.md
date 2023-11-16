@@ -1,6 +1,15 @@
 # Adriatic localization
 [[_TOC_]]
 
+____
+## Release AdLocalization_#10.0.20231116.01
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|VAT reporting for BIH|New version of the ER format for export KIF and KUF into csv are available according to new technical requirements issued by Indirect taxation authority BIH.|Changed feature|
+|VAT reporting for BIH|KIF/KUF report preview is available for viewing KIF and KUF data in MS Excel.|New feature|
+|Advance invoice|A new validation is added when creating settlements between customer/vendor transactions that include a prepayment that require to select only the option Settlement posting date= Latest date and no other.|New feature|
+|Advance invoice|When a reversal of an Advanced invoice is created, VAT date on the generated sales tax transaction must be the same as on the reversed Advance invoice.|Bug fix|
 
 ____
 ## Release AdLocalization_#10.0.20231027.02
