@@ -113,7 +113,6 @@ Tax transactions with ODO-1 setup are used for ODO-1 reporting. To generate repo
    - Document type: Select one of the values from the list
    - Receiver type: Select one of the values from the list
 1. **Generate XML** with **OK**.
-1. Go to Details tab > Preview** to see specific report details. 
+1. Go to **Details tab > Preview** to see specific report details. 
 
-
-   - 
+ 

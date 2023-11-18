@@ -253,5 +253,5 @@ A Bank Statement is imported when shown in the list of bank statements. After im
 _NOTE: Sometimes bank statements also include lines with a date outside the defined bank statement period. To avoid failure of bank statement validation, a new functionality that allows users to change the booking date on selected lines that were imported is available in the Bank statement detail form (new button Change booking date)._ 
 
 
-Check **[Test Scenario](Bank-statement-import.xlsx)** for Slovenian bank statement import.
+Check **[Test Scenario](/Help/Extended-Localization/Bank-package-features/Bank-statement-import.xlsx)** for Slovenian bank statement import.
  
