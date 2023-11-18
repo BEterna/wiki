@@ -78,4 +78,4 @@ Possible options are:
 |Last in month |Transaction is posted on the last date of the month of the line with the latest date. |
 
  
-Check **[Test Scenario](Travel-and-Expenses-Test-Scenario.zip)**.
+Check **[Test Scenario](/Help/Standalone-solutions-(Suite)/Travel-and-Expenses-Test-Scenario.zip)**.
