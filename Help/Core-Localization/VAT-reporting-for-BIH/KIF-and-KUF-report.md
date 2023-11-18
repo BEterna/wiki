@@ -19,7 +19,7 @@ NOTE: To use the Preview functionality of the KIF/KUF reports parameters for KIF
 
 ###Sales tax reporting codes
 1. Go to **Tax > Setup > Sales tax > Sales tax reporting codes**.<br>
-The generation of reports is based on [BIH reporting codes.xlsx](/.attachments/BIH%20reporting%20codes-5b92fc74-998a-44f6-8b00-f8f4920cb862.xlsx). Reporting code carries information about which field the transaction will be recorded in. Each country has its own reporting codes. Reporting codes can also be imported using Excel add-in.
+The generation of reports is based on [BIH reporting codes V2.xlsx](/.attachments/BIH%20reporting%20codes%20V2-83b6f451-42f1-445a-9a0a-c1f087709926.xlsx). Reporting code carries information about which field the transaction will be recorded in. Each country has its own reporting codes. Reporting codes can also be imported using Excel add-in.
 
 ###Sales tax codes reporting setup
 1. Go to **Tax > Indirect taxes > Sales tax > Sales tax codes**.
