@@ -6,6 +6,7 @@ ____
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
+|Core Localization|SalesCalcTax issue fix due to Microsoft breaking change (reference: https://www.yammer.com/dynamicsaxfeedbackprograms/#/Threads/show?threadId=2504117393334272)|Updated feature|
 |VAT reporting for BIH|New version of the ER format for export KIF and KUF into csv are available according to new technical requirements issued by Indirect taxation authority BIH.|Changed feature|
 |VAT reporting for BIH|KIF/KUF report preview is available for viewing KIF and KUF data in MS Excel.|New feature|
 |Advance invoice|A new validation is added when creating settlements between customer/vendor transactions with a prepayment that require the selction of only one option: Settlement posting date= Latest date and no other.|New feature|
