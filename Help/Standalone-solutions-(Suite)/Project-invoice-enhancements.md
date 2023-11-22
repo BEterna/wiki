@@ -1,4 +1,6 @@
-Project invoice enhancements
-Throughout the following sections of this document, functionalities and forms connected with different procurement procedures will be presented, together with their embeddedness with the standard D365O features, required for procurement processes.
+# Project invoice enhancements
+
+Throughout the following sections of this document, functionalities and forms connected with different project invoice procedures will be presented.
 
 Following enhancements are available:
+- Settle open transactions on project invoice proposal
