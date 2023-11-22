@@ -26,5 +26,6 @@ _Note: Features for countries marked with * are updated only if customer informs
 | [Additional depreciation convention - Next month](/Help/Core-Localization/Additional-depreciation-convention) | • | • | • | • | • | Additional depreciation convention is added that enables automatic setup of depreciation run date at the first date of the month after the asset has been acquired. |
 | [Tax depreciation report](/Help/Core-Localization/Tax-depreciation-report-\(RS\))  |  |  |•  |  ||Legally required report for fixed assets (RS).   |
 | [Intrastat enhancements](/Help/Core-Localization/Intrastat-enhancements-\(SI,-HR\))  | • | • |  |  || Intrastat statistics based on the trade in goods between the Member  States of the European Union is customized for the Croatian and Slovenian legislation. Intrastat XML scheme can be exported. |
+| KIPO Report  | | | | | • | Statistical report on short-term receivables and liabilities from doing business with non-residents. |
 
 
