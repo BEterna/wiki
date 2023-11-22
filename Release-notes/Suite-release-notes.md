@@ -73,6 +73,12 @@ ___
 |Compensations|New button added for customer and vendor transactions in the Compensation form for viewing the selected customer or vendor transaction. By clicking the button "Go to customer transaction" or "Go to vendor transaction", user is redirected to a new form showing the selected customer or vendor transaction.|New feature|
 
 ___
+### 10.0.20230628.01
+|Suite|Description|Type|
+|---|---|---|
+|Investment management|Updated functionality for Item return document of the type Reversal enabling the return of an item with a specific serial number. The functionality upgrades the standard MS D365FO logic in cases when a project consumption of an item is reversed (item is return from the project consumption back on stock) while the initial consumption was performed through an item requirement linked to more than one original inventory transactions. When using the return LotId functionality, the standard logic does not necessarily link the return transaction with the correct inventory transaction of the selected serial number. The Item return document functionality includes an additional search that finds the inventory transaction with the required serial number.|Updated feature|
+
+___
 ### 10.0.20230626.01
 |Suite|Description|Type|
 |---|---|---|
