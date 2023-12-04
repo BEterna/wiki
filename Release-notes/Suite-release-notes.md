@@ -1,6 +1,13 @@
 # BE-terna suite
 [[_TOC_]]
 
+###10.0.20231204.01
+|Suite|Description|Type|
+|---|---|---|
+|Fixed asset management|Fixed issue with disposal document reversal that changed the status of the document to Reversed after user aborted the reversal proces. |Bug fix|
+|Fixed asset management|Enabled code extension on functionality Propose disposal lines in Disposal document.|Changed feature|
+
+___
 ###10.0.20231116.01
 |Suite|Description|Type|
 |---|---|---|
