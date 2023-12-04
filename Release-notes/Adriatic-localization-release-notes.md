@@ -2,6 +2,19 @@
 [[_TOC_]]
 
 ____
+## Release AdLocalization_#10.0.20231204.01
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|VAT reporting for BIH|Updated version of the ER format for export KIF and KUF into csv.|Bug fix|
+|Export General ledger to file|Refactoring code for running Electronic reporting.|Changed feature|
+
+### Localization Tax
+|Area|Description|Type|
+|---|---|---|
+|Tax|Fixed the defaulting logic for VAT date and VAT Payable date in entity General journal line entry.|Bug fix|
+
+____
 ## Release AdLocalization_#10.0.20231116.01
 ### Localization core
 |Area|Description|Type|
