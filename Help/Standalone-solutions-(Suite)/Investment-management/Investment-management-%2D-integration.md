@@ -39,6 +39,7 @@ The project structure type can be defined for each project:
       - Expense journal: defines the Project expense type of journal to be used for project expense consumption.
       - Hour journal: : defines the Project hour type of journal to be used for project hour consumption.
       - Maximum lines per journal: defines the maximum number of rows that will be processed within one recurrence of the consumption job.
+      - Use project correction for negative quantity consumption: When enabled, Process expense consumption job automatically sets the "correction" checkmark on the expense journal line to "yes" when the line quantity is negative.
 
 ##Project groups 
 IM integration parameters that are defaulted from a project group are added to the project group form:
