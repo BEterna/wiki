@@ -2,6 +2,13 @@
 [[_TOC_]]
 
 ____
+## Release AdLocalization_##10.0.20231219.01
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|Exports using ER|Refactoring code to improve user experience when exporting data through Electronic reporting (ER) .|Changed feature|
+
+____
 ## Release AdLocalization_#10.0.20231204.01
 ### Localization core
 |Area|Description|Type|
