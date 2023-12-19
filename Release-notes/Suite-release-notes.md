@@ -1,6 +1,15 @@
 # BE-terna suite
 [[_TOC_]]
 
+####10.0.20231219.01
+|Suite|Description|Type|
+|---|---|---|
+|Deferrals|Enabled the option to run Posting deferrals batch job by using date range as a parameter. |New feature|
+|Deferrals|Fixed missing security properties on Maintain deferrals duty.|Bug fix|
+|Investment management|Fixed missing security properties on IM integration manager role.|Bug fix|
+|Investment management|A new checkmark "Use project correction for negative quantity consumption" has been added to the project management and accounting parameters. When enabled, Process expense consumption job automatically sets the "correction" checkmark on the expense journal line to "yes" when the line quantity is negative.|New feature|
+
+___
 ###10.0.20231204.01
 |Suite|Description|Type|
 |---|---|---|
