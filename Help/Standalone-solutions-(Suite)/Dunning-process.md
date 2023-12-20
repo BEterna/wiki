@@ -30,7 +30,7 @@ Credit and Collections/Setup/Enforcements/Enforcements settings/Payment
 |Unit|Unit of measure|Any value|
 |Payment method|Fee payment method|Any value – 3 options explained below|
 
-**Payment method:**
+Payment method:
 -	**Packet** – summed for the whole package,
 -	**Proposal** - separately for each enforcement proposal (in this case paying court fee on a package level is disabled) or
 -	**Packet or proposal** – both (separate or packet court fee payment) options stay available, user can decide about the desired payment option later.
@@ -48,3 +48,15 @@ Values to be added are:
 |Street|Court address – street name and house number|
 |City|Court address - city|
 |ZPI/postal code|Court postal code|
+
+###**Cadastral municipalities**
+Credit and Collections/Setup/Enforcements/Cadastral municipalities
+List of Slovenian cadastral municipalities can be found on:
+https://www.stat.si/Klasje/Klasje/Tabela/6415 
+
+Values to be added are:
+|**Field**|**Description**|
+|--|--|
+|County|Cadastral municipality code|
+|Description|Name of the cadastral municipality|
+|Court name|Select or entre court ID to which this cadastral municipality belongs to|
