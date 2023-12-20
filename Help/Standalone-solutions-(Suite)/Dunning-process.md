@@ -60,3 +60,25 @@ Values to be added are:
 |County|Cadastral municipality code|
 |Description|Name of the cadastral municipality|
 |Court name|Select or entre court ID to which this cadastral municipality belongs to|
+
+###**Number sequences**
+Organizational administration/Number sequences/Number sequences
+Create two new number sequences. In the reference section for each of the newly generated sequences, select:
+-	Area: »Dunning (Adacta)«,
+-	References: »Enforcement proposal ID« or »Enforcement packet ID« - one for each of the two number sequences.
+
+###**Enforcement proposal template**
+Credit and collections/Enforcements/Enforcement proposals (button Template)
+
+To simplify day to day operations, enforcement template can be created. This template will be used when creating new enforcement proposals. In the template user can predefine all data that is common to new enforcement proposals. The data used in the template can be later changed in the enforcement proposal. 
+
+Suggested common data, defined on the template:
+
+|**Tab**|**Field**|**Description**|
+|--|--|--|
+|General|Billing classification|Select or enter billing classification that will be used for charging customer for| 
+|General|Reference ID formatting|String that formats payment reference, where %1 is replace by proposal ID and %2 by customer account|
+|General|Legal interest (Yes/No)|Are legal late interest available?|
+|Participants|Table of data|Roles creditor, representative and depositor are usually same for all new enforcements. Each line in the table has own Details below. For creditor tab bank account should also be defined.|
+|Suggestions|Table of data|In this table it can be defined usual means for transaction repayment, such as cash equivalents (money on bank account) or regular income…|
+|Creditor cost|Table of data|Table of cost type where setup for Free text invoices and pending vendor invoices can be set (with Yes/No option for Legal interests).|
