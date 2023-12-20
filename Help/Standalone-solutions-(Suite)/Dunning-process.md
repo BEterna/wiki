@@ -34,3 +34,17 @@ Credit and Collections/Setup/Enforcements/Enforcements settings/Payment
 -	**Packet** – summed for the whole package,
 -	**Proposal** - separately for each enforcement proposal (in this case paying court fee on a package level is disabled) or
 -	**Packet or proposal** – both (separate or packet court fee payment) options stay available, user can decide about the desired payment option later.
+
+###**Courts**
+Credit and Collections/Setup/Enforcements/Courts
+List of Slovenian courts (SIF classification) can be found on: 
+http://www.sodisce.si/mma_bin.php?static_id=20180809130818
+
+Values to be added are:
+|**Field**|**Description**|
+|--|--|
+|Court ID|Court ID as stated in the link data|
+|Court name|Name of the court as stated in the link data|
+|Street|Court address – street name and house number|
+|City|Court address - city|
+|ZPI/postal code|Court postal code|
