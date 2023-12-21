@@ -63,3 +63,32 @@ https://evlozisce.sodisce.si/dokumenti/priloga7.pdf*
 |NAME|Is automatically transferred, based on the Party ID selection, but manual entry is also possible.|
 |NAME/SURNAME|Is automatically transferred, based on the Party ID selection, but manual entry is also possible. NOTE: field can be overwritten with the participant’s name from the AJPES (Slovenian Taxable Persons), based on the tax identification number (VAT ID).|
 
+When adding a participant, information required for filing the enforcements are transferred to »Details« and »Bank accounts« tabs.
+
+###**Suggestions**
+Different kinds of enforcement proposals are supported. Available from the list:
+-	Bank account assets (Denarna sredstva OPP)
+-	Real estate in the land register (Nepremičnina ZK)
+-	Chattel (Premoženje)
+-	The partner's share (Delež družbenika)
+-	Regular income (Redni prihodki)
+-	Preference stock (Prednostne delnice)
+-	Other material property rights - Druge premoženjske materialne pravice
+-	Real estate not in the land register (Nepremičnina ni ZK)
+-	Property right (Stavbna pravica)
+-	Other monetary receivables (Druge denarne terjatve)
+Some of these “suggestions” need additional details.
+
+###**Creditor costs**
+|**Field**|**Description**|
+|--|--|
+|Cost type|Fee amount, Form, Posting, Lawyer, Other costs|
+|Vendor account|Account of the vendor to which liabilities for the specified costs will be posted|
+|Procurement category|For posting liability to vendor|
+|Billing code|For transferring enforcement costs to the debtor|
+|Description|Free text field|
+|Unit|Unit of measure|
+|Authentic document percent|By entering certain number – e.g. 10, 10% of the authenticated documents value will be calculated and transferred to “Amount” field.|
+|Currency|Transaction currency|
+|Reimbursement required|Checkmark is relevant only for cost types “Lawyer cost” or “Fee amount”|
+|Liable for Slovenian VAT|Checkmark is relevant only for “Lawyer cost” cost type|
