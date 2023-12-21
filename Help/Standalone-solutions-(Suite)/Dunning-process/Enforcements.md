@@ -54,5 +54,12 @@ https://evlozisce.sodisce.si/dokumenti/priloga7.pdf*
 |DETAILS|<br>- _Billing classification:_ should be selected in case the costs should be charged to the creditor (»Creditor cost« section) with the selected billing classification (More in chapter 4.2.5).<br>- _Reference ID formatting_ a pre-set string for the creditor's invoice reference, where »%1« represents the Enforcement proposal ID and »%2« Customer account. Reference generated based on that pattern is transferred to the »Reference ID formatting« field to the creditor's bank account (see photo below). It is also possible to enter this reference manually. In this case the manually entered value will be transferred from the »Reference ID formatting« field in the »General »section to the »Reference ID formatting« field in the »Participants« field on the Enforcement proposal.<br>- _Legal interests:_ if set to “Yes”, setting is transferred to the authenticated document, where the same field exists (just defaults values to each authenticated document). Additionally, this field is set on the authenticated document, if a transaction of a type »Interest« is selected.<br>- _Economic matter:_ should be marked in a case of a dispute in which, based on the article 481 of »Zakon o pravdnem postopku« rules about the economic disputes apply. NOTE: currently this option is correctly transferred to XML but has to be set manually when XML is uploaded to e-Sodstvo portal, due to the bug on the portal.|
 |PROJECT|- _Project ID:_ an identification of a project (in case user wants to post the costs of enforcement to a project, based on the project ID, adequate project is transferred to a vendor invoice, created in the »Creditor costs« section).|
 
-
+###**Participants**
+|**Field**|**Description**|
+|--|--|
+|ROLE|Possible roles when adding participants are: Debtor, Creditor, Executor, Representative, Assignee, Depositor, Debtors debtor, Civil court and Country court. NOTE: the following roles are mandatory for exporting XML: Debtor, Creditor, Depositor and Representative.|
+|PARTICIPANT TYPE|Natural person, Legal entity, Sole proprietor, Court|
+|PARTY ID|Based on the Participant type selection, records from the global address book are adequately filtered.|
+|NAME|Is automatically transferred, based on the Party ID selection, but manual entry is also possible.|
+|NAME/SURNAME|Is automatically transferred, based on the Party ID selection, but manual entry is also possible. NOTE: field can be overwritten with the participant’s name from the AJPES (Slovenian Taxable Persons), based on the tax identification number (VAT ID).|
 
