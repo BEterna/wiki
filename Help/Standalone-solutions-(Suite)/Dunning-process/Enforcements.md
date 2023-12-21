@@ -92,3 +92,18 @@ Some of these “suggestions” need additional details.
 |Currency|Transaction currency|
 |Reimbursement required|Checkmark is relevant only for cost types “Lawyer cost” or “Fee amount”|
 |Liable for Slovenian VAT|Checkmark is relevant only for “Lawyer cost” cost type|
+
+###**Cost payment**
+A pending vendor invoice can be created (and posted) for e.g. Court fee
+
+###**Charge costs**
+Costs of enforcements can be charged to the debtor (Free text invoice created).
+
+###**Web/Court**
+If an enforcement proposal is submitted to court as packet »Web/Court« section displays the information about:  submission date/time (»Exported into XML« field), sequence number of the proposal (»Sequence« field), court reference number (»Court reference«), court fee amount (»Fee amount« field) and the latest date and time of enforcement status check (»Check date/time« field).
+
+###**Court journal**
+This section shows history of the communication with the court.
+
+###**Court proposal errors**
+In case of filing enforcements as packet, court can reject the packet if it contains errors. In »Court proposal errors« section, all the errors are displayed.
