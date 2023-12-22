@@ -7,4 +7,4 @@ Second functionality covers judicial dunning procedure. Collections cases can re
 The process is presented in the following sections:
 - [Basic setup](/Help/Standalone-solutions-\(Suite\)/Dunning-process/Basic-setup)
 - [Enforcement](/Help/Standalone-solutions-\(Suite\)/Dunning-process/Enforcements)
-- [Judicial dunning procedure](/Help/Extended-Localization/Judicial-dunning-procedure-\(SI\)) (only available for country region SI)
+- [Judicial dunning procedure](/Help/Extended-Localization/Judicial-dunning-procedure-\(SI\)) (Extended Localization- only available for country region SI)
