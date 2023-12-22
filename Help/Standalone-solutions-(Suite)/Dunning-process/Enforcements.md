@@ -7,12 +7,12 @@ Suggested common data, defined on the template:
 
 |**Tab**|**Field**|**Description**|
 |--|--|--|
-|General|Billing classification|Select or enter billing classification that will be used for charging customer for| 
-|General|Reference ID formatting|String that formats payment reference, where %1 is replace by proposal ID and %2 by customer account|
-|General|Legal interest (Yes/No)|Are legal late interest available?|
-|Participants|Table of data|Roles creditor, representative and depositor are usually same for all new enforcements. Each line in the table has own Details below. For creditor tab bank account should also be defined.|
-|Suggestions|Table of data|In this table it can be defined usual means for transaction repayment, such as cash equivalents (money on bank account) or regular income…|
-|Creditor cost|Table of data|Table of cost type where setup for Free text invoices and pending vendor invoices can be set (with Yes/No option for Legal interests).|
+|**General**|**Billing classification**|Select or enter billing classification that will be used for charging customer for| 
+|**General**|**Reference ID formatting**|String that formats payment reference, where %1 is replace by proposal ID and %2 by customer account|
+|**General**|**Legal interest (Yes/No)**|Are legal late interest available?|
+|**Participants**|**Table of data**|Roles creditor, representative and depositor are usually same for all new enforcements. Each line in the table has own Details below. For creditor tab bank account should also be defined.|
+|**Suggestions**|**Table of data**|In this table it can be defined usual means for transaction repayment, such as cash equivalents (money on bank account) or regular income…|
+|**Creditor cost**|**Table of data**|Table of cost type where setup for Free text invoices and pending vendor invoices can be set (with Yes/No option for Legal interests).|
 
 #**Enforcement proposal creation**
 
@@ -48,20 +48,20 @@ https://evlozisce.sodisce.si/dokumenti/priloga7.pdf*
 ###**General**
 |**Field**|**Description**|
 |--|--|
-|IDENTIFICATION|- _Enforcement proposal ID:_ is generated based on the pre-set number sequence<br>- _Description:_ a free text field. By adding a participant in »Participants« section, a value from the Name/Surname field from that section is added to the description.<br>- _Customer account:_ is automatically populated at the time of the Debtor selection in »Participants« section of the proposal.<br>- _Creation user:_ username of the worker, who prepared the enforcement|
-|ENFORCEMENT PACKET|- _Enforcement packet ID:_ if an enforcement proposal is included to the enforcement packet, this field displays the packet field|
-|STATUS|<br>-_Status:_ possible statuses are: Draft, Exported to XML, Included to the enforcement packet<br>-_Exported to XML:_ the date and time of the proposal export as XML file|
-|DETAILS|<br>- _Billing classification:_ should be selected in case the costs should be charged to the creditor (»Creditor cost« section) with the selected billing classification (More in chapter 4.2.5).<br>- _Reference ID formatting_ a pre-set string for the creditor's invoice reference, where »%1« represents the Enforcement proposal ID and »%2« Customer account. Reference generated based on that pattern is transferred to the »Reference ID formatting« field to the creditor's bank account (see photo below). It is also possible to enter this reference manually. In this case the manually entered value will be transferred from the »Reference ID formatting« field in the »General »section to the »Reference ID formatting« field in the »Participants« field on the Enforcement proposal.<br>- _Legal interests:_ if set to “Yes”, setting is transferred to the authenticated document, where the same field exists (just defaults values to each authenticated document). Additionally, this field is set on the authenticated document, if a transaction of a type »Interest« is selected.<br>- _Economic matter:_ should be marked in a case of a dispute in which, based on the article 481 of »Zakon o pravdnem postopku« rules about the economic disputes apply. NOTE: currently this option is correctly transferred to XML but has to be set manually when XML is uploaded to e-Sodstvo portal, due to the bug on the portal.|
-|PROJECT|- _Project ID:_ an identification of a project (in case user wants to post the costs of enforcement to a project, based on the project ID, adequate project is transferred to a vendor invoice, created in the »Creditor costs« section).|
+|**IDENTIFICATION**|- **_Enforcement proposal ID:_** is generated based on the pre-set number sequence<br>- **_Description:_** a free text field. By adding a participant in »Participants« section, a value from the Name/Surname field from that section is added to the description.<br>- **_Customer account:_** is automatically populated at the time of the Debtor selection in »Participants« section of the proposal.<br>- **_Creation user:_** username of the worker, who prepared the enforcement|
+|**ENFORCEMENT PACKET**|- **_Enforcement packet ID:_** if an enforcement proposal is included to the enforcement packet, this field displays the packet field|
+|**STATUS**|<br>-**_Status:_** possible statuses are: Draft, Exported to XML, Included to the enforcement packet<br>-**_Exported to XML:_** the date and time of the proposal export as XML file|
+|**DETAILS**|<br>- **_Billing classification:_** should be selected in case the costs should be charged to the creditor (»Creditor cost« section) with the selected billing classification (More in chapter 4.2.5).<br>- **_Reference ID formatting_** a pre-set string for the creditor's invoice reference, where »%1« represents the Enforcement proposal ID and »%2« Customer account. Reference generated based on that pattern is transferred to the »Reference ID formatting« field to the creditor's bank account (see photo below). It is also possible to enter this reference manually. In this case the manually entered value will be transferred from the »Reference ID formatting« field in the »General »section to the »Reference ID formatting« field in the »Participants« field on the Enforcement proposal.<br>- **_Legal interests:_** if set to “Yes”, setting is transferred to the authenticated document, where the same field exists (just defaults values to each authenticated document). Additionally, this field is set on the authenticated document, if a transaction of a type »Interest« is selected.<br>- **_Economic matter:_** should be marked in a case of a dispute in which, based on the article 481 of »Zakon o pravdnem postopku« rules about the economic disputes apply. NOTE: currently this option is correctly transferred to XML but has to be set manually when XML is uploaded to e-Sodstvo portal, due to the bug on the portal.|
+|**PROJECT**|- **_Project ID:_** an identification of a project (in case user wants to post the costs of enforcement to a project, based on the project ID, adequate project is transferred to a vendor invoice, created in the »Creditor costs« section).|
 
 ###**Participants**
 |**Field**|**Description**|
 |--|--|
-|ROLE|Possible roles when adding participants are: Debtor, Creditor, Executor, Representative, Assignee, Depositor, Debtors debtor, Civil court and Country court. NOTE: the following roles are mandatory for exporting XML: Debtor, Creditor, Depositor and Representative.|
-|PARTICIPANT TYPE|Natural person, Legal entity, Sole proprietor, Court|
-|PARTY ID|Based on the Participant type selection, records from the global address book are adequately filtered.|
-|NAME|Is automatically transferred, based on the Party ID selection, but manual entry is also possible.|
-|NAME/SURNAME|Is automatically transferred, based on the Party ID selection, but manual entry is also possible. NOTE: field can be overwritten with the participant’s name from the AJPES (Slovenian Taxable Persons), based on the tax identification number (VAT ID).|
+|**ROLE**|Possible roles when adding participants are: Debtor, Creditor, Executor, Representative, Assignee, Depositor, Debtors debtor, Civil court and Country court. NOTE: the following roles are mandatory for exporting XML: Debtor, Creditor, Depositor and Representative.|
+|**PARTICIPANT TYPE**|Natural person, Legal entity, Sole proprietor, Court|
+|**PARTY ID**|Based on the Participant type selection, records from the global address book are adequately filtered.|
+|**NAME**|Is automatically transferred, based on the Party ID selection, but manual entry is also possible.|
+|**NAME/SURNAME**|Is automatically transferred, based on the Party ID selection, but manual entry is also possible. NOTE: field can be overwritten with the participant’s name from the AJPES (Slovenian Taxable Persons), based on the tax identification number (VAT ID).|
 
 When adding a participant, information required for filing the enforcements are transferred to »Details« and »Bank accounts« tabs.
 
@@ -82,16 +82,16 @@ Some of these “suggestions” need additional details.
 ###**Creditor costs**
 |**Field**|**Description**|
 |--|--|
-|Cost type|Fee amount, Form, Posting, Lawyer, Other costs|
-|Vendor account|Account of the vendor to which liabilities for the specified costs will be posted|
-|Procurement category|For posting liability to vendor|
-|Billing code|For transferring enforcement costs to the debtor|
-|Description|Free text field|
-|Unit|Unit of measure|
-|Authentic document percent|By entering certain number – e.g. 10, 10% of the authenticated documents value will be calculated and transferred to “Amount” field.|
-|Currency|Transaction currency|
-|Reimbursement required|Checkmark is relevant only for cost types “Lawyer cost” or “Fee amount”|
-|Liable for Slovenian VAT|Checkmark is relevant only for “Lawyer cost” cost type|
+|**Cost type**|Fee amount, Form, Posting, Lawyer, Other costs|
+|**Vendor account**|Account of the vendor to which liabilities for the specified costs will be posted|
+|**Procurement category**|For posting liability to vendor|
+|**Billing code**|For transferring enforcement costs to the debtor|
+|**Description**|Free text field|
+|**Unit**|Unit of measure|
+|**Authentic document percent**|By entering certain number – e.g. 10, 10% of the authenticated documents value will be calculated and transferred to “Amount” field.|
+|**Currency**|Transaction currency|
+|**Reimbursement required**|Checkmark is relevant only for cost types “Lawyer cost” or “Fee amount”|
+|**Liable for Slovenian VAT**|Checkmark is relevant only for “Lawyer cost” cost type|
 
 ###**Cost payment**
 A pending vendor invoice can be created (and posted) for e.g. Court fee
