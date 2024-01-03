@@ -41,7 +41,7 @@ Values to be added are:
 |**Court name**|Name of the court as stated in the link data|
 |**Street**|Court address – street name and house number|
 |**City**|Court address - city|
-|**ZPI/postal code**|Court postal code|
+|**ZIP/postal code**|Court postal code|
 
 ###**Cadastral municipalities**
 Credit and Collections/Setup/Enforcements/Cadastral municipalities
