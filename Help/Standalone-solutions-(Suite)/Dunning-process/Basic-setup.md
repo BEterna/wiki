@@ -4,19 +4,9 @@
 Organizational administration/Setup/Cases/Case categories/
 1.	Use the »New« button to generate a new case category. Define case category, description, category type and worker.
 2.	Save
-###**Enforcement settings**
-Credit and Collections/Setup/Enforcements/Enforcements settings/General
-Web service setup
-|**Parameter**|**Description**|**Value (for test server)**|
-|--|--|--|
-|**Web server for sending**| Web server for submitting the enforcement packets to court|https://evlozisce-test.sodisce.si/axis2/services/PackageProposalService
-|**Web server for checking**|Web server for checking the enforcement packets with the|https://evlozisce-test.sodisce.si/axis2/services/ProposalStatusService
-|**Enforcement proposal electronic reporting format**|Enforcement proposal electronic reporting format (XML)|Enforcement proposal format (Electronic reporting)
 
-Note: Prior to selecting the Enforcement proposal electronic reporting format in enforcement settings, it needs to be configured in Electronic reporting workspace. Configure a new repository with a Configuration repository type: »Adacta Suite (Dunning)« and import the contained electronic reporting formats. 
-Links for web servers can be found on https://evlozisce.sodisce.si/ . 
 
-Credit and Collections/Setup/Enforcements/Enforcements settings/Payment
+###**Credit and Collections/Setup/Enforcements/Enforcements settings/Payment**
 |**Parameter**|**Description**|**Value**|
 |--|--|--|
 |**Vendor account**|Possible to generate vendor invoice with the selected vendor account|Any vendor|
