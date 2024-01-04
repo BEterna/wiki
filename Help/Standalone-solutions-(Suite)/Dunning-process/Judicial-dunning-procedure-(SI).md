@@ -2,7 +2,7 @@
 
 Enforcements can be sent to court as single enforcement or as a package with multiple enforcements. This functionality is only available for country region SI.
 
-###**Enforcement settings**
+##**Enforcement settings**
 Credit and Collections/Setup/Enforcements/Enforcements settings/General
 Web service setup
 |**Parameter**|**Description**|**Value (for test server)**|
