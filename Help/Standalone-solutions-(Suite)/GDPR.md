@@ -97,18 +97,18 @@ Below find fields that are exported to database or to some other location:
 |6|Fullname|Bernarda GM Be-Terna|Full name of the user who accessed personal data|
 |7|appname|MsDyn365FO|Application name through which data was accessed, for example, in case of D365FSCM, it will be recorded as MsDYN365FO|
 |8|modename|WebClient|Access = in case of D365FSCM = WebClient|
-|9|  
-|10| 
-|11|  
-|12|  
-|13|  
-|14|
-|15|
-|16|
-|17|
-|18|
-|19|
-|20|
-|21|
-|22|
-|23|
+|9|coreidzvop|000012408|ID of the person in Global address book whose data was accessed|
+|10|namezvop|PETER|First name of the individual whose data was accessed| 
+|11|surnamezvop|ELEKTRIČAR|Surname of the individual whose data was accessed|
+|12|birtdayzvop|1900-01-01|Birthday of the individual whose data was accessed, in the format yyyy-MM-dd; if the data is not available, the system returns: 1900-01-01| 
+|13|addresszvop|Mariborska cesta 1 2000 MARIBOR SVN|Address of the individual whose data was accessed; if the data is not available, the field is empty|
+|14|taxzvop|76161846|Tax number of the individual whose data was accessed; if the data is not available, the field is empty|
+|15|pidzvop|0505999500336|Personal Identification Number (EMŠO) of the individual whose data was accessed; if the data is not available, the field is empty|
+|16|actionzvop|View|User action, possible values are View, Edit, Add, Delete|
+|17|purposezvop|CustTableListPage – Display|Display Form name through which the user accessed personal data – and its type|
+|18|infozvop|First name Last name|Fields the user accessed|
+|19|aosinstance|Azure|Instance, for example, Azure|
+|20|tablename|DirPersonName|Name of the table/entity whose data was accessed. Names are listed in section Entities included in the base package|
+|21|loguseralias|FirstName.LastName@company.com|E-mail address recorded on the user accessing this data|
+|22|systemname|COMP-UAT|In the case of access from D365FSCM = D365FO environment from which the access occurred|
+|23|logform|CustTable|Form name through which the user accessed personal data|
