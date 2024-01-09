@@ -89,19 +89,19 @@ Below find fields that are exported to database or to some other location:
 
 |Seq.|Field|Example|Field explanation|
 |--|--|--|--|
-|1|  |  |  |
-|2|  |  |  |
-|3|  |  |  |
-|4|  |  |  |
-|5|  |  |  |
-|6|  |  |  |
-|7|  |  |  |
-|8|  |  |  |
-|9|  |  |  |
-|10|  |  |  |
-|11|  |  |  |
-|12|  |  |  |
-|13|  |  |  |
+|1|EventID |37538|Sequential record number|
+|2|Eventname|SmartZVOP|Event name, always the same|
+|3|Eventtime|2021-03-01 13:43:48.000|Time of the event|
+|4|DomaineName|COMP|Domain name|
+|5|Username|GMBERNARDA|User code, Code of the user who accessed personal data|
+|6|Fullname|Bernarda GM Be-Terna|Full name of the user who accessed personal data|
+|7|appname|MsDyn365FO|Application name through which data was accessed, for example, in case of D365FSCM, it will be recorded as MsDYN365FO|
+|8|modename|WebClient|Access = in case of D365FSCM = WebClient|
+|9|  
+|10| 
+|11|  
+|12|  
+|13|  
 |14|
 |15|
 |16|
