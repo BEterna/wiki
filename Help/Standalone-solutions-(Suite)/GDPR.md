@@ -66,14 +66,49 @@ The Expiration type can be:
 - Absolute - checks for duplicate records in a constant period (in seconds).
 - Sliding - checks for duplicate records in a sliding period (in seconds) based on the start of the user's activity.
 
+The "Seconds" setting allows us to define the period in which we want to check for duplicate records. The time period is specified in seconds, which means that, if set to 30, viewing the same entity twice within 30 seconds will not be logged as duplicate accesses.
+
+## **Configuration**<br>
+
+System Administration > Settings > GDPR > GDPR parameters.
+
+The configuration is the same for all companies. It requires loading from an XML file. Options for export are: 
+
+- Writing to the database - recommended for testing on UAT (for testing purposes, it writes to DW [data warehouse] on the UAT database) -> [companyGDPR].[GdprLog]
+- Other options for storing audit trail data are described in the link: https://github.com/NLog/NLog/wiki/Targets  (as of April 14, 2021) 
+- SysLog documentation is available at https://github.com/luigiberrettini/NLog.Targets.Syslog. 
 
 
+Among other data in the XML configuration, we can find information about: 
+- Table name; example for UAT = Database name="dbo" 
+- Server; 
+- User; example for UAT = User ID= company_GDPR_D365_UAT; 
+- Password; 
 
+Below find fields that are exported to database or to some other location:
 
-
-
-
-
-
-
-
+|Seq.|Field|Example|Field explanation|
+|--|--|--|--|
+|1|  |  |  |
+|2|  |  |  |
+|3|  |  |  |
+|4|  |  |  |
+|5|  |  |  |
+|6|  |  |  |
+|7|  |  |  |
+|8|  |  |  |
+|9|  |  |  |
+|10|  |  |  |
+|11|  |  |  |
+|12|  |  |  |
+|13|  |  |  |
+|14|
+|15|
+|16|
+|17|
+|18|
+|19|
+|20|
+|21|
+|22|
+|23|
