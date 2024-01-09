@@ -18,3 +18,62 @@ For every entity individual fields must be defined for which company wants to lo
 -  Field Name - from the dropdown list, we can choose the relevant fields for which we will log accesses. 
 -	Description - it is copied from the dropdown list "Field Label." 
 -	Additional Description - when multiple options are hidden under one field, we can select which options will have their accesses logged.
+## **Entities included in the base package**<br>
+System Administration > Settings > GDPR logging > GDPR Entities.<br><br>The following entities are included in the suite package (on which the logging of the audit trail for specific fields can be configured):<br>
+- ContactPerson - Contacts
+- CustBankAccount – Customer bank accounts
+- CustCollectionLetterJour – Collection letter journal
+- CustInvoiceJour – Invoice journal
+- CustInvoiceTable – Free text invoice
+- CustTable – Customers
+- DirPartyPostalAdressVeiw – Partner addresses
+- DirPerson – Individuals
+- DirPesonName – Person's name
+- HcmEmployment – Employment
+- HcmEmploymentDetail – Employment details
+- HcmEmploymentEmployee – Employee details
+- HcmPersonalContactRelationship – Personal contacts
+- HcmPersonaIdentificationNumber – Person's identification numbers
+- HcmPersonPrivateDetails – Personal details
+- HcmWorker - Worker
+- HcmWorkerBankAccount – Worker's bank account
+- LogisticElectronicAddress – Communication data – electronic address
+- LogisticsEntityPostalAddress – Postal address overview
+- LogisticsLocation - Locations
+- LogisticsPostalAddress - Addresses
+- LogisticsPostalAddressView – Address overview (Address View)
+- VendBankAccount – Vendor bank accounts
+- VendTable – Vendors
+
+All these entities in D365FCSM are identified as containing personal data of individuals. If the company wishes to add additional entities to the list, this can be done as an additional extension within the project. 
+<br><br>For each entity, a "class" must be developed with implemented logging rules and implemented calls to five "methods" on the entity:
+- Insert - visible in the audit trail as an add action 
+- Delete - visible in the audit trail as a delete action 
+- Update - visible in the audit trail as an edit action 
+- Post load and post cache load - visible in the audit trail as view actions
+
+**NOTE:** If additional entities are added later, it is necessary to refresh the overview, and this can be done by clicking the "Refresh entities" button on the entities tab.
+
+## **Preventing duplicate view logging**<br>
+System Administration > Settings > GDPR > GDPR parameters.
+
+Within the GDPR parameters, there is a setting in the General tab that allows us to prevent duplicate logging of views if a repeated view occurs within a certain time period. 
+
+
+When a user opens a specific entity twice, duplicate records are created in the audit trail. The setting "Rejecting duplicates" allows us to eliminate duplications within a specified period if the "Enabled" setting is set to Yes. 
+
+The Expiration type can be:
+- Absolute - checks for duplicate records in a constant period (in seconds).
+- Sliding - checks for duplicate records in a sliding period (in seconds) based on the start of the user's activity.
+
+
+
+
+
+
+
+
+
+
+
+
