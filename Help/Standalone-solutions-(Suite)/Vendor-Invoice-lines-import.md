@@ -20,7 +20,7 @@ With this functuionallity users can import Vendor invoice lines for specific Ven
 |Source data format| File format structure: “XML-Element”|
 |Upload data file|“Imported invoice line” D365O entity – the required structure for importing invoice line to D365O, which can be obtained by exporting »Imported invoice lines« entity.|
 4.	When upload is completed, close the dialog, and click on **View map** icon to see mapping between the source and staging files
-5.	Then click on**Transformations** ribbon to upload and apply the XML transformation between the structure of external invoice file and invoice lines structure in D365O. Make sure to use the actual transformation files (ask developer for an adequate versions) or use the ones provided in this link.
+5.	Then click on**Transformations** ribbon to upload and apply the XML transformation between the structure of external invoice file and invoice lines structure in D365O. Make sure to use the actual transformation files (ask developer for an adequate versions) or use the ones provided in [**this link**](https://erp-releases.be-terna.com/b/adaxreleases?path=adsuite%2f10.0%2fAdSuiteEinv-Transformations%2f).
 6.	Create a new line, click on »Upload file« and select the transformation file from your PC. When upload is completed click on **Apply transforms**, to apply the uploaded transformation!
 _NOTE: Procedure described throughout this chapter needs to be repeated for each specific invoice transformation (e.g. A1, Telekom, and OMW). Separate import projects have to be created for each specific invoice format, desired to be imported to D365O._
 
