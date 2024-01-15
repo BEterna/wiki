@@ -1,7 +1,12 @@
 ## **About**
-In D365FSCM tables there is some data stored, which is according to the definition of the General Data Protection Regulation (GDPR) or the Personal Data Protection Act (hereinafter referred to as ZVOP-2), qualify as personal data. This includes either data of the company employees or business partners (persons) which buy from or sell to the company products and services. System recognizes persons by the record type in the Global Address book.
-The company is obligated to adequately protect personal data that is processed and comply with the requirements of Slovenian and EU legislation. Part of fulfilling these legal requirements is enabling traceability of data processing or an audit trail. 
-Because of these reasons it is necessary to provide a technical solution in the Microsoft Dynamics D365FSCM system, that will allow the generation of an audit trail concerning predefined data and associated events.
+Within D365FO implemented in the company, databases are generated and stored, which also contain data that, according to the definition of the EU General Data Protection Regulation (GDPR) or additional local regulations, qualify as personal data. This includes either data of the company's employees or data of clients/customers of the products and services provided by the mentioned company. 
+
+Local regulations supported in this solution are:
+- Slovenian Personal Data Protection Act (hereinafter referred to as ZVOP-2)
+
+The company is obligated to adequately protect personal data that is processed and comply with the requirements of EU and local legislation. Part of fulfilling these legal requirements is enabling traceability of data processing or an audit trail. 
+
+This solution enables the system to recognize persons by the record type in the Global Address book and generates an audit trail concerning predefined data and associated events.
 
 ## **Setup**
 System Administration > Settings > GDPR.
