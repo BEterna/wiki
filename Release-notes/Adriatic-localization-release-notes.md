@@ -2,6 +2,17 @@
 [[_TOC_]]
 
 ____
+## Release AdLocalization_##10.0.20240125.01
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|eInvoice (RS)|eInvoice xml export for RS fixed to include multiple references when Credit note is sattled with multip0le invoices. |Bug fix|
+|Intrastat enchancements|Issue with weight change on product receipt not being taken into account when using Item arrival journal fix.|Bug fix|
+|Personal tax reports|Additinal logic added to all personal tax reports except REK when searching for tax identification number. It allows finding also  tax identification numbers registered for a residence foreign county/reagion. |Bug fix|
+|Advance invoice|Issue with manual reversing a customer prepayment invoise that generated a revesed invoice with the wrong account type is fixed.|Bug fix|
+|Advance invoice|Missing Customer/vendor account and name were added to the general ledger transaction that is generated with prepayment invoice posting.|Bug fix|
+
+____
 ## Release AdLocalization_##10.0.20231219.01
 ### Localization core
 |Area|Description|Type|
