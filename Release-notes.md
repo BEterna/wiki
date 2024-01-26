@@ -13,5 +13,5 @@ Example:
     - BE-terna releases a new package dependent on 10.0.34,
     - Customer needs to take up this release at the same time when updating D365FO to version 10.0.34 or later,
     - Such release is not compatible with 10.0.33 and earlier versions.
-- When a **New feature** type is announced, it means that a customer interesting in using this feature should take up such a release, otherwise the customer can skip it.
+- When a **New feature/Changed feature** type is announced, it means that a customer interesting in using this feature should take up such a release, otherwise the customer can skip it.
 - When a **Bug fix** type is announced, it means that a customer using the functionality for which this type of change is announced needs to take up such a release to avoid having a bug in their D365FO system with BE-terna localization, otherwise the customer can skip such a release.
