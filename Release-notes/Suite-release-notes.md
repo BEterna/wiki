@@ -1,6 +1,17 @@
 # BE-terna suite
 [[_TOC_]]
 
+####10.0.20240125.01
+|Suite|Description|Type|
+|---|---|---|
+|Asset insurance|Code review and best practice cleanup performed. These changes are internal and do not introduce any new features or alter existing functionality.|/|
+|Advanced banking|Fixed bank statement proccesing when the option to have transactions unmarked by default is used. |Bug fix|
+|Dunning process|Code review and best practice cleanup performed. These changes are internal and do not introduce any new features or alter existing functionality.|/|
+|Investment management|Fixed issue when posting Item return documents of the type Cancel using items blocked for inventiry that prevented the return process to generate inventory transactions, but marked the returned document as posted nevertheless. |Bug fix|
+|Investment management|New validation added in the batch job "Process item requirements" when generating shipments to a "terrain" type of warehouse (indirect consumption). The new functionality validates if a tranzit warehouse is defined and does not process item requirememnts where this validation fails.|New feature|
+|Advanced product management| Fixed issue with registered technical characteristics for a selected item being deleted when an inventiry transaction for the same item is deleted. |Bug fix|
+
+
 ####10.0.20231219.01
 |Suite|Description|Type|
 |---|---|---|
