@@ -2,11 +2,11 @@
 
 Instructions on how to report different types of support requests
 
-Support requests [**Issues**, **Change requests** and **Ideas**] can be submited via [Product Azure DevOps Board](https://ad365o.visualstudio.com/Public/_workitems/recentlyupdated/).
+Support requests [**Issues**, **Change requests** and **Ideas**] can be submited via [Product Azure DevOps Board](https://ad365o.visualstudio.com/Internal/_workitems/recentlyupdated/).
 
 ## Report an issue/bug 
 
-1. In [Product Azure DevOps Boards](https://ad365o.visualstudio.com/Public/_workitems/recentlyupdated/) select **New work item**
+1. In [Product Azure DevOps Boards](https://ad365o.visualstudio.com/Internal/_workitems/recentlyupdated/) select **New work item**
 2. In the dropdown select **Issue**
 
 ![](Issue1.jpg)
@@ -23,7 +23,7 @@ Support requests [**Issues**, **Change requests** and **Ideas**] can be submited
 
 ## Submit a change request
 
-1. In [Product Azure DevOps Boards](https://ad365o.visualstudio.com/Public/_workitems/recentlyupdated/) select **New work item**
+1. In [Product Azure DevOps Boards](https://ad365o.visualstudio.com/Internal/_workitems/recentlyupdated/) select **New work item**
 2. In the dropdown select **Change request**
 
 ![](ChangeRequest1.jpg)
@@ -37,7 +37,7 @@ Support requests [**Issues**, **Change requests** and **Ideas**] can be submited
 
 ## Submit an idea
 
-1. In [Product Azure DevOps Boards](https://ad365o.visualstudio.com/Public/_workitems/recentlyupdated/) select **New work item**
+1. In [Product Azure DevOps Boards](https://ad365o.visualstudio.com/Internal/_workitems/recentlyupdated/) select **New work item**
 2. In the dropdown select **Idea**
 
 ![](Idea1.jpg)
