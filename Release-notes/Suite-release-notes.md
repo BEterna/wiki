@@ -1,6 +1,12 @@
 # BE-terna suite
 [[_TOC_]]
 
+####10.0.XX
+|Suite|Description|Type|
+|---|---|---|
+|Advanced banking|The features for automatic importing of Bank statements by using the periodic tasks: Bank statement import (ER), Bank debit credit notification import (ER) is deprecated and will retire on 31.5.2024. The standard import of Bank statements should be used instead.|Deprecated feature|
+
+
 ####10.0.20240125.01
 |Suite|Description|Type|
 |---|---|---|
