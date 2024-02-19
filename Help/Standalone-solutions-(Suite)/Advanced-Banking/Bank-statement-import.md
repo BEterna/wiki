@@ -174,7 +174,7 @@ Imported transformation files are then displayed in Electronic reporting configu
 - **Camt.053 Format (AD)** for bank statements 
 - **Camt.054 Format (AD)** for bank debit credit notifications
 - **Halcom (RS)** for bank statements
-
+- **Asseco (RS)** for bank statement
 
 ### Bank statement format setup
 #### Camt.053 and Camt.054 formats
@@ -195,6 +195,15 @@ Imported transformation files are then displayed in Electronic reporting configu
 7. In the **Matches**, put the matching rule on the file name. For Halcom RS, use `(.*)_cov\.txt:(.*)\.txt`
 8. Mark **Generic Electronic import format field** 
 9. Select **Import configuration format** from the list of ER configurations
+
+### Asseco RS formats
+
+1. Go to **Cash and bank management > Setup > Advanced bank reconciliation setup > Bank statement format**
+2. **Add** new **Bank statement import configuration**
+3. Specify a **statement format**, such as **Asseco RS**
+4. Enter a **name for the format**.
+5. Choose the file type **XML** for Asseco RS
+6. Select **Import configuration format** from the list of ER configurations
 
 ### Bank account setup
 ---
