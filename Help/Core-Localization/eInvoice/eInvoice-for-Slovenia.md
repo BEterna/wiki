@@ -47,7 +47,7 @@ Supported providers:
 |**Profile ID**|ID profile code.|
 |**UJP**|If set to Yes, it determines the profile for UJP (Urad za javna plačila) customer.|
 |**Skip basic validation**|If set to Yes, validation of VAT ID/Tax number, (default) customer bank account, Registration No. is skipped.|
-|**Receiver/Debtor priority**| If parameters option is applied, data is taken from relevant parameters. If customer option is applied then default data from customer is taken.|
+|**Receiver/Debtor priority**| If set to parameters, data is taken from relevant parameters. If set to customer  then default data from customer is taken.|
 |**Receiver agent**|Receiver agent is part of the envelope data. If the set value is empty, the SWIFT/BIC code from the customer's default bank account will be used. Otherwise, the entered value will be used (e.g. when eInvoices are sent to BIZBOX use value BIZBSI2DICL).|
 |**Receiver mailbox**|Receiver mailbox is part of the envelope data. If the set value is empty, the IBAN from the customer's default bank account will be used. Otherwise, the entered value will be used.|
 |**Debtor agent**|Debtor agent is part of the envelope data. If the set value is empty, the SWIFT/BIC code from the customer's default bank account will be used. Otherwise, the entered value will be used (e.g. when eInvoices are sent to BIZBOX use value BIZBSI2DICL).|
