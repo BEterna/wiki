@@ -2,6 +2,12 @@
 [[_TOC_]]
 
 ____
+## Release AdLocalization_##10.0.XX
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+E-Invoice|Envelope XML export includes two fields: debtor_agent & debtor_account that are mandatory|Bug fix
+
 ## Release AdLocalization_##10.0.20240125.01
 ### Localization core
 |Area|Description|Type|
