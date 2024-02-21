@@ -6,7 +6,7 @@ ____
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
-E-Invoice|Envelope XML export includes two fields: debtor_agent & debtor_account that are mandatory|Bug fix
+E-Invoice|Envelope XML export includes two mandatory fields: debtor_agent & debtor_account filled with relevant data|Bug fix
 
 ## Release AdLocalization_##10.0.20240125.01
 ### Localization core
