@@ -7,7 +7,7 @@
 |Advanced banking|The features for automatic importing of Bank statements by using the periodic tasks: Bank statement import (ER), Bank debit credit notification import (ER) are deprecated and will retire on 31.5.2024. The standard import of Bank statements should be used instead.|Deprecated feature|
 |Advanced banking - Bank statement import|New electronic format for Asseco RS is enabled for importing bank statements in Serbia.| New feature|
 |Public procurement|Enabling fields on lines when opening purchase agreement that has no related documents. Relevant fields are disabled only when the PA line link exists.| Bug fix|
-
+|Loan and deposit| On received or given loan, posting same transaction (flow) multiple times is disabled|Bug fix|
 
 ####10.0.20240125.01
 |Suite|Description|Type|
