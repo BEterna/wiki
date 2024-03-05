@@ -5,9 +5,13 @@
 |Suite|Description|Type|
 |---|---|---|
 |Advanced banking|The features for automatic importing of Bank statements by using the periodic tasks: Bank statement import (ER), Bank debit credit notification import (ER) are deprecated and will retire on 31.5.2024. The standard import of Bank statements should be used instead.|Deprecated feature|
-|Advanced banking - Bank statement import|New electronic format for Asseco RS is enabled for importing bank statements in Serbia.| New feature|
-|Public procurement|Enabling fields on lines when opening purchase agreement that has no related documents. Relevant fields are disabled only when the PA line link exists.| Bug fix|
-|Loan and deposit| On received or given loan, posting same transaction (flow) multiple times is disabled|Bug fix|
+|Advanced banking|Bank statement import: New electronic format for Asseco RS (xml) is enabled for importing bank statements in Serbia.|New feature|
+|Loans and deposits|Fixed multiple posting of the same flow on received or given loan.|Bug fix|
+|Deferrals in Accounts Payable|Fixed case thet prevented using deferrals on a non-posted pending vendor invoice while also using standard prepayment functionality.|Bug fix|
+|Public procurement|Enabling fields on lines when opening purchase agreement that has no related documents. Relevant fields are disabled only when the Purchase agreement related documents exist.|Bug fix|
+|Investment management|Fix for posting generated shipments for direct consumption, when more than one shipment was created for the same item requirement and the same inventory dimensions and quantity data is defined on these shipments. Posting logic now also includes the correct Route ID.|Bug fix|
+
+
 
 ####10.0.20240125.01
 |Suite|Description|Type|
