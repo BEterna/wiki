@@ -6,8 +6,11 @@ ____
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
-E-Invoice|Envelope XML export includes two mandatory fields: debtor_agent & debtor_account filled with relevant data|Bug fix
-Tax|Percentage of social contributions extended to more decimal places on sales tax code value|Bug fix
+|Personal tax reports|Increased number of decimal places for social contributions value in Sales tax code value configuration form.|Changed feature|
+|eInvoice SI|Two new parameters (debtor agent and debtor account) added to eInvoice parameters for Physical persons email support that are included in the Envelope XML export.|Changed feature|
+|Personal tax reports SI|Changed calculation of NormExpenses in the REK 2 Electronig format due to legislation change.|Changed feature|
+|VAT reporting for SI|Fixed PDO report for cases where base amount is so small that tax amount is rounded to zero.|Bug fix|
+|VAT reporting CRO|New IRA and URA report form available for detail analyse of receivable and payable tax transactions including also non-taxable information.|New feature|
 
 ## Release AdLocalization_##10.0.20240125.01
 ### Localization core
