@@ -1,19 +1,19 @@
 # Import bank statement
 
-This topic includes information about two options for bank statement import: 
-- Bank statement transformations, used for mapping D365 fields with the information from bank statements (**Data management** - Option 1).
-- **Electronic reporting formats** for bank statement import (Option 2). 
+This topic includes information about <!--two options for -->bank statement import: 
+<!-- Bank statement transformations, used for mapping D365 fields with the information from bank statements (**Data management** - Option 1). -->
+- **Electronic reporting formats** for bank statement import <!--(Option 2) -->. 
 
 The following bank statement formats are supported as part of this package: 
 
    - Slovenia – ISO 20022 (HalcomSI)
    - Croatia – FINA
-   - Serbia – Assecco (Pexim) and HalcomRS
+   - Serbia – Assecco (xml) and HalcomRS
 
 After import, bank statements can be processed using the standard D365 bank reconciliation or additional bank statement processing features this package offers.
 
 ## **Setup**
-
+<!--
 ### **Setup of Data management (Option 1)**
 ---
 
@@ -160,7 +160,7 @@ After the format processing group is set up, the next step is to define the **ba
 
 ### **Setup of Electronic reporting formats** 
 ---
-
+-->
 ### Import Electronic reporting configurations (Option 2)
 <br>
 
@@ -174,7 +174,7 @@ Imported transformation files are then displayed in Electronic reporting configu
 - **Camt.053 Format (AD)** for bank statements 
 - **Camt.054 Format (AD)** for bank debit credit notifications
 - **Halcom (RS)** for bank statements
-
+- **Asseco (RS)** for bank statement
 
 ### Bank statement format setup
 #### Camt.053 and Camt.054 formats
@@ -195,6 +195,15 @@ Imported transformation files are then displayed in Electronic reporting configu
 7. In the **Matches**, put the matching rule on the file name. For Halcom RS, use `(.*)_cov\.txt:(.*)\.txt`
 8. Mark **Generic Electronic import format field** 
 9. Select **Import configuration format** from the list of ER configurations
+
+### Asseco RS formats
+
+1. Go to **Cash and bank management > Setup > Advanced bank reconciliation setup > Bank statement format**
+2. **Add** new **Bank statement import configuration**
+3. Specify a **statement format**, such as **Asseco RS**
+4. Enter a **name for the format**.
+5. Choose the file type **XML** for Asseco RS
+6. Select **Import configuration format** from the list of ER configurations
 
 ### Bank account setup
 ---
@@ -237,17 +246,17 @@ At import, the system checks for a **unique combination** of bank account number
 
 _NOTE: No validation exists to avoid duplicated bank statements in D365FO - the same bank statement can be imported several times._
 
+_NOTE: For Serbia Halcom RS format, bank statement files should be zipped before import._ 
+
+<!--
 If adequate setup exists, bank statements can also be imported directly from the configured sources (SharePoint) through **Cash and bank management > Periodic tasks > Bank statements import (ER)**.
 
-
-_NOTE: For Serbia, bank statement files should be zipped before import._ 
- 
 1. Set **Import statements for multiple bank accounts in all legal entities** to yes if you want to import statements for multiple accounts simultaneously. NOTE: importing statements to multiple bank accounts in D365FO with the same account number is not allowed. 
 1. Select **Bank account** from list of bank accounts.
 1. Select **Statement format**. If the format is already defined on the Bank account, this field is populated automatically after choosing the Bank account. During import, the system will recognize the bank account based on IBAN if it is not defined in the parameters.
 1. Click **Upload** 
 1. Click **OK**
-
+-->
 A Bank Statement is imported when shown in the list of bank statements. After import, the bank statement can be validated and reconciled. 
 
 _NOTE: Sometimes bank statements also include lines with a date outside the defined bank statement period. To avoid failure of bank statement validation, a new functionality that allows users to change the booking date on selected lines that were imported is available in the Bank statement detail form (new button Change booking date)._ 

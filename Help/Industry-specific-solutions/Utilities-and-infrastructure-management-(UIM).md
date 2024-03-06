@@ -29,6 +29,7 @@ In addition to that, it provides the integration layers for:
 - Item requirements automatic processing and shipping optimization
 - Project activation proposal
 - Investment integration layer
+- Project returns
 
 **[Fixed asset management](/Help/Standalone-solutions-\(Suite\)/Fixed-assets-management)**
 - Physical locations 
@@ -65,6 +66,7 @@ In addition to that, it provides the integration layers for:
 **[Advanced product management](/Help/Standalone-solutions-\(Suite\)/Advanced-product-management)**
 - Item configurator
 - E-product receipt 
+- Enhanced Inventory Posting Management
 
 **[Loan and deposit management](/Help/Standalone-solutions-\(Suite\)/Loans-and-deposits)**
 - Loans registration and calculation
