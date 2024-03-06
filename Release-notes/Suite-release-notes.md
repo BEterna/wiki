@@ -1,6 +1,11 @@
 # BE-terna suite
 [[_TOC_]]
 
+####10.0.20240306.01
+|Suite|Description|Type|
+|---|---|---|
+|Loans and deposits|Fixed multiple posting of the same flow on received or given loan.|Bug fix|
+
 ####10.0.20240305.01
 |Suite|Description|Type|
 |---|---|---|
@@ -9,12 +14,6 @@
 |Deferrals in Accounts Payable|Fixed case thet prevented using deferrals on a non-posted pending vendor invoice while also using standard prepayment functionality.|Bug fix|
 |Public procurement|Enabling fields on lines when opening purchase agreement that has no related documents. Relevant fields are disabled only when the Purchase agreement related documents exist.|Bug fix|
 |Investment management|Fix for posting generated shipments for direct consumption, when more than one shipment was created for the same item requirement and the same inventory dimensions and quantity data is defined on these shipments. Posting logic now also includes the correct Route ID.|Bug fix|
-
-
-####10.0.20240305.02
-|Suite|Description|Type|
-|---|---|---|
-|Loans and deposits|Fixed multiple posting of the same flow on received or given loan.|Bug fix|
 
 
 ####10.0.20240125.01
