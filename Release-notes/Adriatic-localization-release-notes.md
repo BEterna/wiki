@@ -6,6 +6,7 @@ ____
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
+|Localization license|According to the [platform deprecated support for SHA-1](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/removed-deprecated-features-platform-updates#isv-licenses-generated-using-sha1-algorithm-signature-version-1) signed licenses package now includes SHA256 signed license (supported from 10.0.11).|Updated license|
 |Personal tax reports|Increased number of decimal places for social contributions value in Sales tax code value configuration form.|Changed feature|
 |eInvoice SI|Two new parameters (debtor agent and debtor account) added to eInvoice parameters for Physical persons email support that are included in the Envelope XML export.|Changed feature|
 |Personal tax reports SI|Changed calculation of NormExpenses in the REK 2 Electronig format due to legislation change.|Changed feature|
