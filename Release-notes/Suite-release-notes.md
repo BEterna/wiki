@@ -1,7 +1,7 @@
 # BE-terna suite
 [[_TOC_]]
 
-####10.0.XX
+####10.0.20240305.01
 |Suite|Description|Type|
 |---|---|---|
 |Advanced banking|The features for automatic importing of Bank statements by using the periodic tasks: Bank statement import (ER), Bank debit credit notification import (ER) are deprecated and will retire on 31.5.2024. The standard import of Bank statements should be used instead.|Deprecated feature|
@@ -11,6 +11,11 @@
 |Public procurement|Enabling fields on lines when opening purchase agreement that has no related documents. Relevant fields are disabled only when the Purchase agreement related documents exist.|Bug fix|
 |Investment management|Fix for posting generated shipments for direct consumption, when more than one shipment was created for the same item requirement and the same inventory dimensions and quantity data is defined on these shipments. Posting logic now also includes the correct Route ID.|Bug fix|
 
+
+####10.0.20240305.02
+|Suite|Description|Type|
+|---|---|---|
+|Loans and deposits|Fixed multiple posting of the same flow on received or given loan.|Bug fix|
 
 
 ####10.0.20240125.01
