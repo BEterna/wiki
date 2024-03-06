@@ -17,3 +17,7 @@ Example:
 - When a **Bug fix** type is announced, it means that a customer using the functionality for which this type of change is announced needs to take up such a release to avoid having a bug in their D365FO system with BE-terna localization or suite packages, otherwise the customer can skip such a release.
 - When a **Deprecated feature** type is announced, it is announced with a due date after which the feature will not be available any more. This means that a customer who is using this feature should move to another one before the announced due date.
 
+Details on released functionalities:
+- [Localization release notes](/Release-notes/Adriatic-localization-release-notes)
+- [Suites release notes](/Release-notes/Suite-release-notes)
+
