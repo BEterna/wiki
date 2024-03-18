@@ -1,6 +1,13 @@
 # BE-terna suite
 [[_TOC_]]
 
+####10.0.20240314.01
+|Suite|Description|Type|
+|---|---|---|
+|Investment management|Processing item requirements batch job extended with a new use case scenario supporting processing of item requirements that are created withing the same TransactionId|New Feature|
+|Travel and Expenses enhancements|New data entity TrvRequisitions_AdTrv is available for importing Travel requisition headers.|New feature|
+
+
 ####10.0.20240306.01
 |Suite|Description|Type|
 |---|---|---|
