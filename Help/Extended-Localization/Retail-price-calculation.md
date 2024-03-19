@@ -23,9 +23,6 @@ Retail price= sales price from trade agreement
 -	Account: define relevant account to which charges will be posted
 4.	If foreign trade is applied there is additional option to enable Intrastat invoice value and Intrastat statistical value
 
-Go to Accounts payable > Inquiries and reports > Product receipt and choose retail price calculation. Here, calculation for every product receipt can be seen. On the form, two fields are visible. Under Retail price calculation the all items for specific product receipt are listed and under Charges all the charges applied to these items are listed. 
-Here, also different price groups can be set up. Setup is created in module Retail and commerce > Pricing and discounts > All price groups
-
 ## **USE CASE SCENARIO**
 ---
 1.	Release new product 
@@ -38,4 +35,5 @@ Here, also different price groups can be set up. Setup is created in module Reta
 8.	If applicable, add charges under tab Purchase > Charges > Maintain charges. When charges are applied, allocate it on purchase order lines.
 9.	Generate and post product receipt
 10.	Generate and post invoice
-11.	Go to Account payable – Inquiries and reports – Product receipt to check for retail price calculation for relevant product receipt
+11.	Go to Accounts payable > Inquiries and reports > Product receipt and choose retail price calculation. Here, calculation for every product receipt can be seen. On the form, two fields are visible. Under Retail price calculation the all items for specific product receipt are listed and under Charges all the charges applied to these items are listed. 
+Here, also different price groups can be set up. Setup is created in module Retail and commerce > Pricing and discounts > All price groups
