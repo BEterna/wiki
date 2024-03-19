@@ -19,7 +19,7 @@ Retail price= sales price from trade agreement
 2.	Open new charge code
 3.	Define posting setup for Debit/Credit:
 -	Type: Item, ledger account, Customer/vendor
--	Posting: define relevant posting 
+-	Posting: define relevant posting method
 -	Account: define relevant account to which charges will be posted
 4.	If foreign trade is applied there is additional option to enable Intrastat invoice value and Intrastat statistical value
 
@@ -29,7 +29,7 @@ Retail price= sales price from trade agreement
 2.	Go to specific release product details and in action pane go to Sell > Trade agreements
 3.	Create trade agreement 
 4.	Activate price/discounts
-5.	Here go to lines and fulfill all fields that are relevant to specific trade agreement
+5.	Go to lines and fulfill all fields that are relevant to specific trade agreement
 6.	Post trade agreement journal
 7.	Go to Accounts payable > Purchase orders > All purchase orders and create a new purchase order with previously created item
 8.	If applicable, add charges under tab Purchase > Charges > Maintain charges. When charges are applied, allocate it on purchase order lines.
