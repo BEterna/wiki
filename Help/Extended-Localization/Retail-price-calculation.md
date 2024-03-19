@@ -12,7 +12,7 @@ Retail price= sales price from trade agreement
 
 *Activate price/discount*
 1.	Open Sales and marketing > Setup > Activate price/discounts 
-2.	Here you can activate the exact types and combinations of trade agreements you would like to enable. Usually enable everything unless there is a specific reason not to.
+2.	Here you can activate the exact types and combinations of trade agreements you would like to enable. Usually, it is best to enable everything unless there is a specific reason not to.
 
 *Charges codes*
 1.	Open Accounts payable > Setup > Charges setup > Charges codes
