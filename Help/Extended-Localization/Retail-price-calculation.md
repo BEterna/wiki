@@ -14,7 +14,7 @@ Retail price= sales price from trade agreement
 1.	Open Sales and marketing > Setup > Activate price/discounts 
 2.	Here you can activate the exact types and combinations of trade agreements you would like to enable. Usually, it is best to enable everything unless there is a specific reason not to.
 
-*Charges codes*
+**Charges codes**
 1.	Open Accounts payable > Setup > Charges setup > Charges codes
 2.	Open new charge code
 3.	Define posting setup for Debit/Credit:
