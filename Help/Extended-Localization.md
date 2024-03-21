@@ -79,6 +79,6 @@ NOTE: a prerequisite for using Extended Localization features is installed Core 
 ## Retail price calculation
 ---
 
-|**Retail price calculation _(X)_**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
+|**Retail price calculation**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
 |--|--|--|--|--|--|
 |[Retail price calculation](/Help/Extended-Localization/Retail-price-calculation)  | • | • | • |Functionality uses purchase prices from vendor invoices with applied charges (feature charges codes must be used) and calculates sales prices. This helps us to calculate cost per unit and compare it with retail price. Based on this, return on investment (ROI) is calculated for every received item. |  
