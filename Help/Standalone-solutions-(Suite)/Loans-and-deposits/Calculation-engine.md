@@ -48,7 +48,7 @@ Calculation engine will create/update loan flows when user selects **“Calculat
 
 If setup for repayment and interest is changed in loan life-time, with recalculation this will affect flows as of specific date if they are not yet posted.
 
-When flows are created user can change only posting date and in case of interests flows the amount. Everything else can not be changed.
+When flows are created user can change posting date and in case of interests flows the amount. Under same conditions as the posting date (flow/action must not be posted or reversed) also due date can be changed. Everything else can not be changed.
 
 **Flows table** consist of the following data:
 
