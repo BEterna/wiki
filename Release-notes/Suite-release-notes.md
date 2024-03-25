@@ -1,6 +1,14 @@
 # BE-terna suite
 [[_TOC_]]
 
+
+####10.0.XX
+|Suite|Description|Type|
+|---|---|---|
+|Loan and deposits|Possibility to change due date on flow/action lines is enabled|Bug fix|
+|E-invoice|Data entity for consumers is enabled to import new consumers. Also, new data entity AdEinvConsumerEntity is available in data management|Bug fix|
+
+
 ####10.0.20240314.01
 |Suite|Description|Type|
 |---|---|---|
