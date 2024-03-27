@@ -74,11 +74,3 @@ NOTE: a prerequisite for using Extended Localization features is installed Core 
 |--|--|--|--|--|--|
 |[Cash register](/Help/Extended-Localization/Cash-register)  | • | • | • |Cash register is opened as a Cash account. For Cash account is possible to setup cash posting profile and posting slip journal for cash inflows and outflows. There is possible to setup the responsible person > the main cashier, which can be printed on cash reports (Cash receipts and Cash disbursements).  |  |Not available for versions after 7.3  |
 
-<br>
-
-## Retail price calculation
----
-
-|**Retail price calculation**| **SI** |**CRO**  | **RS** | **Description** | **Note** |
-|--|--|--|--|--|--|
-|[Retail price calculation](/Help/Extended-Localization/Retail-price-calculation)  | • | • | • |Functionality uses purchase prices from vendor invoices with applied charges (feature charges codes must be used) and calculates sales prices. This helps us to calculate cost per unit and compare it with retail price. Based on this, return on investment (ROI) is calculated for every received item. |  
