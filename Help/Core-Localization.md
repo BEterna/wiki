@@ -27,7 +27,7 @@ _Note: Features for countries marked with * are updated only if customer informs
 | [Tax depreciation report](/Help/Core-Localization/Tax-depreciation-report-\(RS\))  |  |  |•  |  ||Legally required report for fixed assets (RS).   |
 | [Intrastat enhancements](/Help/Core-Localization/Intrastat-enhancements-\(SI,-HR\))  | • | • |  |  || Intrastat statistics based on the trade in goods between the Member  States of the European Union is customized for the Croatian and Slovenian legislation. Intrastat XML scheme can be exported. |
 | KIPO Report  | | | | | • | Statistical report on short-term receivables and liabilities from doing business with non-residents. |
-Retail Price Calculation||• ||||Functionality uses purchase prices from vendor invoices with applied charges (feature charges codes must be used) and calculates sales prices. This helps us to calculate cost per unit and compare it with retail price. Based on this, return on investment (ROI) is calculated for every received item.
+[Retail price calculation](/Help/Core-Localization/Retail-price-calculation) ||• ||||Functionality uses purchase prices from vendor invoices with applied charges (feature charges codes must be used) and calculates sales prices. This helps us to calculate cost per unit and compare it with retail price. Based on this, return on investment (ROI) is calculated for every received item.
 
 
 
