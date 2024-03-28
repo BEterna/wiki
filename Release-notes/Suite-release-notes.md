@@ -5,7 +5,7 @@
 ####10.0.XX
 |Suite|Description|Type|
 |---|---|---|
-|Loan and deposits|Possibility to change due date on flow/action lines is enabled|Bug fix|
+|Loan and deposits|Possibility to change due date on flow/action lines is enabled|New feature|
 |E-invoice|Data entity for consumers is enabled to import new consumers. Also, new data entity AdEinvConsumerEntity is available in data management|Bug fix|
 
 
