@@ -44,7 +44,7 @@ Settlement date determines the period in which the correction is reported.
 As this feature does not support all cases, we described all supported cases in list below.
 
 Supported cases:
--	One credit note, one invoice; Invoice value > credit note value. Expected result: New value is the difference between reported summarized value for the corrected period for selected VAT ID and summarized value of corrections for the reporting period for selected VAT ID.
+-	One credit note, one invoice; Invoice value > Credit note value. Expected result: New value is the difference between reported summarized value for the corrected period for selected VAT ID and summarized value of corrections for the reporting period for selected VAT ID.
 
 -	One credit note, multiple invoices from different periods; Invoice value in last period > Credit note value. Expected result: New value is the difference between reported summarized value for the corrected period (period of last settled invoice) for selected VAT ID and summarized value of corrections for reporting period for selected VAT ID.
 
