@@ -35,4 +35,23 @@ PDO reports sums transactions based on tax exempt numbers. The report consists o
 5. Navigate to Action grid and click **“Preview”**. The report is generated according to section A and section B transactions.
 6. Data can be exported to XML using the button **“Export to XML”**.  
 
+**Corrections**
+
+This feature allows users to automatically create corrections for previous periods based on last settlement between invoice and credit note. 
+
+Settlement date determines the period in which the correction is reported.
+
+As this feature does not support all cases, we described all supported cases in list below.
+
+Supported cases:
+-	One credit note, one invoice; Invoice value > credit note value. Expected result: New value is the difference between reported summarized value for the corrected period for selected VAT ID and summarized value of corrections for the reporting period for selected VAT ID.
+
+-	One credit note, multiple invoices from different periods; Invoice value in last period > Credit note value. Expected result: New value is the difference between reported summarized value for the corrected period (period of last settled invoice) for selected VAT ID and summarized value of corrections for reporting period for selected VAT ID.
+
+-	One credit note, multiple invoices from different periods; Invoice value in last period < Credit note value. Expected result: New value is summarized value of corrections for reporting period for selected VAT ID. Value needs to be adjusted manually.
+
+-	Credit note without settlement; Expected result: New value is summarized value of corrections for reporting period for selected VAT ID. Value needs to be adjusted manually.
+
+<br>
+
 Check **[Test Scenario](PDO-Report.zip)** for PDO report.
