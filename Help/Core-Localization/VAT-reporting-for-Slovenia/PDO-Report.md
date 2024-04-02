@@ -48,9 +48,9 @@ Supported cases:
 
 -	One credit note, multiple invoices from different periods; Invoice value in last period > Credit note value. Expected result: New value is the difference between reported summarized value for the corrected period (period of last settled invoice) for selected VAT ID and summarized value of corrections for reporting period for selected VAT ID.
 
--	One credit note, multiple invoices from different periods; Invoice value in last period < Credit note value. Expected result: New value is summarized value of corrections for reporting period for selected VAT ID. Value needs to be adjusted manually.
+-	One credit note, multiple invoices from different periods; Invoice value in last period < Credit note value. Expected result: New value is summarized value of corrections for reporting period for selected VAT ID. **Value needs to be adjusted manually**.
 
--	Credit note without settlement; Expected result: New value is summarized value of corrections for reporting period for selected VAT ID. Value needs to be adjusted manually.
+-	Credit note without settlement; Expected result: New value is summarized value of corrections for reporting period for selected VAT ID. **Value needs to be adjusted manually**.
 
 <br>
 
