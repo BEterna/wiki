@@ -9,6 +9,11 @@ ____
 |VAT reporting for SI|PDO report: Description To Do |Updated feature|
 |VAT reporting for RS, BIH|KIF and KUF reports: Description to do|Bug fix|
 
+### Localization Tax
+|Area|Description|Type|
+|---|---|---|
+|Tax|Extension point enabling CoC on closed Sales tax periods provided.|New feature|
+
 ____
 ## Release AdLocalization_##10.0.20240305.01
 ### Localization core
