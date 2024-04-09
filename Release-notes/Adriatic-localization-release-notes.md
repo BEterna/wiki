@@ -96,7 +96,7 @@ ____
 |Advance invoice| Filter enabled in Posted prepayment vendor invoices form showing only records related to vendor prepayments. Filter enabled in Posted prepayment customer invoices form showing only records related to custo0mer  prepayments.|Bug fix|
 |Advance invoices| Sales tax amount displayed in an accounting currency instead of in a transaction currency for prepayments: In the reversal of prepayments in a currency different than the currency of the legal entity, the Sales tax amount was presented in the accounting currency instead of in the transaction currency. The new release includes a fix of such behavior and an upgrade procedure for updating the wrongly presented Sales tax amounts on records in the past.|Bug fix|
 |VAT reporting for Serbia| Individual VAT reporting xml data structure update according to changes made by RS Ministry of Finance (additional condition for Turnover amount).|New feature|
-|Intrastat|Translations enabled in the intrastat IR002A (HR) ER format.| New feature|
+|Intrastat|Translations enabled in the intrastat IR002A (CRO) ER format.| New feature|
 
 ### Localization Bank
 |Area|Description|Type|
@@ -136,14 +136,14 @@ ____
 |Area|Description|Type|
 |---|---|---|
 |VAT reporting for Serbia|Individual VAT reporting xml data structure update according to changes made by RS Ministry of Finance|New feature|
-|Main account statement (HR)|Totals for column Amount in accounting currency are added to the report|New feature|
+|Main account statement (CRO)|Totals for column Amount in accounting currency are added to the report|New feature|
 
 ____
 ## Release AdLocalization_#10.0.0.2023062601
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
-|Intrastat enhancements (SI,HR)|Country/region specifics for SI and HR removed on button Transfer in Intrastat form due to Microsoft change in version 10.0.34|Dependency update|
+|Intrastat enhancements (SI,CRO)|Country/region specifics for SI and CRO removed on button Transfer in Intrastat form due to Microsoft change in version 10.0.34|Dependency update|
 ____
 ## Release AdLocalization_#10.0.0.2023060501
 ### Localization core
@@ -156,7 +156,7 @@ ____
 |Area|Description|Type|
 |---|---|---|
 |VAT reporting for Serbia|Individual VAT reporting|New feature|
-|Main account statement (HR)|Enabled the possibility to run report for periods larger than 31 days|New feature|
+|Main account statement (CRO)|Enabled the possibility to run report for periods larger than 31 days|New feature|
 |VAT features|Fields related to VAT (VAT date, VAT payable date, Customer/Vendor, Address, Tax exempt number) can be defaulted on new lines when creating vendor invoice lines from Invoice register lines trough Vendor invoice approval form|New feature|
 |eInvoice|Updated Electronic report model in order to include Unite of measure external code only for code "eRacun"|Bug fix|
 
@@ -170,7 +170,7 @@ ____
 |Area|Description|Type|
 |---|---|---|
 |eInvoice RS|Changed position of GLN number in the exported xml file|Changed feature|
-|OPZ STAT-1 HR|New data entity for updating/migrating original invoice amount and original VAT amount (Customer transactions (localization data))|New feature|
+|OPZ STAT-1 CRO|New data entity for updating/migrating original invoice amount and original VAT amount (Customer transactions (localization data))|New feature|
 
 ## Release AdLocalization_10.0_2023.04.07.1
 ### Localization core
@@ -185,7 +185,7 @@ ____
 ### Localization Bank
 |Area|Description|Type|
 |---|---|---|
-|Exchange rates (HR)|Fixed import exchange rates for a selected date range|Bug fix|
+|Exchange rates (H)|Fixed import exchange rates for a selected date range|Bug fix|
 |Security|Fixed Access level rights (replaced deprecated "Invoke" with "Delete")|BugFix|
 
 ### Localization Fiscalization
@@ -218,12 +218,12 @@ ____
 |Advance invoice|Update of Prepayment reports|New feature|
 |Personal tax reports - REK (SI)|REK-O updates|New feature|
 |Statistical reports (SI)|Enabling updates of SFR Sector allocation through Open-In-Excel functionality s|New feature|
-|Fiscalization (HR)|Location id and terminal id information extended to 20 characters|Bug fix|
+|Fiscalization (CRO)|Location id and terminal id information extended to 20 characters|Bug fix|
 
 ### Localization Cash register
 |Area|Description|Type|
 |---|---|---|
-|Cash register|Eastern Europe and Russia functionality for Petty cash enabled for SI, HR and SR|New feature|
+|Cash register|Eastern Europe and Russia functionality for Petty cash enabled for SI, CRO and SR|New feature|
 
 ____
 ## Release AdLocalization_10.0.0.2023022301
@@ -272,7 +272,7 @@ ____
 |VAT|VAT payable date defaulting on invoice approval|New feature|
 |Statistical reports SI|KRD and SFR usability improvements|New feature|
 |eInvoice RS|Support for notes, unit of measure on prepayments and automatic generation for prepayments|New feature|
-|Tax HR|Updated tax report layouts for EUR (PDV, PPO, IRA, URA), updated Electronic reporting formats (ZP, PDV-S); Added support for legacy HRK (layouts display HRK if company currency is HRK, new ER formats for HRK support)|New feature|
+|Tax CRO|Updated tax report layouts for EUR (PDV, PPO, IRA, URA), updated Electronic reporting formats (ZP, PDV-S); Added support for legacy HRK (layouts display HRK if company currency is HRK, new ER formats for HRK support)|New feature|
 
 ### Localization exchange rate providers
 |Area|Description|Type|
@@ -291,7 +291,7 @@ ____
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
-|eInvoice HR|Mapping of customer referenc in ER|New feature|
+|eInvoice CRO|Mapping of customer referenc in ER|New feature|
 ___
 
 ## Release AdLocalization_10.0_2022.11.30.1
@@ -300,7 +300,7 @@ ___
 |Area|Description|Type|
 |---|---|---|
 |VAT|VAT date on Invoice approval not transfering|Bug fix|
-|eInvoice HR|Update for business process|New feature|
+|eInvoice CRO|Update for business process|New feature|
 |eInvoice RS|Advance invoice support|New feature|
 |Tax BA|Payment method inupt error fix|Bug fix|
 ___
@@ -325,7 +325,7 @@ ___
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
-|eInvoice|eInvoice HR - ER fix for business unit|Bug fix|
+|eInvoice|eInvoice CRO - ER fix for business unit|Bug fix|
 |Tax report|POPDV xml export - field 5.1 value fix|Bug fix|
 ___
 
@@ -359,7 +359,7 @@ ___
 
 |Area|Description|Type|
 |---|---|---|
-|Fiscalization HR|Creation of reccuring invoice or with FTI template fix of termina|Bug fix|
+|Fiscalization CRO|Creation of reccuring invoice or with FTI template fix of termina|Bug fix|
 ___
 
 ## Release AdLocalization_10.0_2022.05.10.2
