@@ -10,6 +10,11 @@ ____
 |VAT reporting for RS, BIH|KIF and KUF reports: Description to do|Bug fix|
 |eInvoice|
 
+### Localization Bank
+|Area|Description|Type|
+|---|---|---|
+|Vendor payments CRO |Extension point enabling CoC on closed Sales tax periods provided.|New feature|
+
 ### Localization Tax
 |Area|Description|Type|
 |---|---|---|
