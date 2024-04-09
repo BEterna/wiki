@@ -6,7 +6,7 @@ ____
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
-|VAT reporting for SI|Description To Do |Updated feature|
+|VAT reporting for SI|PDO report: Description To Do |Updated feature|
 
 ____
 ## Release AdLocalization_##10.0.20240305.01
