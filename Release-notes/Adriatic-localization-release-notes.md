@@ -2,6 +2,13 @@
 [[_TOC_]]
 
 ____
+## Release AdLocalization_##10.0.XXXX
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|VAT reporting for SI|Description To Do |Updated feature|
+
+____
 ## Release AdLocalization_##10.0.20240305.01
 ### Localization core
 |Area|Description|Type|
