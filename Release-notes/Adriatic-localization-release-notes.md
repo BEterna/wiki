@@ -8,6 +8,7 @@ ____
 |---|---|---|
 |VAT reporting for SI|PDO report: Description To Do |Updated feature|
 |VAT reporting for RS, BIH|KIF and KUF reports: Description to do|Bug fix|
+|eInvoice|
 
 ### Localization Tax
 |Area|Description|Type|
