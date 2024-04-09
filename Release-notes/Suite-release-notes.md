@@ -6,7 +6,7 @@
 |Suite|Description|Type|
 |---|---|---|
 |Loan and deposits|Possibility to change due date on flow/action lines is enabled|New feature|
-|E-invoice|Data entity for consumers is enabled to import new consumers. Also, new data entity AdEinvConsumerEntity is available in data management|Bug fix|
+|Vendor invoice lines import|Data entity for consumers is enabled to import new consumers. Also, new data entity AdEinvConsumerEntity is available in data management|Bug fix|
 |Advanced banking|Bank statements import: New Camt.053 and Camt.054 ER format for CRO available according to new legislation requirements.|Updated feature|
 
 
