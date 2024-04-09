@@ -13,7 +13,7 @@ ____
 ### Localization Bank
 |Area|Description|Type|
 |---|---|---|
-|Vendor payments CRO |Extension point enabling CoC on closed Sales tax periods provided.|New feature|
+|Vendor payments CRO |New SEPA ER format for CRO available according to new legislation requirements.|Updated feature|
 
 ### Localization Tax
 |Area|Description|Type|
@@ -206,7 +206,7 @@ ____
 ### Localization Cash register
 |Area|Description|Type|
 |---|---|---|
-|Cash register|Additional specific Eastern Europe functionalities enabled for BA, HR, MK, RS and SI (Cash accounts - Cash report)|New Feature|
+|Cash register|Additional specific Eastern Europe functionalities enabled for BA, CRO, MK, RS and SI (Cash accounts - Cash report)|New Feature|
 |Cash register|Cash order report: Fields Order number, Legal entity address and Created date time added to report|New Feature|
 |Cash register|Cash report: Fields Legal entity address and Created date time added to report|New Feature|
 
