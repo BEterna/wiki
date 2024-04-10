@@ -7,7 +7,7 @@ ____
 |Area|Description|Type|
 |---|---|---|
 |VAT reporting for SI| When generating PDO report, also corrections for previous periods are created automatically and added to the report.|Updated feature|
-|VAT reporting for RS, BIH|In KIF and KUF reports the description and report template were corrected |Bug fix|
+|VAT reporting for RS, BIH|In KIF and KUF reports the description and report template were corrected. |Bug fix|
 |eInvoice|
 
 ### Localization Bank
