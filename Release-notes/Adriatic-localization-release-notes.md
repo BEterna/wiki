@@ -18,7 +18,7 @@ ____
 ### Localization Tax
 |Area|Description|Type|
 |---|---|---|
-|Tax|Extension point enabling CoC on closed Sales tax periods provided.|New feature|
+|Tax|Extension point enabling CoC on closed Sales tax periods provided. These changes are internal and do not introduce any new features or alter existing functionality|/|
 
 ____
 ## Release AdLocalization_##10.0.20240305.01
