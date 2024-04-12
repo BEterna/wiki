@@ -14,7 +14,7 @@ Loan drawing action can be entered manually (using New) or can be created as a D
 |:----------------|:-------------|
 |Flow date |Flow date is entered by user and it should represent transaction date (cash inflow/outflow date). If created as default drawing system will default this date from loan start date. 
 |Posting date |Posting date is automatically copied from flow date and should not be set to date different than Flow date. 
-|Due date |this is the date that will be set as the due date of Accounts payable/receivable when action is posted. This date is editable. 
+|Due date |this is the date that will be set as the due date of Accounts payable/receivable when action is posted. This date is editable but only if action is not already posted or reversed. 
 |Flow category |User selects flow category based on the Loan transaction type of the action and according to the posting user wants to perform. This flow category is transferred to list of flows with other action parameters. Flow category determines how the flow is posted later. It is suggested to use flow categories with different names than flow categories used for calculated flows (categories set within interest and repayment setups), so the user can easily distinguish action flows from calculated flows. If action line is created as default drawing system will default the value which is set on Loan group as default drawing for the group.
 |Amount in pay. Currency | Amount in payment currency to be posted with action posting. Total amount of drawings cannot exceed approved loan amount if the loan drawing policy is Non-Revolving. The total amount of drawing cannot exceed approved loan amount together with repayments if the loan drawing policy is Revolving. 
 |Payment currency | Currency of the action transaction. Set as loan currency by default and should not be changed to another currency. 
@@ -48,7 +48,7 @@ Calculation engine will create/update loan flows when user selects **“Calculat
 
 If setup for repayment and interest is changed in loan life-time, with recalculation this will affect flows as of specific date if they are not yet posted.
 
-When flows are created user can change only posting date and in case of interests flows the amount. Everything else can not be changed.
+When flows are created user can change posting date and in case of interests flows the amount. Under same conditions as the posting date (flow/action must not be posted or reversed) also due date can be changed. Everything else can not be changed.
 
 **Flows table** consist of the following data:
 

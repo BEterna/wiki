@@ -50,6 +50,6 @@ _NOTE: A preview of the report is also available by using **Tax > Declarations >
 7.	**Deleting** of report header and lines can be done only for open reports in **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Actions tab > Delete** option
 
 _NOTE: A preview of the report is also available by using **Tax > Declarations > Bosnia and Herzegovina > VAT > VAT book reports > Export tab > ER Preview**. This functionality requires a valid setup in **General Ledger > Ledger setup > General ledger parameters > BE-terna localization > Electronic reporting**:_
-- _KUF report preview electronic reporting format: the value **KIF report excel** is available_
+- _KUF report preview electronic reporting format: the value **KUF report excel** is available_
 
 

@@ -1,19 +1,38 @@
 # BE-terna suite
 [[_TOC_]]
 
-####10.0.20240314.01
+___
+###10.0.20240412.02
+|Suite|Description|Type|
+|---|---|---|
+|Travel and expenses enhancements|Data entity TrvRequisitions_AdTrv extended with the possibility to manage Display default dimension value when creating Travel requisition through the data entity.|Updated feature|
+
+___
+###10.0.20240412.01
+|Suite|Description|Type|
+|---|---|---|
+|Loan and deposits|Possibility to change due date on flow/action lines is enabled.|New feature|
+|Vendor invoice lines import|Data entity for consumers is enabled to import new consumers. Also, new data entity AdEinvConsumerEntity is available in data management|Bug fix|
+|Advanced banking|Bank statements import: New Camt.053 and Camt.054 ER format for CRO available according to new legislation requirements.|Updated feature|
+|Advanced banking|Fixed issue with presenting data in the correct Debit or Credit column in realized cash flow report when handling customer payment returns via General ledger journals.|Bug fix|
+|Investment management|Enabled updates for fields Project purpose, Start Date and End Date in Projects_AdIMI Data entity. The modification is a **breaking change** as affects the Projects_AdIMI staging table. To prevent disruptions after applying the change to the environment, the following steps are necessary:<li>Stop all jobs for Data management projects that use Projects_AdIMI Data entity.<li>Refresh the data entity list (as a result the staging table should be named as ProjectStagingV2_AdIMI).<li>Regenerate the mapping of the data entity (Modify target mapping).<li>Update all Data management projects that use Projects_AdIMI Data entity either by removing the old data entity for them or by deleting and recreating the Data managament project anew.<li>Recreate new jobs (and optional: delete old recurring jobs that were previously stopped).<li>Notify 3rd party system that consume data from Projects_AdIMI Data entity.|Bug fix|
+|Fixed asset management|Prevented disposal document data update via data entity "AssetDisposal document lines per header" when disposal document in status Posted or Reversed.|Bug fix|
+
+___
+###10.0.20240314.01
 |Suite|Description|Type|
 |---|---|---|
 |Investment management|Processing item requirements batch job extended with a new use case scenario supporting processing of item requirements that are created withing the same TransactionId|New Feature|
 |Travel and Expenses enhancements|New data entity TrvRequisitions_AdTrv is available for importing Travel requisition headers.|New feature|
 
-
-####10.0.20240306.01
+___
+###10.0.20240306.01
 |Suite|Description|Type|
 |---|---|---|
 |Loans and deposits|Fixed multiple posting of the same flow on received or given loan.|Bug fix|
 
-####10.0.20240305.01
+___
+###10.0.20240305.01
 |Suite|Description|Type|
 |---|---|---|
 |Advanced banking|The features for automatic importing of Bank statements by using the periodic tasks: Bank statement import (ER), Bank debit credit notification import (ER) are deprecated and will retire on 31.5.2024. The standard import of Bank statements should be used instead.|Deprecated feature|
@@ -22,8 +41,8 @@
 |Public procurement|Enabling fields on lines when opening purchase agreement that has no related documents. Relevant fields are disabled only when the Purchase agreement related documents exist.|Bug fix|
 |Investment management|Fix for posting generated shipments for direct consumption, when more than one shipment was created for the same item requirement and the same inventory dimensions and quantity data is defined on these shipments. Posting logic now also includes the correct Route ID.|Bug fix|
 
-
-####10.0.20240125.01
+___
+###10.0.20240125.01
 |Suite|Description|Type|
 |---|---|---|
 |Asset insurance|Code review and best practice cleanup performed. These changes are internal and do not introduce any new features or alter existing functionality.|/|
@@ -33,8 +52,8 @@
 |Investment management|New validation added in the batch job "Process item requirements" when generating shipments to a "terrain" type of warehouse (indirect consumption). The new functionality validates if a tranzit warehouse is defined and does not process item requirememnts where this validation fails.|New feature|
 |Advanced product management| Fixed issue with registered technical characteristics for a selected item being deleted when an inventiry transaction for the same item is deleted. |Bug fix|
 
-
-####10.0.20231219.01
+___
+###10.0.20231219.01
 |Suite|Description|Type|
 |---|---|---|
 |Deferrals|Enabled the option to run Posting deferrals batch job by using date range as a parameter. |New feature|
