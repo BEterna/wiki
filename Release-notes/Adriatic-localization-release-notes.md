@@ -2,13 +2,12 @@
 [[_TOC_]]
 
 ____
-## Release AdLocalization_##10.0.XXXX
+## Release AdLocalization_#10.0.2024041201
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
 |VAT reporting for SI| When generating PDO report, also corrections for previous periods are created automatically and added to the report.|Updated feature|
 |VAT reporting for RS, BIH|In KIF and KUF reports the description and report template were corrected. |Bug fix|
-|eInvoice|
 
 ### Localization Bank
 |Area|Description|Type|
@@ -21,7 +20,7 @@ ____
 |Tax|Extension point enabling CoC on closed Sales tax periods provided. These changes are internal and do not introduce any new features or alter existing functionality|/|
 
 ____
-## Release AdLocalization_##10.0.20240305.01
+## Release AdLocalization_#10.0.20240305.01
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
@@ -43,7 +42,7 @@ ____
 |Advance invoice|Missing Customer/vendor account and name were added to the general ledger transaction that is generated with prepayment invoice posting.|Bug fix|
 
 ____
-## Release AdLocalization_##10.0.20231219.01
+## Release AdLocalization_#10.0.20231219.01
 ### Localization core
 |Area|Description|Type|
 |---|---|---|
