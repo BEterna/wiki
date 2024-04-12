@@ -5,11 +5,13 @@
 ####10.0.XX
 |Suite|Description|Type|
 |---|---|---|
-|Loan and deposits|Possibility to change due date on flow/action lines is enabled|New feature|
+|Loan and deposits|Possibility to change due date on flow/action lines is enabled.|New feature|
 |Vendor invoice lines import|Data entity for consumers is enabled to import new consumers. Also, new data entity AdEinvConsumerEntity is available in data management|Bug fix|
 |Advanced banking|Bank statements import: New Camt.053 and Camt.054 ER format for CRO available according to new legislation requirements.|Updated feature|
-|Investment management|TODO|Bug fix|
-
+|Advanced banking|Fixed issue with presenting data in the correct Debit or Credit column in realized cash flow report when handling customer payment returns via General ledger journals.|Bug fix|
+|Investment management|Enabled updates for fields Project purpose, Start Date and End Date in Projects_AdIMI Data entity. The modification is a breaking change as affects the Projects_AdIMI staging table. To prevent disruptions after applying the change to the environment, the following steps are necessary:<br>- Stop all jobs for Data management projects that use Projects_AdIMI Data entity.<br>- Refresh the data entity list (as a result the staging table should be named as ProjectStagingV2_AdIMI).<br>- Regenerate the mapping of the data entity (Modify target mapping).<br>- Update all Data management projects that use Projects_AdIMI Data entity either by removing the old data entity for them or by deleting and recreating the Data managament project anew.<br>- Recreate new jobs (and optional: delete old recurring jobs that were previously stopped).<br>- Notify 3rd party system that consume data from Projects_AdIMI Data entity.|Bug fix|
+|Fixed asset management|Prevented disposal document data update via data entity "AssetDisposal document lines per header" when disposal document in status Posted or Reversed.|Bug fix|
+|Travel and expenses enhancements|Data entity TrvRequisitions_AdTrv extended with the possibility to manage Display default dimension value when creating Travel requisition with through the data entity.|Updated feature|
 
 ####10.0.20240314.01
 |Suite|Description|Type|
