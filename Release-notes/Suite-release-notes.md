@@ -5,7 +5,7 @@ ___
 ###10.0.20240412.02
 |Suite|Description|Type|
 |---|---|---|
-|Travel and expenses enhancements|Data entity TrvRequisitions_AdTrv extended with the possibility to manage Display default dimension value when creating Travel requisition with through the data entity.|Updated feature|
+|Travel and expenses enhancements|Data entity TrvRequisitions_AdTrv extended with the possibility to manage Display default dimension value when creating Travel requisition through the data entity.|Updated feature|
 
 ___
 ###10.0.20240412.01
