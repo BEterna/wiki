@@ -73,3 +73,14 @@ e.g. 40% of the quantity will be reinvoiced to the customer DE-012, 35% of the q
    - Go to **Accounts payable > Purchase orders > All purchase orders** and select purchase order.
    - Select function Change project ID under Purchase order tab.
    - Enter project ID to which costs should be posted.
+
+## **Re-invoiced invoices overview**
+---
+### Re-invoiced invoices
+In the Vendor invoice journal inquiry form and Pending vendor invoice form a new column **Reinvoiced** is available:
+  - **Reinvoiced**: this field will show if an invoice has been reinvoiced. Once Sales orders are created from the vendor invoice (posted or unposted), this invoice will get a “Reinvoiced” check mark.
+
+### Connection between vendor invoices and reinvoiced Sales orders
+In the Vendor invoice journal inquiry form new menu item **Reinvoiced sales order** is available. Similarly a new menu item **Reinvoiced sales order** is also available on the Pending vendor invoices form in the menu: _Process > Process > Reinvoiced sales order_.
+  - **Reinvoiced sales orders**: this menu item opens a dialog window with the list of all reinvoiced Sales orders from the selected vendor invoice journal record or Pending vendor invoice.
+
