@@ -19,6 +19,12 @@ ___
 |Fixed asset management|Prevented disposal document data update via data entity "AssetDisposal document lines per header" when disposal document in status Posted or Reversed.|Bug fix|
 
 ___
+###10.0.20240409.01
+|Suite|Description|Type|
+|---|---|---|
+|Reinvoicing|A checkbox was added to the vendor invoice journal and the pending vendor invoice to indicate if an invoice was reinvoiced. On both forms, a reinvoiced sales order button was added that shows all sales order lines that were reinvoiced with the selected vendor invoice.|New feature|
+
+___
 ###10.0.20240314.01
 |Suite|Description|Type|
 |---|---|---|
