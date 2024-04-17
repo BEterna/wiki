@@ -7,7 +7,7 @@ ____
 |Area|Description|Type|
 |---|---|---|
 |Statistical reports (SI)|Buttons NEW and DELETE are available also for users with role accountant in KRD sector codes and BST setup and BST excluded posting types|Bug fix|
-
+|OPZ STAT-1 CRO|Users with specific roles (Accountant, AR clerk and AR manager) are able to maintain fields on open customer transactions that are relevant for the OPZ-STAT report|Bug fix|
 
 
 
