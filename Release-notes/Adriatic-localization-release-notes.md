@@ -2,6 +2,16 @@
 [[_TOC_]]
 
 ____
+## Release AdLocalization_#10.0.2024XXXXX
+### Localization core
+|Area|Description|Type|
+|---|---|---|
+|Statistical reports (SI)|Buttons NEW and DELETE are available also for users with role accountant in KRD sector codes and BST setup and BST excluded posting types|Bug fix|
+
+
+
+
+
 ## Release AdLocalization_#10.0.2024041201
 ### Localization core
 |Area|Description|Type|
