@@ -3,7 +3,7 @@
 
 ____
 ## Release AdLocalization_#10.0.2024XXXXX
-### Localization core
+### Localization Core
 |Area|Description|Type|
 |---|---|---|
 |Statistical reports (SI)|Buttons NEW and DELETE are available also for users with role accountant in KRD sector codes and BST setup and BST excluded posting types.|Bug fix|
