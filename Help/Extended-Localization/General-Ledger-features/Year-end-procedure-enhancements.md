@@ -10,8 +10,9 @@ In cases when the Main account balance (ledger account + financial dimension) fo
 ---
 
 1. Open General journal - Lines - Functions - Propose balancing GL transactions.
-2. New function »Propose balancing GL transactions« is added as an additional BE-terna feature. In new general journal lines click Functions -> Propose balancing GL transactions. Enter Start and End date (mandatory fields) and the main account that will be included (optional).
+2. New function »Propose balancing GL transactions« is added as an additional BE-terna feature. In new general journal lines click Functions -> Propose balancing GL transactions. Enter Start/End date (mandatory fields) and posting date (optional) and the main account that will be included (optional).
    - Start/End date – the period for which transactions will be checked and journal generated
+   - Posting date - date that will define the posting date on general journal lines
    - Main account – main account/s that will be included. Multiple main accounts can be included. 
 3. As result journal lines with settlement proposals are generated. If the Main account that does not allow manual entry is included, the system will throw an error. 
 4. Generated lines can be deleted/changed and new lines can be added. If a new line is manually added, it gets a new voucher number.
