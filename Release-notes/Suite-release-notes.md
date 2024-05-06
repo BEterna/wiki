@@ -4,7 +4,7 @@ ___
 ###10.0.2024XXXXX
 |Suite|Description|Type|
 |---|---|---|
-|Advanced banking|Due date in general journal is now related to the entered posting date and not to current system date|Bug fix|
+|Advanced banking|Due date on all lines in general journal is now related to the entered posting date and not to current system date|Bug fix|
 ___
 ###10.0.20240412.02
 |Suite|Description|Type|
