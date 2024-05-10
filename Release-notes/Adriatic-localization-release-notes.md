@@ -10,7 +10,7 @@ ____
 |OPZ STAT-1 CRO| Users with specific roles (Accountant, AR clerk and AR manager) are able to maintain fields on open customer transactions that are relevant for the OPZ-STAT report. |Bug fix|
 |Tax| New validation feature disables ledger posting group to have a reference to itself in the field Ledger posting group for tax in prepayments.| New feature|
 |Advance invoice| When prepayment invoice is reversed, user gets an info log that new reversal journal was created (with number of new invoice and journal)| New feature|
-|Tax| In Intrastat there were 2 buttons with the same name but different functionalities so we changed one "Intrastat archive" to "Uncompressed archive". Functionality of this button remains the same.
+|Tax| In Intrastat there were 2 buttons with the same name but different functionalities so we changed one "Intrastat archive" to "Uncompressed archive". Functionality of this button remains the same.|Updated feature|
 ### Localization General ledger 
 |Area|Description|Type|
 |---|---|---|
