@@ -5,6 +5,8 @@ ___
 |Suite|Description|Type|
 |---|---|---|
 |Advanced banking|Due date on all lines in general journal is now related to the entered posting date and not to current system date|Bug fix|
+|Advance banking|Mismatch in presenting data in realized cash flow report when handling customer payment returns via GL accounts is fixed.| Bug fix|
+|Dunning| Name for number sequence module was changed from Dunning (Adacta) to Dunning (BE- terna)|Updated feature|
 ___
 ###10.0.20240412.02
 |Suite|Description|Type|
