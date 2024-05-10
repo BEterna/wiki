@@ -21,7 +21,7 @@ Another localized feature is the line status of transactions included in the Int
 The feature enables reviewing historically created Intrastat declaration (and in these declarations included transactions). Additionally, it enables a generation of replacement declarations regarding past reporting periods, for which Intrastat declarations have already been submitted. Status of the reported transactions can be set back to “Open”, and then replacement declaration can be created for each of the reports from reporting history. This can be useful if changes have been made in connection with transactions, which have already been declared through Intrastat. In this case, replacement declarations can be created, with the updated transactions reporting period.
 
 
-### **Intrastat archive**
+### **Uncompressed archive**
 
 Enables users to review transactions, which have been compressed by parameters (compression is a standard feature, while the review of compressed transactions is localized feature). Localization functionality also ads option to transfer the compressed transactions back to the Intrastat journal in their original state (before compression) when applicable.
 
@@ -231,9 +231,9 @@ According to Slovenian standard deleting previously sent report is also enabled.
  
 The deletion of the sent declaration is recorded in reporting history. 
  
-#### Intrastat archive
+#### Uncompressed archive
 
-1. Intrastat archive (LOC) is another localization feature that allows you to review transactions that have been compressed by parameters, selected in Tax – Setup – Foreign trade – Compression of Intrastat.
+1. Uncompressed archive (LOC) is another localization feature that allows you to review transactions that have been compressed by parameters, selected in Tax – Setup – Foreign trade – Compression of Intrastat.
 2. Compress data in the Intrastat journal.
 3. Dates are automatically populated. Localization allows you to add Active remark (LOC) and enable “Archive uncompressed data”. <br> 
    Note the compressed (summed) Intrastat lines. 
