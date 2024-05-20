@@ -2,13 +2,6 @@
 [[_TOC_]]
 
 ____
-## Release AdLocalization_#10.0.XXX
-### Localization Core
-|Area|Description|Type|
-|---|---|---|
-|OPZ STAT-1 CRO| Users with specific roles (Accountant, AR clerk and AR manager) are able to maintain fields on open customer transactions that are relevant for the OPZ-STAT report. |Bug fix|
-
-____
 ## Release AdLocalization_#10.0.20240509.01
 ### Localization Core
 |Area|Description|Type|
