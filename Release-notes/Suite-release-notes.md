@@ -1,6 +1,11 @@
 # BE-terna suite
 [[_TOC_]]
 ___
+###10.0.2024xx
+|Suite|Description|Type|
+|---|---|---|
+|Advanced banking|Asseco (RS) ER format was updated to support both roots: stmtrlist and pmtnotification|Bug fix|
+___
 ###10.0.20240509.01
 |Suite|Description|Type|
 |---|---|---|
