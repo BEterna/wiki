@@ -2,7 +2,7 @@
 
 KIF and KUF consist of the receivable and payable tax transactions and provide data about the applicable VAT rates for each of the sales tax transactions. KIF provides such information for the receivable, while KUF for payable transactions. 
 
-**IMPORTANT**: KIF and KUF functionality within the solution is obsolete and part of a legacy functionality for customers that used this functionality in the past. To comply with regulatory and auditing requirements the following reports and inquiries presenting data that is mandatory for POPDV reporting can be used instead:
+**IMPORTANT**: KIF and KUF functionality within the solution is obsolete for Serbia and part of a legacy functionality for customers that used this functionality in the past. To comply with regulatory and auditing requirements the following reports and inquiries presenting data that is mandatory for POPDV reporting can be used instead:
 - Accounts payable - Invoice journal inquiry
 - Accounts payable - Vendor Invoice journal report
 - Accounts payable - Posted prepayment vendor invoices 
