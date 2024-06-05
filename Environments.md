@@ -1,3 +1,13 @@
+#**Active Environments for product testing**
+
+To ensure the needed performance and reliability of active environments for product testing, a bi-weekly maintenance routine is performed, meaning that every other Friday (each end-of-sprint Friday is reserved for system maintenance. 
+
+Refrain from scheduling any presentations or other activities on these days as the environments may not me available. 
+
+We appreciate your understanding and cooperation in this matter.
+
+____
+
 **Links to active Environments**
 
 |**Version**  | **Link** |**AXC file** | **Automation** |
