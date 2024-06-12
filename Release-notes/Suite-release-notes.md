@@ -7,7 +7,7 @@
 |Advanced banking|Asseco (RS) ER format was updated to support both roots: stmtrlist and pmtnotification.|Bug fix|
 
 ___
-###10.0.2024xx
+###10.0.20240612.01
 |Suite|Description|Type|
 |---|---|---|
 |Advanced banking |Transactions for accounts of the Posting type=Sales tax included in the realized cash flow report. We advise caution in using this type of process, as the solution already provides a more consistent way of configuring realized cashflow report ([detail information](/Help/Standalone-solutions-\(Suite\)/Advanced-Banking/Realized-Cash-flow-report)). |Updated feature|
