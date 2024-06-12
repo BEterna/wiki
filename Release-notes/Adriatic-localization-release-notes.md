@@ -6,7 +6,13 @@ ____
 ### Localization Core
 |Area|Description|Type|
 |---|---|---|
-|OPZ STAT-1 HR| Users with specific roles (Accountant, AR clerk and AR manager) are able to maintain fields on open customer transactions that are relevant for the OPZ-STAT report. |Bug fix|
+|OPZ STAT-1 (HR)| Users with specific roles (Accountant, AR clerk and AR manager) are able to maintain fields on open customer transactions that are relevant for the OPZ-STAT report. |Bug fix|
+|VAT features (SI,HR)|Improved validation of Tax number when creating/updating Customers and using the Taxable persons list feature.|Updated feature|
+
+### Localization Bank
+|Area|Description|Type|
+|---|---|---|
+|Vendor payments HR |Updated SEPA ER format for HR by adding the Vendor payment journal number as part if the MsgId information.|Updated feature|
 
 ### Localization General ledger 
 |Area|Description|Type|
