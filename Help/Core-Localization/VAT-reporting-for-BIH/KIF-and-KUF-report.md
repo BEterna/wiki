@@ -1,6 +1,5 @@
 KIF and KUF consist of the receivable and payable tax transactions and provide data about the applicable VAT rates for each of the sales tax transactions. KIF provides such information for the receivable, while KUF for payable transactions.
 
-
 ##**Setup**
 ----
 
