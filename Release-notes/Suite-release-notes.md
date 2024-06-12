@@ -4,7 +4,11 @@ ___
 ###10.0.2024xx
 |Suite|Description|Type|
 |---|---|---|
-|Advanced banking|Asseco (RS) ER format was updated to support both roots: stmtrlist and pmtnotification.|Bug fix|
+|Advanced banking |Transactions for accounts of the Posting type=Sales tax included in the realized cash flow report. We advise caution in using this type of process, as the solution already provides a more consistent way of configuring realized cashflow report ([detail information](/Help/Standalone-solutions-\(Suite\)/Advanced-Banking/Realized-Cash-flow-report)). |Updated feature|
+|Loans and deposits| Security code review cleanup performed. These changes are internal and do not introduce any new features or alter existing functionality.| /|
+|Fixed assets enhancements| Security code review cleanup performed. These changes are internal and do not introduce any new features or alter existing functionality.| /|
+|Document classification| Code review and best practice cleanup performed. These changes are internal and do not introduce any new features or alter existing functionality.| /|
+
 ___
 ###10.0.20240509.01
 |Suite|Description|Type|
@@ -22,7 +26,7 @@ ___
 ###10.0.20240412.01
 |Suite|Description|Type|
 |---|---|---|
-|Loan and deposits|Possibility to change due date on flow/action lines is enabled.|New feature|
+|Loans and deposits|Possibility to change due date on flow/action lines is enabled.|New feature|
 |Vendor invoice lines import|Data entity for consumers is enabled to import new consumers. Also, new data entity AdEinvConsumerEntity is available in data management|Bug fix|
 |Advanced banking|Bank statements import: New Camt.053 and Camt.054 ER format for CRO available according to new legislation requirements.|Updated feature|
 |Advanced banking|Fixed issue with presenting data in the correct Debit or Credit column in realized cash flow report when handling customer payment returns via General ledger journals.|Bug fix|
