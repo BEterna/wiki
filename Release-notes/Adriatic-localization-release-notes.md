@@ -1,7 +1,12 @@
 # Adriatic localization
 [[_TOC_]]
-
 ____
+## Release AdLocalization_#10.0.2024XXXX
+### Localization Core
+|Area|Description|Type|
+|---|---|---|
+|VAT reporting SI| Additional validation to retrieve vendor/customer data was added in refreshing tax reporting data|Updated feature|
+
 ## Release AdLocalization_#10.0.20240612.01
 ### Localization Core
 |Area|Description|Type|
