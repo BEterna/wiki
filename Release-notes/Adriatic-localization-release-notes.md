@@ -6,6 +6,7 @@ ____
 |Area|Description|Type|
 |---|---|---|
 |VAT features| Additional validation to retrieve vendor/customer data was added in refreshing tax reporting data|New feature|
+|VAT features| Additional validation was implemented that prevents user from creating circular referencing of ledger posting groups on prepayment setup| New feature|
 
 ## Release AdLocalization_#10.0.20240612.01
 ### Localization Core
