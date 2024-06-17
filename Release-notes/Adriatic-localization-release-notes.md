@@ -5,7 +5,7 @@ ____
 ### Localization Core
 |Area|Description|Type|
 |---|---|---|
-|VAT reporting SI| Additional validation to retrieve vendor/customer data was added in refreshing tax reporting data|Updated feature|
+|VAT reporting SI| Additional validation to retrieve vendor/customer data was added in refreshing tax reporting data|New feature|
 
 ## Release AdLocalization_#10.0.20240612.01
 ### Localization Core
