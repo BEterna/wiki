@@ -2,6 +2,13 @@
 [[_TOC_]]
 
 ___
+###10.0.20240717.01
+|Suite|Description|Type|
+|---|---|---|
+|Advanced banking|Asseco (RS) ER format was updated to support both roots: stmtrlist and pmtnotification.|Bug fix|
+|Investment management|When more than one shipment is generated for an Item requirement (because the product receival was done with more than 1 document), the posting of generated shipments does not work correctly as standard process of posting shipments is not taking the correct RouteId into account. Fix is implemented in the Investment management solution.|Updated feature|
+
+___
 ###10.0.20240612.01
 |Suite|Description|Type|
 |---|---|---|
