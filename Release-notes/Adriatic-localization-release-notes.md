@@ -1,12 +1,16 @@
 # Adriatic localization
 [[_TOC_]]
 ____
-## Release AdLocalization_#10.0.2024XXXX
+## Release AdLocalization_#10.0.20240717.01
 ### Localization Core
 |Area|Description|Type|
 |---|---|---|
-|VAT features| Additional validation to retrieve vendor/customer data was added in refreshing tax reporting data|New feature|
-|Tax| Additional validation was implemented that prevents user from creating circular referencing of ledger posting groups on prepayment setup| New feature|
+|Tax| Additional validation was implemented that prevents user from creating circular referencing of ledger posting groups on prepayment setup| Bug fix|
+|OPZ STAT-1 (HR)| When including Worker name data in the report, Worker's Name history is taken into account.| Bug fix|
+|VAT reporting (HR)| When including Worker name data in the reports PPO, PDV S and ZP, Worker's Name history is taken into account.| Bug fix|
+|Intrastat enhancements (SI.HR)| When including Worker name data in the report EU Sales list, Worker's Name history is taken into account.| Bug fix|
+|VAT reporting for SI| When generating PDO report, corrections for previous periods are generated as only as corrections and are not included in current period transactions.|Bug fix|
+|VAT reporting for MKD| Changes in amount formatting made in the VAT report, presenting amount values with thousands separator. Additionally, checkbox (x) in column H, line 31 was added when Total amount in line 31, column J is negative.| Updated feature|
 
 ## Release AdLocalization_#10.0.20240612.01
 ### Localization Core
