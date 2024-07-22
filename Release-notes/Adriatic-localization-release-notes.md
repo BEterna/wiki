@@ -5,7 +5,7 @@ ____
 ### Localization Core
 |Area|Description|Type|
 |---|---|---|
-|VAT reporting for SI|changed Evidenca IR report and Evidenca PR report to preprocessed reports.|Update feature|
+|VAT reporting for SI|Changed Evidenca IR report and Evidenca PR report to preprocessed reports.|Update feature|
 ## Release AdLocalization_#10.0.20240717.01
 ### Localization Core
 |Area|Description|Type|
