@@ -1,6 +1,11 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_#10.0.20240XXXX
+### Localization Core
+|Area|Description|Type|
+|---|---|---|
+|VAT reporting for SI|
 ## Release AdLocalization_#10.0.20240717.01
 ### Localization Core
 |Area|Description|Type|
