@@ -5,8 +5,8 @@ ____
 ### Localization Core
 |Area|Description|Type|
 |---|---|---|
-|VAT reporting for SI|Changed Evidenca IR report and Evidenca PR report to preprocessed reports.|Update feature|
-|VAT reporting for SI|Check per field added for vendor and customer data when refreshing tax reporting data with additional validation to retrieve the data
+|VAT reporting for SI|Changed Evidenca IR report and Evidenca PR report to preprocessed reports.|Updated feature|
+|VAT reporting for SI|Check per field added for vendor and customer data when refreshing tax reporting data with additional validation to retrieve the data from customer/vendor when the field on the journal is empty|Updated feature
 
 ## Release AdLocalization_#10.0.20240717.01
 ### Localization Core
