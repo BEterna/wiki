@@ -6,6 +6,7 @@ ____
 |Area|Description|Type|
 |---|---|---|
 |VAT reporting for SI|Changed Evidenca IR report and Evidenca PR report to preprocessed reports. Also, exporting of VAT payable and receivable CSV is fixed.|Updated feature|
+|VAT reporting for HR|New reporting code 3080 was created for field III.15 in PDV report|Updated feature|
 |VAT reporting|Check per field added for vendor and customer data when refreshing tax reporting data with additional validation to retrieve the data from customer/vendor when the field on the journal is empty|Updated feature|
 |Exchange rates (MK)|New web service was implemented for National bank of the Republic of Macedonia for importing exchange rates| Updated feature|
 
