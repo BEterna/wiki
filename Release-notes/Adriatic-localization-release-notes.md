@@ -5,6 +5,7 @@ ____
 ### Localization Core
 |Area|Description|Type|
 |---|---|---|
+|Retail and commerce| From date and To date mandatory fields were added to report header for KEP form|Updated feature|
 |Advance invoice|New data entity was created that enables updating lines on prepayments through open in excel functionality.|New functionality|
 |VAT reporting for SI|Changed Evidenca IR report and Evidenca PR report to preprocessed reports. Also, exporting of VAT payable and receivable CSV is fixed.|Updated feature|
 |VAT reporting for HR|New reporting code 3080 was created for field III.15 in PDV report|Updated feature|
