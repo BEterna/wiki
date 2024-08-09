@@ -1,6 +1,15 @@
 # Adriatic localization
 [[_TOC_]]
 ____
+## Release AdLocalization_#10.0.2024XXXX.XX
+### Localization Core
+|Area|Description|Type|
+|---|---|---|
+|Retail and commerce| From date and To date mandatory fields were added to report header for KEP form|Updated feature|
+|Advance invoice|New data entity was created that enables updating lines on prepayments through open in excel functionality.|New functionality|
+|VAT reporting for HR|New reporting code 3080 was created for field III.15 in PDV report|Updated feature|
+|VAT reporting|Check per field added for vendor and customer data when refreshing tax reporting data with additional validation to retrieve the data from customer/vendor when the field on the journal is empty|Updated feature|
+
 ## Release AdLocalization_#10.0.20240809.01
 ### Localization Core
 |Area|Description|Type|
