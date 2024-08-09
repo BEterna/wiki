@@ -1,5 +1,12 @@
 # BE-terna suite
 [[_TOC_]]
+___
+
+
+###10.0.20240719.01
+|Suite|Description|Type|
+|---|---|---|
+|Fixed asset management|Extension point enabled within MassAsset lending. The change si not introducing any new features or alter existing functionality.|/|
 
 ___
 ###10.0.20240717.01
