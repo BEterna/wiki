@@ -1,7 +1,10 @@
 # BE-terna suite
 [[_TOC_]]
 ___
-
+###10.0.2024XXXX
+|Suite|Description|Type|
+|---|---|---|
+|Advanced banking|Menu items for batch jobs for bank statement and bank debit credit notification import are hidden|Updated feature|
 
 ###10.0.20240719.01
 |Suite|Description|Type|
