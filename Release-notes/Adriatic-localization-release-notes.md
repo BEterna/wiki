@@ -9,7 +9,7 @@ ____
 |Tax| Validation for VAT number duplicates on empty data on customers and vendors was fixed.|Bug fix|
 
 ### Localization Bank - Exchange rates
-|Exchange rates (MK)|New web service was implemented for National bank of the Republic of Macedonia for importing exchange rates| Updated feature|
+|Exchange rates (MKD)|New web service was implemented for National bank of the Republic of Macedonia for importing exchange rates| Updated feature|
 
 ## Release AdLocalization_#10.0.20240717.01
 ### Localization Core
