@@ -5,6 +5,7 @@ ____
 ### Localization Core
 |Area|Description|Type|
 |---|---|---|
+|VAT reporting for MNE|KIF and KUF reports were added for Montenegro localization. Tax (PDV) report with excel format was also added. |New feature|
 |VAT reporting for MK| Reporting tax codes 1260, 1121 and 1131 were updated so that now are included also in Book of customer invoices report| Update feature|
 |Retail and commerce| From date and To date mandatory fields were added to report header for KEP form|Updated feature|
 |Advance invoice|New data entity was created that enables updating lines on prepayments through open in excel functionality.|New functionality|
