@@ -12,9 +12,9 @@ DMS provider enables workflow element to trigger a Business event, that sends da
 Each Business event needs to be configured for specific legal entity and needs to be connected to a proper endpoint.
 Document workflow interface – receival of the approval resolution 
 When workflow process is completed in the external document management system, approval result is sent back to D365FO through the custom service CompleteApproval. Approval result can be:
--	Approved,
--	Rejected,
--	Requested change.
+    -	Approved,
+    -	Rejected,
+    -	Requested change.
 
 ___
 
