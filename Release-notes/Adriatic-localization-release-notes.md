@@ -1,17 +1,20 @@
 # Adriatic localization
 [[_TOC_]]
+
 ____
-## Release AdLocalization_#10.0.2024XXXX.XX
+## Release AdLocalization_#10.0.2024XXXX.01
+**!!! Important: 10.0.39 application dependency !!!**
 ### Localization Core
 |Area|Description|Type|
 |---|---|---|
-|VAT reporting for MNE|KIF and KUF reports were added for Montenegro localization. Tax (PDV) report with excel format was also added. |New feature|
-|VAT reporting for MK| Reporting tax codes 1260, 1121 and 1131 were updated so that now are included also in Book of customer invoices report| Update feature|
-|Retail and commerce| From date and To date mandatory fields were added to report header for KEP form|Updated feature|
-|Advance invoice|New data entity was created that enables updating lines on prepayments through open in excel functionality.|New functionality|
-|VAT reporting for HR|New reporting code 3080 was created for field III.15 in PDV report|Updated feature|
-|VAT reporting|Check per field added for vendor and customer data when refreshing tax reporting data with additional validation to retrieve the data from customer/vendor when the field on the journal is empty|Updated feature|
+|VAT reporting for MK| Reporting tax codes 1260, 1121 and 1131 were updated so that now are included also in Book of customer invoices report.| Update feature|
+|VAT reporting for HR|New reporting code 3080 was created for field III.15 in PDV report.|Updated feature|
+|VAT reporting for HR|New reporting codes 30111, 30121, 30131 were created for Croation URA report.|Updated feature|
+|VAT reporting|A new field check has been added for vendor and customer data during tax reporting data refresh. This includes additional validation to retrieve data from the customer or vendor when the journal field is empty.|Updated feature|
+|eInvoice|A new feature is available for importing vendor eInvoices (Detail information). It extends the existing eInvoice configuration with new parameters. However, currently only eInvoice format for Croatia is supported (UBL).| New feature|
+|Row version change tracking|Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as row version change tracking.|Dependency update|
 
+____
 ## Release AdLocalization_#10.0.20240809.01
 ### Localization Core
 |Area|Description|Type|
@@ -24,6 +27,7 @@ ____
 |---|---|---|
 |Exchange rates (MKD)|New web service was implemented for National bank of the Republic of Macedonia for importing exchange rates| Updated feature|
 
+____
 ## Release AdLocalization_#10.0.20240717.01
 ### Localization Core
 |Area|Description|Type|
@@ -35,6 +39,7 @@ ____
 |VAT reporting for SI| When generating PDO report, corrections for previous periods are generated as only as corrections and are not included in current period transactions.|Bug fix|
 |VAT reporting for MKD| Changes in amount formatting made in the VAT report, presenting amount values with thousands separator. Additionally, checkbox (x) in column H, line 31 was added when Total amount in line 31, column J is negative.| Updated feature|
 
+____
 ## Release AdLocalization_#10.0.20240612.01
 ### Localization Core
 |Area|Description|Type|
