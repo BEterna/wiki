@@ -30,6 +30,11 @@ ____
 |---|---|---|
 |Row version change tracking |Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track)|Dependency update|
 
+### Localization Cash register
+|Area|Description|Type|
+|---|---|---|
+|Cash register|Removed obsolete country region restrictions for BA, HR, MK, RS and SI in accordance with Microsoft D365 Petty Cash functionality being available as a global feature for all countries and regions. To be able to continue using the Petty cash some mandatory configuration is required:<br>- In Feature management, enable the Petty cash feature.<br>- Go to Cash and bank management parameters > Cash, and select the Enable petty cash option.|Dependency update|
+
 
 ____
 ## Release AdLocalization_#10.0.20240809.01
