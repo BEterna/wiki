@@ -2,7 +2,7 @@
 [[_TOC_]]
 
 ____
-## Release AdLocalization_#*10.0.2024XXXX.01
+## Release AdLocalization_#*10.0.20240909.01
 **!!! Important: 10.0.39 application dependency !!!**
 ### Localization Core
 |Area|Description|Type|
