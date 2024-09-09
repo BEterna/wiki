@@ -6,7 +6,6 @@ eInovices can be imported and processed into the following document types:
 Supported providers: 
 - CRO: Financial Agency (FINA)
 
-
 ## **Prerequisites**
 ---
 Before starting the setup, ensure you have the following:
@@ -20,3 +19,38 @@ Before starting the setup, ensure you have the following:
 ### **Import format configuration**
 Under construction
 
+### **Configure B2B electronic document providers**
+This configuration is mandatory when an automatic process floe of vendor eInvoices is desired.
+
+- Navigate to **Accounts receivable > Setup > Croatia > E-Invoices > Configure B2B electronic document providers**.
+- Define a new provider: enter the name and select a desired provider from the drop down list (FINA).
+- Set up the key values:
+    - Click the _Reset values_ button to add the required key values.
+    - Enter the following values:
+      - _endpointURL_: url of connection with web service
+      - _keyVaultCertificateName_: name of the certificate
+      - _taxNumber_: company’s tax number
+
+### **Configure digital certificate**
+The digital certificate is essential for accessing the service provider's endpoint and eInvoice documents.
+- Access key vault parameters:
+  - Go to System administration > Setup > Key vault parameters.
+- Create a new parameter and set up the following key values (obtained from Azure):
+  - Key Vault URL
+  - Key Vault client
+  - Key Vault secret key
+- Set up secrets by accessing the Secrets tab and entering:
+  - Name 
+  - Secret 
+  - Secret type (certificate, manual, key).
+
+
+## **Vendor eInvoice registry**
+---
+Automatic import of eInvoices
+Manual import of eInvoices
+
+Processing vendor eInvoices
+
+## **Test cases**
+---
