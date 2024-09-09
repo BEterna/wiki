@@ -96,7 +96,7 @@ Not yet supported for Croatian localization.
 1. If **Reference to Agreement** needs to be used on eInvoice use field **Customer reference**. Customer reference field can be found on Sales order header or Free text invoice header. If project invoices are used, customer reference field should be entered on Project contract under Details on Funding sources.  
 1. Define **Business unit** on invoice in the case that an invoice should have a specific business unit different from the default busniness unit defined on Electronic invoice parameters or the default business unit defined on the customer card.
 
-## **eInvoice registry**
+## **Customer eInvoice registry**
 ---
 
 ### Electronic customer invoices
