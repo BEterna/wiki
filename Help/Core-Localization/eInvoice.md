@@ -6,6 +6,10 @@ This localized feature enables to manage the following processes:
 - Customer eInvoices: setting up, generate, process, review, sign (SI) and export customer eInvoices, in accordance with the supported local eInvoice formats (e.g. eSlog in case of Slovenia), which local (Slovenian or Croatian) budget users currently use. Using this localization feature, eInvoices can be created automatically when posting customer or project invoices and exported to the required XML formats. 
 - Vendor invoices: setting up, import and process vendor eInvoices in accordance with the supported local eInvoice formats. Using this localization feature, vendor eInvoices can be imported either automatically from a specific provider or manually by uploading the XML file in a local eInvoice format and then automatically processed to automatically generate pending vendor invoice documents in D365FO Accounts Payable module.
 
+Customer eInvoice process is currently available for Slovenia, Croatia and Serbia.
+Vendor eInvoice is currently available for Croatia.
+
+
 
  
 
