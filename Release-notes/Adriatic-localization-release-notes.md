@@ -11,7 +11,7 @@ ____
 |VAT reporting for HR|New reporting code 3080 was created for field III.15 in PDV report.|Updated feature|
 |VAT reporting for HR|New reporting codes 30111, 30121, 30131 were created for Croation URA report.|Updated feature|
 |VAT reporting|A new field check has been added for vendor and customer data during tax reporting data refresh. This includes additional validation to retrieve data from the customer or vendor when the journal field is empty.|Updated feature|
-|eInvoice|A new feature is available for importing vendor eInvoices (Detail information). It extends the existing eInvoice configuration with new parameters. However, currently only eInvoice format for Croatia is supported (UBL).| New feature|
+|eInvoice|A new feature is available for importing vendor eInvoices ([Detail information](/Help/Core-Localization/eInvoice/eInvoice-for-Croatia)). It extends the existing eInvoice configuration with new parameters. However, currently only eInvoice format for Croatia is supported (UBL).| New feature|
 |Row version change tracking|Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track).|Dependency update|
 
 ### Localization KEP (RS)
