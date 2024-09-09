@@ -47,10 +47,16 @@ The digital certificate is essential for accessing the service provider's endpoi
 
 ## **Vendor eInvoice registry**
 ---
-Automatic import of eInvoices
-Manual import of eInvoices
+### **Automatic import of eInvoices**
+Under construction
 
-Processing vendor eInvoices
+### **Manual import of eInvoices**
+Under construction
+
+### **Processing vendor eInvoices**
+Under construction
+
 
 ## **Test cases**
 ---
+Under construction
