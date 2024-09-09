@@ -1,3 +1,11 @@
+# Customer eInvoices for Croatia
+
+eInovices can be generated for folowing document types: 
+- Project invoice / Credit note
+- Sales invoice / Credit note
+
+Supported providers: 
+- CRO: FINA
 
 ## **Setup**
 ---
