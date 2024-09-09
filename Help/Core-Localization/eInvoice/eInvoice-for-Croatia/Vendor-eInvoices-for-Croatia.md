@@ -9,7 +9,7 @@ Supported providers:
 ## **Prerequisites**
 ---
 Before starting the setup, ensure you have the following:
-- Valid certificate: A valid digital certificate with a password is required. This certificate is crucial for securely signing and sending eInvoices.
+- Valid certificate: A valid digital certificate with a password is required. This certificate is crucial for accessing the service provider's endpoint and retrieve eInvoice data.
 - FINA account: Ensure you have an account on the FINA platform. This account should have the necessary roles assigned to allow you to send and receive eInvoices.
 
 
@@ -32,7 +32,7 @@ This configuration is mandatory when an automatic process floe of vendor eInvoic
       - _taxNumber_: company’s tax number
 
 ### **Configure digital certificate**
-The digital certificate is essential for accessing the service provider's endpoint and eInvoice documents.
+The digital certificate is essential for accessing the service provider's endpoint and retrieve eInvoice data.
 - Access key vault parameters:
   - Go to System administration > Setup > Key vault parameters.
 - Create a new parameter and set up the following key values (obtained from Azure):
