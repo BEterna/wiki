@@ -7,7 +7,7 @@ ___
 |Suite|Description|Type|
 |---|---|---|
 |ReInvoicing|Row version change tracking.|Dependency update|
-|Loans and deposits|Version number increased due to dependency update.|Dependency update.|
+|Loans and deposits|Version number increased due to dependency update.|Dependency update|
 
 ___
 ###*10.0.20240906.03
@@ -35,8 +35,8 @@ ___
 |Document classification|Row version change tracking.|Dependency update|
 |Travel and Expenses enchancements|Row version change tracking.|Dependency update|
 |DMS Connector|Row version change tracking - Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track).|Dependency update|
-|Procurement enhancements|Version number increased due to dependency update.|Dependency update.|
-|Vendor Invoice lines import|Version number increased due to dependency update.|Dependency update.|
+|Procurement enhancements|Version number increased due to dependency update.|Dependency update|
+|Vendor Invoice lines import|Version number increased due to dependency update.|Dependency update|
 
 ___
 ###10.0.20240719.01
