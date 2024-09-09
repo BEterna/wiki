@@ -54,6 +54,8 @@ The digital certificate is essential for accessing the service provider's endpoi
 
 ## **Vendor eInvoice registry**
 ---
+Vendor eInvoice data is stored in Electronic vendor documents. which can be found in **Accounts payable > Invoices > E-invoices > Electronic vendor documents**. These documents can be pulled from a service provider or can be created manually. In any case a unique 
+
 ### **Automatic import of eInvoices**
 Under construction
 
