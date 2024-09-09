@@ -48,12 +48,8 @@ The digital certificate is essential for accessing the service provider's endpoi
 1. Open **Accounts receivable > Setup > Croatia > E-Invoices > Electronic invoice parameters**.
 2. General eInvoice parameters are set up under tab “General” and are the same as for the [Customer eInvoice process](/Help/Core-Localization/eInvoice/eInvoice-for-Croatia/Customer-eInvoices-for-Croatia).
 3. In the “Profile” section create Profile ID, select the Electronic document provider and choose adequate Electronic reporting configurations: 
-   - for Purchase invoices: “Sales Credit Note HR”,
-   - Purchase credit notes: “Sales Credit Note HR”.
-
-
-### **Vendor setup**
-
+   - for Purchase invoices: “Purchase invoice (HR)”,
+   - for Purchase credit notes: “Purchase credit note (HR)”.
 
 
 ## **Vendor eInvoice registry**
