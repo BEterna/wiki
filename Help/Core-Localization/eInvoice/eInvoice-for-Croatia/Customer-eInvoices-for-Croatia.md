@@ -5,7 +5,7 @@ eInovices can be generated for following document types:
 - Sales invoice / Credit note
 
 Supported providers: 
-- CRO: FINA
+- CRO: Financial Agency (FINA)
 
 ## **Setup**
 ---
