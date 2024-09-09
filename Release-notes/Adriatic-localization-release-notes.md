@@ -1,5 +1,55 @@
 # Adriatic localization
 [[_TOC_]]
+
+____
+## Release AdLocalization_#*10.0.20240909.01
+**!!! Important: 10.0.39 application dependency !!!**
+### Localization Core
+|Area|Description|Type|
+|---|---|---|
+|VAT reporting for MK| Reporting tax codes 1260, 1121 and 1131 were updated so that now are included also in Book of customer invoices report.| Update feature|
+|VAT reporting for HR|New reporting code 3080 was created for field III.15 in PDV report.|Updated feature|
+|VAT reporting for HR|New reporting codes 30111, 30121, 30131 were created for Croation URA report.|Updated feature|
+|VAT reporting|A new field check has been added for vendor and customer data during tax reporting data refresh. This includes additional validation to retrieve data from the customer or vendor when the journal field is empty.|Updated feature|
+|eInvoice|A new feature is available for importing vendor eInvoices (Detail information). It extends the existing eInvoice configuration with new parameters. However, currently only eInvoice format for Croatia is supported (UBL).| New feature|
+|Row version change tracking|Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track).|Dependency update|
+
+### Localization KEP (RS)
+|Area|Description|Type|
+|---|---|---|
+|KEP (RS)|Mandatory "From date" and "To date" fields have been added to the report header for the KEP form.|Updated feature|
+|Row version change tracking|Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track).|Dependency update|
+
+### Localization Bank
+|Area|Description|Type|
+|---|---|---|
+|Row version change tracking|Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track).|Dependency update|
+
+### Localization Fiscalization
+|Area|Description|Type|
+|---|---|---|
+|Row version change tracking |Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track)|Dependency update|
+
+### Localization Cash register
+|Area|Description|Type|
+|---|---|---|
+|Cash register|Removed obsolete country region restrictions for BA, HR, MK, RS and SI in accordance with Microsoft D365 Petty Cash functionality being available as a global feature for all countries and regions. To be able to continue using the Petty cash some mandatory configuration is required:<br><ul>- In Feature management, enable the Petty cash feature.<br>- Go to Cash and bank management parameters > Cash, and select the Enable petty cash option.</ul>Petty cash remains part of BE-terna extended localization as it enables some specific Petty cash functionalities that otherwise remain restricted to Eastern Europe countries. |Dependency update|
+
+### Localization Exchange rates
+|Area|Description|Type|
+|---|---|---|
+|Exchange rates|Version number increased due to dependency update.| Dependency update|
+
+### Localization General ledger features
+|Area|Description|Type|
+|---|---|---|
+|General ledger features|Version number increased due to dependency update.| Dependency update|
+
+### Localization Tax package features
+|Area|Description|Type|
+|---|---|---|
+|Tax package features|Version number increased due to dependency update.| Dependency update|
+
 ____
 ## Release AdLocalization_#10.0.20240809.01
 ### Localization Core
@@ -13,6 +63,7 @@ ____
 |---|---|---|
 |Exchange rates (MKD)|New web service was implemented for National bank of the Republic of Macedonia for importing exchange rates| Updated feature|
 
+____
 ## Release AdLocalization_#10.0.20240717.01
 ### Localization Core
 |Area|Description|Type|
@@ -24,6 +75,7 @@ ____
 |VAT reporting for SI| When generating PDO report, corrections for previous periods are generated as only as corrections and are not included in current period transactions.|Bug fix|
 |VAT reporting for MKD| Changes in amount formatting made in the VAT report, presenting amount values with thousands separator. Additionally, checkbox (x) in column H, line 31 was added when Total amount in line 31, column J is negative.| Updated feature|
 
+____
 ## Release AdLocalization_#10.0.20240612.01
 ### Localization Core
 |Area|Description|Type|

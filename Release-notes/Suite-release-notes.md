@@ -1,8 +1,44 @@
 # BE-terna suite
 [[_TOC_]]
+
 ___
+###*10.0.20240909.01
+**!!! Important: 10.0.39 application dependency !!!**
+|Suite|Description|Type|
+|---|---|---|
+|ReInvoicing|Row version change tracking.|Dependency update|
+|Loans and deposits|Version number increased due to dependency update.|Dependency update|
 
+___
+###*10.0.20240906.03
+**!!! Important: 10.0.39 application dependency !!!**
+|Suite|Description|Type|
+|---|---|---|
+|Compensations|Row version change tracking.|Dependency update|
+___
+###*10.0.20240906.01
+**!!! Important: 10.0.39 application dependency !!!**
+|Suite|Description|Type|
+|---|---|---|
+|Advanced banking|When future transactions are included in the bank statement, the announced date shown as the value date in the bank statement file is transferred to the accounting date on the bank statement line. Additionally, if an accounting date is provided, it takes precedence when processing bank statement lines in the Bank statement processing journals.|New feature|
+|Fixed asset management|Fixed issue with posting disposal documents that were approved through workflow.|Bug fix|
+|Advanced banking|Row version change tracking - Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track).|Dependency update|
+|Asset insurance|Row version change tracking.|Dependency update|
+|Deferrals in Accounts payable|Row version change tracking.|Dependency update|
+|Dunning process|Row version change tracking.|Dependency update|
+|Fixed Asset Management|Row version change tracking.|Dependency update|
+|GDPR|Row version change tracking.|Dependency update|
+|Investment Management|Row version change tracking.|Dependency update|
+|Advanced Product Management|Row version change tracking.|Dependency update|
+|Public Holidays|Row version change tracking.|Dependency update|
+|Public Procurement|Row version change tracking.|Dependency update|
+|Document classification|Row version change tracking.|Dependency update|
+|Travel and Expenses enchancements|Row version change tracking.|Dependency update|
+|DMS Connector|Row version change tracking - Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track).|Dependency update|
+|Procurement enhancements|Version number increased due to dependency update.|Dependency update|
+|Vendor Invoice lines import|Version number increased due to dependency update.|Dependency update|
 
+___
 ###10.0.20240719.01
 |Suite|Description|Type|
 |---|---|---|
