@@ -44,6 +44,9 @@ The digital certificate is essential for accessing the service provider's endpoi
   - Secret 
   - Secret type (certificate, manual, key).
 
+### **Vendor setup**
+
+
 
 ## **Vendor eInvoice registry**
 ---
