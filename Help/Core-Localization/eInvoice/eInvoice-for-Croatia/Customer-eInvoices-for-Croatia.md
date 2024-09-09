@@ -1,6 +1,6 @@
 # Customer eInvoices for Croatia
 
-eInovices can be generated for folowing document types: 
+eInovices can be generated for following document types: 
 - Project invoice / Credit note
 - Sales invoice / Credit note
 
