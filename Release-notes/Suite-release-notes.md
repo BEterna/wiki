@@ -2,7 +2,7 @@
 [[_TOC_]]
 
 ___
-###*10.0.2024XXXX.01
+###*10.0.20240909.01
 **!!! Important: 10.0.39 application dependency !!!**
 |Suite|Description|Type|
 |---|---|---|
