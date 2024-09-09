@@ -35,6 +35,20 @@ ____
 |---|---|---|
 |Cash register|Removed obsolete country region restrictions for BA, HR, MK, RS and SI in accordance with Microsoft D365 Petty Cash functionality being available as a global feature for all countries and regions. To be able to continue using the Petty cash some mandatory configuration is required:<br><ul>- In Feature management, enable the Petty cash feature.<br>- Go to Cash and bank management parameters > Cash, and select the Enable petty cash option.</ul>Petty cash remains part of BE-terna extended localization as it enables some specific Petty cash functionalities that otherwise remain restricted to Eastern Europe countries. |Dependency update|
 
+### Localization Exchange rates
+|Area|Description|Type|
+|---|---|---|
+|Exchange rates|Version number increased due to dependency update.| Dependency update|
+
+### Localization General ledger features
+|Area|Description|Type|
+|---|---|---|
+|General ledger features|Version number increased due to dependency update.| Dependency update|
+
+### Localization Tax package features
+|Area|Description|Type|
+|---|---|---|
+|Tax package features|Version number increased due to dependency update.| Dependency update|
 
 ____
 ## Release AdLocalization_#10.0.20240809.01
