@@ -9,7 +9,7 @@ This topic provides country/region-specific information about how to set up, cre
 
 Supported providers: 
 - SI: UJP, Halcom, ZZI
-- CRO:  
+
 
 ## **Setup**
 ---
