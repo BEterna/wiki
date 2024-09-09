@@ -1,6 +1,8 @@
 # eInvoices for Croatia 
 
-The purpose of this feature is to enable the Invoice export in the prescribed electronic form (UBL 2.1 standard). The export file can be generated for multiple invoices. Web service communication is not part of this feature. 
+The purpose of this feature is to enable the export of customers and import of vendor invoices in the prescribed electronic form (UBL 2.1 standard). 
+- Customer invoices: The export file can be generated for multiple invoices. Web service communication is currently not part of this feature. (Detailed documentation) 
+- Vendor invoices: the import generates only pending vendor documents. (Detailed documentation) 
 
 ## **Setup**
 ---
@@ -18,6 +20,9 @@ Click “Browse” and choose the configuration files (be sure to upload the “
    - Project invoice HR,
    - Sales Credit Note HR,
    - Sales invoice HR.
+
+### **Import format configuration**
+TODO
   
 ### **Business processes setup**
 1. To define possible business processes open **Accounts receivable > Setup > Croatia > E-Invoices > Business processes**.
