@@ -91,11 +91,12 @@ The reference to which purchase order is invoice connected is added in XML file 
 
 If the user, while processing makes a mistake and wants to process the file again, the processed document should be deleted and then imported and processed again.
 
-###Setup on released products
+###Setup for External item number
 1. Go to **Product information management > Products > Released products**
 2. Choose an item that you want to set up
 3. Under **Purchase tab > Related information** click on External item description
-4. Here you should add **vendor relation** and **external item number**- that is the supplier's identification number for the items included in the order
+4. Here you should add **vendor relation** and **external item number**- that is the supplier's identification number for the items included in the order. Based on this setup the system will match  vendors with items.
+5. The connection between an item and vendor can be also made from vendor's side by going to **Accounts payable > Vendors > All vendors**. Choose a relevant vendor and go to **Procurement tab > Set up > External item description**. Here you can connect all relevant items to the chosen vendor.
 
 ## **Test cases**
 ---
