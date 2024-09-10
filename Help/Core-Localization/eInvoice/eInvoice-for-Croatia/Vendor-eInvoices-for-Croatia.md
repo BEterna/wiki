@@ -85,7 +85,7 @@ Vendor eInvoice data is stored in Electronic vendor documents, which can be foun
 5. By clicking on Export button you can export the invoice in XML version
 
 ### **Processing vendor eInvoices**
-The process that contains purchase orders with services is already described under **Automatic creation of eInvoices.** The main difference between purchase order with services and purchase orders with inventory tracked items is that purchase orders with items must be linked to a purchase order that has a posted receipt.
+The steps for invoices that contain purchase orders with services are already described under **Automatic creation of eInvoices.** The main difference between purchase order with services and purchase orders with inventory tracked items is that purchase orders with items must be linked to a purchase order that has a posted product receipt.
 
 The reference to which purchase order is invoice connected is added in XML file under OrderReference field. The ID of the purchase order needs to be adjusted to the actual ID within the system in order  to have a successful match. If there is no link to purchase order for stocked item at the time of processing, the system will throw an error.
 
@@ -96,7 +96,7 @@ If the user, while processing makes a mistake and wants to process the file agai
 2. Choose an item that you want to set up
 3. Under **Purchase tab > Related information** click on External item description
 4. Here you should add **vendor relation** and **external item number**- that is the supplier's identification number for the items included in the order. Based on this setup the system will match  vendors with items.
-5. The connection between an item and vendor can be also made from vendor's side by going to **Accounts payable > Vendors > All vendors**. Choose a relevant vendor and go to **Procurement tab > Set up > External item description**. Here you can connect all relevant items to the chosen vendor.
+5. The connection between an item and vendor can also be made from vendor's side by going to **Accounts payable > Vendors > All vendors**. Choose a relevant vendor and go to **Procurement tab > Set up > External item description**. Here you can connect all relevant items to the chosen vendor.
 
 ## **Test cases**
 ---
