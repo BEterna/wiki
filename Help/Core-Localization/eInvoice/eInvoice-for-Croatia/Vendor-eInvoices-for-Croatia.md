@@ -85,8 +85,17 @@ Vendor eInvoice data is stored in Electronic vendor documents, which can be foun
 5. By clicking on Export button you can export the invoice in XML version
 
 ### **Processing vendor eInvoices**
-Under construction
+The process that contains purchase orders with services is already described under **Automatic creation of eInvoices.** The main difference between purchase order with services and purchase orders with inventory tracked items is that purchase orders with items must be linked to a purchase order that has a posted receipt.
 
+The reference to which purchase order is invoice connected is added in XML file under OrderReference field. The ID of the purchase order needs to be adjusted to the actual ID within the system in order  to have a successful match. If there is no link to purchase order for stocked item at the time of processing, the system will throw an error.
+
+If the user, while processing makes a mistake and wants to process the file again, the processed document should be deleted and then imported and processed again.
+
+###Setup on released products
+1. Go to **Product information management > Products > Released products**
+2. Choose an item that you want to set up
+3. Under **Purchase tab > Related information** click on External item description
+4. Here you should add **vendor relation** and **external item number**- that is the supplier's identification number for the items included in the order
 
 ## **Test cases**
 ---
