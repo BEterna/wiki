@@ -69,10 +69,18 @@ Vendor eInvoice data is stored in Electronic vendor documents, which can be foun
 1. Navigate to **Accounts payable > Invoices > E-invoices > Electronic vendor documents**.
 2. Click on **Get incoming documents**
 3. Here, also batch processing of documents can be set. This means that you can set up processing at any given time of the day with recurrence. 
-4. By clicking OK the system will import all vendor documents from selected provider.
+4. By clicking **OK** the system will import all vendor documents from selected provider.
 
 ### **Manual creation of eInvoices**
-Under construction
+1. Open **Accounts payable > Invoices > E-invoices > Electronic vendor documents**
+2. Create **New** record and navigate to **Details** tab to open a form where you can enter the XML file manually.
+3. Fill in the following details:
+   - External ID
+   - Electronic document profile
+   - Provider
+   - Invoice date
+   - Incoming XML content
+4. By clicking **Process** you will import the XML file based on which the system will create a pending vendor invoice and populate it with all the relevant data from XML file.
 
 ### **Processing vendor eInvoices**
 Under construction
