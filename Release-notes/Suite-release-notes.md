@@ -22,7 +22,7 @@ ___
 |---|---|---|
 |Advanced banking|When future transactions are included in the bank statement, the announced date shown as the value date in the bank statement file is transferred to the accounting date on the bank statement line. Additionally, if an accounting date is provided, it takes precedence when processing bank statement lines in the Bank statement processing journals.|New feature|
 |Fixed asset management|Fixed issue with posting disposal documents that were approved through workflow.|Bug fix|
-|Advanced banking|Row version change tracking - Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track).|Dependency update|
+|Advanced banking|Row version change tracking - Added row version change tracking for localization tables. The change is not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track).|Dependency update|
 |Asset insurance|Row version change tracking.|Dependency update|
 |Deferrals in Accounts payable|Row version change tracking.|Dependency update|
 |Dunning process|Row version change tracking.|Dependency update|
@@ -34,7 +34,7 @@ ___
 |Public Procurement|Row version change tracking.|Dependency update|
 |Document classification|Row version change tracking.|Dependency update|
 |Travel and Expenses enchancements|Row version change tracking.|Dependency update|
-|DMS Connector|Row version change tracking - Added row version change tracking for localization tables. The change si not introducing any new localization features or alter existing functionality, but complies with Microsoft change track functionality option known as [row version change tracking](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/rowversion-change-track).|Dependency update|
+|DMS Connector|Row version change tracking.|Dependency update|
 |Procurement enhancements|Version number increased due to dependency update.|Dependency update|
 |Vendor Invoice lines import|Version number increased due to dependency update.|Dependency update|
 
@@ -42,7 +42,7 @@ ___
 ###10.0.20240719.01
 |Suite|Description|Type|
 |---|---|---|
-|Fixed asset management|Extension point enabled within MassAsset lending. The change si not introducing any new features or alter existing functionality.|/|
+|Fixed asset management|Extension point enabled within MassAsset lending. The change is not introducing any new features or alter existing functionality.|/|
 
 ___
 ###10.0.20240717.01
