@@ -17,7 +17,14 @@ Before starting the setup, ensure you have the following:
 ---
 
 ### **Import format configuration**
-Under construction
+Configuration for import of invoices is available. In the case of standard changes, the configuration needs to be adjusted.
+1.	Open **Workspaces > Electronic reporting > Reporting configurations**.
+2.	Choose Exchange -> Load XML file on any configuration. Based on file content it will automatically upload to correct configuration.
+3.	Before upload, check the latest version of these files with the developer. Click “Browse” and choose the configuration files (be sure to upload the “Vendor invoice model AD“ first because the following ones are dependent on it). After the file has loaded, click OK to upload it to configuration.
+4.	First, search for configuration “Vendor invoice model” and expand it to find “Vendor invoice model AD “. Import the latest configuration. When done, “Vendor invoice model mapping AD” imports automatically. All the remaining configurations need to be imported in the following order:
+    -  Purchase credit note (HR)
+    - Purchase invoice (HR)
+
 
 ### **Configure B2B electronic document providers**
 This configuration is mandatory when an automatic process floe of vendor eInvoices is desired.
@@ -58,7 +65,11 @@ Vendor eInvoice data is stored in Electronic vendor documents, which can be foun
 
 
 ### **Automatic creation of eInvoices**
-Under construction
+
+1. Navigate to **Accounts payable > Invoices > E-invoices > Electronic vendor documents**.
+2. Click on **Get incoming documents**
+3. Here, also batch processing of documents can be set. This means that you can set up processing at any given time of the day with recurrence. 
+4. By clicking OK the system will import all vendor documents from selected provider.
 
 ### **Manual creation of eInvoices**
 Under construction
