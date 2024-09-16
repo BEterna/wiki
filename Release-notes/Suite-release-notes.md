@@ -2,6 +2,12 @@
 [[_TOC_]]
 
 ___
+###10.0.20240913.01
+|Suite|Description|Type|
+|---|---|---|
+|Fixed asset management|Fixed issue with posting disposal documents that were approved through workflow.|Bug fix|
+
+___
 ###*10.0.20240909.01
 **!!! Important: 10.0.39 application dependency !!!**
 |Suite|Description|Type|
