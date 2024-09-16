@@ -5,7 +5,7 @@ ___
 ###10.0.20240913.01
 |Suite|Description|Type|
 |---|---|---|
-|Fixed asset management|Fixed issue with posting disposal documents that were approved through workflow.|Bug fix|
+|Fixed asset management|Additional fix for posting disposal documents that were approved through workflow. |Bug fix|
 
 ___
 ###*10.0.20240909.01
